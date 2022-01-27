@@ -1,9 +1,10 @@
-# ner-th-crime-news
-NER project with Thai crime news dataset 
-
 # Crime Named Entity Recognition
 
-This project aims to label entities in Thai crime-related texts
+This project aims to label entities in Thai crime-related texts using data scraped from Thai news website e.g. www.thairath.co.th
+
+## Problem statement
+- To extract insight entity from text and help officer know what the components are in the ridiculously long texts
+- To use an NER model for Relation extraction task for further development
 
 ## Label
 1. PERSON : A name of person (including prefix) e.g. นายสมชาย พ.ต.อ.สมชาย แซ่ตั้ง น้องสมชาย
