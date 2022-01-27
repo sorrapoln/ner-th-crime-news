@@ -1,0 +1,46 @@
+T1	LOCATION 0 10	นครราชสีมา
+T2	DATE 49 63	19 มกราคม 2565
+T3	PERSON 65 88	พ.ต.อ.ประสิทธิ์ เปรมกมล
+T4	ORGANIZATION 93 114	สภ.ภ.เมืองนครรราชสีมา
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	ORGANIZATION 137 155	สภ.เมืองนครราชสีมา
+T6	WEAPON 184 187	ปืน
+T7	LOCATION 212 228	บ้านเลขที่ 128/8
+T8	LOCATION 229 238	ห้องที่ 9
+T9	LOCATION 239 251	ซอยมิตรแท้ 3
+T10	LOCATION 252 258	หมู่ 3
+T11	LOCATION 259 274	ตำบลหนองบัวศาลา
+T12	LOCATION 275 285	อำเภอเมือง
+T13	LOCATION 286 303	จังหวัดนครราชสีมา
+T14	PERSON 367 398	นางสาว ปรางค์อิสรา ธีรวิกรมมนูญ
+T15	TIME 404 409	33 ปี
+T16	PERSON 490 514	นางสาว ฉัตรสุดา มีประโคน
+T17	TIME 520 525	28 ปี
+T18	PERSON 544 561	นางสาวปรางค์อิสรา
+T19	PERSON 637 658	นายศิวกร เฉลิมแสนยากร
+T20	TIME 664 669	29 ปี
+R2	crime_relation Arg1:T19 Arg2:T14	
+R3	crime_relation Arg1:T19 Arg2:T16	
+R4	crime_located_at Arg1:T19 Arg2:T7	
+R5	crime_located_at Arg1:T19 Arg2:T8	
+R6	crime_located_at Arg1:T19 Arg2:T9	
+R7	crime_located_at Arg1:T19 Arg2:T10	
+R8	crime_located_at Arg1:T19 Arg2:T11	
+R9	crime_located_at Arg1:T19 Arg2:T12	
+R10	crime_located_at Arg1:T19 Arg2:T13	
+T21	PERSON 690 699	นายศิวกรฯ
+T22	PERSON 728 745	นางสาวปรางค์อิสรา
+T23	PERSON 767 775	นายศิวกร
+T24	PERSON 820 834	นางสาวฉัตรสุดา
+T25	PERSON 845 862	นางสาวปรางค์อิสรา
+T26	PERSON 886 894	นายศิวกร
+T27	PERSON 910 927	นางสาวปรางค์อิสรา
+T28	PERSON 946 954	นายศิวกร
+T29	WEAPON 964 967	ปืน
+R11	own_weapon Arg1:T28 Arg2:T29	
+R12	own_weapon Arg1:T19 Arg2:T6	
+R13	crime_relation Arg1:T21 Arg2:T22	
+R14	crime_relation Arg1:T23 Arg2:T24	
+R15	crime_relation Arg1:T23 Arg2:T25	
+R16	crime_relation Arg1:T26 Arg2:T27	
+R17	crime_date_at Arg1:T19 Arg2:T2	

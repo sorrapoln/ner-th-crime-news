@@ -1,0 +1,35 @@
+T1	DATE 12 18	1 ก.ค.
+T2	ORGANIZATION 22 41	ห้างทองบางกอกโกลด์ส
+T3	ORGANIZATION 47 62	ห้างเทสโก้โลตัส
+T4	LOCATION 63 74	สาขาลำลูกกา
+T5	LOCATION 75 82	คลองสอง
+T6	LOCATION 83 93	จ.ปทุมธานี
+T7	PERSON 94 114	พล.ต.ท.อำพล บัวรับพร
+T8	PERSON 133 155	พล.ต.ต.สุภธีร์ บุญครอง
+T9	PERSON 168 189	พล.ต.ต.ชยุต มารยาทตร์
+T10	ORGANIZATION 194 207	ภ.จว.ปทุมธานี
+T11	PERSON 208 234	พ.ต.อ.วิษณุรักษ์ พรหมเมศร์
+T12	ORGANIZATION 239 246	สภ.คูคต
+T13	PERSON 263 287	นายสมชาย หรือ เอ้ พวงบุญ
+T14	TIME 293 298	33 ปี
+T15	LOCATION 467 478	จ.สิงห์บุรี
+T16	OBJECT 491 521	สร้อยคอทองคำหนัก 10 บาท 4 เส้น
+T17	ORGANIZATION 647 666	ร้านทองบางกอกโกลด์ส
+T18	ORGANIZATION 672 687	ห้างเทสโก้โลตัส
+T19	LOCATION 688 699	สาขาลำลูกกา
+T20	LOCATION 700 707	คลองสอง
+T21	LOCATION 708 718	จ.ปทุมธานี
+T22	DATE 738 745	29 มิ.ย
+T23	LOCATION 798 808	จ.ปทุมธานี
+T24	LOCATION 820 831	จ.สิงห์บุรี
+T25	WEAPON 422 425	มีด
+R1	own_weapon Arg1:T13 Arg2:T25	
+R2	crime_located_at Arg1:T13 Arg2:T19	
+R3	crime_located_at Arg1:T13 Arg2:T20	
+R4	crime_located_at Arg1:T13 Arg2:T21	
+R5	crime_date_at Arg1:T13 Arg2:T22	
+R6	employee_or_member_of Arg1:T8 Arg2:T10	
+R7	employee_or_member_of Arg1:T9 Arg2:T10	
+R8	employee_or_member_of Arg1:T11 Arg2:T12	
+R9	employee_or_member_of Arg1:T7 Arg2:T10	
+R10	found_object_at Arg1:T16 Arg2:T17	

@@ -1,0 +1,22 @@
+T1	TIME 20 28	03.30 น.
+T2	ORGANIZATION 44 53	สน.ดินแดง
+T3	ORGANIZATION 63 89	อาสาสมัครมูลนิธิร่วมกตัญญู
+T4	LOCATION 109 120	บึงมักกะสัน
+T5	LOCATION 121 130	เขตดินแดง
+T6	LOCATION 131 139	กรุงเทพฯ
+T7	VEHICLE 214 233	จักรยานยนต์บิ๊กไบค์
+T8	COLOR 236 241	เขียว
+R1	color_of Arg1:T7 Arg2:T8	
+T9	LP 264 287	1 ขล 9547 กรุงเทพมหานคร
+R2	vehicle_lp Arg1:T7 Arg2:T9	
+T10	LOCATION 305 316	บึงมักกะสัน
+T11	PERSON 552 569	นายธรรศธรณ์ ชูนวล
+T12	TIME 575 580	24 ปี
+T13	PERSON 590 614	นายฐาปนพงศ์ ปิยะจักรพงศ์
+T14	TIME 620 625	23 ปี
+R3	located_at Arg1:T11 Arg2:T4	
+R4	located_at Arg1:T11 Arg2:T5	
+R5	located_at Arg1:T11 Arg2:T6	
+R6	located_at Arg1:T13 Arg2:T4	
+R7	located_at Arg1:T13 Arg2:T5	
+R8	located_at Arg1:T13 Arg2:T6	

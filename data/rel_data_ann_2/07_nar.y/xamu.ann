@@ -1,0 +1,11 @@
+T1	PERSON 8 20	ดร.รัฐศาสตร์
+T2	TIME 26 31	45 ปี
+T3	LOCATION 64 72	อ.สมเด็จ
+T4	LOCATION 73 84	จ.กาฬสินธุ์
+T5	PERSON 85 96	ถูกนางมยุรา
+T6	TIME 102 107	44 ปี
+T7	WEAPON 202 205	ปืน
+T8	PERSON 251 263	ดร.รัฐศาสตร์
+T9	PERSON 349 357	นางมยุรา
+R1	crime_relation Arg1:T5 Arg2:T1	
+R2	own_weapon Arg1:T5 Arg2:T7	

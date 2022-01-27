@@ -1,0 +1,20 @@
+T1	DATE 12 22	1 ก.ย.2564
+T2	ORGANIZATION 50 61	สภ.คลองหลวง
+T3	LOCATION 61 71	จ.ปทุมธานี
+T4	PERSON 81 102	นาย ราวิ-ปรากาซ ซิงห์
+T5	LOCATION 110 117	อินเดีย
+R1	located_at Arg1:T4 Arg2:T5	
+T6	PERSON 135 149	นายมาเฮซ ซิงห์
+T7	LOCATION 157 164	อินเดีย
+R2	located_at Arg1:T6 Arg2:T7	
+R3	crime_relation Arg1:T4 Arg2:T6	
+T8	LOCATION 240 260	ซอยรังสิต-นครนายก 17
+T9	LOCATION 261 275	ต.ประชาธิปัตย์
+T10	LOCATION 276 285	อ.ธัญบุรี
+T11	LOCATION 286 296	จ.ปทุมธานี
+T12	DATE 309 316	29 ส.ค.
+T13	PERSON 326 346	พล.ต.ท.อำพล บัวรับพร
+T14	DATE 475 482	29 ส.ค.
+T15	TIME 494 502	10.30 น.
+R4	crime_date_at Arg1:T4 Arg2:T14	
+R5	crime_time_at Arg1:T4 Arg2:T15	

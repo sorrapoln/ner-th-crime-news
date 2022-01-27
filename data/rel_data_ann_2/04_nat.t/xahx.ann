@@ -1,0 +1,35 @@
+T1	TIME 10 18	20.30 น.
+T2	DATE 26 35	7 มิ.ย.64
+T3	ORGANIZATION 42 53	สภ.โซ่พิสัย
+T4	LOCATION 54 62	จ.บึงกาฬ
+T5	ORGANIZATION 127 146	ร้านน้องเจนโซ่พิสัย
+T6	LOCATION 147 150	ม.1
+T7	LOCATION 151 156	ต.โซ่
+T8	LOCATION 157 167	อ.โซ่พิสัย
+T9	PERSON 222 247	พ.ต.อ.อภิศักดิ์ กรองทิพย์
+T10	ORGANIZATION 252 263	สภ.โซ่พิสัย
+R1	employee_or_member_of Arg1:T9 Arg2:T10	
+T11	PERSON 297 319	ส.ต.อ.โยธกานต์ โยธาชัย
+T12	TIME 325 330	27 ปี
+T13	ORGANIZATION 352 363	สภ.โซ่พิสัย
+T14	LOCATION 364 374	อ.โช่พิสัย
+T15	LOCATION 375 383	จ.บึงกาฬ
+T16	VEHICLE 398 418	รถกระบะ ยี่ห้ออีซูชุ
+T17	COLOR 419 424	สีขาว
+R2	color_of Arg1:T16 Arg2:T17	
+T18	LP 440 454	บง 7555 บึงกาฬ
+R3	vehicle_lp Arg1:T16 Arg2:T18	
+T19	PERSON 482 496	ส.ต.อ.โยธกานต์
+T20	VEHICLE 503 505	รถ
+T21	LOCATION 552 565	อำเภอโซ่พิสัย
+T22	VEHICLE 598 605	รถกระบะ
+T23	PERSON 650 664	ส.ต.อ.โยธกานต์
+T24	WEAPON 720 723	ปืน
+T25	VEHICLE 742 749	รถกระบะ
+T26	PERSON 753 767	ส.ต.อ.โยธกานต์
+T27	VEHICLE 805 812	รถกระบะ
+T28	PERSON 816 830	ส.ต.อ.โยธกานต์
+T29	VEHICLE 902 904	รถ
+R4	employee_or_member_of Arg1:T11 Arg2:T13	
+R5	located_at Arg1:T11 Arg2:T14	
+R6	located_at Arg1:T11 Arg2:T15	

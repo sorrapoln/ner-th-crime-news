@@ -1,0 +1,21 @@
+T1	DATE 0 9	23 ม.ค.65
+T2	ORGANIZATION 42 56	ศูนย์วิทยุ 191
+T3	LOCATION 57 64	อ่างทอง
+T4	ORGANIZATION 128 146	โรงพยาบาลอ่างทอง 3
+T5	LOCATION 152 173	ชุมชนเมืองใหม่ชัยมงคล
+T6	LOCATION 174 182	ต.บ้านแห
+T7	LOCATION 183 190	อ.เมือง
+T8	LOCATION 191 200	จ.อ่างทอง
+T9	ORGANIZATION 248 263	สภ.เมืองอ่างทอง
+T10	OBJECT 356 369	ปลอกกระสุนปืน
+T11	OBJECT 394 400	เศษขวด
+T12	TIME 504 509	15 ปี
+T13	ORGANIZATION 552 568	โรงพยาบาลอ่างทอง
+R1	found_object_at Arg1:T10 Arg2:T5	
+R2	found_object_at Arg1:T10 Arg2:T6	
+R3	found_object_at Arg1:T10 Arg2:T7	
+R4	found_object_at Arg1:T10 Arg2:T8	
+R5	found_object_at Arg1:T11 Arg2:T5	
+R6	found_object_at Arg1:T11 Arg2:T6	
+R7	found_object_at Arg1:T11 Arg2:T7	
+R8	found_object_at Arg1:T11 Arg2:T8	

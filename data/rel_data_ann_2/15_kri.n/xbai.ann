@@ -1,0 +1,29 @@
+T1	PERSON 23 31	LEI TIAN
+T2	TIME 37 42	28 ปี
+T3	LOCATION 69 82	แอ่งน้ำชั้น 1
+T4	LOCATION 83 97	น้ำตกโตนงาช้าง
+T5	LOCATION 98 107	อ.หาดใหญ่
+T6	LOCATION 108 115	จ.สงขลา
+T7	DATE 141 152	24 ก.ย.2561
+T8	PERSON 154 176	พล.ต.ต.สุรเชษฐ์ หักพาล
+T9	OBJECT 349 373	กระเป๋าเครื่องใช้ส่วนตัว
+T10	OBJECT 399 413	โทรศัพท์มือถือ
+T11	OBJECT 456 477	พาสปอร์ตที่ถูกฉีกทิ้ง
+T12	VEHICLE 621 652	รถยนต์เก๋งทะเบียนประเทศมาเลเซีย
+T13	DATE 769 776	19 ก.ย.
+T14	PERSON 838 861	น.ส. LEI TIAN เสียชีวิต
+T15	DATE 867 880	วันที่ 20 ก.ย
+T16	LOCATION 913 926	จังหวัดกระบี่
+T17	PERSON 1355 1378	พ.ต.ท. เขมรินทร์ พิสมัย
+R1	found_object_at Arg1:T10 Arg2:T3	
+R2	found_object_at Arg1:T10 Arg2:T4	
+R3	found_object_at Arg1:T10 Arg2:T5	
+R4	found_object_at Arg1:T10 Arg2:T6	
+R5	found_object_at Arg1:T9 Arg2:T6	
+R6	found_object_at Arg1:T9 Arg2:T5	
+R7	found_object_at Arg1:T9 Arg2:T4	
+R8	found_object_at Arg1:T9 Arg2:T3	
+R9	found_object_at Arg1:T11 Arg2:T3	
+R10	found_object_at Arg1:T11 Arg2:T4	
+R11	found_object_at Arg1:T11 Arg2:T5	
+R12	found_object_at Arg1:T11 Arg2:T6	

@@ -1,0 +1,43 @@
+T1	TIME 10 18	20.30 น.
+T2	DATE 26 35	14 พ.ย.64
+T3	ORGANIZATION 46 53	สภ.นาดี
+T4	LOCATION 101 126	หมู่บ้านทุ่งโพธิ์เมืองทอง
+T5	LOCATION 127 138	ต.ทุ่งโพธิ์
+T6	LOCATION 139 145	อ.นาดี
+T7	LOCATION 146 158	จ.ปราจีนบุรี
+T8	PERSON 159 185	ดาบตำรวจเทพประจักร สันศิริ
+T9	PERSON 187 195	ดาบเบิ้ม
+T10	ORGANIZATION 222 229	สภ.นาดี
+T11	VEHICLE 263 276	รถจักรยานยนต์
+T12	LP 292 312	1 กณ 7307 ปราจีนบุรี
+T13	PERSON 359 382	นายกิตตินันต์ เฟื่องขจร
+T14	TIME 388 393	36 ปี
+T15	LOCATION 398 414	บ้านเลขที่ 83/28
+T16	LOCATION 415 421	หมู่ 1
+T17	LOCATION 422 433	ต.ทุ่งโพธิ์
+T18	LOCATION 434 440	อ.นาดี
+T19	LOCATION 441 453	จ.ปราจีนบุรี
+T20	PERSON 549 562	นายกิตตินันต์
+T21	PERSON 643 656	นายกิตตินันต์
+T22	WEAPON 616 622	อิฐแดง
+T23	PERSON 786 799	นายกิตตินันต์
+T24	WEAPON 817 820	ปืน
+T25	VEHICLE 892 902	ขับรถตำรวจ
+T26	WEAPON 958 961	ปืน
+T27	PERSON 1005 1018	นายกิตตินันต์
+R1	crime_time_at Arg1:T13 Arg2:T1	
+R2	crime_date_at Arg1:T13 Arg2:T2	
+R3	crime_located_at Arg1:T13 Arg2:T4	
+R4	crime_located_at Arg1:T13 Arg2:T5	
+R5	crime_located_at Arg1:T13 Arg2:T6	
+R6	crime_located_at Arg1:T13 Arg2:T7	
+R7	crime_relation Arg1:T13 Arg2:T8	
+R8	crime_relation Arg1:T13 Arg2:T9	
+R9	located_at Arg1:T13 Arg2:T15	
+R10	located_at Arg1:T13 Arg2:T16	
+R11	located_at Arg1:T13 Arg2:T17	
+R12	located_at Arg1:T13 Arg2:T18	
+R13	located_at Arg1:T13 Arg2:T19	
+R14	own_weapon Arg1:T13 Arg2:T22	
+R15	own_vehicle Arg1:T8 Arg2:T11	
+R16	vehicle_lp Arg1:T11 Arg2:T12	

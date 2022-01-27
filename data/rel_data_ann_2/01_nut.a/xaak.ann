@@ -1,0 +1,39 @@
+T1	PERSON 87 94	นายโกศล
+T2	PERSON 179 186	นายโกศล
+T3	PERSON 452 462	นายสุรัตน์
+T4	PERSON 477 484	นายคำธร
+T5	PERSON 489 493	แน็ค
+T6	PERSON 508 517	นายสุรชัย
+T7	PERSON 522 527	ตาชัย
+T8	PERSON 542 554	นายเกรียงไกร
+T9	PERSON 559 563	เป็ด
+T10	PERSON 568 572	เพชร
+T11	PERSON 587 595	นายเจริญ
+T12	PERSON 600 602	พร
+T13	PERSON 617 628	นายจิรายุทธ
+T14	PERSON 633 636	โจ้
+T15	PERSON 651 660	นายทิวากร
+T16	PERSON 665 667	บี
+T17	WEAPON 751 754	ปืน
+T18	VEHICLE 1013 1021	ยานพาหนะ
+R1	crime_relation Arg1:T3 Arg2:T1	
+R2	crime_relation Arg1:T4 Arg2:T1	
+R3	crime_relation Arg1:T6 Arg2:T1	
+R4	crime_relation Arg1:T8 Arg2:T1	
+R5	crime_relation Arg1:T11 Arg2:T1	
+R6	crime_relation Arg1:T13 Arg2:T1	
+R7	crime_relation Arg1:T15 Arg2:T1	
+R8	own_weapon Arg1:T3 Arg2:T17	
+R9	own_weapon Arg1:T4 Arg2:T17	
+R10	own_weapon Arg1:T6 Arg2:T17	
+R11	own_weapon Arg1:T8 Arg2:T17	
+R12	own_weapon Arg1:T11 Arg2:T17	
+R13	own_weapon Arg1:T13 Arg2:T17	
+R14	own_weapon Arg1:T15 Arg2:T17	
+R15	own_vehicle Arg1:T3 Arg2:T18	
+R16	own_vehicle Arg1:T4 Arg2:T18	
+R17	own_vehicle Arg1:T6 Arg2:T18	
+R18	own_vehicle Arg1:T8 Arg2:T18	
+R19	own_vehicle Arg1:T11 Arg2:T18	
+R20	own_vehicle Arg1:T13 Arg2:T18	
+R21	own_vehicle Arg1:T15 Arg2:T18	

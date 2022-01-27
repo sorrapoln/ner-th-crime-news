@@ -1,0 +1,30 @@
+T1	TIME 10 18	02.00 น.
+T2	DATE 26 35	16 พ.ย.64
+T3	PERSON 36 61	พ.ต.อ.สมศักดิ์ มงคลคุณากร
+T4	ORGANIZATION 66 76	สน.คลองตัน
+T5	PERSON 104 115	นายฐิติวุฒิ
+T6	PERSON 121 135	ไอซ์ คงสุวรรณ์
+T7	TIME 141 146	32 ปี
+T8	ORGANIZATION 157 171	ศาลอาญาพระโขนง
+T9	DATE 180 184	2564
+T10	DATE 194 205	14 พ.ย.2564
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T11	OBJECT 289 311	สร้อยคอทองคำหนัก 5 บาท
+T12	OBJECT 319 329	ปืนของเล่น
+T13	VEHICLE 339 352	รถจักรยานยนต์
+T14	OBJECT 375 385	หมวกนิรภัย
+T15	COLOR 385 389	สีดำ
+T16	LOCATION 436 450	ซอยพัฒนาการ 51
+T17	DATE 485 492	13 พ.ย.
+T18	WEAPON 533 536	ปืน
+T19	ORGANIZATION 548 569	ร้านทองกรุงเทพเยาวราช
+T20	LOCATION 570 588	กลางซอยพัฒนาการ 20
+T21	LOCATION 589 596	แยก 1/3
+T22	ORGANIZATION 605 615	สน.คลองตัน
+T23	VEHICLE 687 700	รถจักรยานยนต์
+T24	PERSON 748 759	นายฐิติวุฒิ
+R2	located_at Arg1:T24 Arg2:T16	
+R3	own_weapon Arg1:T24 Arg2:T18	
+R4	crime_located_at Arg1:T24 Arg2:T20	
+R5	crime_located_at Arg1:T24 Arg2:T21	
+R6	own_vehicle Arg1:T24 Arg2:T23	

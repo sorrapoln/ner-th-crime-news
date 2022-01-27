@@ -1,0 +1,50 @@
+T1	TIME 10 18	17.00 น.
+T2	DATE 26 35	21 ม.ค.65
+T3	PERSON 36 54	พ.ต.อ.จุมพล สิกเสน
+T4	ORGANIZATION 59 74	สภ.เมืองราชบุรี
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	PERSON 89 106	นายสมบูรณ์ จานทอง
+T6	ORGANIZATION 115 136	เทศบาลตำบลห้วยชินสีห์
+T7	LOCATION 137 144	อ.เมือง
+T8	LOCATION 145 154	จ.ราชบุรี
+T9	ORGANIZATION 206 217	โรงแรมเอวัน
+T10	LOCATION 230 240	เลขที่ 222
+T11	LOCATION 241 247	หมู่ 7
+T12	LOCATION 248 257	ต.อ่างทอง
+T13	LOCATION 258 265	อ.เมือง
+T14	PERSON 316 336	พ.ต.ท.กำพล จินดาวงษ์
+T15	ORGANIZATION 348 363	สภ.เมืองราชบุรี
+R2	employee_or_member_of Arg1:T14 Arg2:T15	
+T16	PERSON 364 384	พ.ต.ท.ชุมพล สุขภักดี
+T17	ORGANIZATION 391 406	สภ.เมืองราชบุรี
+R3	employee_or_member_of Arg1:T16 Arg2:T17	
+T18	PERSON 411 432	ร.ต.อ.เอกชัย เติมพงษ์
+T19	ORGANIZATION 443 458	สภ.เมืองราชบุรี
+R4	employee_or_member_of Arg1:T18 Arg2:T19	
+T20	ORGANIZATION 485 493	สภ.เมือง
+T21	VEHICLE 576 606	รถเก๋ง ยี่ห้อ โตโยต้า โคโรลร่า
+T22	COLOR 607 612	สีแดง
+R5	color_of Arg1:T21 Arg2:T22	
+T23	LP 628 646	กพ 2516 สุพรรณบุรี
+R6	vehicle_lp Arg1:T21 Arg2:T23	
+T24	LOCATION 750 757	อ.เมือง
+T25	PERSON 815 834	นายปกรณ์ ค่ายสงคราม
+T26	LOCATION 850 865	บ้านเลขที่ 16/9
+T27	LOCATION 866 869	ม.7
+T28	LOCATION 870 880	ต.บ้านเก่า
+T29	LOCATION 881 888	อ.เมือง
+T30	LOCATION 889 900	จ.กาญจนบุรี
+T31	ORGANIZATION 1041 1049	สภ.เมือง
+R7	located_at Arg1:T25 Arg2:T26	
+R8	located_at Arg1:T25 Arg2:T27	
+R9	located_at Arg1:T25 Arg2:T28	
+R10	located_at Arg1:T25 Arg2:T29	
+R11	located_at Arg1:T25 Arg2:T30	
+R12	crime_located_at Arg1:T25 Arg2:T10	
+R13	crime_located_at Arg1:T25 Arg2:T11	
+R14	crime_located_at Arg1:T25 Arg2:T12	
+R15	crime_located_at Arg1:T25 Arg2:T13	
+R16	own_vehicle Arg1:T25 Arg2:T21	
+R17	crime_time_at Arg1:T25 Arg2:T1	
+R18	crime_date_at Arg1:T25 Arg2:T2	
+T32	VEHICLE 704 706	รถ

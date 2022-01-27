@@ -1,0 +1,93 @@
+T1	DATE 12 21	18 ต.ค.64
+T2	PERSON 22 46	พล.ต.ท.จิรพัฒน์ ภูมิจิตร
+T3	PERSON 55 82	พล.ต.ต.สหรัฐ ศักดิ์ศิลปะชัย
+T4	PERSON 104 130	พล.ต.ต.วสันต์ เตชะอัครเกษม
+T5	PERSON 150 173	พ.ต.อ.ชินโชติ วัฒนธนานพ
+T6	PERSON 193 218	พ.ต.ท.ชัยรัตน์ หิรัญบูรณะ
+T7	LOCATION 438 455	สะพานพระนั่งเกล้า
+T8	LOCATION 456 464	ต.ไทรม้า
+T9	LOCATION 465 479	อ.เมืองนนทบุรี
+T10	LOCATION 480 489	จ.นนทบุรี
+T11	ORGANIZATION 503 520	ศาลจังหวัดนนทบุรี
+T12	DATE 543 552	17 ต.ค.64
+T13	PERSON 612 621	นายคุณ งำ
+T14	PERSON 648 655	นายฮนิง
+T15	PERSON 683 695	นายคุณคำ ชิน
+T16	PERSON 722 733	นายคุณ ไหล่
+T17	PERSON 745 758	นายไนง์ ลินโซ
+T18	PERSON 785 800	นายอัง แซน ลวิน
+T19	TIME 661 666	22 ปี
+T20	TIME 701 706	33 ปี
+T21	TIME 739 744	35 ปี
+T22	TIME 806 811	29 ปี
+T23	TIME 627 632	25 ปี
+T24	TIME 764 769	29 ปี
+T25	LOCATION 675 682	เมียนมา
+T26	LOCATION 714 721	เมียนมา
+T27	LOCATION 777 784	เมียนมา
+T28	LOCATION 819 826	เมียนมา
+T29	LOCATION 640 647	เมียนมา
+T30	OBJECT 1056 1060	กาแฟ
+T31	OBJECT 1061 1080	บรรจุภัณฑ์แอลกอฮอล์
+T32	OBJECT 1081 1091	อาหารสัตว์
+T33	OBJECT 1092 1097	หูฟัง
+T34	OBJECT 1098 1111	แว่นตาว่ายน้ำ
+T35	LOCATION 1178 1201	ซอยเลี่ยงเมืองนนทบุรี 7
+T36	LOCATION 1202 1223	ถนนเลี่ยงเมืองนนทบุรี
+T37	LOCATION 1224 1234	ต.ตลาดขวัญ
+T38	LOCATION 1235 1249	อ.เมืองนนทบุรี
+T39	LOCATION 1250 1259	จ.นนทบุรี
+T40	ORGANIZATION 1273 1290	ศาลจังหวัดนนทบุรี
+T41	DATE 1313 1322	17 ต.ค.64
+T42	OBJECT 1433 1446	หลอดไฟแอลอีดี
+T43	OBJECT 1447 1464	เจล และโฟมล้างมือ
+T44	LOCATION 1559 1580	เชิงสะพานพระนั่งเกล้า
+T45	LOCATION 1581 1589	ต.ไทรม้า
+T46	LOCATION 1590 1604	อ.เมืองนนทบุรี
+T47	LOCATION 1605 1614	จ.นนทบุรี
+T48	LOCATION 1631 1654	ซอยเลี่ยงเมืองนนทบุรี 7
+T49	LOCATION 1655 1676	ถนนเลี่ยงเมืองนนทบุรี
+T50	LOCATION 1677 1687	ต.ตลาดขวัญ
+T51	LOCATION 1688 1702	อ.เมืองนนทบุรี
+T52	LOCATION 1703 1712	จ.นนทบุรี
+T53	LOCATION 1907 1916	จ.นนทบุรี
+T54	LOCATION 2058 2072	จังหวัดนนทบุรี
+T55	ORGANIZATION 2185 2202	ศาลจังหวัดนนทบุรี
+T56	ORGANIZATION 2440 2454	สภ.บางศรีเมือง
+T57	ORGANIZATION 2458 2473	สภ.เมืองนนทบุรี
+R1	located_at Arg1:T13 Arg2:T29	
+R2	located_at Arg1:T14 Arg2:T29	
+R3	located_at Arg1:T15 Arg2:T29	
+R4	located_at Arg1:T16 Arg2:T29	
+R5	located_at Arg1:T17 Arg2:T29	
+R6	located_at Arg1:T18 Arg2:T29	
+R7	found_object_at Arg1:T30 Arg2:T7	
+R8	found_object_at Arg1:T30 Arg2:T8	
+R9	found_object_at Arg1:T30 Arg2:T9	
+R10	found_object_at Arg1:T30 Arg2:T10	
+R11	found_object_at Arg1:T31 Arg2:T7	
+R12	found_object_at Arg1:T31 Arg2:T8	
+R13	found_object_at Arg1:T31 Arg2:T9	
+R14	found_object_at Arg1:T31 Arg2:T10	
+R15	found_object_at Arg1:T32 Arg2:T7	
+R16	found_object_at Arg1:T32 Arg2:T8	
+R17	found_object_at Arg1:T32 Arg2:T9	
+R18	found_object_at Arg1:T32 Arg2:T10	
+R19	found_object_at Arg1:T33 Arg2:T7	
+R20	found_object_at Arg1:T33 Arg2:T8	
+R21	found_object_at Arg1:T33 Arg2:T9	
+R22	found_object_at Arg1:T33 Arg2:T10	
+R23	found_object_at Arg1:T34 Arg2:T7	
+R24	found_object_at Arg1:T34 Arg2:T8	
+R25	found_object_at Arg1:T34 Arg2:T9	
+R26	found_object_at Arg1:T34 Arg2:T10	
+R27	found_object_at Arg1:T42 Arg2:T35	
+R28	found_object_at Arg1:T42 Arg2:T36	
+R29	found_object_at Arg1:T42 Arg2:T37	
+R30	found_object_at Arg1:T42 Arg2:T38	
+R31	found_object_at Arg1:T42 Arg2:T39	
+R32	found_object_at Arg1:T43 Arg2:T35	
+R33	found_object_at Arg1:T43 Arg2:T36	
+R34	found_object_at Arg1:T43 Arg2:T37	
+R35	found_object_at Arg1:T43 Arg2:T38	
+R36	found_object_at Arg1:T43 Arg2:T39	

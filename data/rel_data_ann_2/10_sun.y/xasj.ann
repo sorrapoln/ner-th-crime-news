@@ -1,0 +1,9 @@
+T1	LOCATION 42 52	จังหวัดตาก
+T2	LOCATION 79 88	เพชรบูรณ์
+T3	TIME 170 174	3 ปี
+T4	VEHICLE 234 245	จักรยานยนต์
+T5	PERSON 392 400	นายเสริม
+T6	PERSON 573 581	นายเสริม
+T7	PERSON 644 652	นายเสริม
+T8	WEAPON 670 678	มีดอีโต้
+R1	located_at Arg1:T5 Arg2:T1	

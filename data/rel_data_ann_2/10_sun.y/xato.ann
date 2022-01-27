@@ -1,0 +1,37 @@
+T1	TIME 22 30	06.00 น.
+T2	DATE 37 43	5 ก.ค.
+T3	PERSON 43 63	นายมูฮาหมัด ยงหมะเกะ
+T4	TIME 69 74	30 ปี
+T5	VEHICLE 116 139	เก๋งยี่ห้อโตโยต้า ยาริส
+T6	COLOR 142 145	ขาว
+T7	LP 154 168	1 ขบ 4890 กทม.
+R1	color_of Arg1:T5 Arg2:T6	
+R2	vehicle_lp Arg1:T5 Arg2:T7	
+T8	ORGANIZATION 200 209	สภ.แสนสุข
+T9	VEHICLE 217 223	รถเก๋ง
+T10	LOCATION 309 326	ถนนเลียบหาดบางแสน
+T11	LOCATION 359 374	โรงแรม Heritage
+T12	LOCATION 375 383	ต.แสนสุข
+T13	LOCATION 384 391	อ.เมือง
+T14	LOCATION 392 400	จ.ชลบุรี
+T15	TIME 417 425	11.00 น.
+T16	DATE 433 443	10 ก.ค. 64
+T17	PERSON 444 478	พันตำรวจเอก สุรสิทธิ์ เนื่องจำนงค์
+T18	ORGANIZATION 483 492	สภ.แสนสุข
+R3	employee_or_member_of Arg1:T17 Arg2:T18	
+T19	PERSON 577 595	นายชาญชัย โพนพันนา
+T20	LOCATION 600 609	จ. ชลบุรี
+R4	located_at Arg1:T19 Arg2:T20	
+T21	VEHICLE 618 641	จยย.ยี่ห้อยามาฮ่า ฟีโน่
+T22	COLOR 644 649	ดำขาว
+T23	LP 658 672	งพค 288 ชลบุรี
+R5	color_of Arg1:T21 Arg2:T22	
+R6	vehicle_lp Arg1:T21 Arg2:T23	
+T24	PERSON 679 688	นายชาญชัย
+R7	own_vehicle Arg1:T19 Arg2:T21	
+R8	own_vehicle Arg1:T3 Arg2:T5	
+R9	crime_located_at Arg1:T19 Arg2:T10	
+R10	crime_located_at Arg1:T19 Arg2:T11	
+R11	crime_located_at Arg1:T19 Arg2:T12	
+R12	crime_located_at Arg1:T19 Arg2:T13	
+R13	crime_located_at Arg1:T19 Arg2:T14	

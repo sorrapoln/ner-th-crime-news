@@ -1,0 +1,27 @@
+T1	VEHICLE 13 19	รถเก๋ง
+T2	COLOR 19 23	สีดำ
+T3	LP 32 55	5 กพ 6419 กรุงเทพมหานคร
+T4	VEHICLE 176 185	รถแท็กซี่
+T5	LP 194 215	ทษ 9197 กรุงเทพมหานคร
+T6	PERSON 297 324	น.ส.ชัญญรัสย์ ปัจฉิมสวัสดิ์
+T7	VEHICLE 348 354	รถเก๋ง
+T8	COLOR 354 358	สีดำ
+T9	VEHICLE 408 417	รถแท็กซี่
+T10	PERSON 423 439	นายจำนงค์ นพเก้า
+T11	TIME 445 450	55 ปี
+T12	PERSON 481 501	น.ส.กุลอร อังศุภานิช
+T13	TIME 507 512	29 ปี
+T14	ORGANIZATION 518 532	โรงพยาบาลเปาโล
+T15	LOCATION 533 541	พหลโยธิน
+T16	VEHICLE 548 554	รถเก๋ง
+T17	PERSON 589 608	นายวีระชัย รอดเจริญ
+T18	PERSON 620 642	น.ส.รุ้งพราย พิมภิรมย์
+T19	TIME 614 619	19 ปี
+T20	TIME 648 653	23 ปี
+T21	ORGANIZATION 659 673	โรงพยาบาลเปาโล
+T22	LOCATION 674 682	พหลโยธิน
+T23	ORGANIZATION 722 744	โรงพยาบาลพระมงกุฎเกล้า
+R1	vehicle_lp Arg1:T1 Arg2:T3	
+R2	color_of Arg1:T1 Arg2:T2	
+R3	vehicle_lp Arg1:T4 Arg2:T5	
+R4	own_vehicle Arg1:T10 Arg2:T9	

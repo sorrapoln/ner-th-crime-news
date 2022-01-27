@@ -1,0 +1,24 @@
+T1	DATE 10 32	วันที่ 20 กรกฏาคม 2564
+T2	PERSON 66 83	น.ส.เจนจิรา ปันตา
+T3	TIME 89 94	25 ปี
+T4	PERSON 105 128	น.ส.ประภาพรรณ สิงหทัศน์
+T5	TIME 134 139	42 ปี
+T6	LOCATION 200 219	เทศบาลเมืองแม่เหียะ
+T7	LOCATION 220 230	ต.แม่เหียะ
+T8	LOCATION 231 238	อ.เมือง
+T9	LOCATION 239 250	จ.เชียงใหม่
+T10	PERSON 406 425	น.ส.ประภัสสร บุญศรี
+T11	TIME 431 436	29 ปี
+T12	PERSON 451 459	น้องพีพี
+T13	PERSON 472 480	น้องอุ้ม
+T14	TIME 463 468	7 ขวบ
+T15	TIME 484 489	2 ขวบ
+T16	VEHICLE 557 562	กระบะ
+T17	COLOR 562 567	สีส้ม
+R1	color_of Arg1:T16 Arg2:T17	
+T18	VEHICLE 578 582	ระบะ
+T19	COLOR 582 586	สีดำ
+R2	color_of Arg1:T18 Arg2:T19	
+T20	VEHICLE 593 599	รถพ่วง
+T21	VEHICLE 650 655	กระบะ
+T22	VEHICLE 668 677	ะรถบรรทุก

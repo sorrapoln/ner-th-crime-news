@@ -1,0 +1,31 @@
+T1	PERSON 0 9	นายสราวุธ
+T2	TIME 15 20	30 ปี
+T3	ORGANIZATION 29 53	กองบังคับการตำรวจทางหลวง
+T4	LOCATION 120 131	ถนนพระราม 2
+T5	LOCATION 132 142	ตำบลท่าจีน
+T6	LOCATION 143 153	อำเภอเมือง
+T7	LOCATION 154 170	จังหวัดสมุทรสาคร
+T8	OBJECT 183 204	อาวุธปืนเล็กยาวจู่โจม
+T9	OBJECT 213 216	M16
+T10	VEHICLE 243 249	รถยนต์
+T11	TIME 298 306	13.30 น.
+T12	DATE 314 323	22 มกราคม
+T13	ORGANIZATION 339 353	สภ.เมืองลพบุรี
+R1	found_object_at Arg1:T8 Arg2:T4	
+R2	found_object_at Arg1:T8 Arg2:T5	
+R3	found_object_at Arg1:T8 Arg2:T6	
+R4	found_object_at Arg1:T8 Arg2:T7	
+R5	found_object_at Arg1:T9 Arg2:T4	
+R6	found_object_at Arg1:T9 Arg2:T5	
+R7	found_object_at Arg1:T9 Arg2:T6	
+R8	found_object_at Arg1:T9 Arg2:T7	
+R9	located_at Arg1:T1 Arg2:T4	
+R10	located_at Arg1:T1 Arg2:T5	
+R11	crime_located_at Arg1:T1 Arg2:T6	
+T14	ORGANIZATION 443 461	กองพันทหารราบที่ 2
+T15	ORGANIZATION 462 478	กรมทหารราบที่ 31
+T16	VEHICLE 495 501	รถยนต์
+R12	crime_time_at Arg1:T1 Arg2:T11	
+R13	crime_date_at Arg1:T1 Arg2:T12	
+T17	OBJECT 800 803	ปืน
+T18	OBJECT 847 850	ปืน

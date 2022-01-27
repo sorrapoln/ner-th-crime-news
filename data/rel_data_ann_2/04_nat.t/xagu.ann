@@ -1,0 +1,45 @@
+T1	TIME 10 18	13.00 น.
+T2	DATE 25 34	18 ต.ค.64
+T3	PERSON 35 60	พ.ต.ท.สมอาจ หมั่นอุตส่าห์
+T4	ORGANIZATION 71 81	สภ.ไทรน้อย
+T5	LOCATION 82 91	จ.นนทบุรี
+T6	WEAPON 126 129	มีด
+T7	LOCATION 152 175	ห้องเช่าแห่งหนึ่ง หมู่3
+T8	LOCATION 176 185	ต.ไทรใหญ่
+T9	LOCATION 186 195	อ.ไทรน้อย
+T10	LOCATION 196 205	จ.นนทบุรี
+T11	PERSON 218 245	พ.ต.อ.โชติวัฒน์ เหลืองวิลัย
+T12	LOCATION 256 266	จว.นนทบุรี
+T13	ORGANIZATION 275 285	สภ.ไทรน้อย
+T14	PERSON 286 308	พ.ต.อ.จิรายุส วานิชกูล
+T15	LOCATION 317 327	จว.นนทบุรี
+T16	PERSON 328 347	พ.ต.ท.อดิศร บุญสนอง
+T17	ORGANIZATION 359 369	สภ.ไทรน้อย
+T18	PERSON 370 393	พ.ต.ต.ธนวัฒน์ ชีวิตโสภณ
+R1	employee_or_member_of Arg1:T16 Arg2:T17	
+R2	employee_or_member_of Arg1:T3 Arg2:T4	
+R3	employee_or_member_of Arg1:T11 Arg2:T13	
+T19	ORGANIZATION 398 408	สภ.ไทรน้อย
+R4	employee_or_member_of Arg1:T18 Arg2:T19	
+T20	ORGANIZATION 416 437	สถาบันนิติวิทยาศาสตร์
+T21	ORGANIZATION 447 465	มูลนิธิป่อเต็กตึ๊ง
+T22	PERSON 592 612	น.ส.ดรุณี แก้วกระบิน
+T23	TIME 618 623	36 ปี
+T24	LOCATION 627 645	จ. พระนครศรีอยุธยา
+R5	located_at Arg1:T22 Arg2:T24	
+T25	OBJECT 664 673	สวมชุดนอน
+T26	COLOR 673 679	สีครีม
+T27	TIME 842 850	25-30 ปี
+T28	VEHICLE 856 860	จยย.
+T29	VEHICLE 870 890	ยี่ห้อฮอนด้า รุ่นPCX
+T30	COLOR 891 896	สีขาว
+T31	LP 905 917	9กง 5610 กทม
+R6	color_of Arg1:T29 Arg2:T30	
+R7	vehicle_lp Arg1:T29 Arg2:T31	
+T32	DATE 938 945	17 ต.ค.
+T33	TIME 950 958	03.38 น.
+T34	PERSON 959 976	น.ส.ชมพู่ สอดห่วง
+T35	TIME 982 987	36 ปี
+T36	ORGANIZATION 1030 1051	โรงงานผลิตสายน้ำเกลือ
+T37	DATE 1483 1489	17ต.ค.
+R8	employee_or_member_of Arg1:T34 Arg2:T36	

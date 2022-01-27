@@ -1,0 +1,51 @@
+T1	DATE 12 18	8 ก.ค.
+T2	PERSON 79 102	พ.ต.อ.ชุติพล เขมานุวงศ์
+T3	ORGANIZATION 107 116	สภ.ท่าชนะ
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T4	PERSON 134 159	นายทรงสิทธ์ แก้วเกตุ (โจ)
+T5	TIME 165 170	28 ปี
+T6	PERSON 231 251	นายหัฐพงศ์ จันทร์ยัง
+T7	TIME 257 262	32 ปี
+T8	ORGANIZATION 376 385	สภ.แม่สาย
+T9	LOCATION 386 396	จ.เชียงราย
+T10	LOCATION 436 449	ประเทศเมียนมา
+T11	PERSON 473 498	พล.ต.อ.สุชาติ ธีระสวัสดิ์
+T12	VEHICLE 581 600	เครื่องบินคิงส์แอร์
+T13	ORGANIZATION 604 625	สำนักงานตำรวจแห่งชาติ
+T14	ORGANIZATION 644 653	สภ.ท่าชนะ
+T15	LOCATION 654 668	จ.สุราษฎร์ธานี
+T16	DATE 693 703	29 มิ.ย.64
+T17	ORGANIZATION 717 726	สภ.ท่าชนะ
+T18	LOCATION 727 741	จ.สุราษฎร์ธานี
+T19	LOCATION 802 811	ถนนสาย 41
+T20	LOCATION 832 847	จุดกลับรถศรีพนม
+T21	LOCATION 848 854	หมู่ 3
+T22	LOCATION 855 864	ต.ประสงค์
+T23	LOCATION 865 873	อ.ท่าชนะ
+T24	LOCATION 874 888	จ.สุราษฎร์ธานี
+T25	OBJECT 994 998	ไอซ์
+T26	OBJECT 1012 1017	ยาบ้า
+T27	DATE 1097 1103	4 ก.ค.
+T28	PERSON 1134 1146	นายทรงสิทธิ์
+T29	LOCATION 1157 1166	ต.คันธุลี
+T30	LOCATION 1167 1175	อ.ท่าชนะ
+T31	LOCATION 1176 1190	จ.สุราษฎร์ธานี
+T32	PERSON 1265 1275	นายหัฐพงศ์
+T33	VEHICLE 1295 1301	รถยนต์
+T34	LOCATION 1338 1355	จ.ประจวบคีรีขันธ์
+T35	VEHICLE 1478 1502	รถโดยสารประจำทางกรุงเทพฯ
+T36	LOCATION 1583 1592	สภ.แม่สาย
+T37	ORGANIZATION 1642 1653	สภ.เชียงแสน
+T38	DATE 1678 1684	6 ก.ค.
+T39	PERSON 1753 1764	นายธีรพัชร์
+R2	found_object_at Arg1:T25 Arg2:T20	
+R3	found_object_at Arg1:T25 Arg2:T21	
+R4	found_object_at Arg1:T25 Arg2:T22	
+R5	found_object_at Arg1:T25 Arg2:T23	
+R6	found_object_at Arg1:T25 Arg2:T24	
+R7	found_object_at Arg1:T26 Arg2:T20	
+R8	found_object_at Arg1:T26 Arg2:T21	
+R9	found_object_at Arg1:T26 Arg2:T22	
+R10	found_object_at Arg1:T26 Arg2:T23	
+R11	found_object_at Arg1:T26 Arg2:T24	
+R12	own_vehicle Arg1:T32 Arg2:T33	

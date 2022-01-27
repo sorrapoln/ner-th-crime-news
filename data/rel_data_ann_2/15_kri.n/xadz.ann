@@ -1,0 +1,29 @@
+T1	TIME 10 17	09.00 น
+T2	DATE 26 38	30 พ.ย. 2564
+T3	PERSON 43 60	ร.ต.อ.ประกาศ ยะติ
+T4	ORGANIZATION 81 92	สภ.คลองกิ่ว
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	LOCATION 139 148	หมู่ที่ 1
+T6	LOCATION 149 161	ตำบลคลองกิ่ว
+T7	LOCATION 162 172	อำเภอเมือง
+T8	LOCATION 173 186	จังหวัดชลบุรี
+T9	PERSON 197 215	พ.ต.อ.พัฒนา รอบรู้
+T10	PERSON 377 399	นางอังคนา แก้วประเสริฐ
+T11	TIME 405 410	64 ปี
+T12	PERSON 550 568	นายประยุทธ ถึงสบาย
+T13	TIME 574 579	55 ปี
+R2	crime_relation Arg1:T12 Arg2:T10	
+T14	WEAPON 1065 1075	สากกระเบือ
+R3	own_weapon Arg1:T12 Arg2:T14	
+R4	crime_located_at Arg1:T12 Arg2:T5	
+R5	crime_located_at Arg1:T12 Arg2:T6	
+R6	crime_located_at Arg1:T12 Arg2:T7	
+R7	crime_located_at Arg1:T12 Arg2:T8	
+R8	crime_date_at Arg1:T12 Arg2:T2	
+R9	crime_time_at Arg1:T12 Arg2:T1	
+R10	located_at Arg1:T10 Arg2:T5	
+R11	located_at Arg1:T10 Arg2:T6	
+R12	located_at Arg1:T10 Arg2:T7	
+R13	located_at Arg1:T10 Arg2:T8	
+T15	PERSON 900 910	นายประยุทธ
+T16	WEAPON 441 452	มีดปลายแหลม

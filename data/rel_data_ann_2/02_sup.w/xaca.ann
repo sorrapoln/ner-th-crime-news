@@ -1,0 +1,20 @@
+T1	ORGANIZATION 6 14	สน.บางมด
+T2	VEHICLE 44 57	รถจักรยานยนต์
+T3	LOCATION 93 111	ซอยพระราม 2 ที่ 25
+T4	LOCATION 112 121	แขวงบางมด
+T5	LOCATION 122 131	เขตจอมทอง
+T6	PERSON 147 166	นายภัทรพล มนต์ชูชีพ
+T7	TIME 172 177	17 ปี
+T8	VEHICLE 242 284	รถจักรยานยนต์ ยี่ห้อ GPX รุ่น Demon 150 cc
+T9	COLOR 285 289	สีดำ
+T10	VEHICLE 362 403	รถยนต์นั่งส่วนบุคคล ยี่ห้ออีซูซุ รุ่น mux
+T11	COLOR 404 413	สีบอลเงิน
+T12	LP 422 440	3 กม 3464 กรุงเทพฯ
+T13	VEHICLE 529 558	รถนั่งสาธารณะปรับอากาศสาย 142
+T14	COLOR 559 564	สีฟ้า
+T15	LP 573 589	16-1930 กรุงเทพฯ
+R1	color_of Arg1:T13 Arg2:T14	
+R2	vehicle_lp Arg1:T13 Arg2:T15	
+R3	color_of Arg1:T10 Arg2:T11	
+R4	vehicle_lp Arg1:T10 Arg2:T12	
+R5	color_of Arg1:T8 Arg2:T9	

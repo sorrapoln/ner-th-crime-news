@@ -1,0 +1,45 @@
+T1	DATE 7 17	11 ต.ค. 64
+T2	PERSON 18 42	พ.ต.ท.ประพฤทธิ์ เพชรพลอย
+T3	ORGANIZATION 55 68	สน.บางขุนนนท์
+T4	LOCATION 106 116	บางขุนนนท์
+T5	VEHICLE 102 106	รถไฟ
+T6	ORGANIZATION 167 177	รพ.ศิริราช
+T7	ORGANIZATION 190 214	กู้ภัยมูลนิธิป่อเต็กตึ๊ง
+T8	LOCATION 249 271	เลียบทางรถไฟบางขุนนนท์
+T9	LOCATION 272 287	ถนนจรัญสนิทวงศ์
+T10	LOCATION 288 301	แขวงบางขุนศรี
+T11	LOCATION 302 315	เขตบางกอกน้อย
+T12	LOCATION 316 329	กรุงเทพมหานคร
+T13	VEHICLE 342 355	รถจักรยานยนต์
+T14	OBJECT 432 441	เสื้อโปโล
+T15	COLOR 441 449	สีกรมท่า
+T16	OBJECT 450 462	กางเกงขาสั้น
+T17	OBJECT 471 487	รองเท้าแตะแบบสวม
+T18	OBJECT 488 504	สะพายกระเป๋าข้าง
+T19	COLOR 504 508	สีดำ
+T20	PERSON 574 581	นายธนพล
+T21	TIME 587 592	21 ปี
+T22	PERSON 593 603	นายนัฐวุฒิ
+T23	TIME 609 614	41 ปี
+T24	VEHICLE 1090 1096	รถเก๋ง
+T25	PERSON 1324 1347	นายวัชรศักย์ ถิรมนไพศาล
+T26	TIME 1353 1358	30 ปี
+T27	ORGANIZATION 1401 1420	ศูนย์กู้ชีพวิชัยเวช
+T28	LOCATION 1449 1471	เลียบทางรถไฟบางขุนนนท์
+T29	VEHICLE 1486 1499	รถจักรยานยนต์
+T30	VEHICLE 1508 1523	รถนั่งส่วนบุคคล
+T31	ORGANIZATION 1597 1613	โรงพยาบาลศิริราช
+T32	VEHICLE 1807 1813	รถเก๋ง
+T33	VEHICLE 1823 1836	รถจักรยานยนต์
+T34	LOCATION 1860 1864	จรัญ
+T35	LOCATION 1874 1880	ถนนบรม
+T36	VEHICLE 2118 2124	รถเก๋ง
+T37	ORGANIZATION 2202 2226	สถาบันนิติเวช รพ.ศิริราช
+R1	own_vehicle Arg1:T20 Arg2:T13	
+R2	crime_located_at Arg1:T20 Arg2:T8	
+R3	crime_located_at Arg1:T20 Arg2:T9	
+R4	crime_located_at Arg1:T20 Arg2:T10	
+R5	crime_located_at Arg1:T20 Arg2:T11	
+R6	crime_located_at Arg1:T20 Arg2:T12	
+R7	employee_or_member_of Arg1:T2 Arg2:T3	
+R8	employee_or_member_of Arg1:T25 Arg2:T27	

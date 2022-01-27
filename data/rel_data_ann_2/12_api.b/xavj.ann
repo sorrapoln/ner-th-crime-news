@@ -1,0 +1,41 @@
+T1	DATE 12 23	21 มค. 2565
+T2	PERSON 24 44	นายไกรศร วิศิษฎ์วงศ์
+T3	PERSON 88 108	นายประสงค์ จันทร์หยู
+T4	LOCATION 116 136	จังหวัดนครศรีธรรมราช
+T5	LOCATION 176 196	จังหวัดนครศรีธรรมราช
+T6	LOCATION 247 260	นครศรีธรรมราช
+T7	WEAPON 313 322	ปืนสงคราม
+T8	LOCATION 333 342	อ.ท่าศาลา
+T9	LOCATION 346 353	อ.เมือง
+T10	DATE 417 423	19 มค.
+T11	OBJECT 464 469	ยาบ้า
+T12	LOCATION 501 544	ใกล้เสาไฟฟ้าริมถนนสาย นครศรีธรรมราช-ท่าศาลา
+T13	LOCATION 545 552	หมู่ 10
+T14	LOCATION 553 561	ต.ปากพูน
+T15	LOCATION 562 569	อ.เมือง
+T16	LOCATION 570 585	จ.นครศรีธรรมราช
+R1	found_object_at Arg1:T11 Arg2:T12	
+R2	found_object_at Arg1:T11 Arg2:T13	
+R3	found_object_at Arg1:T11 Arg2:T14	
+R4	found_object_at Arg1:T11 Arg2:T15	
+R5	found_object_at Arg1:T11 Arg2:T16	
+T17	PERSON 698 716	นายเอกรัตน์หรือเอก
+T18	TIME 722 727	39 ปี
+T19	PERSON 731 740	นายอดิเรก
+T20	TIME 746 751	39 ปี
+T21	LOCATION 756 765	อ.ท่าศาลา
+T22	OBJECT 778 784	ยาไอซ์
+T23	LOCATION 853 867	บ้านเลขที่ 141
+T24	LOCATION 868 872	ม.13
+T25	LOCATION 873 882	ต.ท่าศาลา
+T26	LOCATION 883 892	อ.ท่าศาลา
+T27	LOCATION 893 908	จ.นครศรีธรรมราช
+T28	ORGANIZATION 927 937	สภ.ท่าศาลา
+R6	located_at Arg1:T19 Arg2:T21	
+R7	found_object_at Arg1:T22 Arg2:T23	
+R8	found_object_at Arg1:T22 Arg2:T24	
+R9	found_object_at Arg1:T22 Arg2:T25	
+R10	found_object_at Arg1:T22 Arg2:T26	
+R11	found_object_at Arg1:T22 Arg2:T27	
+R12	crime_located_at Arg1:T17 Arg2:T8	
+R13	crime_located_at Arg1:T19 Arg2:T9	

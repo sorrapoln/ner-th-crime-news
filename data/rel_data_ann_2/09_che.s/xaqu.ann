@@ -1,0 +1,34 @@
+T1	TIME 10 18	09.00 น.
+T2	DATE 26 37	1 พฤศจิกายน
+T3	ORGANIZATION 41 55	ศาลอาญามีนบุรี
+T4	LOCATION 56 70	ถ.สีหบุรานุกิจ
+T5	PERSON 191 212	นายธนภัทร ชนะกุลพิศาล
+T6	PERSON 217 223	ทอยทอย
+T7	TIME 254 259	21 ปี
+T8	DATE 380 391	6 ส.ค. 2564
+T9	PERSON 414 419	จำเลย
+T10	WEAPON 427 430	มีด
+T11	PERSON 457 478	น.ส.ชัชสรัญ สุวรรณกิจ
+T12	PERSON 541 552	น.ส.ชัชสรัญ
+T13	LOCATION 581 595	เลขที่ 104/209
+T14	LOCATION 596 610	ถนนเลียบคลอง 2
+T15	LOCATION 611 621	แขวงบางชัน
+T16	LOCATION 622 634	เขตคลองสามวา
+T17	LOCATION 634 647	กรุงเทพมหานคร
+T18	ORGANIZATION 669 680	สน.คันนายาว
+T19	WEAPON 708 711	มีด
+T20	OBJECT 750 767	เสื้อเชิ้ตแขนสั้น
+T21	COLOR 768 773	สีแดง
+T22	PERSON 783 788	จำเลย
+R1	own_weapon Arg1:T5 Arg2:T10	
+R2	crime_relation Arg1:T5 Arg2:T11	
+R3	crime_located_at Arg1:T5 Arg2:T13	
+R4	crime_located_at Arg1:T5 Arg2:T14	
+R5	crime_located_at Arg1:T5 Arg2:T15	
+R6	crime_located_at Arg1:T5 Arg2:T16	
+R7	crime_located_at Arg1:T5 Arg2:T17	
+R8	located_at Arg1:T11 Arg2:T13	
+R9	located_at Arg1:T11 Arg2:T14	
+R10	located_at Arg1:T11 Arg2:T15	
+R11	located_at Arg1:T11 Arg2:T16	
+R12	located_at Arg1:T11 Arg2:T17	

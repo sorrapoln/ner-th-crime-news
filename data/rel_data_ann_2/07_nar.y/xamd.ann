@@ -1,0 +1,9 @@
+T1	TIME 10 18	10.30 น.
+T2	LOCATION 46 61	จังหวัดเพชรบุรี
+T3	TIME 76 81	17 ปี
+T4	ORGANIZATION 123 171	สถานพินิจและคุ้มครองเด็กและเยาวชนจังหวัดเพชรบุรี
+T5	PERSON 187 210	พ.ต.ท.ชนาวิน สุริยะพรหม
+T6	ORGANIZATION 232 243	สภ.บ้านแหลม
+R1	employee_or_member_of Arg1:T5 Arg2:T6	
+T7	ORGANIZATION 382 399	โรงพยาบาลบ้านแหลม
+T8	ORGANIZATION 411 427	สภ.เมืองเพชรบุรี

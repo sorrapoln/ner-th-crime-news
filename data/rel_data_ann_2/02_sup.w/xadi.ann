@@ -1,0 +1,33 @@
+T1	DATE 12 22	11 ต.ค. 64
+T2	ORGANIZATION 40 54	สน.บางขุนเทียน
+T3	LOCATION 152 164	ซอยเอกชัย 64
+T4	LOCATION 165 174	ถนนเอกชัย
+T5	LOCATION 175 185	แขวงบางบอน
+T6	LOCATION 186 195	เขตบางบอน
+T7	LOCATION 196 209	กรุงเทพมหานคร
+T8	ORGANIZATION 244 260	โรงพยาบาลศิริราช
+T9	ORGANIZATION 273 291	มูลนิธิป่อเต็กตึ๊ง
+T10	PERSON 377 388	นายวรทรัพย์
+T11	TIME 394 399	25 ปี
+T12	ORGANIZATION 432 454	รงพยาบาลสหวิทยาการมะลิ
+T13	PERSON 522 533	นางสาวลลิตา
+T14	TIME 539 544	18 ปี
+T15	VEHICLE 687 715	รถจักรยานยนต์ ฮอนด้าเวฟ125ไอ
+T16	COLOR 716 721	สีขาว
+T17	LP 730 748	1 ขด 6090 กรุงเทพฯ
+T18	VEHICLE 840 861	รถกระบะ ฟอร์ดเรนเจอร์
+T19	COLOR 862 867	สีเทา
+T20	LP 876 892	9กด7922 กรุงเทพฯ
+T21	PERSON 907 916	นายยุทธนา
+T22	TIME 922 927	34 ปี
+T23	VEHICLE 1010 1023	รถจักรยานยนต์
+T24	VEHICLE 1128 1135	รถกระบะ
+T25	VEHICLE 1207 1214	รถกระบะ
+T26	VEHICLE 1273 1286	รถจักรยานยนต์
+T27	VEHICLE 1403 1416	รถจักรยานยนต์
+T28	VEHICLE 1585 1592	รถกระบะ
+T29	ORGANIZATION 1755 1792	สถาบันนิติวิทยาศาสตร์โรงพยาบาลศิริราช
+R1	color_of Arg1:T15 Arg2:T16	
+R2	vehicle_lp Arg1:T15 Arg2:T17	
+R3	color_of Arg1:T18 Arg2:T19	
+R4	vehicle_lp Arg1:T18 Arg2:T20	

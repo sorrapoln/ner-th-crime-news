@@ -1,0 +1,9 @@
+T1	DATE 8 19	25 พ.ย.2562
+T2	LOCATION 63 76	ซอยท่าข้าม 28
+T3	LOCATION 77 90	กรุงเทพมหานคร
+T4	ORGANIZATION 275 289	โรงพยาบาลนครธน
+T5	PERSON 314 335	พล.ต.ต.โชคชัย งามวงศ์
+T6	ORGANIZATION 336 361	ผู้บังคับการตำรวจนครบาล 9
+R1	employee_or_member_of Arg1:T5 Arg2:T6	
+T7	VEHICLE 560 562	รถ
+T8	WEAPON 654 657	ปืน

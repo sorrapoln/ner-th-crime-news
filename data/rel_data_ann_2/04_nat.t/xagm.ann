@@ -1,0 +1,33 @@
+T1	TIME 31 39	21.09 น.
+T2	DATE 49 58	29 ต.ค.64
+T3	PERSON 69 89	ร.ต.ท.บุญเขต รักชาติ
+T4	ORGANIZATION 110 120	สภ.ท่าเรือ
+T5	LOCATION 121 130	อ.ท่ามะกา
+T6	LOCATION 131 142	จ.กาญจนบุรี
+T7	ORGANIZATION 160 172	รพ.มะการักษ์
+T8	ORGANIZATION 190 213	มูลนิธิมิราเคิล ออฟไลฟ์
+T9	ORGANIZATION 214 231	กู้ชีพขุนรัตนาวุธ
+T10	LOCATION 250 260	ต.พระแท่นฯ
+T11	PERSON 451 469	นางน้องนิด รักคล้ำ
+T12	TIME 475 480	32 ปี
+T13	WEAPON 499 506	ของมีคม
+T14	LOCATION 632 645	บ้านเลขที่ 77
+T15	LOCATION 646 653	หมู่ 12
+T16	LOCATION 654 665	บ้านดอนโพรง
+T17	LOCATION 666 676	ต.พระแท่นฯ
+T18	LOCATION 677 687	อ.ท่ามะกาฯ
+T19	PERSON 710 731	พ.ต.อ.สมบัติ โพธิ์งาม
+T20	ORGANIZATION 736 746	สภ.ท่าเรือ
+R1	employee_or_member_of Arg1:T19 Arg2:T20	
+T21	PERSON 941 951	นายธวัชชัย
+T22	PERSON 956 967	แกบ ขอมปราง
+T23	TIME 979 984	40 ปี
+T24	VEHICLE 1029 1040	รถยนต์กระบะ
+R2	own_vehicle Arg1:T21 Arg2:T24	
+R3	crime_relation Arg1:T21 Arg2:T11	
+R4	crime_located_at Arg1:T21 Arg2:T14	
+R5	crime_located_at Arg1:T21 Arg2:T15	
+R6	crime_located_at Arg1:T21 Arg2:T16	
+R7	crime_located_at Arg1:T21 Arg2:T17	
+R8	crime_located_at Arg1:T21 Arg2:T18	
+R9	employee_or_member_of Arg1:T3 Arg2:T4	

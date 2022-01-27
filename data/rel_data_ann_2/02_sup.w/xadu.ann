@@ -1,0 +1,24 @@
+T1	PERSON 0 17	พล.ต.อ.ดำรงศักดิ์
+T2	DATE 53 62	27 ก.ย.64
+T3	LOCATION 81 89	อเมริกัน
+T4	LOCATION 157 167	ถ.รอบเมือง
+T5	LOCATION 168 187	เขตเทศบาลนครขอนแก่น
+T6	TIME 265 270	13 ปี
+T7	LOCATION 287 296	อ.บ้านไผ่
+T8	LOCATION 297 306	จ.ขอนแก่น
+T9	PERSON 457 468	นายโรเบิร์ต
+T10	TIME 488 493	37 ปี
+T11	LOCATION 501 509	อเมริกัน
+R1	located_at Arg1:T9 Arg2:T11	
+R2	crime_located_at Arg1:T9 Arg2:T3	
+R3	crime_date_at Arg1:T9 Arg2:T2	
+R4	crime_located_at Arg1:T9 Arg2:T4	
+R5	crime_located_at Arg1:T9 Arg2:T5	
+T12	PERSON 585 596	นายโรเบิร์ต
+T13	LOCATION 628 639	ย่านซอยนานา
+T14	LOCATION 640 650	ถ.สุขุมวิท
+T15	LOCATION 651 655	กทม.
+T16	ORGANIZATION 675 692	ศาลจังหวัดขอนแก่น
+R6	located_at Arg1:T9 Arg2:T13	
+R7	located_at Arg1:T9 Arg2:T14	
+R8	located_at Arg1:T9 Arg2:T15	

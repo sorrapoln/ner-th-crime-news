@@ -1,0 +1,12 @@
+T1	DATE 7 19	24 ก.ย. 2562
+T2	LOCATION 99 119	เขตเทศบาลนครอุดรธานี
+T3	LOCATION 120 130	จ.อุดรธานี
+T4	PERSON 232 237	นายเอ
+T5	TIME 243 248	17 ปี
+T6	OBJECT 347 373	ปลอกกระสุนปืนขนาด .380 มม.
+T7	OBJECT 408 432	ลูกกระสุนปืนขนาดเดียวกัน
+R1	found_object_at Arg1:T6 Arg2:T2	
+R2	found_object_at Arg1:T7 Arg2:T3	
+R3	found_object_at Arg1:T7 Arg2:T2	
+R4	found_object_at Arg1:T6 Arg2:T3	
+T8	ORGANIZATION 26 42	สภ.เมืองอุดรธานี

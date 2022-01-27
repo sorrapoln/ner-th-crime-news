@@ -1,0 +1,11 @@
+T1	VEHICLE 84 117	รถยนต์เก๋ง ยี่ห้อฮอนด้า รุ่นซีวิค
+T2	COLOR 118 123	สีขาว
+T3	LOCATION 188 197	แยกประเวศ
+T4	LOCATION 198 206	กรุงเทพฯ
+T5	VEHICLE 257 259	รถ
+T6	VEHICLE 295 297	รถ
+T7	WEAPON 355 358	ปืน
+R1	color_of Arg1:T1 Arg2:T2	
+T8	VEHICLE 61 66	กระบะ
+T9	VEHICLE 68 73	กระบะ
+T10	VEHICLE 226 231	กระบะ

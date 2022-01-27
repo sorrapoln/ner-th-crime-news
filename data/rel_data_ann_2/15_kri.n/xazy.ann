@@ -1,0 +1,18 @@
+T1	PERSON 31 39	นายบัญชา
+T2	TIME 59 61	64
+T3	PERSON 110 118	นายวัลลภ
+T4	WEAPON 88 91	ปืน
+R1	crime_relation Arg1:T1 Arg2:T3	
+R2	own_weapon Arg1:T1 Arg2:T4	
+T5	PERSON 179 187	นายวัลลภ
+T6	PERSON 236 244	นายบัญชา
+T7	LOCATION 283 293	ซ.เพิ่มสิน
+T8	LOCATION 297 318	แขวงคลองถนน เขตสายไหม
+T9	DATE 331 342	21 มิถุนายน
+T10	DATE 401 408	23มิ.ย.
+T11	PERSON 410 427	พ.ต.อ.อำนาจ กาหลง
+T12	PERSON 496 504	นายวัลลภ
+T13	PERSON 566 574	นายบัญชา
+R3	crime_located_at Arg1:T1 Arg2:T7	
+R4	crime_located_at Arg1:T1 Arg2:T8	
+R5	crime_date_at Arg1:T1 Arg2:T9	

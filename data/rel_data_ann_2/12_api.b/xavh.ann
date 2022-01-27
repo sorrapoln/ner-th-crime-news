@@ -1,0 +1,29 @@
+T1	DATE 12 21	22 มกราคม
+T2	PERSON 55 75	พล.ต.ท.จิรภพ ภูริเดช
+T3	PERSON 93 112	พล.ต.ต.มนตรี เทศขัน
+T4	PERSON 124 144	พ.ต.อ.พงศ์ปณต ชูแก้ว
+T5	PERSON 171 193	นางดวงรัตน์ หรืออชิรญา
+T6	TIME 213 218	52 ปี
+T7	DATE 266 280	27 มีนาคม 2556
+T8	LOCATION 554 563	ต.โพนเพ็ก
+T9	LOCATION 564 575	อ.มัญจาคีรี
+T10	LOCATION 576 585	จ.ขอนแก่น
+T11	DATE 611 625	2 ธันวาคม 2555
+T12	PERSON 626 637	นางดวงรัตน์
+T13	LOCATION 679 688	ต.แม่หวาด
+T14	LOCATION 689 696	อ.ธารโต
+T15	LOCATION 697 703	จ.ยะลา
+T16	PERSON 959 970	นางดวงรัตน์
+T17	PERSON 1113 1124	นางดวงรัตน์
+T18	DATE 1139 1146	ปี 2559
+T19	ORGANIZATION 1197 1206	ภ.แม่หวาด
+T20	PERSON 1210 1221	นางดวงรัตน์
+T21	PERSON 1154 1165	นางดวงรัตน์
+T22	ORGANIZATION 1081 1091	สภ.แม่หวาด
+R1	located_at Arg1:T5 Arg2:T8	
+R2	located_at Arg1:T5 Arg2:T9	
+R3	located_at Arg1:T5 Arg2:T10	
+R4	crime_date_at Arg1:T5 Arg2:T11	
+R5	crime_located_at Arg1:T12 Arg2:T13	
+R6	crime_located_at Arg1:T12 Arg2:T14	
+R7	crime_located_at Arg1:T12 Arg2:T15	

@@ -1,0 +1,29 @@
+T1	DATE 1 10	23 ก.ย.64
+T2	TIME 54 62	15.20 น.
+T3	ORGANIZATION 80 88	สภ.พุเตย
+T4	LOCATION 89 102	อ.วิเชียรบุรี
+T5	LOCATION 103 114	จ.เพชรบูรณ์
+T6	VEHICLE 141 152	รถยนต์กระบะ
+T7	VEHICLE 157 179	รถจักรยานยนต์ พ่วงข้าง
+T8	LOCATION 215 232	ทางหลวงหมายเลข 21
+T9	LOCATION 233 254	ถนนสายสระบุรี-หล่มสัก
+T10	LOCATION 277 285	กรุงเทพฯ
+T11	LOCATION 297 320	หลักกิโลเมตรที่ 111-112
+T12	ORGANIZATION 332 360	หจก.แก้วจำลอง รับซื้อของเก่า
+T13	LOCATION 361 367	หมู่ 3
+T14	LOCATION 368 375	ต.พุขาม
+T15	LOCATION 376 389	อ.วิเชียรบุรี
+T16	ORGANIZATION 430 450	โรงพยาบาลวิเชียรบุรี
+T17	ORGANIZATION 463 484	กู้ภัยร่วมกตัญญูพุเตย
+T18	VEHICLE 504 537	รถยนต์กระบะยี่ห้อมิตซูบิชิ ไทรทัน
+T19	COLOR 538 550	สีบรอนซ์เงิน
+T20	LP 566 588	1ฒพ-8364 กรุงเทพมหานคร
+T21	VEHICLE 682 703	รถจักรยานยนต์พ่วงข้าง
+T22	COLOR 713 718	สีแดง
+T23	PERSON 797 805	นายบัวคำ
+T24	TIME 811 816	75 ปี
+R1	color_of Arg1:T18 Arg2:T19	
+R2	vehicle_lp Arg1:T18 Arg2:T20	
+R3	color_of Arg1:T21 Arg2:T22	
+R4	own_vehicle Arg1:T23 Arg2:T21	
+R5	own_vehicle Arg1:T23 Arg2:T7	

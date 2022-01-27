@@ -1,0 +1,33 @@
+T1	PERSON 0 14	พล.ต.ต ชยานนท์
+T2	LOCATION 27 37	จว.สระบุรี
+T3	PERSON 80 97	นายธีทัด สาระวงษ์
+T4	TIME 103 108	62 ปี
+T5	WEAPON 151 158	ท่อนไม้
+T6	WEAPON 161 164	จอบ
+T7	LOCATION 198 208	เลขที่ 4/1
+T8	LOCATION 209 214	หมู่5
+T9	LOCATION 215 227	ต.หนองปลาไหล
+T10	LOCATION 228 235	อ.เมือง
+T11	LOCATION 236 245	จ.สระบุรี
+T12	DATE 278 287	8 พฤษภาคม
+T13	LOCATION 689 706	จังหวัดนครราชสีมา
+T14	PERSON 810 836	นายกล่องเกียรติ ภูเลาสิงห์
+T15	TIME 842 847	42 ปี
+T16	WEAPON 859 868	ท่อนเหล็ก
+T17	PERSON 908 925	นางวาสนา สาระวงษ์
+T18	PERSON 944 952	นางวาสนา
+T19	PERSON 975 994	นายพิชิต พุฒิจันทร์
+T20	TIME 1000 1005	40 ปี
+R1	own_weapon Arg1:T17 Arg2:T16	
+R2	crime_relation Arg1:T17 Arg2:T3	
+R3	crime_located_at Arg1:T17 Arg2:T7	
+R4	crime_located_at Arg1:T17 Arg2:T8	
+R5	crime_located_at Arg1:T17 Arg2:T9	
+R6	crime_located_at Arg1:T17 Arg2:T10	
+R7	crime_located_at Arg1:T17 Arg2:T11	
+R8	crime_located_at Arg1:T19 Arg2:T7	
+R9	crime_relation Arg1:T19 Arg2:T3	
+R10	crime_located_at Arg1:T19 Arg2:T8	
+R11	crime_located_at Arg1:T19 Arg2:T9	
+R12	crime_located_at Arg1:T19 Arg2:T10	
+R13	crime_located_at Arg1:T19 Arg2:T11	

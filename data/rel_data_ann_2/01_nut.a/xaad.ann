@@ -1,0 +1,84 @@
+T1	VEHICLE 50 63	รถจักรยานยนต์
+T2	WEAPON 83 87	ค้อน
+T3	TIME 206 212	1 นาที
+T4	TIME 240 248	03.00 น.
+T5	DATE 258 267	14 มกราคม
+T6	LOCATION 282 298	ย่านเมืองทองธานี
+T7	LOCATION 299 319	พื้นที่อำเภอปากเกร็ด
+T8	LOCATION 320 334	จังหวัดนนทบุรี
+T9	DATE 366 373	20 ม.ค.
+T10	ORGANIZATION 381 392	สภ.ปากเกร็ด
+T11	PERSON 447 455	นายพงศกร
+T12	PERSON 461 473	เม่น เปรมบุญ
+T13	TIME 479 484	28 ปี
+T14	PERSON 515 526	นายบุญฤทธิ์
+T15	PERSON 532 545	แมน ทิพยโภชน์
+T16	TIME 551 556	29 ปี
+T17	VEHICLE 562 575	รถจักรยานยนต์
+T18	WEAPON 498 502	ค้อน
+T19	PERSON 577 583	นายพีร
+T20	PERSON 589 603	อาร์ท กวดขุนทด
+T21	TIME 609 614	27 ปี
+T22	PERSON 635 644	นายวีระพล
+T23	PERSON 650 664	ตั้ม แบงกระโทก
+T24	TIME 670 675	30 ปี
+T25	VEHICLE 689 702	รถจักรยานยนต์
+T26	WEAPON 771 774	ปืน
+T27	OBJECT 812 826	โทรศัพท์มือถือ
+T28	OBJECT 829 842	รถจักรยานยนต์
+T29	OBJECT 858 866	เสื้อผ้า
+T30	OBJECT 867 878	หมวกกันน็อก
+T31	OBJECT 882 889	ปืนปลอม
+T32	LOCATION 950 964	ย่านสนามบินน้ำ
+T33	LOCATION 965 976	ตำบลท่าทราย
+T34	LOCATION 977 994	อำเภอเมืองนนทบุรี
+R1	crime_time_at Arg1:T11 Arg2:T4	
+R2	crime_date_at Arg1:T11 Arg2:T5	
+R3	crime_located_at Arg1:T11 Arg2:T6	
+R4	crime_located_at Arg1:T11 Arg2:T7	
+R5	crime_located_at Arg1:T11 Arg2:T8	
+R6	own_weapon Arg1:T11 Arg2:T18	
+R7	crime_located_at Arg1:T14 Arg2:T8	
+R8	crime_located_at Arg1:T14 Arg2:T7	
+R9	crime_located_at Arg1:T14 Arg2:T6	
+R10	crime_date_at Arg1:T14 Arg2:T5	
+R11	crime_time_at Arg1:T14 Arg2:T4	
+R12	own_vehicle Arg1:T14 Arg2:T17	
+R13	crime_located_at Arg1:T19 Arg2:T8	
+R14	crime_located_at Arg1:T19 Arg2:T7	
+R15	crime_located_at Arg1:T19 Arg2:T6	
+R16	crime_date_at Arg1:T19 Arg2:T5	
+R17	crime_time_at Arg1:T19 Arg2:T4	
+R18	own_vehicle Arg1:T22 Arg2:T25	
+R19	crime_located_at Arg1:T22 Arg2:T8	
+R20	crime_located_at Arg1:T22 Arg2:T7	
+R21	crime_located_at Arg1:T22 Arg2:T6	
+R22	crime_date_at Arg1:T22 Arg2:T5	
+R23	crime_time_at Arg1:T22 Arg2:T4	
+R24	found_object_at Arg1:T27 Arg2:T8	
+R25	found_object_at Arg1:T27 Arg2:T7	
+R26	found_object_at Arg1:T27 Arg2:T6	
+R27	found_object_at Arg1:T28 Arg2:T8	
+R28	found_object_at Arg1:T28 Arg2:T7	
+R29	found_object_at Arg1:T28 Arg2:T6	
+R30	found_object_at Arg1:T29 Arg2:T8	
+R31	found_object_at Arg1:T29 Arg2:T7	
+R32	found_object_at Arg1:T29 Arg2:T6	
+R33	found_object_at Arg1:T30 Arg2:T8	
+R34	found_object_at Arg1:T30 Arg2:T7	
+R35	found_object_at Arg1:T30 Arg2:T6	
+R36	found_object_at Arg1:T31 Arg2:T8	
+R37	found_object_at Arg1:T31 Arg2:T7	
+R38	found_object_at Arg1:T31 Arg2:T6	
+R39	located_at Arg1:T11 Arg2:T32	
+R40	located_at Arg1:T11 Arg2:T33	
+R41	located_at Arg1:T11 Arg2:T34	
+R42	located_at Arg1:T14 Arg2:T32	
+R43	located_at Arg1:T14 Arg2:T33	
+R44	located_at Arg1:T14 Arg2:T34	
+R45	located_at Arg1:T19 Arg2:T32	
+R46	located_at Arg1:T19 Arg2:T33	
+R47	located_at Arg1:T19 Arg2:T34	
+R48	located_at Arg1:T22 Arg2:T32	
+R49	located_at Arg1:T22 Arg2:T33	
+R50	located_at Arg1:T22 Arg2:T34	

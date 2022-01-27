@@ -1,0 +1,40 @@
+T1	DATE 8 18	7 ต.ค.2559
+T2	PERSON 20 48	พล.ต.อ.เฉลิมเกียรติ ศรีวรขาน
+T3	ORGANIZATION 60 76	การตำรวจแห่งชาติ
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T4	PERSON 87 108	พล.ต.ท.ศานิตย์ มหถาวร
+T5	ORGANIZATION 120 131	ตำรวจนครบาล
+R2	employee_or_member_of Arg1:T4 Arg2:T5	
+T6	PERSON 144 150	จิมมี่
+T7	LOCATION 169 176	เมียนมา
+R3	located_at Arg1:T6 Arg2:T7	
+T8	ORGANIZATION 186 199	นครบาลบางซื่อ
+T9	LOCATION 227 241	ถนนกำแพงเพชร 2
+T10	LOCATION 246 253	จตุจักร
+T11	LOCATION 321 331	จ.ปทุมธานี
+T12	PERSON 348 357	นายจิมมี่
+T13	VEHICLE 563 570	จักรยาน
+T14	PERSON 597 606	นายจิมมี่
+T15	LOCATION 611 620	ประเทศไทย
+T16	LOCATION 626 631	จ.ตาก
+T17	LOCATION 658 671	ประเทศเมียนมา
+T18	ORGANIZATION 689 706	กองพิสูจน์หลักฐาน
+T19	PERSON 757 766	นายจิมมี่
+T20	ORGANIZATION 838 871	สถานีตำรวจภูธร ประตูน้ำจุฬาลงกรณ์
+T21	LOCATION 872 882	จ.ปทุมธานี
+T22	ORGANIZATION 908 926	ศาลจังหวัดธัญญบุรี
+T23	PERSON 968 977	นายจิมมี่
+T24	ORGANIZATION 978 1006	ตำรวจภูธร ประตูน้ำจุฬาลงกรณ์
+R4	crime_located_at Arg1:T6 Arg2:T11	
+R5	crime_date_at Arg1:T6 Arg2:T1	
+R6	located_at Arg1:T6 Arg2:T17	
+R7	located_at Arg1:T23 Arg2:T17	
+R8	own_vehicle Arg1:T14 Arg2:T13	
+R9	own_vehicle Arg1:T6 Arg2:T13	
+R10	own_vehicle Arg1:T23 Arg2:T13	
+R11	crime_located_at Arg1:T12 Arg2:T11	
+R12	own_vehicle Arg1:T12 Arg2:T13	
+R13	located_at Arg1:T12 Arg2:T17	
+R14	located_at Arg1:T19 Arg2:T17	
+R15	crime_located_at Arg1:T19 Arg2:T11	
+R16	own_vehicle Arg1:T19 Arg2:T13	

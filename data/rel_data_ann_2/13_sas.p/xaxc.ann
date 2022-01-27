@@ -1,0 +1,8 @@
+T1	TIME 18 23	27 ปี
+T2	LOCATION 27 45	จังหวัดหนองบัวลำพู
+T3	DATE 139 147	1 ก.ย.64
+T4	DATE 168 174	3 ก.ย.
+T5	PERSON 295 305	นายเอกพจน์
+T6	LOCATION 334 344	จ.ปทุมธานี
+R1	crime_date_at Arg1:T5 Arg2:T3	
+R2	located_at Arg1:T5 Arg2:T6	

@@ -1,0 +1,5 @@
+T1	TIME 46 51	17 ปี
+T2	PERSON 217 233	นายอรรถพล ชัยสอน
+T3	TIME 239 244	22 ปี
+T4	PERSON 320 334	นาย คุรุศาสตร์
+R1	crime_relation Arg1:T2 Arg2:T4	

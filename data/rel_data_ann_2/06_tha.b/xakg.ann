@@ -1,0 +1,47 @@
+T1	DATE 19 28	12 พ.ย.64
+T2	TIME 34 42	18.45 น.
+T3	PERSON 43 64	ร.ต.อ.ปัญจพล พวงปัญญา
+T4	ORGANIZATION 82 98	สภ.เมืองร้อยเอ็ด
+T5	WEAPON 133 136	ปืน
+T6	LOCATION 184 202	ริมถนนรณชัยชาญยุทธ
+T7	LOCATION 203 218	ซอยรณชัยชาญยุทธ
+T8	LOCATION 219 222	ซ.2
+T9	LOCATION 223 230	ต.ดงลาน
+T10	LOCATION 231 238	อ.เมือง
+T11	LOCATION 239 249	จ.ร้อยเอ็ด
+T12	ORGANIZATION 280 294	กู้ภัยนครสาเกต
+T13	PERSON 375 397	นางสาวแก้วตา แก้วสังข์
+T14	TIME 403 408	39 ปี
+T15	PERSON 799 821	พ.ต.อ.เนติวัฒน์ จันทรา
+T16	PERSON 857 878	พ.ต.ท. ไพรรัตน์ บุปผา
+T17	ORGANIZATION 895 911	สภ.เมืองร้อยเอ็ด
+T18	PERSON 912 933	พ.ต.ต. นัฐพงษ์ นาอุดม
+T19	ORGANIZATION 944 960	สภ.เมืองร้อยเอ็ด
+T20	ORGANIZATION 826 842	สภ.เมืองร้อยเอ็ด
+R1	employee_or_member_of Arg1:T15 Arg2:T20	
+R2	employee_or_member_of Arg1:T16 Arg2:T17	
+R3	employee_or_member_of Arg1:T18 Arg2:T19	
+R4	employee_or_member_of Arg1:T3 Arg2:T4	
+T21	PERSON 1113 1130	นายยิษฐา เมาะราศี
+T22	TIME 1136 1141	30 ปี
+T23	LOCATION 1145 1161	จังหวัดสมุทรสาคร
+R5	crime_relation Arg1:T21 Arg2:T13	
+R6	crime_located_at Arg1:T21 Arg2:T6	
+R7	crime_located_at Arg1:T21 Arg2:T7	
+R8	crime_located_at Arg1:T21 Arg2:T8	
+R9	crime_located_at Arg1:T21 Arg2:T9	
+R10	crime_located_at Arg1:T21 Arg2:T10	
+R11	crime_located_at Arg1:T21 Arg2:T11	
+R12	located_at Arg1:T21 Arg2:T23	
+T24	WEAPON 1176 1179	ปืน
+R13	own_weapon Arg1:T21 Arg2:T24	
+T25	VEHICLE 1269 1300	รถยนต์กระบะยี่ห้ออีซูซุ ดีแมคซ์
+T26	COLOR 1301 1312	สีบรอนซ์เทา
+T27	LP 1328 1342	2ฒภ- 4890 กทม.
+R14	color_of Arg1:T25 Arg2:T26	
+R15	vehicle_lp Arg1:T25 Arg2:T27	
+R16	own_vehicle Arg1:T21 Arg2:T25	
+T28	WEAPON 454 457	ปืน
+R17	crime_date_at Arg1:T21 Arg2:T1	
+R18	crime_time_at Arg1:T21 Arg2:T2	
+T29	WEAPON 1240 1243	ปืน

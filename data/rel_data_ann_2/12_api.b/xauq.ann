@@ -1,0 +1,16 @@
+T1	PERSON 33 56	นายวิญญู หรือโจ วรรณขาว
+T2	TIME 62 67	19 ปี
+T3	ORGANIZATION 145 157	รพ.ศูนย์ตรัง
+T4	ORGANIZATION 168 189	พ.สงขลานครินทร์ (มอ.)
+T5	LOCATION 190 199	อ.หาดใหญ่
+T6	LOCATION 200 207	จ.สงขลา
+T7	WEAPON 269 280	มีดปลายแหลม
+T8	PERSON 400 430	นายอนิรุต หรือเอ็ก สิงห์อินทร์
+T9	TIME 436 441	22 ปี
+R1	own_weapon Arg1:T8 Arg2:T7	
+R2	crime_relation Arg1:T8 Arg2:T1	
+T10	TIME 470 477	02.00 น
+T11	DATE 486 493	27 ม.ค.
+T12	WEAPON 522 533	มีดปลายแหลม
+R3	crime_time_at Arg1:T8 Arg2:T10	
+R4	crime_date_at Arg1:T8 Arg2:T11	

@@ -1,0 +1,20 @@
+T1	PERSON 11 22	นายจีรวัฒน์
+T2	PERSON 27 40	โต๊ด ประทุมมา
+T3	PERSON 44 56	นายพงษ์พันธ์
+T4	PERSON 61 76	ตั้ม วาสนสมพงษ์
+T5	VEHICLE 89 102	รถจักรยานยนต์
+T6	PERSON 113 136	นางสาว วะลัยพรณ์ ปัดทุม
+T7	LOCATION 152 163	ถนนพระราม 2
+T8	PERSON 276 288	นายพงษ์พันธ์
+T9	PERSON 356 367	นายจีรวัฒน์
+T10	PERSON 417 429	นายพงษ์พันธ์
+T11	VEHICLE 441 443	รถ
+T12	PERSON 447 458	นายจัรวัฒน์
+T13	ORGANIZATION 588 598	สน.ท่าข้าม
+T14	ORGANIZATION 748 762	สน.ราษฎร์บูรณะ
+T15	ORGANIZATION 795 806	สน.บุปผาราม
+R1	own_vehicle Arg1:T1 Arg2:T5	
+R2	own_vehicle Arg1:T3 Arg2:T5	
+R3	crime_located_at Arg1:T1 Arg2:T7	
+R4	crime_located_at Arg1:T3 Arg2:T7	
+T16	PERSON 766 777	นายจีรวัฒน์

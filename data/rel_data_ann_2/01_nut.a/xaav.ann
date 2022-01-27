@@ -1,0 +1,7 @@
+T1	DATE 1 10	20 ม.ค.65
+T2	ORGANIZATION 81 103	สถานีตำรวจรถไฟมักกะสัน
+T3	PERSON 132 157	ส.ต.อ. ปริวัตร มั่นศักดิ์
+T4	TIME 163 168	32 ปี
+T5	ORGANIZATION 190 212	สถานีตำรวจรถไฟมักกะสัน
+R1	employee_or_member_of Arg1:T3 Arg2:T5	
+T6	PERSON 347 361	ส.ต.อ. ปริวัตร

@@ -1,0 +1,42 @@
+T1	TIME 10 18	17.00 น.
+T2	DATE 26 35	23 มกราคม
+T3	PERSON 36 57	พ.ต.ท.ธนพรหม ธนอาภากร
+T4	ORGANIZATION 68 77	สน.สามเสน
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	WEAPON 107 110	ปืน
+T6	LOCATION 144 166	บ้านพักองค์การสวนสัตว์
+T7	LOCATION 167 179	ซอยสามเสน 28
+T8	LOCATION 180 196	แขวงถนนนครไชยศรี
+T9	LOCATION 197 205	เขตดุสิต
+T10	LOCATION 206 214	กรุงเทพฯ
+T11	ORGANIZATION 250 265	มูลนิธิเพชรเกษม
+T12	LOCATION 295 306	เลขที่ 1502
+T13	PERSON 350 369	น.ส.มาลีนี โคตุลามา
+T14	TIME 375 380	33 ปี
+T15	ORGANIZATION 448 463	มูลนิธิเพชรเกษม
+T16	ORGANIZATION 468 482	โรงพยาบาลบางโพ
+T17	PERSON 525 536	นายรุ่งอรุณ
+T18	PERSON 542 555	ต่อ สังข์วงษ์
+T19	LOCATION 628 637	ห้อง 1502
+T20	PERSON 648 658	น.ส.มาลินี
+T21	PERSON 746 757	นายรุ่งอรุณ
+T22	WEAPON 768 784	ปืนขนาด .380 มม.
+R2	own_weapon Arg1:T21 Arg2:T22	
+R3	crime_relation Arg1:T21 Arg2:T20	
+R4	crime_relation Arg1:T17 Arg2:T13	
+R5	crime_relation Arg1:T18 Arg2:T13	
+R6	crime_located_at Arg1:T17 Arg2:T6	
+R7	crime_located_at Arg1:T17 Arg2:T7	
+R8	crime_located_at Arg1:T17 Arg2:T8	
+R9	crime_located_at Arg1:T17 Arg2:T9	
+R10	crime_located_at Arg1:T17 Arg2:T10	
+R11	crime_located_at Arg1:T18 Arg2:T6	
+R12	crime_located_at Arg1:T18 Arg2:T7	
+R13	crime_located_at Arg1:T18 Arg2:T8	
+R14	crime_located_at Arg1:T18 Arg2:T9	
+R15	crime_located_at Arg1:T18 Arg2:T10	
+T23	LOCATION 307 313	ชั้น 5
+T24	WEAPON 396 399	ปืน
+T25	LOCATION 565 572	อาคาร 1
+T26	LOCATION 609 615	ชั้น 5
+T27	LOCATION 898 904	ชั้น 5

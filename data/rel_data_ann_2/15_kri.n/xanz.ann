@@ -1,0 +1,34 @@
+T1	TIME 10 18	15.00 น.
+T2	DATE 26 37	24 ก.ย.2564
+T3	PERSON 38 60	ร.ต.ท.หญิงสวรส รัตนวาร
+T4	ORGANIZATION 80 96	สภ.เมืองจันทบุรี
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	LOCATION 149 158	ต.หนองบัว
+T6	LOCATION 159 166	อ.เมือง
+T7	LOCATION 167 177	จ.จันทบุรี
+T8	PERSON 221 229	นายภูษิต
+T9	TIME 235 240	49 ปี
+T10	VEHICLE 279 301	รถจักรยานยนต์ฮอนด้าเวฟ
+T11	LP 310 326	ขงท 257 จันทบุรี
+R2	vehicle_lp Arg1:T10 Arg2:T11	
+R3	own_vehicle Arg1:T8 Arg2:T10	
+T12	VEHICLE 388 410	รถจักรยานยนต์ฮอนด้าเวฟ
+T13	COLOR 411 419	สีเหลือง
+T14	LP 428 444	ขขต 610 จันทบุรี
+T15	LOCATION 741 758	สามแยกเรือนจำเก่า
+T16	PERSON 890 901	นายรัฐนันท์
+T17	TIME 907 912	23 ปี
+T18	LOCATION 922 931	ต.ท่าช้าง
+T19	LOCATION 932 939	อ.เมือง
+T20	LOCATION 940 950	จ.จันทบุรี
+R4	crime_relation Arg1:T16 Arg2:T8	
+R5	crime_located_at Arg1:T16 Arg2:T5	
+R6	crime_located_at Arg1:T16 Arg2:T6	
+R7	crime_located_at Arg1:T16 Arg2:T7	
+R8	located_at Arg1:T16 Arg2:T18	
+R9	located_at Arg1:T16 Arg2:T19	
+R10	located_at Arg1:T16 Arg2:T20	
+R11	crime_located_at Arg1:T16 Arg2:T15	
+R12	own_vehicle Arg1:T16 Arg2:T12	
+R13	color_of Arg1:T12 Arg2:T13	
+R14	vehicle_lp Arg1:T12 Arg2:T14	

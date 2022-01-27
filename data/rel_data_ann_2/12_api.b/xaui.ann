@@ -1,0 +1,16 @@
+T1	WEAPON 68 77	มีดทำครัว
+T2	DATE 273 289	5 พฤศจิกายน 2564
+T3	PERSON 298 322	นายจรูญ หรือเก่ง ฉากไธสง
+T4	TIME 328 333	27 ปี
+T5	LOCATION 338 346	ต.หายโศก
+T6	LOCATION 347 356	อ.พุทไธสง
+T7	LOCATION 357 368	จ.บุรีรัมย์
+R1	located_at Arg1:T3 Arg2:T5	
+R2	located_at Arg1:T3 Arg2:T6	
+R3	located_at Arg1:T3 Arg2:T7	
+T8	WEAPON 372 381	มีดทำครัว
+T9	ORGANIZATION 492 510	โรงพยาบาลบุรีรัมย์
+T10	PERSON 677 701	นายจรูญ หรือเก่ง ฉากไธสง
+T11	TIME 765 775	บ่าย 3 โมง
+R4	own_weapon Arg1:T3 Arg2:T8	
+R5	crime_date_at Arg1:T3 Arg2:T2	

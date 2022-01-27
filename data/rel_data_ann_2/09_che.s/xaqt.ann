@@ -1,0 +1,21 @@
+T1	DATE 7 14	21 ม.ค.
+T2	PERSON 15 20	นางเอ
+T3	TIME 37 42	36 ปี
+T4	LOCATION 51 54	ม.4
+T5	LOCATION 55 65	ต.อู่ตะเภา
+T6	LOCATION 66 75	อ.มโนรมย์
+T7	LOCATION 76 84	จ.ชัยนาท
+T8	WEAPON 110 115	เชือก
+T9	DATE 156 165	14 ม.ค. 6
+T10	ORGANIZATION 216 229	สภ.หางน้ำสาคร
+T11	PERSON 439 447	นายพรรษา
+T12	TIME 459 464	25 ปี
+T13	TIME 485 492	3 เดือน
+T14	PERSON 533 540	นายพรรษ
+R1	own_weapon Arg1:T11 Arg2:T8	
+R2	crime_date_at Arg1:T11 Arg2:T9	
+R3	crime_relation Arg1:T11 Arg2:T2	
+R4	located_at Arg1:T2 Arg2:T4	
+R5	located_at Arg1:T2 Arg2:T5	
+R6	located_at Arg1:T2 Arg2:T6	
+R7	located_at Arg1:T2 Arg2:T7	

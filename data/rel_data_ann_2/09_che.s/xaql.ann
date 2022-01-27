@@ -1,0 +1,7 @@
+T1	PERSON 0 21	พ.ต.อ.บวรภพ สุนทรเรขา
+T2	ORGANIZATION 26 34	สน.พญาไท
+T3	ORGANIZATION 332 358	สถาบันโรคไตภูมิราชนครินทร์
+T4	VEHICLE 464 466	รถ
+T5	VEHICLE 565 578	รถจักรยานยนต์
+T6	VEHICLE 536 538	รถ
+R1	employee_or_member_of Arg1:T1 Arg2:T2	

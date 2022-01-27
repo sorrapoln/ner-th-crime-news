@@ -1,0 +1,38 @@
+T1	DATE 8 18	20 ม.ค. 65
+T2	TIME 25 33	01.03 น.
+T3	PERSON 44 66	ร.ต.ท.กัมปนาท ปานหัตถา
+T4	ORGANIZATION 83 94	สภ.ปักธงชัย
+T5	VEHICLE 116 127	รถตู้โดยสาร
+T6	VEHICLE 133 147	รถบรรทุกสิบล้อ
+T7	LOCATION 150 159	ถนนสาย 24
+T8	LOCATION 169 177	อ.สีคิ้ว
+T9	LOCATION 182 199	หลัก กม.ที่ 30-31
+T10	LOCATION 200 206	ต.ตะคุ
+T11	LOCATION 207 217	อ.ปักธงชัย
+T12	LOCATION 218 230	จ.นครราชสีมา
+T13	ORGANIZATION 267 285	กู้ชีพ รพ.ปักธงชัย
+T14	ORGANIZATION 289 302	กู้ภัย ฮุก 31
+T15	VEHICLE 372 383	รถตู้โดยสาร
+T16	COLOR 384 389	สีขาว
+T17	LP 398 419	ฮบ 5156 กรุงเทพมหานคร
+T18	VEHICLE 456 470	รถบรรทุกสิบล้อ
+T19	COLOR 471 476	สีขาว
+T20	LP 485 499	87-2750 นครปฐม
+T21	VEHICLE 531 542	รถตู้โดยสาร
+T22	VEHICLE 618 629	รถตู้โดยสาร
+T23	PERSON 734 755	นายจักรกฤษณ์ ชาญพินิจ
+T24	TIME 761 766	24 ปี
+T25	VEHICLE 776 787	รถตู้โดยสาร
+T26	PERSON 792 813	นายนันทวัฒน์ ศรีลาชัย
+T27	TIME 819 824	19 ปี
+R1	color_of Arg1:T18 Arg2:T19	
+R2	vehicle_lp Arg1:T18 Arg2:T20	
+R3	color_of Arg1:T15 Arg2:T16	
+R4	vehicle_lp Arg1:T15 Arg2:T17	
+R5	crime_located_at Arg1:T23 Arg2:T7	
+R6	crime_located_at Arg1:T23 Arg2:T8	
+R7	crime_located_at Arg1:T23 Arg2:T9	
+R8	crime_located_at Arg1:T23 Arg2:T10	
+R9	crime_located_at Arg1:T23 Arg2:T11	
+R10	crime_located_at Arg1:T23 Arg2:T12	
+R11	employee_or_member_of Arg1:T3 Arg2:T4	

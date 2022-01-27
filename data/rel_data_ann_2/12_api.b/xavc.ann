@@ -1,0 +1,6 @@
+T1	DATE 7 18	21 ต.ค.2562
+T2	PERSON 25 51	พ.ต.ท.พสิษฐ์ สายชนม์ศักดิ์
+T3	ORGANIZATION 70 79	สน.โชคชัย
+T4	LOCATION 132 140	ถนนรัชดา
+T5	OBJECT 168 186	ภาพจากกล้องวงจรปิด
+R1	employee_or_member_of Arg1:T2 Arg2:T3	

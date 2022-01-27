@@ -1,0 +1,7 @@
+T1	LOCATION 23 37	คลองบางกอกน้อย
+T2	LOCATION 38 49	ถ.นครอินทร์
+T3	VEHICLE 54 59	เบนซ์
+T4	LP 68 89	งพ 4851 กรุงเทพมหานคร
+R1	vehicle_lp Arg1:T3 Arg2:T4	
+T5	PERSON 155 171	นายธีระ ไชยสมเดช
+T6	TIME 177 182	30 ปี

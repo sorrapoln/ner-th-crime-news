@@ -1,0 +1,18 @@
+T1	DATE 12 24	14 พฤศจิกายน
+T2	PERSON 25 45	พล.ต.ท.จิรภพ ภูริเดช
+T3	PERSON 52 82	พล.ต.ต.ภูมินทร์ พุ่มพันธุ์ม่วง
+T4	PERSON 98 127	พ.ต.อ.เรืองรัตน์ หงษ์ทิพรัตน์
+T5	PERSON 148 167	พ.ต.ท.ดนัย ชุ่มอภัย
+T6	PERSON 204 219	นายธิติ อิ่มอ้น
+T7	TIME 225 230	31 ปี
+T8	ORGANIZATION 241 255	ศาลจังหวัดยะลา
+T9	DATE 280 290	23 มิ.ย.63
+T10	LOCATION 480 487	หมู่ 12
+T11	LOCATION 488 497	ต.ท่าช้าง
+T12	LOCATION 498 507	อ.บางกล่ำ
+T13	LOCATION 508 515	จ.สงขลา
+T14	PERSON 524 531	นายธิติ
+R1	located_at Arg1:T6 Arg2:T10	
+R2	located_at Arg1:T6 Arg2:T11	
+R3	located_at Arg1:T6 Arg2:T12	
+R4	located_at Arg1:T6 Arg2:T13	

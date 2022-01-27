@@ -1,0 +1,31 @@
+T1	PERSON 41 51	นายพรหมทัต
+T2	LOCATION 115 128	ป่ากระถินเทพา
+T3	LOCATION 565 575	บ้านยายไทย
+T4	LOCATION 576 582	ต.สลุย
+T5	LOCATION 583 591	อ.ท่าแซะ
+T6	LOCATION 694 705	ถนนเพชรเกษม
+T7	LOCATION 902 910	อ.ท่าแซะ
+T8	OBJECT 238 249	ปืนอาร์พีจี
+T9	OBJECT 261 284	ลำกล้องสำรองปืน เอ็ม 60
+T10	OBJECT 302 310	ลูก ค.10
+T11	OBJECT 326 343	ลูก กปล.ขนาด 5056
+T12	PERSON 361 371	นายพรหมทัต
+T13	VEHICLE 388 402	จยย.พ่วงรถเข็น
+T14	PERSON 445 452	นายเอ็ม
+T15	VEHICLE 463 477	จยย.พ่วงรถเข็น
+T16	OBJECT 623 632	ปืนสงคราม
+T17	OBJECT 636 652	เครื่องกระสุนปืน
+T18	VEHICLE 764 778	จยย.พ่วงรถเข็น
+T19	OBJECT 785 794	ปืนสงคราม
+T20	LOCATION 890 901	ตำบลท่าข้าม
+T21	OBJECT 942 945	ปืน
+T22	OBJECT 973 982	กระสุนปืน
+R1	own_vehicle Arg1:T1 Arg2:T13	
+R2	found_object_at Arg1:T8 Arg2:T2	
+R3	found_object_at Arg1:T9 Arg2:T2	
+R4	found_object_at Arg1:T10 Arg2:T2	
+R5	found_object_at Arg1:T11 Arg2:T2	
+R6	found_object_at Arg1:T21 Arg2:T20	
+R7	found_object_at Arg1:T21 Arg2:T7	
+R8	found_object_at Arg1:T22 Arg2:T20	
+R9	found_object_at Arg1:T22 Arg2:T7	

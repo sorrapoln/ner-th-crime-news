@@ -1,0 +1,24 @@
+T1	PERSON 13 33	น.ส.บังอร นันทเสนีย์
+T2	TIME 39 44	31 ปี
+T3	PERSON 120 128	นายไกรษร
+T4	PERSON 166 176	น.ส.สุภาพร
+T5	PERSON 204 214	น.ส.สุภาพร
+T6	PERSON 279 286	ายไกรษร
+T7	WEAPON 304 307	มีด
+T8	PERSON 360 370	นายศิริชัย
+T9	PERSON 375 385	น.ส.สุภาพร
+T10	PERSON 439 449	นายศิริชัย
+T11	PERSON 454 464	น.ส.สุภาพร
+T12	PERSON 509 517	นายไกรษร
+T13	PERSON 593 603	นายศิริชัย
+T14	PERSON 608 618	น.ส.สุภาพร
+T15	PERSON 682 690	นายไกรษร
+T16	PERSON 629 639	นายศิริชัย
+T17	PERSON 737 747	นายศิริชัย
+T18	PERSON 760 768	นายไกรษร
+T19	PERSON 873 883	นายศิรฺชัย
+T20	PERSON 942 952	น.ส.สุภาพร
+T21	PERSON 993 1001	นายไกรษร
+R1	own_weapon Arg1:T6 Arg2:T7	
+R2	crime_relation Arg1:T6 Arg2:T8	
+R3	crime_relation Arg1:T6 Arg2:T9	

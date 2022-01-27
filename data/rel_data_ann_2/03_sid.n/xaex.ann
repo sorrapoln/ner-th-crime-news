@@ -1,0 +1,12 @@
+T1	DATE 8 15	21 ม.ค.
+T2	ORGANIZATION 20 42	กองบัญชาการตำรวจนครบาล
+T3	PERSON 51 77	พล.ต.ต.จิรสันต์ แก้วแสงเอก
+T4	VEHICLE 147 160	รถจักรยานยนต์
+T5	PERSON 216 235	ด.ต.สุดสาคร บุญล้อม
+T6	ORGANIZATION 252 265	สน.ทุ่งมหาเมฆ
+T7	PERSON 279 290	ด.ต.สุดสาคร
+T8	VEHICLE 331 343	ถจักรยานยนต์
+T9	PERSON 552 563	ด.ต.สุดสาคร
+T10	ORGANIZATION 582 595	สน.ทุ่งมหาเมฆ
+R1	employee_or_member_of Arg1:T5 Arg2:T6	
+R2	own_vehicle Arg1:T5 Arg2:T8	

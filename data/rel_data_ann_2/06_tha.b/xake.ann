@@ -1,0 +1,40 @@
+T1	DATE 7 19	18 ก.ย. 2562
+T2	TIME 25 33	00.30 น.
+T3	VEHICLE 101 114	รถจักรยานยนต์
+T4	LOCATION 232 242	ถนนสาย 201
+T5	LOCATION 243 259	แก้งคร้อ-ภูเขียว
+T6	LOCATION 260 272	ต.ช่องสามหมอ
+T7	LOCATION 273 283	อ.แก้งคร้อ
+T8	LOCATION 284 293	จ.ชัยภูมิ
+T9	VEHICLE 365 369	จยย.
+T10	ORGANIZATION 411 422	สภ.แก้งคร้อ
+T11	LOCATION 566 579	อำเภอแก้งคร้อ
+T12	LOCATION 580 589	จ.ชัยภูมิ
+T13	PERSON 611 619	นายนคเรศ
+T14	TIME 625 630	23 ปี
+T15	PERSON 634 644	นายธีรภัทร
+T16	TIME 650 655	22 ปี
+T17	WEAPON 716 745	ปืนลูกโม่ ดัดแปลงขนาด .32 มม.
+T18	VEHICLE 778 804	รถจักรยานยนต์ ยี่ห้อฮอนด้า
+T19	COLOR 804 808	สีดำ
+T20	LP 817 832	กฉ 8542 ชัยภูมิ
+R1	color_of Arg1:T18 Arg2:T19	
+R2	vehicle_lp Arg1:T18 Arg2:T20	
+R3	own_weapon Arg1:T13 Arg2:T17	
+R4	own_weapon Arg1:T15 Arg2:T17	
+R5	crime_date_at Arg1:T13 Arg2:T1	
+R6	crime_date_at Arg1:T15 Arg2:T1	
+R7	own_vehicle Arg1:T13 Arg2:T18	
+R8	own_vehicle Arg1:T15 Arg2:T18	
+R9	located_at Arg1:T13 Arg2:T11	
+R10	located_at Arg1:T13 Arg2:T12	
+R11	located_at Arg1:T15 Arg2:T11	
+R12	located_at Arg1:T15 Arg2:T12	
+R13	crime_located_at Arg1:T13 Arg2:T4	
+R14	crime_located_at Arg1:T13 Arg2:T5	
+R15	crime_located_at Arg1:T13 Arg2:T6	
+R16	crime_located_at Arg1:T15 Arg2:T4	
+R17	crime_located_at Arg1:T15 Arg2:T5	
+R18	crime_located_at Arg1:T15 Arg2:T6	
+R19	crime_time_at Arg1:T13 Arg2:T2	
+R20	crime_time_at Arg1:T15 Arg2:T2	

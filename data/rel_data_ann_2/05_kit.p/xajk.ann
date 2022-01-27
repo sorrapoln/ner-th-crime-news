@@ -1,0 +1,65 @@
+T1	WEAPON 27 32	เชือก
+T2	WEAPON 64 67	ปืน
+T3	LOCATION 113 134	หมู่บ้านห้วยทรายเหนือ
+T4	LOCATION 135 141	หมู่ 6
+T5	LOCATION 142 153	ต.ห้วยเฮี้ย
+T6	LOCATION 154 162	อ.นครไทย
+T7	LOCATION 163 173	จ.พิษณุโลก
+T8	DATE 206 213	31 ต.ค.
+T9	DATE 294 306	13 พ.ย. 2564
+T10	PERSON 307 327	พล.ต.ต.ธวัช วงศ์สง่า
+T11	LOCATION 334 345	จว.พิษณุโลก
+T12	PERSON 357 380	พล.ต.ท.อัคราเดช พิมลศรี
+T13	PERSON 400 422	พล.ต.ต.ณัฐวุฒิ ภาคภูมิ
+T14	LOCATION 479 489	จ.พิษณุโลก
+T15	PERSON 528 537	น.ส.อบเชย
+T16	TIME 543 548	36 ปี
+T17	LOCATION 558 570	จ.นครราชสีมา
+R1	located_at Arg1:T15 Arg2:T17	
+T18	PERSON 575 583	นายกฤษดา
+T19	TIME 589 594	43 ปี
+T20	LOCATION 609 614	จ.เลย
+R2	located_at Arg1:T18 Arg2:T20	
+T21	PERSON 626 635	นายชัยทอง
+T22	TIME 641 646	28 ปี
+T23	LOCATION 694 704	ต.เข็กน้อย
+T24	LOCATION 705 714	อ.เข้าค้อ
+T25	LOCATION 715 726	จ.เพชรบูรณ์
+R3	located_at Arg1:T21 Arg2:T23	
+R4	located_at Arg1:T21 Arg2:T24	
+R5	located_at Arg1:T21 Arg2:T25	
+R6	crime_relation Arg1:T15 Arg2:T21	
+R7	crime_relation Arg1:T18 Arg2:T21	
+T26	LOCATION 757 766	อ.หล่มสัก
+T27	LOCATION 767 778	จ.เพชรบูรณ์
+T28	PERSON 801 810	น.ส.อบเชย
+T29	LOCATION 814 822	อ.ครบุรี
+T30	LOCATION 823 835	จ.นครราชสีมา
+T31	OBJECT 843 859	ปืนลูกโม่ขนาด.22
+T32	OBJECT 924 938	โทรศัพท์มือถือ
+T33	OBJECT 949 961	กระเป๋าสะพาย
+T34	COLOR 961 969	สีน้ำตาล
+R8	found_object_at Arg1:T31 Arg2:T29	
+R9	found_object_at Arg1:T31 Arg2:T30	
+R10	found_object_at Arg1:T32 Arg2:T29	
+R11	found_object_at Arg1:T32 Arg2:T30	
+R12	found_object_at Arg1:T33 Arg2:T29	
+R13	found_object_at Arg1:T33 Arg2:T30	
+T35	PERSON 1022 1031	น.ส.อบเชย
+T36	PERSON 1137 1146	น.ส.อบเชย
+T37	LOCATION 1162 1170	กรุงเทพฯ
+T38	DATE 1199 1206	19 ต.ค.
+T39	PERSON 1207 1216	น.ส.อบเชย
+T40	PERSON 1221 1229	นายกฤษดา
+T41	LOCATION 1241 1249	อ.ครบุรี
+T42	LOCATION 1250 1262	จ.นครราชสีมา
+T43	LOCATION 1297 1318	หมู่บ้านห้วยทรายเหนือ
+T44	PERSON 1385 1393	นายกฤษดา
+T45	PERSON 1418 1427	น.ส.อบเชย
+T46	WEAPON 1402 1407	เชือก
+R14	own_weapon Arg1:T44 Arg2:T46	
+T47	WEAPON 1431 1436	ถุงดำ
+R15	own_weapon Arg1:T45 Arg2:T47	
+T48	ORGANIZATION 1604 1614	สภ.บ้านแยง
+T49	LOCATION 1615 1625	จ.พิษณุโลก
+T50	WEAPON 38 43	ถุงดำ

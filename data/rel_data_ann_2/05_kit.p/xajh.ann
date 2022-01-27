@@ -1,0 +1,25 @@
+T1	DATE 12 23	8 พฤศจิกายน
+T2	PERSON 24 47	พ.ต.อ.ภูริส จินตรานันท์
+T3	ORGANIZATION 52 63	สน.สุทธิสาร
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T4	DATE 80 93	วันที่ 7 พ.ย.
+T5	VEHICLE 198 211	รถจักรยานยนต์
+T6	LOCATION 261 272	ลาดพร้าว 34
+T7	LOCATION 273 284	เขตห้วยขวาง
+T8	VEHICLE 288 313	รถจักรยานยนต์ รุ่นเวฟ 125
+T9	LP 322 345	9 กต 3193 กรุงเทพมหานคร
+R2	vehicle_lp Arg1:T8 Arg2:T9	
+T10	ORGANIZATION 368 379	สน.สุทธิสาร
+T11	PERSON 402 412	น.ส.อภิชญา
+T12	TIME 432 437	24 ปี
+T13	ORGANIZATION 476 487	สน.สุทธิสาร
+T14	VEHICLE 529 536	รถ จยย.
+T15	PERSON 581 592	พ.ต.อ.ภูริส
+T16	ORGANIZATION 615 626	สน.สุทธิสาร
+T17	LOCATION 689 704	ซ.รัชดาภิเษก 28
+T18	LOCATION 705 718	แขวงสามเสนนอก
+T19	LOCATION 719 730	เขตห้วยขวาง
+T20	TIME 747 755	10.50 น.
+T21	DATE 763 769	7 พ.ย.
+T22	VEHICLE 872 885	รถจักรยานยนต์
+T23	VEHICLE 1020 1026	รถยนต์

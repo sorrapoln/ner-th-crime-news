@@ -1,0 +1,15 @@
+T1	DATE 12 19	17 ม.ค.
+T2	ORGANIZATION 31 42	สภ.ด่านซ้าย
+T3	LOCATION 43 48	จ.เลย
+T4	LOCATION 105 108	ลาว
+T5	PERSON 149 170	นางพอนสะหวัน แสงอาลุน
+T6	TIME 176 181	30 ปี
+T7	LOCATION 198 206	สปป. ลาว
+T8	WEAPON 228 236	มีดอีโต้
+T9	PERSON 279 291	นางพอนสะหวัน
+T10	VEHICLE 315 328	รถจักรยานยนต์
+T11	VEHICLE 398 411	รถจักรยานยนต์
+T12	PERSON 421 433	นางพอนสะหวัน
+T13	PERSON 487 493	นางวัน
+R1	own_weapon Arg1:T9 Arg2:T8	
+R2	crime_relation Arg1:T9 Arg2:T13	

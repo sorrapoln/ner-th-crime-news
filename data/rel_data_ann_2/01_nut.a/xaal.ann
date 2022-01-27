@@ -1,0 +1,33 @@
+T1	DATE 7 18	30 ก.ย.2564
+T2	ORGANIZATION 36 52	สภ.เมืองจันทบุรี
+T3	WEAPON 108 111	มีด
+T4	ORGANIZATION 132 151	ตำหนักเจ้าแม่กวนอิม
+T5	LOCATION 170 179	ต.ท่าช้าง
+T6	LOCATION 180 187	อ.เมือง
+T7	LOCATION 188 198	จ.จันทบุรี
+T8	ORGANIZATION 243 259	สภ.เมืองจันทบุรี
+T9	PERSON 416 432	นายเกียรติศักดิ์
+T10	TIME 454 459	25 ปี
+T11	PERSON 555 567	น.ส.วิลัยทอง
+T12	TIME 589 594	29 ปี
+T13	WEAPON 616 619	มีด
+T14	ORGANIZATION 694 714	โรงพยาบาลพระปกเกล้าฯ
+T15	PERSON 754 769	นายศักดิ์สิทธิ์
+T16	TIME 791 796	46 ปี
+T17	PERSON 908 920	น.ส.วิลัยทอง
+T18	DATE 962 969	29 ก.ย.
+T19	PERSON 979 995	นายเกียรติศักดิ์
+T20	PERSON 1045 1060	นายศักดิ์สิทธิ์
+T21	PERSON 1184 1200	นายเกียรติศักดิ์
+T22	PERSON 1211 1223	น.ส.วิลัยทอง
+T23	PERSON 1326 1342	นายเกียรติศักดิ์
+T24	WEAPON 1361 1364	มีด
+T25	PERSON 1510 1526	นายเกียรติศักดิ์
+T26	PERSON 1562 1577	นายศักดิ์สิทธิ์
+R1	crime_relation Arg1:T9 Arg2:T15	
+R2	crime_relation Arg1:T9 Arg2:T11	
+R3	own_weapon Arg1:T9 Arg2:T13	
+R4	crime_located_at Arg1:T9 Arg2:T5	
+R5	crime_located_at Arg1:T9 Arg2:T6	
+R6	crime_located_at Arg1:T9 Arg2:T7	
+R7	crime_date_at Arg1:T9 Arg2:T18	

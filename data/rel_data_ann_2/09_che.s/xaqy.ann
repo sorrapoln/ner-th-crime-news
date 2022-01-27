@@ -1,0 +1,20 @@
+T1	DATE 29 35	1 ก.ย.
+T2	TIME 47 55	16.00 น.
+T3	VEHICLE 155 161	รถเก๋ง
+T4	COLOR 161 166	สีแดง
+R1	color_of Arg1:T3 Arg2:T4	
+T5	ORGANIZATION 247 261	สภ.เมืองชลบุรี
+T6	VEHICLE 288 294	รถเก๋ง
+T7	LOCATION 339 377	ถนนบายพาสเลี่ยงเมืองชลบุรี ขาเข้าพัทยา
+T8	LOCATION 378 387	ต.บ้านสวน
+T9	LOCATION 388 395	อ.เมือง
+T10	LOCATION 396 404	จ.ชลบุรี
+T11	PERSON 424 434	นายธันธิชา
+T12	PERSON 440 446	แนตตี้
+T13	TIME 465 470	30 ปี
+T14	VEHICLE 513 538	รถเก๋งยี่ห้อโตโยต้า ยาริส
+T15	COLOR 539 544	สีแดง
+T16	LP 560 571	7951 ชลบุรี
+R2	color_of Arg1:T14 Arg2:T15	
+R3	vehicle_lp Arg1:T14 Arg2:T16	
+R4	own_vehicle Arg1:T11 Arg2:T14	

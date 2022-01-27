@@ -1,0 +1,41 @@
+T1	DATE 12 24	13 พฤศจิกายน
+T2	DATE 57 69	12 พฤศจิกายน
+T3	TIME 81 88	22.00 น
+T4	PERSON 90 114	พล.ต.ต.ธีรเดช ธรรมสุธีร์
+T5	PERSON 126 137	พ.ต.อ.มาโนต
+T6	PERSON 166 191	พ.ต.ท.ประจักษ์พงษ์ สุริยา
+T7	PERSON 213 235	พ.ต.ท.สุวัฒน์ บริรักษ์
+T8	PERSON 269 288	พ.ต.ท.เอกกร วรรณทอง
+T9	PERSON 289 316	พ.ต.ต.อสวรรธน์ ศิระเวรินทร์
+T10	PERSON 374 392	พ.ต.อ.ศตวรรษ บุญมี
+T11	PERSON 443 459	นายสุริยา ตะโกนา
+T12	TIME 465 470	31 ปี
+T13	ORGANIZATION 489 516	ธนาคารกรุงเทพ จำกัด (มหาชน)
+T14	LOCATION 517 529	สาขาบ้านเก่า
+T15	LOCATION 530 533	ม.3
+T16	LOCATION 534 544	ต.บ้านเก่า
+T17	LOCATION 545 553	อ.พานทอง
+T18	LOCATION 554 562	จ.ชลบุรี
+T19	WEAPON 627 641	อาวุธปืน(ปลอม)
+T20	COLOR 642 646	สีดำ
+T21	PERSON 785 798	พล.ต.ต.ธีรเดช
+T22	DATE 831 843	12 พฤศจิกายน
+T23	TIME 864 872	14.27 น.
+T24	TIME 900 905	30 ปี
+T25	COLOR 938 942	สีดำ
+T26	ORGANIZATION 988 1015	ธนาคารกรุงเทพ จำกัด (มหาชน)
+T27	LOCATION 1016 1028	สาขาบ้านเก่า
+T28	LOCATION 1029 1032	ม.3
+T29	LOCATION 1033 1043	ต.บ้านเก่า
+T30	LOCATION 1044 1052	อ.พานทอง
+T31	LOCATION 1053 1061	จ.ชลบุรี
+T32	VEHICLE 1428 1441	รถจักรยานยนต์
+R1	crime_located_at Arg1:T11 Arg2:T14	
+R2	crime_located_at Arg1:T11 Arg2:T15	
+R3	crime_located_at Arg1:T11 Arg2:T16	
+R4	crime_located_at Arg1:T11 Arg2:T17	
+R5	crime_located_at Arg1:T11 Arg2:T18	
+R6	own_weapon Arg1:T11 Arg2:T19	
+R7	crime_date_at Arg1:T11 Arg2:T22	
+R8	crime_time_at Arg1:T11 Arg2:T23	
+R9	own_vehicle Arg1:T11 Arg2:T32	

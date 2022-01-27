@@ -1,0 +1,53 @@
+T1	LOCATION 24 38	สี่แยกวัดต้นสน
+T2	LOCATION 39 49	อำเภอเมือง
+T3	LOCATION 50 64	จังหวัดอ่างทอง
+T4	TIME 82 87	19.19
+T5	DATE 98 103	2 พ.ค
+T6	VEHICLE 116 127	รถยนต์กระบะ
+T7	VEHICLE 189 201	รถยนต์อีซูซุ
+T8	WEAPON 228 231	ปืน
+T9	VEHICLE 279 292	รถยนต์โตโยต้า
+T10	COLOR 293 297	สีดำ
+T11	LP 313 330	บร 3889 กำแพงเพชร
+T12	PERSON 334 351	นาย นฤเบส พลเรือน
+T13	PERSON 353 356	บอล
+T14	TIME 363 368	25 ปี
+T15	PERSON 473 478	นาย ป
+T16	PERSON 482 487	นาย ซ
+T17	VEHICLE 531 537	รถยนต์
+T18	PERSON 607 627	พ.ต.ท.ประสิทธิ์ สุโข
+T19	ORGANIZATION 643 658	สภ.เมืองอ่างทอง
+T20	PERSON 676 693	นาย นฤเบส พลเรือน
+T21	PERSON 695 698	บอล
+T22	TIME 705 710	25 ปี
+T23	PERSON 735 741	นาย ป.
+T24	WEAPON 758 761	ปืน
+T25	VEHICLE 796 810	รถยนต์ โตโยต้า
+T26	COLOR 811 815	สีดำ
+T27	LP 831 848	บร 3889 กำแพงเพชร
+T28	LOCATION 868 882	สี่แยกวัดต้นสน
+T29	LOCATION 883 895	ตำบลตลาดหลวง
+T30	LOCATION 896 906	อำเภอเมือง
+T31	LOCATION 907 921	จังหวัดอ่างทอง
+T32	VEHICLE 951 957	รถยนต์
+R1	own_weapon Arg1:T15 Arg2:T24	
+R2	own_weapon Arg1:T16 Arg2:T24	
+R3	crime_relation Arg1:T20 Arg2:T15	
+R4	crime_relation Arg1:T20 Arg2:T16	
+R5	own_vehicle Arg1:T20 Arg2:T25	
+R6	color_of Arg1:T25 Arg2:T26	
+R7	vehicle_lp Arg1:T25 Arg2:T27	
+R9	crime_date_at Arg1:T20 Arg2:T5	
+R8	crime_located_at Arg1:T15 Arg2:T28	
+R10	crime_located_at Arg1:T15 Arg2:T29	
+R11	crime_located_at Arg1:T15 Arg2:T30	
+R12	crime_located_at Arg1:T15 Arg2:T31	
+R13	crime_time_at Arg1:T15 Arg2:T4	
+R14	crime_date_at Arg1:T15 Arg2:T5	
+R15	crime_located_at Arg1:T16 Arg2:T28	
+R16	crime_located_at Arg1:T16 Arg2:T29	
+R17	crime_located_at Arg1:T16 Arg2:T30	
+R18	crime_located_at Arg1:T16 Arg2:T31	
+R19	crime_date_at Arg1:T16 Arg2:T5	
+R20	crime_time_at Arg1:T16 Arg2:T4	
+R21	employee_or_member_of Arg1:T18 Arg2:T19	

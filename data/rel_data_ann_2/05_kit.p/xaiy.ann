@@ -1,0 +1,12 @@
+T1	DATE 8 18	8 ส.ค.2564
+T2	PERSON 32 52	นายธีรวัฒน์ ท่อทิพย์
+T3	PERSON 73 97	น.ส.นิโคล ซาเว่น ไวครอป์
+R1	crime_relation Arg1:T2 Arg2:T3	
+T4	TIME 103 108	57 ปี
+T5	ORGANIZATION 126 154	ทูตสหพันธรัฐสาธารณรัฐเยอรมนี
+R2	employee_or_member_of Arg1:T3 Arg2:T5	
+T6	LOCATION 182 196	สวิตเซอร์แลนด์
+T7	DATE 209 219	5 ส.ค.2564
+R3	crime_date_at Arg1:T2 Arg2:T7	
+T8	OBJECT 599 609	กระเป๋าเป้
+T9	OBJECT 633 640	รองเท้า

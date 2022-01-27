@@ -1,0 +1,17 @@
+T1	DATE 12 24	24 พฤศจิกายน
+T2	PERSON 25 45	พล.ต.ท.จิรภพ ภูริเดช
+T3	PERSON 53 83	พล.ต.ต.ภูมินทร์ พุ่มพันธุ์ม่วง
+T4	ORGANIZATION 84 112	ผบก.ปฏิบัติการพิเศษ (บก.ปพ.)
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	PERSON 124 147	พ.ต.อ.อภิสัณฐ์ ไชยรัตน์
+T6	ORGANIZATION 148 183	ผกก.วิเคราะห์ข่าวและเครื่องมือพิเศษ
+R2	employee_or_member_of Arg1:T5 Arg2:T6	
+T7	PERSON 191 211	พ.ต.ต.ชัยวัฒน์ จันนา
+T8	ORGANIZATION 212 228	สว.วิเคราะห์ข่าว
+R3	employee_or_member_of Arg1:T7 Arg2:T8	
+T9	PERSON 249 272	นายนนทพันธ์ สุวรรณรัตน์
+T10	TIME 278 283	25 ปี
+T11	ORGANIZATION 294 312	ศาลจังหวัดเพชรบุรี
+T12	LOCATION 354 384	ศาลากลางจังหวัดพระนครศรีอยุธยา
+T13	LOCATION 592 602	จ.เพชรบุรี
+T14	ORGANIZATION 966 973	สภ.ชะอำ

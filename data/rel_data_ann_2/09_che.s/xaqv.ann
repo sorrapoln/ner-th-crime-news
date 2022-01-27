@@ -1,0 +1,6 @@
+T1	ORGANIZATION 11 26	การไฟฟ้านครหลวง
+T2	LOCATION 75 85	ถนนสิรินธร
+T3	LOCATION 86 96	เขตบางพลัด
+T4	VEHICLE 137 155	รถเก๋งฮอนด้า ซีวิค
+T5	LP 164 187	9 กศ 5230 กรุงเทพมหานคร
+R1	vehicle_lp Arg1:T4 Arg2:T5	

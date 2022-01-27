@@ -1,0 +1,11 @@
+T1	DATE 7 18	17 ต.ค.2562
+T2	PERSON 19 45	พ.ต.ท.พงษ์ดนัย วิมุกติบุตร
+T3	ORGANIZATION 58 68	สน.ทองหล่อ
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T4	ORGANIZATION 121 133	ธนาคารออมสิน
+T5	LOCATION 160 181	ตรงข้ามซอยสุขุมวิท 24
+T6	LOCATION 182 193	ถนนสุขุมวิท
+T7	LOCATION 204 220	แขวงคลองเตยเหนือ
+T8	LOCATION 221 228	เขตวัฒน
+T9	LOCATION 230 233	กทม
+T10	PERSON 250 273	พ.ต.อ.นิติวัฒน์ แสนสิ่ง

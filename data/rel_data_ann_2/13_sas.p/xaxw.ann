@@ -1,0 +1,36 @@
+T1	PERSON 26 34	นายสมชาย
+T2	DATE 69 80	28 ก.ค.2563
+T3	VEHICLE 105 118	รถจักรยานยนต์
+T4	WEAPON 126 129	ปืน
+T5	PERSON 137 155	นายประทุม สะอาดนัก
+T6	TIME 161 166	47 ปี
+T7	VEHICLE 175 186	จักรยานยนต์
+T8	ORGANIZATION 211 231	โรงเรียนเมืองพัทยา 8
+T9	ORGANIZATION 264 277	สภ.เมืองพัทยา
+T10	PERSON 287 302	นายมนัส อิ่มหนำ
+T11	TIME 308 313	39 ปี
+T12	PERSON 317 333	นายนิพนธ์ ปานทอง
+T13	TIME 339 344	47 ปี
+T14	PERSON 490 515	พล.ต.อ.สุวัฒน์ แจ้งยอดสุข
+T15	PERSON 651 660	นายประทุม
+T16	LOCATION 704 714	เมืองพัทยา
+T17	PERSON 825 842	นายสุพรรณ ใหม่งาม
+T18	TIME 848 853	53 ปี
+T19	PERSON 854 869	นายถาวร สาระกูล
+T20	TIME 875 880	53 ปี
+T21	WEAPON 901 904	ปืน
+T22	PERSON 938 952	พล.ต.อ.สุวัฒน์
+T23	ORGANIZATION 1028 1060	สำนักงานตำรวจแห่งชาติ (ศปอร.ตร.)
+R1	employee_or_member_of Arg1:T22 Arg2:T23	
+T24	PERSON 1140 1149	นายสุพรรณ
+T25	PERSON 1153 1160	นายถาวร
+T26	DATE 1176 1182	9 ธ.ค.
+T27	PERSON 1245 1267	นายสมชาย (หลงจู๊สมชาย)
+R2	crime_relation Arg1:T10 Arg2:T5	
+R3	crime_relation Arg1:T12 Arg2:T5	
+R4	own_weapon Arg1:T10 Arg2:T4	
+R5	own_weapon Arg1:T12 Arg2:T4	
+R6	crime_date_at Arg1:T10 Arg2:T2	
+R7	crime_date_at Arg1:T12 Arg2:T2	
+R8	crime_located_at Arg1:T10 Arg2:T16	
+R9	crime_located_at Arg1:T12 Arg2:T16	

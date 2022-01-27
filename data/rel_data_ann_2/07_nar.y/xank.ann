@@ -1,0 +1,38 @@
+T1	DATE 10 20	20 ม.ค. 65
+T2	TIME 36 44	20.00 น.
+T3	PERSON 52 79	พ.ต.ต.เกียรติศักดิ์ เกิดโชค
+T4	ORGANIZATION 96 105	สภ.ไทรโยค
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	VEHICLE 128 139	รถยนต์กระบะ
+T6	LOCATION 198 223	ถนนสายกาญจนบุรี-ทองผาภูมิ
+T7	LOCATION 230 243	บ้านท่าทุ่งนา
+T8	LOCATION 244 250	หมู่ 2
+T9	LOCATION 251 259	ต.ไทรโยค
+T10	LOCATION 260 268	อ.ไทรโยค
+T11	LOCATION 269 280	จ.กาญจนบุรี
+T12	ORGANIZATION 315 335	มูลนิธิพิทักษ์กาญจน์
+T13	ORGANIZATION 350 372	มูลนิธิกู้ภัยกาญจนบุรี
+T14	LOCATION 386 414	โรงพยาบาลสมเด็จพระปิยะมหาราช
+T15	VEHICLE 655 666	รถยนต์กระบะ
+T16	COLOR 667 675	สีบรอนซ์
+T17	LP 691 708	บบ 4546 กาญจนบุรี
+R2	color_of Arg1:T15 Arg2:T16	
+R3	vehicle_lp Arg1:T15 Arg2:T17	
+T18	VEHICLE 972 986	รถบรรทุกสิบล้อ
+T19	LP 1002 1021	81-5575 สมุทรปราการ
+R4	vehicle_lp Arg1:T18 Arg2:T19	
+T20	PERSON 1145 1165	นายชานนท์ ทองภาวัชระ
+T21	TIME 1171 1176	44 ปี
+T22	LOCATION 1273 1282	จ.ราชบุรี
+T23	LOCATION 1311 1322	อ.ทองผาภูมิ
+T24	VEHICLE 1496 1510	รถบรรทุกสิบล้อ
+T25	VEHICLE 1190 1201	รถยนต์กระบะ
+R5	own_vehicle Arg1:T20 Arg2:T15	
+R6	crime_located_at Arg1:T20 Arg2:T6	
+R7	crime_located_at Arg1:T20 Arg2:T7	
+R8	crime_located_at Arg1:T20 Arg2:T8	
+R9	crime_located_at Arg1:T20 Arg2:T9	
+R10	crime_located_at Arg1:T20 Arg2:T10	
+R11	crime_located_at Arg1:T20 Arg2:T11	
+R12	crime_date_at Arg1:T20 Arg2:T1	
+R13	crime_time_at Arg1:T20 Arg2:T2	

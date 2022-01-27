@@ -1,0 +1,16 @@
+T1	DATE 1 10	14 ส.ค.64
+T2	PERSON 35 57	พ.ต.ท.ชาติชาย นาคปักษี
+T3	ORGANIZATION 68 82	สภ.เมืองกระบี่
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T4	WEAPON 105 108	มีด
+T5	ORGANIZATION 166 175	รพ.กระบี่
+T6	PERSON 435 455	นายอาตมา เอกกุศโลบาย
+T7	TIME 467 472	50 ปี
+T8	WEAPON 625 636	มีดคัตเตอร์
+T9	COLOR 636 641	สีส้ม
+T10	WEAPON 821 824	มีด
+T11	ORGANIZATION 1031 1040	รพ.กระบี่
+R2	own_weapon Arg1:T6 Arg2:T8	
+T12	LOCATION 148 165	ตึกสูตินรีเวชกรรม
+R3	crime_located_at Arg1:T6 Arg2:T12	
+R4	crime_date_at Arg1:T6 Arg2:T1	

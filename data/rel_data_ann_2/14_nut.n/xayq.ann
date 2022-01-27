@@ -1,0 +1,18 @@
+T1	ORGANIZATION 17 26	สน.สามเสน
+T2	WEAPON 56 59	ปืน
+T3	LOCATION 102 121	แฟลตองค์การสวนสัตว์
+T4	LOCATION 122 138	แขวงถนนนครไชยศรี
+T5	LOCATION 139 147	เขตดุสิต
+T6	LOCATION 148 152	กทม.
+T7	PERSON 194 206	นางสาวมาลินี
+T8	WEAPON 247 259	ปืนขนาด . 38
+T9	ORGANIZATION 368 382	โรงพยาบาลบางโพ
+T10	PERSON 476 496	นายรุ่งอรุณ หรือ ต่อ
+R1	crime_relation Arg1:T10 Arg2:T7	
+R2	own_weapon Arg1:T10 Arg2:T8	
+R3	crime_located_at Arg1:T10 Arg2:T3	
+R4	crime_located_at Arg1:T10 Arg2:T4	
+R5	crime_located_at Arg1:T10 Arg2:T5	
+R6	crime_located_at Arg1:T10 Arg2:T6	
+T11	PERSON 595 607	นางสาวมาลินี
+T12	PERSON 669 680	นายรุ่งอรุณ

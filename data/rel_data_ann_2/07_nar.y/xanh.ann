@@ -1,0 +1,10 @@
+T1	LOCATION 28 39	แยกพระราม 2
+T2	LOCATION 40 49	เขตจอมทอง
+T3	PERSON 92 109	น.ส.ชลธิชา สอดศรี
+T4	TIME 115 120	26 ปี
+T5	LP 192 215	1 กค 3799 กรุงเทพมหานคร
+T6	VEHICLE 160 173	รถจักรยานยนต์
+R1	vehicle_lp Arg1:T6 Arg2:T5	
+T7	VEHICLE 278 284	รถเมล์
+T8	VEHICLE 62 72	รถประจำทาง
+T9	LOCATION 373 384	แยกพระราม 2

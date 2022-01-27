@@ -1,0 +1,15 @@
+T1	PERSON 0 28	พ.ต.อ.ตรัยฤกษ์ ปัญญาไตรรัตน์
+T2	ORGANIZATION 33 45	สภ.เมืองยะลา
+T3	WEAPON 81 84	ปืน
+T4	ORGANIZATION 102 147	สำนักงานสาธารณสุขและสิ่งแวดล้อม เทศบาลนครยะลา
+T5	LOCATION 148 159	อ.เมืองยะลา
+T6	LOCATION 160 166	จ.ยะลา
+T7	PERSON 267 285	นายไกรวุฒิ โกวิทยา
+T8	TIME 291 296	54 ปี
+T9	ORGANIZATION 468 489	สำนักงานตำรวจแห่งชาติ
+T10	WEAPON 521 524	ปืน
+T11	TIME 615 624	2 ชั่วโมง
+R1	own_weapon Arg1:T7 Arg2:T10	
+R2	crime_located_at Arg1:T7 Arg2:T5	
+R3	crime_located_at Arg1:T7 Arg2:T6	
+R4	employee_or_member_of Arg1:T1 Arg2:T2	

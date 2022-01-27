@@ -1,0 +1,19 @@
+T1	ORGANIZATION 36 45	สภ.นาหว้า
+T2	LOCATION 46 59	จังหวัดนครพนม
+T3	WEAPON 144 151	มีดพร้า
+T4	WEAPON 216 219	ปืน
+T5	DATE 340 349	17 มกราคม
+T6	PERSON 359 384	พันตำรวจโท รชต ภวภูตานนท์
+T7	ORGANIZATION 399 408	สภ.นาหว้า
+T8	PERSON 469 491	นายวุฒิชัย กันลัยพันธ์
+T9	PERSON 705 715	นายวุฒิชัย
+T10	LOCATION 758 768	ตำบลนาหว้า
+T11	LOCATION 769 780	อำเภอนาหว้า
+T12	PERSON 815 846	ร้อยตำรวจเอก สิราวุตร์ โพธิ์ศรี
+T13	WEAPON 899 902	มีด
+R1	crime_date_at Arg1:T8 Arg2:T5	
+R2	located_at Arg1:T8 Arg2:T10	
+R3	located_at Arg1:T8 Arg2:T11	
+R4	own_weapon Arg1:T8 Arg2:T3	
+R5	employee_or_member_of Arg1:T6 Arg2:T7	
+R6	employee_or_member_of Arg1:T12 Arg2:T7	

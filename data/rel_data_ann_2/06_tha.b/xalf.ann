@@ -1,0 +1,18 @@
+T1	VEHICLE 70 84	รถกระบะโตโยต้า
+T2	COLOR 85 89	สีดำ
+T3	VEHICLE 152 170	รถเก๋งฮอนด้า ซีวิค
+T4	LOCATION 218 230	ถ.บรมราชชนนี
+T5	PERSON 264 285	นายศราวุธ พงษ์สวัสดิ์
+T6	TIME 291 296	34 ปี
+T7	ORGANIZATION 306 327	คณะลิเกเอกชัย ราชันย์
+T8	PERSON 337 346	นายศราวุธ
+T9	VEHICLE 366 368	รถ
+T10	VEHICLE 387 401	รถกระบะโตโยต้า
+T11	COLOR 402 406	สีดำ
+T12	VEHICLE 513 515	รถ
+T13	VEHICLE 525 532	รถกระบะ
+T14	COLOR 532 537	สีขาว
+R1	color_of Arg1:T1 Arg2:T2	
+R2	employee_or_member_of Arg1:T5 Arg2:T7	
+R3	color_of Arg1:T10 Arg2:T11	
+R4	color_of Arg1:T13 Arg2:T14	

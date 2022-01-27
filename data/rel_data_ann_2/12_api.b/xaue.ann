@@ -1,0 +1,38 @@
+T1	TIME 10 18	21.00 น.
+T2	DATE 25 38	3 ตุลาคม 2564
+T3	PERSON 49 74	พ.ต.อ.อภิชนัน วัฒนวรางกูล
+T4	ORGANIZATION 79 90	สภ.ห้วยใหญ่
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	WEAPON 109 117	อาวุธมีด
+T6	LOCATION 141 155	บ้านเลขที่ 108
+T7	LOCATION 156 159	ม.3
+T8	LOCATION 160 170	ต.ห้วยใหญ่
+T9	LOCATION 171 180	อ.บาละมุง
+T10	LOCATION 181 189	จ.ชลบุรี
+T11	PERSON 213 239	ร.ต.อ.สุภชาติ วสุสกุลเจริญ
+T12	ORGANIZATION 254 265	สภ.ห้วยใหญ่
+T13	LOCATION 333 343	เมืองพัทยา
+T14	PERSON 407 425	นายประชุม วงษ์วัตร
+T15	TIME 431 436	79 ปี
+T16	WEAPON 440 448	อาวุธมีด
+T17	PERSON 490 508	นาง รุ่งพร น้อยฉิม
+T18	TIME 514 519	50 ปี
+T19	PERSON 606 620	นายติ่ง มั่งมี
+T20	TIME 626 631	46 ปี
+R2	crime_relation Arg1:T19 Arg2:T14	
+R3	own_weapon Arg1:T19 Arg2:T16	
+R4	crime_located_at Arg1:T19 Arg2:T6	
+R5	crime_located_at Arg1:T19 Arg2:T7	
+R6	crime_located_at Arg1:T19 Arg2:T8	
+R7	crime_located_at Arg1:T19 Arg2:T9	
+R8	crime_located_at Arg1:T19 Arg2:T10	
+R9	crime_time_at Arg1:T19 Arg2:T1	
+R10	crime_date_at Arg1:T19 Arg2:T2	
+T21	WEAPON 730 742	อาวุธมีดพร้า
+T22	OBJECT 745 754	คราบเลือด
+T23	PERSON 795 804	นางรุ่งพร
+T24	PERSON 825 832	นายติ่ง
+T25	PERSON 841 848	นายติ่ง
+T26	WEAPON 853 861	อาวุธมีด
+T27	PERSON 922 929	นายติ่ง
+T28	WEAPON 933 936	มีด

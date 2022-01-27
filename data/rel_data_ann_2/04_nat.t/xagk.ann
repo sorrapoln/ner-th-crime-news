@@ -1,0 +1,13 @@
+T1	DATE 8 19	23 ก.พ.2564
+T2	PERSON 21 42	พล.ต.ต.พรชัย ขจรกลิ่น
+T3	PERSON 111 124	น.ส.พลอยไพลิน
+T4	TIME 130 135	32 ปี
+T5	WEAPON 200 203	มีด
+T6	PERSON 249 262	น.ส.พลอยไพลิน
+T7	VEHICLE 469 471	รถ
+T8	WEAPON 512 515	มีด
+T9	PERSON 615 631	นายวิชาญ มะลิทอง
+T10	TIME 637 642	46 ปี
+R1	crime_relation Arg1:T3 Arg2:T9	
+R2	own_weapon Arg1:T3 Arg2:T5	
+R3	own_vehicle Arg1:T3 Arg2:T7	

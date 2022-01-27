@@ -1,0 +1,36 @@
+T1	DATE 7 16	21 ม.ค.65
+T2	PERSON 17 40	พ.ต.อ.อัครวุฒ ธานีรัตน์
+T3	ORGANIZATION 45 55	สภ.หาดใหญ่
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T4	PERSON 56 78	พ.ต.ท.จิรศักดิ์ ฉวีนิล
+T5	PERSON 91 115	พ.ต.ท.อนุรักษ์ กลางณรงค์
+T6	PERSON 126 151	ร.ต.อ.ศรายุทธ์ อังศุภานิช
+T7	ORGANIZATION 206 216	สภ.หาดใหญ่
+R2	employee_or_member_of Arg1:T4 Arg2:T7	
+R3	employee_or_member_of Arg1:T5 Arg2:T7	
+R4	employee_or_member_of Arg1:T6 Arg2:T7	
+T8	ORGANIZATION 238 248	สภ.หาดใหญ่
+T9	PERSON 256 273	นายคัมภีร์ แซ่จิว
+T10	TIME 279 284	36 ปี
+T11	TIME 311 319	15.30 น.
+T12	DATE 326 335	20 ม.ค.64
+T13	WEAPON 347 350	มีด
+T14	TIME 388 393	16 ปี
+T15	ORGANIZATION 410 433	โรงเรียนหาดใหญ่วิทยาลัย
+T16	WEAPON 470 473	มีด
+T17	VEHICLE 597 610	รถจักรยานยนต์
+T18	ORGANIZATION 674 684	สภ.หาดใหญ่
+T19	TIME 694 702	20.00 น.
+T20	DATE 709 716	20 ม.ค.
+T21	VEHICLE 773 811	รถจักรยานยนต์ ยี่ห้อ ซูซูกิ รุ่น Let’s
+T22	COLOR 812 822	สีดำน้ำตาล
+T23	LP 831 846	1 กส 8215 สงขลา
+R5	color_of Arg1:T21 Arg2:T22	
+R6	vehicle_lp Arg1:T21 Arg2:T23	
+T24	VEHICLE 873 875	รถ
+T25	LOCATION 925 949	ซอยถนนนิพัทธ์สงเคราะห์ 3
+R7	own_vehicle Arg1:T9 Arg2:T21	
+R8	own_weapon Arg1:T9 Arg2:T13	
+R9	crime_located_at Arg1:T9 Arg2:T25	
+R10	crime_time_at Arg1:T9 Arg2:T11	
+R11	crime_date_at Arg1:T9 Arg2:T12	

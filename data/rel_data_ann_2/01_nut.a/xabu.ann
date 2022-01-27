@@ -1,0 +1,29 @@
+T1	TIME 10 18	21.00 น.
+T2	DATE 26 36	11 ต.ค. 64
+T3	PERSON 37 58	ร.ต.อ.คีรีเอก บุญมงคล
+T4	ORGANIZATION 78 87	สน.บางเขน
+T5	VEHICLE 108 121	รถจักรยานยนต์
+T6	LOCATION 127 141	ซอยสุขาภิบาล 5
+T7	LOCATION 142 154	ซอย 5 แยก 10
+T8	LOCATION 155 166	แขวงท่าแร้ง
+T9	LOCATION 167 176	เขตบางเขน
+T10	LOCATION 177 181	กทม.
+T11	ORGANIZATION 210 227	มูลนิธิร่วมกตัญญู
+T12	VEHICLE 261 274	รถจักรยานยนต์
+T13	VEHICLE 315 336	รถ จยย. ยามาฮ่า ฟีโน่
+T14	VEHICLE 346 363	รถจยย. ฮอนด้า มูฟ
+T15	OBJECT 406 428	แกลลอนน้ำมันเชื้อเพลิง
+T16	PERSON 506 513	นายศิริ
+T17	TIME 519 524	51 ปี
+T18	TIME 566 574	19.00 น.
+T19	VEHICLE 729 736	รถ จยย.
+T20	VEHICLE 964 977	รถจักรยานยนต์
+R2	own_vehicle Arg1:T16 Arg2:T13	
+R3	own_vehicle Arg1:T16 Arg2:T14	
+R1	crime_time_at Arg1:T16 Arg2:T18	
+R4	found_object_at Arg1:T15 Arg2:T6	
+R5	found_object_at Arg1:T15 Arg2:T7	
+R6	found_object_at Arg1:T15 Arg2:T8	
+R7	found_object_at Arg1:T15 Arg2:T9	
+R8	found_object_at Arg1:T15 Arg2:T10	
+R9	employee_or_member_of Arg1:T3 Arg2:T4	

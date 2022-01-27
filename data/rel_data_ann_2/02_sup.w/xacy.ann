@@ -1,0 +1,35 @@
+T1	TIME 10 18	09.10 น.
+T2	DATE 26 33	26 ก.ย.
+T3	PERSON 34 56	ร.ต.อ.อนุสรณ์ เขื่อนคำ
+T4	ORGANIZATION 71 90	สภ.เมืองอุบลราชธานี
+T5	WEAPON 123 126	มีด
+T6	ORGANIZATION 142 174	ศูนย์ผลิตภัณฑ์ทองเหลืองบ้านปะอาว
+T7	LOCATION 175 181	หมู่ 5
+T8	LOCATION 182 189	ต.ปะอาว
+T9	LOCATION 190 208	อ.เมืองอุบลราชธานี
+T10	ORGANIZATION 335 358	ศูนย์ผลิตภัณฑ์ทองเหลือง
+T11	PERSON 463 486	นางสาวณัฐธิดา โพธิ์ศิริ
+T12	TIME 492 497	30 ปี
+T13	WEAPON 513 523	มีดแกะสลัก
+T14	ORGANIZATION 582 618	โรงพยาบาลสรรพสิทธิประสงค์อุบลราชธานี
+T15	PERSON 636 650	นายพิเจน ละบาป
+T16	TIME 656 661	30 ปี
+T17	PERSON 674 687	นางสาวณัฐธิดา
+T18	PERSON 783 791	นายพิเจน
+T19	WEAPON 878 881	มีด
+T20	PERSON 884 898	นางสาวณัฐธิดาท
+T21	PERSON 899 907	นายพิเจน
+T22	PERSON 935 949	นายจันธร ระบาท
+T23	TIME 955 960	50 ปี
+T24	PERSON 968 981	นางสาวณัฐธิดา
+T25	PERSON 1110 1123	นางสาวณัฐธิดา
+T26	PERSON 1318 1331	นางสาวณัฐธิดา
+T27	WEAPON 1414 1425	มีดปลายแหลม
+R1	crime_relation Arg1:T15 Arg2:T11	
+R2	own_weapon Arg1:T15 Arg2:T19	
+R3	crime_located_at Arg1:T15 Arg2:T7	
+R4	crime_located_at Arg1:T15 Arg2:T8	
+R5	crime_located_at Arg1:T15 Arg2:T9	
+R6	own_weapon Arg1:T15 Arg2:T13	
+R7	own_weapon Arg1:T15 Arg2:T27	
+R8	employee_or_member_of Arg1:T3 Arg2:T4	

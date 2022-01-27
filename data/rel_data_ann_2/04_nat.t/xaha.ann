@@ -1,0 +1,9 @@
+T1	LOCATION 44 54	ถนนเยาวราช
+T2	DATE 67 74	18 ม.ค.
+T3	PERSON 101 127	นายนรินทร์ อัครโชติกวนิชย์
+T4	TIME 133 138	30 ปี
+T5	PERSON 217 238	นายนิวัตร ประจันตะเสน
+T6	TIME 244 249	54 ปี
+R1	crime_relation Arg1:T5 Arg2:T3	
+R2	crime_located_at Arg1:T5 Arg2:T1	
+R3	crime_date_at Arg1:T5 Arg2:T2	

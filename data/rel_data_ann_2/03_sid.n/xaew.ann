@@ -1,0 +1,44 @@
+T1	DATE 12 18	4 ก.ค.
+T2	PERSON 19 44	ร.ต.อ.ยงยุทธ สุพรมพิทักษ์
+T3	ORGANIZATION 61 70	สภ.กระนวน
+T4	LOCATION 71 80	จ.ขอนแก่น
+T5	LOCATION 125 135	เลขที่ 357
+T6	LOCATION 136 143	หมู่ 17
+T7	LOCATION 144 152	ต.หนองโก
+T8	LOCATION 153 161	อ.กระนวน
+T9	ORGANIZATION 185 209	รพ.สมเด็จพระยุพราชกระนวน
+T10	ORGANIZATION 213 240	หน่วยกู้ภัยศาลเจ้าพ่อกระนวน
+T11	PERSON 416 434	นายชัยวัฒน์ ดวงมนี
+T12	TIME 440 445	46 ปี
+T13	ORGANIZATION 470 495	โรงเรียนบ้านท่าลาด คำตานา
+T14	LOCATION 496 505	ต.หัวนาคำ
+T15	LOCATION 506 514	อ.กระนวน
+T16	WEAPON 539 542	ปืน
+T17	OBJECT 647 655	มีดปังตอ
+T18	OBJECT 677 700	ปลอกกระสุนปืนขนาด 9 มม.
+T19	PERSON 749 767	นายพนมพร พระจันทร์
+T20	TIME 768 773	46 ปี
+T21	LOCATION 917 938	ตลาดเทศบาลเมืองกระนวน
+T22	TIME 1097 1101	3 ปี
+T23	WEAPON 1188 1196	มีดปังตอ
+T24	WEAPON 1238 1241	ปืน
+T25	PERSON 1269 1291	พ.ต.อ.ขจรฤทธิ์ วงษ์ราช
+T26	ORGANIZATION 1296 1305	สภ.กระนวน
+T27	PERSON 1317 1325	นายพนมพร
+T28	ORGANIZATION 1381 1390	สภ.กระนวน
+R1	crime_relation Arg1:T19 Arg2:T11	
+R2	crime_located_at Arg1:T19 Arg2:T5	
+R3	crime_located_at Arg1:T19 Arg2:T6	
+R4	crime_located_at Arg1:T19 Arg2:T7	
+R5	crime_located_at Arg1:T19 Arg2:T8	
+R6	employee_or_member_of Arg1:T11 Arg2:T13	
+R7	found_object_at Arg1:T17 Arg2:T5	
+R8	found_object_at Arg1:T17 Arg2:T6	
+R9	found_object_at Arg1:T17 Arg2:T7	
+R10	found_object_at Arg1:T17 Arg2:T8	
+R11	found_object_at Arg1:T18 Arg2:T5	
+R12	found_object_at Arg1:T18 Arg2:T6	
+R13	found_object_at Arg1:T18 Arg2:T7	
+R14	found_object_at Arg1:T18 Arg2:T8	
+R15	own_weapon Arg1:T11 Arg2:T23	
+R16	own_weapon Arg1:T19 Arg2:T24	

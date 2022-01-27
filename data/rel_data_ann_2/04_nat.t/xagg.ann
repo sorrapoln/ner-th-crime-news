@@ -1,0 +1,21 @@
+T1	DATE 8 15	22 ม.ค.
+T2	PERSON 33 53	พล.ต.ท.จิรภพ ภูริเดช
+T3	PERSON 69 88	พล.ต.ต.มนตรี เทศขัน
+T4	PERSON 96 116	พ.ต.อ.พงศ์ปณต ชูแก้ว
+T5	PERSON 130 156	พ.ต.ต.เกียรติศักดิ์ บุญทอง
+T6	PERSON 185 196	นางดวงรัตน์
+T7	PERSON 202 215	อชิรญา ปะพลัง
+T8	TIME 221 226	52 ปี
+T9	DATE 259 263	2556
+T10	DATE 267 278	27 มี.ค. 56
+T11	ORGANIZATION 237 251	ศาลจังหวัดยะลา
+T12	LOCATION 472 483	อ.มัญจาคีรี
+T13	LOCATION 484 493	จ.ขอนแก่น
+T14	DATE 514 523	2 ธ.ค. 55
+T15	PERSON 524 535	นางดวงรัตน์
+T16	LOCATION 571 580	ต.แม่หวาด
+T17	LOCATION 581 588	อ.ธารโต
+T18	LOCATION 589 595	จ.ยะลา
+R1	crime_located_at Arg1:T6 Arg2:T12	
+R2	crime_located_at Arg1:T6 Arg2:T13	
+R3	crime_date_at Arg1:T6 Arg2:T14	

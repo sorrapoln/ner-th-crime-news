@@ -1,0 +1,17 @@
+T1	DATE 8 15	20 ม.ค.
+T2	TIME 27 35	07.30 น.
+T3	ORGANIZATION 83 105	สถานีตำรวจรถไฟมักกะสัน
+T4	PERSON 134 158	ส.ต.อ.ปริวัตร มั่นศักดิ์
+T5	TIME 164 169	32 ปี
+T6	ORGANIZATION 192 214	สถานีตำรวจรถไฟมักกะสัน
+T7	ORGANIZATION 256 278	สถานีตำรวจรถไฟมักกะสัน
+T8	PERSON 376 389	ส.ต.อ.ปริวัตร
+T9	OBJECT 423 431	เสื้อยืด
+T10	COLOR 431 436	สีขาว
+T11	OBJECT 437 452	กางเกงบอลขาสั้น
+T12	COLOR 452 456	สีดำ
+T13	ORGANIZATION 698 719	สำนักงานตำรวจแห่งชาติ
+T14	ORGANIZATION 792 800	สน.พญาไท
+T15	ORGANIZATION 839 856	มูลนิธิร่วมกตัญญู
+T16	ORGANIZATION 898 912	โรงพยาบาลตำรวจ
+R1	employee_or_member_of Arg1:T4 Arg2:T6	

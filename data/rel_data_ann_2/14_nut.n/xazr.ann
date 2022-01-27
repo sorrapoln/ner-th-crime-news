@@ -1,0 +1,19 @@
+T1	DATE 12 18	6 ก.ค.
+T2	PERSON 26 56	พ.ต.ท.ปิติพัฒน์ เอกอัครภูวภัทร
+T3	ORGANIZATION 66 77	.สน.ปทุมวัน
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T4	PERSON 78 102	พ.ต.ท.อดิศักดิ์ แก้ววงษา
+T5	ORGANIZATION 107 117	สน.ปทุมวัน
+R2	employee_or_member_of Arg1:T4 Arg2:T5	
+T6	WEAPON 187 190	มีด
+T7	ORGANIZATION 226 234	รพ.จุฬาฯ
+T8	PERSON 298 304	น.ส.ดา
+T9	TIME 322 327	24 ปี
+T10	WEAPON 372 388	อาวุธมีดปอกผลไม้
+R3	employee_or_member_of Arg1:T8 Arg2:T7	
+T11	ORGANIZATION 569 587	รพ.สมเด็จเจ้าพระยา
+T12	PERSON 688 694	น.ส.ดา
+T13	PERSON 946 968	นพ.สุทธิพงศ์ วัชรสินธุ
+T14	ORGANIZATION 972 980	รพ.จุฬาฯ
+R4	employee_or_member_of Arg1:T13 Arg2:T14	
+T15	ORGANIZATION 1087 1095	รพ.จุฬาฯ

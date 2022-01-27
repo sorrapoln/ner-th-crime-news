@@ -1,0 +1,24 @@
+T1	ORGANIZATION 22 30	สน.แสมดำ
+T2	VEHICLE 58 71	รถจักรยานยนต์
+T3	VEHICLE 74 80	รถยนต์
+T4	LOCATION 100 115	เคหะบางขุนเทียน
+T5	LOCATION 116 127	ซอยแสมดำ 17
+T6	LOCATION 128 139	ถนนพระราม 2
+T7	LOCATION 140 154	เขตบางขุนเทียน
+T8	LOCATION 155 168	กรุงเทพมหานคร
+T9	LOCATION 227 242	เคหะบางขุนเทียน
+T10	VEHICLE 260 273	รถจักรยานยนต์
+T11	VEHICLE 291 310	รถจักรยานยนต์ฮอนด้า
+T12	LP 387 399	7กฉ8412 กทม.
+T13	VEHICLE 403 416	รถจักรยานยนต์
+T14	VEHICLE 477 512	จักรยานยนตร์ยี่ห้อยามาฮ่า รุ่นฟีโน่
+T15	COLOR 513 518	สีเทา
+T16	LP 534 546	6กษ9217 กทม.
+T17	VEHICLE 550 584	รถยนตร์กะบะยี่ห้อโตโยต้า รุ่ รีโว่
+T18	COLOR 585 590	สีขาว
+T19	LP 606 627	1กฮ2863 กรุงเทพมหานคร
+R1	color_of Arg1:T17 Arg2:T18	
+R2	vehicle_lp Arg1:T17 Arg2:T19	
+R3	color_of Arg1:T14 Arg2:T15	
+R4	vehicle_lp Arg1:T14 Arg2:T16	
+R5	vehicle_lp Arg1:T11 Arg2:T12	

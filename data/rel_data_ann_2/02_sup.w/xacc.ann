@@ -1,0 +1,13 @@
+T1	PERSON 0 20	พล.ต.ต.ธิติ แสงสว่าง
+T2	ORGANIZATION 29 39	ภ.จ.ชลบุรี
+T3	ORGANIZATION 67 78	สภ.ห้วยใหญ่
+T4	ORGANIZATION 123 132	ตม.ชลบุรี
+T5	LOCATION 155 161	ชลบุรี
+T6	LOCATION 187 193	หมู่ 9
+T7	LOCATION 194 204	ต.ห้วยใหญ่
+T8	LOCATION 205 213	จ.ชลบุรี
+T9	ORGANIZATION 229 255	ตำรวจปราบปรามข้ามชาติภาค 2
+T10	ORGANIZATION 679 714	ตำรวจปราบปรามอาชญากรรมข้ามชาติภาค 2
+T11	LOCATION 785 788	จีน
+T12	LOCATION 320 323	จีน
+R1	employee_or_member_of Arg1:T1 Arg2:T2	

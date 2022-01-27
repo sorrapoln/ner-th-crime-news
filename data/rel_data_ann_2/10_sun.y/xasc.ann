@@ -1,0 +1,27 @@
+T1	TIME 10 18	18.00 น.
+T2	DATE 26 37	22 ม.ค.2565
+T3	PERSON 38 53	ร.ต.อ.นที คำสุข
+T4	ORGANIZATION 73 82	สภ.แม่สอด
+T5	LOCATION 109 118	ถนนชิดวนา
+T6	LOCATION 119 137	เขตเทศบาลนครแม่สอด
+T7	LOCATION 138 146	อ.แม่สอด
+T8	LOCATION 147 152	จ.ตาก
+T9	ORGANIZATION 173 196	ดับเพลิงเทศบาลนครแม่สอด
+T10	ORGANIZATION 222 239	ปกครองอำเภอแม่สอด
+T11	TIME 531 536	35 ปี
+T12	PERSON 632 642	นายอาหน่าย
+T13	TIME 648 653	47 ปี
+T14	PERSON 711 721	นายอาหน่าย
+T15	PERSON 1024 1034	นายอาหน่าย
+T16	OBJECT 473 488	กระป๋องทินเนอร์
+R1	crime_located_at Arg1:T12 Arg2:T5	
+R2	crime_located_at Arg1:T12 Arg2:T6	
+R3	crime_located_at Arg1:T12 Arg2:T7	
+R4	crime_located_at Arg1:T12 Arg2:T8	
+R5	crime_date_at Arg1:T12 Arg2:T2	
+R6	crime_time_at Arg1:T12 Arg2:T1	
+R7	found_object_at Arg1:T16 Arg2:T5	
+R8	found_object_at Arg1:T16 Arg2:T6	
+R9	found_object_at Arg1:T16 Arg2:T7	
+R10	found_object_at Arg1:T16 Arg2:T8	
+R11	employee_or_member_of Arg1:T3 Arg2:T4	

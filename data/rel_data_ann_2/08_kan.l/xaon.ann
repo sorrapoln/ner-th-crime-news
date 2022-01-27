@@ -1,0 +1,19 @@
+T1	DATE 12 26	11 เมษายน 2564
+T2	TIME 38 46	22.40 น.
+T3	LOCATION 83 86	ม.4
+T4	LOCATION 87 98	ต ท่าสะอ้าน
+T5	LOCATION 99 108	อ.บางปะกง
+T6	LOCATION 109 121	จ.ฉะเชิงเทรา
+T7	PERSON 129 152	ร.ต.อ.รุ่งเพชร ค้าวัตถุ
+T8	PERSON 203 226	ด.ต.ไตรสิน โชติชนะกรกุล
+T9	PERSON 228 244	ด.ต.มงคล เทพวงษา
+T10	LOCATION 329 334	กม.45
+T11	LOCATION 342 353	ต.ท่าสะอ้าน
+T12	LOCATION 354 363	อ.บางปะกง
+T13	LOCATION 364 376	จ.ฉะเชิงเทรา
+T14	VEHICLE 379 389	รถกระบะแคป
+T15	COLOR 392 398	บรอนซ์
+T16	WEAPON 529 532	ปืน
+T17	PERSON 594 617	ร.ต.อ.รุ่งเพชร ค้าวัตถุ
+T18	ORGANIZATION 659 671	รพ.ลาดกระบัง
+R1	color_of Arg1:T14 Arg2:T15	

@@ -1,0 +1,25 @@
+T1	DATE 12 19	23 ม.ค.
+T2	PERSON 20 41	พ.ต.ท.ธนพรหม ธนอาภากร
+T3	LOCATION 140 153	ซอยองครักษ์15
+T4	LOCATION 154 170	แขวงถนนนครไชยศรี
+T5	LOCATION 171 179	เขตดุสิต
+T6	LOCATION 180 188	กรุงเทพฯ
+T7	PERSON 303 310	น.ส.สวย
+T8	TIME 328 333	33 ปี
+T9	WEAPON 349 352	ปืน
+T10	ORGANIZATION 427 435	รพ.บางโพ
+T11	ORGANIZATION 406 421	มูลนิธิเพชรเกษม
+T12	PERSON 484 505	นายรุ่งอรุณ สังข์วงษ์
+T13	TIME 511 516	38 ปี
+T14	PERSON 604 611	น.ส.สวย
+T15	WEAPON 722 725	ปืน
+R1	own_weapon Arg1:T12 Arg2:T9	
+R2	crime_relation Arg1:T12 Arg2:T7	
+R3	crime_located_at Arg1:T12 Arg2:T3	
+R4	crime_located_at Arg1:T12 Arg2:T4	
+R5	crime_located_at Arg1:T12 Arg2:T5	
+R6	crime_located_at Arg1:T12 Arg2:T6	
+R7	crime_date_at Arg1:T12 Arg2:T1	
+T16	ORGANIZATION 124 139	องค์การสวนสัตว์
+T17	ORGANIZATION 53 62	สน.สามเสน
+R8	employee_or_member_of Arg1:T2 Arg2:T17	

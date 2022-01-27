@@ -1,0 +1,23 @@
+T1	DATE 8 15	22 ม.ค.
+T2	ORGANIZATION 21 32	กองปราบปราม
+T3	PERSON 33 53	พล.ต.ท.จิรภพ ภูริเดช
+T4	PERSON 68 87	พล.ต.ต.มนตรี เทศขัน
+T5	PERSON 95 116	พ.ต.อ.เผด็จ งามละม่อม
+T6	PERSON 129 153	พ.ต.ต.เดชวุฒิ อุตรศาสตร์
+T7	PERSON 181 199	นายวิรัตน์ นุชชมภู
+T8	TIME 205 210	49 ปี
+T9	DATE 256 266	14 ก.ย. 64
+T10	LOCATION 365 378	ต.ศรีบุญเรือง
+T11	LOCATION 379 386	อ.เมือง
+T12	LOCATION 387 397	จ.มุกดาหาร
+T13	PERSON 419 429	นายวิรัตน์
+T14	VEHICLE 602 608	รถยนต์
+T15	VEHICLE 663 669	รถยนต์
+T16	LOCATION 893 903	จ.มุกดาหาร
+R1	located_at Arg1:T7 Arg2:T10	
+R2	located_at Arg1:T7 Arg2:T11	
+R3	located_at Arg1:T7 Arg2:T12	
+R4	employee_or_member_of Arg1:T3 Arg2:T2	
+R5	employee_or_member_of Arg1:T4 Arg2:T2	
+R6	employee_or_member_of Arg1:T5 Arg2:T2	
+R7	employee_or_member_of Arg1:T6 Arg2:T2	

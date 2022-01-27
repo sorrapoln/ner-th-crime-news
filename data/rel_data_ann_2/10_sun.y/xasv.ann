@@ -1,0 +1,37 @@
+T1	TIME 10 18	09.00 น.
+T2	DATE 26 37	27 ก.ย.2564
+T3	PERSON 38 62	พ.ต.ท.สิทธิศักดิ์ ทองนาค
+T4	ORGANIZATION 80 96	สภ.เมืองเพชรบุรี
+T5	LOCATION 130 154	ถนนเส้นหนองปลาไหล-บางจาก
+T6	LOCATION 155 158	ม.3
+T7	LOCATION 159 167	ต.บางจาก
+T8	LOCATION 168 175	อ.เมือง
+T9	LOCATION 176 186	จ.เพชรบุรี
+T10	LOCATION 227 237	จ.เพชรบุรี
+T11	ORGANIZATION 241 279	เจ้าหน้าที่มูลนิธิสว่างสรรเพชญธรรมสถาน
+T12	LOCATION 280 290	จ.เพชรบุรี
+T13	PERSON 307 326	นายเสถียร กลั่นเกลา
+T14	TIME 332 337	56 ปี
+T15	VEHICLE 459 472	ฮอนด้า เวฟ100
+T16	LP 481 495	ขงร197 ราชบุรี
+R1	vehicle_lp Arg1:T15 Arg2:T16	
+T17	VEHICLE 521 531	รถรุนเหล็ก
+T18	OBJECT 634 650	รองเท้าแตะหูหนีบ
+T19	OBJECT 661 669	หมวกแก๊ป
+R2	found_object_at Arg1:T18 Arg2:T5	
+R3	found_object_at Arg1:T18 Arg2:T6	
+R4	found_object_at Arg1:T18 Arg2:T7	
+R5	found_object_at Arg1:T18 Arg2:T8	
+R6	found_object_at Arg1:T18 Arg2:T9	
+R7	found_object_at Arg1:T19 Arg2:T5	
+R8	found_object_at Arg1:T19 Arg2:T6	
+R9	found_object_at Arg1:T19 Arg2:T7	
+R10	found_object_at Arg1:T19 Arg2:T8	
+R11	found_object_at Arg1:T19 Arg2:T9	
+T20	PERSON 751 760	นายเสถียร
+T21	VEHICLE 880 895	ฮอนด้า สกู๊ปปี้
+T22	COLOR 898 903	แดงดำ
+R12	color_of Arg1:T21 Arg2:T22	
+T23	PERSON 974 983	นายเสถียร
+T24	PERSON 1136 1145	นายเสถียร
+R13	employee_or_member_of Arg1:T3 Arg2:T4	

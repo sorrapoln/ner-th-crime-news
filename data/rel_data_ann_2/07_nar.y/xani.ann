@@ -1,0 +1,19 @@
+T1	TIME 13 21	01.00 น.
+T2	LOCATION 32 68	ปั๊มน้ำมันเอสโซ่ ใกล้ซอยนวลจันทร์ 20
+T3	LOCATION 69 81	ถนนนวลจันทร์
+T4	LOCATION 82 95	แขวงนวลจันทร์
+T5	LOCATION 96 106	เขตบึงกุ่ม
+T6	LOCATION 107 120	กรุงเทพมหานคร
+T7	VEHICLE 134 148	รถยนต์มาสด้า 2
+T8	VEHICLE 152 178	รถยนต์เชฟโรเลต เทรลเบเซอร์
+T9	PERSON 231 255	นายกลวัชร เทพชุลีพรศิลป์
+T10	TIME 261 266	32 ปี
+R1	own_vehicle Arg1:T9 Arg2:T7	
+R2	crime_located_at Arg1:T9 Arg2:T2	
+R3	crime_located_at Arg1:T9 Arg2:T3	
+R4	crime_located_at Arg1:T9 Arg2:T4	
+R5	crime_located_at Arg1:T9 Arg2:T5	
+R6	crime_located_at Arg1:T9 Arg2:T6	
+R7	crime_time_at Arg1:T9 Arg2:T1	
+T11	VEHICLE 207 215	รถมาสด้า
+T12	VEHICLE 359 369	รถเขฟโรเลต

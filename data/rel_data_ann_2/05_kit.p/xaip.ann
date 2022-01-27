@@ -1,0 +1,12 @@
+T1	VEHICLE 36 57	รถยนต์โตโยต้า รุ่นวิช
+T2	COLOR 58 63	สีขาว
+R1	color_of Arg1:T1 Arg2:T2	
+T3	LP 72 94	กง9908 พระนครศรีอยุธยา
+R2	vehicle_lp Arg1:T1 Arg2:T3	
+T4	LOCATION 123 132	พระประแดง
+T5	LOCATION 140 149	พระประแดง
+T6	LOCATION 150 159	แขวงแสมดำ
+T7	LOCATION 160 174	เขตบางขุนเทียน
+T8	LOCATION 175 188	กรุงเทพมหานคร
+T9	TIME 214 221	20 นาที
+T10	VEHICLE 272 278	รถยนต์

@@ -1,0 +1,26 @@
+T1	DATE 24 35	23 ก.ค.2564
+T2	PERSON 37 68	พ.ต.ท.ชนาวิน สินธุยะ สารวัตรเวร
+T3	ORGANIZATION 69 78	สภ.แม่สาย
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T4	LOCATION 79 89	จ.เชียงราย
+T5	VEHICLE 115 121	รถยนต์
+T6	LOCATION 155 183	ถนนสายบ้านด้าย-หนองอ้อ-ป่าแฝ
+T7	LOCATION 184 194	ต.บ้านด้าย
+T8	LOCATION 195 203	อ.แม่สาย
+T9	PERSON 228 249	พ.ต.อ.พิพัฒน์ นาระเดช
+T10	ORGANIZATION 254 263	สภ.แม่สาย
+R2	employee_or_member_of Arg1:T9 Arg2:T10	
+T11	LOCATION 264 273	จ.เชียงาย
+T12	LOCATION 365 381	หมู่บ้านสันปูเลย
+T13	LOCATION 382 388	หมู่ 5
+T14	LOCATION 389 399	ต.บ้านด้าย
+T15	LOCATION 400 408	อ.แม่สาย
+T16	LOCATION 441 450	คลองแม่มะ
+T17	VEHICLE 455 485	รถเก๋ง ยี่ห้อโตโยต้า รุ่นวีออส
+T18	COLOR 486 491	สีขาว
+T19	LP 507 523	กง 8357บุรีรัมย์
+R3	color_of Arg1:T17 Arg2:T18	
+R4	vehicle_lp Arg1:T17 Arg2:T19	
+T20	LOCATION 538 547	คลองแม่มะ
+T21	ORGANIZATION 551 602	สมาคมปิยะมิตรแม่สายร่วมใจ บรรเทาสาธารณภัยและการกุศล
+T22	VEHICLE 412 414	รถ

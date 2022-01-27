@@ -1,0 +1,16 @@
+T1	DATE 12 21	22 มกราคม
+T2	LOCATION 64 79	ประจวบคีรีขันธ์
+T3	PERSON 90 109	นายสราวุธ ศิลป์มั่น
+T4	TIME 115 120	29 ปี
+T5	ORGANIZATION 190 199	สภ.ลพบุรี
+T6	WEAPON 238 247	ปืนสงคราม
+T7	TIME 285 293	11.00 น.
+T8	WEAPON 318 325	ปืน M16
+T9	ORGANIZATION 329 343	ค่ายทหารลพบุรี
+T10	WEAPON 453 456	ปืน
+T11	WEAPON 519 522	ปืน
+T12	LOCATION 562 570	ห้วยขวาง
+T13	LOCATION 571 575	กทม.
+R1	own_weapon Arg1:T3 Arg2:T8	
+R2	crime_time_at Arg1:T3 Arg2:T7	
+R3	crime_date_at Arg1:T3 Arg2:T1	

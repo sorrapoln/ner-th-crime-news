@@ -1,0 +1,19 @@
+T1	DATE 0 6	1 ก.พ.
+T2	ORGANIZATION 24 33	สภ.แสนสุข
+T3	WEAPON 60 63	มีด
+T4	ORGANIZATION 79 90	ห้างแหลมทอง
+T5	LOCATION 91 108	ถนนลงชายหาดบางแสน
+T6	LOCATION 109 117	ต.แสนสุข
+T7	LOCATION 118 125	อ.เมือง
+T8	LOCATION 126 134	จ.ชลบุรี
+T9	PERSON 179 197	ายสุริยา ปิ่นขุนทด
+T10	TIME 203 208	26 ปี
+T11	PERSON 212 232	นายเฉลิมชาติ แซ่หลาย
+T12	TIME 238 243	20 ปี
+T13	VEHICLE 279 305	รถจักรยานยนต์ยี่ห้อยามาฮ่า
+T14	LP 321 337	1 กพ 5599 ชลบุรี
+T15	VEHICLE 424 430	รถเก๋ง
+T16	WEAPON 448 451	มีด
+T17	VEHICLE 477 490	รถจักรยานยนต์
+T18	LOCATION 524 533	หาดบางแสน
+R1	vehicle_lp Arg1:T13 Arg2:T14	

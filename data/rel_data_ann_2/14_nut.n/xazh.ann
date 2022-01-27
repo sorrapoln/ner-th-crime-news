@@ -1,0 +1,19 @@
+T1	DATE 13 25	14 มิ.ย.2560
+T2	LOCATION 43 55	จ.นครราชสีมา
+T3	PERSON 143 163	นางสัมฤทธิ์ บดกระโทก
+T4	TIME 169 174	80 ปี
+T5	ORGANIZATION 319 336	หน่วยกู้ภัยฮุก 31
+T6	PERSON 371 389	นายบุญชัย บดกระโทก
+T7	TIME 395 400	44 ปี
+T8	PERSON 408 419	นางสัมฤทธิ์
+T9	PERSON 533 542	นายบุญชัย
+T10	WEAPON 560 577	ไม้หน้าสามติดตะปู
+T11	PERSON 733 742	นายบุญชัย
+T12	WEAPON 767 777	ไม้หน้าสาม
+T13	PERSON 976 985	นายบุญชัย
+T14	PERSON 1095 1106	นางสัมฤทธิ์
+T15	PERSON 1174 1183	นายบุญชัย
+T16	WEAPON 1214 1224	ไม้หน้าสาม
+R1	own_weapon Arg1:T9 Arg2:T10	
+R2	crime_relation Arg1:T9 Arg2:T3	
+R3	crime_date_at Arg1:T9 Arg2:T1	

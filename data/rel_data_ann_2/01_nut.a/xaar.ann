@@ -1,0 +1,23 @@
+T1	DATE 1 10	21 ม.ค.65
+T2	TIME 22 30	23.30 น.
+T3	PERSON 31 48	พ.ต.ต.จตุพร ธงทอง
+T4	ORGANIZATION 61 73	สน.ภาษีเจริญ
+T5	LOCATION 105 121	ซอยเพชรเกษม 48/1
+T6	LOCATION 122 133	แขวงบางหว้า
+T7	LOCATION 134 146	เขตภาษีเจริญ
+T8	LOCATION 147 155	กรุงเทพฯ
+T9	ORGANIZATION 191 203	สน.ภาษีเจริญ
+T10	ORGANIZATION 217 227	รพ.ศิริราช
+T11	ORGANIZATION 261 288	อาสาสมัครมูลนิธิป่อเต็กตึ๊ง
+T12	PERSON 382 387	นายเอ
+T13	TIME 405 410	16 ปี
+T14	OBJECT 515 553	ปืนพกสั้นออโตเมติก รุ่น SIG Sauer P365
+R1	located_at Arg1:T12 Arg2:T6	
+R2	located_at Arg1:T12 Arg2:T7	
+R3	located_at Arg1:T12 Arg2:T8	
+R4	located_at Arg1:T12 Arg2:T5	
+R5	found_object_at Arg1:T14 Arg2:T5	
+R6	found_object_at Arg1:T14 Arg2:T6	
+R7	found_object_at Arg1:T14 Arg2:T7	
+R8	found_object_at Arg1:T14 Arg2:T8	
+R9	employee_or_member_of Arg1:T3 Arg2:T4	

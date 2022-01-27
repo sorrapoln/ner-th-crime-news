@@ -1,0 +1,32 @@
+T1	DATE 8 15	22 ม.ค.
+T2	PERSON 33 53	พล.ต.ท.จิรภพ ภูริเดช
+T3	PERSON 69 88	พล.ต.ต.มนตรี เทศขัน
+T4	PERSON 96 115	พ.ต.อ.ปทักข์ ขวัญนา
+T5	PERSON 128 150	พ.ต.ต.ศรัณย์ ศรีพักตร์
+T6	ORGANIZATION 191 201	สภ.บ้านโคก
+T7	LOCATION 202 213	จ.เพชรบูรณ์
+T8	ORGANIZATION 218 228	สภ.แก่งคอย
+T9	LOCATION 229 238	จ.สระบุรี
+T10	PERSON 253 280	นายศิรสิทธิ์ ธัญโภคินเสถียร
+T11	LOCATION 286 291	52 ปี
+T12	LOCATION 296 307	จ.เพชรบูรณ์
+R1	located_at Arg1:T10 Arg2:T12	
+T13	ORGANIZATION 318 337	ศาลจังหวัดเพชรบูรณ์
+T14	DATE 358 370	21 ม.ค. 2565
+T15	LOCATION 481 495	ถนนสาธารณะ ม.6
+T16	LOCATION 496 507	บ้านเขาเกตุ
+T17	LOCATION 508 517	ต.ทับกวาง
+T18	LOCATION 518 527	อ.แก่งคอย
+T19	LOCATION 528 537	จ.สระบุรี
+T20	PERSON 564 576	นายศิรสิทธิ์
+T21	LOCATION 618 627	อ.บ้านโคก
+T22	LOCATION 628 639	จ.เพชรบูรณ์
+T23	PERSON 778 784	ด.ญ.เอ
+T24	TIME 801 806	10 ปี
+R2	crime_relation Arg1:T10 Arg2:T23	
+R3	crime_located_at Arg1:T10 Arg2:T15	
+R4	crime_located_at Arg1:T10 Arg2:T16	
+R5	crime_located_at Arg1:T10 Arg2:T17	
+R6	crime_located_at Arg1:T10 Arg2:T18	
+R7	crime_located_at Arg1:T10 Arg2:T19	
+R8	crime_date_at Arg1:T10 Arg2:T14	

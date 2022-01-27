@@ -1,0 +1,68 @@
+T1	DATE 12 22	24 พ.ย. 64
+T2	PERSON 23 45	ร.ต.อ.ปัณณวิชญ์ บุญชุม
+T3	ORGANIZATION 60 72	สภ.บ้านสร้าง
+T4	LOCATION 73 85	จ.ปราจีนบุรี
+T5	LOCATION 141 151	หมู่ที่ 11
+T6	LOCATION 152 162	ตำบลบางยาง
+T7	LOCATION 163 177	อำเภอบ้านสร้าง
+T8	LOCATION 178 195	จังหวัดปราจีนบุรี
+T9	PERSON 235 245	พ.ต.อ.มงคล
+T10	LOCATION 333 350	จังหวัดปราจีนบุรี
+T11	PERSON 563 585	นาย อภินัทธ์ ปลูกปลื้ม
+T12	TIME 591 596	24 ปี
+T13	LOCATION 597 609	บ้านเลขที่ 4
+T14	LOCATION 610 617	หมู่ 12
+T15	LOCATION 618 626	ต.บางแตน
+T16	LOCATION 627 641	อำเภอบ้านสร้าง
+T17	LOCATION 642 659	จังหวัดปราจีนบุรี
+T18	TIME 721 726	3 วัน
+T19	PERSON 833 851	นายสุนทร สังข์ศิริ
+T20	TIME 857 862	76 ปี
+T21	LOCATION 863 876	บ้านเลขที่ 57
+T22	LOCATION 877 883	หมู่ 2
+T23	LOCATION 884 892	ต.บางเตย
+T24	LOCATION 893 904	อ.บ้านสร้าง
+T25	LOCATION 905 917	จ.ปราจีนบุรี
+T26	LOCATION 932 940	ต.บางเตย
+T27	PERSON 1152 1171	นายวรวัฒน์ จันเทียม
+T28	TIME 1177 1182	26 ปี
+T29	LOCATION 1183 1198	บ้านเลขที่ 10/2
+T30	LOCATION 1199 1205	หมู่ 6
+T31	LOCATION 1206 1215	ต.บางขนาก
+T32	LOCATION 1216 1231	อ.บางน้ำเปรี้ยว
+T33	LOCATION 1232 1244	จ.ฉะเชิงเทรา
+T34	PERSON 1282 1292	นายวรวัฒน์
+T35	PERSON 1366 1376	นายวรวัฒน์
+T36	PERSON 1407 1417	นายวรวัฒน์
+T37	VEHICLE 1426 1430	จยย.
+T38	WEAPON 1470 1481	มีดปลายแหลม
+T39	PERSON 1499 1510	นายอภินัทธ์
+T40	PERSON 1569 1579	นายวรวัฒน์
+T41	VEHICLE 1587 1617	รถจักรยานยนต์คันก่อเหตุ ฮอนด้า
+T42	COLOR 1618 1623	สีแดง
+T43	LP 1632 1652	1 กน 5071 ฉะเชิงเทรา
+T44	ORGANIZATION 1679 1691	สภ.บ้านสร้าง
+R1	color_of Arg1:T41 Arg2:T42	
+R2	vehicle_lp Arg1:T41 Arg2:T43	
+R3	own_vehicle Arg1:T27 Arg2:T41	
+R4	located_at Arg1:T27 Arg2:T29	
+R5	located_at Arg1:T27 Arg2:T30	
+R6	located_at Arg1:T27 Arg2:T31	
+R7	located_at Arg1:T27 Arg2:T32	
+R8	located_at Arg1:T27 Arg2:T33	
+R9	employee_or_member_of Arg1:T2 Arg2:T3	
+R10	located_at Arg1:T11 Arg2:T13	
+R11	located_at Arg1:T11 Arg2:T14	
+R12	located_at Arg1:T11 Arg2:T15	
+R13	located_at Arg1:T11 Arg2:T16	
+R14	located_at Arg1:T11 Arg2:T17	
+R15	located_at Arg1:T19 Arg2:T21	
+R16	located_at Arg1:T19 Arg2:T22	
+R17	located_at Arg1:T19 Arg2:T23	
+R18	located_at Arg1:T19 Arg2:T24	
+R19	located_at Arg1:T19 Arg2:T25	
+R20	located_at Arg1:T19 Arg2:T26	
+R21	crime_located_at Arg1:T2 Arg2:T5	
+R22	crime_located_at Arg1:T2 Arg2:T6	
+R23	crime_located_at Arg1:T2 Arg2:T7	
+R24	crime_located_at Arg1:T2 Arg2:T8	

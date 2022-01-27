@@ -1,0 +1,24 @@
+T1	PERSON 0 18	พ.ต.อ.ปัญญา ดำเล็ก
+T2	ORGANIZATION 23 32	สภ.สัตหีบ
+T3	LOCATION 92 113	หมู่บ้านเม้าส์เท้นวิว
+T4	LOCATION 114 120	หมู่ 3
+T5	LOCATION 121 128	บางเสร่
+T6	LOCATION 129 137	อ.สัตหีบ
+T7	LOCATION 138 146	จ.ชลบุรี
+T8	PERSON 276 297	นายเฉลิมศักดิ์ พยักสา
+T9	TIME 303 308	29 ปี
+T10	PERSON 373 387	นางจ๋อย ฉิมงาม
+T11	TIME 393 398	37 ปี
+T12	TIME 683 691	23.30 น.
+R1	crime_relation Arg1:T8 Arg2:T10	
+R2	crime_located_at Arg1:T8 Arg2:T3	
+R3	crime_located_at Arg1:T8 Arg2:T4	
+R4	crime_located_at Arg1:T8 Arg2:T5	
+R5	crime_located_at Arg1:T8 Arg2:T6	
+R6	crime_located_at Arg1:T8 Arg2:T7	
+R7	crime_time_at Arg1:T8 Arg2:T12	
+R8	located_at Arg1:T8 Arg2:T3	
+R9	located_at Arg1:T8 Arg2:T4	
+R10	located_at Arg1:T8 Arg2:T5	
+R11	located_at Arg1:T8 Arg2:T6	
+R12	located_at Arg1:T8 Arg2:T7	

@@ -1,0 +1,71 @@
+T1	TIME 10 18	10.30 น.
+T2	DATE 26 33	22 พ.ย.
+T3	ORGANIZATION 37 59	กองบัญชาการตำรวจนครบาล
+T4	PERSON 68 86	พล.ต.ท.สำราญ นวลมา
+T5	PERSON 102 128	พล.ต.ต.จิรสันต์ แก้วแสงเอก
+T6	PERSON 140 164	พล.ต.ต.นิธิธร จินตกานนท์
+T7	PERSON 176 197	พล.ต.ต.โชคชัย งามวงศ์
+T8	PERSON 209 229	พล.ต.ต.สำเริง สวนทอง
+T9	PERSON 261 289	พล.ต.ต.พงศ์อานันต์ คล้ายคลึง
+T10	PERSON 298 322	พ.ต.อ.อชิรวิทย์ ทองจันดี
+T11	ORGANIZATION 327 335	สน.แสมดำ
+T12	PERSON 336 363	พ.ต.ท.สรายุทธ ปัญญาศรีวิชัย
+T13	ORGANIZATION 370 378	สน.แสมดำ
+R1	employee_or_member_of Arg1:T10 Arg2:T11	
+R2	employee_or_member_of Arg1:T12 Arg2:T13	
+R3	employee_or_member_of Arg1:T4 Arg2:T3	
+T14	ORGANIZATION 399 407	สน.แสมดำ
+T15	PERSON 414 423	นายภูหลวง
+T16	PERSON 428 439	ดี้ ชีวะกุล
+T17	TIME 445 450	26 ปี
+T18	OBJECT 468 474	เงินสด
+T19	WEAPON 530 566	มีดทำครัว ปลายแหลม ยาวประมาณ 11 นิ้ว
+T20	VEHICLE 589 629	รถจักรยานยนต์ ยี่ห้อฮอนด้า รุ่นโนวาโซนิค
+T21	COLOR 630 642	สีน้ำเงินขาว
+R4	color_of Arg1:T20 Arg2:T21	
+T22	LP 651 667	2กว 2268กรุงเทพฯ
+R5	vehicle_lp Arg1:T20 Arg2:T22	
+R6	own_weapon Arg1:T15 Arg2:T19	
+R7	own_vehicle Arg1:T15 Arg2:T20	
+T23	OBJECT 793 810	หมวกนิรภัยแบบเต็ม
+T24	COLOR 810 815	สีขาว
+T25	OBJECT 817 837	เสื้อยืดคอกลมแขนสั้น
+T26	OBJECT 670 688	ตะกร้าผลไม้พลาสติก
+T27	COLOR 688 697	สีส้มอ่อน
+T28	VEHICLE 721 735	รถที่ใช้ขับขี่
+T29	OBJECT 757 771	เครื่องแต่งกาย
+T30	COLOR 837 841	สีดำ
+T31	OBJECT 851 858	ปลอกแขน
+T32	OBJECT 864 880	กางเกงสแล็คขายาว
+T33	COLOR 858 862	สีดำ
+T34	COLOR 880 884	สีดำ
+T35	OBJECT 886 898	รองเท้าผ้าใบ
+T36	COLOR 898 903	สีขาว
+T37	LOCATION 919 946	อาคารพาณิชย์ เลขที่ 189/607
+T38	LOCATION 947 956	หมู่ที่ 5
+T39	LOCATION 957 973	ต.พันท้ายนรสิงห์
+T40	LOCATION 974 990	อ.เมืองสมุทรสาคร
+T41	LOCATION 991 1002	จ.สมุทรสาคร
+T42	DATE 1015 1032	21 พฤศจิกายน 2564
+T43	TIME 1044 1052	07.45 น.
+T44	DATE 1077 1084	20 พ.ย.
+T45	TIME 1096 1103	21.46 น
+T46	LOCATION 1162 1175	ร้านสะดวกซื้อ
+R8	crime_located_at Arg1:T15 Arg2:T46	
+R9	located_at Arg1:T15 Arg2:T37	
+R10	located_at Arg1:T15 Arg2:T38	
+R11	located_at Arg1:T15 Arg2:T39	
+R12	located_at Arg1:T15 Arg2:T40	
+R13	located_at Arg1:T15 Arg2:T41	
+R14	crime_date_at Arg1:T15 Arg2:T42	
+R15	crime_time_at Arg1:T15 Arg2:T43	
+T47	WEAPON 1214 1217	มีด
+R16	own_weapon Arg1:T15 Arg2:T47	
+T48	VEHICLE 1251 1270	ขับขี่รถจักรยานยนต์
+R17	own_vehicle Arg1:T15 Arg2:T48	
+T49	LOCATION 1299 1302	ไทย
+T50	TIME 1314 1322	20-30 ปี
+T51	WEAPON 1498 1515	มีดทำครัวปลายแหลม
+T52	VEHICLE 1615 1628	รถจักรยานยนต์
+T53	VEHICLE 1702 1715	รถฮอนด้าโซนิค
+T54	LOCATION 1783 1798	ทางแยกบางกระดี่

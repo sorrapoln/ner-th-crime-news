@@ -1,0 +1,41 @@
+T1	DATE 7 16	23 ธ.ค.64
+T2	PERSON 17 38	พ.ต.อ.พงษ์สวัส ชัยบาล
+T3	ORGANIZATION 47 60	ภ.จว.เชียงราย
+T4	PERSON 61 82	พ.ต.อ.ปวีณ ทองสมบูรณ์
+T5	ORGANIZATION 87 98	สภ.เกาะช้าง
+T6	LOCATION 99 107	อ.แม่สาย
+T7	LOCATION 108 118	จ.เชียงราย
+T8	ORGANIZATION 145 158	ภ.จว.เชียงราย
+T9	LOCATION 189 204	บ้านเลขที่ 36/1
+T10	LOCATION 204 217	บ้านสันถนนใต้
+T11	LOCATION 218 221	ม.2
+T12	LOCATION 222 235	ต.ศรีเมืองชุม
+T13	LOCATION 236 244	อ.แม่สาย
+T14	LOCATION 245 255	จ.เชียงราย
+T15	TIME 279 286	19.25 น
+T16	PERSON 288 309	ร.ต.อ.สินทิช กิจธาธัญ
+T17	ORGANIZATION 326 337	สภ.เกาะช้าง
+T18	LOCATION 338 346	อ.แม่สาย
+T19	LOCATION 347 357	จ.เชียงราย
+T20	LOCATION 395 410	บ้านเลขที่ 36/1
+T21	LOCATION 411 424	บ้านสันถนนใต้
+T22	LOCATION 425 428	ม.2
+T23	LOCATION 429 442	ต.ศรีเมืองชุม
+T24	LOCATION 443 451	อ.แม่สาย
+T25	LOCATION 452 462	จ.เชียงราย
+T26	PERSON 479 500	พ.ต.อ.ปวีณ ทองสมบูรณ์
+T27	ORGANIZATION 505 516	สภ.เกาะช้าง
+T28	PERSON 517 537	พ.ต.ท.ชนาวิน สินธุยะ
+T29	ORGANIZATION 553 564	สภ.เกาะช้าง
+T30	PERSON 715 728	นางแสง คำมงคล
+T31	TIME 734 739	57 ปี
+T32	PERSON 785 802	นายสังวุฒิ คำมงคล
+T33	TIME 808 813	60 ปี
+T34	ORGANIZATION 814 865	สมาคมปิยะมิตรแม่สายร่วมใจ บรรเทาสาธารณภัยและการกุศล
+T35	WEAPON 1275 1278	ปืน
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+R2	employee_or_member_of Arg1:T4 Arg2:T5	
+R3	employee_or_member_of Arg1:T26 Arg2:T27	
+R4	employee_or_member_of Arg1:T28 Arg2:T29	
+R5	employee_or_member_of Arg1:T16 Arg2:T17	
+R6	employee_or_member_of Arg1:T32 Arg2:T34	

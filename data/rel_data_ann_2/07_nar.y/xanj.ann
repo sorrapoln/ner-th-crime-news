@@ -1,0 +1,34 @@
+T1	PERSON 12 20	นายบัญชา
+T2	TIME 26 31	37 ปี
+T3	WEAPON 78 87	ปืนลูกซอง
+T4	LOCATION 100 123	หน้าผาเชิงเขาบ้านโป่งรี
+T5	LOCATION 124 130	หมู่ 6
+T6	LOCATION 131 139	ต.หนองรี
+T7	LOCATION 140 149	อ.บ่อพลอย
+T8	LOCATION 150 161	จ.กาญจนบุรี
+T9	DATE 174 181	13 ต.ค.
+T10	DATE 260 270	9 ต.ค.2564
+T11	DATE 366 377	15 ก.ย.2564
+T12	ORGANIZATION 417 426	สภ.หนองรี
+T13	PERSON 441 450	นายธนิตย์
+T14	PERSON 456 459	บอล
+T15	TIME 465 470	36 ปี
+T16	OBJECT 483 500	อาวุธปืนลูกซองยาว
+T17	ORGANIZATION 526 563	กองบังคับการตำรวจภูธรจังหวัดกาญจนบุรี
+T18	PERSON 568 590	พล.ต.ต.ไพโรจน์ คุ้มภัย
+T19	PERSON 649 658	นายธนิตย์
+T20	PERSON 702 710	นายบัญชา
+T21	PERSON 791 799	นายบัญชา
+T22	PERSON 814 821	นายรุ่ง
+T23	PERSON 904 911	นายรุ่ง
+T24	PERSON 916 924	นายบัญชา
+T25	PERSON 967 974	นายรุ่ง
+R1	crime_relation Arg1:T13 Arg2:T1	
+R2	own_weapon Arg1:T13 Arg2:T3	
+R3	crime_located_at Arg1:T13 Arg2:T4	
+R4	crime_located_at Arg1:T13 Arg2:T5	
+R5	crime_located_at Arg1:T13 Arg2:T6	
+R6	crime_located_at Arg1:T13 Arg2:T7	
+R7	crime_located_at Arg1:T13 Arg2:T8	
+R8	crime_relation Arg1:T22 Arg2:T1	
+R9	own_weapon Arg1:T22 Arg2:T3	

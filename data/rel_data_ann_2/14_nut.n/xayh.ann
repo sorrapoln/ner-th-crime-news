@@ -1,0 +1,37 @@
+T1	DATE 12 23	4 พฤศจิกายน
+T2	PERSON 24 44	พล.ต.ต.อำนาจ ไตรพจน์
+T3	ORGANIZATION 54 75	การตำรวจรถไฟ(ผบก.รฟ.)
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T4	DATE 98 104	3 พ.ย.
+T5	PERSON 115 137	พ.ต.อ.กฤษฎาพร ปานโปร่ง
+T6	PERSON 151 172	พ.ต.ต.สถาพร มุสิกพงศ์
+T7	PERSON 188 207	ร.ต.ท.สมนึก ถนนแก้ว
+T8	PERSON 255 270	นายสมชาย สุธงสา
+T9	ORGANIZATION 178 187	รฟ.ทุ่งสง
+R2	employee_or_member_of Arg1:T6 Arg2:T9	
+T10	ORGANIZATION 144 150	บก.รฟ.
+R3	employee_or_member_of Arg1:T5 Arg2:T10	
+T11	ORGANIZATION 237 248	ส.รฟ.หัวหิน
+T12	TIME 276 281	44 ปี
+T13	LOCATION 286 299	บ้านเลขที่ 20
+T14	LOCATION 300 304	ม.21
+T15	LOCATION 305 319	ต.ทุ่งมหาเจริญ
+T16	LOCATION 320 332	อ.วังน้ำเย็น
+T17	LOCATION 333 342	จ.สระแก้ว
+T18	ORGANIZATION 356 373	ศาลจังหวัดสระแก้ว
+T19	DATE 398 414	3 พฤษจิกายน 2564
+T20	ORGANIZATION 423 436	สภ.วังน้ำเย็น
+T21	LOCATION 437 446	จ.สระแก้ว
+T22	ORGANIZATION 542 557	สถานีรถไฟหัวหิน
+T23	LOCATION 558 566	ต.หัวหิน
+T24	LOCATION 567 575	อ.หัวหิน
+T25	LOCATION 576 593	จ.ประจวบคีรีขันธ์
+T26	PERSON 594 606	พล.ต.ต.อำนาจ
+T27	ORGANIZATION 650 663	สภ.วังน้ำเย็น
+T28	ORGANIZATION 949 962	สภ.วังน้ำเย็น
+T29	LOCATION 963 972	จ.สระแก้ว
+R4	located_at Arg1:T8 Arg2:T13	
+R5	located_at Arg1:T8 Arg2:T14	
+R6	located_at Arg1:T8 Arg2:T15	
+R7	located_at Arg1:T8 Arg2:T16	
+R8	located_at Arg1:T8 Arg2:T17	

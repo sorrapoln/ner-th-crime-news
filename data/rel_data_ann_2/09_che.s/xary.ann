@@ -1,0 +1,13 @@
+T1	PERSON 5 27	ร.ต.อ.ชัยปติญญา แสงปาน
+T2	ORGANIZATION 38 49	สภ.หนองปลิง
+T3	WEAPON 104 113	ปืนลูกซอง
+T4	PERSON 273 288	ร.ต.อ.ชัยปติญญา
+T5	ORGANIZATION 300 325	โรงพยาบาลสวรรค์ประชารักษ์
+T6	DATE 347 358	19 ม.ค.2565
+T7	PERSON 403 429	พล.ต.ต.ระพีพงษ์ สุขไพบูลย์
+T8	ORGANIZATION 501 522	สถานบริจาคสภากาชาดไทย
+T9	LOCATION 523 535	ตำบลปากน้ำโพ
+T10	LOCATION 536 546	อำเภอเมือง
+T11	LOCATION 547 563	จังหวัดนครสวรรค์
+R1	employee_or_member_of Arg1:T1 Arg2:T2	
+T12	LOCATION 436 448	จว.นครสวรรค์

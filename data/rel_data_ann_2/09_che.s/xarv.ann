@@ -1,0 +1,13 @@
+T1	ORGANIZATION 14 35	สภ.ประตูน้ำจุฬาลงกรณ์
+T2	PERSON 63 80	นายกวิน แสงนิลกุล
+T3	TIME 86 91	23 ปี
+T4	WEAPON 118 121	ปืน
+T5	ORGANIZATION 165 181	สถาบันธัญญารักษ์
+T6	LOCATION 182 197	จังหวัดปทุมธานี
+T7	PERSON 213 220	นายกวิน
+T8	WEAPON 224 227	ปืน
+T9	TIME 238 243	54 ปี
+T10	PERSON 303 310	นายกวิน
+T11	PERSON 334 355	าสิบเอกยงยุทธ สุขเกษม
+T12	PERSON 517 535	นางรมย์เย็น บุญสืบ
+R1	own_weapon Arg1:T2 Arg2:T8	

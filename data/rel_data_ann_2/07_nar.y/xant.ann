@@ -1,0 +1,27 @@
+T1	DATE 12 23	20 ก.ย.2561
+T2	ORGANIZATION 61 84	บริษัท ชยุตา 9999 จำกัด
+T3	LOCATION 88 100	ต.โพธิ์พระยา
+T4	LOCATION 101 118	อ.เมืองสุพรรณบุรี
+T5	LOCATION 119 131	จ.สุพรรณบุรี
+T6	PERSON 342 367	นายณัฐปพนวิช วงค์ธนจีรนาถ
+T7	TIME 373 378	49 ปี
+T8	PERSON 457 475	นายรณัฐ สุนทรวิภาต
+T9	PERSON 802 807	นายโซ
+T10	DATE 756 763	19 ก.ย.
+T11	TIME 832 837	22 ปี
+T12	DATE 917 924	20 ก.ย.
+T13	PERSON 1174 1195	พ.ต.อ.อภิชิต สุรพินิจ
+T14	ORGANIZATION 1211 1237	ตำรวจภูธรจังหวัดสุพรรณบุรี
+R1	employee_or_member_of Arg1:T13 Arg2:T14	
+T15	ORGANIZATION 25 49	ตำรวจภูธรเมืองสุพรรณบุรี
+T16	PERSON 1444 1449	นายโซ
+T17	LOCATION 813 820	เมียนมา
+R2	crime_located_at Arg1:T9 Arg2:T17	
+T18	LOCATION 1456 1463	เมียนมา
+R3	crime_located_at Arg1:T16 Arg2:T18	
+T19	PERSON 1544 1549	นายโซ
+T20	LOCATION 1555 1567	อ.สังขละบุรี
+T21	LOCATION 1568 1579	จ.กาญจนบุรี
+T22	PERSON 1904 1929	นายณัฐปพนวิช วงค์ธนจีรนาถ
+T23	PERSON 1936 1950	เสี่ยเล็ก อรดา
+R4	crime_relation Arg1:T9 Arg2:T6	

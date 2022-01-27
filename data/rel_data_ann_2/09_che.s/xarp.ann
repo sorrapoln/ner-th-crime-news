@@ -1,0 +1,40 @@
+T1	TIME 16 24	08.30 น.
+T2	DATE 32 41	13 ส.ค.64
+T3	PERSON 42 61	ร.ต.อ.วันต์ แซ่ตั้ง
+T4	ORGANIZATION 79 91	สภ.ประโคนชัย
+T5	LOCATION 92 103	จ.บุรีรัมย์
+T6	LOCATION 193 213	ถนนสายแสลงโทน-ตะโกรี
+T7	LOCATION 214 225	บ้านแสลงโทน
+T8	LOCATION 226 232	หมู่ 3
+T9	LOCATION 233 242	ต.แสลงโทน
+T10	LOCATION 243 254	อ.ประโคนชัย
+T11	PERSON 268 296	พ.ต.อ.เจตน์สฤษฎิ์ แพ่งศรีสาร
+T12	ORGANIZATION 301 313	สภ.ประโคนชัย
+T13	ORGANIZATION 323 335	รพ.ประโคนชัย
+T14	LOCATION 355 371	จังหวัดบุรีรัมย์
+T15	ORGANIZATION 394 427	กู้ภัยสยามบุรีรัมย์(จุดประโคนชัย)
+T16	PERSON 460 475	นายทวีชัย สองสี
+T17	PERSON 480 485	เลียว
+T18	TIME 491 496	24 ปี
+T19	LOCATION 500 511	บ้านโคกงิ้ว
+T20	LOCATION 512 520	ต.โคกม้า
+T21	LOCATION 521 532	อ.ประโคนชัย
+T22	LOCATION 533 544	จ.บุรีรัมย์
+R1	located_at Arg1:T16 Arg2:T19	
+R2	located_at Arg1:T16 Arg2:T20	
+R3	located_at Arg1:T16 Arg2:T21	
+R4	located_at Arg1:T16 Arg2:T22	
+T23	OBJECT 586 594	เสื้อยืด
+T24	COLOR 594 599	สีขาว
+T25	OBJECT 604 620	กางเกงยีนส์ขายาว
+T26	OBJECT 703 718	กระสุนปืนลูกซอง
+T27	WEAPON 748 763	ปืนลูกซองพกสั้น
+T28	VEHICLE 804 810	รถยนต์
+T29	WEAPON 870 885	ปืนลูกซองพกสั้น
+T30	TIME 1000 1008	20-25 ปี
+T31	TIME 1038 1043	17 ปี
+T32	OBJECT 1131 1136	ยาบ้า
+T33	OBJECT 1294 1301	สารไอซ์
+T34	ORGANIZATION 1367 1379	สภ.ประโคนชัย
+R5	employee_or_member_of Arg1:T3 Arg2:T4	
+R6	employee_or_member_of Arg1:T11 Arg2:T12	

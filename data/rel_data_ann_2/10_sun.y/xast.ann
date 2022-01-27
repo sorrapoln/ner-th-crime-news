@@ -1,0 +1,44 @@
+T1	ORGANIZATION 6 19	สภ.วังตะเคียน
+T2	LOCATION 20 37	จังหวัดปราจีนบุรี
+T3	LOCATION 100 114	ตำบลวังท่าช้าง
+T4	LOCATION 115 131	อำเภอกบินทร์บุรี
+T5	LOCATION 132 149	จังหวัดปราจีนบุรี
+T6	ORGANIZATION 203 223	โรงพยาบาลกบินทร์บุรี
+T7	PERSON 273 300	นายสายัณห์ ศรีสอาดพันธ์วงษ์
+T8	TIME 306 311	63 ปี
+T9	WEAPON 480 491	มีดปลายแหลม
+T10	OBJECT 565 573	ท่อนไม้เ
+T11	OBJECT 606 612	จอบหัก
+R1	found_object_at Arg1:T10 Arg2:T3	
+R2	found_object_at Arg1:T10 Arg2:T4	
+R3	found_object_at Arg1:T10 Arg2:T5	
+R4	found_object_at Arg1:T11 Arg2:T3	
+R5	found_object_at Arg1:T11 Arg2:T4	
+R6	found_object_at Arg1:T11 Arg2:T5	
+T12	OBJECT 620 628	หมวกแก๊ป
+R7	found_object_at Arg1:T12 Arg2:T3	
+R8	found_object_at Arg1:T12 Arg2:T4	
+R9	found_object_at Arg1:T12 Arg2:T5	
+T13	OBJECT 655 662	ปลอกมีด
+R10	found_object_at Arg1:T13 Arg2:T3	
+R11	found_object_at Arg1:T13 Arg2:T4	
+R12	found_object_at Arg1:T13 Arg2:T5	
+T14	PERSON 846 864	นายเชาวลิต พวงไธสง
+T15	TIME 870 875	47 ปี
+T16	DATE 974 981	20 ม.ค.
+T17	PERSON 994 1004	นายสายัณห์
+T18	PERSON 1064 1074	นายเชาวลิต
+T19	WEAPON 1081 1092	มีดปลายแหลม
+T20	PERSON 1155 1165	นายเชาวลิต
+T21	WEAPON 1174 1177	มีด
+T22	PERSON 1192 1202	นายสายัณห์
+T23	PERSON 1286 1296	นายเชาวลิต
+R13	crime_relation Arg1:T14 Arg2:T7	
+R14	located_at Arg1:T7 Arg2:T3	
+R15	located_at Arg1:T7 Arg2:T4	
+R16	located_at Arg1:T7 Arg2:T5	
+R17	crime_date_at Arg1:T14 Arg2:T16	
+R18	own_weapon Arg1:T14 Arg2:T9	
+R19	crime_located_at Arg1:T14 Arg2:T3	
+R20	crime_located_at Arg1:T14 Arg2:T4	
+R21	crime_located_at Arg1:T14 Arg2:T5	

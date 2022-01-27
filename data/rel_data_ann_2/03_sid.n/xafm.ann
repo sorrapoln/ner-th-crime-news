@@ -1,0 +1,66 @@
+T1	TIME 16 23	12.00น.
+T2	DATE 34 48	14 ตุลาคม 2564
+T3	PERSON 49 68	พ.ต.ท.รณเดช บุตรศรี
+T4	ORGANIZATION 82 95	สภ.กระทุ่มแบน
+T5	LOCATION 147 160	เลขที่ 90/105
+T6	LOCATION 161 164	ม.5
+T7	LOCATION 165 175	ต.อ้อมน้อย
+T8	LOCATION 176 188	อ.กระทุ่มแบน
+T9	LOCATION 189 200	จ.สมุทรสาคร
+T10	PERSON 222 241	พ.ต.อ.พิภบ พัชรลภัส
+T11	ORGANIZATION 246 259	สภ.กระทุ่มแบน
+T12	ORGANIZATION 280 293	สภ.กระทุ่มแบน
+T13	LOCATION 322 331	สมุทรสาคร
+T14	ORGANIZATION 354 373	โรงพยาบาลกระทุ่มแบน
+T15	PERSON 384 405	นายทนงศักดิ์ สีหะวงษ์
+T16	TIME 411 416	24 ปี
+T17	LOCATION 425 433	เลขที่35
+T18	LOCATION 434 438	ม.16
+T19	LOCATION 439 448	ต.ในเมือง
+T20	LOCATION 449 463	อ.เมืองขอนแก่น
+T21	LOCATION 464 473	จ.ขอนแก่น
+T22	WEAPON 490 500	ปืนขนาด.38
+T23	WEAPON 595 620	ปืนไทยประดิษฐ์แบบเด็กเล่น
+T24	VEHICLE 653 672	รถกระบะยี่ห้ออีซูซุ
+T25	COLOR 672 677	สีขาว
+T26	LP 692 715	6 กณ 2988 กรุงเทพมหานคร
+T27	OBJECT 721 738	ปลอกกระสุนขนาด.38
+T28	PERSON 783 802	นายสุริโย พิมตะคลอง
+T29	TIME 808 813	20 ปี
+T30	LOCATION 822 834	เลขที่99/117
+T31	LOCATION 835 846	ถ.เหล่านาดี
+T32	LOCATION 847 856	ต.ในเมือง
+T33	LOCATION 857 871	อ.เมืองขอนแก่น
+T34	LOCATION 872 881	จ.ขอนแก่น
+T35	PERSON 926 938	นายทนงศักดิ์
+T36	WEAPON 1021 1024	ปืน
+T37	WEAPON 1034 1037	ปืน
+T38	PERSON 1075 1087	นายทนงศักดิ์
+T39	WEAPON 1204 1207	ปืน
+R1	located_at Arg1:T15 Arg2:T17	
+R2	located_at Arg1:T15 Arg2:T18	
+R3	located_at Arg1:T15 Arg2:T19	
+R4	located_at Arg1:T15 Arg2:T20	
+R5	located_at Arg1:T15 Arg2:T21	
+R6	color_of Arg1:T24 Arg2:T25	
+R7	vehicle_lp Arg1:T24 Arg2:T26	
+R8	found_object_at Arg1:T27 Arg2:T5	
+R9	found_object_at Arg1:T27 Arg2:T6	
+R10	found_object_at Arg1:T27 Arg2:T7	
+R11	found_object_at Arg1:T27 Arg2:T8	
+R12	found_object_at Arg1:T27 Arg2:T9	
+R13	crime_relation Arg1:T28 Arg2:T15	
+R14	located_at Arg1:T28 Arg2:T30	
+R15	located_at Arg1:T28 Arg2:T31	
+R16	located_at Arg1:T28 Arg2:T32	
+R17	located_at Arg1:T28 Arg2:T33	
+R18	located_at Arg1:T28 Arg2:T34	
+R19	crime_located_at Arg1:T28 Arg2:T5	
+R20	crime_located_at Arg1:T28 Arg2:T6	
+R21	crime_located_at Arg1:T28 Arg2:T7	
+R22	crime_located_at Arg1:T28 Arg2:T8	
+R23	crime_located_at Arg1:T28 Arg2:T9	
+R24	employee_or_member_of Arg1:T10 Arg2:T11	
+R25	employee_or_member_of Arg1:T3 Arg2:T11	
+R26	crime_date_at Arg1:T28 Arg2:T2	
+R27	crime_time_at Arg1:T28 Arg2:T1	

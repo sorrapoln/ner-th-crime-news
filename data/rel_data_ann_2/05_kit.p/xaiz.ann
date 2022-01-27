@@ -1,0 +1,37 @@
+T1	DATE 8 15	21 ม.ค.
+T2	ORGANIZATION 21 32	กองปราบปราม
+T3	PERSON 33 52	พล.ต.ต.มนตรี เทศขัน
+R1	employee_or_member_of Arg1:T3 Arg2:T2	
+T4	PERSON 68 88	พ.ต.อ.พงศ์ปณต ชูแก้ว
+T5	ORGANIZATION 95 100	บก.ป.
+R2	employee_or_member_of Arg1:T4 Arg2:T5	
+T6	PERSON 101 127	พ.ต.ต.เกียรติศักดิ์ บุญทอง
+T7	ORGANIZATION 136 141	บก.ป.
+R3	employee_or_member_of Arg1:T6 Arg2:T7	
+T8	PERSON 156 170	นายฮัมดี นิหลง
+T9	TIME 176 181	40 ปี
+T10	LOCATION 195 206	จังหวัดยะลา
+T11	DATE 222 232	19 ม.ค. 65
+T12	LOCATION 359 362	ม.4
+T13	LOCATION 363 376	ต.บันนังสาเรง
+T14	LOCATION 377 384	อ.เมือง
+T15	LOCATION 385 391	จ.ยะลา
+T16	DATE 412 418	4 ม.ค.
+T17	PERSON 419 427	นายฮัมดี
+R4	crime_date_at Arg1:T8 Arg2:T16	
+R5	crime_date_at Arg1:T17 Arg2:T16	
+T18	PERSON 463 469	น.ส.จี
+R6	crime_relation Arg1:T17 Arg2:T18	
+R7	crime_relation Arg1:T8 Arg2:T18	
+T19	PERSON 570 576	น.ส.จี
+T20	LOCATION 615 622	อ.เมือง
+T21	LOCATION 623 629	จ.ยะลา
+T22	PERSON 649 657	นายฮัมดี
+R8	crime_located_at Arg1:T22 Arg2:T20	
+R9	crime_located_at Arg1:T22 Arg2:T21	
+R10	crime_located_at Arg1:T17 Arg2:T20	
+R11	crime_located_at Arg1:T17 Arg2:T21	
+R12	located_at Arg1:T8 Arg2:T12	
+R13	located_at Arg1:T8 Arg2:T13	
+R14	located_at Arg1:T8 Arg2:T14	
+R15	located_at Arg1:T8 Arg2:T15	

@@ -1,0 +1,34 @@
+T1	DATE 24 35	16 ม.ค.2565
+T2	PERSON 36 59	พล.ต.ต.อรรถพล อนุสิทธิ์
+T3	PERSON 106 123	พ.ต.อ.อำนาจ กาหลง
+T4	ORGANIZATION 128 137	สน.สายไหม
+T5	PERSON 152 171	พ.ต.ท.เสน่ห์ มณีฉาย
+T6	PERSON 185 209	พ.ต.ต.สุวิทย์ หล่มศักดิ์
+T7	PERSON 304 312	นายภาสกร
+T8	TIME 332 337	24 ปี
+T9	PERSON 338 354	นายเกียรติศักดิ์
+T10	TIME 374 379	26 ปี
+T11	PERSON 380 388	นายจิตติ
+T12	TIME 408 413	18 ปี
+T13	PERSON 417 422	นายนุ
+T14	TIME 442 447	16 ปี
+T15	OBJECT 460 476	กัญชาแห้งอัดแท่ง
+T16	WEAPON 505 525	อาวุธปืนแบบออโตเมติก
+T17	WEAPON 526 534	ขนาด .32
+T18	WEAPON 553 567	อาวุธปืนลูกโม่
+T19	WEAPON 573 576	.38
+T20	LOCATION 617 633	ซอยพหลโยธิน 54/1
+T21	LOCATION 634 639	แยก 4
+T22	LOCATION 640 650	แขวงสายไหม
+T23	LOCATION 651 660	เขตสายไหม
+T24	LOCATION 661 665	กทม.
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+R2	crime_date_at Arg1:T7 Arg2:T1	
+R3	crime_date_at Arg1:T9 Arg2:T1	
+R4	crime_date_at Arg1:T11 Arg2:T1	
+R5	crime_date_at Arg1:T13 Arg2:T1	
+R6	found_object_at Arg1:T15 Arg2:T20	
+R7	found_object_at Arg1:T15 Arg2:T21	
+R8	found_object_at Arg1:T15 Arg2:T22	
+R9	found_object_at Arg1:T15 Arg2:T23	
+R10	found_object_at Arg1:T15 Arg2:T24	

@@ -1,0 +1,5 @@
+T1	PERSON 3 11	นายปัญญา
+T2	WEAPON 46 49	ไม้
+R1	own_weapon Arg1:T1 Arg2:T2	
+T3	PERSON 128 136	นายปัญญา
+T4	VEHICLE 89 91	รถ

@@ -1,0 +1,44 @@
+T1	DATE 12 19	14 ก.ค.
+T2	ORGANIZATION 24 44	กองบังคับการปราบปราม
+T3	PERSON 53 75	พล.ต.ต.สุวัฒน์ แสงนุ่ม
+T4	PERSON 83 103	พ.ต.อ.พงศ์ปณต ชูแก้ว
+T5	PERSON 116 134	พ.ต.ต.ทศพล กิติลาภ
+T6	PERSON 136 157	พ.ต.ต.สวรรยา เอียดตรง
+T7	PERSON 179 196	นายวุฒิชัย อุเส็น
+T8	TIME 202 207	35 ปี
+T9	DATE 250 263	15 มิ.ย. 2563
+T10	WEAPON 315 318	ปืน
+T11	WEAPON 381 384	ปืน
+T12	LOCATION 461 469	ต.บางสัก
+T13	LOCATION 470 478	อ.กันตัง
+T14	LOCATION 479 485	จ.ตรัง
+T15	DATE 509 519	มี.ค. 2563
+T16	PERSON 520 530	นายวุฒิชัย
+T17	WEAPON 572 581	ปืนลูกซอง
+T18	PERSON 584 594	นายวรวิทย์
+T19	PERSON 599 604	ตอยิบ
+T20	LOCATION 644 671	ถนนห้วยน้ำขาว-น้ำพุร้อนเค็ม
+T21	LOCATION 672 679	หมู่ 10
+T22	LOCATION 680 692	ต.ห้วยน้ำขาว
+T23	LOCATION 693 703	อ.คลองท่อม
+T24	LOCATION 704 712	จ.กระบี่
+T25	ORGANIZATION 766 777	สภ.คลองท่อม
+T26	PERSON 854 864	นายวุฒิชัย
+T27	LOCATION 908 914	จ.ตรัง
+T28	PERSON 953 963	นายวุฒิชัย
+T29	ORGANIZATION 1025 1036	สภ.คลองท่อม
+R1	own_weapon Arg1:T7 Arg2:T17	
+R2	crime_relation Arg1:T7 Arg2:T18	
+R3	located_at Arg1:T7 Arg2:T12	
+R4	located_at Arg1:T7 Arg2:T13	
+R5	located_at Arg1:T7 Arg2:T14	
+R6	crime_date_at Arg1:T7 Arg2:T15	
+R7	crime_located_at Arg1:T7 Arg2:T20	
+R8	crime_located_at Arg1:T7 Arg2:T21	
+R9	crime_located_at Arg1:T7 Arg2:T22	
+R10	crime_located_at Arg1:T7 Arg2:T23	
+R11	crime_located_at Arg1:T7 Arg2:T24	
+R12	employee_or_member_of Arg1:T3 Arg2:T2	
+R13	employee_or_member_of Arg1:T4 Arg2:T2	
+R14	employee_or_member_of Arg1:T5 Arg2:T2	
+R15	employee_or_member_of Arg1:T6 Arg2:T2	

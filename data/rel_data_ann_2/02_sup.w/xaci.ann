@@ -1,0 +1,62 @@
+T1	DATE 4 10	5 ม.ค.
+T2	PERSON 12 41	พลตำรวจตรีจิรสันต์ แก้วแสงเอก
+T3	ORGANIZATION 56 67	ตำรวจนครบาล
+T4	PERSON 84 92	นายกฤษดา
+T5	PERSON 97 100	ไผ่
+T6	TIME 113 118	33 ปี
+T7	LOCATION 142 158	บ้านเลขที่ 42/50
+T8	LOCATION 159 177	ซอยหมู่บ้านจามจุรี
+T9	LOCATION 178 188	ต.ราชาเทวะ
+T10	LOCATION 189 197	อ.บางพลี
+T11	LOCATION 198 211	จ.สมุทรปราการ
+T12	DATE 224 232	2 มกราคม
+T13	OBJECT 257 260	ปืน
+T14	OBJECT 276 290	ปืนไทยประดิษฐ์
+T15	OBJECT 298 315	ปืนยาวไทยประดิษฐ์
+T16	OBJECT 345 353	ปืนปากกา
+T17	OBJECT 356 372	เครื่องกระสุนปืน
+T18	OBJECT 373 402	ท่อเหล็กใช้สำหรับทำลำกล้องปืน
+T19	OBJECT 405 419	โทรศัพท์มือถือ
+T20	OBJECT 423 458	อุปกรณ์เครื่องมือสำหรับผลิตอาวุธปืน
+R1	located_at Arg1:T4 Arg2:T7	
+R2	located_at Arg1:T4 Arg2:T8	
+R3	located_at Arg1:T4 Arg2:T9	
+R4	located_at Arg1:T4 Arg2:T10	
+R5	located_at Arg1:T4 Arg2:T11	
+R6	crime_date_at Arg1:T4 Arg2:T12	
+R7	found_object_at Arg1:T14 Arg2:T7	
+R8	found_object_at Arg1:T14 Arg2:T8	
+R9	found_object_at Arg1:T14 Arg2:T9	
+R10	found_object_at Arg1:T14 Arg2:T10	
+R11	found_object_at Arg1:T14 Arg2:T11	
+R12	found_object_at Arg1:T15 Arg2:T7	
+R13	found_object_at Arg1:T15 Arg2:T8	
+R14	found_object_at Arg1:T15 Arg2:T9	
+R15	found_object_at Arg1:T15 Arg2:T10	
+R16	found_object_at Arg1:T15 Arg2:T11	
+R17	found_object_at Arg1:T16 Arg2:T7	
+R18	found_object_at Arg1:T16 Arg2:T8	
+R19	found_object_at Arg1:T16 Arg2:T9	
+R20	found_object_at Arg1:T16 Arg2:T10	
+R21	found_object_at Arg1:T16 Arg2:T11	
+R22	found_object_at Arg1:T17 Arg2:T7	
+R23	found_object_at Arg1:T17 Arg2:T8	
+R24	found_object_at Arg1:T17 Arg2:T9	
+R25	found_object_at Arg1:T17 Arg2:T10	
+R26	found_object_at Arg1:T17 Arg2:T11	
+R27	found_object_at Arg1:T18 Arg2:T7	
+R28	found_object_at Arg1:T18 Arg2:T8	
+R29	found_object_at Arg1:T18 Arg2:T9	
+R30	found_object_at Arg1:T18 Arg2:T10	
+R31	found_object_at Arg1:T18 Arg2:T11	
+R32	found_object_at Arg1:T19 Arg2:T7	
+R33	found_object_at Arg1:T19 Arg2:T8	
+R34	found_object_at Arg1:T19 Arg2:T9	
+R35	found_object_at Arg1:T19 Arg2:T10	
+R36	found_object_at Arg1:T19 Arg2:T11	
+R37	found_object_at Arg1:T20 Arg2:T7	
+R38	found_object_at Arg1:T20 Arg2:T8	
+R39	found_object_at Arg1:T20 Arg2:T9	
+R40	found_object_at Arg1:T20 Arg2:T10	
+R41	found_object_at Arg1:T20 Arg2:T11	
+R42	employee_or_member_of Arg1:T2 Arg2:T3	

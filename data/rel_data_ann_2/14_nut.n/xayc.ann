@@ -1,0 +1,44 @@
+T1	DATE 12 19	20 ม.ค.
+T2	PERSON 20 42	ร.ต.อ.ศิริพงษ์ เพ็งมณี
+T3	ORGANIZATION 59 67	สน.พญาไท
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T4	ORGANIZATION 96 134	สถานีตำรวจรถไฟมักกะสัน (ส.รฟ.มักกะสัน)
+T5	ORGANIZATION 135 169	กองกำกับการ1 กองบังคับการตำรวจรถไฟ
+T6	LOCATION 184 199	ถนนนิคมมักกะสัน
+T7	LOCATION 200 212	แขวงมักกะสัน
+T8	LOCATION 213 223	เขตราชเทวี
+T9	LOCATION 224 232	กรุงเทพฯ
+T10	PERSON 254 279	พ.ต.อ.สุรศักดิ์ สิทธิใหญ่
+T11	PERSON 296 317	พ.ต.อ.บวรภพ สุนทรเรขา
+T12	ORGANIZATION 322 330	สน.พญาไท
+T13	ORGANIZATION 283 295	.กก.1 บก.รฟ.
+R2	employee_or_member_of Arg1:T10 Arg2:T13	
+R3	employee_or_member_of Arg1:T11 Arg2:T12	
+T14	ORGANIZATION 375 388	สถาบันนิติเวช
+T15	ORGANIZATION 389 397	รพ.ตำรวจ
+T16	ORGANIZATION 401 418	มูลนิธิร่วมกตัญญู
+T17	PERSON 459 472	ส.ต.อ.ปริวัตร
+T18	TIME 491 496	32 ปี
+T19	ORGANIZATION 513 535	สถานีตำรวจรถไฟมักกะสัน
+T20	COLOR 558 563	สีขาว
+T21	COLOR 583 587	สีดำ
+T22	WEAPON 636 655	กระสุนปืนขนาด 9 มม.
+T23	OBJECT 698 712	ปืนพกขนาด 9 มม
+T24	OBJECT 717 727	ปลอกกระสุน
+T25	PERSON 763 788	พ.ต.อ.สุรศักดิ์ สิทธิใหญ่
+T26	ORGANIZATION 793 804	กก.1 บก.รฟ.
+R4	employee_or_member_of Arg1:T25 Arg2:T26	
+R5	employee_or_member_of Arg1:T17 Arg2:T19	
+R6	found_object_at Arg1:T23 Arg2:T4	
+R7	found_object_at Arg1:T24 Arg2:T5	
+R8	found_object_at Arg1:T23 Arg2:T6	
+R9	found_object_at Arg1:T23 Arg2:T8	
+R10	found_object_at Arg1:T23 Arg2:T9	
+R11	found_object_at Arg1:T23 Arg2:T9	
+R12	found_object_at Arg1:T24 Arg2:T9	
+R13	found_object_at Arg1:T24 Arg2:T4	
+R14	found_object_at Arg1:T24 Arg2:T5	
+R15	found_object_at Arg1:T24 Arg2:T6	
+R16	found_object_at Arg1:T24 Arg2:T7	
+R17	found_object_at Arg1:T24 Arg2:T8	
+R18	found_object_at Arg1:T24 Arg2:T7	

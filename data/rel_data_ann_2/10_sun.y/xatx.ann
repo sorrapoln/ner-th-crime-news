@@ -1,0 +1,20 @@
+T1	TIME 10 18	15.00 น.
+T2	DATE 25 35	17 พ.ค. 64
+T3	PERSON 36 62	พ.ต.ท.วีระพันธ์ เกื้อรักษ์
+T4	ORGANIZATION 74 97	สถานีตำรวจภูธรบางสวรรค์
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	LOCATION 98 106	อ.พระแสง
+T6	LOCATION 107 121	จ.สุราษฎร์ธานี
+T7	PERSON 145 154	นายอานนท์
+T8	PERSON 159 174	เล็ก มัดฐารักษ์
+T9	TIME 180 185	35 ปี
+T10	WEAPON 238 251	ปืนขนาด 9 มม.
+T11	PERSON 255 271	น.ส.ดรุณี ศรีเทพ
+T12	TIME 277 282	50 ปี
+R2	own_weapon Arg1:T7 Arg2:T10	
+R3	crime_relation Arg1:T7 Arg2:T11	
+T13	WEAPON 494 507	ปืนขนาด 9 มม.
+T14	TIME 572 580	11.00 น.
+T15	DATE 590 602	14 พ.ค.256.4
+R4	crime_time_at Arg1:T7 Arg2:T14	
+R5	crime_date_at Arg1:T7 Arg2:T15	

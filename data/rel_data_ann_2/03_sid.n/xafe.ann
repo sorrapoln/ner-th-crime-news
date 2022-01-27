@@ -1,0 +1,35 @@
+T1	DATE 12 24	21 ม.ค. 2565
+T2	ORGANIZATION 74 94	ร้านขายของชำนิดหน่อย
+T3	LOCATION 95 104	บ้านเดื่อ
+T4	LOCATION 105 111	หมู่ 9
+T5	LOCATION 112 124	ตำบลบ้านแหวน
+T6	LOCATION 125 135	อำเภอหางดง
+T7	LOCATION 136 152	จังหวัดเชียงใหม่
+T8	WEAPON 231 234	มีด
+T9	WEAPON 333 340	ก้อนหิน
+T10	WEAPON 341 348	ขวดแก้ว
+T11	WEAPON 349 352	ไม้
+T12	WEAPON 356 363	เก้าอี้
+T13	TIME 472 479	10 นาที
+T14	TIME 513 521	21.26 น.
+T15	DATE 532 544	20 มกราคม 65
+T16	ORGANIZATION 594 602	สภ.หางดง
+T17	LOCATION 715 722	ดอยวาวี
+T18	LOCATION 723 735	อำเภอแม่สรวย
+T19	LOCATION 736 751	จังหวัดเชียงราย
+T20	LOCATION 795 805	อำเภอหางดง
+T21	PERSON 838 857	นายพงษ์ศักดิ์ ลุงคำ
+T22	TIME 863 868	27 ปี
+T23	WEAPON 876 879	มีด
+T24	ORGANIZATION 986 1004	โรงพยาบาลสันป่าตอง
+T25	ORGANIZATION 1143 1157	โรงพยาบาลหางดง
+T26	PERSON 1057 1063	นายสาย
+R1	crime_relation Arg1:T21 Arg2:T26	
+R3	own_weapon Arg1:T21 Arg2:T23	
+R4	crime_time_at Arg1:T21 Arg2:T14	
+R2	crime_date_at Arg1:T21 Arg2:T15	
+R5	crime_located_at Arg1:T21 Arg2:T3	
+R6	crime_located_at Arg1:T21 Arg2:T4	
+R7	crime_located_at Arg1:T21 Arg2:T5	
+R8	crime_located_at Arg1:T21 Arg2:T6	
+R9	crime_located_at Arg1:T21 Arg2:T7	

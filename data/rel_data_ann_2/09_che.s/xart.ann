@@ -1,0 +1,15 @@
+T1	DATE 7 18	16 ก.ย 2562
+T2	TIME 24 32	22.00 น.
+T3	ORGANIZATION 60 70	สภ.ห้วยยอด
+T4	ORGANIZATION 100 121	ร้านห้วยยอด สนุกเกอร์
+T5	LOCATION 153 169	ถนนเทศบาลห้วยยอด
+T6	LOCATION 170 176	ซอย 13
+T7	LOCATION 177 186	ต.ห้วยยอด
+T8	LOCATION 187 196	อ.ห้วยยอด
+T9	LOCATION 197 203	จ.ตรัง
+T10	ORGANIZATION 221 231	สภ.ห้วยยอด
+T11	ORGANIZATION 292 320	กู้ภัยมูลนิธิกุศลสถานห้วยยอด
+T12	OBJECT 404 418	โต๊ะสนุ๊กเกอร์
+T13	PERSON 443 455	นายชัชชวิทย์
+T14	TIME 461 466	48 ปี
+T15	WEAPON 515 526	ปืนขนาด .38

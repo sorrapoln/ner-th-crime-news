@@ -1,0 +1,19 @@
+T1	TIME 10 18	09.00 น.
+T2	DATE 25 34	19 ต.ค.64
+T3	LOCATION 56 65	ต.ไทรใหญ่
+T4	LOCATION 66 75	อ.ไทรน้อย
+T5	LOCATION 76 85	จ.นนทบุรี
+T6	PERSON 86 106	นางสมจิตร แก้วกระบิน
+T7	TIME 111 116	59 ปี
+T8	PERSON 119 142	น.ส.มนัตนันต์ เนียมชมพู
+T9	TIME 148 153	17 ปี
+T10	PERSON 169 189	น.ส.ดรุณี แก้วกระบิน
+T11	PERSON 422 435	น๊อต สว่างดาว
+T12	PERSON 408 417	นายอมรเทพ
+T13	ORGANIZATION 378 388	สภ.ไทรน้อย
+T14	VEHICLE 501 507	รถจยย.
+T15	PERSON 570 583	น.ส.มนัตนันต์
+T16	PERSON 938 947	นางสมจิตร
+R1	crime_relation Arg1:T12 Arg2:T10	
+R2	crime_relation Arg1:T11 Arg2:T10	
+R3	own_vehicle Arg1:T10 Arg2:T14	

@@ -1,0 +1,20 @@
+T1	VEHICLE 79 96	กระบะท้ายรถปิกอัพ
+T2	TIME 206 211	20.น.
+T3	DATE 222 229	5 เม.ย.
+T4	VEHICLE 394 407	กรุงเทพมหานคร
+T5	PERSON 475 497	นาพิมพ์วรา รวีนพลสิทธ์
+T6	PERSON 552 574	น.ส.สุริญาพร พูลสมบัติ
+T7	PERSON 607 628	พ.ต.อ.พิทักษ์ สุทธิผล
+T8	PERSON 656 677	พล.ต.ท.ศานิตย์ มหถาวร
+T9	WEAPON 757 769	ระเบิดปิงปอง
+T10	WEAPON 775 785	ไปป์บือบบ์
+T11	TIME 946 954	21.30 น.
+T12	PERSON 954 979	พล.ต.อ.จักรทิพย์ ชัยจินดา
+T13	ORGANIZATION 271 290	สำนักงานสลากกินแบ่ง
+T14	LOCATION 291 307	ถนนราชดำเนินกลาง
+T15	ORGANIZATION 513 529	สำนักเขตห้วยขวาง
+R1	employee_or_member_of Arg1:T5 Arg2:T15	
+R2	employee_or_member_of Arg1:T6 Arg2:T15	
+T16	ORGANIZATION 633 645	สน.ชนะสงคราม
+R3	employee_or_member_of Arg1:T7 Arg2:T16	
+T17	ORGANIZATION 719 741	หน่วยเก็บกู้ระเบิด EOD

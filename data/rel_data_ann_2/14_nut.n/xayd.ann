@@ -1,0 +1,18 @@
+T1	ORGANIZATION 0 47	กองบังคับการปราบปราม กองบัญชาการตำรวจสอบสวนกลาง
+T2	PERSON 54 71	พ.ต.ท.อภิชน ขันกา
+T3	PERSON 86 119	ร.ต.อ.จิรัฎฐวัฒน์ กิจรุ่งเรืองเดช
+T4	PERSON 121 141	ร.ต.อ.ถวิล สายอินต๊ะ
+T5	PERSON 143 168	ร.ต.ท.นิติธร ประชัญกาญจนา
+R1	employee_or_member_of Arg1:T2 Arg2:T1	
+R2	employee_or_member_of Arg1:T3 Arg2:T1	
+R3	employee_or_member_of Arg1:T4 Arg2:T1	
+R4	employee_or_member_of Arg1:T5 Arg2:T1	
+T6	PERSON 188 214	ร.ต.ท.ฤทธิวัตร์ เอี่ยมอุดม
+R5	employee_or_member_of Arg1:T6 Arg2:T1	
+T7	PERSON 285 295	นายทรงวุฒิ
+T8	TIME 315 320	23 ปี
+T9	PERSON 343 360	ศาลจังหวัดหล่มสัก
+T10	TIME 383 396	4 ตุลาคม 2564
+T11	LOCATION 639 654	หมู่บ้านหมู่ 10
+T12	LOCATION 655 667	ต.ช่องสาลิกา
+T13	LOCATION 668 679	อ.พัฒนานิคม

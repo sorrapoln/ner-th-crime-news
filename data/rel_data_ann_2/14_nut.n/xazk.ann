@@ -1,0 +1,20 @@
+T1	LOCATION 62 75	คลองบางพระครู
+T2	LOCATION 89 102	อำเภอบางปะหัน
+T3	LOCATION 103 125	จังหวัดพระนครศรีอยุธยา
+T4	DATE 190 196	12 ส.ค
+T5	PERSON 199 221	พลตำรวจโทอำพล บัวรับพร
+T6	ORGANIZATION 233 247	ตำรวจภูธรภาค 1
+R1	employee_or_member_of Arg1:T5 Arg2:T6	
+T7	PERSON 257 284	พลตำรวจตรีนราเดช ทิพย์รักษ์
+T8	ORGANIZATION 297 328	ตำรวจภูธรจังหวัดพระนครศรีอยุธยา
+R2	employee_or_member_of Arg1:T7 Arg2:T8	
+T9	PERSON 352 379	นายกวินภพ หอมดวง หรือ "ตาล"
+T10	TIME 385 390	18 ปี
+T11	LOCATION 480 502	บริเวณริมคลองบางพระครู
+T12	PERSON 550 571	นางสาววราพร อิ่มอาหาร
+T13	TIME 577 582	40 ปี
+R3	crime_relation Arg1:T9 Arg2:T12	
+R4	crime_located_at Arg1:T9 Arg2:T1	
+R5	crime_located_at Arg1:T9 Arg2:T2	
+R6	crime_located_at Arg1:T9 Arg2:T3	
+R7	crime_date_at Arg1:T9 Arg2:T4	

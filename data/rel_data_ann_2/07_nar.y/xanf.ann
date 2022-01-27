@@ -1,0 +1,30 @@
+T1	PERSON 26 33	นายมานพ
+T2	TIME 39 44	41 ปี
+T3	WEAPON 76 88	ปืนลูกซองยาว
+T4	PERSON 226 248	ร.ต.อ.ชัยปติญญา แสงปาน
+T5	ORGANIZATION 274 285	สภ.หนองปลิง
+R1	employee_or_member_of Arg1:T4 Arg2:T5	
+T6	TIME 427 435	15.00 น.
+T7	TIME 484 492	11.00 น.
+T8	DATE 500 514	20 มกราคม 2565
+T9	LOCATION 554 567	พื้นที่หมู่ 3
+T10	LOCATION 568 577	ต.กลางแดด
+T11	LOCATION 579 585	.เมือง
+T12	LOCATION 586 597	จ.นครสวรรค์
+T13	PERSON 602 612	นายบุญเลิศ
+T14	TIME 618 623	72 ปี
+T15	PERSON 630 637	นายมานพ
+T16	WEAPON 645 648	ปืน
+T17	PERSON 666 685	นายวิโรจน์ แสนเสนาะ
+T18	ORGANIZATION 727 738	สภ.หนองปลิง
+T19	WEAPON 875 887	ปืนลูกซองยาว
+T20	PERSON 890 900	นายบุญเลิศ
+T21	PERSON 857 864	นายมานพ
+R2	own_weapon Arg1:T1 Arg2:T3	
+R3	crime_relation Arg1:T1 Arg2:T13	
+R4	employee_or_member_of Arg1:T17 Arg2:T18	
+R5	crime_located_at Arg1:T1 Arg2:T9	
+R6	crime_located_at Arg1:T1 Arg2:T10	
+R7	crime_located_at Arg1:T1 Arg2:T11	
+R8	crime_located_at Arg1:T1 Arg2:T12	
+R9	crime_relation Arg1:T1 Arg2:T4	

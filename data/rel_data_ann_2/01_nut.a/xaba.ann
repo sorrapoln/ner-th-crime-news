@@ -1,0 +1,26 @@
+T1	DATE 22 29	18 ต.ค.
+T2	ORGANIZATION 36 48	สภ.เมืองตรัง
+T3	LOCATION 141 148	หมู่ 12
+T4	LOCATION 149 159	บ้านเขาโหร
+T5	LOCATION 161 169	ต.น้ำผุด
+T6	LOCATION 170 181	อ.เมืองตรัง
+T7	ORGANIZATION 264 276	รพ.ศูนย์ตรัง
+T8	PERSON 322 333	หลวงพี่แจ๊ส
+T9	PERSON 302 317	พระสุเทพ ธนจาโร
+T10	TIME 339 344	63 ปี
+T11	WEAPON 365 372	มีดพร้า
+T12	PERSON 428 448	นายธนกฤต สาริยะสุนทร
+T13	PERSON 453 463	หลวงพี่กฤต
+T14	TIME 469 474	30 ปี
+T15	PERSON 629 643	พระเคารพ ยติโก
+T16	PERSON 784 792	นายธนกฤต
+T17	PERSON 881 888	พี่แจ๊ส
+T18	ORGANIZATION 961 973	วัดขุนสิทธิ์
+T19	LOCATION 974 985	ต.บ้านโพธิ์
+T20	LOCATION 986 997	อ.เมืองตรัง
+R1	crime_relation Arg1:T12 Arg2:T9	
+R2	own_weapon Arg1:T12 Arg2:T11	
+R3	crime_located_at Arg1:T12 Arg2:T3	
+R4	crime_located_at Arg1:T12 Arg2:T4	
+R5	crime_located_at Arg1:T12 Arg2:T5	
+R6	crime_located_at Arg1:T12 Arg2:T6	

@@ -1,0 +1,23 @@
+T1	LOCATION 117 130	จังหวัดนครพนม
+T2	LOCATION 138 154	จังหวัดสมุทรสาคร
+T3	DATE 215 223	5 มกราคม
+T4	LOCATION 296 309	ถนนบรมราชชนนี
+T5	LOCATION 319 335	ถนนพุทธมณฑลสาย 4
+T6	VEHICLE 387 424	รถยนต์(กระบะ)ยี่ห้อ อีซูซุ รุ่นดีแม็ก
+T7	COLOR 425 430	สีขาว
+T8	LP 439 458	ผฉ 6886 อุบลราชธานี
+T9	VEHICLE 492 498	รถยนต์
+T10	LOCATION 517 527	วัดบางปิ้ง
+T11	LOCATION 528 538	อำเภอเมือง
+T12	LOCATION 539 555	จังหวัดสมุทรสาคร
+T13	PERSON 558 574	นายมานพ พงษ์ศิริ
+T14	VEHICLE 581 594	รถจักรยานยนต์
+T15	PERSON 697 713	นายอาภากร ลาบสาร
+T16	PERSON 725 742	นายสุทธิพงษ์ สีทา
+R1	color_of Arg1:T6 Arg2:T7	
+R2	vehicle_lp Arg1:T6 Arg2:T8	
+R3	own_vehicle Arg1:T13 Arg2:T14	
+R4	own_vehicle Arg1:T15 Arg2:T6	
+T17	ORGANIZATION 14 39	กองกำกับการสืบสวนนครบาล 7
+T18	ORGANIZATION 178 186	นครบาล 7
+T19	OBJECT 762 767	กัญชา

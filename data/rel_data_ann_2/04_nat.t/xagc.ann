@@ -1,0 +1,13 @@
+T1	ORGANIZATION 35 43	สน.พญาไท
+T2	WEAPON 93 96	ปืน
+T3	ORGANIZATION 119 141	สถานีตำรวจรถไฟมักกะสัน
+T4	PERSON 172 185	ส.ต.อ.ปริวัตร
+T5	TIME 205 210	32 ปี
+T6	ORGANIZATION 233 255	สถานีตำรวจรถไฟมักกะสัน
+R1	employee_or_member_of Arg1:T4 Arg2:T6	
+T7	ORGANIZATION 297 319	สถานีตำรวจรถไฟมักกะสัน
+T8	PERSON 370 383	ส.ต.อ.ปริวัตร
+T9	ORGANIZATION 403 425	สถานีตำรวจรถไฟมักกะสัน
+T10	COLOR 446 451	สีขาว
+T11	COLOR 467 471	สีดำ
+T12	WEAPON 563 572	กระสุนปืน

@@ -1,0 +1,20 @@
+T1	DATE 7 14	11 ก.พ.
+T2	ORGANIZATION 62 76	วัดมงคลสวัสดิ์
+T3	ORGANIZATION 82 94	วัดเม้าสุขขา
+T4	LOCATION 95 107	ต.หนองซ้ำซาก
+T5	LOCATION 108 117	อ.บ้านบึง
+T6	LOCATION 118 126	จ.ชลบุรี
+T7	PERSON 171 186	นายนิกร แซ่อึ้ง
+T8	TIME 192 197	31 ปี
+T9	PERSON 278 296	พระมหาประภาส พลศรี
+T10	TIME 302 307	53 ปี
+T11	PERSON 342 363	นายภาคิน นันทชลากรกิจ
+T12	TIME 369 374	26 ปี
+T13	WEAPON 391 394	ปืน
+R1	own_weapon Arg1:T11 Arg2:T13	
+R2	crime_relation Arg1:T11 Arg2:T7	
+R3	crime_relation Arg1:T11 Arg2:T9	
+R4	crime_date_at Arg1:T11 Arg2:T1	
+R5	crime_located_at Arg1:T11 Arg2:T4	
+R6	crime_located_at Arg1:T11 Arg2:T5	
+R7	crime_located_at Arg1:T11 Arg2:T6	

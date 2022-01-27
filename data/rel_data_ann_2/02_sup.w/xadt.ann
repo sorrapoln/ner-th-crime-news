@@ -1,0 +1,27 @@
+T1	DATE 8 18	23 ม.ค. 65
+T2	ORGANIZATION 37 52	สภ.เมืองอ่างทอง
+T3	ORGANIZATION 84 102	โรงพยาบาลอ่างทอง 3
+T4	LOCATION 113 129	เมืองใหม่ชัยมงคล
+T5	LOCATION 130 138	ต.บ้านแห
+T6	LOCATION 139 146	อ.เมือง
+T7	LOCATION 147 156	จ.อ่างทอง
+T8	DATE 225 235	22 ม.ค. 65
+T10	ORGANIZATION 438 453	สภ.เมืองอ่างทอง
+T9	PERSON 680 686	นายบอล
+T11	PERSON 690 696	นายนัฐ
+T12	ORGANIZATION 704 715	วัดท้ายย่าน
+T13	VEHICLE 740 753	รถจักรยานยนต์
+T14	PERSON 782 787	นายเน
+T15	WEAPON 853 856	ปืน
+T16	PERSON 870 876	นายบอล
+T17	PERSON 879 885	นายนัฐ
+T18	PERSON 913 919	นายบอล
+T19	PERSON 922 928	นายนัฐ
+T20	ORGANIZATION 1014 1024	รพ.อ่างทอง
+R1	located_at Arg1:T14 Arg2:T4	
+R2	located_at Arg1:T14 Arg2:T5	
+R3	located_at Arg1:T14 Arg2:T6	
+R4	located_at Arg1:T14 Arg2:T7	
+R5	own_vehicle Arg1:T9 Arg2:T13	
+R6	own_vehicle Arg1:T11 Arg2:T13	
+R7	crime_date_at Arg1:T14 Arg2:T8	

@@ -1,0 +1,16 @@
+T1	DATE 7 17	6 ก.ย.2562
+T2	PERSON 35 54	ร.ต.อ.สุดสาคร สโมสร
+T3	ORGANIZATION 71 81	สน.บางพลัด
+T4	LOCATION 105 119	ร้านทองออโรร่า
+T5	LOCATION 124 136	ตั้งฮั่วเส็ง
+T6	LOCATION 137 143	ธนบุรี
+T7	LOCATION 144 156	แขวงบางบำหรุ
+T8	LOCATION 157 167	เขตบางพลัด
+T9	LOCATION 168 176	กรุงเทพฯ
+T10	ORGANIZATION 214 224	สน.บางพลัด
+T11	TIME 395 400	50 ปี
+T12	COLOR 438 443	สีขาว
+T13	COLOR 474 479	สีขาว
+T14	WEAPON 497 500	ปืน
+T15	LOCATION 374 377	ไทย
+R1	employee_or_member_of Arg1:T2 Arg2:T3	

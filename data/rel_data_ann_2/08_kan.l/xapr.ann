@@ -1,0 +1,23 @@
+T1	TIME 10 18	22.00 น.
+T2	ORGANIZATION 35 45	สน.ปทุมวัน
+T3	LOCATION 68 81	ซอยรองเมือง 3
+T4	LOCATION 86 94	พระราม 6
+T5	LOCATION 95 100	ซอย 5
+T6	LOCATION 101 111	เขตปทุมวัน
+T7	VEHICLE 149 156	รถกระบะ
+T8	COLOR 158 161	ขาว
+T9	LP 170 193	2 ฒอ 4473 กรุงเทพมหานคร
+T10	PERSON 257 272	นายทองสุข ขนส่ง
+T11	TIME 278 283	49 ปี
+T12	ORGANIZATION 334 344	สน.ปทุมวัน
+T13	VEHICLE 441 447	รถเก๋ง
+T14	VEHICLE 454 459	กระบะ
+T15	VEHICLE 469 480	รถกระบะเล็ก
+R1	color_of Arg1:T7 Arg2:T8	
+R2	vehicle_lp Arg1:T7 Arg2:T9	
+R3	own_vehicle Arg1:T10 Arg2:T7	
+R4	crime_located_at Arg1:T10 Arg2:T3	
+R5	crime_located_at Arg1:T10 Arg2:T4	
+R6	crime_located_at Arg1:T10 Arg2:T5	
+R7	crime_located_at Arg1:T10 Arg2:T6	
+R8	crime_time_at Arg1:T10 Arg2:T1	

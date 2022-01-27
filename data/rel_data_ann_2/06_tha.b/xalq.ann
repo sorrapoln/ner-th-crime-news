@@ -1,0 +1,65 @@
+T1	TIME 10 18	17.30 น.
+T2	DATE 26 35	20 ม.ค.65
+T3	PERSON 36 58	ร.ต.อ.พีรพันธ์ กันหมุด
+T4	ORGANIZATION 73 84	สภ.วัดโบสถ์
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	LOCATION 85 95	จ.พิษณุโลก
+R2	located_at Arg1:T4 Arg2:T5	
+T6	WEAPON 166 169	มีด
+T7	LOCATION 185 195	เลขที่ 312
+T8	LOCATION 196 202	หมู่ 2
+T9	LOCATION 203 210	หนองรวก
+T10	LOCATION 211 220	ต.คันโช้ง
+T11	LOCATION 221 231	อ.วัดโบสถ์
+T12	LOCATION 232 242	จ.พิษณุโลก
+T13	PERSON 262 285	พ.ต.อ.วิสุทธิ์ คล้ายแสง
+T14	ORGANIZATION 290 301	สภ.วัดโบสถ์
+R3	employee_or_member_of Arg1:T13 Arg2:T14	
+T15	ORGANIZATION 339 350	รพ.วัดโบสถ์
+T16	PERSON 461 470	นายสุดแดน
+T17	TIME 486 491	48 ปี
+T18	LOCATION 500 511	เลขที่ 14/4
+T19	LOCATION 512 518	หมู่ 2
+T20	LOCATION 519 529	ต.วัดโบสถ์
+T21	LOCATION 530 540	อ.วัดโบสถ์
+T22	LOCATION 541 551	จ.พิษณุโลก
+T23	COLOR 573 579	สีม่วง
+T24	COLOR 595 599	สีดำ
+T25	WEAPON 618 621	มีด
+T26	ORGANIZATION 723 736	รพ.พุทธชินราช
+T27	PERSON 767 784	น.ส.มาริสา โม้ลาย
+T28	TIME 790 795	26 ปี
+T29	PERSON 886 909	พลทหารอภิเชษฐ ตะบ้านไร่
+T30	TIME 915 920	22 ปี
+T31	LOCATION 929 941	เลขที่ 3/001
+T32	LOCATION 942 948	หมู่ 2
+T33	LOCATION 949 958	ต.อรัญญิก
+T34	LOCATION 959 966	อ.เมือง
+T35	LOCATION 967 977	จ.พิษณุโลก
+T36	ORGANIZATION 984 1005	ค่ายสมเด็จพระเอกาทศรถ
+T37	PERSON 1527 1540	พลทหารอภิเชษฐ
+T38	LOCATION 1591 1602	บ้านหนองบอน
+T39	LOCATION 1603 1609	หมู่ 8
+T40	LOCATION 1610 1619	ต.คันโช้ง
+T41	ORGANIZATION 1649 1660	สภ.วัดโบสถ์
+T42	WEAPON 1696 1699	มีด
+T43	PERSON 1712 1721	นายสุดแดน
+R4	own_weapon Arg1:T29 Arg2:T42	
+R5	located_at Arg1:T29 Arg2:T31	
+R6	located_at Arg1:T29 Arg2:T32	
+R7	located_at Arg1:T29 Arg2:T33	
+R8	located_at Arg1:T29 Arg2:T34	
+R9	located_at Arg1:T29 Arg2:T35	
+R10	employee_or_member_of Arg1:T29 Arg2:T36	
+R11	crime_relation Arg1:T29 Arg2:T16	
+R12	crime_located_at Arg1:T29 Arg2:T7	
+R13	crime_located_at Arg1:T29 Arg2:T8	
+R14	crime_located_at Arg1:T29 Arg2:T9	
+R15	crime_located_at Arg1:T29 Arg2:T10	
+R16	crime_located_at Arg1:T29 Arg2:T11	
+R17	crime_located_at Arg1:T29 Arg2:T12	
+R18	located_at Arg1:T37 Arg2:T38	
+R19	located_at Arg1:T37 Arg2:T39	
+R20	located_at Arg1:T37 Arg2:T40	
+R21	crime_time_at Arg1:T29 Arg2:T1	
+R22	crime_date_at Arg1:T29 Arg2:T2	

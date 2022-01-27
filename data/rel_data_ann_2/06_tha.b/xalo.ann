@@ -1,0 +1,20 @@
+T1	DATE 12 19	22 ม.ค.
+T2	PERSON 58 75	พ.ต.ต.จตุพร ธงทอง
+T3	ORGANIZATION 89 101	สน.ภาษีเจริญ
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T4	LOCATION 132 143	ซอยเพชรเกษม
+T5	LOCATION 144 155	แขวงบางหว้า
+T6	LOCATION 156 168	เขตภาษีเจริญ
+T7	LOCATION 169 177	กรุงเทพฯ
+T8	ORGANIZATION 213 225	สน.ภาษีเจริญ
+T9	ORGANIZATION 239 249	รพ.ศิริราช
+T10	ORGANIZATION 292 310	มูลนิธิป่อเต็กตึ๊ง
+T11	PERSON 390 395	นายเอ
+T12	TIME 413 418	16 ปี
+T13	WEAPON 540 558	ปืนพกสั้นออโตเมติก
+T14	PERSON 764 769	นายเอ
+T15	PERSON 911 916	นายเอ
+T16	PERSON 1008 1013	นายเอ
+T17	WEAPON 1205 1208	ปืน
+T18	ORGANIZATION 1303 1313	รพ.ศิริราช
+R2	own_weapon Arg1:T16 Arg2:T17	

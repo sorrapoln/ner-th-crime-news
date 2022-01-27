@@ -1,0 +1,19 @@
+T1	WEAPON 11 15	ขวาน
+T2	ORGANIZATION 49 62	ตลาดปัฐวิกรณ์
+T3	LOCATION 63 73	เขตบึงกุ่ม
+T4	ORGANIZATION 102 125	สถานีตำรวจนครบาลบึงกุ่ม
+T5	ORGANIZATION 143 156	ตลาดปัฐวิกรณ์
+T6	PERSON 209 226	นางอนงนิจ แซ่ด่าน
+T7	PERSON 266 284	นายยุทธพงษ์ บุญส่ง
+T8	TIME 308 312	1 ปี
+T9	PERSON 337 346	นางอนงนิจ
+T10	PERSON 438 449	นายยุทธพงษ์
+T11	WEAPON 469 473	ขวาน
+T12	PERSON 484 493	นางอนงนิจ
+T13	PERSON 557 568	นายยุทธพงษ์
+T14	VEHICLE 573 586	รถจักรยานยนต์
+T15	PERSON 605 616	นายยุทธพงษ์
+T16	PERSON 635 644	นางอนงนิจ
+R1	own_weapon Arg1:T7 Arg2:T11	
+R2	crime_relation Arg1:T7 Arg2:T6	
+R3	crime_located_at Arg1:T7 Arg2:T3	

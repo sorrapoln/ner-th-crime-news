@@ -1,0 +1,15 @@
+T1	ORGANIZATION 20 38	มูลนิธิป่อเต็กตึ้ง
+T2	ORGANIZATION 140 161	เอื้ออาทรสุวรรณภูมิ 1
+T3	LOCATION 162 178	ต.ศีรษะจรเข้ใหญ่
+T4	LOCATION 179 186	อ.เสาธง
+T5	LOCATION 187 200	จ.สมุทรปราการ
+T6	PERSON 204 219	นายวิชัย คำหลอม
+T7	TIME 225 230	37 ปี
+T8	PERSON 349 372	นางจันทนา เพื่อนวงเหล้า
+T9	PERSON 391 399	นายวิชัย
+T10	PERSON 425 433	นายฟอร์ต
+T11	PERSON 518 526	นายวิชัย
+R2	crime_located_at Arg1:T10 Arg2:T3	
+R3	crime_located_at Arg1:T10 Arg2:T4	
+R4	crime_located_at Arg1:T10 Arg2:T5	
+R1	crime_relation Arg1:T10 Arg2:T6	

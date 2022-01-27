@@ -1,0 +1,49 @@
+T1	DATE 12 24	10 พฤศจิกายน
+T2	PERSON 25 46	พล.ต.ต.โชคชัย งามวงศ์
+T3	PERSON 58 83	พล.ต.ต.มานพ สุคนธ์ธนพัฒน์
+T4	PERSON 105 122	นายศิวกร จีระพงษ์
+T5	TIME 128 133	26 ปี
+T6	PERSON 137 153	นายคุณากร สมหวัง
+T7	TIME 159 164	22 ปี
+T8	WEAPON 205 208	ปืน
+T9	PERSON 260 273	พล.ต.ต.โชคชัย
+T10	DATE 306 317	5 พฤศจิกายน
+T11	TIME 339 347	03.30 น.
+T12	ORGANIZATION 353 365	สน.บางคอแหลม
+T13	WEAPON 391 400	ปืนลูกซอง
+T14	ORGANIZATION 444 465	รพ.สมเด็จพระปิ่นเกล้า
+T15	LOCATION 503 514	แยกพระราม 2
+T16	LOCATION 515 526	ถนนพระราม 2
+T17	LOCATION 527 539	แขวงบางปะกอก
+T18	LOCATION 540 554	เขตราษฎร์บูรณะ
+T19	LOCATION 555 568	กรุงเทพมหานคร
+T20	TIME 599 604	18 ปี
+T21	DATE 639 650	4 พฤศจิกายน
+T22	TIME 662 670	23.30 น.
+T23	VEHICLE 678 691	รถจักรยานยนต์
+T24	LOCATION 726 735	แยกจอมทอง
+T25	VEHICLE 766 779	รถจักรยานยนต์
+T26	VEHICLE 815 819	จยย.
+T27	LOCATION 822 840	ถนนสุขสวัสดิ์ขาออก
+T28	LOCATION 848 859	แยกพระราม 2
+T29	LOCATION 879 890	แยกพระราม 2
+T30	VEHICLE 891 898	รถ จยย.
+T31	VEHICLE 919 926	รถ จยย.
+T32	VEHICLE 781 785	จยย.
+T33	WEAPON 957 966	ปืนลูกซอง
+R1	own_weapon Arg1:T4 Arg2:T13	
+R2	own_weapon Arg1:T6 Arg2:T13	
+R3	crime_date_at Arg1:T4 Arg2:T21	
+R4	crime_time_at Arg1:T4 Arg2:T22	
+R5	crime_date_at Arg1:T6 Arg2:T21	
+R6	crime_time_at Arg1:T6 Arg2:T22	
+R7	crime_located_at Arg1:T4 Arg2:T15	
+R8	crime_located_at Arg1:T4 Arg2:T16	
+R9	crime_located_at Arg1:T4 Arg2:T17	
+R10	crime_located_at Arg1:T4 Arg2:T18	
+R11	crime_located_at Arg1:T4 Arg2:T19	
+R12	crime_located_at Arg1:T6 Arg2:T15	
+R13	crime_located_at Arg1:T6 Arg2:T16	
+R14	crime_located_at Arg1:T6 Arg2:T17	
+R15	crime_located_at Arg1:T6 Arg2:T18	
+R16	crime_located_at Arg1:T6 Arg2:T19	

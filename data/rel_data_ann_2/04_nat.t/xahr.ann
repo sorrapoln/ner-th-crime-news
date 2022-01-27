@@ -1,0 +1,30 @@
+T1	DATE 13 24	24 ม.ค.2562
+T2	LOCATION 45 59	หมู่บ้านดีไซด์
+T3	LOCATION 60 69	ต.เนินพระ
+T4	LOCATION 70 81	อ.เมืองระยอ
+T5	LOCATION 166 175	เกาหลีใต้
+T6	LOCATION 764 773	อ.เขาสมิง
+T7	LOCATION 774 780	จ.ตราด
+T8	LOCATION 992 1001	อ.เขาสมิง
+T9	LOCATION 1002 1008	จ.ตราด
+T10	PERSON 98 112	นายฮอง จุน คิม
+T11	PERSON 146 162	นายชะเว มะยองฮูน
+R1	located_at Arg1:T10 Arg2:T4	
+R2	located_at Arg1:T10 Arg2:T3	
+R3	located_at Arg1:T10 Arg2:T2	
+R4	crime_relation Arg1:T10 Arg2:T11	
+R5	located_at Arg1:T11 Arg2:T5	
+T12	PERSON 179 193	นายฮอง จุน คิม
+T13	PERSON 237 253	นายชะเว มะยองฮูน
+T14	DATE 266 275	16 มกราคม
+R6	crime_date_at Arg1:T10 Arg2:T14	
+T15	PERSON 284 309	พล.ต.อ.ชัยวัฒน์ เกตุวรชัย
+T16	ORGANIZATION 324 337	ตำรวจแห่งชาติ
+R7	employee_or_member_of Arg1:T15 Arg2:T16	
+T17	PERSON 705 718	นายคิม ยองอุน
+R8	located_at Arg1:T17 Arg2:T6	
+R9	located_at Arg1:T17 Arg2:T7	
+R10	crime_relation Arg1:T17 Arg2:T11	
+T18	VEHICLE 827 832	รถตู้
+R11	own_vehicle Arg1:T17 Arg2:T18	
+T19	VEHICLE 1055 1060	รถตู้

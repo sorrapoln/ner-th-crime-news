@@ -1,0 +1,17 @@
+T1	DATE 37 45	12.30 น.
+T2	ORGANIZATION 52 62	สน.หัวหมาก
+T3	VEHICLE 85 94	รถแท็กซี่
+T4	COLOR 97 101	ชมพู
+T5	LP 110 122	ทษ-3188 กทม.
+T6	VEHICLE 156 167	จักรยานยนต์
+T7	LOCATION 198 217	ปากซอยรามคำแหง 60/1
+T8	LOCATION 218 235	ถนนรามคำแหงขาเข้า
+T9	VEHICLE 254 271	รถแท็กซี่ โตโยต้า
+T10	COLOR 274 278	ชมพู
+T11	LP 287 299	ทษ 3188 กทม.
+T12	VEHICLE 309 322	รถจักรยานยนต์
+T13	VEHICLE 374 382	รถซาเล้ง
+R1	color_of Arg1:T3 Arg2:T4	
+R2	vehicle_lp Arg1:T3 Arg2:T5	
+R3	color_of Arg1:T9 Arg2:T10	
+R4	vehicle_lp Arg1:T9 Arg2:T11	

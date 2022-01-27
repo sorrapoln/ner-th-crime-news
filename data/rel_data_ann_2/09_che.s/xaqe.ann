@@ -1,0 +1,22 @@
+T1	DATE 0 10	6 พ.ย.2564
+T2	PERSON 11 21	นายไพจิตร์
+T3	TIME 41 46	44 ปี
+T4	ORGANIZATION 66 85	ศาลจังหวัดสมุทรสาคร
+T5	ORGANIZATION 145 158	สภ.กระทุ่มแบน
+T6	LOCATION 219 229	อ.ภูกระดึง
+T7	LOCATION 230 235	จ.เลย
+T8	DATE 272 284	18 พ.ค. 2548
+T9	PERSON 285 295	นายไพจิตร์
+T10	PERSON 329 339	นายโต๊ะโละ
+T11	PERSON 355 363	น.ส.วรดา
+T12	PERSON 452 460	น.ส.วรดา
+T13	OBJECT 464 476	สร้อยคอทองคำ
+T14	PERSON 519 528	นายโต๊ะโล
+T15	PERSON 532 540	น.ส.วรดา
+T16	WEAPON 598 601	มีด
+T17	PERSON 614 622	น.ส.วรดา
+T18	PERSON 661 670	นายโต๊ะโล
+R1	crime_date_at Arg1:T9 Arg2:T8	
+R2	own_weapon Arg1:T9 Arg2:T16	
+R3	crime_relation Arg1:T9 Arg2:T14	
+R4	crime_relation Arg1:T9 Arg2:T15	

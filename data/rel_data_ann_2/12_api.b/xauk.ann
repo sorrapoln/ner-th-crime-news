@@ -1,0 +1,28 @@
+T1	DATE 13 20	13 ต.ค.
+T2	PERSON 22 47	พ.ต.อ.ธีระศักดิ์ เจริญศรี
+T3	PERSON 53 78	พ.ต.ท.อนุสน สุขสิริสุวรรณ
+T4	PERSON 91 113	พ.ต.ต.ณัฐพงศ์ อินสว่าง
+T5	PERSON 120 146	ร.ต.อ.วัชรากร อินทรีย์วงศ์
+T6	ORGANIZATION 156 168	สภ.บางปลาม้า
+T7	LOCATION 169 181	จ.สุพรรณบุรี
+T8	PERSON 218 234	นายนาวิน หงส์ทอง
+T9	TIME 240 245	30 ปี
+T10	LOCATION 250 265	บ้านเลขที่ 27/1
+T11	LOCATION 266 272	หมู่ 6
+T12	LOCATION 273 284	ตำบลบางใหญ่
+T13	LOCATION 285 299	อำเภอบางปลาม้า
+T14	LOCATION 300 317	จังหวัดสุพรรณบุรี
+R1	located_at Arg1:T8 Arg2:T10	
+R2	located_at Arg1:T8 Arg2:T11	
+R3	located_at Arg1:T8 Arg2:T12	
+R4	located_at Arg1:T8 Arg2:T13	
+R5	located_at Arg1:T8 Arg2:T14	
+T15	LOCATION 382 385	ม.6
+T16	LOCATION 386 395	ต.บางใหญ่
+T17	LOCATION 396 407	อ.บางปลาม้า
+T18	LOCATION 408 420	จ.สุพรรณบุรี
+T19	WEAPON 540 553	อาวุธไม้คมแฝก
+T20	WEAPON 620 628	ไม้คมแฝก
+T21	WEAPON 674 682	ไม้คมแฝก
+R6	own_weapon Arg1:T8 Arg2:T19	
+R7	crime_date_at Arg1:T8 Arg2:T1	

@@ -1,0 +1,32 @@
+T1	PERSON 4 24	นายเชาวรินทร์ จรจรัส
+T2	TIME 30 35	31 ปี
+T3	LOCATION 55 62	หมู่ 11
+T4	LOCATION 63 69	ต.นาแว
+T5	LOCATION 70 76	อ.ฉวาง
+T6	LOCATION 77 92	จ.นครศรีธรรมราช
+T7	WEAPON 101 114	ปืนขนาด 9 มม.
+T8	PERSON 121 138	นางวันนิภา จรจรัส
+T9	TIME 144 149	27 ปี
+T10	PERSON 160 172	ด.ญ.นิชาภัทร
+T11	PERSON 181 192	นิชา จรจรัส
+T12	PERSON 233 243	นางวันนิภา
+T13	PERSON 256 268	ด.ญ.นิชาภัทร
+T14	PERSON 273 281	น้องนิชา
+T15	PERSON 295 305	นางวันนิภา
+T16	PERSON 352 365	นายเชาวรินทร์
+T17	LOCATION 452 463	เลขที่ 93/1
+T18	LOCATION 464 470	หมู่ 4
+T19	LOCATION 471 479	ต.ปากนคร
+T20	LOCATION 480 500	อ.เมืองนครศรีธรรมราช
+T21	DATE 567 584	17 พฤศจิกายน 2564
+T22	ORGANIZATION 651 679	โรงพยาบาลมหาราชนครศรีธรรมราช
+T23	PERSON 710 730	นายเชาวรินทร์ จรจรัส
+T24	TIME 736 741	31 ปี
+R1	own_weapon Arg1:T1 Arg2:T7	
+R2	crime_relation Arg1:T1 Arg2:T8	
+R3	crime_relation Arg1:T1 Arg2:T10	
+T25	WEAPON 384 387	ปืน
+R4	crime_located_at Arg1:T1 Arg2:T17	
+R5	crime_located_at Arg1:T1 Arg2:T18	
+R6	crime_located_at Arg1:T1 Arg2:T19	
+R7	crime_located_at Arg1:T1 Arg2:T20	

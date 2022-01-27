@@ -1,0 +1,42 @@
+T1	DATE 7 18	7 มิ.ย.2563
+T2	LOCATION 79 85	ยูเครน
+T3	LOCATION 98 106	ต.มะเร็ต
+T4	LOCATION 107 117	อ.เกาะสมุย
+T5	LOCATION 118 132	จ.สุราษฎร์ธานี
+T6	LOCATION 165 173	บ้านละไม
+T7	TIME 382 391	14-17 วัน
+T8	OBJECT 406 416	กระเป๋าเป้
+T9	COLOR 416 423	สีเขียว
+T10	OBJECT 453 455	ยา
+T11	OBJECT 469 482	กระเป๋าสตางค์
+T12	COLOR 482 487	สีฟ้า
+T13	PERSON 524 542	นายอุเทน เวียงนนท์
+T14	LOCATION 570 578	เกาะสมุย
+T15	PERSON 582 590	นายอุเทน
+T16	DATE 611 618	5 มิ.ย.
+T17	TIME 793 798	2 วัน
+T18	LOCATION 899 905	ยูเครน
+T19	ORGANIZATION 919 928	สภ.บ่อผุด
+T20	DATE 941 948	25 พ.ค.
+T21	PERSON 961 976	น.ส.โอลาโฟรโลวา
+T22	TIME 982 987	32 ปี
+T23	LOCATION 995 1001	ยูเครน
+T24	DATE 1038 1045	7 มิ.ย.
+T25	LOCATION 1067 1073	ยูเครน
+T26	OBJECT 1090 1100	กระเป๋าเป้
+T27	PERSON 1116 1133	นางสาวโอลาโฟรโลวา
+T28	ORGANIZATION 1156 1165	สภ.บ่อผุด
+T29	LOCATION 1176 1182	ยูเครน
+R1	found_object_at Arg1:T8 Arg2:T3	
+R2	found_object_at Arg1:T8 Arg2:T4	
+R3	found_object_at Arg1:T8 Arg2:T5	
+R4	found_object_at Arg1:T10 Arg2:T3	
+R5	found_object_at Arg1:T10 Arg2:T4	
+R6	found_object_at Arg1:T10 Arg2:T5	
+R7	found_object_at Arg1:T11 Arg2:T3	
+R8	found_object_at Arg1:T11 Arg2:T4	
+R9	found_object_at Arg1:T11 Arg2:T5	
+T30	OBJECT 489 501	เงิน 700 บาท
+R10	found_object_at Arg1:T30 Arg2:T3	
+R11	found_object_at Arg1:T30 Arg2:T4	
+R12	found_object_at Arg1:T30 Arg2:T5	

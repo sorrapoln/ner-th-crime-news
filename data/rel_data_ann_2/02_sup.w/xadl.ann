@@ -1,0 +1,16 @@
+T1	TIME 10 18	20.30 น.
+T2	DATE 25 41	13 มิถุนายน 2564
+T3	PERSON 42 64	ร.ต.อ.วิโรจน์ มูลมานัส
+T4	ORGANIZATION 82 95	สภ.สำโรงเหนือ
+T5	LOCATION 96 107	สมุทรปราการ
+T6	LOCATION 174 186	ถนนเทพารักษ์
+T7	LOCATION 200 217	หลักกิโลเมตรที่ 5
+T8	LOCATION 218 229	ต.เทพารักษ์
+T9	LOCATION 230 237	อ.เมือง
+T10	LOCATION 238 249	สมุทรปราการ
+T11	ORGANIZATION 301 327	มูลนิธิร่วมกุศลสมุทรปราการ
+T12	ORGANIZATION 406 441	ร้านเสริมสวย เพอร์เฟค บิ้วตี้ ซาลอน
+T13	PERSON 484 507	นางสาวประภัสสร ศิวรักษ์
+T14	TIME 513 518	41 ปี
+T15	ORGANIZATION 700 713	สถาบันนิติเวช
+R1	employee_or_member_of Arg1:T3 Arg2:T4	

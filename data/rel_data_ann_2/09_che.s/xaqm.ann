@@ -1,0 +1,37 @@
+T1	DATE 8 18	6 ม.ค.2565
+T2	PERSON 20 41	ร.ต.อ.สุขสันต์ คงจุ้ย
+T3	ORGANIZATION 58 70	สภ.เหนือคลอง
+T4	LOCATION 71 79	จ.กระบี่
+T5	LOCATION 116 124	ต.โคกยาง
+T6	LOCATION 125 136	อ.เหนือคลอง
+T7	LOCATION 137 145	จ.กระบี่
+T8	PERSON 175 191	นายฉัตรชัย สมดวง
+T9	TIME 197 202	40 ปี
+T10	WEAPON 206 219	ปืนขนาด 9 มม.
+T11	PERSON 232 251	น.ส.ดวงกมล ทองทิพย์
+T12	TIME 257 262	40 ปี
+T13	ORGANIZATION 311 326	โรงพยาบาลกระบี่
+T14	PERSON 331 342	ด.ช.ปัญญากร
+T15	TIME 361 366	3 ขวบ
+T16	TIME 433 438	12 ปี
+T17	PERSON 674 682	นายสมชัย
+T18	PERSON 850 860	นายฉัตรชัย
+T19	PERSON 916 926	นายฉัตรชัย
+T20	LOCATION 952 960	ต.คลองพน
+T21	PERSON 969 979	น.ส.ดวงกมล
+T22	DATE 1012 1018	8 ม.ค.
+T23	LOCATION 1043 1054	จังหวัดตรัง
+T24	DATE 1153 1159	7 ม.ค.
+T25	PERSON 1169 1179	นายฉัตรชัย
+T26	PERSON 1183 1194	ด.ช.ปัญญากร
+T27	ORGANIZATION 1226 1242	วัดควนเกาะจันทร์
+T28	LOCATION 1243 1251	ต.โคกยาง
+T29	LOCATION 1252 1263	อ.เหนือคลอง
+R1	own_weapon Arg1:T8 Arg2:T10	
+R2	crime_relation Arg1:T8 Arg2:T11	
+R3	crime_relation Arg1:T8 Arg2:T14	
+R4	crime_date_at Arg1:T8 Arg2:T1	
+R5	crime_located_at Arg1:T8 Arg2:T5	
+R6	crime_located_at Arg1:T8 Arg2:T6	
+R7	crime_located_at Arg1:T8 Arg2:T7	
+R8	employee_or_member_of Arg1:T2 Arg2:T3	

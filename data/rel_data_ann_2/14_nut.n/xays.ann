@@ -1,0 +1,33 @@
+T1	TIME 10 18	09.00 น.
+T2	DATE 25 34	16 ก.ย.64
+T3	PERSON 51 72	ร.ต.อ.อนันต์ นามโภชน์
+T4	ORGANIZATION 87 103	สภ.ปากคลองรังสิต
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	LOCATION 182 202	หมู่บ้านดีไลน์ดีล๊อป
+T6	LOCATION 203 206	ม.4
+T7	LOCATION 207 215	ต.หลักหก
+T8	LOCATION 216 223	อ.เมือง
+T9	LOCATION 224 234	จ.ปทุมธานี
+T10	PERSON 258 273	นายรณกร พงษ์สุด
+T11	TIME 279 284	21 ปี
+T12	LOCATION 289 305	บ้านเลขที่ 16/10
+T13	LOCATION 306 309	ม.4
+T14	LOCATION 310 318	ต.หลักหก
+T15	LOCATION 319 326	อ.เมือง
+T16	LOCATION 327 337	จ.ปทุมธานี
+R2	located_at Arg1:T10 Arg2:T12	
+R3	located_at Arg1:T10 Arg2:T13	
+R4	located_at Arg1:T10 Arg2:T14	
+R5	located_at Arg1:T10 Arg2:T15	
+R6	located_at Arg1:T10 Arg2:T16	
+T17	WEAPON 353 356	ปืน
+T18	ORGANIZATION 421 436	กระทรวงยุติธรรม
+T19	WEAPON 497 500	ปืน
+T20	PERSON 555 575	นายรุ่งโรจน์ พงษ์สุด
+T21	TIME 581 586	43 ปี
+T22	PERSON 609 635	นายรณกร พงษ์สุด หรือเฟิร์ส
+T23	WEAPON 734 737	มีด
+T24	TIME 783 791	13.30 น.
+T25	DATE 798 808	18 ก.ค. 64
+T26	ORGANIZATION 852 868	สภ.ปากคลองรังสิต
+T27	VEHICLE 1263 1269	รถจยย.

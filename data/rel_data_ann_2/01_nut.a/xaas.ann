@@ -1,0 +1,33 @@
+T1	TIME 10 18	11.00 น.
+T2	DATE 26 35	21 ม.ค.65
+T3	PERSON 61 71	นายณัฐวุฒิ
+T4	TIME 91 96	18 ปี
+T5	DATE 112 121	16 ม.ค.65
+T6	TIME 133 141	01.00 น.
+T7	LOCATION 208 224	ประตูระบายคลอง 5
+T8	LOCATION 225 235	ต.บึงยี่โถ
+T9	LOCATION 236 245	อ.ธัญบุรี
+T10	LOCATION 246 256	จ.ปทุมธานี
+T11	VEHICLE 276 289	รถจักรยานยนต์
+T12	OBJECT 495 517	ปลอกกระสุนปืนขนาด .380
+T13	DATE 701 709	9 ม.ค.65
+T14	WEAPON 750 753	มีด
+T15	DATE 784 793	12 ม.ค.65
+T16	LOCATION 879 896	ริมคลองเลขที่ 102
+T17	LOCATION 897 900	ม.3
+T18	LOCATION 901 911	ต.บึงยี่โถ
+T19	LOCATION 912 921	อ.ธัญบุรี
+T20	LOCATION 922 932	จ.ปทุมธานี
+R1	located_at Arg1:T3 Arg2:T16	
+R2	located_at Arg1:T3 Arg2:T17	
+R3	located_at Arg1:T3 Arg2:T18	
+R4	located_at Arg1:T3 Arg2:T19	
+R5	located_at Arg1:T3 Arg2:T20	
+R6	crime_date_at Arg1:T3 Arg2:T13	
+R7	crime_date_at Arg1:T3 Arg2:T15	
+R8	crime_date_at Arg1:T3 Arg2:T5	
+R9	crime_time_at Arg1:T3 Arg2:T6	
+R10	found_object_at Arg1:T12 Arg2:T7	
+R11	found_object_at Arg1:T12 Arg2:T8	
+R12	found_object_at Arg1:T12 Arg2:T9	
+R13	found_object_at Arg1:T12 Arg2:T10	

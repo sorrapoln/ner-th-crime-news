@@ -1,0 +1,19 @@
+T1	TIME 10 18	18.49 น.
+T2	ORGANIZATION 19 45	หน่วยปฏิบัติการพิเศษหนุมาน
+T3	PERSON 52 69	นายกวิน แสงนิลกุล
+T4	TIME 74 79	23 ปี
+T5	WEAPON 102 112	ปืนขนาด.38
+T6	PERSON 116 139	นายรัฐวิทย์ สันติคุปตพง
+T7	TIME 145 150	32 ปี
+T8	LOCATION 175 187	ย่านลาดพร้าว
+T9	ORGANIZATION 244 267	โรงพยาบาลสนามธัญญารักษ์
+T10	LOCATION 271 283	จังหวัดระนอง
+T11	ORGANIZATION 323 334	สน.พหลโยธิน
+T12	PERSON 344 371	พลตำรวจตรีจิรพัฒน์ ภูมิจิตร
+T13	ORGANIZATION 453 464	สน.พหลโยธิน
+T14	ORGANIZATION 631 642	สน.พหลโยธิน
+R1	own_weapon Arg1:T3 Arg2:T5	
+R2	crime_located_at Arg1:T3 Arg2:T8	
+R3	crime_relation Arg1:T3 Arg2:T6	
+R4	crime_located_at Arg1:T3 Arg2:T10	
+R5	employee_or_member_of Arg1:T12 Arg2:T11	

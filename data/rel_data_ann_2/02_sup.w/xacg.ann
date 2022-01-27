@@ -1,0 +1,14 @@
+T1	TIME 10 18	01.00 น.
+T2	DATE 26 33	18 ม.ค.
+T3	ORGANIZATION 51 62	สน.คันนายาว
+T4	PERSON 111 131	นายพีรศิลป์ พุ่มจำปา
+T5	TIME 137 142	19 ปี
+T6	LOCATION 182 189	มีนบุรี
+T7	WEAPON 200 203	มีด
+T8	PERSON 236 256	นางสาวสุพรรษา ยางสูง
+T9	TIME 262 267	19 ปี
+T10	WEAPON 353 359	มีดพับ
+R1	crime_relation Arg1:T8 Arg2:T4	
+R2	own_weapon Arg1:T8 Arg2:T10	
+R3	crime_time_at Arg1:T8 Arg2:T1	
+R4	crime_date_at Arg1:T8 Arg2:T2	

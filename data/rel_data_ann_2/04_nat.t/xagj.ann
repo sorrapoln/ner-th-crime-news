@@ -1,0 +1,10 @@
+T1	ORGANIZATION 5 17	สภ.พัฒนานิคม
+T2	LOCATION 18 26	จ.ลพบุรี
+T3	LOCATION 96 102	หมู่ 1
+T4	LOCATION 103 110	ต.ดีลัง
+T5	PERSON 141 159	นายสามารถ หย่างถึง
+T6	TIME 165 170	46 ปี
+T7	WEAPON 183 190	ของมีคม
+T8	DATE 393 400	17 ม.ค.
+R1	located_at Arg1:T5 Arg2:T3	
+R2	located_at Arg1:T5 Arg2:T4	

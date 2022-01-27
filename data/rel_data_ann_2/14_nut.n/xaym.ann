@@ -1,0 +1,26 @@
+T1	VEHICLE 32 53	รถอเนกประสงค์เชฟโรเลต
+T2	COLOR 53 58	สีขาว
+R1	color_of Arg1:T1 Arg2:T2	
+T3	VEHICLE 86 93	รถกระบะ
+T4	VEHICLE 109 116	รถกระบะ
+T5	VEHICLE 133 154	รถอเนกประสงค์เชฟโรเลต
+T6	VEHICLE 165 186	รถอเนกประสงค์เชฟโรเลต
+T7	VEHICLE 202 204	รถ
+T8	VEHICLE 221 227	รถเก๋ง
+T9	VEHICLE 244 251	รถกระบะ
+T10	DATE 314 321	2 เม.ษ.
+T11	LOCATION 328 341	ซอยกำนันทินกร
+T12	LOCATION 342 348	หมู่ 4
+T13	LOCATION 349 359	ต.ศาลากลาง
+T14	LOCATION 360 369	อ.บางกรวย
+T15	LOCATION 370 379	จ.นนทบุรี
+T16	ORGANIZATION 385 395	สภ.ปลายบาง
+T17	VEHICLE 433 440	รถกระบะ
+T18	COLOR 440 445	สีขาว
+R2	color_of Arg1:T17 Arg2:T18	
+T19	PERSON 475 495	นายสุริยะ พรทวีวัฒน์
+T20	TIME 501 506	71 ปี
+T21	WEAPON 528 531	ปืน
+T22	OBJECT 581 600	ปลอกกระสุนปืน 9 มม.
+T23	VEHICLE 469 471	รถ
+R3	own_vehicle Arg1:T19 Arg2:T17	

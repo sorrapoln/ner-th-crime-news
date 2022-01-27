@@ -1,0 +1,9 @@
+T1	VEHICLE 13 40	รถบรรทุก 6 ล้อ ยี่ห้ออีซูซุ
+T2	COLOR 41 46	สีขาว
+T3	LP 55 74	ปท 6453 สมุทรปราการ
+R1	color_of Arg1:T1 Arg2:T2	
+R2	vehicle_lp Arg1:T1 Arg2:T3	
+T4	VEHICLE 236 244	รถบรรทุก
+T5	ORGANIZATION 254 268	รพ.เปาโล เกษตร
+T6	LOCATION 311 324	แยกลาดปลาเค้า
+T7	VEHICLE 372 380	รถบรรทุก

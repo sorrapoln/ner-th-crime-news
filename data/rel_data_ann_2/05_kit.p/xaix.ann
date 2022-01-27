@@ -1,0 +1,46 @@
+T1	DATE 29 36	15 ม.ค.
+T2	TIME 48 56	22.30 น.
+T3	PERSON 57 83	ร.ต.อ.หญิง​ ปณิสรา สินพูล​
+T4	ORGANIZATION 102 113	ส.รฟ.นพวงศ์
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	VEHICLE 125 132	รถไฟฟ้า
+T6	COLOR 135 140	สีแดง
+R2	color_of Arg1:T5 Arg2:T6	
+T7	VEHICLE 159 166	รถไฟฟ้า
+T8	LOCATION 166 184	สถานีวัดเสมียนนารี
+T9	LOCATION 185 195	แขวงลาดยาว
+T10	LOCATION 196 206	เขตจตุจักร
+T11	LOCATION 207 215	กรุงเทพฯ
+T12	VEHICLE 236 243	รถไฟฟ้า
+T13	COLOR 246 251	สีแดง
+R3	color_of Arg1:T12 Arg2:T13	
+T14	LOCATION 266 282	สถานีกลางบางซื่อ
+T15	LOCATION 290 304	สถานีวัดเสมียน
+T16	TIME 362 370	30-40 ปี
+T17	OBJECT 463 471	เสื้อยืด
+T18	COLOR 471 476	สีเทา
+T19	OBJECT 477 489	กางเกงขาสั้น
+T20	COLOR 489 494	สีเทา
+R4	found_object_at Arg1:T17 Arg2:T8	
+R5	found_object_at Arg1:T17 Arg2:T9	
+R6	found_object_at Arg1:T17 Arg2:T10	
+R7	found_object_at Arg1:T17 Arg2:T11	
+R8	found_object_at Arg1:T19 Arg2:T8	
+R9	found_object_at Arg1:T19 Arg2:T9	
+R10	found_object_at Arg1:T19 Arg2:T10	
+R11	found_object_at Arg1:T19 Arg2:T11	
+T21	OBJECT 532 552	ธนบัตรใบละ 1,000 บาท
+T22	OBJECT 566 573	100 บาท
+T23	OBJECT 582 595	หน้ากากอนามัย
+R12	found_object_at Arg1:T21 Arg2:T8	
+R13	found_object_at Arg1:T21 Arg2:T9	
+R14	found_object_at Arg1:T21 Arg2:T10	
+R15	found_object_at Arg1:T21 Arg2:T11	
+R16	found_object_at Arg1:T22 Arg2:T8	
+R17	found_object_at Arg1:T22 Arg2:T9	
+R18	found_object_at Arg1:T22 Arg2:T10	
+R19	found_object_at Arg1:T22 Arg2:T11	
+R20	found_object_at Arg1:T23 Arg2:T8	
+R21	found_object_at Arg1:T23 Arg2:T9	
+R22	found_object_at Arg1:T23 Arg2:T10	
+R23	found_object_at Arg1:T23 Arg2:T11	

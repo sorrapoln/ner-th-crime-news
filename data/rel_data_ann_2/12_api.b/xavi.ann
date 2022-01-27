@@ -1,0 +1,20 @@
+T1	PERSON 0 19	นายสุนทร แก้วนิมิตร
+T2	TIME 25 30	35 ปี
+T3	VEHICLE 40 48	รถสาย 45
+T4	VEHICLE 169 180	ถเมล์สาย 22
+T5	VEHICLE 321 328	รถกระบะ
+T6	VEHICLE 404 416	รถเมล์สาย 22
+T7	PERSON 500 517	นายประพัทธ์ บุญมา
+T8	TIME 523 528	32 ปี
+T9	VEHICLE 633 635	รถ
+T10	VEHICLE 539 547	รถสาย 22
+T11	VEHICLE 644 646	รถ
+T12	PERSON 792 812	นายชัยยุทธ ศรีสงคราม
+T13	PERSON 903 911	นายสุนทร
+T14	VEHICLE 924 930	สาย 45
+T15	LOCATION 1176 1195	ย่านปู่เจ้าสมิงพราย
+T16	VEHICLE 1202 1214	รถเมล์สาย 22
+T17	LOCATION 1228 1248	โรงซ่อมยางกรมศุลกากร
+R1	own_vehicle Arg1:T1 Arg2:T3	
+R2	own_vehicle Arg1:T7 Arg2:T10	
+R3	crime_relation Arg1:T1 Arg2:T7	

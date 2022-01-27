@@ -1,0 +1,31 @@
+T1	TIME 10 18	22.00 น.
+T2	DATE 26 34	9 ธ.ค.64
+T3	PERSON 35 53	ร.ต.อ.สมคิด บุญลอย
+T4	ORGANIZATION 68 78	สภ.ศรีราชา
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	LOCATION 125 145	ห้องแถว เลขที่ 33/48
+T6	LOCATION 146 149	ม.1
+T7	LOCATION 150 161	ต.สุรศักดิ์
+T8	LOCATION 162 171	อ.ศรีราชา
+T9	LOCATION 172 180	จ.ชลบุรี
+T10	ORGANIZATION 242 272	หน่วยกู้ภัยสว่างประทีป ศรีราชา
+T11	PERSON 355 373	นายสุพจน์ สุวดิษฐ์
+T12	TIME 379 384	32 ปี
+T13	WEAPON 452 460	อาวุธมีด
+T14	ORGANIZATION 547 569	รพ.สมเด็จพระบรมราชเทวี
+T15	PERSON 632 655	นายอนันต์สิทธิ์ จากมาลี
+T16	PERSON 719 728	นายสุพจน์
+T17	VEHICLE 813 826	รถจักรยานยนต์
+T18	PERSON 887 890	ปุ๊
+T19	WEAPON 967 970	มีด
+T20	PERSON 985 994	นายสุพจน์
+R2	crime_time_at Arg1:T18 Arg2:T1	
+R3	crime_date_at Arg1:T18 Arg2:T2	
+R4	crime_located_at Arg1:T18 Arg2:T5	
+R5	crime_located_at Arg1:T18 Arg2:T6	
+R6	crime_located_at Arg1:T18 Arg2:T7	
+R7	crime_located_at Arg1:T18 Arg2:T9	
+R8	crime_located_at Arg1:T18 Arg2:T8	
+R9	crime_relation Arg1:T18 Arg2:T11	
+R10	own_weapon Arg1:T18 Arg2:T13	
+R11	own_vehicle Arg1:T18 Arg2:T17	

@@ -1,0 +1,51 @@
+T1	DATE 7 18	17 ก.ย.2564
+T2	PERSON 19 36	พล.ต.ต.สยาม บุญสม
+T3	PERSON 56 80	พ.ต.อ.มารุต กาญจนขันธกุล
+T4	PERSON 105 127	พ.ต.อ.กึกก้อง ดิศวัฒน์
+T5	PERSON 149 174	พ.ต.ท.เกริก เสนาะสําเนียง
+T6	PERSON 209 218	นายสุริโย
+T7	TIME 240 245	41 ปี
+T8	ORGANIZATION 256 272	ศาลจังหวัดหัวหิน
+T9	DATE 289 298	28 ม.ค.58
+T10	LOCATION 440 453	ต.หนองสองห้อง
+T11	LOCATION 454 464	อ.บ้านแพ้ว
+T12	LOCATION 465 476	จ.สมุทรสาคร
+T13	LOCATION 543 546	ม.7
+T14	LOCATION 547 559	ต.หนองตาแต้ม
+T15	LOCATION 560 570	อ.ปราณบุรี
+T16	LOCATION 571 588	จ.ประจวบคีรีขันธ์
+T17	DATE 501 511	2 พ.ย.2557
+T18	PERSON 603 611	นายชัยพร
+T19	TIME 633 638	66 ปี
+T20	PERSON 643 652	นายสุริโย
+T21	PERSON 683 690	นายนพดล
+T22	TIME 712 717	38 ปี
+T23	PERSON 958 966	นายชัยพร
+T24	WEAPON 969 983	ปืนขนาด 11 มม.
+T25	PERSON 1013 1020	นายโสภณ
+T26	ORGANIZATION 1229 1240	สภ.ปราณบุรี
+T27	PERSON 1166 1174	นายชัยพร
+T28	PERSON 1177 1186	นายสุริโย
+T29	PERSON 1276 1284	นายชัยพร
+T30	LOCATION 1319 1329	อ.ปราณบุรี
+T31	DATE 1383 1388	มี.ค.
+T32	PERSON 1408 1417	นายสุริโย
+T33	LOCATION 1467 1477	อ.บ้านแพ้ว
+T34	LOCATION 1478 1489	จ.สมุทรสาคร
+T35	PERSON 1528 1537	นายสุริโย
+T36	ORGANIZATION 1763 1774	สภ.ปราณบุรี
+R1	crime_located_at Arg1:T18 Arg2:T13	
+R2	crime_located_at Arg1:T18 Arg2:T14	
+R3	crime_located_at Arg1:T18 Arg2:T15	
+R4	crime_located_at Arg1:T18 Arg2:T16	
+R5	crime_located_at Arg1:T20 Arg2:T13	
+R6	crime_located_at Arg1:T20 Arg2:T14	
+R7	crime_located_at Arg1:T20 Arg2:T15	
+R8	crime_located_at Arg1:T20 Arg2:T16	
+R9	crime_relation Arg1:T18 Arg2:T21	
+R10	crime_relation Arg1:T20 Arg2:T21	
+R11	own_weapon Arg1:T18 Arg2:T24	
+R12	located_at Arg1:T20 Arg2:T33	
+R13	located_at Arg1:T20 Arg2:T34	
+R14	crime_date_at Arg1:T18 Arg2:T17	
+R15	crime_date_at Arg1:T20 Arg2:T17	

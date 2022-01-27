@@ -1,0 +1,25 @@
+T1	DATE 7 18	18 ก.ย.2564
+T2	ORGANIZATION 24 35	สน.เพชรเกษม
+T3	LOCATION 89 103	ซอยเพชรเกษม 63
+T4	LOCATION 104 115	แขวงหลักสอง
+T5	LOCATION 116 124	เขตบางแค
+T6	PERSON 160 168	นางนุสรา
+T7	TIME 188 193	56 ปี
+T8	TIME 244 253	1 ชั่วโมง
+T9	WEAPON 290 293	มีด
+T10	WEAPON 296 304	คัตเตอร์
+T11	DATE 371 378	16 ก.ย.
+T12	WEAPON 757 760	ไม้
+T13	WEAPON 868 871	มีด
+T14	ORGANIZATION 1069 1083	สถาบันราชกัลยา
+R1	crime_date_at Arg1:T6 Arg2:T11	
+R2	own_weapon Arg1:T6 Arg2:T9	
+R3	own_weapon Arg1:T6 Arg2:T10	
+R4	crime_located_at Arg1:T6 Arg2:T3	
+R5	crime_located_at Arg1:T6 Arg2:T4	
+R6	crime_located_at Arg1:T6 Arg2:T5	
+R7	located_at Arg1:T6 Arg2:T5	
+R8	located_at Arg1:T6 Arg2:T4	
+R9	located_at Arg1:T6 Arg2:T3	
+R10	own_weapon Arg1:T6 Arg2:T12	
+R11	crime_date_at Arg1:T6 Arg2:T1	

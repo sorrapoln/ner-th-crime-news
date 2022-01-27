@@ -1,0 +1,36 @@
+T1	DATE 12 19	21 ม.ค.
+T2	DATE 28 35	20 ม.ค.
+T3	LOCATION 117 125	ต.เขาตูม
+T4	LOCATION 126 133	อ.ยะรัง
+T5	LOCATION 134 143	จ.ปัตตานี
+T6	PERSON 144 168	พ.อ.เกียรติศักดิ์ ณีวงษ์
+T7	LOCATION 280 287	ต.ละหาร
+T8	LOCATION 288 297	อ.สายบุรี
+T9	LOCATION 298 307	จ.ปัตตานี
+T10	DATE 336 343	20 ม.ค.
+T11	LOCATION 473 488	บ้านเลขที่ 41/1
+T12	LOCATION 489 495	หมู่ 2
+T13	LOCATION 496 503	ต.ละหาร
+T14	LOCATION 504 513	อ.สายบุรี
+T15	LOCATION 514 520	จ.ยะลา
+T16	WEAPON 808 816	อาวุธปืน
+T17	PERSON 928 947	ร.อ.สุริยะ บินญาวัง
+T18	ORGANIZATION 1009 1031	โรงพยาบาลสงขลานครินทร์
+T19	PERSON 1130 1147	นายรอซาลี เจะเลาะ
+T20	TIME 1153 1158	40 ปี
+T21	PERSON 1195 1209	นายมารวาน มีทอ
+T22	TIME 1215 1220	27 ปี
+R1	located_at Arg1:T19 Arg2:T11	
+R2	located_at Arg1:T21 Arg2:T11	
+R3	located_at Arg1:T19 Arg2:T12	
+R4	located_at Arg1:T19 Arg2:T13	
+R5	located_at Arg1:T19 Arg2:T14	
+R6	located_at Arg1:T19 Arg2:T15	
+R7	located_at Arg1:T21 Arg2:T12	
+R8	located_at Arg1:T21 Arg2:T13	
+R9	located_at Arg1:T21 Arg2:T14	
+R10	located_at Arg1:T21 Arg2:T15	
+R11	own_weapon Arg1:T19 Arg2:T16	
+R12	own_weapon Arg1:T21 Arg2:T16	
+R13	crime_relation Arg1:T21 Arg2:T17	
+R14	crime_relation Arg1:T19 Arg2:T17	

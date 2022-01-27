@@ -1,0 +1,22 @@
+T1	DATE 6 16	28 ต.ค. 64
+T2	TIME 22 26	0730
+T3	ORGANIZATION 27 82	กองบังคับการควบคุมทหารพรานศูนย์ปฏิบัติการกองทัพภาคที่ 3
+T4	PERSON 105 132	ร.ท. เทพฤทธิ์ สมัครเขตวิทย์
+R1	employee_or_member_of Arg1:T4 Arg2:T3	
+T5	ORGANIZATION 167 222	กองบังคับการควบคุมทหารพรานศูนย์ปฏิบัติการกองทัพภาคที่ 3
+T6	LOCATION 399 405	บ.ปะสี
+T7	LOCATION 406 409	ม.1
+T8	LOCATION 410 418	ต.มะลิกา
+T9	LOCATION 419 427	อ.แม่อาย
+T10	LOCATION 428 444	จังหวัดเชียงใหม่
+T11	VEHICLE 490 503	รถจักรยานยนต์
+T12	LOCATION 526 545	ทางหลวงหมายเลข 1314
+T13	VEHICLE 631 644	รถจักรยานยนต์
+T14	OBJECT 706 711	ยาบ้า
+T15	OBJECT 788 795	เฮโรอีน
+T16	LOCATION 888 896	อ.แม่อาย
+T17	LOCATION 897 913	จังหวัดเชียงใหม่
+R2	found_object_at Arg1:T14 Arg2:T12	
+R3	found_object_at Arg1:T15 Arg2:T12	
+T18	OBJECT 618 621	เป้
+R4	found_object_at Arg1:T18 Arg2:T12	

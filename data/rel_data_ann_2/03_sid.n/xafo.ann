@@ -1,0 +1,11 @@
+T1	PERSON 39 63	พลเอกประยุทธ์ จันทร์โอชา
+T2	PERSON 95 117	นายวีรภัทร คัมภิรานนท์
+T3	TIME 123 128	63 ปี
+T4	ORGANIZATION 172 179	สภ.คูคต
+T5	LOCATION 180 190	จ.ปทุมธานี
+T6	DATE 210 217	12 ก.พ.
+T7	TIME 237 242	21 น.
+T8	WEAPON 352 361	ท่อนเหล็ก
+T9	PERSON 446 456	นายวีรภัทร
+T10	DATE 500 507	2 เดือน
+R1	located_at Arg1:T2 Arg2:T5	

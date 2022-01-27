@@ -1,0 +1,15 @@
+T1	WEAPON 67 80	รถจักรยานยนต์
+T2	VEHICLE 83 93	รถประจำทาง
+T3	LOCATION 94 111	ปากซอยเพชรเกษม 41
+T4	LOCATION 112 120	เขตบางแค
+T5	LOCATION 121 129	กรุงเทพฯ
+T6	VEHICLE 166 176	รถประจำทาง
+T7	COLOR 178 185	ครีมแดง
+T8	LOCATION 192 209	หัวลำโพง-คลองขวาง
+T9	VEHICLE 274 312	จักรยานยนต์ยามาฮ่า นูโว นูโว อิลิแกนซ์
+T10	COLOR 313 318	สีขาว
+T11	LP 327 334	พลล 797
+T12	PERSON 513 535	นายไกรสิทธิ์ ช้อยหิรัญ
+R1	color_of Arg1:T6 Arg2:T7	
+R2	color_of Arg1:T9 Arg2:T10	
+R3	vehicle_lp Arg1:T9 Arg2:T11	

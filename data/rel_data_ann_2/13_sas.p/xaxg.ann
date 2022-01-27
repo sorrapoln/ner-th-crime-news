@@ -1,0 +1,13 @@
+T1	VEHICLE 7 20	รถจักรยานยนต์
+T2	VEHICLE 24 34	"บิ๊กไบค์"
+T3	ORGANIZATION 71 95	สถาบันไตรภูมิราชนครินทร์
+T4	LOCATION 96 104	ถนนพญาไท
+T5	PERSON 111 153	"พญ.วราลัคน์" สุภวัตรจริยากุล "หมอกระต่าย"
+T6	ORGANIZATION 217 238	จุฬาลงกรณ์มหาวิทยาลัย
+T7	VEHICLE 275 288	รถจักรยานยนต์
+T8	VEHICLE 387 392	รถจยย
+T9	LOCATION 439 459	อนุสาวรีย์ชัยสมรภูมิ
+T10	ORGANIZATION 408 430	กองบัญชาการตำรวจนครบาล
+T11	VEHICLE 537 539	รถ
+R1	crime_located_at Arg1:T5 Arg2:T4	
+R2	employee_or_member_of Arg1:T5 Arg2:T6	

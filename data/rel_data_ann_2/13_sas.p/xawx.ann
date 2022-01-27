@@ -1,0 +1,19 @@
+T1	DATE 19 26	23 ก.ย.
+T2	ORGANIZATION 36 48	สภ. ปากเกร็ด
+T3	ORGANIZATION 76 95	รพ.ชลประทานปากเกร็ด
+T4	LOCATION 254 262	ปากเกร็ด
+T5	TIME 298 306	19.50 น.
+T6	DATE 320 327	23 ก.ย.
+T7	ORGANIZATION 342 353	สภ.ปากเกร็ด
+T8	ORGANIZATION 394 414	รพ. ชลประทานปากเกร็ด
+T9	PERSON 418 431	นางสาวสาเรือน
+T10	TIME 437 442	26 ปี
+T11	LOCATION 453 460	กัมพูชา
+T12	COLOR 153 155	ดำ
+T13	COLOR 504 508	สีดำ
+T14	COLOR 593 597	สีดำ
+T15	WEAPON 586 593	ถุงเท้า
+R1	own_weapon Arg1:T9 Arg2:T15	
+R2	crime_date_at Arg1:T9 Arg2:T6	
+R3	crime_time_at Arg1:T9 Arg2:T5	
+R4	located_at Arg1:T9 Arg2:T11	

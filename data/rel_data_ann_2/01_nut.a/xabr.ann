@@ -1,0 +1,64 @@
+T1	TIME 10 18	07.45 น.
+T2	DATE 25 34	29 พ.ย.64
+T3	TIME 45 53	07.45 น.
+T4	DATE 61 70	29 พ.ย.64
+T5	PERSON 71 94	พ.ต.ท. สุคนธ์ รัสเอี่ยม
+T6	ORGANIZATION 112 129	สภ.เมืองกาญจนบุรี
+T7	PERSON 141 162	ร.ต.ท.ปราศัย ปฐมเพทาย
+T8	WEAPON 219 222	ปืน
+T9	ORGANIZATION 255 278	ลานจอดรถ วังสารภีพลาซ่า
+T10	LOCATION 279 285	หมู่ 9
+T11	LOCATION 286 295	ต.ปากแพรก
+T12	PERSON 356 378	พ.ต.อ.สมเกียรติ โฉมฉาย
+T13	PERSON 401 420	พ.ต.อ.ภาคิน แสนพุฒิ
+T14	PERSON 443 462	พ.ต.ท.เสนีย์ เวชพัฒ
+T15	PERSON 491 510	พ.ต.ท.วศิน พลายศิริ
+T16	PERSON 540 563	พ.ต.ท.ศุภกิจ มหาโชคธรณี
+T17	PERSON 586 607	พ.ต.ต.มารุต ฉัตรทัณฑ์
+T18	PERSON 745 762	พ.ต.ท.สุธี ฉิมพลี
+T19	WEAPON 1045 1058	ปืนขนาด 9 มม.
+T20	ORGANIZATION 1082 1105	ลานจอดรถ วังสารภีพลาซ่า
+T21	LOCATION 1106 1112	หมู่ 9
+T22	LOCATION 1113 1122	ต.ปากแพรก
+T23	PERSON 1128 1143	นายอำพล ยุ้งทอง
+T24	TIME 1149 1154	27 ปี
+T25	LOCATION 1163 1173	ต.โคกสะอาด
+T26	LOCATION 1174 1182	อ.ศรีเทพ
+T27	LOCATION 1183 1194	จ.เพชรบูรณ์
+T28	VEHICLE 1491 1500	รถเก๋ง MG
+T29	COLOR 1501 1512	สีบรอนซ์เทา
+T30	LP 1521 1525	กทม.
+T31	OBJECT 1583 1606	ปลอกกระสุนปืน ขนาด 9 มม
+T32	PERSON 1944 1956	นางรจนา ชีวี
+T33	LOCATION 1976 1982	หมู่ 2
+T34	LOCATION 1983 1992	ต.วังเย็น
+T35	LOCATION 1993 2000	อ.เมือง
+T36	LOCATION 2001 2012	จ.กาญจนบุรี
+R1	located_at Arg1:T32 Arg2:T33	
+R2	located_at Arg1:T32 Arg2:T34	
+R3	located_at Arg1:T32 Arg2:T35	
+R4	located_at Arg1:T32 Arg2:T36	
+T37	TIME 1962 1967	50 ปี
+R5	found_object_at Arg1:T31 Arg2:T20	
+R6	found_object_at Arg1:T31 Arg2:T21	
+R7	found_object_at Arg1:T31 Arg2:T22	
+R8	located_at Arg1:T23 Arg2:T25	
+R9	located_at Arg1:T23 Arg2:T26	
+R10	located_at Arg1:T23 Arg2:T27	
+R11	employee_or_member_of Arg1:T5 Arg2:T6	
+R12	employee_or_member_of Arg1:T7 Arg2:T6	
+T38	ORGANIZATION 383 400	สภ.เมืองกาญจนบุรี
+R13	employee_or_member_of Arg1:T12 Arg2:T38	
+T39	ORGANIZATION 473 490	สภ.เมืองกาญจนบุรี
+R14	employee_or_member_of Arg1:T14 Arg2:T39	
+R15	employee_or_member_of Arg1:T13 Arg2:T39	
+T40	ORGANIZATION 614 631	สภ.เมืองกาญจนบุรี
+R16	employee_or_member_of Arg1:T17 Arg2:T40	
+T41	ORGANIZATION 568 585	สภ.เมืองกาญจนบุรี
+R17	employee_or_member_of Arg1:T16 Arg2:T41	
+T42	ORGANIZATION 522 539	สภ.เมืองกาญจนบุรี
+R18	employee_or_member_of Arg1:T15 Arg2:T42	
+R19	crime_located_at Arg1:T23 Arg2:T10	
+R20	crime_located_at Arg1:T23 Arg2:T11	
+R21	color_of Arg1:T28 Arg2:T29	
+R22	vehicle_lp Arg1:T28 Arg2:T30	

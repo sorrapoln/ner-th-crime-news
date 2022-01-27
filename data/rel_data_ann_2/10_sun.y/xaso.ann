@@ -1,0 +1,16 @@
+T1	DATE 7 19	(31 ต.ค.2564
+T2	PERSON 21 40	พล.ต.ต.วรวัฒน์ มะลิ
+T3	ORGANIZATION 60 74	ภ.จว.กาฬสินธุ์
+T4	PERSON 88 104	พระลุน สุ่มมาตย์
+T5	TIME 110 115	72 ปี
+T6	LOCATION 116 129	พระวัดป่าภูปอ
+T7	LOCATION 130 137	ต.นาตาล
+T8	LOCATION 138 148	อ.ท่าคันโท
+T9	LOCATION 149 160	จ.กาฬสินธุ์
+R1	located_at Arg1:T4 Arg2:T6	
+R2	located_at Arg1:T4 Arg2:T7	
+R3	located_at Arg1:T4 Arg2:T8	
+R4	located_at Arg1:T4 Arg2:T9	
+T10	TIME 253 258	72 ปี
+T11	PERSON 486 492	พระลุน
+R5	employee_or_member_of Arg1:T2 Arg2:T3	

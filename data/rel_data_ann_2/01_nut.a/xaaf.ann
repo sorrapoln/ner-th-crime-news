@@ -1,0 +1,31 @@
+T1	ORGANIZATION 20 30	สน.มีนบุรี
+T2	VEHICLE 48 61	รถพ่วง 18 ล้อ
+T3	VEHICLE 64 70	รถยนต์
+T4	LOCATION 108 129	สามแยกการไฟฟ้ามีนบุรี
+T5	LOCATION 130 142	ถ.สุวินทวงศ์
+T6	LOCATION 143 153	เขตมีนบุรี
+T7	VEHICLE 182 199	รถกึ่งพ่วง 18 ล้อ
+T8	COLOR 200 208	สีเหลือง
+T9	VEHICLE 235 261	รถยนต์ยี่ห้อโตโยต้า โคโรนา
+T10	COLOR 262 274	สีบรอนซ์เงิน
+T11	PERSON 409 425	นายอานัส จิ๊เลาะ
+T12	PERSON 463 482	นายประเสริฐ จิ๊เลาะ
+T13	TIME 431 436	27 ปี
+T14	TIME 488 493	52 ปี
+T15	PERSON 507 524	น.ส.อัมพร จิ๊เลาะ
+T16	TIME 530 535	52 ปี
+T17	ORGANIZATION 573 585	รพ.นพรัตน์ 9
+R1	own_vehicle Arg1:T11 Arg2:T9	
+R2	own_vehicle Arg1:T12 Arg2:T9	
+R3	own_vehicle Arg1:T15 Arg2:T9	
+R4	color_of Arg1:T9 Arg2:T10	
+R5	color_of Arg1:T7 Arg2:T8	
+R6	crime_located_at Arg1:T11 Arg2:T4	
+R7	crime_located_at Arg1:T11 Arg2:T5	
+R8	crime_located_at Arg1:T11 Arg2:T6	
+R9	crime_located_at Arg1:T12 Arg2:T4	
+R10	crime_located_at Arg1:T12 Arg2:T5	
+R11	crime_located_at Arg1:T12 Arg2:T6	
+R12	crime_located_at Arg1:T15 Arg2:T4	
+R13	crime_located_at Arg1:T15 Arg2:T5	
+R14	crime_located_at Arg1:T15 Arg2:T6	

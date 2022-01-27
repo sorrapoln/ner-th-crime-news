@@ -1,0 +1,24 @@
+T1	TIME 16 24	08.00 น.
+T2	ORGANIZATION 40 50	สน.ทุ่งครุ
+T3	VEHICLE 71 84	รถจักรยานยนต์
+T4	VEHICLE 87 105	รถบรรทุกปูนซีเมนต์
+T5	LOCATION 162 184	ถนนเลียบทางด่วนทุ่งครุ
+T6	ORGANIZATION 144 161	สถานีส่งก๊าซ ปตท.
+T7	LOCATION 185 195	เขตทุ่งครุ
+T8	LOCATION 196 204	กรุงเทพฯ
+T9	VEHICLE 225 238	รถจักรยานยนต์
+T10	COLOR 238 243	สีแดง
+T11	LP 259 271	3กถ1681 กทม.
+R1	color_of Arg1:T9 Arg2:T10	
+R2	vehicle_lp Arg1:T9 Arg2:T11	
+T12	VEHICLE 275 297	รถพ่วงบรรทุกปูนซีเมนต์
+T13	VEHICLE 347 358	จักรยานยนต์
+T14	PERSON 362 386	นายวิภาค เรืองสินจรัสแสง
+R3	own_vehicle Arg1:T14 Arg2:T13	
+T15	TIME 392 397	37 ปี
+T16	ORGANIZATION 402 418	โรงเรียนพุทธบูชา
+T17	VEHICLE 425 433	รถบรรทุก
+T18	ORGANIZATION 477 493	โรงเรียนพุทธบูชา
+T19	PERSON 515 529	ชลธิชา สุขเกษม
+T20	TIME 535 540	17 ปี
+T21	VEHICLE 581 589	รถบรรทุก

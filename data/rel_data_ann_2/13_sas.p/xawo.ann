@@ -1,0 +1,12 @@
+T1	TIME 147 152	30 ปี
+T2	PERSON 197 218	นายฉัตรชัย คงคุดขมิ้น
+T3	LOCATION 376 387	ถนนจอมพล ป.
+T4	LOCATION 395 407	ตำบลสามเรือน
+T5	LOCATION 408 421	อำเภอบางปะอิน
+T6	LOCATION 422 444	จังหวัดพระนครศรีอยุธยา
+T7	PERSON 489 499	นายฉัตรชัย
+T8	OBJECT 785 790	ยาบ้า
+R1	crime_located_at Arg1:T2 Arg2:T3	
+R2	crime_located_at Arg1:T2 Arg2:T4	
+R3	crime_located_at Arg1:T2 Arg2:T5	
+R4	crime_located_at Arg1:T2 Arg2:T6	

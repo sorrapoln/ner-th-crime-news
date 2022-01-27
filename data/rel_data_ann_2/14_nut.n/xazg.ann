@@ -1,0 +1,28 @@
+T1	LOCATION 93 100	ต.ละหาร
+T2	LOCATION 101 110	อ.สายบุรี
+T3	LOCATION 111 120	จ.ปัตตานี
+T4	DATE 127 136	20 ม.ค.65
+T5	PERSON 215 229	นายมารวาน มีทอ
+T6	PERSON 233 250	นายรอซาลี เจะเลาะ
+T7	WEAPON 283 299	ปืนเล็กยาว AK 47
+T8	WEAPON 304 310	AK 102
+T9	WEAPON 331 351	ลูกระเบิดขว้างแบบ 88
+T10	DATE 389 400	21 ม.ค.2565
+T11	WEAPON 469 483	อาวุธปืนสงคราม
+T12	WEAPON 596 606	ปืน AK 102
+T13	LOCATION 655 669	หมู่บ้านกะรุบี
+T14	LOCATION 670 677	อ.กะพ้อ
+T15	LOCATION 678 687	จ.ปัตตานี
+T16	DATE 693 700	ปี 2555
+T17	LOCATION 882 891	ถนนสาย 42
+T18	LOCATION 930 942	อำเภอสายบุรี
+T19	LOCATION 943 957	จังหวัดปัตตานี
+T20	DATE 970 980	24 เม.ย.64
+T21	WEAPON 990 999	ปืน AK 47
+T22	DATE 1039 1043	2558
+R1	own_weapon Arg1:T5 Arg2:T7	
+R2	own_weapon Arg1:T5 Arg2:T8	
+R3	own_weapon Arg1:T6 Arg2:T7	
+R4	own_weapon Arg1:T6 Arg2:T8	
+R5	own_weapon Arg1:T5 Arg2:T9	
+R6	own_weapon Arg1:T6 Arg2:T9	

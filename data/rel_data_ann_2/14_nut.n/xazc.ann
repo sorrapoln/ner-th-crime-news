@@ -1,0 +1,58 @@
+T1	TIME 10 18	17.00 น.
+T2	DATE 25 35	20 ต.ค. 64
+T3	ORGANIZATION 40 60	สภ.เมืองสุราษฎร์ธานี
+T4	PERSON 61 81	พล.ต.ต.สาธิต พลพินิจ
+R1	employee_or_member_of Arg1:T4 Arg2:T3	
+T5	PERSON 123 142	นายศักดาพร รัตนสุภา
+T6	ORGANIZATION 147 163	ผวจ.สุราษฎร์ธานี
+R2	employee_or_member_of Arg1:T5 Arg2:T6	
+T7	ORGANIZATION 235 244	สภ.พุนพิน
+T8	PERSON 296 320	นายรุกมาน หรือมัง วาเงาะ
+T9	TIME 326 331	25 ปี
+T10	LOCATION 336 351	บ้านเลขที่ 77/2
+T11	LOCATION 352 355	ม.3
+T12	LOCATION 356 366	ต.โคกเนียน
+T13	LOCATION 367 374	อ.เมือง
+T14	LOCATION 375 385	จ.นราธิวาส
+R3	located_at Arg1:T8 Arg2:T10	
+R4	located_at Arg1:T8 Arg2:T11	
+R5	located_at Arg1:T8 Arg2:T12	
+R6	located_at Arg1:T8 Arg2:T13	
+R7	located_at Arg1:T8 Arg2:T14	
+T15	PERSON 389 418	นายเจ๊ะมูฮามะรูซี บินเจ๊ะอารง
+T16	TIME 424 429	36 ปี
+T17	LOCATION 434 448	บ้านเลขที่ 189
+T18	LOCATION 449 452	ม.6
+T19	LOCATION 453 461	ต.ไพรวัน
+T20	LOCATION 462 469	อ.ตากใบ
+T21	LOCATION 470 478	จ.นราวาส
+R8	located_at Arg1:T15 Arg2:T21	
+R9	located_at Arg1:T15 Arg2:T20	
+R10	located_at Arg1:T15 Arg2:T19	
+R11	located_at Arg1:T15 Arg2:T18	
+R12	located_at Arg1:T15 Arg2:T17	
+T23	OBJECT 532 546	ยาเสพติด(ไอซ์)
+T22	OBJECT 492 508	ยาเสพติด (ยาบ้า)
+T24	VEHICLE 559 603	รถยนต์กระบะ ยี่ห้อโตโยต้า รุ่นวีโก้ ตอนครึ่ง
+T25	COLOR 604 616	สีบรอนด์เงิน
+T26	LP 625 637	ผก8144 ระยอง
+R13	color_of Arg1:T24 Arg2:T25	
+R14	vehicle_lp Arg1:T24 Arg2:T26	
+T27	TIME 685 692	03.00 น
+T28	DATE 706 717	14 ต.ค.2564
+T29	ORGANIZATION 735 744	สภ.พุนพิน
+T30	LOCATION 806 821	ถนนสายเอเชีย 41
+T31	LOCATION 822 866	ฝั่งขาล่องใต้ บริเวณหน้าสุทธิโชคคาร์แคร์ ม.3
+T32	LOCATION 867 876	ต.หนองไทร
+T33	LOCATION 877 885	อ.พุนพิน
+T34	LOCATION 886 900	จ.สุราษฎร์ธานี
+T35	VEHICLE 906 908	รถ
+T36	VEHICLE 1125 1138	รถกระบะรถยนต์
+T37	LOCATION 1283 1290	อ.เมือง
+T38	LOCATION 1291 1300	จ.ราชบุรี
+T39	LOCATION 1325 1332	อ.เมือง
+T40	LOCATION 1333 1343	จ.นราธิวาส
+T41	ORGANIZATION 1429 1438	สภ.พุนพิน
+T42	LOCATION 1679 1698	จังหวัดสุราษฎร์ธานี
+R15	own_vehicle Arg1:T8 Arg2:T24	
+R16	own_vehicle Arg1:T15 Arg2:T24	

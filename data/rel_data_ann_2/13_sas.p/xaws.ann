@@ -1,0 +1,89 @@
+T1	TIME 10 18	11.00 น.
+T2	DATE 26 34	6 ต.ค.64
+T3	LOCATION 54 61	หนองคาย
+T4	ORGANIZATION 38 53	กองร้อย ตชด.245
+T5	PERSON 62 85	พล.ต.ต.พุฒิพงศ์ มุสิกูล
+T6	LOCATION 94 101	หนองคาย
+T7	PERSON 103 131	พ.ต.อ.เพิ่มศักดิ์ ตาตะนันทน์
+T8	PERSON 142 165	พ.ต.อ.ภูวิศ ศิริพานิชย์
+T9	ORGANIZATION 170 181	สภ.โพนพิสัย
+T10	PERSON 182 199	พ.อ.ศิวดล ยาคล้าย
+T11	PERSON 243 262	น.อ.ราฆพ เทวะประทีป
+T12	LOCATION 273 280	หนองคาย
+T13	PERSON 282 302	พ.ต.ท.พลสันติ์ คมขาว
+T14	PERSON 318 339	พ.ต.ท.เบญจรงค์ ใบใหญ่
+T15	PERSON 440 459	นายชัยยศ ศรีบญเรือง
+T16	TIME 465 470	36 ปี
+T17	LOCATION 475 493	บ้านเลขที่ 100/486
+T18	LOCATION 494 501	หมู่ 13
+T19	LOCATION 502 508	ต.ศิลา
+T20	LOCATION 509 526	อ.เมือง จ.ขอนแก่น
+T21	OBJECT 540 545	ยาบ้า
+T22	OBJECT 568 572	ยาเค
+T23	OBJECT 581 585	ยาอี
+T24	OBJECT 627 645	ยาอีชนิดเม็ดแคปซูล
+T25	COLOR 646 655	สีน้ำเงิน
+T26	COLOR 658 663	สีขาว
+T27	OBJECT 692 696	ยาอี
+T28	VEHICLE 785 810	รถยนต์เก๋งเชฟโรเลต อาวีโอ
+T29	COLOR 811 815	สีดำ
+T30	LP 824 840	กบ 7923 อุดรธานี
+T31	OBJECT 844 858	โทรศัพท์มือถือ
+T32	PERSON 869 892	พล.ต.ต.พุฒิพงศ์ มุสิกูล
+T33	LOCATION 901 908	หนองคาย
+T34	TIME 954 962	17.30 น.
+T35	DATE 970 978	5 ต.ค.64
+T36	VEHICLE 1023 1033	รถยนต์เก๋ง
+T37	COLOR 1033 1037	สีดำ
+T38	LOCATION 1065 1074	แม่น้ำโขง
+T39	LOCATION 1074 1083	บ้านสะง้อ
+T40	LOCATION 1084 1090	ต.หอคำ
+T41	LOCATION 1091 1099	อ.บึงกาฬ
+T42	LOCATION 1100 1108	จ.บึงกาฬ
+T43	COLOR 1138 1143	สีขาว
+T44	VEHICLE 1147 1149	รถ
+T45	VEHICLE 1195 1201	รถยนต์
+T46	LOCATION 1228 1237	แม่น้ำโขง
+T47	LOCATION 1249 1257	อ.ปากคาด
+T48	LOCATION 1258 1266	จ.บึงกาฬ
+T49	VEHICLE 1276 1282	รถยนต์
+T50	VEHICLE 1313 1319	รถยนต์
+T51	LOCATION 1330 1351	ถนนโพนพิสัย - หนองคาย
+T52	LOCATION 1356 1369	บ้านโปร่งเย็น
+T53	LOCATION 1370 1377	ต.จุมพล
+T54	LOCATION 1378 1388	อ.โพนพิสัย
+T55	VEHICLE 1402 1404	รถ
+T56	VEHICLE 1394 1396	รถ
+T57	LOCATION 1437 1470	หอพักครูวิทยาลัยเทคโนโลยีโพนพิสัย
+T58	TIME 1514 1522	19.00 น.
+T59	VEHICLE 1535 1537	รถ
+R1	own_vehicle Arg1:T15 Arg2:T28	
+R2	vehicle_lp Arg1:T28 Arg2:T30	
+R3	crime_located_at Arg1:T15 Arg2:T57	
+R4	crime_located_at Arg1:T15 Arg2:T51	
+R5	crime_located_at Arg1:T15 Arg2:T52	
+R6	crime_located_at Arg1:T15 Arg2:T53	
+R7	crime_located_at Arg1:T15 Arg2:T54	
+R8	crime_date_at Arg1:T15 Arg2:T35	
+R9	crime_time_at Arg1:T15 Arg2:T58	
+R10	located_at Arg1:T15 Arg2:T17	
+R11	located_at Arg1:T15 Arg2:T18	
+R12	located_at Arg1:T15 Arg2:T19	
+R13	located_at Arg1:T15 Arg2:T20	
+R14	color_of Arg1:T28 Arg2:T29	
+R15	color_of Arg1:T36 Arg2:T37	
+R16	found_object_at Arg1:T21 Arg2:T51	
+R17	found_object_at Arg1:T21 Arg2:T52	
+R18	found_object_at Arg1:T21 Arg2:T53	
+R19	found_object_at Arg1:T21 Arg2:T54	
+R20	found_object_at Arg1:T21 Arg2:T57	
+R21	found_object_at Arg1:T22 Arg2:T51	
+R22	found_object_at Arg1:T22 Arg2:T52	
+R23	found_object_at Arg1:T22 Arg2:T53	
+R24	found_object_at Arg1:T22 Arg2:T54	
+R25	found_object_at Arg1:T22 Arg2:T57	
+R26	found_object_at Arg1:T23 Arg2:T51	
+R27	found_object_at Arg1:T23 Arg2:T52	
+R28	found_object_at Arg1:T23 Arg2:T53	
+R29	found_object_at Arg1:T23 Arg2:T54	
+R30	found_object_at Arg1:T23 Arg2:T57	

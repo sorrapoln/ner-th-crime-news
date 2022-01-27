@@ -1,0 +1,19 @@
+T1	PERSON 0 23	พ.ต.ท.ประสิทธิ์ สิงหะพล
+T2	ORGANIZATION 35 44	สภ.ป่าบอน
+T3	PERSON 55 77	พ.ต.ท.จบ แก้วศรีจันทร์
+T4	ORGANIZATION 92 101	สภ.ป่าบอน
+T5	LOCATION 214 227	บ้านเลขที่ 27
+T6	LOCATION 228 240	บ้านโห๊ละหาร
+T7	LOCATION 241 247	หมู่ 7
+T8	LOCATION 247 259	ตำบลทุ่งนารี
+T9	LOCATION 260 268	อ.ป่าบอน
+T10	LOCATION 269 282	จังหวัดพัทลุง
+T11	OBJECT 343 355	หัวกระสุนปืน
+T12	PERSON 485 499	นางสุฑา นวลบุญ
+T13	TIME 505 510	46 ปี
+R1	located_at Arg1:T12 Arg2:T5	
+R2	located_at Arg1:T12 Arg2:T6	
+R3	located_at Arg1:T12 Arg2:T7	
+R4	located_at Arg1:T12 Arg2:T8	
+R5	located_at Arg1:T12 Arg2:T9	
+R6	located_at Arg1:T12 Arg2:T10	

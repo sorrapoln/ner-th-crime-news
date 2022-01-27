@@ -1,0 +1,79 @@
+T1	LOCATION 20 33	จังหวัดพัทลุง
+T2	TIME 47 55	10.57 น.
+T3	ORGANIZATION 73 87	สภ.เมืองพัทลุง
+T4	LOCATION 157 170	บ้านเลขที่ 59
+T5	LOCATION 171 180	หมู่ที่ 2
+T6	LOCATION 181 193	ตำบลท่ามิหรำ
+T7	LOCATION 200 219	ซอยตรงเค็กหลักเมือง
+T8	LOCATION 220 230	บ้านควนปรง
+T9	LOCATION 231 243	ตำบลท่ามิหรำ
+T10	LOCATION 244 254	อำเภอเมือง
+T11	LOCATION 255 268	จังหวัดพัทลุง
+T12	PERSON 284 302	ร.ต.อ.วัลลภ ยังยืน
+T13	ORGANIZATION 339 353	สภ.เมืองพัทลุง
+R1	employee_or_member_of Arg1:T12 Arg2:T13	
+T14	LOCATION 421 434	จังหวัดพัทลุง
+T15	ORGANIZATION 470 487	หน่วยกู้ภัยพัทลุง
+T16	OBJECT 612 623	กางเกงยีนส์
+T17	COLOR 626 631	สีแดง
+T18	WEAPON 644 647	ปืน
+T19	PERSON 701 721	สิบเอกโชดชัย ปานนุ่ม
+T20	TIME 756 761	34 ปี
+T21	LOCATION 766 780	บ้านเลขที่ 129
+T22	LOCATION 781 784	ม.4
+T23	LOCATION 785 795	ต.เขาชัยสน
+T24	LOCATION 796 806	อ.เขาชัยสน
+T25	LOCATION 807 815	จ.พัทลุง
+R2	located_at Arg1:T19 Arg2:T21	
+R3	located_at Arg1:T19 Arg2:T22	
+R4	located_at Arg1:T19 Arg2:T23	
+R5	located_at Arg1:T19 Arg2:T24	
+R6	located_at Arg1:T19 Arg2:T25	
+R7	crime_located_at Arg1:T19 Arg2:T4	
+R8	crime_located_at Arg1:T19 Arg2:T5	
+R9	crime_located_at Arg1:T19 Arg2:T6	
+R10	crime_located_at Arg1:T19 Arg2:T7	
+R11	crime_located_at Arg1:T19 Arg2:T8	
+R12	crime_located_at Arg1:T19 Arg2:T9	
+R13	crime_located_at Arg1:T19 Arg2:T10	
+R14	crime_located_at Arg1:T19 Arg2:T11	
+T26	WEAPON 879 882	ปืน
+T27	PERSON 913 930	นายสุธรรม หนูนุ่ม
+T28	WEAPON 970 983	ปืนขนาด 9 มม.
+T29	PERSON 1065 1085	ดาบตำรวจทวี วรานุษิต
+T30	ORGANIZATION 1120 1135	โรงพยาบาลพัทลุง
+T31	PERSON 1224 1244	นางสาวชุติมา ทรงเดชะ
+T32	PERSON 1259 1276	นายสุธรรม หนูนุ่ม
+T33	VEHICLE 1314 1332	รถยนต์ยี่ห้อฮอนด้า
+T34	LP 1348 1362	กฉ.6383 พัทลุง
+R15	vehicle_lp Arg1:T33 Arg2:T34	
+T35	VEHICLE 1366 1386	รถยนต์ยี่ห้อมิซุมิซิ
+T36	LP 1402 1416	กจ.8866 พัทลุง
+R16	vehicle_lp Arg1:T35 Arg2:T36	
+R17	own_vehicle Arg1:T31 Arg2:T33	
+T37	PERSON 1424 1444	สิบเอกโชดชัย ปานนุ่ม
+R18	own_vehicle Arg1:T37 Arg2:T35	
+T38	PERSON 1463 1476	นางสาวชุติมาฯ
+T39	PERSON 1627 1637	ร.ต.ต.ทวีฯ
+T40	PERSON 1770 1783	นางสาวชุติมาฯ
+T41	PERSON 1837 1847	ร.ต.ต.ทวีฯ
+T42	PERSON 1879 1889	ร.ต.ต.ทวีฯ
+T43	PERSON 1943 1963	สิบเอกโชดชัย ปานนุ่ม
+T44	WEAPON 1975 1978	ปืน
+R19	own_weapon Arg1:T43 Arg2:T44	
+T45	PERSON 1985 1995	ร.ต.ต.ทวีฯ
+R20	crime_relation Arg1:T43 Arg2:T45	
+T46	PERSON 2062 2083	นายทวีศักดิ์ วรานุษิต
+T47	PERSON 2091 2102	ร.ต.ต. ทวีฯ
+T48	WEAPON 2132 2135	ปืน
+T49	PERSON 2138 2151	สิบเอกโชดชัยฯ
+T50	PERSON 2162 2179	นายสุธรรม หนูนุ่ม
+T51	WEAPON 2191 2194	ปืน
+T52	PERSON 2215 2228	สิบเอกโชดชัยฯ
+R21	own_weapon Arg1:T50 Arg2:T51	
+T53	PERSON 2251 2264	นายทวีศักดิ์ฯ
+T54	WEAPON 2273 2276	ปืน
+R22	own_weapon Arg1:T53 Arg2:T54	
+T55	PERSON 2284 2294	นายสุธรรมฯ
+R23	crime_relation Arg1:T53 Arg2:T55	
+R24	crime_time_at Arg1:T53 Arg2:T2	

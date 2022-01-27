@@ -1,0 +1,29 @@
+T1	TIME 10 18	01.50 น.
+T2	DATE 20 29	25 ก.ย.64
+T3	PERSON 31 55	ร.ต.ท.อิศรพงษ์ ปัญญาศิริ
+T4	ORGANIZATION 72 83	สภ.เมืองเลย
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	LOCATION 84 89	จ.เลย
+T6	LOCATION 149 167	ถนนสายเลย-ด่านซ้าย
+T7	LOCATION 168 177	ต.กุดป่อง
+T8	LOCATION 178 188	อ.เมืองเลย
+T9	PERSON 214 241	พ.ต.อ.ยศวัจน์ แก้วสืบธัญนิจ
+T10	PERSON 321 331	นายอาทิตย์
+T11	TIME 337 342	41 ปี
+T12	WEAPON 384 395	ปืนขนาด .45
+T13	ORGANIZATION 505 511	รพ.เลย
+T14	PERSON 561 570	นายธันยกร
+R2	own_weapon Arg1:T14 Arg2:T12	
+R3	crime_relation Arg1:T14 Arg2:T10	
+T15	TIME 576 581	37 ปี
+T16	ORGANIZATION 679 690	สภ.เมืองเลย
+T17	VEHICLE 616 623	รถกระบะ
+R4	own_vehicle Arg1:T14 Arg2:T17	
+T18	OBJECT 765 776	ปืนขนาด .45
+R5	crime_located_at Arg1:T14 Arg2:T6	
+R6	crime_located_at Arg1:T14 Arg2:T7	
+R7	crime_located_at Arg1:T14 Arg2:T8	
+R8	found_object_at Arg1:T18 Arg2:T6	
+R9	found_object_at Arg1:T18 Arg2:T7	
+R10	found_object_at Arg1:T18 Arg2:T8	
+T19	ORGANIZATION 276 286	กู้ภัยเทวา

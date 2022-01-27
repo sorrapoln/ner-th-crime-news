@@ -1,0 +1,21 @@
+T1	DATE 7 18	22 พ.ย.2564
+T2	PERSON 19 38	ร.ต.อ.อดุลชัย ขาวขำ
+T3	ORGANIZATION 54 61	สภ.เพ็ญ
+T4	LOCATION 62 68	อ.เพ็ญ
+T5	LOCATION 69 85	จ.อุดรธานีเผยว่า
+T6	LOCATION 154 168	บ้านเลขที่ 270
+T7	LOCATION 169 175	หมู่ 3
+T8	LOCATION 176 183	บ้านทอน
+T9	LOCATION 184 195	ต.สร้างแป้น
+T10	PERSON 262 282	นายจตุพล ไชยคำจันทร์
+T11	TIME 288 293	37 ปี
+T12	WEAPON 297 300	มีด
+T13	OBJECT 385 390	ยาบ้า
+T14	WEAPON 455 458	มีด
+T15	LOCATION 481 492	ต.สร้างแป้น
+T16	WEAPON 603 606	มีด
+R1	crime_located_at Arg1:T10 Arg2:T6	
+R2	crime_located_at Arg1:T10 Arg2:T7	
+R3	crime_located_at Arg1:T10 Arg2:T8	
+R4	crime_located_at Arg1:T10 Arg2:T9	
+R5	employee_or_member_of Arg1:T2 Arg2:T3	

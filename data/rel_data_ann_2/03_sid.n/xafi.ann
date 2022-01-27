@@ -1,0 +1,29 @@
+T1	DATE 12 24	20 พฤศจิกายน
+T2	PERSON 25 45	พล.ต.ท.จิรภพ ภูริเดช
+T3	PERSON 53 72	พล.ต.ต.มนตรี เทศขัน
+T4	PERSON 91 110	พ.ต.อ.ปทักข์ ขวัญนา
+T5	PERSON 124 141	พ.ต.ท.อภิชน ขันกา
+T6	PERSON 172 186	นายวันนา พรมคำ
+T7	TIME 192 197	48 ปี
+T8	ORGANIZATION 215 232	ศาลจังหวัดหล่มสัก
+T9	LOCATION 322 329	หมู่ 10
+T10	LOCATION 330 340	บ้านโนนรัง
+T11	LOCATION 341 352	ต.หนองเขียด
+T12	LOCATION 353 360	อ.ชุมแพ
+T13	LOCATION 361 370	จ.ขอนแก่น
+T14	LOCATION 769 778	จ.ชัยภูมิ
+T15	TIME 394 398	2548
+T16	LOCATION 455 471	จังหวัดเพชรบูรณ์
+T17	WEAPON 592 601	ปืนลูกซอง
+T18	ORGANIZATION 643 660	ศาลจังหวัดหล่มสัก
+T19	TIME 797 802	16 ปี
+T20	ORGANIZATION 1005 1016	สภ.บ้านติ้ว
+T21	LOCATION 1017 1028	จ.เพชรบูรณ์
+R1	located_at Arg1:T6 Arg2:T9	
+R2	located_at Arg1:T6 Arg2:T10	
+R3	located_at Arg1:T6 Arg2:T11	
+R4	located_at Arg1:T6 Arg2:T12	
+R5	located_at Arg1:T6 Arg2:T13	
+R6	crime_located_at Arg1:T6 Arg2:T16	
+R7	own_weapon Arg1:T6 Arg2:T17	
+T22	DATE 255 272	23 พฤศจิกายน 2548

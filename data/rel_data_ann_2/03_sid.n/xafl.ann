@@ -1,0 +1,11 @@
+T1	DATE 7 21	10 ตุลาคม 2562
+T2	PERSON 43 66	ร.ต.อ.ประยงค์ ศรีสารคาม
+T3	ORGANIZATION 90 99	สภ.น้ำพอง
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T4	LOCATION 100 109	จ.ขอนแก่น
+T5	PERSON 123 137	นายดำรง สุริยะ
+T6	LOCATION 149 158	หมู่ที่ 3
+T7	LOCATION 159 169	บ้านหัวบึง
+T8	LOCATION 170 178	อ.น้ำพอง
+T9	LOCATION 179 188	จ.ขอนแก่น
+T10	WEAPON 316 325	เหล็กแหลม

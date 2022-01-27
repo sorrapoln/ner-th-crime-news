@@ -1,0 +1,24 @@
+T1	PERSON 17 30	ต้อม ยุทธเลิศ
+T2	PERSON 51 62	ไอซ์ รักชนก
+T3	PERSON 70 88	ไอซ์ รักชนก ศรีนอก
+T4	PERSON 141 162	ต้อม ยุทธเลิศ สิปปภาค
+R1	crime_relation Arg1:T1 Arg2:T2	
+R2	crime_relation Arg1:T4 Arg2:T3	
+T5	LOCATION 247 264	ท่าเรือแถวคลองสาน
+R3	crime_located_at Arg1:T4 Arg2:T5	
+T6	DATE 277 289	21 พฤศจิกายน
+R4	crime_date_at Arg1:T4 Arg2:T6	
+R5	crime_located_at Arg1:T1 Arg2:T5	
+R6	crime_date_at Arg1:T1 Arg2:T6	
+T7	DATE 305 317	22 พฤศจิกายน
+T8	PERSON 318 345	พ.ต.อ.ต่อศักดิ์ ปานกลิ่นพุฒ
+T9	ORGANIZATION 350 363	สน.ปากคลองสาน
+R7	employee_or_member_of Arg1:T8 Arg2:T9	
+T10	LOCATION 416 431	แม่น้ำเจ้าพระยา
+R8	crime_located_at Arg1:T4 Arg2:T10	
+R9	crime_located_at Arg1:T1 Arg2:T10	
+T11	ORGANIZATION 459 472	สน.ปากคลองสาน
+T12	PERSON 491 508	น.ส.รักชนก ศรีนอก
+T13	ORGANIZATION 590 599	รพ.ตากสิน
+T14	PERSON 656 666	น.ส.รักชนก
+T15	PERSON 710 721	นายยุทธเลิศ

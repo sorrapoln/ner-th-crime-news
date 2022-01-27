@@ -1,0 +1,9 @@
+T1	PERSON 49 62	เจ๊ม้อยv plus
+T2	LOCATION 213 230	จ.พระนครศรีอยุธยา
+T3	PERSON 271 280	นางสาวเนต
+T4	DATE 342 348	22 ก.ย
+T5	VEHICLE 396 409	รถจักรยานยนต์
+R1	crime_date_at Arg1:T3 Arg2:T4	
+R2	own_vehicle Arg1:T3 Arg2:T5	
+R3	crime_located_at Arg1:T3 Arg2:T2	
+T6	PERSON 299 306	นางเนตร

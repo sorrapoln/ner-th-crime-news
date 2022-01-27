@@ -1,0 +1,36 @@
+T1	PERSON 11 30	นายธุรการ ยังบรรเทา
+T2	TIME 36 41	67 ปี
+T3	LOCATION 100 115	จ.นครศรีธรรมราช
+T4	DATE 134 138	2562
+T5	WEAPON 154 157	ปืน
+T6	PERSON 178 199	นายสมัชฌ์ ประชุมพันธ์
+T7	TIME 205 210	40 ปี
+T8	PERSON 215 232	ร.ต.ทำนุ แจ้งจิตร
+T9	TIME 238 243	61 ปี
+T10	PERSON 267 289	น.อ.สันชัย ประชุมพันธ์
+T11	TIME 295 300	59 ปี
+T12	ORGANIZATION 340 350	รพ.ศิริราช
+T13	LOCATION 365 383	บ้านเลขที่ 549/185
+T14	LOCATION 384 397	ชุมชนคลองล่าง
+T15	LOCATION 398 410	ซอยอำนวยผล 8
+T16	LOCATION 411 429	ถนนจรัญสนิทวงศ์ 37
+T17	LOCATION 430 443	แขวงบางขุนศรี
+T18	LOCATION 444 457	เขตบางกอกน้อย
+T19	LOCATION 458 462	กทม.
+T20	DATE 526 533	10 พ.ย.
+T21	TIME 592 600	12.30 น.
+T22	DATE 608 625	11 พฤศจิกายน 2564
+T23	PERSON 626 650	พ.ต.ท.ประพฤทธิ์ เพชรพลอย
+T24	ORGANIZATION 668 681	สน.บางขุนนนท์
+R1	own_weapon Arg1:T1 Arg2:T5	
+R2	located_at Arg1:T1 Arg2:T3	
+R3	crime_relation Arg1:T1 Arg2:T6	
+R4	crime_relation Arg1:T1 Arg2:T10	
+R5	crime_located_at Arg1:T1 Arg2:T13	
+R6	crime_located_at Arg1:T1 Arg2:T14	
+R7	crime_located_at Arg1:T1 Arg2:T15	
+R8	crime_located_at Arg1:T1 Arg2:T16	
+R9	crime_located_at Arg1:T1 Arg2:T17	
+R10	crime_located_at Arg1:T1 Arg2:T18	
+R11	crime_located_at Arg1:T1 Arg2:T19	
+R12	crime_date_at Arg1:T1 Arg2:T20	

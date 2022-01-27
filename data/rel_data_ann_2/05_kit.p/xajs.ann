@@ -1,0 +1,23 @@
+T1	ORGANIZATION 6 20	สภ.เมืองพัทลุง
+T2	PERSON 27 39	นายพัน ชุมพล
+T3	TIME 45 50	72 ปี
+T4	WEAPON 90 93	ไม้
+R1	own_weapon Arg1:T2 Arg2:T4	
+T5	PERSON 97 110	นายสมพร ชุมพล
+R2	crime_relation Arg1:T2 Arg2:T5	
+T6	TIME 116 121	49 ปี
+T7	LOCATION 166 180	ตำบลควนมะพร้าว
+T8	LOCATION 181 191	อำเภอเมือง
+T9	LOCATION 192 205	จังหวัดพัทลุง
+T10	LOCATION 225 243	คลองชลประทานลำเบ็ด
+T11	LOCATION 251 262	บ้านค่ายไทย
+T12	DATE 282 291	15 มกราคม
+T13	WEAPON 755 762	มีดพร้า
+T14	WEAPON 786 793	ท่อนไม้
+R3	own_weapon Arg1:T2 Arg2:T14	
+T15	WEAPON 847 854	ท่อนไม้
+T16	VEHICLE 899 911	รถสามล้อพ่วง
+T17	LOCATION 926 938	คลองชลประทาน
+R4	crime_located_at Arg1:T2 Arg2:T7	
+R5	crime_located_at Arg1:T2 Arg2:T8	
+R6	crime_located_at Arg1:T2 Arg2:T9	

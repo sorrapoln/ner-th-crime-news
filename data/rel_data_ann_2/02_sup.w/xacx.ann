@@ -1,0 +1,27 @@
+T1	LOCATION 35 39	พม่า
+T2	TIME 45 50	21 ปี
+T3	LOCATION 89 95	หมู่ 4
+T4	LOCATION 96 108	ต.วังท่าช้าง
+T5	LOCATION 109 122	อ.กบินทร์บุรี
+T6	LOCATION 123 135	จ.ปราจีนบุรี
+T7	TIME 209 214	27 ปี
+T8	LOCATION 263 275	ต.ลาดตะเคียน
+T9	LOCATION 276 289	อ.กบินทร์บุรี
+T10	LOCATION 290 302	จ.ปราจีนบุรี
+T11	LOCATION 339 349	อ.วัฒนานคร
+T12	LOCATION 350 359	จ.สระแก้ว
+T13	PERSON 394 411	นายบุญหลาย บัวมัน
+T14	TIME 417 422	27 ปี
+T15	DATE 450 459	19 พ.ย.64
+T16	ORGANIZATION 466 479	สภ.วังตะเคียน
+T17	LOCATION 480 492	จ.ปราจีนบุรี
+T18	PERSON 506 516	นายบุญหลาย
+T19	PERSON 559 569	นายบุญหลาย
+T20	DATE 704 711	14 พ.ย.
+T21	LOCATION 1053 1060	สระแก้ว
+T22	PERSON 1061 1071	นายบุญหลาย
+R1	crime_located_at Arg1:T13 Arg2:T3	
+R2	crime_located_at Arg1:T13 Arg2:T4	
+R3	crime_located_at Arg1:T13 Arg2:T5	
+R4	crime_located_at Arg1:T13 Arg2:T6	
+R5	crime_date_at Arg1:T13 Arg2:T20	

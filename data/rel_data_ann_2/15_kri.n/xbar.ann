@@ -1,0 +1,21 @@
+T1	TIME 10 17	09.30 น
+T2	DATE 26 33	22 ม.ค.
+T3	ORGANIZATION 48 58	สน.คลองตัน
+T4	LOCATION 129 142	แยกกล้วยน้ำไท
+T5	LOCATION 157 168	ถนนสุขุมวิท
+T6	LOCATION 169 180	ถนนพระราม 4
+T7	LOCATION 181 192	แขวงพระโขนง
+T8	LOCATION 193 203	เขตคลองเตย
+T9	ORGANIZATION 293 323	แฟมิลี่มาร์ท สาขาแยกกล้วยน้ำไท
+T10	VEHICLE 363 383	รถเมล์ปรับอากาศสาย22
+T11	COLOR 384 397	สีน้ำเงิน-ขาว
+T12	LP 406 427	12-2968 กรุงเทพมหานคร
+R1	color_of Arg1:T10 Arg2:T11	
+R2	vehicle_lp Arg1:T10 Arg2:T12	
+T13	LOCATION 457 481	สาธุประดิษฐ์-แฮปปี้แลนด์
+T14	VEHICLE 526 537	ถเมล์สาย 45
+T15	COLOR 538 548	สีครีม-แดง
+T16	LP 557 578	11-8434 กรุงเทพมหานคร
+R3	color_of Arg1:T14 Arg2:T15	
+R4	vehicle_lp Arg1:T14 Arg2:T16	
+T17	LOCATION 609 623	สำโรง-สี่พระยา

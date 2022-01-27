@@ -1,0 +1,23 @@
+T1	ORGANIZATION 23 32	สภ.บ่อผุด
+T2	LOCATION 33 52	จังหวัดสุราษฎร์ธานี
+T3	LOCATION 109 122	ซอยอีสานพัฒนา
+T4	LOCATION 123 129	หมู่ 6
+T5	LOCATION 130 140	ตำบลบ่อผุด
+T6	LOCATION 141 154	อำเภอเกาะสมุย
+T7	VEHICLE 311 324	รถจักรยานยนต์
+T8	PERSON 495 510	นายสันทัด เคยนา
+T9	PERSON 762 781	นายสุชาติ บุญสินธุ์
+T10	TIME 787 792	41 ปี
+T11	VEHICLE 801 822	รถจักรยานยนต์แบบวิบาก
+T12	LOCATION 872 878	หมู่ 3
+T13	LOCATION 879 889	ตำบลบ่อผุด
+T14	WEAPON 898 916	อาวุธปืนขนาดจุด 38
+R1	own_vehicle Arg1:T9 Arg2:T11	
+R2	own_weapon Arg1:T9 Arg2:T14	
+T15	PERSON 974 983	นายสันทัด
+R3	crime_relation Arg1:T9 Arg2:T15	
+T16	PERSON 1112 1121	นายสันทัด
+R4	crime_located_at Arg1:T9 Arg2:T3	
+R5	crime_located_at Arg1:T9 Arg2:T4	
+R6	crime_located_at Arg1:T15 Arg2:T5	
+R7	crime_located_at Arg1:T15 Arg2:T6	

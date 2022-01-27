@@ -1,0 +1,33 @@
+T1	DATE 7 14	15 ก.ค.
+T2	PERSON 15 33	พ.ต.อ.พนม เชื้อทอง
+T3	PERSON 77 98	นายวันตระการ ตินะน้อย
+T4	TIME 104 109	22 ปี
+T5	PERSON 113 133	นายสมศักดิ์ ปาลวัฒน์
+T6	TIME 139 144	30 ปี
+T7	LOCATION 206 218	บ้านเลขที่ 4
+T8	LOCATION 219 231	ซอยพันธจิตต์
+T9	LOCATION 232 252	เขตป้อมปราบศัตรูพ่าย
+T10	VEHICLE 285 289	จยย.
+T11	LOCATION 496 502	บก.น.6
+T12	LOCATION 507 512	5 สน.
+T13	ORGANIZATION 534 546	สน.จักรวรรดิ
+T14	ORGANIZATION 555 569	สน.พลับพลาไชย1
+T15	ORGANIZATION 578 592	สน.พลับพลาไชย2
+T16	ORGANIZATION 601 611	สน.ปทุมวัน
+T17	ORGANIZATION 620 634	สน.สำราญราษฎร์
+T18	PERSON 725 737	นายวันตระการ
+T19	PERSON 791 802	นายสมศักดิ์
+R1	located_at Arg1:T3 Arg2:T7	
+R2	located_at Arg1:T3 Arg2:T8	
+R3	located_at Arg1:T3 Arg2:T9	
+R4	located_at Arg1:T5 Arg2:T7	
+R5	located_at Arg1:T5 Arg2:T8	
+R6	located_at Arg1:T5 Arg2:T9	
+R7	own_vehicle Arg1:T3 Arg2:T10	
+R8	own_vehicle Arg1:T5 Arg2:T10	
+R9	crime_located_at Arg1:T3 Arg2:T11	
+R10	crime_located_at Arg1:T3 Arg2:T12	
+R11	crime_located_at Arg1:T5 Arg2:T11	
+R12	crime_located_at Arg1:T5 Arg2:T12	
+T20	ORGANIZATION 38 53	สน.พลับพลาไชย 2
+R13	employee_or_member_of Arg1:T2 Arg2:T20	

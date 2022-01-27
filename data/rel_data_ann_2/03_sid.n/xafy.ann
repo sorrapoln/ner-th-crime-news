@@ -1,0 +1,49 @@
+T1	LOCATION 28 38	เลขที่ 522
+T2	LOCATION 39 45	หมู่ 6
+T3	LOCATION 46 55	ต.หนองกรด
+T4	LOCATION 56 63	อ.เมือง
+T5	LOCATION 64 75	จ.นครสวรรค์
+T6	LOCATION 841 853	ต.หนองกระโดน
+T7	LOCATION 854 870	อ.เมืองนครสวรรค์
+T8	LOCATION 635 641	หมู่ 6
+T9	LOCATION 642 651	ต.หนองกรด
+T10	LOCATION 652 659	อ.เมือง
+T11	LOCATION 660 671	จ.นครสวรรค์
+T12	PERSON 90 105	นายชโนชัย วงแสน
+T13	PERSON 112 114	โน
+T14	PERSON 151 181	น.ส.รัฐคณิศร จารุภัทรกิตติโชติ
+T15	TIME 187 192	56 ปี
+T16	PERSON 260 279	นายรุจิภาส โชติธรรม
+T17	TIME 285 290	22 ปี
+T18	PERSON 314 326	น.ส.รัฐคณิศร
+T19	DATE 371 387	9 พฤศจิกายน 2564
+T20	DATE 478 495	11 พฤศจิกายน 2564
+T21	PERSON 497 502	นายโน
+T22	PERSON 539 553	นายอำนวย วงแสง
+T23	PERSON 608 623	นายมนัส อ่ำจุ้ย
+T24	ORGANIZATION 704 721	สภ.เมืองนครสวรรค์
+T25	PERSON 756 761	นายโน
+T26	VEHICLE 769 771	รถ
+T27	OBJECT 1043 1055	สร้อยคอทองคำ
+T28	OBJECT 1061 1073	พระเลี่ยมทอง
+R1	found_object_at Arg1:T27 Arg2:T1	
+R2	found_object_at Arg1:T27 Arg2:T2	
+R3	found_object_at Arg1:T27 Arg2:T3	
+R4	found_object_at Arg1:T27 Arg2:T4	
+R5	found_object_at Arg1:T27 Arg2:T5	
+R6	found_object_at Arg1:T28 Arg2:T1	
+R7	found_object_at Arg1:T28 Arg2:T2	
+R8	found_object_at Arg1:T28 Arg2:T3	
+R9	found_object_at Arg1:T28 Arg2:T4	
+R10	found_object_at Arg1:T28 Arg2:T5	
+R11	crime_relation Arg1:T12 Arg2:T14	
+R12	crime_located_at Arg1:T12 Arg2:T1	
+R13	crime_located_at Arg1:T12 Arg2:T2	
+R14	crime_located_at Arg1:T12 Arg2:T3	
+R15	crime_located_at Arg1:T12 Arg2:T4	
+R16	crime_located_at Arg1:T12 Arg2:T5	
+R17	crime_relation Arg1:T12 Arg2:T16	
+R18	crime_date_at Arg1:T12 Arg2:T19	
+R19	located_at Arg1:T12 Arg2:T6	
+R20	located_at Arg1:T12 Arg2:T7	
+R21	own_vehicle Arg1:T12 Arg2:T26	

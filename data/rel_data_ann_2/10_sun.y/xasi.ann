@@ -1,0 +1,9 @@
+T1	PERSON 0 20	พล.ต.ต.ปิยะ ต๊ะวิชัย
+T2	PERSON 59 70	นายชุติพงษ์
+T3	PERSON 75 91	แบ้งค์ ทิศกระโทก
+T4	TIME 97 102	28 ปี
+T5	TIME 229 234	15 ปี
+T6	ORGANIZATION 262 271	สน.ดินแดง
+T7	LOCATION 369 385	จังหวัดกาญจนบุรี
+T8	ORGANIZATION 472 481	สน.ดินแดง
+R1	located_at Arg1:T2 Arg2:T7	

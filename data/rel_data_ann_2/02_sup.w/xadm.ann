@@ -1,0 +1,48 @@
+T1	DATE 7 21	23 มีนาคม 2564
+T2	PERSON 22 42	ร.ต.อ.วัชรินทร์ มิเร
+T3	ORGANIZATION 51 61	สภ.กมลาไสย
+T4	LOCATION 62 73	จ.กาฬสินธุ์
+T5	LOCATION 148 157	บ้านบึงไฮ
+T6	LOCATION 158 161	ม.4
+T7	LOCATION 162 173	ต.หลักเมือง
+T8	LOCATION 174 183	อ.กมลาไสย
+T9	LOCATION 184 195	จ.กาฬสินธุ์
+T10	PERSON 236 253	พ.ต.อ.ภูมี อีคะละ
+T11	ORGANIZATION 258 268	สภ.กมลาไสย
+T12	PERSON 269 291	พ.ต.ท.ประพนธ์ ภูจอมนิล
+T13	ORGANIZATION 306 316	สภ.กมลาไสย
+T14	ORGANIZATION 322 345	กู้ภัยกุดหว้า อ.กมลาไสย
+T15	ORGANIZATION 357 373	โรงพยาบาลกมลาไสย
+T16	PERSON 579 595	นางสาวนิว กมลาไส
+T17	TIME 601 606	29 ปี
+T18	LOCATION 611 624	บ้านเลขที่ 10
+T19	LOCATION 625 628	ม.4
+T20	LOCATION 629 640	ต.หลักเมือง
+T21	LOCATION 641 650	อ.กมลาไสย
+T22	LOCATION 651 662	จ.กาฬสินธุ์
+T23	PERSON 735 751	นายมนตรี โชติทอง
+T24	TIME 781 789	20.00 น.
+T25	DATE 796 805	22 มีนาคม
+T26	WEAPON 1061 1069	มีดอีโต้
+R1	crime_relation Arg1:T23 Arg2:T16	
+R2	own_weapon Arg1:T23 Arg2:T26	
+R3	crime_time_at Arg1:T23 Arg2:T24	
+R4	crime_date_at Arg1:T23 Arg2:T25	
+R5	crime_located_at Arg1:T23 Arg2:T18	
+R6	crime_located_at Arg1:T23 Arg2:T19	
+R7	crime_located_at Arg1:T23 Arg2:T20	
+R8	crime_located_at Arg1:T23 Arg2:T21	
+R9	crime_located_at Arg1:T23 Arg2:T22	
+R10	located_at Arg1:T23 Arg2:T18	
+R11	located_at Arg1:T23 Arg2:T19	
+R12	located_at Arg1:T23 Arg2:T20	
+R13	located_at Arg1:T23 Arg2:T21	
+R14	located_at Arg1:T23 Arg2:T22	
+R15	located_at Arg1:T16 Arg2:T18	
+R16	located_at Arg1:T16 Arg2:T19	
+R17	located_at Arg1:T16 Arg2:T20	
+R18	located_at Arg1:T16 Arg2:T21	
+R19	located_at Arg1:T16 Arg2:T22	
+R20	employee_or_member_of Arg1:T2 Arg2:T3	
+R21	employee_or_member_of Arg1:T10 Arg2:T11	
+R22	employee_or_member_of Arg1:T12 Arg2:T13	

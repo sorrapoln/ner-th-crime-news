@@ -1,0 +1,43 @@
+T1	DATE 7 16	18 ต.ค.64
+T2	PERSON 17 42	พ.ต.ท.สมอาจ หมั่นอุตส่าห์
+T3	ORGANIZATION 55 65	สภ.ไทรน้อย
+T4	LOCATION 66 75	จ.นนทบุรี
+T5	LOCATION 133 139	หมู่ 3
+T6	LOCATION 140 149	ต.ไทรใหญ่
+T7	LOCATION 150 159	อ.ไทรน้อย
+T8	LOCATION 160 169	จ.นนทบุรี
+T9	PERSON 191 218	พ.ต.อ.โชติวัฒน์ เหลืองวิลัย
+T10	ORGANIZATION 248 258	สภ.ไทรน้อย
+T11	PERSON 260 282	พ.ต.อ.จิรายุส วานิชกูล
+T12	PERSON 304 323	พ.ต.ท.อดิศร บุญสนอง
+T13	PERSON 347 370	พ.ต.ต.ธนวัฒน์ ชีวิตโสภณ
+T14	ORGANIZATION 335 345	สภ.ไทรน้อย
+T15	ORGANIZATION 375 385	สภ.ไทรน้อย
+T16	PERSON 484 493	น.ส.ดรุณี
+T17	TIME 515 520	36 ปี
+T18	LOCATION 525 534	ต.หลักชัย
+T19	LOCATION 535 547	อ.ลาดบัวหลวง
+T20	LOCATION 548 566	จ. พระนครศรีอยุธยา
+T21	TIME 892 900	25-30 ปี
+T22	VEHICLE 907 911	จยย.
+T23	VEHICLE 921 942	ยี่ห้อฮอนด้า รุ่น PCX
+T24	COLOR 943 948	สีขาว
+T25	LP 957 979	9กง-5610 กรุงเทพมหานคร
+T26	DATE 1026 1033	17 ต.ค.
+T27	TIME 1038 1046	03.38 น.
+T28	PERSON 1052 1061	น.ส.ชมพู่
+T29	DATE 1465 1472	17 ต.ค.
+T30	PERSON 1610 1625	พ.ต.อ.โชติวัฒน์
+T31	DATE 1662 1669	16 ต.ค.
+T32	TIME 1682 1690	22.00 น.
+T33	TIME 1790 1798	03.00 น.
+T34	VEHICLE 1824 1828	จยย.
+T35	VEHICLE 1846 1850	จยย.
+T36	VEHICLE 1886 1890	จยย.
+R1	color_of Arg1:T23 Arg2:T24	
+R2	vehicle_lp Arg1:T23 Arg2:T25	
+R3	employee_or_member_of Arg1:T2 Arg2:T3	
+R4	employee_or_member_of Arg1:T9 Arg2:T10	
+R5	employee_or_member_of Arg1:T12 Arg2:T14	
+R6	employee_or_member_of Arg1:T13 Arg2:T15	
+T37	COLOR 598 604	สีครีม

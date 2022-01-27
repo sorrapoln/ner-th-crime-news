@@ -1,0 +1,23 @@
+T1	TIME 10 17	15.15 น
+T2	DATE 26 36	20 พ.ย. 64
+T3	PERSON 37 58	ร.ต.อ.ชัยชน เรืองเพชร
+T4	ORGANIZATION 75 83	สน.ดุสิต
+T5	ORGANIZATION 133 141	สน.ดุสิต
+T6	LOCATION 142 153	ถนนพระราม 5
+T7	LOCATION 161 169	เขตดุสิต
+T8	LOCATION 170 174	กทม.
+T9	ORGANIZATION 237 253	รพ.พระมงกุฎเกล้า
+T10	ORGANIZATION 266 279	รพ.วชิรพยาบาล
+T11	PERSON 401 421	น.ส.ขวัญชนก ดำรงธรรม
+T12	TIME 427 432	16 ปี
+T13	PERSON 437 444	น้องเตย
+T14	PERSON 485 508	ร.ต.ท.ปิยะพงศ์ ดำรงธรรม
+T15	ORGANIZATION 519 528	สน.ดินแดง
+T16	COLOR 585 591	สีชมพู
+T17	COLOR 605 609	สีดำ
+T18	WEAPON 654 683	ปืนลูกโม่ .38 สมิธแอนด์เวสสัน
+R1	own_weapon Arg1:T11 Arg2:T18	
+R2	employee_or_member_of Arg1:T3 Arg2:T4	
+R3	employee_or_member_of Arg1:T14 Arg2:T15	
+R4	crime_time_at Arg1:T11 Arg2:T1	
+R5	crime_date_at Arg1:T11 Arg2:T2	

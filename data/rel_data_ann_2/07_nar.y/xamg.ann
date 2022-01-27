@@ -1,0 +1,63 @@
+T1	TIME 10 18	13.30 น.
+T2	DATE 25 31	8 ก.ค.
+T3	ORGANIZATION 35 57	สถานีตำรวจภูธรตำบลสลุย
+T4	LOCATION 58 66	อ.ท่าแซะ
+T5	LOCATION 67 74	จ.ชุมพร
+T6	PERSON 75 95	พล.ต.ต.ถาวร แสงฤทธิ์
+T7	PERSON 140 159	นายพรหมทัต นุ่มนิ่ม
+T8	TIME 165 170	24 ปี
+T9	DATE 230 238	7 ก.ค.64
+T10	TIME 244 252	14.43 น.
+T11	PERSON 252 270	นายบุญนำ ณรงค์น้อย
+T12	LOCATION 347 360	บ้านเลขที่ 15
+T13	LOCATION 361 368	หมู่ 13
+T14	LOCATION 369 378	ต.ท่าข้าม
+T15	LOCATION 379 387	อ.ท่าแซะ
+T16	LOCATION 388 395	จ.ชุมพร
+T17	PERSON 405 427	พ.ต.ท.มธกร ฤทธิ์เนื่อง
+T18	ORGANIZATION 444 453	สภ.ท่าแซะ
+T19	OBJECT 645 657	ปืนกลเอ็ม 60
+T20	OBJECT 673 695	เครื่องยิงจรวดอาร์พีจี
+T21	OBJECT 720 750	กระสุนปืนเล็กยาว ขนาด 7.62 มม.
+T22	OBJECT 765 795	กระสุนปืนเล็กยาว ขนาด 5.56 มม.
+T23	OBJECT 809 826	ซองบรรจุกระสุนปืน
+T24	LOCATION 950 956	ต.สลุย
+T25	LOCATION 957 965	อ.ท่าแซะ
+T26	LOCATION 966 973	จ.ชุมพร
+T27	DATE 1105 1111	6 ก.ค.
+T28	PERSON 1236 1246	นายพรหมทัต
+T29	VEHICLE 1335 1350	จยย.ซูซูกิ สแมช
+T30	COLOR 1351 1356	สีเทา
+T31	VEHICLE 1382 1394	รถเข็น 2 ล้อ
+T32	WEAPON 1395 1402	ฆ้อนปอน
+R2	color_of Arg1:T29 Arg2:T30	
+R1	own_weapon Arg1:T7 Arg2:T32	
+R3	own_vehicle Arg1:T7 Arg2:T31	
+R4	own_vehicle Arg1:T7 Arg2:T29	
+R5	crime_date_at Arg1:T7 Arg2:T27	
+R6	found_object_at Arg1:T19 Arg2:T12	
+R7	found_object_at Arg1:T19 Arg2:T13	
+R8	found_object_at Arg1:T19 Arg2:T14	
+R9	found_object_at Arg1:T19 Arg2:T15	
+R10	found_object_at Arg1:T19 Arg2:T16	
+R11	found_object_at Arg1:T20 Arg2:T12	
+R12	found_object_at Arg1:T20 Arg2:T13	
+R13	found_object_at Arg1:T20 Arg2:T14	
+R14	found_object_at Arg1:T20 Arg2:T15	
+R15	found_object_at Arg1:T20 Arg2:T16	
+R16	found_object_at Arg1:T21 Arg2:T12	
+R17	found_object_at Arg1:T21 Arg2:T13	
+R18	found_object_at Arg1:T21 Arg2:T14	
+R19	found_object_at Arg1:T21 Arg2:T15	
+R20	found_object_at Arg1:T21 Arg2:T16	
+R21	found_object_at Arg1:T22 Arg2:T12	
+R22	found_object_at Arg1:T22 Arg2:T13	
+R23	found_object_at Arg1:T22 Arg2:T14	
+R24	found_object_at Arg1:T22 Arg2:T15	
+R25	found_object_at Arg1:T22 Arg2:T16	
+R26	found_object_at Arg1:T23 Arg2:T12	
+R27	found_object_at Arg1:T23 Arg2:T13	
+R28	found_object_at Arg1:T23 Arg2:T14	
+R29	found_object_at Arg1:T23 Arg2:T15	
+R30	found_object_at Arg1:T23 Arg2:T16	
+R31	employee_or_member_of Arg1:T17 Arg2:T18	

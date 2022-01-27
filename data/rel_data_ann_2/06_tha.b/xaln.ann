@@ -1,0 +1,14 @@
+T1	DATE 7 19	26 ก.ย. 2562
+T2	TIME 25 33	02.00 น.
+T3	PERSON 55 77	พ.ต.อ.วิเชียร เปล่งฉวี
+T4	ORGANIZATION 82 92	สภ.ท่าศาลา
+T5	LOCATION 93 108	จ.นครศรีธรรมราช
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T6	TIME 320 325	20 ปี
+T7	COLOR 361 366	สีขาว
+T8	WEAPON 409 423	มีดพร้าด้ามยาว
+T9	WEAPON 747 759	อาวุธมีดพร้า
+T10	LOCATION 809 820	บ้านหน้าทัพ
+T11	LOCATION 821 856	ริมถนนสายนครศรีธรรมราช-สุราษฎร์ธานี
+T12	LOCATION 857 866	อ.ท่าศาลา
+T13	LOCATION 867 882	จ.นครศรีธรรมราช

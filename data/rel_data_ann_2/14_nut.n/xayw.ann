@@ -1,0 +1,18 @@
+T1	DATE 12 26	21 มกราคม 2565
+T2	TIME 134 139	38 ปี
+T3	VEHICLE 143 148	รถตู้
+T4	ORGANIZATION 270 284	สภ.ปทุมราชวงศา
+T5	LOCATION 285 297	จ.อำนาจเจริญ
+T6	PERSON 309 329	พ.ต.อ.นิติธร แสงย้อย
+T7	ORGANIZATION 334 348	สภ.ปทุมราชวงศา
+R1	employee_or_member_of Arg1:T6 Arg2:T7	
+T8	PERSON 382 394	พ.ต.อ.นิติธร
+T9	LOCATION 887 898	ต.เหล่าพรวน
+T10	LOCATION 899 915	อ.เมืองอำนาจเริญ
+T11	PERSON 921 941	นายบุญหลาย สุรารักษ์
+T12	PERSON 942 963	นางหนูเขียม สุรารักษ์
+T13	PERSON 964 985	นางสาวลัดดา สุรารักษ์
+T14	TIME 991 996	33 ปี
+T15	VEHICLE 1157 1170	รถจักรยานยนต์
+T16	VEHICLE 1233 1235	รถ
+T17	VEHICLE 1313 1315	รถ

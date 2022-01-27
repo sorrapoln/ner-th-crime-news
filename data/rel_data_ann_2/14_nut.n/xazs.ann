@@ -1,0 +1,24 @@
+T1	DATE 12 18	8 ก.ค.
+T2	ORGANIZATION 19 46	ตำรวจภูธรจังหวัดหนองบัวลำภู
+T3	WEAPON 106 109	มีด
+T4	WEAPON 112 116	ขวาน
+T5	LOCATION 194 214	บ้านข่าใหญ่ตำบลหัวนา
+T6	LOCATION 215 236	อำเภอเมืองหนองบัวลำภู
+T7	PERSON 280 299	ร.ต.อ.ประยูร บุญรอด
+T8	ORGANIZATION 308 327	สภ.เมืองหนองบัวลำภู
+R1	employee_or_member_of Arg1:T7 Arg2:T8	
+T9	PERSON 404 416	ร.ต.อ.ประยูร
+T10	PERSON 468 480	ร.ต.อ.ประยูร
+T11	WEAPON 522 525	มีด
+T12	VEHICLE 650 656	รถยนต์
+T13	PERSON 739 752	นายพิมล ทุมซะ
+T14	TIME 758 763	28 ปี
+T15	PERSON 782 789	นายพิมล
+R2	own_weapon Arg1:T13 Arg2:T3	
+R3	own_weapon Arg1:T13 Arg2:T4	
+R5	crime_located_at Arg1:T13 Arg2:T5	
+R6	crime_located_at Arg1:T13 Arg2:T6	
+T16	DATE 895 901	7 ก.ค.
+T17	WEAPON 919 922	มีด
+T18	WEAPON 928 932	ขวาน
+R4	crime_date_at Arg1:T13 Arg2:T16	

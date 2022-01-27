@@ -1,0 +1,35 @@
+T1	TIME 10 18	22.10 น.
+T2	DATE 20 29	23 ก.ย.64
+T3	ORGANIZATION 46 58	สภ.สะบ้าย้อย
+T4	LOCATION 98 109	อ.สะบ้าย้อย
+T5	LOCATION 110 117	จ.สงขลา
+T6	OBJECT 160 183	ปลอกกระสุนปืนขนาด 9 มม.
+T7	OBJECT 202 218	กระสุนขนาด 9 มม.
+T8	PERSON 308 316	นางเรียม
+T9	TIME 322 327	58 ปี
+T10	WEAPON 343 356	ปืนขนาด 9 มม.
+T11	PERSON 423 436	นางสาวจุฑามาศ
+T12	TIME 442 447	38 ปี
+T13	WEAPON 463 476	ปืนขนาด 9 มม.
+T14	PERSON 568 580	นายพีระพัฒน์
+T15	PERSON 586 589	แอน
+T16	TIME 595 600	37 ปี
+T17	ORGANIZATION 646 656	วัดสวนแก้ว
+T18	LOCATION 657 663	อ.ยะหา
+T19	LOCATION 664 670	จ.ยะลา
+T20	PERSON 685 698	นางสาวจุฑามาศ
+R1	employee_or_member_of Arg1:T14 Arg2:T17	
+R2	crime_relation Arg1:T14 Arg2:T11	
+R3	crime_relation Arg1:T14 Arg2:T8	
+R4	own_weapon Arg1:T14 Arg2:T10	
+R5	own_weapon Arg1:T14 Arg2:T13	
+R6	located_at Arg1:T8 Arg2:T4	
+R7	located_at Arg1:T11 Arg2:T4	
+R8	located_at Arg1:T8 Arg2:T5	
+R9	located_at Arg1:T11 Arg2:T5	
+R10	crime_located_at Arg1:T14 Arg2:T4	
+R11	crime_located_at Arg1:T14 Arg2:T5	
+R12	found_object_at Arg1:T6 Arg2:T4	
+R13	found_object_at Arg1:T6 Arg2:T5	
+R14	found_object_at Arg1:T7 Arg2:T4	
+R15	found_object_at Arg1:T7 Arg2:T5	

@@ -1,0 +1,15 @@
+T1	ORGANIZATION 36 55	ตลาดเจเจ ไนท์พลาซ่า
+T2	LOCATION 56 79	เขตเทศบาลเมืองกาญจนบุรี
+T3	VEHICLE 112 124	รถยนต์สองแถว
+T4	COLOR 124 129	สีส้ม
+R1	color_of Arg1:T3 Arg2:T4	
+T5	VEHICLE 135 148	รถจักรยานยนต์
+T6	TIME 241 249	21.00 น.
+T7	DATE 257 266	3 กรกฎาคม
+T8	LOCATION 376 403	ซอยด้านข้างสุสานสัมพันธมิตร
+T9	ORGANIZATION 440 459	ตลาดเจเจ ไนท์พลาซ่า
+T10	VEHICLE 465 486	รถจักรยานยนต์คันหนึ่ง
+T11	VEHICLE 549 560	ถยนต์สองแถว
+T12	COLOR 560 565	สีส้ม
+R2	color_of Arg1:T11 Arg2:T12	
+T13	VEHICLE 603 616	รถจักรยานยนต์

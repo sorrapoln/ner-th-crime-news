@@ -1,0 +1,48 @@
+T1	DATE 7 16	18 ต.ค.64
+T2	TIME 48 56	20.30 น.
+T3	DATE 73 82	17 ต.ค.64
+T4	LOCATION 87 101	บ้านวังพระองค์
+T5	LOCATION 102 111	อ.บ้านดุง
+T6	LOCATION 112 122	จ.อุดรธานี
+T7	PERSON 123 147	นายสมภาร เรวรรณ หรือ ทอง
+T8	LOCATION 153 158	58 ปี
+T9	LOCATION 165 179	บ้านเลขที่ 147
+T10	LOCATION 180 187	หมู่ 12
+R1	located_at Arg1:T7 Arg2:T9	
+R2	located_at Arg1:T7 Arg2:T10	
+T11	WEAPON 196 204	ปืนลูกซอ
+R3	own_weapon Arg1:T7 Arg2:T11	
+T12	PERSON 224 240	นายวัฒนา สีมาวัน
+T13	TIME 246 250	23ปี
+T14	PERSON 267 285	นายสายัณห์ เบิกบาน
+T15	TIME 291 295	23ปี
+R4	crime_relation Arg1:T7 Arg2:T14	
+T16	LOCATION 316 330	บ้านเลขที่ 132
+T17	LOCATION 331 338	หมู่ 12
+R5	crime_located_at Arg1:T7 Arg2:T16	
+R6	crime_located_at Arg1:T7 Arg2:T17	
+T18	PERSON 381 387	นายทอง
+T19	PERSON 410 426	พ.ต.อ.จามร อินดี
+T20	ORGANIZATION 431 441	สภ.บ้านดุง
+R7	employee_or_member_of Arg1:T19 Arg2:T20	
+T21	PERSON 456 479	ร.ต.ท.ณรงค์รักษ์ คชมิตร
+T22	ORGANIZATION 483 515	สว.ป้องกันและปราบปราม สภ.บ้านดุง
+R8	employee_or_member_of Arg1:T21 Arg2:T22	
+T23	PERSON 608 614	นายทอง
+T24	WEAPON 617 620	ปืน
+T25	PERSON 706 722	น.ส.อุดร ทับธานี
+T26	ORGANIZATION 734 748	บ้านวังพระองค์
+T27	TIME 779 787	20.30 น.
+T28	PERSON 895 913	นายสายัณห์ เบิกบาน
+T29	TIME 919 924	32 ปี
+T30	PERSON 937 950	นายวัฒนา สีมา
+T31	WEAPON 968 977	ปืนลูกซอง
+T32	PERSON 1001 1011	นายสายัณห์
+T33	PERSON 1051 1067	นายวัฒนา สีมาวัน
+T34	PERSON 1102 1118	นายสมภาร หรือ ทอ
+T35	WEAPON 1161 1164	ปืน
+R9	crime_date_at Arg1:T7 Arg2:T3	
+R10	crime_time_at Arg1:T7 Arg2:T2	
+R11	crime_located_at Arg1:T7 Arg2:T4	
+R12	crime_located_at Arg1:T7 Arg2:T5	
+R13	crime_located_at Arg1:T7 Arg2:T6	

@@ -1,0 +1,27 @@
+T1	DATE 8 17	21 ม.ค.65
+T2	ORGANIZATION 19 35	ศูนย์นเรนทร 1669
+T3	VEHICLE 50 54	รถไฟ
+T4	LOCATION 73 89	สถานีรถไฟเด่นชัย
+T5	LOCATION 90 99	อ.เด่นชัย
+T6	LOCATION 100 106	จ.แพร่
+T9	PERSON 251 276	ร.ต.อ.เทอดศักดิ์ ปัญญาไศย
+T10	ORGANIZATION 291 301	สภ.เด่นชัย
+T11	VEHICLE 340 344	รถไฟ
+T12	LOCATION 373 385	บ้านป๊อกแป๊ก
+T13	LOCATION 386 400	จังหวัดสระบุรี
+T14	LOCATION 414 430	จังหวัดเชียงใหม่
+T15	VEHICLE 466 479	รถจักรยานยนต์
+T16	COLOR 480 487	สีดำเทา
+T17	VEHICLE 491 495	รถไฟ
+T18	PERSON 540 546	นายชาย
+T19	TIME 551 556	63 ปี
+T20	LOCATION 564 575	ตำบลเด่นชัย
+T21	VEHICLE 595 599	รถไฟ
+T7	ORGANIZATION 143 168	สมาคมกู้ภัยเด่นชัยร่วมบุญ
+T8	ORGANIZATION 187 218	โรงพยาบาลสมเด็จพระยุพราชเด่นชัย
+R1	crime_located_at Arg1:T18 Arg2:T4	
+R2	crime_located_at Arg1:T18 Arg2:T5	
+R3	crime_located_at Arg1:T18 Arg2:T6	
+R4	crime_date_at Arg1:T18 Arg2:T1	
+R5	located_at Arg1:T18 Arg2:T20	
+R6	color_of Arg1:T15 Arg2:T16	

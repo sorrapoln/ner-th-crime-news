@@ -1,0 +1,49 @@
+T1	DATE 22 32	29 ก.ค. 64
+T2	PERSON 43 70	พ.ต.ท.พงษ์ศักดิ์ วิริยะเขษม
+T3	ORGANIZATION 83 92	สภ.ตะคร้อ
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T4	WEAPON 126 129	ปืน
+T5	LOCATION 143 157	บ้านเลขที่ 177
+T6	LOCATION 158 164	หมู่ 2
+T7	LOCATION 165 182	บ้านวังกระโดนน้อย
+T8	LOCATION 183 191	ต.ตะคร้อ
+T9	LOCATION 192 200	อ.ไพศาลี
+T10	LOCATION 201 212	จ.นครสวรรค์
+T11	LOCATION 339 355	บ้านเลขที่ 174/2
+T12	PERSON 360 376	นายทวย พุทธรักษา
+T13	PERSON 408 424	นางนิด พุทธรักษา
+T14	TIME 430 435	68 ปี
+T15	PERSON 508 522	นางมานพ แก้วคำ
+T16	TIME 528 533	47 ปี
+T17	WEAPON 561 572	ปืนขนาด .22
+T18	PERSON 624 643	นายจันทะวงษ์ แก้วคำ
+T19	TIME 649 654	47 ปี
+R2	own_weapon Arg1:T18 Arg2:T17	
+R3	crime_relation Arg1:T18 Arg2:T15	
+R4	crime_relation Arg1:T18 Arg2:T13	
+R5	crime_relation Arg1:T18 Arg2:T12	
+R6	crime_located_at Arg1:T18 Arg2:T5	
+R7	crime_located_at Arg1:T18 Arg2:T6	
+R8	crime_located_at Arg1:T18 Arg2:T7	
+R9	crime_located_at Arg1:T18 Arg2:T8	
+R10	crime_located_at Arg1:T18 Arg2:T9	
+R11	crime_located_at Arg1:T18 Arg2:T10	
+R12	located_at Arg1:T15 Arg2:T5	
+R13	located_at Arg1:T15 Arg2:T6	
+R14	located_at Arg1:T15 Arg2:T7	
+R15	located_at Arg1:T15 Arg2:T8	
+R16	located_at Arg1:T15 Arg2:T9	
+R17	located_at Arg1:T15 Arg2:T10	
+R18	located_at Arg1:T13 Arg2:T5	
+R19	located_at Arg1:T13 Arg2:T6	
+R20	located_at Arg1:T13 Arg2:T7	
+R21	located_at Arg1:T13 Arg2:T8	
+R22	located_at Arg1:T13 Arg2:T9	
+R23	located_at Arg1:T13 Arg2:T10	
+R24	located_at Arg1:T12 Arg2:T5	
+R25	located_at Arg1:T12 Arg2:T6	
+R26	located_at Arg1:T12 Arg2:T7	
+R27	located_at Arg1:T12 Arg2:T8	
+R28	located_at Arg1:T12 Arg2:T9	
+R29	located_at Arg1:T12 Arg2:T10	
+R30	crime_date_at Arg1:T18 Arg2:T1	

@@ -1,0 +1,16 @@
+T1	DATE 7 14	20 ม.ค.
+T2	TIME 20 28	04.20 น.
+T3	LOCATION 46 60	เมืองกาญจนบุรี
+T4	VEHICLE 76 78	รถ
+T5	LOCATION 98 119	หลักกิโลเมตรที่ 13-14
+T6	LOCATION 120 134	บ้านเนินพระงาม
+T7	LOCATION 135 157	ถ.สายกาญจนบุรี-บ่อพลอย
+T8	LOCATION 158 174	อ.เมืองกาญจนบุรี
+T9	VEHICLE 188 201	รถจักรยานยนต์
+T10	PERSON 288 304	นายคมสัน ผันผ่อน
+T11	TIME 310 315	21 ปี
+T12	ORGANIZATION 324 347	วิทยาลัยเทคนิคกาญจนบุรี
+R1	employee_or_member_of Arg1:T10 Arg2:T12	
+T13	VEHICLE 363 385	รถยนต์เก๋ง ฮอนด้า แจ๊ส
+T14	LP 401 424	1 กฐ 7254 กรุงเทพมหานคร
+R2	vehicle_lp Arg1:T13 Arg2:T14	

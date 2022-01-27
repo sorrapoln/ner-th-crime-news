@@ -1,0 +1,27 @@
+T1	DATE 12 24	19 พฤศจิกายน
+T2	PERSON 26 44	.ต.อ.วันชัย ชูจิตร
+T3	LOCATION 64 73	จ.นนทบุรี
+T4	VEHICLE 126 132	รถเก๋ง
+T5	LOCATION 178 184	หมู่ 1
+T6	LOCATION 185 197	ต.บางรักน้อย
+T7	LOCATION 198 205	อ.เมือง
+T8	LOCATION 206 213	จ.นนทบุ
+T9	PERSON 226 251	พล.ต.ต.ไพศาล วงศ์วัชรมงคล
+T10	PERSON 322 343	ายกิตติภูมิ ศิริวัฒน์
+T11	TIME 349 354	64 ปี
+T12	LOCATION 395 404	จ.นนทบุรี
+T13	WEAPON 439 493	อาวุธปืนบีบีกันดัดแปลงลำกล้องเหล็กเพื่อใช้กับกระสุนปืน
+T14	VEHICLE 515 528	รถเก๋งโตโยต้า
+T15	COLOR 535 547	สีบรอนซ์เงิน
+T16	LP 556 578	1ขด 2858 กรุงเทพมหานคร
+T17	PERSON 596 615	น.ส.ดนัยพร เสาวพงษ์
+T18	TIME 621 626	22 ปี
+R1	color_of Arg1:T14 Arg2:T15	
+R2	vehicle_lp Arg1:T14 Arg2:T16	
+R3	own_vehicle Arg1:T17 Arg2:T14	
+R4	crime_relation Arg1:T10 Arg2:T17	
+R5	crime_date_at Arg1:T10 Arg2:T1	
+R6	crime_located_at Arg1:T10 Arg2:T5	
+R7	crime_located_at Arg1:T10 Arg2:T6	
+R8	crime_located_at Arg1:T10 Arg2:T7	
+R9	crime_located_at Arg1:T10 Arg2:T8	

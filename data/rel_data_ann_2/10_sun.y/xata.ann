@@ -1,0 +1,24 @@
+T1	DATE 8 15	21 ม.ค.
+T2	TIME 27 35	13.00 น.
+T3	ORGANIZATION 40 50	สน.คลองตัน
+T4	PERSON 51 67	นายบุญมี จอมหงษ์
+T5	PERSON 80 88	น.ส.พลอย
+T6	TIME 105 110	27 ปี
+T7	PERSON 118 136	พ.ต.ท.กิตติ์ ยังมี
+T8	ORGANIZATION 153 163	สน.คลองตัน
+T9	PERSON 362 370	น.ส.พลอย
+T10	DATE 406 421	13 สิงหาคม 2564
+T11	LOCATION 483 491	พระราม 4
+T12	LOCATION 492 501	แขวงวัฒนา
+T13	LOCATION 502 512	เขตคลองเตย
+T14	LOCATION 513 521	กรุงเทพฯ
+T15	TIME 668 682	22.00-04.00 น.
+T16	PERSON 714 724	นายอาทิตย์
+T17	TIME 730 735	36 ปี
+T18	PERSON 753 760	นายสุธน
+T19	TIME 780 785	37 ปี
+R1	located_at Arg1:T5 Arg2:T11	
+R2	located_at Arg1:T5 Arg2:T12	
+R3	located_at Arg1:T5 Arg2:T13	
+R4	located_at Arg1:T5 Arg2:T14	
+R5	crime_time_at Arg1:T5 Arg2:T15	

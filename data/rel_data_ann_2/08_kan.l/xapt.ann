@@ -1,0 +1,13 @@
+T1	DATE 7 14	29 ธ.ค.
+T2	TIME 20 28	12.00 น.
+T3	LOCATION 68 94	บริเวณแยกหลักสี่-แจ้งวัฒนะ
+T4	VEHICLE 95 103	รถบรรทุก
+T5	COLOR 112 115	ขาว
+T6	LP 131 152	83 – 9537 สมุทรปราการ
+R1	color_of Arg1:T4 Arg2:T5	
+R2	vehicle_lp Arg1:T4 Arg2:T6	
+T7	PERSON 183 196	ส.ต.อ. อานนท์
+T8	VEHICLE 206 219	รถจักรยานยนต์
+T9	LOCATION 273 284	ถ.แจ้งวัฒนะ
+T10	VEHICLE 290 303	รถจักรยานยนต์
+R3	own_vehicle Arg1:T7 Arg2:T8	

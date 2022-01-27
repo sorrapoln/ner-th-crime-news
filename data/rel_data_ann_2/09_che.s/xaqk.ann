@@ -1,0 +1,26 @@
+T1	PERSON 29 40	น้องการ์ตูน
+T2	TIME 53 57	6 ปี
+T3	LOCATION 85 90	บางนา
+T4	LOCATION 120 129	จ.หนองคาย
+T5	PERSON 235 246	น้องการ์ตูน
+T6	TIME 252 256	6 ปี
+T7	ORGANIZATION 269 290	สถานีตำรวจนครบาลบางนา
+T8	OBJECT 365 370	เสื้อ
+T9	OBJECT 371 377	กางเกง
+T10	OBJECT 381 390	หัวกะโหลก
+T11	ORGANIZATION 427 445	สถานีรถไฟฟ้าแบริ่ง
+T12	LOCATION 450 455	บางนา
+T13	PERSON 483 494	น้องการ์ตูน
+T14	PERSON 536 544	นายหนุ่ย
+T15	LOCATION 575 589	จังหวัดหนองคาย
+T16	PERSON 660 671	น้องการ์ตูน
+T17	PERSON 681 689	นายหนุ่ย
+T18	PERSON 758 766	นายหนุ่ย
+T19	PERSON 893 904	น้องการ์ตูน
+T20	PERSON 1066 1074	นายหนุ่ย
+T21	TIME 1183 1188	15 ปี
+T22	TIME 1212 1216	3 ปี
+T23	TIME 1217 1224	8 เดือน
+T24	DATE 1253 1268	22 สิงหาคม 2555
+R1	crime_relation Arg1:T14 Arg2:T5	
+R2	located_at Arg1:T14 Arg2:T15	

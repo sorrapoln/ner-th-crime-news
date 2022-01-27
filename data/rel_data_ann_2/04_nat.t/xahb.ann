@@ -1,0 +1,16 @@
+T1	DATE 8 15	20 ม.ค.
+T2	TIME 22 30	10.00 น.
+T3	ORGANIZATION 34 49	กระทรวงยุติธรรม
+T4	PERSON 63 88	ร.ต.ธนกฤต จิตรอารีย์รัตน์
+T5	ORGANIZATION 112 127	กระทรวงยุติธรรม
+R1	employee_or_member_of Arg1:T4 Arg2:T5	
+T6	PERSON 167 186	นายอรัญ เจียไพบูลย์
+T7	ORGANIZATION 194 221	กิจการรับสร้างบ้านน็อกดาวน์
+R2	employee_or_member_of Arg1:T6 Arg2:T7	
+T8	PERSON 412 419	นายอรัญ
+T9	PERSON 621 628	นายอรัญ
+T10	PERSON 679 689	ผู้เสียหาย
+T11	PERSON 769 776	นายอรัญ
+T12	PERSON 1025 1045	นายสมศักดิ์ เทพสุทิน
+T13	ORGANIZATION 1060 1075	กระทรวงยุติธรรม
+R3	employee_or_member_of Arg1:T12 Arg2:T13	

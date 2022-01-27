@@ -1,0 +1,6 @@
+T1	OBJECT 24 33	ปืน AK 47
+T2	OBJECT 38 44	AK 102
+T3	DATE 453 466	24 เม.ย. 2564
+T4	PERSON 493 516	พล.ท.เกรียงไกร ศรีรักษ์
+T5	ORGANIZATION 543 568	รักษาความมั่นคงภายในภาค 4
+R1	employee_or_member_of Arg1:T4 Arg2:T5	

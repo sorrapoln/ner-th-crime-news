@@ -1,0 +1,44 @@
+T1	DATE 12 20	30 มิ.ย.
+T2	PERSON 21 45	พล.ต.ท.ภัคพงศ์ พงษ์เภตรา
+T3	PERSON 53 77	พล.ต.ต.จิรพัฒน์ ภูมิจิตร
+T4	PERSON 89 114	พล.ต.ต.สมประสงค์ เย็นท้วม
+T5	PERSON 125 149	พล.ต.ต.นิตินันท์ เพชรบรม
+T6	PERSON 161 179	พล.ต.ต.สำราญ นวลมา
+T7	PERSON 191 211	พล.ต.ต.โสภณ สารพัฒน์
+T8	PERSON 219 242	พล.ต.ต.ปราศรัย จิตตสนธิ
+T9	PERSON 248 272	พ.ต.อ.สุรพค์ ธรรมพิทักษ์
+T10	PERSON 283 301	พ.ต.อ.ฎวไนยเสนาวุธ
+T11	ORGANIZATION 310 324	สน ทุ่งสองห้อง
+R1	employee_or_member_of Arg1:T10 Arg2:T11	
+T12	PERSON 325 350	พ.ต.อ.สมศักดิ์ มงคลคุณากร
+T13	ORGANIZATION 355 365	สน.คลองตัน
+R2	employee_or_member_of Arg1:T12 Arg2:T13	
+T14	PERSON 370 391	พ.ต.อ.ยิ่งยศ สุวรรณโณ
+T15	ORGANIZATION 396 407	สน.ห้วยขวาง
+R3	employee_or_member_of Arg1:T14 Arg2:T15	
+T16	VEHICLE 439 452	รถจักรยานยนต์
+T17	PERSON 454 467	ดี๋ดี๋ ทำมะกา
+T18	PERSON 507 516	นายประทีป
+T19	PERSON 521 541	ดี๋ดี๋ เอี่ยมสำอางค์
+T20	TIME 547 552	37 ปี
+T21	PERSON 553 563	นายสรายุทธ
+T22	PERSON 568 580	หมู ยศอินทร์
+T23	TIME 586 591	34 ปี
+T24	PERSON 592 605	น.ส.สุธารัตน์
+T25	PERSON 610 624	เจน ล้อมจันทร์
+T26	TIME 630 635	22 ปี
+T27	PERSON 640 648	นายวิชัย
+T28	PERSON 653 666	หนู กู่ระหงษ์
+T29	TIME 672 677	46 ปี
+T30	VEHICLE 690 708	รถเก๋งฮอนด้า ชิตี้
+T32	LP 717 740	3 กย 1610 กรุงเทพมหานคร
+R4	vehicle_lp Arg1:T30 Arg2:T32	
+T31	VEHICLE 741 760	รถจยย. ฮอนด้า คลิ๊ก
+T33	COLOR 761 769	สีแดง-ดำ
+R5	color_of Arg1:T31 Arg2:T33	
+T34	LP 797 820	2 ขฮ-4424 กรุงเทพมหานคร
+R6	vehicle_lp Arg1:T31 Arg2:T34	
+T35	VEHICLE 823 844	รถ จยย.ฮอนต้า เวฟ 125
+T36	COLOR 845 853	สีแดง-ดำ
+R7	color_of Arg1:T35 Arg2:T36	
+T37	VEHICLE 910 927	รถเก๋.ฮอนด้า แจ๊ส

@@ -1,0 +1,38 @@
+T1	TIME 30 38	20.15 น.
+T2	DATE 46 60	20 มกราคม 2565
+T3	PERSON 61 88	พ.ต.ต.เกียรติศักดิ์ เกิดโชค
+T4	ORGANIZATION 97 106	สภ.ไทรโยค
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	LOCATION 176 189	บ้านท่าทุ่งนา
+T6	LOCATION 190 198	ต.ไทรโยค
+T7	LOCATION 199 207	อ.ไทรโยค
+T8	LOCATION 208 219	จ.กาญจนบุรี
+T9	PERSON 230 254	พ.ต.อ.ภุชงค์ ณรงค์อินทร์
+T10	ORGANIZATION 259 268	สภ.ไทรโยค
+R2	employee_or_member_of Arg1:T9 Arg2:T10	
+T11	ORGANIZATION 347 369	มูลนิธิกู้ภัยกาญจนบุรี
+T12	ORGANIZATION 374 394	มูลนิธิพิทักษ์กาญจน์
+T14	ORGANIZATION 395 432	หน่วยกู้ชีพกู้ภัยอุทยานแห่งชาติไทรโยค
+T13	VEHICLE 448 483	รถยนต์กระบะยี่ห้ออีซูซุ รุ่นดีแมคซ์
+T15	COLOR 484 492	สีบรอนซ์
+R3	color_of Arg1:T13 Arg2:T15	
+T16	LP 508 525	บบ-4546 กาญจนบุรี
+R4	vehicle_lp Arg1:T13 Arg2:T16	
+T17	OBJECT 651 665	กระเป๋าสัมภาระ
+T18	VEHICLE 685 699	รถบรรทุกสิบล้อ
+T19	LP 708 727	81-5575 สมุทรปราการ
+R5	vehicle_lp Arg1:T18 Arg2:T19	
+T20	VEHICLE 827 838	รถยนต์กระบะ
+T21	PERSON 842 862	นายชานนท์ ทองผาวัชระ
+T22	TIME 868 873	44 ปี
+R6	own_vehicle Arg1:T21 Arg2:T13	
+T23	LOCATION 877 891	อำเภอทองผาภูมิ
+T24	LOCATION 892 903	จ.กาญจนบุรี
+R7	located_at Arg1:T21 Arg2:T23	
+R8	located_at Arg1:T21 Arg2:T24	
+T25	LOCATION 994 1004	บ้านท่าเสา
+T26	LOCATION 1005 1013	อ.ไทรโยค
+T27	LOCATION 974 981	เมียนมา
+T28	LOCATION 1052 1066	อำเภอทองผาภูมิ
+T29	VEHICLE 1089 1095	รถพ่วง
+T30	VEHICLE 129 131	รถ

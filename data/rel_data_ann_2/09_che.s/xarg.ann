@@ -1,0 +1,26 @@
+T1	PERSON 0 18	ร.ต.ท.ธนพล บุญชื่อ
+T2	ORGANIZATION 38 47	สน.บางเขน
+T3	VEHICLE 59 69	รถบิ๊กไบก์
+T4	VEHICLE 79 88	รถเก็บขยะ
+T5	LOCATION 91 102	ถนนเทพรักษ์
+T6	LOCATION 103 130	ถนนตัดใหม่วัชระพล-สะพานใหม่
+T7	LOCATION 132 143	แขวงคลองถนน
+T8	LOCATION 144 153	เขตสายไหม
+T9	LOCATION 154 158	กทม.
+T10	ORGANIZATION 195 211	โรงพยาบาลภูมิพลฯ
+T11	LOCATION 272 286	แยกถนนพหลโยธิน
+T12	VEHICLE 325 342	รถบรรทุกขยะ 6 ล้อ
+T13	COLOR 343 350	สีเขียว
+R1	color_of Arg1:T12 Arg2:T13	
+T14	ORGANIZATION 354 371	สำนักงานเขตสายไหม
+T15	VEHICLE 391 417	จยย.บิ๊กไบค์ รุ่นนินจา 650
+T16	COLOR 418 422	สีดำ
+R2	color_of Arg1:T15 Arg2:T16	
+T17	PERSON 450 471	นายเกรียงไกร วิรัชกุล
+T18	TIME 477 482	25 ปี
+T19	OBJECT 490 503	เสื้อยืดคอกลม
+T20	COLOR 504 508	สีดำ
+T21	OBJECT 513 529	กางเกงยีนส์ขายาว
+T22	OBJECT 533 553	หมวกกันน็อกแบบเต็มใบ
+R3	own_vehicle Arg1:T17 Arg2:T15	
+R4	employee_or_member_of Arg1:T1 Arg2:T2	

@@ -1,0 +1,35 @@
+T1	DATE 8 19	14 พ.ย.2562
+T2	ORGANIZATION 21 28	ศาลอาญา
+T3	PERSON 50 72	นายอัศยา ชัยภา หรือโก้
+T4	TIME 78 83	34 ปี
+T5	WEAPON 87 96	ไม้เบสบอล
+T6	PERSON 103 132	น.ส.ธิติมา ตั้งวิบูลย์พาณิชย์
+T7	TIME 138 143	39 ปี
+T8	LOCATION 234 255	ซอยประดิษฐ์มนูธรรม 19
+T9	VEHICLE 282 299	รถยนต์ยี่ห้อเบนซ์
+T10	OBJECT 300 314	โทรศัพท์มือถือ
+T11	OBJECT 315 328	เครื่องประดับ
+T12	OBJECT 329 338	บัตรเดบิต
+T13	LOCATION 378 385	กัมพูชา
+T14	ORGANIZATION 394 401	ศาลอาญา
+T15	PERSON 411 416	จำเลย
+T16	PERSON 538 543	จำเลย
+T17	PERSON 592 597	จำเลย
+T18	TIME 479 483	3 ปี
+T19	TIME 533 537	3 ปี
+T20	TIME 667 672	33 ปี
+T21	TIME 698 702	2 ปี
+T22	TIME 752 756	2 ปี
+T23	PERSON 765 770	จำเลย
+T24	TIME 771 776	37 ปี
+T25	PERSON 805 823	นายอำนวย วิชัยโชติ
+T26	PERSON 843 848	โจทก์
+T27	PERSON 921 926	จำเลย
+T28	PERSON 982 987	จำเลย
+R1	own_vehicle Arg1:T6 Arg2:T9	
+R2	crime_relation Arg1:T3 Arg2:T6	
+R3	own_weapon Arg1:T3 Arg2:T5	
+R4	crime_located_at Arg1:T3 Arg2:T8	
+R5	found_object_at Arg1:T10 Arg2:T8	
+R6	found_object_at Arg1:T11 Arg2:T8	
+R7	found_object_at Arg1:T12 Arg2:T8	

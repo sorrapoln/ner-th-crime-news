@@ -1,0 +1,30 @@
+T1	DATE 7 16	29 ต.ค.64
+T2	PERSON 38 62	นายสุระศักดิ์ ลืนภูเขียว
+T3	LOCATION 123 133	อำเภอนาตาล
+T4	LOCATION 134 152	จังหวัดอุบลราชธานี
+T5	ORGANIZATION 297 305	สภ.นาตาล
+T6	PERSON 319 328	ผู้ต้องหา
+T7	LOCATION 368 377	ตำบลพะลาน
+T8	LOCATION 378 388	อำเภอนาตาล
+T9	LOCATION 389 407	จังหวัดอุบลราชธานี
+R1	located_at Arg1:T6 Arg2:T7	
+R2	located_at Arg1:T6 Arg2:T8	
+R3	crime_located_at Arg1:T6 Arg2:T9	
+T10	OBJECT 420 425	ยาบ้า
+T11	ORGANIZATION 576 584	สภ.นาตาล
+T12	LOCATION 585 592	จ.อุบลฯ
+T13	PERSON 731 737	นาย ม.
+T14	VEHICLE 837 850	รถจักรยานยนต์
+T15	PERSON 865 871	นาย ม.
+T16	PERSON 925 931	นาย ม.
+T17	LOCATION 945 955	อำเภอนาตาล
+T18	PERSON 1042 1047	นายม.
+T19	LOCATION 1099 1108	ตำบลพะลาน
+T20	LOCATION 1109 1119	อำเภอนาตาล
+T21	LOCATION 1120 1138	จังหวัดอุบลราชธานี
+T22	PERSON 1143 1149	นาย ม.
+T23	OBJECT 1160 1165	ยาบ้า
+R4	located_at Arg1:T18 Arg2:T19	
+R5	located_at Arg1:T18 Arg2:T20	
+R6	located_at Arg1:T18 Arg2:T21	
+R7	crime_relation Arg1:T18 Arg2:T22	

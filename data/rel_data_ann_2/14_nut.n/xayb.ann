@@ -1,0 +1,12 @@
+T1	VEHICLE 24 37	รถจักรยานยนต์
+T2	TIME 106 111	73 ปี
+T3	LOCATION 165 178	ซอยวิภาวดี 22
+T4	ORGANIZATION 195 206	สน.สุทธิสาร
+T5	PERSON 238 254	นางพรเพ็ญ แซ่หลี
+T6	COLOR 280 285	สีฟ้า
+T7	VEHICLE 325 338	รถจักรยานยนต์
+T8	COLOR 338 342	สีดำ
+R1	color_of Arg1:T7 Arg2:T8	
+T9	COLOR 354 364	สีเขียวแดง
+T10	COLOR 390 397	สีเขียว
+T11	LOCATION 506 532	ปากซอยวิภาวดีรังสิต ซอย 22

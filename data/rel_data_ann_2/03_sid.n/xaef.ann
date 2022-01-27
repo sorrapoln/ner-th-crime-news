@@ -1,0 +1,24 @@
+T1	PERSON 19 26	30 พ.ค.
+T2	TIME 33 41	21.00 น.
+T3	ORGANIZATION 56 65	สน.บางเขน
+T4	WEAPON 90 93	ปืน
+T5	LOCATION 119 133	ซอยพหลโยธิน 45
+T6	LOCATION 134 145	ถนนพหลโยธิน
+T7	LOCATION 146 156	แขวงลาดยาว
+T8	LOCATION 157 167	เขตจตุจักร
+T9	ORGANIZATION 229 249	กรมวิทยาศาสตร์ทหารบก
+T10	VEHICLE 252 278	รถยนต์โตโยต้า ฟอร์จูนเนอร์
+T11	COLOR 279 283	สีดำ
+T12	LP 292 305	8กส 5059 กทม.
+T13	OBJECT 321 333	รอยกระสุนปืน
+T14	OBJECT 394 414	ปลอกกระสุนขนาด 9 มม.
+R1	color_of Arg1:T10 Arg2:T11	
+R2	vehicle_lp Arg1:T10 Arg2:T12	
+R3	found_object_at Arg1:T13 Arg2:T5	
+R4	found_object_at Arg1:T13 Arg2:T6	
+R5	found_object_at Arg1:T13 Arg2:T7	
+R6	found_object_at Arg1:T13 Arg2:T8	
+R7	found_object_at Arg1:T14 Arg2:T5	
+R8	found_object_at Arg1:T14 Arg2:T6	
+R9	found_object_at Arg1:T14 Arg2:T7	
+R10	found_object_at Arg1:T14 Arg2:T8	

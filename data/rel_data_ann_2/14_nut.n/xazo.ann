@@ -1,0 +1,19 @@
+T1	ORGANIZATION 19 51	กองบังคับการปราบปรามการค้ามนุษย์
+T2	ORGANIZATION 0 18	ตำรวจกองกำกับการ 5
+T3	PERSON 68 84	นายสหรัฐ มีฤทธิ์
+T4	TIME 90 95	25 ปี
+T5	LOCATION 104 115	ต.เที่ยงแท้
+T6	LOCATION 116 126	อ.สรรคบุรี
+T7	LOCATION 127 135	จ.ชัยนาท
+T8	WEAPON 155 163	มีดอีโต้
+T9	ORGANIZATION 264 285	สภ.ประตูน้ำจุฬาลงกรณ์
+T10	LOCATION 322 334	จ.สุพรรณบุรี
+T11	LOCATION 382 389	เมียนมา
+T12	LOCATION 515 522	เมียนมา
+T13	PERSON 576 596	นายสมโภชน์ ยิ้มละมัย
+T14	WEAPON 772 780	มีดอีโต้
+R1	located_at Arg1:T3 Arg2:T5	
+R2	located_at Arg1:T3 Arg2:T6	
+R3	crime_located_at Arg1:T3 Arg2:T7	
+R4	own_weapon Arg1:T3 Arg2:T8	
+R5	crime_relation Arg1:T3 Arg2:T13	

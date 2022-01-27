@@ -1,0 +1,31 @@
+T1	DATE 7 20	(25 มี.ค.2564
+T2	TIME 32 39	06.00 น
+T3	PERSON 50 66	พล.ต.ท.ต่อศักดิ์
+T4	PERSON 86 106	พล.ต.ต.จิรภพ ภูริเดช
+T5	PERSON 118 140	พล.ต.ต.สุวัฒน์ แสงนุ่ม
+T6	PERSON 148 167	พ.ต.อ.เอนก เตาสุภาพ
+T7	PERSON 168 195	พ.ต.อ.พรศักดิ์ เลารุจิราลัย
+T8	PERSON 207 228	พ.ต.อ.บุญลือ ผดุงถิ่น
+T9	PERSON 241 265	พ.ต.อ.วิวัฒน์ จิตโสภากุล
+T10	PERSON 278 298	พ.ต.อ.วิจักข์ ตารมย์
+T11	LOCATION 484 491	จ.ระยอง
+T12	LOCATION 492 502	จ.จันทบุรี
+T13	LOCATION 503 511	จ.ชลบุรี
+T14	LOCATION 516 524	กรุงเทพฯ
+T15	PERSON 539 561	นายสมชาย จุติกิติ์เดชา
+T16	TIME 576 586	อายุ 56 ปี
+T17	LOCATION 809 822	เลขที่ 158/28
+T18	LOCATION 823 837	ถนนราษฎร์บำรุง
+T19	LOCATION 838 847	ต.เนินพระ
+T20	LOCATION 848 860	อ.เมืองระยอง
+T21	PERSON 1203 1211	นายสมชาย
+T22	PERSON 1215 1235	นายธนา จุติกิติ์เดชา
+T23	TIME 1241 1246	26 ปี
+R1	located_at Arg1:T22 Arg2:T17	
+R2	located_at Arg1:T22 Arg2:T18	
+R3	located_at Arg1:T22 Arg2:T19	
+R4	located_at Arg1:T22 Arg2:T20	
+R5	located_at Arg1:T15 Arg2:T17	
+R6	located_at Arg1:T15 Arg2:T18	
+R7	located_at Arg1:T15 Arg2:T19	
+R8	located_at Arg1:T15 Arg2:T20	

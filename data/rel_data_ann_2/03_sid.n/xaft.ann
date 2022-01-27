@@ -1,0 +1,22 @@
+T1	LOCATION 90 103	จังหวัดกระบี่
+T2	DATE 169 179	6 ส.ค.2558
+T3	PERSON 231 250	นายอนันต์ เพชรรัตน์
+T4	ORGANIZATION 257 284	ภาคีเครือข่ายไร้ที่ดินทำกิน
+T5	ORGANIZATION 303 317	สภ.เมืองกระบี่
+T6	ORGANIZATION 359 375	ศาลจังหวัดกระบี่
+T7	DATE 389 395	7 ส.ค.
+T8	PERSON 428 453	พ.ต.อ.สมพงษ์ ทิพย์อาภากุล
+T9	ORGANIZATION 458 472	สภ.เมืองกระบี่
+T10	ORGANIZATION 618 634	ศาลจังหวัดกระบี่
+T11	PERSON 701 710	นายอนันต์
+T12	LOCATION 747 754	อ.ชะอวด
+T13	LOCATION 755 770	จ.นครศรีธรรมราช
+T14	PERSON 777 786	นายอนันต์
+T15	DATE 879 883	2546
+T16	ORGANIZATION 913 934	สหอุตหกรรมน้ำมันปาล์ม
+T17	LOCATION 935 947	ต.กระบี่น้อย
+T18	LOCATION 948 955	อ.เมือง
+T19	LOCATION 956 964	จ.กระบี่
+T20	TIME 971 976	5 วัน
+R1	located_at Arg1:T3 Arg2:T12	
+R2	located_at Arg1:T3 Arg2:T13	

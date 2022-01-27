@@ -1,0 +1,16 @@
+T1	PERSON 12 30	นายอานุภาพ กัญญาคำ
+T2	TIME 35 40	29 ปี
+T3	ORGANIZATION 60 77	ศาลจังหวัดสระบุรี
+T4	PERSON 130 150	นายไพโรจน์ พรหมเมือง
+T5	TIME 155 160	55 ปี
+T6	LOCATION 204 210	หมู่ 9
+T7	LOCATION 211 225	ตำบลหนองปลาไหล
+T8	LOCATION 226 236	อำเภอเมือง
+T9	LOCATION 237 251	จังหวัดสระบุรี
+T10	PERSON 339 361	พลตำรวจโทอำพล บัวรับพร
+T11	DATE 621 635	18 เมษายน 2564
+R1	crime_relation Arg1:T1 Arg2:T4	
+R2	crime_located_at Arg1:T1 Arg2:T6	
+R3	crime_located_at Arg1:T1 Arg2:T7	
+R4	crime_located_at Arg1:T1 Arg2:T8	
+R5	crime_located_at Arg1:T1 Arg2:T9	

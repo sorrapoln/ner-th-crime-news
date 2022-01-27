@@ -1,0 +1,68 @@
+T1	TIME 10 18	20.00 น.
+T2	DATE 26 36	14 พ.ย. 64
+T3	PERSON 37 57	พ.ต.ท.ศิลปชัย พลอยมี
+T4	ORGANIZATION 68 79	สน.ธรรมศาลา
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	LOCATION 112 136	ซอยศาลาธรรมสพน์ 13 แยก 2
+T6	LOCATION 138 155	ซอยผู้กองอาลักษณ์
+T7	LOCATION 157 173	แขวงศาลาธรรมสพน์
+T8	LOCATION 174 185	เขตทวีวัฒนา
+T9	LOCATION 186 194	กรุงเทพฯ
+T10	PERSON 220 247	พ.ต.อ.ชาญฤทธิ์ ทรัพย์สมบัติ
+T11	ORGANIZATION 252 263	สน.ธรรมศาลา
+T12	ORGANIZATION 300 310	รพ.ศิริราช
+T13	ORGANIZATION 355 373	มูลนิธิป่อเต็กตึ๊ง
+T14	PERSON 453 471	นายสม้อย นาชัยเงิน
+T15	TIME 477 482	50 ปี
+T16	LOCATION 487 498	จ.กาฬสินธุ์
+T17	ORGANIZATION 509 538	บริษัท ประดิษธนานุรักษ์ จำกัด
+T18	WEAPON 621 624	ปืน
+T19	OBJECT 657 660	จาน
+T20	OBJECT 661 664	ชาม
+T21	OBJECT 665 671	เศษหมู
+T22	PERSON 698 717	นางนวินดา นาชัยพลอย
+T23	TIME 723 728	39 ปี
+T24	PERSON 765 775	นายธนวัฒน์
+T25	PERSON 780 792	ปิ๊ก แจ้งพูล
+T26	TIME 798 803	34 ปี
+T27	PERSON 944 954	นายธนวัฒน์
+T28	ORGANIZATION 1151 1162	สน.ธรรมศาลา
+T29	PERSON 1207 1217	นายธนวัฒน์
+T30	VEHICLE 1277 1297	รถกระบะ ยี่ห้ออีซูซุ
+T31	COLOR 1298 1309	สีบรอนซ์เทา
+T32	LP 1318 1339	ถค 6249 กรุงเทพมหานคร
+T33	WEAPON 1382 1385	ปืน
+T34	PERSON 1465 1473	นายสม้อย
+T35	WEAPON 1498 1501	ปืน
+T36	VEHICLE 1548 1567	ขับรถโตโยต้า อัลติส
+T37	COLOR 1568 1580	สีบรอนซ์เงิน
+R2	located_at Arg1:T14 Arg2:T16	
+R3	found_object_at Arg1:T19 Arg2:T5	
+R4	found_object_at Arg1:T20 Arg2:T5	
+R5	found_object_at Arg1:T21 Arg2:T5	
+R6	found_object_at Arg1:T19 Arg2:T6	
+R7	found_object_at Arg1:T19 Arg2:T7	
+R8	found_object_at Arg1:T19 Arg2:T8	
+R9	found_object_at Arg1:T19 Arg2:T9	
+R10	found_object_at Arg1:T20 Arg2:T6	
+R11	found_object_at Arg1:T20 Arg2:T7	
+R12	found_object_at Arg1:T20 Arg2:T8	
+R13	found_object_at Arg1:T20 Arg2:T9	
+R14	found_object_at Arg1:T21 Arg2:T6	
+R15	found_object_at Arg1:T21 Arg2:T7	
+R16	found_object_at Arg1:T21 Arg2:T8	
+R17	found_object_at Arg1:T21 Arg2:T9	
+R18	crime_located_at Arg1:T24 Arg2:T5	
+R19	crime_located_at Arg1:T24 Arg2:T6	
+R20	crime_located_at Arg1:T24 Arg2:T7	
+R21	crime_located_at Arg1:T24 Arg2:T8	
+R22	crime_located_at Arg1:T24 Arg2:T9	
+R23	color_of Arg1:T30 Arg2:T31	
+R24	vehicle_lp Arg1:T30 Arg2:T32	
+R25	own_vehicle Arg1:T24 Arg2:T30	
+R26	own_weapon Arg1:T24 Arg2:T33	
+R27	own_vehicle Arg1:T24 Arg2:T36	
+R28	color_of Arg1:T36 Arg2:T37	
+R29	crime_relation Arg1:T24 Arg2:T14	
+R30	employee_or_member_of Arg1:T14 Arg2:T17	
+R31	employee_or_member_of Arg1:T22 Arg2:T17	

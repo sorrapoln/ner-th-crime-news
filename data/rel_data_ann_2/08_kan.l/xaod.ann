@@ -1,0 +1,34 @@
+T1	WEAPON 44 47	ปืน
+T2	PERSON 56 75	นายชัยวัช เจริญมายุ
+T3	TIME 81 86	66 ปี
+T4	LOCATION 164 170	หมู่ 1
+T5	LOCATION 171 179	ต.ประศุก
+T6	LOCATION 180 192	อ.อินทร์บุรี
+T7	LOCATION 193 204	จ.สิงห์บุรี
+T8	TIME 210 218	20.25 น.
+T9	WEAPON 325 328	ปืน
+T10	PERSON 332 341	นายชัยวัช
+T11	VEHICLE 372 385	รถจักรยานยนต์
+T12	ORGANIZATION 506 525	โรงพยาบาลอินทร์บุรี
+T13	PERSON 535 544	นายชัยวัช
+T14	PERSON 633 654	นายธานินทร์ ศรีเพ็ชร์
+T15	TIME 660 665	48 ปี
+T16	PERSON 701 712	นายธานินทร์
+T17	WEAPON 749 752	ปืน
+T18	LOCATION 837 843	หมู่ 5
+T19	LOCATION 844 856	ต.อินทร์บุรี
+T20	LOCATION 857 869	อ.อินทร์บุรี
+T21	OBJECT 873 897	เครื่องกระสุนปืนขนาด .38
+T22	OBJECT 908 921	ปลอกกระสุนปืน
+T23	VEHICLE 949 962	รถจักรยานยนต์
+T24	WEAPON 1020 1023	ปืน
+T25	PERSON 1027 1036	นายชัยวัช
+R1	crime_relation Arg1:T14 Arg2:T2	
+R2	own_weapon Arg1:T14 Arg2:T17	
+R3	crime_located_at Arg1:T14 Arg2:T4	
+R4	crime_located_at Arg1:T14 Arg2:T5	
+R5	crime_located_at Arg1:T14 Arg2:T6	
+R6	crime_located_at Arg1:T14 Arg2:T7	
+R7	crime_time_at Arg1:T14 Arg2:T8	
+T26	VEHICLE 23 36	รถจักรยานยนต์
+R8	own_vehicle Arg1:T14 Arg2:T23	

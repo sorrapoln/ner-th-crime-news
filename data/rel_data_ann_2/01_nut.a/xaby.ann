@@ -1,0 +1,26 @@
+T1	TIME 5 13	10.30 น.
+T2	PERSON 14 38	พลตำรวจโท มนตรี ยิ้มแย้ม
+T3	PERSON 158 177	นายศรานนท์ โคตรแก้ว
+T4	TIME 183 188	23 ปี
+T5	LOCATION 192 206	จังหวัดขอนแก่น
+T6	OBJECT 212 217	ยาบ้า
+T7	VEHICLE 231 238	รถกระบะ
+T8	OBJECT 245 259	โทรศัพท์มือถือ
+T9	LOCATION 318 336	ย่านถนนกาญจนาภิเษก
+T10	LOCATION 337 345	เขตบางแค
+T11	VEHICLE 510 527	รถยนต์อเนกประสงค์
+T12	COLOR 527 531	สีดำ
+T13	LOCATION 564 577	จังหวัดนครปฐม
+T14	LOCATION 630 640	ถนนมิตรภาพ
+T15	LOCATION 641 662	พื้นที่จังหวัดสระบุรี
+R1	crime_located_at Arg1:T3 Arg2:T5	
+R2	located_at Arg1:T3 Arg2:T9	
+R3	located_at Arg1:T3 Arg2:T10	
+R4	own_vehicle Arg1:T3 Arg2:T11	
+R5	color_of Arg1:T11 Arg2:T12	
+R6	found_object_at Arg1:T6 Arg2:T9	
+R7	found_object_at Arg1:T6 Arg2:T10	
+R8	found_object_at Arg1:T8 Arg2:T9	
+R9	found_object_at Arg1:T8 Arg2:T10	
+T16	ORGANIZATION 50 71	ตำรวจปราบปรามยาเสพติด
+R10	employee_or_member_of Arg1:T2 Arg2:T16	

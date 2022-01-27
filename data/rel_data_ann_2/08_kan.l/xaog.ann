@@ -1,0 +1,15 @@
+T1	DATE 7 18	17 ก.ย.2564
+T2	PERSON 42 59	ายสุรเดช ชาญณรงค์
+T3	TIME 65 70	29 ปี
+T4	DATE 87 95	27 มิ.ย.
+T5	LOCATION 164 179	จ.นครศรีธรรมราช
+T6	LOCATION 207 213	อ.สิชล
+T7	LOCATION 214 229	จ.นครศรีธรรมราช
+T8	ORGANIZATION 259 281	ศาลจังหวัดนครรีธรรมราช
+T9	LOCATION 370 376	อ.สิชล
+T10	LOCATION 377 392	จ.นครศรีธรรมราช
+T11	WEAPON 525 532	มีดพร้า
+R1	own_weapon Arg1:T2 Arg2:T11	
+R2	crime_date_at Arg1:T2 Arg2:T4	
+R3	located_at Arg1:T2 Arg2:T9	
+R4	located_at Arg1:T2 Arg2:T10	

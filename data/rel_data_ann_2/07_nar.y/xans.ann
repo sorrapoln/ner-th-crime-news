@@ -1,0 +1,39 @@
+T1	TIME 90 98	20.00 น.
+T2	DATE 106 115	19 ม.ค.65
+T3	PERSON 116 136	ร.ต.อ.วีระ ทองอินทร์
+T4	ORGANIZATION 153 170	สภ.ลำทับ จ.กระบี่
+T5	LOCATION 199 213	บ้านเลขที่ 308
+T6	LOCATION 214 220	หมู่ 5
+T7	LOCATION 221 233	ต.ทุ่งไทรทอง
+T8	LOCATION 234 241	อ.ลำทับ
+T9	PERSON 299 315	พ.ต.อ.นิกร สมสุข
+T10	ORGANIZATION 320 328	สภ.ลำทับ
+T11	PERSON 329 351	พ.ต.ท.อรรถพร บุญยะกรณ์
+T12	ORGANIZATION 382 390	สภ.ลำทับ
+T13	ORGANIZATION 417 442	กู้ภัยมูลนิธิอัมรินทร์ใต้
+T14	PERSON 557 574	นายรณชัย ทองเถาว์
+T15	TIME 580 585	32 ปี
+T16	OBJECT 611 625	เศษขวดเหล้าขาว
+T17	WEAPON 746 766	ขวานยาวประมาณ 40 ซม.
+T18	VEHICLE 798 805	รถ จยย.
+T19	PERSON 838 860	นายณรงค์ฤทธิ์ ทองเถาว์
+T20	TIME 866 871	26 ปี
+T21	PERSON 893 906	นายณรงค์ฤทธิ์
+T22	WEAPON 1265 1272	มีดพร้า
+T23	WEAPON 1413 1417	ขวาน
+R1	crime_located_at Arg1:T19 Arg2:T5	
+R2	crime_located_at Arg1:T19 Arg2:T6	
+R3	crime_located_at Arg1:T19 Arg2:T7	
+R4	crime_located_at Arg1:T19 Arg2:T8	
+R5	crime_time_at Arg1:T19 Arg2:T1	
+R6	crime_date_at Arg1:T19 Arg2:T2	
+R7	employee_or_member_of Arg1:T3 Arg2:T4	
+R8	employee_or_member_of Arg1:T9 Arg2:T10	
+R9	employee_or_member_of Arg1:T11 Arg2:T12	
+R10	crime_relation Arg1:T19 Arg2:T14	
+R11	own_weapon Arg1:T14 Arg2:T22	
+R12	own_weapon Arg1:T19 Arg2:T17	
+R13	found_object_at Arg1:T16 Arg2:T5	
+R14	found_object_at Arg1:T16 Arg2:T6	
+R15	found_object_at Arg1:T16 Arg2:T7	
+R16	found_object_at Arg1:T16 Arg2:T8	

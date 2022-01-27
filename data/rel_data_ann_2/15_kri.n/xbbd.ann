@@ -1,0 +1,19 @@
+T1	DATE 1 9	7 ส.ค.64
+T2	ORGANIZATION 33 43	สน.บางพลัด
+T3	LOCATION 122 140	ริมถนนจรัญสนิทวงศ์
+T4	LOCATION 145 155	แยกบางพลัด
+T5	LOCATION 156 173	แขวงและเขตบางพลัด
+T6	PERSON 270 279	นายภาณุพล
+T7	TIME 285 290	34 ปี
+T8	WEAPON 379 399	ปืนพกสั้นขนาด 11 มม.
+T9	OBJECT 403 411	กระสุนตก
+T11	PERSON 422 445	นายทรัพย์สิน อายุ 37 ปี
+R1	own_weapon Arg1:T11 Arg2:T8	
+R2	crime_relation Arg1:T11 Arg2:T6	
+R3	found_object_at Arg1:T9 Arg2:T3	
+R4	found_object_at Arg1:T9 Arg2:T4	
+R5	found_object_at Arg1:T9 Arg2:T5	
+R6	crime_located_at Arg1:T11 Arg2:T3	
+R7	crime_located_at Arg1:T11 Arg2:T4	
+R8	crime_located_at Arg1:T11 Arg2:T5	
+R9	crime_date_at Arg1:T11 Arg2:T1	

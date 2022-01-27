@@ -1,0 +1,50 @@
+T1	DATE 12 21	2 ก.ค. 64
+T2	TIME 33 41	12.00 น.
+T3	PERSON 42 69	พ.ต.อ.จารุวัฒน์ สุริยาทิพย์
+T4	ORGANIZATION 74 86	สภ.บ้านเดื่อ
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	LOCATION 87 104	อำเภอเกษตรสมบูรณ์
+T6	LOCATION 105 119	จังหวัดชัยภูมิ
+T7	ORGANIZATION 134 154	สภ.อำเภอเกษตรสมบูรณ์
+T8	ORGANIZATION 189 209	สภ.อำเภอเกษตรสมบูรณ์
+T9	LOCATION 272 281	บ้านจมื่น
+T10	LOCATION 282 295	ตำบลบ้านเดื่อ
+T11	LOCATION 296 313	อำเภอเกษตรสมบูรณ์
+T12	LOCATION 314 328	จังหวัดชัยภูมิ
+T13	LOCATION 451 460	บ้านจมื่น
+T14	LOCATION 461 464	ม.1
+T15	LOCATION 465 474	ต.บ้านยาง
+T16	LOCATION 475 489	อ.เกษตรสมบูรณ์
+T17	LOCATION 490 499	จ.ชัยภูมิ
+T18	PERSON 540 560	นายสายชล พาลีเปรี่ยม
+T19	TIME 566 571	36 ปี
+T20	LOCATION 577 589	บ้านโนนมะเยา
+T21	LOCATION 590 593	ม.9
+T22	LOCATION 594 605	ต.สระโพนทอง
+T23	PERSON 630 651	นางวันเพ็ญ เขียนเขว้า
+T24	TIME 657 662	50 ปี
+T25	PERSON 672 694	นายสมศักดิ์ เขียนเขว้า
+T26	TIME 700 705	50 ปี
+T27	PERSON 706 726	นางสุนิสา เขียนเขว้า
+T28	TIME 732 736	30ปี
+T29	PERSON 746 762	นายอดุล วรรณจงคำ
+T30	TIME 768 773	30 ปี
+T31	WEAPON 793 811	ปืนพกสั้นขนาด 9 มม
+T32	PERSON 835 855	นายสายชล พาลีเปรี่ยม
+T33	LOCATION 888 900	วัดบ้านจมื่น
+T34	LOCATION 901 912	ต.บ้านเดื่อ
+R2	crime_relation Arg1:T18 Arg2:T23	
+R3	crime_relation Arg1:T18 Arg2:T25	
+R4	crime_relation Arg1:T18 Arg2:T27	
+R5	crime_relation Arg1:T18 Arg2:T29	
+R6	own_weapon Arg1:T18 Arg2:T31	
+R7	located_at Arg1:T18 Arg2:T20	
+R8	located_at Arg1:T18 Arg2:T21	
+R9	located_at Arg1:T18 Arg2:T22	
+R10	crime_located_at Arg1:T18 Arg2:T13	
+R11	crime_located_at Arg1:T18 Arg2:T14	
+R12	crime_located_at Arg1:T18 Arg2:T15	
+R13	crime_located_at Arg1:T18 Arg2:T16	
+R14	crime_located_at Arg1:T18 Arg2:T17	
+R15	crime_date_at Arg1:T18 Arg2:T1	
+R16	crime_time_at Arg1:T18 Arg2:T2	

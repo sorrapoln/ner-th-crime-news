@@ -1,0 +1,39 @@
+T1	DATE 7 19	10 ก.ย. 2562
+T2	TIME 25 33	19.00 น.
+T3	ORGANIZATION 61 78	สภ.เมืองสิงห์บุรี
+T4	WEAPON 104 107	ปืน
+T5	LOCATION 156 164	ต.หัวไผ่
+T6	LOCATION 165 172	อ.เมือง
+T7	LOCATION 173 184	จ.สิงห์บุรี
+T8	ORGANIZATION 230 256	มูลนิธิร่วมกตัญญูสิงห์บุรี
+T9	PERSON 355 367	น.ส.ศิริวรรณ
+T10	TIME 373 378	28 ปี
+T11	WEAPON 402 405	ปืน
+T12	PERSON 483 489	นายมณู
+T13	TIME 495 500	51 ปี
+T14	PERSON 512 524	น.ส.ศิริวรรณ
+T15	WEAPON 540 543	ปืน
+T16	PERSON 589 595	นายมณู
+T17	PERSON 654 662	นายฐาปกร
+T18	TIME 668 673	28 ปี
+T19	PERSON 683 695	น.ส.ศิริวรรณ
+T20	PERSON 705 711	นายมณู
+T21	PERSON 726 734	นายฐาปกร
+T22	PERSON 748 760	น.ส.ศิริวรรณ
+T23	PERSON 817 829	น.ส.ศิริวรรณ
+T24	LOCATION 846 855	จ.นนทบุรี
+R1	crime_date_at Arg1:T17 Arg2:T1	
+R2	crime_time_at Arg1:T17 Arg2:T2	
+R3	own_weapon Arg1:T17 Arg2:T4	
+R4	own_weapon Arg1:T17 Arg2:T11	
+R5	crime_relation Arg1:T17 Arg2:T9	
+R6	crime_relation Arg1:T17 Arg2:T14	
+R7	crime_relation Arg1:T17 Arg2:T16	
+R8	crime_relation Arg1:T17 Arg2:T19	
+R9	crime_relation Arg1:T17 Arg2:T20	
+R10	crime_relation Arg1:T21 Arg2:T22	
+R11	crime_relation Arg1:T21 Arg2:T23	
+R12	own_weapon Arg1:T17 Arg2:T15	
+R13	crime_located_at Arg1:T17 Arg2:T5	
+R14	crime_located_at Arg1:T17 Arg2:T6	
+R15	crime_located_at Arg1:T17 Arg2:T7	

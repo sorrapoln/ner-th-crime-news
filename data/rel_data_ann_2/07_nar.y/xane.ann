@@ -1,0 +1,21 @@
+T1	DATE 8 19	23 พ.ย.2564
+T2	PERSON 21 39	พ.อ.ชาตรี สงวนธรรม
+T3	PERSON 70 86	นายดนุชา ไชยวงศ์
+T4	PERSON 128 145	นายรณรงค์ คิดอ่าน
+T5	PERSON 381 388	22 พ.ย.
+T6	OBJECT 407 412	ยาบ้า
+T7	LOCATION 245 257	ต.แม่ฟ้าหลวง
+T8	LOCATION 258 270	อ.แม่ฟ้าหลวง
+T9	LOCATION 271 281	จ.เชียงราย
+T10	LOCATION 236 244	บ้านลิเซ
+T11	LOCATION 576 591	จังหวัดเชียงราย
+T12	LOCATION 961 968	เมียนมา
+T13	LOCATION 808 815	เมียนมา
+T14	WEAPON 715 718	ปืน
+T15	LOCATION 1158 1165	เมียนมา
+T16	LOCATION 1184 1187	ลาว
+T17	LOCATION 1205 1208	ไทย
+R1	found_object_at Arg1:T6 Arg2:T10	
+R2	found_object_at Arg1:T6 Arg2:T7	
+R3	found_object_at Arg1:T6 Arg2:T8	
+R4	found_object_at Arg1:T6 Arg2:T9	

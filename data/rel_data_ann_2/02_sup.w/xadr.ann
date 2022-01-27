@@ -1,0 +1,28 @@
+T1	DATE 8 18	6 ส.ค.2564
+T2	LOCATION 40 44	สวิส
+T3	LOCATION 60 77	ธารน้ำตกโตนอ่าวยน
+T4	LOCATION 78 85	อ.เมือง
+T5	LOCATION 86 94	จ.ภูเก็ต
+T6	DATE 110 116	3 ส.ค.
+T7	TIME 122 130	11.25 น.
+T8	PERSON 131 155	น.ส.นิโคล ซาเว่น ไวครอป์
+T9	ORGANIZATION 204 230	โรงเเรม The Mooring Resort
+T10	LOCATION 231 238	ต.วิชิต
+T11	LOCATION 239 252	อ.เมืองภูเก็ต
+T12	LOCATION 275 286	น้ำตกอ่าวยน
+T13	PERSON 353 362	น.ส.นิโคล
+T14	PERSON 516 525	น.ส.นิโคล
+T15	PERSON 925 950	พล.ต.อ.สุวัฒน์ แจ้งยอดสุข
+T16	ORGANIZATION 962 975	ตำรวจแห่งชาติ
+R1	employee_or_member_of Arg1:T15 Arg2:T16	
+T17	PERSON 1186 1195	น.ส.นิโคล
+T18	LOCATION 1212 1220	จ.ภูเก็ต
+T19	DATE 1269 1276	13 ก.ค.
+T20	ORGANIZATION 1300 1325	โรงแรมดุสิต ลากูน่าภูเก็ต
+T21	DATE 1340 1347	27 ก.ค.
+T22	DATE 1373 1380	31 ก.ค.
+T23	ORGANIZATION 1395 1413	The Mooring Resort
+T24	DATE 1439 1445	7 ส.ค.
+T25	DATE 1475 1482	26 ส.ค.
+T26	PERSON 1535 1544	น.ส.นิโคล
+R2	located_at Arg1:T8 Arg2:T2	

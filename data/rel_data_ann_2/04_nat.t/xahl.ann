@@ -1,0 +1,22 @@
+T1	TIME 21 26	49 ปี
+T2	PERSON 42 59	นายวิรุตต์ ศรีสุข
+T3	LOCATION 122 125	ม.2
+T4	LOCATION 126 136	ต.ลำผักกูด
+T5	LOCATION 137 146	อ.ธัญบุรี
+T6	LOCATION 147 157	จ.ปทุมธานี
+T7	PERSON 170 191	พ.ต.อ.สมศักดิ์ นิเต็ม
+T8	ORGANIZATION 196 206	สภ.ธัญบุรี
+R1	employee_or_member_of Arg1:T7 Arg2:T8	
+T9	PERSON 286 296	นายวิรุตต์
+T10	PERSON 7 15	นายลิขิต
+R2	crime_relation Arg1:T2 Arg2:T10	
+R3	crime_located_at Arg1:T2 Arg2:T3	
+R4	crime_located_at Arg1:T2 Arg2:T4	
+R5	crime_located_at Arg1:T2 Arg2:T5	
+R6	crime_located_at Arg1:T2 Arg2:T6	
+T11	OBJECT 330 341	กลองวงจรปิด
+T12	LOCATION 351 371	หมู่บ้านเออาทรคลอง 9
+T13	VEHICLE 396 409	รถจักรยานยนต์
+T14	COLOR 409 422	สีน้ำเงิน ขาว
+R7	color_of Arg1:T13 Arg2:T14	
+T15	VEHICLE 500 514	รถจักรยานยนต์ม

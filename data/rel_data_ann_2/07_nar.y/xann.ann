@@ -1,0 +1,10 @@
+T1	VEHICLE 37 51	แท็กซี่โตโยต้า
+T2	COLOR 52 60	สีเหลือง
+T3	LP 69 90	ทษ 2165 กรุงเทพมหานคร
+T4	ORGANIZATION 94 118	สหกรณ์แท็กซี่ราษฎร์บูรณะ
+T5	COLOR 137 142	สีฟ้า
+T6	COLOR 157 165	สีน้ำตาล
+T7	PERSON 316 340	นายทองสุข โรจน์รุ่งรัตน์
+R1	own_vehicle Arg1:T7 Arg2:T1	
+R2	color_of Arg1:T1 Arg2:T2	
+R3	vehicle_lp Arg1:T1 Arg2:T3	

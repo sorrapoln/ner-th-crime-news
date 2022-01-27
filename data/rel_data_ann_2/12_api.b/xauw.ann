@@ -1,0 +1,20 @@
+T1	ORGANIZATION 6 13	สภ.คูคต
+T2	LOCATION 66 78	อำเภอลำลูกกา
+T3	LOCATION 54 65	ตำบลลาดสวาย
+T4	LOCATION 79 94	จังหวัดปทุมธานี
+T5	PERSON 130 150	นายวรพงษ์ พินทุวัฒน์
+T6	TIME 156 161	46 ปี
+T7	PERSON 239 257	นายธานินทร์ ชลิงสุ
+T8	TIME 263 268	49 ปี
+T9	PERSON 286 295	นายวรพงษ์
+T10	PERSON 419 439	นายวรินทร แก้วชิงดวง
+T11	TIME 445 450	31 ปี
+T12	WEAPON 530 541	ปืนขนาด .38
+T13	WEAPON 559 566	9 มิลลิ
+R1	own_weapon Arg1:T10 Arg2:T12	
+R2	own_weapon Arg1:T10 Arg2:T13	
+R3	crime_relation Arg1:T10 Arg2:T7	
+R4	crime_relation Arg1:T10 Arg2:T5	
+R5	crime_located_at Arg1:T10 Arg2:T3	
+R6	crime_located_at Arg1:T10 Arg2:T2	
+R7	crime_located_at Arg1:T10 Arg2:T4	

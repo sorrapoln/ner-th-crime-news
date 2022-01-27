@@ -1,0 +1,38 @@
+T1	DATE 7 18	23 ม.ค.2565
+T2	PERSON 19 46	พ.ต.ท.วุฒิ วรรณะ สารวัตรเวร
+T3	ORGANIZATION 47 58	สภ.ศรีบรรพต
+T4	DATE 92 99	22 ม.ค.
+T5	LOCATION 163 171	ต.เขาปู่
+T6	LOCATION 172 182	อ.ศรีบรรพต
+T7	LOCATION 183 191	จ.พัทลุง
+T8	PERSON 224 244	พ.ต.อ.ทิวากร คงเพ็ชร
+T9	PERSON 262 285	พ.ต.ท.นิวัฒน์ หมั่นสกุล
+T10	ORGANIZATION 319 339	มูลนิธิพัทลุงการกุศล
+T11	LOCATION 423 446	ริมถนนสายควนขนุน-เขาปู่
+T12	OBJECT 492 505	ปลอกกระสุนปืน
+T13	PERSON 623 634	นายสมศักดิ์
+T14	TIME 656 661	69 ปี
+T15	PERSON 862 873	น.ส.เตือนใจ
+T16	TIME 895 900	52 ปี
+T17	PERSON 994 1005	นายพีรพัฒน์
+T18	TIME 1027 1032	41 ปี
+T19	VEHICLE 1060 1081	รถกระบะ ยี่ห้อโตโยต้า
+T20	COLOR 1084 1086	ดำ
+T21	LP 1095 1108	กจ9987 พัทลุง
+T22	PERSON 1147 1158	นายพีรพัฒน์
+T23	PERSON 1188 1202	น.ส.อุรไรรัตน์
+T24	TIME 1224 1229	25 ปี
+T25	DATE 1356 1365	เม.ย.2564
+T26	PERSON 1391 1402	นายพีรพัฒน์
+T27	PERSON 1479 1490	นายพีรพัฒน์
+T28	WEAPON 1568 1571	ปืน
+R1	crime_relation Arg1:T17 Arg2:T13	
+R2	own_vehicle Arg1:T17 Arg2:T19	
+R3	color_of Arg1:T19 Arg2:T20	
+R4	vehicle_lp Arg1:T19 Arg2:T21	
+R5	crime_relation Arg1:T17 Arg2:T15	
+R6	own_weapon Arg1:T17 Arg2:T28	
+R8	crime_date_at Arg1:T17 Arg2:T4	
+R7	crime_located_at Arg1:T17 Arg2:T5	
+R9	crime_located_at Arg1:T17 Arg2:T6	
+R10	crime_located_at Arg1:T17 Arg2:T7	

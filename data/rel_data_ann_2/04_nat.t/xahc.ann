@@ -1,0 +1,12 @@
+T1	VEHICLE 213 220	รถกระบะ
+T2	ORGANIZATION 283 296	สภ.เมืองระยอง
+T3	PERSON 320 342	นายชูเกียรติ สมานศิลป์
+T4	TIME 348 353	66 ปี
+T5	ORGANIZATION 361 400	บริษัทรถพ่วงบรรทุกสินค้าไปส่งที่ท่าเรือ
+R1	employee_or_member_of Arg1:T3 Arg2:T5	
+T6	LOCATION 410 425	อำเภอเมืองระยอง
+T7	LOCATION 426 438	จังหวัดระยอง
+T8	PERSON 441 462	นายรุ่งโรจน์ ตันทะคูณ
+T9	TIME 468 473	38 ปี
+T10	VEHICLE 484 490	รถพ่วง
+T11	VEHICLE 515 521	รถพ่วง

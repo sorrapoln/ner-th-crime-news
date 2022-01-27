@@ -1,0 +1,20 @@
+T1	PERSON 8 15	นายช้าง
+T2	TIME 37 42	48 ปี
+T3	LOCATION 57 68	บ้านตามั๊วะ
+T4	LOCATION 69 78	ต.บ้านยาง
+T5	LOCATION 79 86	อ.เมือง
+T6	LOCATION 87 98	จ.บุรีรัมย์
+T7	DATE 290 300	8 ต.ค.2564
+T8	DATE 341 346	7 ต.ค
+T9	ORGANIZATION 363 380	สภ.เมืองบุรีรัมย์
+T10	PERSON 399 406	นายช้าง
+T11	LOCATION 425 432	อ.เมือง
+T12	LOCATION 456 465	ต.บ้านยาง
+T13	PERSON 519 540	ร.ต.ท.บุญช่วย ชำรัมย์
+T14	LOCATION 567 576	ต.บ้านยาง
+T15	PERSON 669 676	นายช้าง
+R1	located_at Arg1:T1 Arg2:T3	
+R2	located_at Arg1:T1 Arg2:T4	
+R3	located_at Arg1:T1 Arg2:T5	
+R4	located_at Arg1:T1 Arg2:T6	
+R5	crime_date_at Arg1:T1 Arg2:T7	

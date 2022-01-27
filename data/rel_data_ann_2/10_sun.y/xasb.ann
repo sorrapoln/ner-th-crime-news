@@ -1,0 +1,52 @@
+T1	TIME 10 18	14.00 น.
+T2	DATE 25 39	22 ตุลาคม 2564
+T3	PERSON 40 60	ร.ต.อ.ชลพรรษ ขวัญศรี
+T4	ORGANIZATION 75 95	สถานีตำรวจภูธรจักราช
+T5	LOCATION 96 118	จังหวัดพระนครศรีอยุธยา
+T6	LOCATION 159 168	หมู่ที่ 7
+T7	LOCATION 169 177	ตำบลนาคู
+T8	LOCATION 178 189	อำเภอผักไห่
+T9	LOCATION 190 212	จังหวัดพระนครศรีอยุธยา
+T10	ORGANIZATION 256 271	โรงพยาบาลผักไห่
+T11	ORGANIZATION 291 308	มูลนิธิร่วมกตัญญู
+T12	LOCATION 330 340	โต๊ะม้าหิน
+T13	LOCATION 345 360	บ้านเลขที่ 29/1
+T14	LOCATION 361 370	หมู่ที่ 7
+T15	LOCATION 371 379	ตำบลนาคู
+T16	LOCATION 380 391	อำเภอผักไห่
+T17	LOCATION 392 414	จังหวัดพระนครศรีอยุธยา
+T18	PERSON 422 439	นายสุรชัย ปิติคาม
+T19	TIME 445 450	45 ปี
+T20	WEAPON 572 575	มีด
+T21	OBJECT 662 676	เหล้าขาว 1 ขวด
+T22	OBJECT 680 698	แก้วเป๊กจำนวน 2 ใบ
+T23	PERSON 758 774	นายทองดี ปิติคาม
+T24	TIME 780 785	70 ปี
+R1	crime_relation Arg1:T23 Arg2:T18	
+R2	own_weapon Arg1:T23 Arg2:T20	
+R3	crime_located_at Arg1:T23 Arg2:T6	
+R4	crime_located_at Arg1:T23 Arg2:T7	
+R5	crime_located_at Arg1:T23 Arg2:T8	
+R6	crime_located_at Arg1:T23 Arg2:T9	
+R7	located_at Arg1:T23 Arg2:T13	
+R8	crime_located_at Arg1:T23 Arg2:T12	
+R9	located_at Arg1:T23 Arg2:T14	
+R10	located_at Arg1:T23 Arg2:T15	
+R11	located_at Arg1:T23 Arg2:T17	
+R12	crime_time_at Arg1:T23 Arg2:T1	
+R13	crime_date_at Arg1:T23 Arg2:T2	
+T25	TIME 943 950	7.00 น.
+T26	PERSON 965 974	นายสุรชัย
+T27	PERSON 991 999	นายทองดี
+T28	PERSON 1027 1035	นายสมนึก
+T29	WEAPON 1209 1212	มีด
+R14	own_weapon Arg1:T23 Arg2:T29	
+T30	PERSON 1457 1465	นายทองดี
+R15	found_object_at Arg1:T21 Arg2:T12	
+R16	found_object_at Arg1:T21 Arg2:T13	
+R17	found_object_at Arg1:T21 Arg2:T14	
+R18	found_object_at Arg1:T21 Arg2:T15	
+R19	found_object_at Arg1:T21 Arg2:T16	
+R20	found_object_at Arg1:T21 Arg2:T17	
+R21	located_at Arg1:T23 Arg2:T16	
+R22	employee_or_member_of Arg1:T3 Arg2:T4	

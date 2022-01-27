@@ -1,0 +1,31 @@
+T1	LOCATION 42 52	ตำบลเขาพนม
+T2	LOCATION 53 64	อำเภอเขาพนม
+T3	LOCATION 65 78	จังหวัดกระบี่
+T4	ORGANIZATION 85 94	สภ.เขาพนม
+T5	PERSON 199 217	นายสุธรรม เสือแก้ว
+T6	TIME 223 228	40 ปี
+T7	OBJECT 265 274	กระสุนปืน
+T8	WEAPON 311 322	มีดปลายแหลม
+T9	WEAPON 331 335	ขวาน
+T10	OBJECT 344 357	ปลอกกระสุนปืน
+T11	OBJECT 373 379	กระสุน
+T12	WEAPON 455 459	ขวาน
+T13	PERSON 561 581	นายไทยมิตร รุ่งเรือง
+R1	crime_relation Arg1:T13 Arg2:T5	
+T14	TIME 587 592	45 ปี
+T15	ORGANIZATION 615 624	สภ.เขาพนม
+T16	PERSON 727 736	นายสุธรรม
+T17	PERSON 773 782	นายสุธรรม
+T18	PERSON 861 870	นายสุธรรม
+T19	WEAPON 886 889	มีด
+T20	WEAPON 892 896	ขวาน
+T21	WEAPON 957 960	ปืน
+T22	PERSON 986 995	นายสุธรรม
+R2	own_weapon Arg1:T13 Arg2:T8	
+R3	own_weapon Arg1:T13 Arg2:T9	
+R4	own_weapon Arg1:T13 Arg2:T12	
+R5	own_weapon Arg1:T18 Arg2:T19	
+R6	own_weapon Arg1:T18 Arg2:T20	
+R7	crime_located_at Arg1:T13 Arg2:T1	
+R8	crime_located_at Arg1:T13 Arg2:T2	
+R9	crime_located_at Arg1:T13 Arg2:T3	

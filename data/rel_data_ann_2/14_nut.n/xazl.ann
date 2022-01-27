@@ -1,0 +1,28 @@
+T1	TIME 5 13	23.00 น.
+T2	DATE 21 30	30 ส.ค.64
+T3	PERSON 31 57	ร.ต.อ.นิพนธ์ ประเสริฐสังข์
+T4	ORGANIZATION 75 85	สภ.หนองพอก
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	WEAPON 119 122	มีด
+T6	LOCATION 126 140	บ้านเลขที่ 141
+T7	LOCATION 141 147	หมู่ 4
+T8	LOCATION 148 157	ต.หนองพอก
+T9	LOCATION 158 167	อ.หนองพอก
+T10	LOCATION 168 178	จ.ร้อยเอ็ด
+T11	ORGANIZATION 207 233	อาสาสมัครกู้ภัยอโสกหนองพอก
+T12	OBJECT 347 362	อาวุธมีปลายแหลม
+R2	found_object_at Arg1:T12 Arg2:T6	
+R3	found_object_at Arg1:T12 Arg2:T7	
+R4	found_object_at Arg1:T12 Arg2:T8	
+R5	found_object_at Arg1:T12 Arg2:T9	
+R6	found_object_at Arg1:T12 Arg2:T10	
+T13	PERSON 418 432	นางทองอร ทองใบ
+T14	TIME 438 443	51 ปี
+T15	ORGANIZATION 492 508	โรงพยาบาลหนองพอก
+T16	PERSON 568 589	นายดุลยวัตร เหมือนทอง
+T17	TIME 595 600	24 ปี
+R7	crime_relation Arg1:T16 Arg2:T13	
+R8	crime_located_at Arg1:T16 Arg2:T6	
+R9	crime_located_at Arg1:T16 Arg2:T8	
+R10	crime_located_at Arg1:T16 Arg2:T9	
+R11	crime_located_at Arg1:T16 Arg2:T10	

@@ -1,0 +1,24 @@
+T1	DATE 12 24	23 ม.ค. 2565
+T2	PERSON 25 44	ร.ต.อ.นิพล บุตรสง่า
+T3	ORGANIZATION 59 69	สภ.คลองห้า
+T4	LOCATION 70 80	จ.ปทุมธานี
+T5	VEHICLE 183 187	จยย.
+T6	WEAPON 196 199	ปืน
+T7	PERSON 220 244	นายธีรพงศ์พันธุ์ ฉิมคราม
+T8	TIME 250 255	56 ปี
+T9	WEAPON 432 435	ปืน
+T10	PERSON 585 605	น.ส.สิริขวัญ ฉิมคราม
+T11	TIME 611 616	22 ปี
+T12	TIME 650 658	07.00 น.
+T13	WEAPON 710 713	ปืน
+T14	WEAPON 747 750	ปืน
+T15	VEHICLE 792 796	จยย.
+T16	VEHICLE 913 930	รถจยย. ฮอนด้า เวฟ
+T17	COLOR 930 937	สีดำแดง
+R1	color_of Arg1:T16 Arg2:T17	
+T18	COLOR 997 1003	สีชมพู
+T19	VEHICLE 1052 1056	จยย.
+T20	LOCATION 1064 1077	คลองระพีพัฒน์
+T21	WEAPON 1135 1138	ปืน
+R2	employee_or_member_of Arg1:T2 Arg2:T3	
+R3	located_at Arg1:T3 Arg2:T4	

@@ -1,0 +1,50 @@
+T1	DATE 7 16	18 ต.ค.64
+T2	PERSON 41 61	พล.ต.ท.จิรภพ ภูริเดช
+T3	PERSON 70 89	พล.ต.ต.มนตรี เทศขัน
+T4	PERSON 108 135	พ.ต.อ.พรศักดิ์ เลารุจิราลัย
+T5	PERSON 148 172	พ.ต.อ.วิระชาญ ขุนไชยแก้ว
+T6	PERSON 186 208	พ.ต.ท.วาทิต จิตรจันทึก
+T7	PERSON 289 299	นายสุรชาติ
+T8	TIME 321 326	65 ปี
+T9	DATE 387 399	21 มิ.ย.2550
+T10	PERSON 469 479	นายสุรชาติ
+T11	PERSON 506 512	ด.ญ.เอ
+T12	TIME 529 534	14 ปี
+T13	LOCATION 608 617	จ.หนองคาย
+T14	TIME 674 683	6-7 เดือน
+T15	PERSON 751 757	ด.ญ.เอ
+T16	LOCATION 793 797	กทม.
+T17	PERSON 810 820	นายสุรชาติ
+T18	PERSON 829 835	ด.ญ.เอ
+T19	LOCATION 865 874	จ.หนองคาย
+T20	PERSON 930 936	ด.ญ.เอ
+T21	PERSON 970 976	ด.ญ.เอ
+T22	PERSON 1042 1052	นายสุรชาติ
+T23	ORGANIZATION 1139 1149	สน.หนองแขม
+T24	PERSON 1217 1223	ด.ญ.เอ
+T25	ORGANIZATION 1237 1248	ร.พ.ศิริราช
+T26	TIME 1269 1276	7 เดือน
+T27	PERSON 1335 1345	นายสุรชาติ
+T28	PERSON 1405 1415	นายสุรชาติ
+T29	PERSON 1497 1507	นายสุรชาติ
+T30	PERSON 1519 1529	นายสุรชาติ
+T31	LOCATION 1617 1627	อ.ภูกระดึง
+T32	LOCATION 1628 1633	จ.เลย
+T33	LOCATION 1666 1674	ต.ส้มใต้
+T34	TIME 1725 1730	14 ปี
+T35	ORGANIZATION 1930 1940	สน.หนองแขม
+R1	crime_relation Arg1:T10 Arg2:T11	
+R2	located_at Arg1:T11 Arg2:T16	
+T36	WEAPON 950 959	ยาฆ่าแมลง
+R3	own_weapon Arg1:T10 Arg2:T36	
+R4	located_at Arg1:T10 Arg2:T31	
+R5	located_at Arg1:T10 Arg2:T32	
+R6	located_at Arg1:T10 Arg2:T33	
+R7	crime_located_at Arg1:T10 Arg2:T16	
+T37	ORGANIZATION 20 40	กองบังคับการปราบปราม
+R8	employee_or_member_of Arg1:T2 Arg2:T37	
+R9	employee_or_member_of Arg1:T3 Arg2:T37	
+R10	employee_or_member_of Arg1:T4 Arg2:T37	
+R11	employee_or_member_of Arg1:T5 Arg2:T37	
+R12	employee_or_member_of Arg1:T6 Arg2:T37	
+R13	employee_or_member_of Arg1:T7 Arg2:T37	

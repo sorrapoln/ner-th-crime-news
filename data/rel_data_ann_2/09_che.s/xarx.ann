@@ -1,0 +1,21 @@
+T1	DATE 7 18	29 ต.ค.2564
+T2	PERSON 61 66	โจทย์
+T3	PERSON 75 96	นายธนภัทร ชนะกุลพิศาล
+T4	PERSON 102 108	ทอยทอย
+T5	TIME 114 119	21 ปี
+T6	PERSON 284 289	จำเลย
+T7	ORGANIZATION 292 311	เรือนจำพิเศษมีนบุรี
+T8	DATE 337 342	1พ.ย.
+T9	DATE 400 406	6 ส.ค.
+T10	PERSON 419 425	จําเลย
+T11	WEAPON 428 431	มีด
+T12	PERSON 493 514	น.ส.ชัชสรัญ สุวรรณกิจ
+T13	PERSON 600 611	น.ส.ชัชสรัญ
+T14	LOCATION 637 647	แขวงบางชัน
+T15	LOCATION 648 660	เขตคลองสามวา
+T16	DATE 1046 1052	7 ส.ค.
+R1	own_weapon Arg1:T3 Arg2:T11	
+R2	crime_relation Arg1:T3 Arg2:T12	
+R3	crime_located_at Arg1:T3 Arg2:T14	
+R4	crime_located_at Arg1:T3 Arg2:T15	
+R5	crime_date_at Arg1:T3 Arg2:T9	

@@ -1,0 +1,12 @@
+T1	LOCATION 48 67	จังหวัดสุราษฎร์ธานี
+T2	PERSON 92 103	นายศุภวัฒน์
+T3	TIME 109 114	27 ปี
+T4	ORGANIZATION 163 174	สภ.เวียงสระ
+T5	LOCATION 175 185	อ.เวียงสระ
+T6	LOCATION 186 200	จ.สุราษฎร์ธานี
+T7	PERSON 244 253	นางสายบัว
+T8	TIME 259 264	46 ปี
+T9	PERSON 271 282	นายศุภวัฒน์
+T10	PERSON 302 310	นางพรนภา
+R1	crime_relation Arg1:T2 Arg2:T10	
+T11	PERSON 366 377	นายศุภวัฒน์

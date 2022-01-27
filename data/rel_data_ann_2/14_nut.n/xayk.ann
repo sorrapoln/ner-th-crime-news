@@ -1,0 +1,59 @@
+T2	ORGANIZATION 39 50	อบจ.สระแก้ว
+T3	VEHICLE 61 63	รถ
+T4	TIME 95 103	01.30 น.
+T5	DATE 111 118	20 ม.ค.
+T6	PERSON 119 141	พ.ต.ท. สิทธิชัย โทนผุย
+T7	ORGANIZATION 159 170	สภ.วัฒนานคร
+R1	employee_or_member_of Arg1:T6 Arg2:T7	
+T8	LOCATION 171 180	จ.สระแก้ว
+T9	VEHICLE 188 194	รถยนต์
+T10	LOCATION 207 239	ถนนสุวรรณศร (สระแก้ว-อรัญประเทศ)
+T11	LOCATION 246 261	ปั๊มน้ำมัน พีที
+T12	LOCATION 262 271	ต.ห้วยโจด
+T13	LOCATION 272 282	อ.วัฒนานคร
+T14	LOCATION 283 292	จ.สระแก้ว
+T15	PERSON 303 322	พ.ต.อ.สาธิต มิตรรัก
+T16	ORGANIZATION 349 372	หน่วยกู้ภัยสว่างสระแก้ว
+T17	ORGANIZATION 376 404	หน่วยกู้ภัยร่วมกตัญญูสระแก้ว
+T1	PERSON 1 29	นายกคิงส์” นายทรงยศ เทียนทอง
+T18	PERSON 520 551	นายทรงยศ เทียนทอง หรือนายกคิงส์
+T19	TIME 557 562	55 ปี
+T20	ORGANIZATION 572 583	อบจ.สระแก้ว
+T21	LOCATION 588 602	บ้านเลขที่ 361
+R2	located_at Arg1:T18 Arg2:T21	
+T22	LOCATION 603 609	หมู่ 4
+R3	located_at Arg1:T18 Arg2:T22	
+T23	LOCATION 610 620	ต.วัฒนานคร
+R4	located_at Arg1:T18 Arg2:T23	
+T24	ORGANIZATION 647 658	รพ.วัฒนานคร
+T25	VEHICLE 694 722	รถยนต์มิตซูบิชิปาเจโร่สปอร์ต
+T26	LP 731 754	9 กอ 3839 กรุงเทพมหานคร
+R5	vehicle_lp Arg1:T25 Arg2:T26	
+T27	PERSON 779 800	นายฉัตรชาญชัย ทีปกากร
+R6	own_vehicle Arg1:T27 Arg2:T25	
+T28	TIME 806 811	27 ปี
+T29	LOCATION 816 829	บ้านเลขที่ 46
+T30	LOCATION 830 836	หมู่ 4
+R7	located_at Arg1:T27 Arg2:T29	
+R8	located_at Arg1:T27 Arg2:T30	
+T31	LOCATION 837 847	ต.ท่าบุญมี
+R9	located_at Arg1:T27 Arg2:T31	
+T32	LOCATION 848 860	อ.เกาะจันทร์
+R10	located_at Arg1:T27 Arg2:T32	
+T33	LOCATION 861 869	จ.ชลบุรี
+R11	crime_located_at Arg1:T27 Arg2:T33	
+T34	VEHICLE 882 884	รถ
+T35	VEHICLE 890 898	รถบรรทุก
+T36	VEHICLE 934 936	รถ
+T37	VEHICLE 949 979	รถยนต์ฟอร์ดเอเวอเรสต์ไทเทเนียม
+T38	COLOR 979 984	สีขาว
+T39	LP 993 1007	กท 159 สระแก้ว
+R12	color_of Arg1:T37 Arg2:T38	
+R13	vehicle_lp Arg1:T37 Arg2:T39	
+R14	own_vehicle Arg1:T18 Arg2:T37	
+R15	crime_relation Arg1:T27 Arg2:T18	
+R16	crime_located_at Arg1:T27 Arg2:T10	
+R17	crime_located_at Arg1:T27 Arg2:T11	
+R18	crime_located_at Arg1:T27 Arg2:T12	
+R19	crime_located_at Arg1:T27 Arg2:T13	
+R20	crime_located_at Arg1:T27 Arg2:T14	

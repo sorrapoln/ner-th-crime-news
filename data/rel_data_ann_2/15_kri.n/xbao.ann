@@ -1,0 +1,16 @@
+T1	DATE 29 36	30 ก.ย.
+T2	TIME 48 56	06.00 น.
+T3	LOCATION 113 163	ตึกบริเวณชั้น 10 ตึก C2 ภายในคอนโดมิเนียมแห่งหนึ่ง
+T4	LOCATION 164 176	ตำบลบ้านใหม่
+T5	LOCATION 176 189	อำเภอปากเกร็ด
+T6	LOCATION 190 204	จังหวัดนนทบุรี
+T7	OBJECT 311 332	สื้อยืดแขนสั้นสีเขียว
+T8	OBJECT 333 349	กางเกงยีนส์ขายาว
+R1	found_object_at Arg1:T8 Arg2:T3	
+R2	found_object_at Arg1:T8 Arg2:T4	
+R3	found_object_at Arg1:T8 Arg2:T5	
+R4	found_object_at Arg1:T8 Arg2:T6	
+R5	found_object_at Arg1:T7 Arg2:T5	
+R6	found_object_at Arg1:T7 Arg2:T6	
+R7	found_object_at Arg1:T7 Arg2:T4	
+R8	found_object_at Arg1:T7 Arg2:T3	

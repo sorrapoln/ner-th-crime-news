@@ -1,0 +1,45 @@
+T1	TIME 10 18	19.00 น.
+T2	DATE 26 35	30 ตุลาคม
+T3	PERSON 36 59	พล.ต.ต.อรรถพล อนุสิทธิ์
+T4	PERSON 84 107	พ.ต.อ.รังสรรค์ สอนสิงห์
+T6	PERSON 157 180	พ.ต.ท.อดิเรก ทองแกมแก้ว
+T7	PERSON 201 224	พ.ต.ท.เข็มกล้า มั่นพลับ
+T8	PERSON 225 245	พ.ต.ต.วุฒิชัย บุญยู้
+T9	PERSON 264 282	ร.ต.อ.ภาคิน ดอกไม้
+T10	PERSON 283 302	ร.ต.อ.สมโชค คงตำหนิ
+T11	PERSON 336 355	พ.ต.อ.ปทักข์ ขวัญนา
+T12	PERSON 368 385	พ.ต.ท.อภิชน ขันกา
+T13	PERSON 399 432	ร.ต.อ.จิรัฎฐวัฒน์ กิจรุ่งเรืองเดช
+T14	PERSON 433 458	ร.ต.ท.นิติธร ประชัณกาญจนา
+T15	PERSON 490 504	นายสุพร ไทยทิส
+T16	PERSON 978 1004	ร.ต.อ.พิพัฒน์พงศ์ เพิ่มพูล
+T17	PERSON 1066 1073	นายสุพร
+T18	PERSON 1078 1090	หนึ่ง ไทยทิส
+T19	ORGANIZATION 252 263	สน.ดอนเมือง
+T20	ORGANIZATION 141 152	สน.ดอนเมือง
+T21	ORGANIZATION 189 200	สน.ดอนเมือง
+T22	ORGANIZATION 313 324	สน.ดอนเมือง
+T23	ORGANIZATION 846 865	มูลนิธิปวีณา หงสกุล
+T24	ORGANIZATION 872 909	มูลนิธิ ปวีณา หงสกุล เพื่อเด็กและสตรี
+T25	ORGANIZATION 1028 1039	สน.ดอนเมือง
+T26	ORGANIZATION 1230 1241	สน.ดอนเมือง
+T27	PERSON 1249 1256	นายสุพร
+T28	LOCATION 751 762	ต.เขาคันทรง
+T29	LOCATION 763 772	อ.ศรีราชา
+T30	LOCATION 773 781	จ.ชลบุรี
+T31	LOCATION 1301 1310	อ.ศรีราชา
+T32	TIME 1096 1101	35 ปี
+T33	TIME 798 806	14.00 น.
+R1	located_at Arg1:T15 Arg2:T28	
+R2	located_at Arg1:T15 Arg2:T29	
+R3	located_at Arg1:T15 Arg2:T30	
+R4	located_at Arg1:T15 Arg2:T31	
+R5	crime_time_at Arg1:T15 Arg2:T33	
+T5	ORGANIZATION 112 123	สน.ดอนเมือง
+R6	employee_or_member_of Arg1:T4 Arg2:T5	
+R7	employee_or_member_of Arg1:T6 Arg2:T5	
+R8	employee_or_member_of Arg1:T7 Arg2:T5	
+R9	employee_or_member_of Arg1:T8 Arg2:T5	
+R10	employee_or_member_of Arg1:T9 Arg2:T5	
+R11	employee_or_member_of Arg1:T10 Arg2:T5	
+R12	employee_or_member_of Arg1:T16 Arg2:T5	

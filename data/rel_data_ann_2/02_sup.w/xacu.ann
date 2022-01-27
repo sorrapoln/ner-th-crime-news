@@ -1,0 +1,32 @@
+T1	DATE 7 17	26 ตค.2564
+T2	ORGANIZATION 29 53	ตำรวจตระเวนชายแดนที่ 227
+T3	LOCATION 54 65	อำเภอเขมราฐ
+T4	LOCATION 66 79	จ.อุบลราชธานี
+T5	PERSON 86 115	พ.ต.อ.รินณวัฒน์ ภูวัฒนติกานต์
+T6	ORGANIZATION 120 126	ตชด.22
+T7	PERSON 127 153	พ.ต.ท.สิทธิพงษ์ ศรีกุลบุตร
+T8	ORGANIZATION 162 169	ตชด.227
+T9	PERSON 170 191	ร.ต.ท.ครองชัย ยนต์ดัน
+T10	ORGANIZATION 207 215	.ตชด.227
+T11	PERSON 216 236	ด.ต.อาเขต แจ่มจันทร์
+T12	PERSON 287 306	นายจิระพงษ์ จุใจล้ำ
+T13	TIME 360 365	45 ปี
+T14	OBJECT 381 395	ยาบ้า 198 เม็ด
+T15	LOCATION 434 444	บ้านตาแหลว
+T16	LOCATION 445 452	ต.หัวนา
+T17	LOCATION 453 461	อ.เขมราฐ
+T18	LOCATION 462 475	จ.อุบลราชธานี
+T19	LOCATION 722 725	ลาว
+R1	found_object_at Arg1:T14 Arg2:T15	
+R2	found_object_at Arg1:T14 Arg2:T16	
+R3	found_object_at Arg1:T14 Arg2:T17	
+R4	found_object_at Arg1:T14 Arg2:T18	
+R5	located_at Arg1:T12 Arg2:T15	
+R6	located_at Arg1:T12 Arg2:T16	
+R7	located_at Arg1:T12 Arg2:T17	
+R8	located_at Arg1:T12 Arg2:T18	
+R9	employee_or_member_of Arg1:T5 Arg2:T6	
+R10	employee_or_member_of Arg1:T7 Arg2:T8	
+R11	employee_or_member_of Arg1:T9 Arg2:T10	
+T20	ORGANIZATION 241 246	ชปข.ฯ
+R12	employee_or_member_of Arg1:T11 Arg2:T20	

@@ -1,0 +1,26 @@
+T1	DATE 29 36	20 ก.ย.
+T2	TIME 48 56	09.30 น.
+T3	PERSON 57 83	ร.ต.ท.หญิง เกวลิน ไชยรัตน์
+T4	ORGANIZATION 101 122	สภ.เมืองนครศรีธรรมราช
+T5	WEAPON 148 151	ปืน
+T6	VEHICLE 164 170	รถยนต์
+T7	LOCATION 209 242	ซอยชูสุวรรณ ริมถนนสายนคร-พรหมคีรี
+T8	LOCATION 243 249	หมู่ 7
+T9	LOCATION 250 261	ตำบลท่างิ้ว
+T10	LOCATION 262 285	อำเภอเมืองนครศรีธรรมราช
+T11	VEHICLE 372 397	รถยนต์กระบะอีซูซุ 4 ประตู
+T12	COLOR 397 408	สีน้ำเงินสด
+T13	LP 424 442	1812 นครศรีธรรมราช
+R1	color_of Arg1:T11 Arg2:T12	
+R2	vehicle_lp Arg1:T11 Arg2:T13	
+T14	WEAPON 474 483	ปืนลูกซอง
+T15	OBJECT 512 518	กระสุน
+T16	PERSON 576 585	นายศุภณัฐ
+T17	VEHICLE 556 562	รถยนต์
+T18	TIME 605 610	28 ปี
+T19	LOCATION 614 625	อำเภอนบพิตำ
+T20	LOCATION 626 646	จังหวัดนครศรีธรรมราช
+R3	own_vehicle Arg1:T16 Arg2:T11	
+R4	located_at Arg1:T16 Arg2:T19	
+R5	located_at Arg1:T16 Arg2:T20	
+R6	employee_or_member_of Arg1:T3 Arg2:T4	

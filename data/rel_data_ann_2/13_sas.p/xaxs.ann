@@ -1,0 +1,36 @@
+T1	TIME 10 18	01.00 น.
+T2	DATE 26 41	11 กรกฎาคม 2564
+T3	PERSON 42 59	พ.ต.ท.รัตพล วรรณะ
+T4	ORGANIZATION 70 87	สถานีย่อยเขาเขียว
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	LOCATION 88 97	อ.ศรีราชา
+T6	LOCATION 98 106	จ.ชลบุรี
+T7	VEHICLE 128 139	รถยนต์กระบะ
+T8	VEHICLE 149 163	รถบรรทุก 6 ล้อ
+T9	ORGANIZATION 167 177	กรมทางหลวง
+T10	LOCATION 225 245	ถนนมอเตอร์เวย์ สาย 7
+T11	LOCATION 265 280	สะพานสวนผีเสื้อ
+T12	LOCATION 291 296	พัทยา
+T13	LOCATION 297 300	ม.9
+T14	LOCATION 301 309	ต.บางพระ
+T15	LOCATION 310 319	อ.ศรีราชา
+T16	LOCATION 320 328	จ.ชลบุรี
+T17	VEHICLE 351 365	รถบรรทุก 6 ล้อ
+T18	ORGANIZATION 369 379	กรมทางหลวง
+T19	VEHICLE 422 424	รถ
+T20	PERSON 451 460	นายอนุชิต
+T21	TIME 466 471	24 ปี
+T22	LOCATION 476 489	จ.อุบลราชธานี
+R2	located_at Arg1:T20 Arg2:T22	
+T23	PERSON 511 520	นายสุวิชา
+T24	TIME 526 531	37 ปี
+T25	VEHICLE 605 616	รถยนต์กระบะ
+T26	PERSON 672 680	นายวินัย
+T27	TIME 686 691	30 ปี
+T28	PERSON 702 710	น.ส.อำภา
+T29	TIME 716 721	33 ปี
+T30	LOCATION 726 738	จ.สุพรรณบุรี
+R3	located_at Arg1:T28 Arg2:T30	
+R4	located_at Arg1:T26 Arg2:T30	
+R5	own_vehicle Arg1:T26 Arg2:T25	
+R6	own_vehicle Arg1:T28 Arg2:T25	

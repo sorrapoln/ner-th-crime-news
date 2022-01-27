@@ -1,0 +1,37 @@
+T1	DATE 8 20	13 มี.ค.2562
+T2	PERSON 42 61	นายสมศักดิ์ เล็ดรอด
+T3	PERSON 67 69	โอ
+T4	TIME 75 80	29 ปี
+T5	LOCATION 107 120	จ.สมุทรปราการ
+T6	LOCATION 138 152	อ.คำเขื่อนแก้ว
+T7	LOCATION 153 160	จ.ยโสธร
+T8	PERSON 202 224	พล.ต.ต.ภิญโญ หวลกสินธ์
+T9	PERSON 483 505	นายวีระนันท์ พันดาบุตร
+T10	ORGANIZATION 737 748	สภ.บางเสาธง
+T11	LOCATION 749 767	จังหวัดสมุทรปราการ
+T12	PERSON 780 802	นายชัยประสิทธ์ บุญเลิศ
+T13	PERSON 808 813	34 ปี
+T14	DATE 876 882	2 ก.พ.
+T15	VEHICLE 890 903	รถจักรยานยนต์
+T16	PERSON 980 995	นายชัยประสิทธิ์
+T17	PERSON 1013 1024	นายสมศักดิ์
+T18	PERSON 1059 1073	นายชัยประสิทธ์
+T19	LOCATION 1115 1127	จ.ฉะเชิงเทรา
+T20	PERSON 1245 1256	นายสมศักดิ์
+T21	ORGANIZATION 1310 1331	โรงพยาบาลคำเขื่อนแก้ว
+T22	LOCATION 1408 1421	จ.สมุทรปราการ
+T23	ORGANIZATION 1449 1461	วัดมงคลนิมิต
+T24	LOCATION 1462 1472	ต.บางเสาธง
+T25	PERSON 1556 1567	นายสมศักดิ์
+T26	PERSON 1618 1633	นายชัยประสิทธิ์
+T27	VEHICLE 1649 1662	รถจักรยานยนต์
+T28	PERSON 1671 1686	นายชัยประสิทธิ์
+T29	ORGANIZATION 1724 1736	ซอยวัดบัวโรย
+T30	PERSON 1781 1796	นายชัยประสิทธิ์
+T31	ORGANIZATION 1831 1844	วัดบางโฉลงนอก
+T32	LOCATION 1845 1857	อำเภอ บางพลี
+T33	DATE 1912 1920	17 มี.ค.
+R1	crime_relation Arg1:T2 Arg2:T18	
+R2	crime_located_at Arg1:T2 Arg2:T5	
+R3	crime_located_at Arg1:T2 Arg2:T6	
+R4	crime_located_at Arg1:T2 Arg2:T7	

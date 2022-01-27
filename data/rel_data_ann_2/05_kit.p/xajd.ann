@@ -1,0 +1,36 @@
+T1	DATE 7 20	2 ตุลาคม 2564
+T2	LOCATION 33 43	จ.อุดรธานี
+T3	TIME 63 71	19.30 น.
+T4	DATE 85 93	1 ต.ค.64
+T5	ORGANIZATION 98 107	สภ.ดงเย็น
+T6	LOCATION 108 117	อ.บ้านดุง
+T7	LOCATION 118 128	จ.อุดรธานี
+T8	LOCATION 149 161	บ้านโนนสีทอง
+T9	LOCATION 162 170	ต.อ้อมกอ
+T10	LOCATION 171 180	อ.บ้านดุง
+T11	LOCATION 181 191	จ.อุดรธานี
+T12	LOCATION 240 253	อุทยานอ้อมฤดี
+T13	VEHICLE 258 267	รถปิ๊กอัพ
+T14	WEAPON 292 295	ปืน
+T15	PERSON 311 332	พ.ต.ท.จำลอง ทับสีแก้ว
+T16	ORGANIZATION 343 352	สภ.ดงเย็น
+R1	employee_or_member_of Arg1:T15 Arg2:T16	
+T17	ORGANIZATION 365 374	สภ.ดงเย็น
+T18	ORGANIZATION 391 400	สภ.ดงเย็น
+T19	WEAPON 470 473	ปืน
+T20	VEHICLE 516 525	รถปิ๊กอัพ
+T21	PERSON 528 536	น.ส.มะยม
+T22	TIME 558 563	15 ปี
+T23	LOCATION 601 611	บ้านอ้อมกอ
+T24	LOCATION 612 620	ต.อ้อมกอ
+T25	LOCATION 621 630	อ.บ้านดุง
+T26	PERSON 647 655	น้องมะยม
+T27	PERSON 659 668	นายท้าวนก
+T28	LOCATION 687 690	ลาว
+T29	TIME 696 701	54 ปี
+R2	crime_relation Arg1:T27 Arg2:T26	
+R3	crime_relation Arg1:T27 Arg2:T21	
+R4	own_weapon Arg1:T27 Arg2:T19	
+R5	own_weapon Arg1:T27 Arg2:T14	
+R7	crime_time_at Arg1:T27 Arg2:T3	
+R6	crime_date_at Arg1:T27 Arg2:T4	

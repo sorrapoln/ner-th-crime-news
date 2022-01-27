@@ -1,0 +1,13 @@
+T1	PERSON 9 22	น.ส.สุภัคสรณ์
+T2	PERSON 27 38	หญิง พลไธสง
+T3	TIME 51 56	28 ปี
+T4	LOCATION 91 101	ต.หนองหญ้า
+T5	LOCATION 102 109	อ.เมือง
+T6	LOCATION 110 121	จ.กาญจนบุรี
+T7	PERSON 177 200	พ.ต.อ.อำนวย พงษ์สวัสดิ์
+T8	ORGANIZATION 205 216	สภ.บ้านโป่ง
+R1	employee_or_member_of Arg1:T7 Arg2:T8	
+T9	PERSON 281 288	น.ส.ดาว
+T10	PERSON 326 337	พ.ต.อ.อำนวย
+R2	crime_relation Arg1:T7 Arg2:T1	
+R3	crime_relation Arg1:T7 Arg2:T2	

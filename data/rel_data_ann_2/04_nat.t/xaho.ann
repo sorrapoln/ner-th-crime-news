@@ -1,0 +1,13 @@
+T1	ORGANIZATION 6 16	สน.หลักสอง
+T2	ORGANIZATION 35 45	รพ.ศิริราช
+T3	ORGANIZATION 49 75	อาสาสมัครมูลนิธิร่วมกตัญญู
+T4	ORGANIZATION 91 107	ปั๊มน้ำมันบางจาก
+T5	LOCATION 108 122	ถนนกาญจนาภิเษก
+T6	LOCATION 123 131	เขตบางแค
+T7	VEHICLE 134 159	รถยนต์ Nissan รุ่น Almera
+T8	COLOR 160 165	สีขาว
+R1	color_of Arg1:T7 Arg2:T8	
+T9	LP 174 188	1 กด 5766 กทม.
+R2	vehicle_lp Arg1:T7 Arg2:T9	
+T10	PERSON 224 243	ณัฐกิตติ์ วิภวศุภกร
+T11	TIME 249 254	71 ปี

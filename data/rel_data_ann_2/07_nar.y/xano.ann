@@ -1,0 +1,18 @@
+T1	DATE 7 15	1 ธ.ค.64
+T2	PERSON 16 44	ร.ต.ท.(หญิง) พุธิดา นิติชาติ
+T3	ORGANIZATION 65 73	สภ.ตากใบ
+T4	LOCATION 74 84	จ.นราธิวาส
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T5	VEHICLE 113 116	ปืน
+T6	LOCATION 188 194	หมู่ 6
+T7	LOCATION 195 203	ต.เจ๊ะเห
+T8	LOCATION 204 211	อ.ตากใบ
+T9	LOCATION 212 222	จ.นราธิวาส
+T10	PERSON 244 267	พ.ต.ท.จารุกิตติ์ ศรีเดช
+T11	ORGANIZATION 288 296	สภ.ตากใบ
+T12	PERSON 390 407	น.ส.นูรีดา ยาโก๊ะ
+T13	TIME 413 418	44 ปี
+T14	WEAPON 434 437	ปืน
+T15	TIME 852 858	6.30 น
+T16	TIME 836 843	7.15 น.
+T17	LOCATION 1029 1042	จ.สุราษฎรธานี

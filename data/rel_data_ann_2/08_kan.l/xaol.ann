@@ -1,0 +1,33 @@
+T1	DATE 7 16	16 ต.ค.64
+T2	PERSON 41 61	พล.ต.ท.จิรภพ ภูริเดช
+T3	PERSON 70 89	พล.ต.ต.มนตรี เทศขัน
+T4	PERSON 108 132	พ.ต.อ.วิวัฒน์ จิตโสภากุล
+T5	PERSON 146 168	พ.ต.ต.ณัฐดนัย สีแข่ไตร
+T6	PERSON 207 223	นายทิพากร ทับศรี
+T7	TIME 229 234	26 ปี
+T8	LOCATION 257 274	จังหวัดฉะเชิงเทรา
+T9	DATE 299 308	11 ต.ค.64
+T10	DATE 381 389	16 มิ.ย.
+T11	PERSON 406 412	น.ส.เอ
+T12	PERSON 435 445	นางสายหยุด
+T13	PERSON 453 462	นายทิพากร
+T14	LOCATION 504 514	ต.คลองอุดม
+T15	LOCATION 515 522	อ.เมือง
+T16	LOCATION 523 535	จ.ฉะเชิงเทรา
+T17	PERSON 652 658	น.ส.เอ
+T18	PERSON 703 712	นายทิพากร
+T19	PERSON 769 778	นายทิพากร
+T20	PERSON 838 844	น.ส.เอ
+T21	WEAPON 867 870	มีด
+T22	PERSON 949 958	นายทิพากร
+T23	PERSON 984 990	น.ส.เอ
+T24	PERSON 1114 1123	นายทิพากร
+T25	LOCATION 1155 1167	อ.เมืองยโสธร
+T26	PERSON 1240 1249	นายทิพากร
+T27	ORGANIZATION 1279 1297	สภ.เมืองฉะเชิงเทรา
+R1	crime_date_at Arg1:T6 Arg2:T10	
+R2	crime_relation Arg1:T6 Arg2:T11	
+R3	crime_located_at Arg1:T6 Arg2:T14	
+R4	crime_located_at Arg1:T6 Arg2:T15	
+R5	crime_located_at Arg1:T6 Arg2:T16	
+R6	own_weapon Arg1:T6 Arg2:T21	

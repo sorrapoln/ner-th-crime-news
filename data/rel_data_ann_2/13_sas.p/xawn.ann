@@ -1,0 +1,50 @@
+T1	PERSON 7 17	นายโกวิทย์
+T2	TIME 23 28	36 ปี
+T3	LOCATION 60 66	หมู่ 7
+T4	LOCATION 67 77	ต.เชียรเขา
+T5	LOCATION 78 95	อ.เฉลิมพระเกียรติ
+T6	LOCATION 96 111	จ.นครศรีธรรมราช
+T7	DATE 126 133	27 ก.ย.
+T8	DATE 268 279	28 ก.ย.2564
+T9	PERSON 280 302	พ.ต.อ.เสริม ขวัญนิมิตร
+T10	LOCATION 316 329	นครศรีธรรมราช
+T11	PERSON 330 355	พ.ต.ท.พีระพงศ์ ยอดสุรางค์
+T12	ORGANIZATION 391 409	สภ.เฉลิมพระเกียรติ
+T13	LOCATION 444 457	นครศรีธรรมราช
+T14	ORGANIZATION 472 490	สภ.เฉลิมพระเกียรติ
+T15	PERSON 509 517	นายสุเทพ
+T16	TIME 523 528	38 ปี
+T17	LOCATION 560 569	ต.เสือหึง
+T18	LOCATION 570 581	อ.เชียรใหญ่
+T19	LOCATION 582 597	จ.นครศรีธรรมราช
+T20	WEAPON 616 628	ปืนขนาด .380
+T21	OBJECT 629 635	กระสุน
+T22	WEAPON 635 638	ปืน
+T23	PERSON 689 697	นายสุเทพ
+T24	LOCATION 713 723	ต.เชียรเขา
+T25	LOCATION 724 741	อ.เฉลิมพระเกียรติ
+T26	LOCATION 742 757	จ.นครศรีธรรมราช
+T27	WEAPON 764 767	ปืน
+T28	PERSON 771 781	นายโกวิทย์
+T29	ORGANIZATION 813 830	ศาลจังหวัดปากพนัง
+T30	DATE 865 876	28 ก.ย.2564
+T31	WEAPON 927 930	ปืน
+T32	OBJECT 930 943	เครื่องกระสุน
+T33	WEAPON 943 946	ปืน
+T34	LOCATION 1048 1057	ต.เสือหึง
+T35	LOCATION 1058 1069	อ.เชียรใหญ่
+T36	LOCATION 1070 1085	จ.นครศรีธรรมราช
+T37	PERSON 1102 1110	นายสุเทพ
+T38	PERSON 1140 1150	นายโกวิทย์
+T39	WEAPON 1230 1233	ปืน
+T40	ORGANIZATION 1302 1320	สภ.เฉลิมพระเกียรติ
+R1	crime_relation Arg1:T15 Arg2:T1	
+R2	own_weapon Arg1:T15 Arg2:T20	
+R3	crime_located_at Arg1:T15 Arg2:T3	
+R4	crime_located_at Arg1:T15 Arg2:T4	
+R5	crime_located_at Arg1:T15 Arg2:T5	
+R6	crime_located_at Arg1:T15 Arg2:T6	
+R7	crime_date_at Arg1:T15 Arg2:T7	
+R8	located_at Arg1:T15 Arg2:T24	
+R9	located_at Arg1:T15 Arg2:T25	
+R10	located_at Arg1:T15 Arg2:T26	

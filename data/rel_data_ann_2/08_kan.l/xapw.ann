@@ -1,0 +1,60 @@
+T1	PERSON 27 48	นายอนันตชัย จริตรัมย์
+T2	PERSON 53 75	น.ส.ปวีณา นาเมืองรักษ์
+T3	LOCATION 161 169	อ.สัตหีบ
+T4	LOCATION 118 160	ลานจอดรถตรงข้ามพระพุทธรูปแกะสลักเขาชีจรรย์
+T5	LOCATION 170 178	จ.ชลบุรี
+T6	ORGANIZATION 179 195	ศาลจังหวัดชลบุรี
+T7	PERSON 227 244	นาย ปัญญา ยิ่งดัง
+T8	PERSON 250 259	เสี่ยอ้วน
+T9	TIME 266 271	39 ปี
+T10	LOCATION 275 281	ภูเก็ต
+T11	PERSON 284 301	นายสายันต์ ศรีสุข
+T12	TIME 307 312	43 ปี
+T13	LOCATION 316 329	นครศรีธรรมราช
+T14	PERSON 332 353	นายจิรศักดิ์ อุนัยบัน
+T15	TIME 359 364	34 ปี
+T16	LOCATION 368 374	ภูเก็ต
+T17	WEAPON 433 436	ปืน
+T18	WEAPON 499 502	ปืน
+T19	PERSON 540 549	เสี่ยอ้วน
+T20	DATE 558 569	18 พ.ย.2560
+T21	LOCATION 740 745	พัทยา
+T22	LOCATION 785 791	ภูเก็ต
+T23	TIME 853 861	05.30 น.
+T24	DATE 870 877	18 พ.ย.
+T25	PERSON 879 902	พ.ต.ต.ธีระศักดิ์ บุญแสง
+T26	ORGANIZATION 913 922	สภ.ป่าตอง
+T27	LOCATION 923 930	อ.กะทู้
+T28	LOCATION 931 939	จ.ภูเก็ต
+T29	PERSON 950 966	นายปัญญา ยิ่งดัง
+T30	TIME 972 977	39 ปี
+T31	LOCATION 982 998	บ้านเลขที่207/28
+T32	LOCATION 999 1007	ต.ป่าตอง
+T33	LOCATION 1008 1015	อ.กะทู้
+T34	LOCATION 1016 1024	จ.ภูเก็ต
+T35	LOCATION 1116 1127	ถนนพระเมตตา
+T36	LOCATION 1104 1115	ซอยสุขเจริญ
+T37	LOCATION 1128 1136	ต.ป่าตอง
+T38	LOCATION 1136 1143	อ.กะทู้
+T39	LOCATION 1144 1152	จ.ภูเก็ต
+T40	PERSON 1208 1229	พ.ต.ท.เจษฎา แสงสุรีย์
+T41	ORGANIZATION 1244 1253	สภ.ป่าตอง
+T42	ORGANIZATION 1291 1310	ลนิธิกุศลธรรมภูเก็ต
+R1	crime_relation Arg1:T7 Arg2:T1	
+R2	crime_relation Arg1:T7 Arg2:T2	
+R3	crime_relation Arg1:T11 Arg2:T1	
+R4	crime_relation Arg1:T11 Arg2:T2	
+R5	crime_relation Arg1:T14 Arg2:T1	
+R6	crime_relation Arg1:T14 Arg2:T2	
+R7	own_weapon Arg1:T7 Arg2:T17	
+R8	own_weapon Arg1:T11 Arg2:T17	
+R9	own_weapon Arg1:T14 Arg2:T17	
+R10	crime_located_at Arg1:T7 Arg2:T4	
+R11	crime_located_at Arg1:T7 Arg2:T3	
+R12	crime_located_at Arg1:T7 Arg2:T5	
+R13	crime_located_at Arg1:T11 Arg2:T3	
+R14	crime_located_at Arg1:T11 Arg2:T4	
+R15	crime_located_at Arg1:T11 Arg2:T5	
+R16	crime_located_at Arg1:T14 Arg2:T3	
+R17	crime_located_at Arg1:T14 Arg2:T4	
+R18	crime_located_at Arg1:T14 Arg2:T5	

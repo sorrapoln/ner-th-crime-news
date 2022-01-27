@@ -1,0 +1,13 @@
+T1	DATE 7 15	10 มี.ค.
+T2	ORGANIZATION 16 29	ตำรวจภูธรภาชี
+T3	LOCATION 30 36	อ.ภาชี
+T4	LOCATION 37 54	จ.พระนครศรีอยุธยา
+T5	VEHICLE 101 111	รถยนต์เก๋ง
+T6	ORGANIZATION 139 152	โรงพยาบาลภาชี
+T7	PERSON 174 200	น.ส.ศรีสุภางค์ สุวรรณศิลป์
+T8	PERSON 206 210	เก่ง
+T9	TIME 216 221	48 ปี
+T10	ORGANIZATION 243 256	โรงพยาบาลภาชี
+R1	employee_or_member_of Arg1:T7 Arg2:T10	
+T11	TIME 325 334	5 ชั่วโมง
+T12	COLOR 372 377	สีขาว

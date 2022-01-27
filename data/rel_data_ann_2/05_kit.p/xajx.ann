@@ -1,0 +1,35 @@
+T1	TIME 10 18	16.00 น.
+T2	DATE 26 37	29 ก.ย.2564
+T3	PERSON 38 60	ร.ต.อ.สิโรฒ จริยวิจิตร
+T4	ORGANIZATION 77 87	สภ.ห้วยยอด
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	LOCATION 88 94	จ.ตรัง
+T6	LOCATION 138 145	ต.บางดี
+T7	LOCATION 146 155	อ.ห้วยยอด
+T8	LOCATION 156 162	จ.ตรัง
+T9	PERSON 220 239	พ.ต.อ.ประดิษฐ ชัยพล
+T10	ORGANIZATION 244 254	สภ.ห้วยยอด
+R2	employee_or_member_of Arg1:T9 Arg2:T10	
+T11	ORGANIZATION 283 292	อบต.บางดี
+T12	ORGANIZATION 296 321	หน่วยกู้ภัยสว่างภักดีตรัง
+T13	PERSON 361 371	นายณัฐวุฒิ
+T14	TIME 377 382	28 ปี
+T15	OBJECT 475 485	เหล็กชะแลง
+T16	PERSON 512 518	นายบอส
+T17	TIME 524 529	25 ปี
+R3	crime_relation Arg1:T16 Arg2:T13	
+R4	crime_located_at Arg1:T16 Arg2:T6	
+R5	crime_located_at Arg1:T16 Arg2:T7	
+R6	crime_located_at Arg1:T16 Arg2:T8	
+T18	WEAPON 575 591	ปืนลูกโม่ขนาด.32
+R7	own_weapon Arg1:T16 Arg2:T18	
+R8	found_object_at Arg1:T15 Arg2:T6	
+R9	found_object_at Arg1:T15 Arg2:T7	
+R10	found_object_at Arg1:T15 Arg2:T8	
+T19	PERSON 832 838	นายบอส
+T20	PERSON 863 869	นายบอส
+T21	PERSON 881 887	นายบอส
+T22	WEAPON 908 911	ปืน
+T23	PERSON 935 941	นายบอส
+T24	VEHICLE 1127 1129	รถ
+T25	PERSON 1303 1309	นายบอส

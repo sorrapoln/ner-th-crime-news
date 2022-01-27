@@ -1,0 +1,19 @@
+T1	DATE 12 21	21 ม.ค.65
+T2	PERSON 22 42	พ.ต.อ.พงศ์ปณต ชูแก้ว
+T3	PERSON 56 82	พ.ต.ต.เกียรติศักดิ์ บุญทอง
+T4	PERSON 111 125	นายฮัมดี นิหลง
+T5	TIME 131 136	40 ปี
+T6	ORGANIZATION 147 161	ศาลจังหวัดยะลา
+T7	DATE 183 195	19 ม.ค. 2565
+T8	LOCATION 322 326	ม. 4
+T9	LOCATION 327 340	ต.บันนังสาเรง
+T10	LOCATION 341 352	อ.เมืองยะลา
+T11	DATE 377 388	4 ม.ค. 2565
+T12	PERSON 389 397	นายฮัมดี
+T13	PERSON 418 428	น.ส.จันทร์
+T14	TIME 445 450	25 ปี
+T15	LOCATION 572 583	อ.เมืองยะลา
+T16	PERSON 613 621	นายฮัมดี
+R1	crime_relation Arg1:T12 Arg2:T13	
+R2	crime_date_at Arg1:T12 Arg2:T11	
+R3	crime_located_at Arg1:T12 Arg2:T15	

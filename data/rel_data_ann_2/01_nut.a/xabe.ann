@@ -1,0 +1,24 @@
+T1	ORGANIZATION 30 40	สภ.ท่าศาลา
+T2	PERSON 57 74	ฉายาเหม่ง-บางกรวย
+T3	ORGANIZATION 125 135	สภ.บางกรวย
+T4	LOCATION 136 150	จังหวัดนนทบุรี
+T5	LOCATION 191 211	จังหวัดนครศรีธรรมราช
+T6	ORGANIZATION 307 317	สภ.ท่าศาลา
+T7	PERSON 342 359	นายภิรมย์ จาบกลาง
+T8	TIME 365 370	33 ปี
+T9	PERSON 380 393	เหม่ง-บางกรวย
+T10	LOCATION 405 417	อำเภอบางกรวย
+T11	LOCATION 418 432	จังหวัดนนทบุรี
+T12	DATE 525 534	18 มกราคม
+T13	LOCATION 579 590	ตำบลท่าขึ้น
+T14	LOCATION 591 603	อำเภอท่าศาลา
+T15	LOCATION 604 624	จังหวัดนครศรีธรรมราช
+R1	located_at Arg1:T7 Arg2:T13	
+R2	located_at Arg1:T7 Arg2:T14	
+R3	located_at Arg1:T7 Arg2:T15	
+R4	crime_located_at Arg1:T7 Arg2:T4	
+T16	LOCATION 178 190	อำเภอท่าศาลา
+R5	crime_located_at Arg1:T7 Arg2:T16	
+R6	crime_located_at Arg1:T7 Arg2:T5	
+R7	located_at Arg1:T7 Arg2:T10	
+R8	located_at Arg1:T7 Arg2:T11	

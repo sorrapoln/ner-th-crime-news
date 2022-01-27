@@ -1,0 +1,13 @@
+T1	ORGANIZATION 34 52	สภ.เมือง กาญจนบุรี
+T2	PERSON 60 76	นายสามารถ แสงสิน
+T3	PERSON 81 88	ดาบมารถ
+T4	TIME 94 99	52 ปี
+T5	ORGANIZATION 120 137	สภ.เมืองกาญจนบุรี
+T6	PERSON 173 186	น.ส.สุภัคสรณ์
+T7	PERSON 187 203	นายสามารถ แสงสิน
+T8	PERSON 246 259	น.ส.สุภัคสรณ์
+T9	LOCATION 305 316	จ.กาญจนบุรี
+T10	DATE 346 350	2560
+R1	crime_relation Arg1:T2 Arg2:T6	
+R2	crime_located_at Arg1:T2 Arg2:T9	
+R3	crime_date_at Arg1:T2 Arg2:T10	

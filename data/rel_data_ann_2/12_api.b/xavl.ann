@@ -1,0 +1,21 @@
+T1	TIME 10 17	21.30 น
+T2	DATE 25 36	5 พฤศจิกายน
+T3	PERSON 37 65	พ.ย.ร.ต.ท.หญิง จิรัชญา ยอดคำ
+T4	ORGANIZATION 78 92	สน.ราษฎร์บูรณะ
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	ORGANIZATION 141 157	รพ.สนามเอราวัณ 3
+T6	LOCATION 158 169	ถนนพุทธบูชา
+T7	LOCATION 170 179	แขวงบางมด
+T8	LOCATION 180 190	เขตทุ่งครุ
+T9	LOCATION 191 195	กทม.
+T10	ORGANIZATION 220 230	รพ.ศิริราช
+T11	ORGANIZATION 243 260	มูลนิธิร่วมกตัญญู
+T12	PERSON 353 365	นายพูลทรัพย์
+T13	TIME 383 388	44 ปี
+T14	COLOR 548 553	สีขาว
+T15	COLOR 569 573	สีดำ
+T16	COLOR 588 592	สีดำ
+R2	located_at Arg1:T12 Arg2:T6	
+R3	located_at Arg1:T12 Arg2:T7	
+R4	located_at Arg1:T12 Arg2:T8	
+R5	located_at Arg1:T12 Arg2:T9	

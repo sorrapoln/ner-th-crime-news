@@ -1,0 +1,56 @@
+T1	DATE 12 17	1 ก.ค
+T2	PERSON 19 39	พ.ต.ต.ธีระ พันธุวงศ์
+T3	DATE 114 125	1 ก.ค. 2564
+T4	LOCATION 137 146	เลขที่ 67
+T5	LOCATION 147 179	ริมถนนเพชรเกษมฝั่งขาล่องไปภาคใต้
+T6	LOCATION 180 190	หมู่ที่ 10
+T7	LOCATION 191 203	บ้านดอนเหียง
+T8	LOCATION 204 214	ต.เกาะหลัก
+T9	LOCATION 215 222	อ.เมือง
+T10	LOCATION 223 240	จ.ประจวบคีรีขันธ์
+T11	OBJECT 267 287	ผลิตภัณฑ์ยาผิดกฎหมาย
+T12	PERSON 459 477	นายวิจิตร โพธิล่าม
+T13	TIME 483 488	38 ปี
+T14	LOCATION 493 504	จ.เพชรบูรณ์
+T15	WEAPON 998 1016	อาวุธปืนขนาด 9 มม.
+T16	PERSON 1368 1381	นายรัสโซ มาโค
+T17	TIME 1387 1392	61 ปี
+T18	OBJECT 1882 1888	ยาปลอม
+T19	OBJECT 1931 1959	อุปกรณ์คอมพิวเตอร์ 2 เครื่อง
+T20	OBJECT 1984 2002	กล่องบรรจุไปรษณีย์
+R1	crime_relation Arg1:T16 Arg2:T12	
+R2	own_weapon Arg1:T16 Arg2:T15	
+R3	located_at Arg1:T12 Arg2:T14	
+R4	crime_located_at Arg1:T12 Arg2:T4	
+R5	crime_located_at Arg1:T12 Arg2:T5	
+R6	crime_located_at Arg1:T12 Arg2:T6	
+R7	crime_located_at Arg1:T12 Arg2:T7	
+R8	crime_located_at Arg1:T12 Arg2:T8	
+R9	crime_located_at Arg1:T12 Arg2:T10	
+R10	crime_located_at Arg1:T12 Arg2:T9	
+R11	found_object_at Arg1:T11 Arg2:T10	
+R12	found_object_at Arg1:T11 Arg2:T9	
+R13	found_object_at Arg1:T11 Arg2:T8	
+R14	found_object_at Arg1:T11 Arg2:T7	
+R15	found_object_at Arg1:T11 Arg2:T6	
+R16	found_object_at Arg1:T11 Arg2:T5	
+R17	found_object_at Arg1:T11 Arg2:T4	
+R18	found_object_at Arg1:T18 Arg2:T4	
+R19	crime_date_at Arg1:T12 Arg2:T3	
+R20	crime_date_at Arg1:T16 Arg2:T3	
+R21	crime_located_at Arg1:T16 Arg2:T5	
+R22	crime_located_at Arg1:T16 Arg2:T6	
+R23	crime_located_at Arg1:T16 Arg2:T7	
+R24	crime_located_at Arg1:T16 Arg2:T9	
+R25	crime_located_at Arg1:T16 Arg2:T8	
+R26	crime_located_at Arg1:T16 Arg2:T9	
+R27	crime_located_at Arg1:T16 Arg2:T10	
+T21	WEAPON 1429 1447	อาวุธปืนขนาด 9 มม.
+T22	PERSON 824 833	นายวิจิตร
+T23	PERSON 1111 1131	พ.ต.อ.เสมอ อยู่สำราญ
+T24	TIME 1245 1252	12.30 น
+T25	PERSON 1326 1335	นายวิจิตร
+T26	PERSON 1576 1585	นายวิจิตร
+T27	PERSON 1755 1764	นายวิจิตร
+T28	LOCATION 1790 1807	จ.ประจวบคีรีขันธ์
+T29	PERSON 2026 2035	นายวิจิตร

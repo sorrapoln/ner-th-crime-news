@@ -1,0 +1,27 @@
+T1	DATE 29 35	5 ก.ย.
+T2	TIME 47 55	13.30 น.
+T3	PERSON 56 75	ร.ต.อ.สุรพล ศิริไทย
+T4	ORGANIZATION 95 106	สภ.เขื่องใน
+T5	LOCATION 107 120	จ.อุบลราชธานี
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T6	LOCATION 176 196	บ้านฟื้นฟู-บ้านเสียม
+T7	LOCATION 197 205	ต.หัวตอน
+T8	LOCATION 206 216	อ.เขื่องใน
+T9	LOCATION 217 230	จ.อุบลราชธานี
+T10	ORGANIZATION 243 257	กู้ภัยเขื่องใน
+T11	ORGANIZATION 266 283	โรงพยาบาลเขื่องใน
+T12	PERSON 306 318	นายนราศักดิ์
+T13	TIME 324 329	54 ปี
+T14	WEAPON 366 383	มีดทำครัวปลายแหลม
+T15	PERSON 525 533	นางกัลยา
+T16	TIME 539 544	47 ปี
+T17	PERSON 553 565	นายนราศักดิ์
+T18	VEHICLE 679 702	รถจักรยานยนต์ฮอนด้าดรีม
+T19	COLOR 703 708	สีขาว
+T20	LP 724 740	1728 อุบลราชธานี
+R2	color_of Arg1:T18 Arg2:T19	
+R3	vehicle_lp Arg1:T18 Arg2:T20	
+T21	WEAPON 789 804	ดทำครัวปลายแหลม
+T22	OBJECT 841 849	ถุงอาหาร
+T23	LOCATION 759 781	ทางไปเถียงนาบ้านฟื้นฟู
+R4	found_object_at Arg1:T22 Arg2:T23	

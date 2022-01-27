@@ -1,0 +1,36 @@
+T1	DATE 9 18	23 ม.ค.65
+T2	PERSON 20 38	ร.ต.ท.เอกอมร สีสัน
+T3	ORGANIZATION 56 63	สภ.คูคต
+T4	LOCATION 64 79	จังหวัดปทุมธานี
+T5	WEAPON 126 129	ปืน
+T6	LOCATION 202 211	ต.ลาดสวาย
+T7	LOCATION 212 221	อ.ลำลูกกา
+T8	PERSON 272 293	พ.ต.อ.มนัสเวท ทองอิ่ม
+T9	OBJECT 378 402	ปลอกกระสุนปืน ขนาด .38 0
+T10	OBJECT 430 439	หัวกระสุน
+T11	PERSON 522 531	นายวรพงษ์
+T12	PERSON 536 538	มด
+T13	TIME 544 549	46 ปี
+T14	PERSON 679 690	นายธานินทร์
+T15	PERSON 695 699	ตั๋ม
+T16	TIME 705 710	49 ปี
+T17	PERSON 916 925	นายวรินทร
+T18	PERSON 930 935	อาร์ท
+T19	TIME 941 946	31 ปี
+T20	WEAPON 997 1000	ปืน
+T21	WEAPON 1144 1161	อาวุธปืนขนาด .380
+T22	WEAPON 1165 1183	อาวุธปืนขนาด 9 มม.
+R1	own_weapon Arg1:T17 Arg2:T21	
+R2	own_weapon Arg1:T17 Arg2:T22	
+R3	crime_relation Arg1:T17 Arg2:T11	
+R4	crime_relation Arg1:T17 Arg2:T14	
+R5	crime_located_at Arg1:T17 Arg2:T6	
+R6	crime_located_at Arg1:T17 Arg2:T7	
+R7	located_at Arg1:T11 Arg2:T6	
+R8	located_at Arg1:T11 Arg2:T7	
+R9	located_at Arg1:T14 Arg2:T7	
+R10	located_at Arg1:T14 Arg2:T6	
+R11	crime_date_at Arg1:T17 Arg2:T1	
+R12	employee_or_member_of Arg1:T2 Arg2:T3	
+T23	ORGANIZATION 298 305	สภ.คูคต
+R13	employee_or_member_of Arg1:T8 Arg2:T23	

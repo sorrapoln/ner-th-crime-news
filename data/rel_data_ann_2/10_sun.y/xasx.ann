@@ -1,0 +1,58 @@
+T1	DATE 7 16	20 ม.ค.65
+T2	LOCATION 77 85	ต.เขาตูม
+T3	LOCATION 66 76	ค่ายสิริธร
+T4	LOCATION 86 93	อ.ยะรัง
+T5	LOCATION 94 103	จ.ปัตตานี
+T6	PERSON 104 129	พ.อ. เกียรติศักดิ์ ณีวงษ์
+T7	TIME 192 200	06.00 น.
+T8	LOCATION 367 382	บ้านเลขที่ 41/1
+T9	LOCATION 383 393	บ้านเขาดิน
+T10	LOCATION 394 403	หมู่ที่ 2
+T11	LOCATION 404 413	ตำบลละหาร
+T12	LOCATION 414 426	อำเภอสายบุรี
+T13	LOCATION 427 441	จังหวัดปัตตานี
+T14	WEAPON 683 686	ปืน
+T15	PERSON 786 809	ร้อยเอก สุริยะ บินญาวัง
+T16	ORGANIZATION 848 864	โรงพยาบาลสายบุรี
+T17	ORGANIZATION 871 893	โรงพยาบาลสงขลานครินทร์
+T18	PERSON 992 1009	นายรอซาลี เจะเลาะ
+T19	TIME 1015 1020	40 ปี
+T20	PERSON 1061 1075	นายมารวาน มีทอ
+T21	TIME 1081 1086	27 ปี
+T22	OBJECT 1143 1152	ปืน AK 47
+T23	OBJECT 1157 1163	AK 102
+T24	DATE 1395 1413	ปี 2549 - ปัจจุบัน
+T25	DATE 1569 1583	24 เมษายน 2564
+T26	PERSON 1610 1633	พลโท เกรียงไกร ศรีรักษ์
+R1	own_weapon Arg1:T18 Arg2:T14	
+R2	own_weapon Arg1:T20 Arg2:T14	
+R3	crime_relation Arg1:T18 Arg2:T15	
+R4	crime_relation Arg1:T20 Arg2:T15	
+R5	located_at Arg1:T18 Arg2:T8	
+R6	located_at Arg1:T18 Arg2:T9	
+R7	located_at Arg1:T18 Arg2:T10	
+R8	located_at Arg1:T18 Arg2:T11	
+R9	located_at Arg1:T18 Arg2:T12	
+R10	located_at Arg1:T18 Arg2:T13	
+R11	located_at Arg1:T20 Arg2:T8	
+R12	located_at Arg1:T20 Arg2:T9	
+R13	located_at Arg1:T20 Arg2:T10	
+R14	located_at Arg1:T20 Arg2:T11	
+R15	located_at Arg1:T20 Arg2:T12	
+R16	located_at Arg1:T20 Arg2:T13	
+R17	found_object_at Arg1:T22 Arg2:T8	
+R18	found_object_at Arg1:T22 Arg2:T9	
+R19	found_object_at Arg1:T22 Arg2:T10	
+R20	found_object_at Arg1:T22 Arg2:T11	
+R21	found_object_at Arg1:T22 Arg2:T12	
+R22	found_object_at Arg1:T22 Arg2:T13	
+R23	found_object_at Arg1:T23 Arg2:T8	
+R24	found_object_at Arg1:T23 Arg2:T9	
+R25	found_object_at Arg1:T23 Arg2:T10	
+R26	found_object_at Arg1:T23 Arg2:T11	
+R27	found_object_at Arg1:T23 Arg2:T12	
+R28	found_object_at Arg1:T23 Arg2:T13	
+R29	crime_date_at Arg1:T18 Arg2:T1	
+R30	crime_date_at Arg1:T20 Arg2:T1	
+T27	ORGANIZATION 135 147	กอ.รมน.ภาค 4
+R31	employee_or_member_of Arg1:T6 Arg2:T27	

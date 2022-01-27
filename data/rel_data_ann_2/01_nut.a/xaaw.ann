@@ -1,0 +1,73 @@
+T1	DATE 8 15	23 ม.ค.
+T2	TIME 33 41	00.10 น.
+T3	PERSON 42 60	ร.ต.ท.เอกอมร สีสัน
+T4	ORGANIZATION 77 84	สภ.คูคต
+T5	LOCATION 85 100	จังหวัดปทุมธานี
+T6	WEAPON 148 151	ปืน
+T7	LOCATION 210 216	ซอย 14
+T8	PERSON 221 237	บ้านเลขที่ 53/73
+T9	LOCATION 243 259	หมู่บ้านพฤกษา 92
+T10	LOCATION 260 271	ตำบลลาดสวาย
+T11	LOCATION 272 284	อำเภอลำลูกกา
+T12	LOCATION 285 300	จังหวัดปทุมธานี
+T13	PERSON 351 372	พ.ต.อ.มนัสเวท ทองอิ่ม
+T14	PERSON 386 411	พ.ต.ท.ประสิทธิ์ สมบุญจิตร
+T15	ORGANIZATION 433 440	สภ.คูคต
+T16	PERSON 442 465	พ.ต.ท.สัมพันธ์ ทิมเจริญ
+T17	PERSON 479 506	พ.ต.ท.กัณตภณ ธนาธิปปิ่นสกุล
+T18	PERSON 527 548	พ.ต.ต.ภัทระ เหล่ามีผล
+T19	ORGANIZATION 610 617	สภ.คูคต
+T20	ORGANIZATION 555 562	สภ.คูคต
+T21	ORGANIZATION 684 708	ชุดสืบสวนจังหวัดปทุมธานี
+T22	ORGANIZATION 735 750	โรงพยาบาลภูมิพล
+T23	ORGANIZATION 772 790	มูลนิธิป่อเต็กตึ๊ง
+T24	OBJECT 920 942	ปลอกกระสุนปืน ขนาด 380
+T25	OBJECT 975 984	หัวกระสุน
+T26	PERSON 1140 1149	นายวรพงษ์
+T27	PERSON 1155 1168	มด พินทฺวัฒน์
+T28	TIME 1174 1179	46 ปี
+T29	LOCATION 1184 1200	บ้านเลขที่ 35/99
+T30	LOCATION 1201 1217	หมู่บ้านพฤกษา 92
+T31	LOCATION 1326 1339	หน้าปากซอย 14
+T32	PERSON 1379 1390	นายธานินทร์
+T33	PERSON 1396 1407	ตั๋ม ชลิงสุ
+T34	TIME 1413 1418	49 ปี
+T35	LOCATION 1435 1447	ตำบลบึงยี่โถ
+T36	LOCATION 1452 1468	บ้านเลขที่ 35/37
+T37	LOCATION 1469 1485	หมู่บ้านพฤกษา 92
+T38	LOCATION 1486 1492	หมู่ 9
+T39	LOCATION 1493 1499	ซอย 14
+T40	LOCATION 1500 1509	ต.ลาดสวาย
+T41	LOCATION 1510 1519	อ.ลำลูกกา
+T42	LOCATION 1520 1530	จ.ปทุมธานี
+R1	located_at Arg1:T32 Arg2:T35	
+R2	located_at Arg1:T32 Arg2:T36	
+R3	located_at Arg1:T32 Arg2:T37	
+R4	located_at Arg1:T32 Arg2:T38	
+R5	located_at Arg1:T32 Arg2:T39	
+R6	located_at Arg1:T32 Arg2:T40	
+R7	located_at Arg1:T32 Arg2:T41	
+R8	located_at Arg1:T32 Arg2:T42	
+R9	located_at Arg1:T26 Arg2:T29	
+R10	located_at Arg1:T26 Arg2:T30	
+R11	crime_located_at Arg1:T26 Arg2:T31	
+R12	employee_or_member_of Arg1:T3 Arg2:T4	
+R13	employee_or_member_of Arg1:T14 Arg2:T15	
+T43	ORGANIZATION 377 384	สภ.คูคต
+R14	employee_or_member_of Arg1:T13 Arg2:T43	
+T44	ORGANIZATION 518 525	สภ.คูคต
+R15	employee_or_member_of Arg1:T17 Arg2:T44	
+R16	employee_or_member_of Arg1:T18 Arg2:T20	
+R17	located_at Arg1:T3 Arg2:T5	
+R18	crime_located_at Arg1:T26 Arg2:T7	
+R19	crime_relation Arg1:T26 Arg2:T8	
+R20	crime_located_at Arg1:T26 Arg2:T9	
+R21	crime_located_at Arg1:T26 Arg2:T10	
+R22	crime_located_at Arg1:T26 Arg2:T11	
+R23	crime_located_at Arg1:T26 Arg2:T12	
+R24	crime_located_at Arg1:T32 Arg2:T7	
+R25	crime_relation Arg1:T32 Arg2:T8	
+R26	crime_located_at Arg1:T32 Arg2:T9	
+R27	crime_located_at Arg1:T32 Arg2:T10	
+R28	crime_located_at Arg1:T32 Arg2:T11	
+R29	crime_located_at Arg1:T32 Arg2:T12	

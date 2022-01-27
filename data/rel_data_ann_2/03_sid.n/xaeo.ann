@@ -1,0 +1,51 @@
+T1	DATE 7 14	27 ต.ค.
+T2	PERSON 15 43	พ.ต.อ.บุญเชิญ ลิ่มประจวบพงษ์
+T3	ORGANIZATION 48 57	สภ.นบพิตำ
+T4	LOCATION 58 73	จ.นครศรีธรรมราช
+T5	DATE 102 109	26 ต.ค.
+T6	LOCATION 157 172	บ้านเลขที่ 16/5
+T7	LOCATION 173 179	หมู่ 5
+T8	LOCATION 180 188	ต.นบพิตำ
+T9	LOCATION 189 197	อ.นบพิตำ
+T10	LOCATION 198 213	จ.นครศรีธรรมราช
+T11	PERSON 228 247	พ.ต.ท.สมพร รัก แก้ว
+T12	ORGANIZATION 258 267	สภ.นบพิตำ
+T13	PERSON 269 292	พ.ต.ท.ประยงค์ เห็นพร้อม
+T14	ORGANIZATION 304 314	สภ.ราชกรูด
+T15	ORGANIZATION 330 339	สภ.นบพิตำ
+T16	PERSON 340 358	พ.ต.ท.ธรพล ห่อหุ้ม
+T17	ORGANIZATION 363 372	สภ.นบพิตำ
+T18	PERSON 374 395	พ.ต.ท.ไพโรจน์ แสงสงวน
+T19	ORGANIZATION 402 411	สภ.นบพิตำ
+T20	PERSON 412 430	ร.ต.อ.ทวีป บัวเพชร
+T21	PERSON 442 459	ร.ต.อ.มโนชา ปานคง
+T22	PERSON 460 480	ร.ต.อ.จตุพร รักเถาว์
+T23	PERSON 580 598	นายพรพิชัย กังเซ่ง
+T24	TIME 604 609	46 ปี
+T25	PERSON 633 646	ปู้ ทอนผักกูด
+T26	PERSON 783 793	นายพรพิชัย
+T27	PERSON 795 808	ปู้ ทอนผักกูด
+T28	OBJECT 901 906	ยาบ้า
+T29	PERSON 977 987	นายพรพิชัย
+T30	PERSON 989 1002	ปู้ ทอนผักกูด
+T31	VEHICLE 968 974	รถยนต์
+T32	VEHICLE 1011 1017	อิซูซุ
+T33	COLOR 1018 1030	สีบรอนซ์เงิน
+T34	LP 1039 1060	บธ-6530 นครศรีธรรมราช
+T35	OBJECT 1063 1068	ยาบ้า
+T36	OBJECT 1091 1096	ยาบ้า
+T37	PERSON 1127 1137	นายพรพิชัย
+T38	PERSON 1139 1152	ปู้ ทอนผักกูด
+T39	ORGANIZATION 1193 1202	สภ.นบพิตำ
+T40	LOCATION 1203 1218	จ.นครศรีธรรมราช
+R1	own_vehicle Arg1:T23 Arg2:T31	
+R2	color_of Arg1:T31 Arg2:T33	
+R3	vehicle_lp Arg1:T31 Arg2:T34	
+R4	color_of Arg1:T32 Arg2:T33	
+R5	vehicle_lp Arg1:T32 Arg2:T34	
+R6	located_at Arg1:T23 Arg2:T6	
+R7	located_at Arg1:T23 Arg2:T7	
+R8	located_at Arg1:T23 Arg2:T8	
+R9	located_at Arg1:T23 Arg2:T9	
+R10	located_at Arg1:T23 Arg2:T10	
+R11	crime_date_at Arg1:T23 Arg2:T5	

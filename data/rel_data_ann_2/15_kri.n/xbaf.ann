@@ -1,0 +1,62 @@
+T1	LOCATION 14 27	จังหวัดพัทลุง
+T2	TIME 44 52	21.45 น.
+T3	DATE 59 73	23 มกราคม 2565
+T4	PERSON 84 100	พ.ต.ท.วุฒิ วรรณะ
+T5	LOCATION 124 132	จ.พัทลุง
+T6	LOCATION 229 232	ม.5
+T7	LOCATION 233 241	ต.เขาปู่
+T8	PERSON 291 311	พ.ต.อ.ทิวากร คงเพ็ชร
+T9	PERSON 328 351	พ.ต.ท.นิวัฒน์ หมั่นสกุล
+T10	LOCATION 487 500	บ้านเลขที่ 36
+T12	LOCATION 511 519	ต.เขาปู่
+T13	LOCATION 520 530	อ.ศรีบรรพต
+T11	LOCATION 501 510	หมู่ที่ 5
+T14	LOCATION 531 539	จ.พัทลุง
+T15	ORGANIZATION 625 636	รพ.ศรีบรรพต
+T16	OBJECT 747 771	ปลอกกระสุนปืนขนาด 11 มม.
+T17	OBJECT 805 814	หัวกระสุน
+T18	PERSON 913 931	นายสมศักดิ์ รัตนทอ
+T19	TIME 938 943	69 ปี
+T20	TIME 1296 1301	41 ปี
+T21	LOCATION 948 961	บ้านเลขที่ 36
+T22	LOCATION 962 965	ม.5
+T23	LOCATION 966 974	ต.เขาปู่
+T24	LOCATION 975 985	อ.ศรีบรรพต
+T25	LOCATION 986 994	จ.พัทลุง
+T26	WEAPON 1028 1041	ปืนขนาด 11 มม
+T27	PERSON 1128 1149	นางสาวเตือนใจ หนูจุ้ย
+T28	TIME 1155 1160	52 ปี
+T29	PERSON 1276 1290	พีรพัฒน์ วรศรี
+T30	LOCATION 1306 1322	บ้านเลขที่ 50/13
+T31	LOCATION 1323 1342	ซอย 8(อภัยบริรักษ์)
+T32	LOCATION 1343 1357	ถ.อภัยบริรักษ์
+T33	LOCATION 1358 1370	ต.คูหาสวรรค์
+T34	LOCATION 1371 1384	อ.เมืองพัทลุง
+T35	LOCATION 1385 1407	ในเขตเทศบาลเมืองพัทลุง
+T36	VEHICLE 1443 1462	รถกระบะโตโยต้าวีโว้
+T37	COLOR 1463 1467	สีดำ
+T38	LP 1484 1498	กจ.9987 พัทลุง
+R1	color_of Arg1:T36 Arg2:T37	
+R2	vehicle_lp Arg1:T36 Arg2:T38	
+R3	located_at Arg1:T29 Arg2:T30	
+R4	located_at Arg1:T29 Arg2:T31	
+R5	located_at Arg1:T29 Arg2:T32	
+R6	located_at Arg1:T29 Arg2:T33	
+R7	located_at Arg1:T29 Arg2:T34	
+R8	located_at Arg1:T29 Arg2:T35	
+R9	located_at Arg1:T18 Arg2:T21	
+R10	located_at Arg1:T18 Arg2:T22	
+R11	located_at Arg1:T18 Arg2:T23	
+R12	located_at Arg1:T18 Arg2:T24	
+R13	crime_located_at Arg1:T18 Arg2:T25	
+R14	crime_relation Arg1:T29 Arg2:T18	
+R15	own_weapon Arg1:T29 Arg2:T26	
+R16	own_vehicle Arg1:T29 Arg2:T36	
+R17	crime_located_at Arg1:T29 Arg2:T10	
+R18	crime_located_at Arg1:T29 Arg2:T11	
+R19	crime_located_at Arg1:T29 Arg2:T12	
+R20	crime_located_at Arg1:T29 Arg2:T13	
+R21	crime_located_at Arg1:T29 Arg2:T14	
+R22	crime_time_at Arg1:T29 Arg2:T2	
+R23	crime_date_at Arg1:T29 Arg2:T3	
+T39	LOCATION 555 575	ถนนสายควนขนุน-เขาปู่

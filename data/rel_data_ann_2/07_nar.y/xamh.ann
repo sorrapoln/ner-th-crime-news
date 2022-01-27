@@ -1,0 +1,48 @@
+T1	TIME 10 18	06.00 น.
+T2	DATE 25 34	22 ส.ค.64
+T3	PERSON 35 58	พ.ต.อ.คมสันต์ สะอาดล้วน
+T4	ORGANIZATION 63 72	สภ.แม่ออน
+T5	PERSON 73 89	พ.ต.ต.วิทยา ใจคำ
+T6	ORGANIZATION 96 105	สภ.แม่ออน
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+R2	employee_or_member_of Arg1:T5 Arg2:T6	
+T7	ORGANIZATION 120 129	สภ.แม่ออน
+T8	PERSON 145 156	นายวิสุทธิ์
+T9	TIME 162 167	47 ปี
+T10	OBJECT 189 233	ปืน ไทยประดิษฐ์ขนาดใช้กับกระสุนขนาด เบอร์ 12
+T11	OBJECT 242 269	กระบอกกระสุนปืนขนาดเบอร์ 12
+T12	TIME 362 370	20.40 น.
+T13	DATE 377 386	20 ส.ค.64
+T14	WEAPON 447 461	ปืนไทยประดิษฐ์
+T15	ORGANIZATION 475 506	ร้านสะดวกซื้อ (7-11) สาขาแม่ออน
+T16	LOCATION 507 525	ถ.เชียงใหม่-แม่ออน
+T17	LOCATION 526 535	หมู่ที่ 2
+T18	LOCATION 536 548	ต.บ้านสหกรณ์
+T19	LOCATION 549 557	อ.แม่ออน
+T20	LOCATION 558 569	จ.เชียงใหม่
+T21	LOCATION 820 829	เลขที่ 69
+T22	LOCATION 830 840	หมู่ที่ 11
+T23	LOCATION 841 852	บ้านออนกลาง
+T24	LOCATION 853 862	ต.ออนกลาง
+T25	LOCATION 863 871	อ.แม่ออน
+T26	LOCATION 872 883	จ.เชียงใหม่
+R3	crime_time_at Arg1:T8 Arg2:T12	
+R4	crime_date_at Arg1:T8 Arg2:T13	
+R5	own_weapon Arg1:T8 Arg2:T14	
+R6	crime_located_at Arg1:T8 Arg2:T16	
+R7	crime_located_at Arg1:T8 Arg2:T17	
+R8	crime_located_at Arg1:T8 Arg2:T18	
+R9	crime_located_at Arg1:T8 Arg2:T19	
+R10	crime_located_at Arg1:T8 Arg2:T20	
+R11	found_object_at Arg1:T10 Arg2:T21	
+R12	found_object_at Arg1:T10 Arg2:T22	
+R13	found_object_at Arg1:T10 Arg2:T23	
+R14	found_object_at Arg1:T10 Arg2:T24	
+R15	found_object_at Arg1:T10 Arg2:T25	
+R16	found_object_at Arg1:T10 Arg2:T26	
+R17	found_object_at Arg1:T11 Arg2:T21	
+R18	found_object_at Arg1:T11 Arg2:T22	
+R19	found_object_at Arg1:T11 Arg2:T23	
+R20	found_object_at Arg1:T11 Arg2:T24	
+R21	found_object_at Arg1:T11 Arg2:T25	
+R22	found_object_at Arg1:T11 Arg2:T26	

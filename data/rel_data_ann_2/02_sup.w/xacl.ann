@@ -1,0 +1,13 @@
+T1	DATE 8 19	8 มิ.ย.2564
+T2	PERSON 44 64	นายไพโรจน์ พรหมเมือง
+T3	TIME 70 75	54 ปี
+T4	LOCATION 86 98	ต.หนองปลาไหล
+T5	LOCATION 99 113	อ.เมืองสระบุรี
+T6	LOCATION 114 123	จ.สระบุรี
+T7	PERSON 128 152	นางลำเพียร พรหมเมืองเก่า
+T8	TIME 158 163	74 ปี
+T9	PERSON 178 188	นายไพโรจน์
+T10	WEAPON 690 693	ไม้
+R1	located_at Arg1:T2 Arg2:T4	
+R2	located_at Arg1:T2 Arg2:T5	
+R3	located_at Arg1:T2 Arg2:T6	

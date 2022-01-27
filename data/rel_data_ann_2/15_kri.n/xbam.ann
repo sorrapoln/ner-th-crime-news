@@ -1,0 +1,10 @@
+T1	DATE 7 13	10 ก.พ
+T2	PERSON 67 85	นายนาโอคิ โยโซมิยะ
+T3	TIME 91 96	20 ปี
+T4	ORGANIZATION 124 139	มหาวิทยาลัยโชวะ
+T5	LOCATION 207 218	กรุงโตเกียว
+T6	DATE 254 268	18 ธ.ค.ปี 2561
+T7	PERSON 386 396	นายโยโซมิย
+T8	LOCATION 421 435	หน้าต่างชั้น 5
+R1	crime_date_at Arg1:T2 Arg2:T6	
+R2	located_at Arg1:T2 Arg2:T8	

@@ -1,0 +1,12 @@
+T1	TIME 61 66	45 ปี
+T2	LOCATION 99 110	ถนนรอบเมือง
+T3	LOCATION 116 132	เทศบาลนครขอนแก่น
+T4	DATE 381 391	27 กันยายน
+T5	ORGANIZATION 462 485	สำนักงานตรวจคนเข้าเมือง
+T6	ORGANIZATION 442 457	ตำรวจท่องเที่ยว
+T7	PERSON 555 566	นายโรเบิร์ต
+T8	TIME 572 577	37 ปี
+T9	ORGANIZATION 624 641	ศาลจังหวัดขอนแก่น
+R1	crime_located_at Arg1:T7 Arg2:T2	
+R2	crime_located_at Arg1:T7 Arg2:T3	
+R3	crime_date_at Arg1:T7 Arg2:T4	

@@ -1,0 +1,22 @@
+T1	DATE 8 18	23 ม.ค. 65
+T2	TIME 30 38	11.50 น.
+T3	PERSON 49 72	พ.ต.ท.เปลวทอง สารีนันท์
+T4	ORGANIZATION 89 105	สภ.เมืองอุดรธานี
+T5	ORGANIZATION 119 140	ศูนย์วิทยุร่มโพธิ์ทอง
+T6	LOCATION 179 188	ถนนศรีสุข
+T7	LOCATION 189 209	เขตเทศบาลนครอุดรธานี
+T8	LOCATION 210 220	จ.อุดรธานี
+T9	ORGANIZATION 243 259	สภ.เมืองอุดรธานี
+T10	PERSON 325 347	นายประหยัด เอี่ยมสำอาง
+T11	TIME 353 358	53 ปี
+T12	VEHICLE 604 617	รถจักรยานยนต์
+T13	VEHICLE 673 686	รถจักรยานยนต์
+T14	TIME 635 644	5-6 เดือน
+T15	VEHICLE 939 952	รถจักรยานยนต์
+T16	VEHICLE 1153 1174	รถจักรยานยนต์พ่วงข้าง
+T17	COLOR 1206 1213	สีดำเทา
+T18	LP 1222 1240	1 กฌ 9831 อุดรธานี
+R1	color_of Arg1:T16 Arg2:T17	
+R2	vehicle_lp Arg1:T16 Arg2:T18	
+R3	own_vehicle Arg1:T10 Arg2:T12	
+R4	employee_or_member_of Arg1:T3 Arg2:T4	

@@ -1,0 +1,17 @@
+T1	TIME 10 18	08.00 น.
+T2	DATE 26 35	19 พ.ค.64
+T3	PERSON 36 61	ร.ต.อ.สุรินทร์ ตะกรุดเพชร
+T4	ORGANIZATION 78 89	สภ.แก่งโสภา
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	LOCATION 116 130	บ้านเลขที่ 259
+T6	LOCATION 131 134	ม.8
+T7	LOCATION 135 148	บ้านหินประกาย
+T8	LOCATION 149 159	ต.บ้านกลาง
+T9	LOCATION 160 168	อ.วังทอง
+T10	LOCATION 169 179	จ.พิษณุโลก
+T11	ORGANIZATION 218 227	รพ.วังทอง
+T12	ORGANIZATION 242 273	หน่วยกู้ภัยมูลนิธิประสาทบุญสถาน
+T13	PERSON 331 347	นายภาคภูมิ สุขตา
+T14	TIME 353 358	58 ปี
+T15	WEAPON 403 410	ของแข็ง
+T16	TIME 492 501	5 ชั่วโมง

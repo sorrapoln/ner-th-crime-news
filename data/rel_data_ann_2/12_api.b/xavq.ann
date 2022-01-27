@@ -1,0 +1,56 @@
+T1	DATE 12 19	21 ม.ค.
+T2	DATE 49 56	20 ม.ค.
+T3	LOCATION 81 102	ศาลจังหวัดสมุทรปราการ
+T4	LOCATION 202 220	จังหวัดสมุทรปราการ
+T5	PERSON 221 226	โจทก์
+T6	PERSON 230 253	นางสาววราลี เสริมจันทร์
+T7	PERSON 273 292	นางกมลวรรณ จีนจะโปะ
+T8	TIME 298 303	53 ปี
+T9	LOCATION 350 367	หมู่บ้านสวัสดิ์ดี
+T10	LOCATION 368 376	ต.แพรกษา
+T11	LOCATION 377 384	อ.เมือง
+T12	LOCATION 385 398	จ.สมุทรปราการ
+T13	PERSON 410 429	นางอัมพร ดาวเรรัมย์
+T14	TIME 435 440	31 ปี
+T15	DATE 546 557	30 เม.ย. 61
+T16	PERSON 558 579	น.ส.วราลี เสริมจันทร์
+T17	TIME 585 590	39 ปี
+T18	PERSON 600 620	ด.ช.จตุภัทร วรศาสตร์
+T19	TIME 626 634	11 เดือน
+T20	PERSON 639 647	น้องนาวา
+R1	located_at Arg1:T7 Arg2:T9	
+R2	located_at Arg1:T7 Arg2:T10	
+R3	located_at Arg1:T7 Arg2:T11	
+R4	located_at Arg1:T7 Arg2:T12	
+T21	TIME 744 752	11 เดือน
+T22	PERSON 777 785	น้องนาวา
+T23	PERSON 813 819	ครูอ้อ
+T24	LOCATION 825 839	หมู่บ้านสวัสดี
+T25	LOCATION 840 856	เลขที่ 986 / 116
+T26	LOCATION 857 863	หมู่ 4
+T27	LOCATION 864 872	ต.แพรกษา
+T28	LOCATION 873 880	อ.เมือง
+T29	LOCATION 881 894	จ.สมุทรปราการ
+T30	TIME 956 964	13.25 น.
+T31	DATE 972 980	25 เม.ย.
+T32	PERSON 1008 1016	น้องนาวา
+R10	crime_date_at Arg1:T7 Arg2:T15	
+R11	crime_date_at Arg1:T13 Arg2:T15	
+R12	crime_located_at Arg1:T7 Arg2:T24	
+R13	crime_located_at Arg1:T7 Arg2:T25	
+R14	crime_located_at Arg1:T7 Arg2:T26	
+R15	crime_located_at Arg1:T7 Arg2:T27	
+R16	crime_located_at Arg1:T7 Arg2:T28	
+R17	crime_located_at Arg1:T7 Arg2:T29	
+R18	crime_time_at Arg1:T7 Arg2:T30	
+R19	crime_date_at Arg1:T7 Arg2:T31	
+R20	crime_located_at Arg1:T13 Arg2:T24	
+R21	crime_located_at Arg1:T13 Arg2:T25	
+R22	crime_located_at Arg1:T13 Arg2:T26	
+R23	crime_located_at Arg1:T13 Arg2:T27	
+R24	crime_located_at Arg1:T13 Arg2:T28	
+R25	crime_located_at Arg1:T13 Arg2:T29	
+R26	crime_time_at Arg1:T13 Arg2:T30	
+R27	crime_date_at Arg1:T13 Arg2:T31	
+R5	crime_relation Arg1:T13 Arg2:T20	
+R6	crime_relation Arg1:T7 Arg2:T20	

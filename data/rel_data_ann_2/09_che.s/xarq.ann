@@ -1,0 +1,22 @@
+T1	WEAPON 21 24	ปืน
+T2	PERSON 35 44	นายสมเพ็ญ
+T3	TIME 66 71	58 ปี
+T4	LOCATION 102 111	จ.สระบุรี
+T5	LOCATION 126 132	ซอย 19
+T6	LOCATION 133 153	ถนนพิชัยรณรงค์สงคราม
+T7	LOCATION 154 165	ต.ปากเพรียว
+T8	LOCATION 166 174	อ. เมือง
+T9	LOCATION 175 184	จ.สระบุรี
+T10	DATE 207 214	19 ต.ค.
+T11	OBJECT 376 397	ปลอกกระสุนขนาด 11 มม.
+T12	DATE 419 430	20 ต.ค.2564
+T13	ORGANIZATION 446 461	สภ.เมืองสระบุรี
+T14	DATE 621 629	นายพิชิต
+T15	PERSON 1043 1053	นายภาคภูมิ
+T16	TIME 1059 1064	33 ปี
+T17	WEAPON 1412 1426	ปืนขนาด 11 มม.
+R1	located_at Arg1:T2 Arg2:T5	
+R2	located_at Arg1:T2 Arg2:T6	
+R3	located_at Arg1:T2 Arg2:T7	
+R4	located_at Arg1:T2 Arg2:T8	
+R5	located_at Arg1:T2 Arg2:T9	

@@ -1,0 +1,18 @@
+T1	PERSON 34 43	นายศุภชัย
+T2	TIME 63 68	23 ปี
+T3	LOCATION 111 122	จังหวัดยะลา
+T4	DATE 427 436	19 มกราคม
+T5	TIME 458 466	18.00 น.
+R1	crime_date_at Arg1:T1 Arg2:T4	
+R2	crime_time_at Arg1:T1 Arg2:T5	
+T6	WEAPON 480 498	ระเบิดซึ่งประดิษฐ์
+T7	LOCATION 550 556	หมู่ 4
+T8	LOCATION 557 565	ต.ลำพะยา
+T9	LOCATION 566 573	อ.เมือง
+T10	LOCATION 574 580	จ.ยะลา
+T11	VEHICLE 606 625	กระบะ อีซูซุ ดีแม็ก
+R3	own_weapon Arg1:T1 Arg2:T6	
+R4	crime_located_at Arg1:T1 Arg2:T7	
+R5	crime_located_at Arg1:T1 Arg2:T8	
+R6	crime_located_at Arg1:T1 Arg2:T9	
+R7	crime_located_at Arg1:T1 Arg2:T10	

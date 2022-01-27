@@ -1,0 +1,27 @@
+T1	ORGANIZATION 17 31	สน.ราษฎร์บูรณะ
+T2	VEHICLE 54 60	รถยนต์
+T3	ORGANIZATION 102 107	วัดสน
+T4	LOCATION 108 121	ถนนสุขสวัสดิ์
+T5	LOCATION 125 141	ซอยสุขสวัสดิ์ 35
+T6	LOCATION 146 154	ซอยวัดสน
+T7	LOCATION 155 170	แขวงราษฎร์บูรณะ
+T8	LOCATION 171 185	เขตราษฎร์บูรณะ
+T9	LOCATION 186 199	กรุงเทพมหานคร
+T10	PERSON 335 350	พระจรัญ สุขเกษม
+T11	TIME 356 361	70 ปี
+T12	ORGANIZATION 375 383	วัดสนบวช
+T13	VEHICLE 529 535	รถยนต์
+T14	VEHICLE 553 555	รถ
+T15	VEHICLE 570 572	รถ
+T16	PERSON 605 624	นายเฉลิมชัย สุขเกษม
+T17	TIME 630 635	47 ปี
+T18	PERSON 652 670	น.ส.อังคนา สุขเกษม
+T19	TIME 676 681	26 ปี
+T20	PERSON 789 800	นายเฉลิมชัย
+R1	crime_located_at Arg1:T10 Arg2:T4	
+R2	crime_located_at Arg1:T10 Arg2:T5	
+R3	crime_located_at Arg1:T10 Arg2:T6	
+R4	crime_located_at Arg1:T10 Arg2:T7	
+R5	crime_located_at Arg1:T10 Arg2:T8	
+R6	crime_located_at Arg1:T10 Arg2:T9	
+R7	employee_or_member_of Arg1:T10 Arg2:T12	

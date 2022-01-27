@@ -1,0 +1,47 @@
+T1	TIME 10 18	03.55 น.
+T2	DATE 26 40	22 มกราคม 2565
+T3	PERSON 41 61	พ.ต.ท.ภูชิต เกตุแก้ว
+T4	ORGANIZATION 79 96	สภ.เมืองกาญจนบุรี
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	ORGANIZATION 110 140	ศูนย์วิทยุมูลนิธิพิทักษ์กาญจน์
+T6	LOCATION 224 235	ซอยศรีลังกา
+T7	LOCATION 236 246	ต.ท่ามะขาม
+T8	LOCATION 247 254	อ.เมือง
+T9	LOCATION 255 266	จ.กาญจนบุรี
+T10	PERSON 302 324	พ.ต.อ.สมเกียรติ โฉมฉาย
+T11	ORGANIZATION 329 346	สภ.เมืองกาญจนบุรี
+R2	employee_or_member_of Arg1:T10 Arg2:T11	
+T12	PERSON 353 372	พ.ต.ท.วศิน พลายศิริ
+T13	ORGANIZATION 384 401	สภ.เมืองกาญจนบุรี
+R3	employee_or_member_of Arg1:T12 Arg2:T13	
+T14	PERSON 406 425	พ.ต.ต.มารุต ฉัตรทัน
+T15	ORGANIZATION 432 449	สภ.เมืองกาญจนบุรี
+R4	employee_or_member_of Arg1:T14 Arg2:T15	
+T16	PERSON 454 472	พ.ต.ท.ภูชิต ประสาน
+T17	LOCATION 501 513	จว.กาญจนบุรี
+T18	ORGANIZATION 514 529	ตำรวจท่องเที่ยว
+T19	ORGANIZATION 545 561	รพ.พหลพลพยุหเสนา
+T20	LOCATION 585 601	บ้านเลขที่ 236/2
+T21	LOCATION 602 613	ซอยศรีลังกา
+T22	LOCATION 614 624	ต.ท่ามะขาม
+T23	LOCATION 625 632	อ.เมือง
+T24	LOCATION 633 644	จ.กาญจนบุรี
+T25	PERSON 663 679	นายมาร์คุส จอห์น
+T26	TIME 685 690	49 ปี
+T27	LOCATION 694 700	อังกฤษ
+T28	PERSON 778 790	นายชอน เควิน
+T29	TIME 796 801	55 ปี
+T30	LOCATION 805 811	อังกฤษ
+T31	OBJECT 852 860	มีดเคียว
+T32	OBJECT 884 891	รองเท้า
+T33	ORGANIZATION 962 984	โรงพยาบาลพหลพลพยุหเสนา
+R5	found_object_at Arg1:T31 Arg2:T20	
+R6	found_object_at Arg1:T31 Arg2:T21	
+R7	found_object_at Arg1:T31 Arg2:T22	
+R8	found_object_at Arg1:T31 Arg2:T23	
+R9	found_object_at Arg1:T31 Arg2:T24	
+R10	found_object_at Arg1:T32 Arg2:T20	
+R11	found_object_at Arg1:T32 Arg2:T21	
+R12	found_object_at Arg1:T32 Arg2:T22	
+R13	found_object_at Arg1:T32 Arg2:T23	
+R14	found_object_at Arg1:T32 Arg2:T24	

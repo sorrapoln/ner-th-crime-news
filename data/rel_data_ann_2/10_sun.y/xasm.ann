@@ -1,0 +1,23 @@
+T1	DATE 0 11	20 ม.ค.2565
+T2	ORGANIZATION 31 56	กองบัญชาการตำรวจภูธรภาค 9
+T3	LOCATION 108 121	จังหวัดพัทลุง
+T4	LOCATION 172 181	ตำบลชะมวง
+T5	LOCATION 182 194	อำเภอควนขนุน
+T6	LOCATION 195 208	จังหวัดพัทลุง
+T7	PERSON 227 238	นายประดิษฐ์
+T8	TIME 258 263	41 ปี
+T9	WEAPON 459 466	ปืน M16
+R1	own_weapon Arg1:T7 Arg2:T9	
+R2	located_at Arg1:T7 Arg2:T4	
+R3	located_at Arg1:T7 Arg2:T5	
+R4	located_at Arg1:T7 Arg2:T6	
+T10	DATE 514 523	19 ม.ค.65
+T11	DATE 539 548	20 ม.ค.65
+R5	crime_date_at Arg1:T7 Arg2:T10	
+T12	VEHICLE 619 625	รถเก๋ง
+T13	COLOR 625 630	สีขาว
+R6	color_of Arg1:T12 Arg2:T13	
+T14	LOCATION 676 687	ตำบลลานข่อย
+T15	LOCATION 688 701	อำเภอป่าพะยอม
+T16	LOCATION 702 715	จังหวัดพัทลุง
+R7	own_vehicle Arg1:T7 Arg2:T12	

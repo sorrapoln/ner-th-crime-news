@@ -1,0 +1,18 @@
+T1	PERSON 8 26	น.ส.พิชชาพร คิดชอบ
+T2	PERSON 32 34	โอ
+T3	PERSON 159 183	นายเจสัน แมทธิว บัลเซอร์
+T4	PERSON 273 284	น.ส.พิชชาพร
+T5	PERSON 487 498	น.ส.พิชชาพร
+T6	PERSON 521 529	นายเจสัน
+T7	PERSON 695 706	น.ส.พิชชาพร
+T8	TIME 40 45	32 ปี
+T9	TIME 57 64	2 เดือน
+T10	VEHICLE 237 253	มอเตอร์ไซค์วิบาก
+T11	LOCATION 197 205	อเมริกัน
+R1	own_vehicle Arg1:T3 Arg2:T10	
+R2	located_at Arg1:T3 Arg2:T11	
+T12	LOCATION 340 349	ต.ไชยสถาน
+T13	LOCATION 350 361	อ.เมืองน่าน
+R3	located_at Arg1:T1 Arg2:T12	
+R4	located_at Arg1:T1 Arg2:T13	
+T14	LOCATION 533 539	ภูเก็ต

@@ -1,0 +1,45 @@
+T1	DATE 12 19	22 ม.ค.
+T2	PERSON 57 76	นายสราวุธ ศิลป์มั่น
+T3	TIME 82 87	29 ปี
+T4	WEAPON 107 118	ปืน เอ็ม 16
+T5	VEHICLE 149 162	กระบะ โตโยต้า
+T6	COLOR 163 171	สีบรอนซ์
+R1	color_of Arg1:T5 Arg2:T6	
+T7	LP 187 201	บบ 4245 ลพบุรี
+R2	vehicle_lp Arg1:T5 Arg2:T7	
+T8	COLOR 241 245	สีดำ
+T9	WEAPON 415 418	ปืน
+T10	LOCATION 469 482	แยกประชาอุทิศ
+T11	LOCATION 498 506	กรุงเทพฯ
+T12	ORGANIZATION 513 529	ศาลจังหวัดลพบุรี
+T13	PERSON 543 552	นายสราวุธ
+T14	PERSON 706 715	นายสราวุธ
+T15	LOCATION 740 749	อ.วังน้อย
+T16	LOCATION 750 758	จ.อยุธยา
+T17	VEHICLE 824 829	กระบะ
+T18	TIME 888 896	18.35 น.
+T19	PERSON 897 906	นายสราวุธ
+T20	LOCATION 954 959	ทล.35
+T21	LOCATION 960 971	ถนนพระราม 2
+T22	LOCATION 972 986	กิโลเมตรที่ 49
+T23	LOCATION 987 994	ต.นาโคก
+T24	LOCATION 995 1002	อ.เมือง
+T25	LOCATION 1003 1014	จ.สมุทรสาคร
+T26	LOCATION 1072 1083	ถนนพระราม 2
+T27	LOCATION 1054 1071	สถานีบริการน้ำมัน
+T28	LOCATION 1084 1091	อ.เมือง
+T29	LOCATION 1092 1103	จ.สมุทรสาคร
+T30	OBJECT 1120 1129	ปืนเอ็ม16
+T31	TIME 1140 1148	22.00 น.
+R3	found_object_at Arg1:T30 Arg2:T27	
+R4	found_object_at Arg1:T30 Arg2:T26	
+R5	found_object_at Arg1:T30 Arg2:T28	
+R6	found_object_at Arg1:T30 Arg2:T29	
+R7	crime_located_at Arg1:T2 Arg2:T27	
+R8	crime_located_at Arg1:T2 Arg2:T26	
+R9	crime_located_at Arg1:T2 Arg2:T28	
+R10	crime_located_at Arg1:T2 Arg2:T29	
+R11	crime_time_at Arg1:T2 Arg2:T31	
+R12	crime_date_at Arg1:T2 Arg2:T1	
+R13	own_vehicle Arg1:T2 Arg2:T5	
+R14	own_weapon Arg1:T2 Arg2:T4	

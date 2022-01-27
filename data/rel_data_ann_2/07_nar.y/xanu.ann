@@ -1,0 +1,35 @@
+T1	DATE 29 36	22 ส.ค.
+T2	TIME 48 56	15.00 น.
+T3	ORGANIZATION 63 73	สน.หัวหมาก
+T4	LOCATION 122 133	ถนนพระราม 9
+T5	LOCATION 154 171	แขวงและเขตสวนหลวง
+T6	LOCATION 172 176	กทม.
+T7	PERSON 244 252	นายสุนทร
+T8	TIME 258 263	41 ปี
+T9	COLOR 348 354	สีม่วง
+T10	COLOR 370 375	สีเทา
+T11	COLOR 390 403	สีเขียวขี้ม้า
+T12	OBJECT 432 437	ยาบ้า
+T13	OBJECT 480 484	ไอซ์
+T14	VEHICLE 655 676	ถเก๋งฮอนด้า รุ่นซิตี้
+T15	COLOR 677 682	สีขาว
+T16	LP 698 716	4576 กรุงเทพมหานคร
+R1	color_of Arg1:T14 Arg2:T15	
+R2	vehicle_lp Arg1:T14 Arg2:T16	
+T17	VEHICLE 863 887	ถเก๋งฮอนด้า รุ่นแอคคอร์ด
+T18	COLOR 888 892	สีดำ
+T19	LP 908 926	3102 กรุงเทพมหานคร
+R3	color_of Arg1:T17 Arg2:T18	
+R4	vehicle_lp Arg1:T17 Arg2:T19	
+T20	PERSON 934 945	นายธีรวิทย์
+T21	TIME 951 956	32 ปี
+R5	own_vehicle Arg1:T20 Arg2:T17	
+T22	PERSON 1018 1029	นายธีรวิทย์
+T23	ORGANIZATION 1074 1097	รพ.สมิติเวช ศรีนครินทร์
+R6	own_vehicle Arg1:T7 Arg2:T14	
+R7	crime_relation Arg1:T20 Arg2:T7	
+R8	crime_located_at Arg1:T20 Arg2:T4	
+R9	crime_located_at Arg1:T20 Arg2:T5	
+R10	crime_located_at Arg1:T20 Arg2:T6	
+R11	crime_date_at Arg1:T20 Arg2:T1	
+R12	crime_time_at Arg1:T20 Arg2:T2	

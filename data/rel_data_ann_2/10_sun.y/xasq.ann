@@ -1,0 +1,16 @@
+T1	PERSON 5 24	ส.ต.ต.นรวิชญ์ บัวดก
+T2	VEHICLE 72 80	บิ๊กไบค์
+R1	own_vehicle Arg1:T1 Arg2:T2	
+T3	PERSON 83 110	พญ.วราลัคน์ สุภวัตรจริยากุล
+T4	PERSON 115 125	หมอกระต่าย
+T5	ORGANIZATION 147 176	รพ.สถาบันโรคไตภูมิราชนครินทร์
+T6	LOCATION 177 185	ถนนพญาไท
+T7	DATE 210 217	21 ม.ค.
+T8	VEHICLE 263 271	บิ๊กไบค์
+T9	DATE 319 326	23 ม.ค.
+T10	TIME 337 345	21.00 น.
+T11	VEHICLE 400 408	บิ๊กไบค์
+T12	PERSON 427 445	ส.ต.ต.นรวิชญ์ จริง
+T13	PERSON 502 515	ส.ต.ต.นรวิชญ์
+T14	ORGANIZATION 561 569	สน.พญาไท
+R2	crime_relation Arg1:T1 Arg2:T3	

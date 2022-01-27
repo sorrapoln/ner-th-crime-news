@@ -1,0 +1,48 @@
+T1	TIME 27 39	12.00 นาฬิกา
+T2	DATE 7 21	20 ตุลาคม 2564
+T3	PERSON 40 68	ร้อยตำรวจเอก ยุทธนา ศรีฤทธิ์
+T4	PERSON 864 875	นางสาวรสิกา
+T5	PERSON 799 806	นายชนพล
+T6	PERSON 253 271	นายสรายุทธ แซ่ลิ่ม
+T7	VEHICLE 1036 1069	รถจักรยานยนต์ยี่ห้อฮอนด้าเวฟ125ไอ
+T8	COLOR 1069 1083	สีบอนด์ - เงิน
+T9	LP 1099 1115	2กง - 2401 ระยอง
+T10	OBJECT 970 975	ยาบ้า
+T11	LOCATION 824 835	ตำบลทรายขาว
+T12	LOCATION 836 847	อำเภอสอยดาว
+T13	LOCATION 848 863	จังหวัดจันทบุรี
+R1	located_at Arg1:T5 Arg2:T11	
+R2	located_at Arg1:T5 Arg2:T12	
+R3	located_at Arg1:T5 Arg2:T13	
+T14	TIME 818 823	24 ปี
+T15	TIME 890 895	20 ปี
+T16	LOCATION 896 905	ตำบลกะเฉด
+T17	LOCATION 906 916	อำเภอเมือง
+T18	LOCATION 917 929	จังหวัดระยอง
+R4	located_at Arg1:T4 Arg2:T16	
+R5	located_at Arg1:T4 Arg2:T17	
+R6	located_at Arg1:T4 Arg2:T18	
+T19	ORGANIZATION 87 111	สถานีตำรวจภูธรเมืองระยอง
+R7	employee_or_member_of Arg1:T3 Arg2:T19	
+T20	PERSON 112 139	ร้อยตำรวจเอกจิรกิตติ์ บุญสม
+T21	ORGANIZATION 158 182	สถานีตำรวจภูธรเมืองระยอง
+R8	employee_or_member_of Arg1:T20 Arg2:T21	
+R9	crime_time_at Arg1:T5 Arg2:T1	
+R10	crime_date_at Arg1:T5 Arg2:T2	
+R11	crime_date_at Arg1:T4 Arg2:T2	
+R12	crime_time_at Arg1:T4 Arg2:T1	
+R13	color_of Arg1:T7 Arg2:T8	
+R14	vehicle_lp Arg1:T7 Arg2:T9	
+T22	ORGANIZATION 356 380	สนามกีฬากลางจังหวัดระยอง
+T23	LOCATION 381 392	ตำบลเนินพระ
+T24	LOCATION 393 403	อำเภอเมือง
+T25	LOCATION 404 416	จังหวัดระยอง
+R15	crime_located_at Arg1:T4 Arg2:T23	
+R16	crime_located_at Arg1:T4 Arg2:T24	
+R17	crime_located_at Arg1:T4 Arg2:T25	
+R18	crime_located_at Arg1:T5 Arg2:T23	
+R19	crime_located_at Arg1:T5 Arg2:T24	
+R20	crime_located_at Arg1:T5 Arg2:T25	
+R21	found_object_at Arg1:T10 Arg2:T23	
+R22	found_object_at Arg1:T10 Arg2:T24	
+R23	found_object_at Arg1:T10 Arg2:T25	

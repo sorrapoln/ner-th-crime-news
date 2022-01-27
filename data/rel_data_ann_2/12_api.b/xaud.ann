@@ -1,0 +1,19 @@
+T1	ORGANIZATION 17 26	สน.ประเวศ
+T2	TIME 44 51	05.04 น
+T3	VEHICLE 67 76	รถแท็กซี่
+T4	VEHICLE 78 86	รถบรรทุก
+T5	LOCATION 133 149	ปากซอยอ่อนนุช 59
+T6	LOCATION 150 171	ถนนอ่อนนุช- ลาดกระบัง
+T7	LOCATION 172 188	แขวงและเขตประเวศ
+T8	LOCATION 189 197	กรุงเทพฯ
+T9	VEHICLE 240 276	รถแท็กซี่ ยี่ห้อโตโยต้า รุ่น โคโลล่า
+T10	COLOR 277 285	สีเหลือง
+R1	color_of Arg1:T9 Arg2:T10	
+T11	LP 304 325	ทฬ 7847 กรุงเทพมหานคร
+R2	vehicle_lp Arg1:T9 Arg2:T11	
+T12	VEHICLE 392 425	รถบรรทุกขนาด 10 ล้อ ยี่ห้อ อีซูซุ
+T13	LP 444 465	63-7777 กรุงเทพมหานคร
+R3	vehicle_lp Arg1:T12 Arg2:T13	
+T14	COLOR 437 443	เหลือง
+T15	TIME 517 524	20 นาที
+T16	VEHICLE 558 567	รถแท็กซี่

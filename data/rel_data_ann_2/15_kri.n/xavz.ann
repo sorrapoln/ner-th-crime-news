@@ -1,0 +1,49 @@
+T1	DATE 12 24	19 พฤศจิกายน
+T2	PERSON 25 42	พล.ต.ท.สำราญ นวลม
+T3	PERSON 51 71	พล.ต.ต.สำเริง สวนทอง
+T4	PERSON 83 106	พล.ต.ต.สมบูรณ์ เทียนขาว
+T5	PERSON 116 138	พ.ต.อ.ปิยรัช สุภารัตน์
+T6	PERSON 152 169	พ.ต.ท.อัครพล โทยะ
+T7	PERSON 171 198	พ.ต.ท.วสันต์ ธวัชชัยวิรุตษ์
+T8	PERSON 200 221	พ.ต.ท.คงศักดิ์ ศรีโหร
+T9	PERSON 223 244	พ.ต.ท.สุทธิเดช โอฬาริ
+T10	PERSON 262 286	พ.ต.ท.อัษฎาวุธ ขวัญเมือง
+T11	PERSON 317 340	นายสหวัสส์ กุศลกิจเจริญ
+T12	TIME 346 351	33 ปี
+T13	OBJECT 367 379	สร้อยคอทองคำ
+T14	OBJECT 407 431	อาวุธปืน ลูกโม่ ขนาด .38
+T15	OBJECT 451 476	เครื่องกระสุนปืน ขนาด .38
+T16	LOCATION 496 510	บ้านเลขที่ 472
+T17	LOCATION 511 522	แขวงบางด้วน
+T18	LOCATION 523 535	เขตภาษีเจริญ
+T19	LOCATION 536 549	กรุงเทพมหานคร
+T20	PERSON 707 719	พล.ต.ท.สำราญ
+T21	DATE 752 764	19 พฤศจิกายน
+T22	TIME 776 783	09.40 น
+T23	LOCATION 892 902	ตลาดบางเเค
+T24	LOCATION 903 913	แขวงบางเเค
+T25	LOCATION 914 922	เขตบางแค
+T26	LOCATION 923 936	กรุงเทพมหานคร
+T27	PERSON 949 963	พล.ต.ต.สมบูรณ์
+R1	found_object_at Arg1:T15 Arg2:T16	
+R2	found_object_at Arg1:T15 Arg2:T17	
+R3	found_object_at Arg1:T15 Arg2:T18	
+R4	found_object_at Arg1:T15 Arg2:T19	
+R5	found_object_at Arg1:T14 Arg2:T16	
+R6	found_object_at Arg1:T14 Arg2:T17	
+R7	found_object_at Arg1:T14 Arg2:T18	
+R8	found_object_at Arg1:T14 Arg2:T19	
+R9	found_object_at Arg1:T13 Arg2:T16	
+R10	found_object_at Arg1:T13 Arg2:T17	
+R11	found_object_at Arg1:T13 Arg2:T18	
+R12	found_object_at Arg1:T13 Arg2:T19	
+R13	located_at Arg1:T11 Arg2:T16	
+R14	located_at Arg1:T11 Arg2:T17	
+R15	located_at Arg1:T11 Arg2:T18	
+R16	located_at Arg1:T11 Arg2:T19	
+R17	crime_date_at Arg1:T11 Arg2:T21	
+R18	crime_time_at Arg1:T11 Arg2:T22	
+R19	crime_located_at Arg1:T11 Arg2:T23	
+R20	crime_located_at Arg1:T11 Arg2:T24	
+R21	crime_located_at Arg1:T11 Arg2:T25	
+R22	crime_located_at Arg1:T11 Arg2:T26	

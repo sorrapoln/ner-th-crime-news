@@ -1,0 +1,29 @@
+T1	ORGANIZATION 17 28	สภ.ช้างกลาง
+T2	LOCATION 29 49	จังหวัดนครศรีธรรมราช
+T3	PERSON 66 74	นายตะวัน
+T4	LOCATION 78 84	บ้านนา
+T5	LOCATION 85 91	หมู่ 1
+T6	LOCATION 92 104	ตำบลช้างกลาง
+T7	LOCATION 105 118	อำเภอช้างกลาง
+T8	LOCATION 119 139	จังหวัดนครศรีธรรมราช
+R1	located_at Arg1:T3 Arg2:T4	
+R2	located_at Arg1:T3 Arg2:T5	
+R3	located_at Arg1:T3 Arg2:T6	
+R4	located_at Arg1:T3 Arg2:T7	
+R5	located_at Arg1:T3 Arg2:T8	
+T9	LOCATION 341 364	ริมลำธารในท้องที่หมู่ 1
+T10	LOCATION 365 377	ตำบลช้างกลาง
+T11	LOCATION 378 391	อำเภอช้างกลาง
+T12	LOCATION 391 411	จังหวัดนครศรีธรรมราช
+T13	DATE 537 546	17 ส.ค.64
+T14	PERSON 616 629	นางสาวพัชราพร
+T15	WEAPON 736 740	ค้อน
+T16	WEAPON 780 793	ขันอลูมิเนียม
+R6	own_weapon Arg1:T3 Arg2:T15	
+R7	own_weapon Arg1:T3 Arg2:T16	
+R8	crime_relation Arg1:T3 Arg2:T14	
+R9	crime_date_at Arg1:T3 Arg2:T13	
+R10	crime_located_at Arg1:T3 Arg2:T9	
+R11	crime_located_at Arg1:T3 Arg2:T10	
+R12	crime_located_at Arg1:T3 Arg2:T11	
+R13	crime_located_at Arg1:T3 Arg2:T12	

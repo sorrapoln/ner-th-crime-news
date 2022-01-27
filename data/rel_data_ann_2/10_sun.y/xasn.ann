@@ -1,0 +1,21 @@
+T1	PERSON 8 27	นายสุรศักดิ์ รักหอม
+T2	TIME 33 38	39 ปี
+T3	DATE 93 97	2564
+T4	DATE 107 117	23 มี.ค.64
+T5	ORGANIZATION 69 85	ศาลจังหวัดทุ่งสง
+T6	ORGANIZATION 165 176	สภ.ทุ่งใหญ่
+T7	LOCATION 177 192	จ.นครศรีธรรมราช
+T8	WEAPON 216 219	มีด
+R1	own_weapon Arg1:T1 Arg2:T8	
+T9	PERSON 230 248	นางถนอมศรี จำนงจิต
+T10	TIME 254 259	41 ปี
+R2	crime_relation Arg1:T1 Arg2:T9	
+T11	LOCATION 327 336	สภ.ทุ่งสง
+T12	DATE 436 444	26 มี.ค.
+T13	TIME 456 464	22.00 น.
+T14	PERSON 488 500	นายสุรศักดิ์
+T15	ORGANIZATION 532 541	สภ.ทุ่งสง
+T16	LOCATION 312 326	บ้านพักท้องที่
+T17	PERSON 599 611	นายสุรศักดิ์
+R3	crime_located_at Arg1:T1 Arg2:T16	
+R4	crime_located_at Arg1:T1 Arg2:T11	

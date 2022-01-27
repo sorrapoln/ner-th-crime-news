@@ -1,0 +1,37 @@
+T1	TIME 10 18	09.10 น.
+T2	DATE 26 40	22 มกราคม 2565
+T3	VEHICLE 114 120	รถเมล์
+T4	LOCATION 134 147	แยกกล้วยน้ำไท
+T5	LOCATION 154 173	มุ่งหน้าถนนสุขุมวิท
+T6	LOCATION 174 185	ถนนพระราม 4
+T7	LOCATION 186 197	แขวงพระโขนง
+T8	LOCATION 198 208	เขตคลองเตย
+T9	LOCATION 209 213	กทม.
+T10	LOCATION 235 245	ป้ายรถเมล์
+T11	LOCATION 250 279	family mart สาขาแยกกล้วยน้ำไท
+T12	LOCATION 287 300	แยกกล้วยน้ำไท
+T13	VEHICLE 319 340	รถเมล์ปรับอากาศสาย 22
+T14	COLOR 343 354	น้ำเงิน-ขาว
+T15	LP 363 384	12-2968 กรุงเทพมหานคร
+R1	color_of Arg1:T13 Arg2:T14	
+R2	vehicle_lp Arg1:T13 Arg2:T15	
+T16	LOCATION 414 438	สาธุประดิษฐ์-แฮปปี้แลนด์
+T17	VEHICLE 482 494	รถเมล์สาย 45
+T18	COLOR 497 505	ครีม-แดง
+R3	color_of Arg1:T17 Arg2:T18	
+T19	LP 514 535	11-8434 กรุงเทพมหานคร
+R4	vehicle_lp Arg1:T17 Arg2:T19	
+T20	LOCATION 566 580	สำโรง-สี่พระยา
+T21	VEHICLE 603 611	รถสาย 22
+T22	VEHICLE 642 650	รถสาย 45
+T23	VEHICLE 727 739	รถเมล์สาย 22
+T24	VEHICLE 762 774	รถเมล์สาย 45
+T25	ORGANIZATION 810 831	อาสามูลนิธิร่วมกตัญญู
+T26	ORGANIZATION 871 891	โรงพยาบาลเทพธารินทร์
+T27	PERSON 892 911	นายสุนทร แก้วนิมิตร
+T28	TIME 917 922	35 ปี
+T29	VEHICLE 932 940	รถสาย 45
+R5	own_vehicle Arg1:T27 Arg2:T17	
+T30	VEHICLE 1066 1078	รถเมล์สาย 22
+T31	VEHICLE 1213 1220	รถกระบะ
+T32	VEHICLE 1296 1308	รถเมล์สาย 22

@@ -1,0 +1,30 @@
+T1	TIME 10 18	19.00 น.
+T2	DATE 26 38	10 พฤศจิกายน
+T3	PERSON 39 63	พ.ต.ท.ประพฤทธิ์ เพชรพลอย
+T4	ORGANIZATION 80 93	สน.บางขุนนนท์
+T5	WEAPON 125 128	ปืน
+T6	LOCATION 168 179	ซ.อำนวยผล 8
+T7	LOCATION 180 193	แขวงบางขุนศรี
+T8	LOCATION 194 207	เขตบางกอกน้อย
+T9	LOCATION 208 216	กรุงเทพฯ
+T10	ORGANIZATION 282 290	รพ.วชิระ
+T11	ORGANIZATION 291 318	อาสาสมัครมูลนิธิป่อเต็กตึ๊ง
+T12	PERSON 355 376	นายสมัชฌ์ สงวนนามสกุล
+T13	TIME 382 387	40 ปี
+T14	PERSON 457 465	ร.ต.ทำนุ
+T15	TIME 483 488	61 ปี
+T16	PERSON 551 561	น.อ.สันชัย
+T17	TIME 579 584	59 ปี
+T18	ORGANIZATION 612 622	รพ.ศิริราช
+T19	PERSON 643 662	นายธุรการ ยังบรรเทา
+T20	TIME 668 673	67 ปี
+T21	WEAPON 711 724	ปืนขัดลำกล้อง
+R1	own_weapon Arg1:T19 Arg2:T21	
+R2	crime_relation Arg1:T19 Arg2:T16	
+R3	crime_relation Arg1:T19 Arg2:T14	
+R4	crime_relation Arg1:T19 Arg2:T12	
+R5	crime_located_at Arg1:T19 Arg2:T6	
+R6	crime_located_at Arg1:T19 Arg2:T7	
+R7	crime_located_at Arg1:T19 Arg2:T8	
+R8	crime_located_at Arg1:T19 Arg2:T9	
+R9	own_weapon Arg1:T19 Arg2:T5	

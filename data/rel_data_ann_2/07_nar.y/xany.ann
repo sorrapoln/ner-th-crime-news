@@ -1,0 +1,29 @@
+T1	DATE 0 11	22 ม.ค.2565
+T2	TIME 22 31	03 .50 น.
+T3	PERSON 32 52	พ.ต.ท.ภูษิต เกตุแก้ว
+T4	ORGANIZATION 61 78	สภ.เมืองกาญจนบุรี
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	ORGANIZATION 203 223	มูลนิธิพิทักษ์กาญจน์
+T6	LOCATION 311 322	ซอยศรีลังกา
+T7	LOCATION 323 333	ต.ท่ามะขาม
+T8	LOCATION 334 341	อ.เมือง
+T9	LOCATION 342 353	จ.กาญจนบุรี
+T10	PERSON 371 387	นายมาร์คุส จอห์น
+T11	TIME 393 398	49 ปี
+T12	PERSON 503 515	นายชอน เควิน
+T13	TIME 521 526	55 ปี
+T14	LOCATION 530 536	อังกฤษ
+R2	located_at Arg1:T12 Arg2:T14	
+T15	LOCATION 402 408	อังกฤษ
+R3	crime_located_at Arg1:T10 Arg2:T15	
+T16	ORGANIZATION 612 634	โรงพยาบาลพหลพลพยุหเสนา
+T17	OBJECT 654 662	มีดเคียว
+T18	OBJECT 696 703	รองเท้า
+R4	found_object_at Arg1:T17 Arg2:T6	
+R5	found_object_at Arg1:T17 Arg2:T7	
+R6	found_object_at Arg1:T17 Arg2:T8	
+R7	found_object_at Arg1:T17 Arg2:T9	
+R8	found_object_at Arg1:T18 Arg2:T6	
+R9	found_object_at Arg1:T18 Arg2:T7	
+R10	found_object_at Arg1:T18 Arg2:T8	
+R11	found_object_at Arg1:T18 Arg2:T9	

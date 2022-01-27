@@ -1,0 +1,32 @@
+T1	TIME 5 12	21.00 น
+T2	DATE 20 30	28 ต.ค. 64
+T3	PERSON 31 56	พันเอก สุดเขตต์ ศรีนิลทิน
+T4	LOCATION 288 303	จังหวัดเชียงราย
+T5	LOCATION 483 498	พหลโยธินสายเก่า
+T6	VEHICLE 580 600	รถกระบะยี่ห้อโตโยต้า
+T7	COLOR 603 612	บอร์นเงิน
+T8	LP 628 644	ผจ 4041 เชียงราย
+R1	color_of Arg1:T6 Arg2:T7	
+R2	vehicle_lp Arg1:T6 Arg2:T8	
+T9	WEAPON 761 764	ปืน
+T10	PERSON 919 940	นายศิวกร ศิริรุ่งวิไล
+T11	TIME 946 951	30 ปี
+T12	PERSON 956 964	นายชวิลต
+T13	TIME 970 975	18 ปี
+T14	LOCATION 994 1004	ต.ห้วยชมภู
+T15	LOCATION 1005 1012	อ.เมือง
+T16	LOCATION 1013 1023	จ.เชียงราย
+T17	OBJECT 1080 1085	ยาบ้า
+T18	ORGANIZATION 1212 1228	สภ.เมืองเชียงราย
+R3	located_at Arg1:T10 Arg2:T14	
+R4	located_at Arg1:T10 Arg2:T15	
+R5	located_at Arg1:T10 Arg2:T16	
+R6	located_at Arg1:T12 Arg2:T14	
+R7	located_at Arg1:T12 Arg2:T15	
+R8	located_at Arg1:T12 Arg2:T16	
+R9	own_vehicle Arg1:T10 Arg2:T6	
+R10	own_vehicle Arg1:T12 Arg2:T6	
+R11	crime_time_at Arg1:T10 Arg2:T1	
+R12	crime_date_at Arg1:T10 Arg2:T2	
+R13	crime_date_at Arg1:T12 Arg2:T2	
+R14	crime_time_at Arg1:T12 Arg2:T1	

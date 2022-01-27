@@ -1,0 +1,25 @@
+T1	ORGANIZATION 11 30	สภ.เมืองหนองบัวลำภู
+T2	LOCATION 31 44	จ.หนองบัวลำภู
+T3	LOCATION 63 66	ไทย
+T4	WEAPON 82 85	มีด
+T5	LOCATION 128 151	ถนนวังหมื่น-สร้างเสี่ยน
+T6	LOCATION 156 171	หมู่บ้านข่าใหญ่
+T7	LOCATION 172 179	ต.หัวนา
+T8	LOCATION 180 187	อ.เมือง
+T9	LOCATION 188 201	จ.หนองบัวลำภู
+T10	PERSON 217 236	ร.ต.อ.ประยูร บุญรอด
+T11	LOCATION 270 279	ต.บ้านขาม
+T12	LOCATION 280 298	อ.เมืองหนองบัวลำภู
+T13	VEHICLE 457 459	รถ
+T14	VEHICLE 487 489	รถ
+T15	WEAPON 515 518	มีด
+T16	PERSON 538 550	ร.ต.อ.ประยูร
+T17	WEAPON 687 690	ไม้
+T18	VEHICLE 699 712	รถยนต์สายตรวจ
+T19	VEHICLE 737 750	รถจักรยานยนต์
+T20	PERSON 781 792	ร.ต.อ.ประยู
+T21	ORGANIZATION 796 816	โรงพยาบาลหนองบัวลำภู
+T22	PERSON 917 940	พ.ต.อ.ประทีป ปัญโญวัฒน์
+T23	ORGANIZATION 945 964	สภ.เมืองหนองบัวลำภู
+R1	employee_or_member_of Arg1:T22 Arg2:T23	
+R2	employee_or_member_of Arg1:T10 Arg2:T1	

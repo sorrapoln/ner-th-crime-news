@@ -1,0 +1,32 @@
+T1	DATE 8 17	18 พ.ย.61
+T2	TIME 24 32	09.30 น.
+T3	PERSON 33 52	ร.ต.อ.เอกชัย ชาญศรี
+T4	LOCATION 132 144	บ้านเลขที่ 3
+T5	LOCATION 145 152	หมู่ 14
+T6	LOCATION 153 164	บ้านทับเบิก
+T7	LOCATION 165 173	ต.วังบาล
+T8	LOCATION 174 184	อ.หล่มเก่า
+T9	LOCATION 185 196	จ.เพชรบูรณ์
+T10	ORGANIZATION 270 294	มูลนิธิร่วมกตัญญูหล่มสัก
+T11	PERSON 413 427	นางดวงใจ แซ่สง
+T12	TIME 433 438	23 ปี
+T13	TIME 460 467	7 เดือน
+T14	PERSON 495 510	นายชิงชัย แซ่สง
+T15	TIME 516 521	25 ปี
+T16	WEAPON 733 736	มีด
+T17	PERSON 750 759	นายชิงชัย
+T18	PERSON 953 962	นายชิงชัย
+T19	ORGANIZATION 1011 1022	สภ.หล่มเก่า
+T20	PERSON 1023 1032	นายชิงชัย
+T21	PERSON 1055 1073	พ.ต.อ.ชินเดช ดีแท้
+T22	PERSON 1127 1136	นายชิงชัย
+R1	crime_relation Arg1:T14 Arg2:T11	
+R2	crime_located_at Arg1:T14 Arg2:T4	
+R3	crime_located_at Arg1:T14 Arg2:T5	
+R4	crime_located_at Arg1:T14 Arg2:T6	
+R5	crime_located_at Arg1:T14 Arg2:T7	
+R6	crime_located_at Arg1:T14 Arg2:T8	
+R7	crime_located_at Arg1:T14 Arg2:T9	
+R8	own_weapon Arg1:T14 Arg2:T16	
+T23	ORGANIZATION 88 99	สภ.หล่มเก่า
+R9	employee_or_member_of Arg1:T3 Arg2:T23	

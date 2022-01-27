@@ -1,0 +1,8 @@
+T1	PERSON 0 21	นายศรีอัมพร ศาลิคุปต์
+T2	ORGANIZATION 32 42	ศาลอุทธรณ์
+T3	DATE 74 84	25 ม.ค. 65
+T4	TIME 90 98	13.00 น.
+T5	ORGANIZATION 337 348	ศาลยุติธรรม
+T6	ORGANIZATION 308 319	ศาลยุติธรรม
+T7	ORGANIZATION 461 467	รัฐบาล
+R1	employee_or_member_of Arg1:T1 Arg2:T2	

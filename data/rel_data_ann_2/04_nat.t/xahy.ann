@@ -1,0 +1,24 @@
+T1	DATE 9 16	20 ม.ค.
+T2	PERSON 18 48	พล.ต.ต.ภูมินทร์ พุ่มพันธุ์ม่วง
+T3	PERSON 64 91	พ.ต.อ.ศิววงศ์ ดำรงสัจจ์ศิริ
+T4	PERSON 105 120	ร.ต.อ.นริศ มานพ
+T5	PERSON 153 171	น.ส.นิตยา เขียวนิล
+T6	TIME 177 182	49 ปี
+T7	ORGANIZATION 193 210	ศาลจังหวัดขอนแก่น
+T8	DATE 219 223	2554
+T9	DATE 227 236	27 ก.ย.54
+T10	LOCATION 305 323	ถ.สุทธิสารวินิจฉัย
+T11	LOCATION 324 336	แขวงสามเสนใน
+T12	LOCATION 337 345	เขตพญาไท
+T13	LOCATION 346 350	กทม.
+T14	DATE 369 374	มิ.ย.
+T15	DATE 376 382	ต.ค.52
+T16	PERSON 389 398	น.ส.นิตยา
+T17	LOCATION 447 456	จ.ขอนแก่น
+T18	TIME 816 821	20 ปี
+T19	DATE 925 927	54
+T20	TIME 979 984	10 ปี
+R1	located_at Arg1:T5 Arg2:T10	
+R2	located_at Arg1:T5 Arg2:T11	
+R3	located_at Arg1:T5 Arg2:T12	
+R4	located_at Arg1:T5 Arg2:T13	

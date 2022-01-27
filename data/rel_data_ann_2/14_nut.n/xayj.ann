@@ -1,0 +1,60 @@
+T1	TIME 15 23	20.30 น.
+T2	DATE 31 39	8 ต.ค.64
+T3	ORGANIZATION 40 68	กองร้อยตำรวจตระเวนชายแดน 327
+T4	PERSON 73 92	พ.ต.ท.ยุธยา สังแสวง
+R1	employee_or_member_of Arg1:T4 Arg2:T3	
+T5	PERSON 109 134	ร.ต.อ.สุธิชัย เชื้อเจ็ดตน
+R2	employee_or_member_of Arg1:T5 Arg2:T3	
+T6	PERSON 155 180	ร.ต.อ.อนัญวัฒน์ รัตนวิชัย
+R3	employee_or_member_of Arg1:T6 Arg2:T3	
+T7	ORGANIZATION 204 219	กองกำลังผาเมือง
+T8	ORGANIZATION 223 246	กองร้อยทหารพรานที่ 3308
+T9	ORGANIZATION 254 302	กองร้อยทหารม้าที่ 1 หน่วนเฉพาะกิจกรมทหารม้าที่ 3
+T10	PERSON 324 350	พ.อ.สัมฤทธิ์ ฉัตรวัฒนาสกุล
+T11	ORGANIZATION 361 376	กองกำลังผาเมือง
+R4	employee_or_member_of Arg1:T10 Arg2:T11	
+T12	PERSON 383 401	ร.อ.ศุภรัตน์ มีรอด
+R5	employee_or_member_of Arg1:T12 Arg2:T9	
+T13	LOCATION 451 458	บ.นาโต่
+T14	LOCATION 459 470	ต.แม่สลองใน
+T15	LOCATION 471 483	อ.แม่ฟ้าหลวง
+T16	LOCATION 484 494	จ.เชียงราย
+T17	VEHICLE 654 667	รถจักรยานยนต์
+T18	PERSON 787 792	นายเน
+T19	TIME 830 835	17 ปี
+T20	LOCATION 840 852	ต.แม่ฟ้าหลวง
+T21	LOCATION 853 865	อ.แม่ฟ้าหลวง
+T22	LOCATION 866 876	จ.เชียงราย
+R6	located_at Arg1:T18 Arg2:T20	
+R7	located_at Arg1:T18 Arg2:T21	
+R8	located_at Arg1:T18 Arg2:T22	
+T23	PERSON 879 884	นายตี
+T24	TIME 922 927	16 ปี
+T25	LOCATION 932 944	ต.แม่ฟ้าหลวง
+T26	LOCATION 945 957	อ.แม่ฟ้าหลวง
+T27	LOCATION 958 968	จ.เชียงราย
+R9	located_at Arg1:T23 Arg2:T25	
+R10	located_at Arg1:T23 Arg2:T26	
+R11	located_at Arg1:T23 Arg2:T27	
+T28	PERSON 971 987	นายสมชาย อูหมื่อ
+T29	TIME 993 998	21 ปี
+T30	LOCATION 1003 1011	ต.แม่ยาว
+R12	located_at Arg1:T28 Arg2:T30	
+T31	LOCATION 1012 1019	อ.เมือง
+R13	located_at Arg1:T28 Arg2:T31	
+T32	LOCATION 1020 1030	จ.เชียงราย
+R14	located_at Arg1:T28 Arg2:T32	
+T33	VEHICLE 1299 1312	รถจักรยานยนต์
+T34	VEHICLE 1338 1372	รถจักรยานยนต์ยี่ห้อฮอนด้า คลิก 125
+T35	COLOR 1373 1377	สีดำ
+T36	LP 1393 1409	กต 7892 เชียงราย
+R15	color_of Arg1:T34 Arg2:T35	
+R16	vehicle_lp Arg1:T34 Arg2:T36	
+T37	VEHICLE 1496 1529	ถจักรยานยนต์ยี่ห้อฮอนด้า คลิก 125
+T38	COLOR 1530 1534	สีดำ
+R17	color_of Arg1:T37 Arg2:T38	
+T39	LP 1550 1572	1 กผ 3511 สุราษฎร์ธานี
+R18	vehicle_lp Arg1:T37 Arg2:T39	
+T40	ORGANIZATION 1722 1735	สภ.แม่ฟ้าหลวง
+R19	own_vehicle Arg1:T18 Arg2:T34	
+R20	own_vehicle Arg1:T28 Arg2:T37	

@@ -1,0 +1,9 @@
+T1	PERSON 61 69	นายบำรุง
+T2	TIME 75 80	73 ปี
+T3	WEAPON 279 285	มีดโต้
+R1	own_weapon Arg1:T1 Arg2:T3	
+T4	PERSON 404 412	นายบำรุง
+T5	PERSON 518 526	นายบำรุง
+T6	PERSON 584 592	นายบำรุง
+T7	LOCATION 200 210	กลางแม่น้ำ
+R2	crime_located_at Arg1:T1 Arg2:T7	

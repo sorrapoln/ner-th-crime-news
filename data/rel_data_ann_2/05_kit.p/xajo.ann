@@ -1,0 +1,19 @@
+T1	PERSON 0 29	พลตำรวจตรีจิรสันต์ แก้วแสงเอก
+T2	ORGANIZATION 44 55	ตำรวจนครบาล
+R1	employee_or_member_of Arg1:T1 Arg2:T2	
+T3	PERSON 85 95	นายวิเชียร
+T4	VEHICLE 129 135	รถยนต์
+T5	LOCATION 172 183	ตรอกแม้นศรี
+T6	VEHICLE 231 237	รถยนต์
+T7	DATE 309 317	6 มกราคม
+T8	LOCATION 341 353	พลับพลาไชย 1
+T9	PERSON 537 547	นายวิเชียร
+T10	LOCATION 652 664	ถนนราชดำเนิน
+T11	VEHICLE 733 743	รถประจำทาง
+T12	LOCATION 763 769	พระนคร
+T13	LOCATION 777 783	ธนบุรี
+T14	DATE 870 884	เดือนพฤศจิกายน
+R2	crime_date_at Arg1:T3 Arg2:T7	
+T15	LOCATION 184 204	เขตป้อมปราบศัตรูพ่าย
+R3	crime_located_at Arg1:T3 Arg2:T5	
+R4	crime_located_at Arg1:T3 Arg2:T15	

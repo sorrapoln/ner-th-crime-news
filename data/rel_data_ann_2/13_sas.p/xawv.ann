@@ -1,0 +1,45 @@
+T1	DATE 17 24	16 พ.ย.
+T2	PERSON 25 48	พ.ต.อ.พิศิษฐ์ วิเศษวงศ์
+T3	LOCATION 61 74	นครศรีธรรมราช
+T4	ORGANIZATION 97 112	ศาลจังหวัดสงขลา
+T5	DATE 137 146	16 พ.ย.64
+T6	PERSON 161 185	นายเสรีย์ กุลดำรงวิวัฒน์
+T7	TIME 191 196	60 ปี
+T8	LOCATION 201 213	บ้านเลขที่ 7
+T9	LOCATION 214 227	ซอยคงทรัพย์ 2
+T10	LOCATION 228 236	ต.คอหงส์
+T11	LOCATION 237 246	อ.หาดใหญ่
+T12	LOCATION 247 254	จ.สงขลา
+T13	WEAPON 293 296	ปืน
+T14	OBJECT 299 312	เครื่องกระสุน
+T15	WEAPON 312 315	ปืน
+T16	WEAPON 326 329	ปืน
+T17	LOCATION 394 400	อ.สิชล
+T18	LOCATION 401 416	จ.นครศรีธรรมราช
+T19	VEHICLE 467 474	รถ จยย.
+T20	OBJECT 587 604	กระเป๋าและสัมภาระ
+T21	PERSON 614 623	นายเสรีย์
+T22	VEHICLE 648 655	รถ จยย.
+T23	WEAPON 663 674	ปืนขนาด .45
+T24	OBJECT 692 698	กระสุน
+T25	WEAPON 721 724	ปืน
+T26	PERSON 849 858	นายเสรีย์
+T27	LOCATION 952 961	อ.หาดใหญ่
+T28	LOCATION 962 969	จ.สงขลา
+T29	VEHICLE 990 997	รถ จยย.
+T30	LOCATION 1034 1043	อ.หาดใหญ่
+T31	LOCATION 1071 1077	อ.สิชล
+T32	WEAPON 1176 1179	ปืน
+R1	own_vehicle Arg1:T6 Arg2:T19	
+R2	own_weapon Arg1:T6 Arg2:T13	
+R3	crime_located_at Arg1:T6 Arg2:T27	
+R4	crime_located_at Arg1:T6 Arg2:T28	
+R5	located_at Arg1:T6 Arg2:T8	
+R6	located_at Arg1:T6 Arg2:T9	
+R7	located_at Arg1:T6 Arg2:T10	
+R8	located_at Arg1:T6 Arg2:T11	
+R9	located_at Arg1:T6 Arg2:T12	
+R10	found_object_at Arg1:T20 Arg2:T17	
+R11	found_object_at Arg1:T20 Arg2:T18	
+R12	found_object_at Arg1:T24 Arg2:T17	
+R13	found_object_at Arg1:T24 Arg2:T18	

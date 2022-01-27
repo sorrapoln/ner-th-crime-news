@@ -1,0 +1,26 @@
+T1	TIME 10 18	23.00 น.
+T2	DATE 20 28	6 ก.ย.64
+T3	PERSON 30 55	ร.ต.อ.วีรวุฒิ รัตน์ประโคน
+T4	ORGANIZATION 76 88	สภ.โนนสุวรรณ
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	LOCATION 89 100	จ.บุรีรัมย์
+T6	LOCATION 164 178	หมู่บ้านโนนรัง
+T7	LOCATION 179 190	ต.โนนสุวรรณ
+T8	ORGANIZATION 246 258	รพ.โนนสุวรรณ
+T9	PERSON 408 415	นายหลวง
+T10	TIME 437 442	74 ปี
+T11	ORGANIZATION 466 478	รพ.โนนสุวรรณ
+T12	PERSON 579 586	นายหลวง
+T13	PERSON 700 716	นายสมดี จันทะคาม
+T14	WEAPON 759 762	มีด
+T15	PERSON 765 772	นายหลวง
+T16	PERSON 786 796	นางเพ็ญศรี
+T17	TIME 802 807	61 ปี
+T18	WEAPON 880 883	มีด
+T19	ORGANIZATION 953 965	สภ.โนนสุวรรณ
+R2	crime_located_at Arg1:T16 Arg2:T6	
+R3	crime_located_at Arg1:T16 Arg2:T7	
+R4	crime_relation Arg1:T16 Arg2:T9	
+R5	own_weapon Arg1:T16 Arg2:T18	
+R6	crime_date_at Arg1:T16 Arg2:T2	
+R7	crime_time_at Arg1:T16 Arg2:T1	

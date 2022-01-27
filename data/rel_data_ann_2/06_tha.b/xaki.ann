@@ -1,0 +1,10 @@
+T1	PERSON 5 17	นายนันทวัฒน์
+T2	ORGANIZATION 38 47	สน.สายไหม
+T3	PERSON 85 95	นายชนินทร์
+T4	PERSON 137 147	นายชนินทร์
+T5	VEHICLE 163 176	รถจักรยานยนต์
+T6	VEHICLE 159 161	รถ
+T7	VEHICLE 190 192	รถ
+T8	VEHICLE 199 201	รถ
+T9	VEHICLE 248 250	รถ
+R1	own_vehicle Arg1:T1 Arg2:T6	

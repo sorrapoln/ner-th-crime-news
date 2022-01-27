@@ -1,0 +1,63 @@
+T1	TIME 10 18	01.00 น.
+T2	DATE 26 37	23 ม.ค.2565
+T3	PERSON 38 60	ร.ต.อ.กันตพัฒน์ ชาวดอน
+T4	ORGANIZATION 80 88	สภ.เมือง
+T5	LOCATION 89 100	สมุทรปราการ
+T6	LOCATION 160 178	ห้องแถวเลขที่ 2008
+T7	LOCATION 179 182	ม.3
+T8	LOCATION 183 196	ซอยสินสมบูรณ์
+T9	LOCATION 197 211	ต.ท้ายบ้านใหม่
+T10	LOCATION 212 219	อ.เมือง
+T11	LOCATION 220 233	จ.สมุทรปราการ
+T12	ORGANIZATION 289 315	มูลนิธิร่วมกุศลสมุทรปราการ
+T13	PERSON 430 440	นายศิริชัย
+T14	TIME 462 467	27 ปี
+T15	PERSON 520 530	น.ส.สุภาพร
+T16	TIME 552 557	42 ปี
+T17	ORGANIZATION 646 671	โรงพยาบาลเมืองสมุทรปากน้ำ
+T18	PERSON 729 737	นายไกรษร
+T19	TIME 759 764	37 ปี
+R1	crime_relation Arg1:T18 Arg2:T15	
+R2	crime_relation Arg1:T18 Arg2:T13	
+T20	PERSON 965 974	น.ส.บังอร
+T21	TIME 996 1001	31 ปี
+T22	PERSON 1051 1059	นายไกรษร
+T23	PERSON 1097 1107	น.ส.สุภาพร
+T24	PERSON 1135 1145	น.ส.สุภาพร
+T25	PERSON 1211 1219	นายไกรษร
+T26	WEAPON 1237 1240	มีด
+T27	PERSON 1296 1306	นายศิริชัย
+T28	PERSON 1311 1321	น.ส.สุภาพร
+T29	PERSON 1373 1382	น.ส.บังอร
+T30	PERSON 1398 1408	นายศิริชัย
+T31	PERSON 1413 1423	น.ส.สุภาพร
+T32	PERSON 1469 1477	นายไกรษร
+T33	WEAPON 1505 1508	มีด
+T34	PERSON 1551 1561	นายศิริชัย
+T35	PERSON 1565 1575	น.ส.สุภาพร
+T36	PERSON 1585 1595	นายศิริชัย
+T37	PERSON 1637 1645	นายไกรษร
+T38	PERSON 1687 1697	นายศิริชัย
+T39	PERSON 1709 1717	นายไกรษร
+R3	crime_located_at Arg1:T18 Arg2:T6	
+R4	crime_located_at Arg1:T18 Arg2:T7	
+R5	crime_located_at Arg1:T18 Arg2:T8	
+R6	crime_located_at Arg1:T18 Arg2:T9	
+R7	crime_located_at Arg1:T18 Arg2:T10	
+R8	crime_located_at Arg1:T18 Arg2:T11	
+R9	crime_time_at Arg1:T18 Arg2:T1	
+R10	crime_date_at Arg1:T18 Arg2:T2	
+R11	located_at Arg1:T13 Arg2:T6	
+R12	located_at Arg1:T13 Arg2:T7	
+R13	located_at Arg1:T13 Arg2:T8	
+R14	located_at Arg1:T13 Arg2:T9	
+R15	located_at Arg1:T13 Arg2:T10	
+R16	located_at Arg1:T13 Arg2:T11	
+R17	located_at Arg1:T15 Arg2:T6	
+R18	located_at Arg1:T15 Arg2:T7	
+R19	located_at Arg1:T15 Arg2:T8	
+R20	located_at Arg1:T15 Arg2:T9	
+R21	located_at Arg1:T15 Arg2:T10	
+R22	located_at Arg1:T15 Arg2:T11	
+R23	own_weapon Arg1:T18 Arg2:T26	
+R24	employee_or_member_of Arg1:T3 Arg2:T4	

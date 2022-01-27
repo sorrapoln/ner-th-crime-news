@@ -1,0 +1,15 @@
+T1	ORGANIZATION 28 40	ตำรวจทางหลวง
+T2	PERSON 107 126	นายสราวุธ ศิลป์มั่น
+T3	TIME 132 137	29 ปี
+T4	WEAPON 157 168	ปืน เอ็ม 16
+T5	LOCATION 192 200	จ.ลพบุรี
+T6	LOCATION 237 245	กรุงเทพฯ
+T7	PERSON 276 285	นายสราวุธ
+T8	WEAPON 305 316	ปืน เอ็ม 16
+T9	LOCATION 331 339	จ.ลพบุรี
+T10	VEHICLE 346 361	รถกระบะ โตโยต้า
+T11	COLOR 362 370	สีบรอนด์
+R1	color_of Arg1:T10 Arg2:T11	
+T12	LP 386 411	บบ-4245 หมวดจังหวัดลพบุรี
+R2	vehicle_lp Arg1:T10 Arg2:T12	
+T13	COLOR 451 455	สีดำ

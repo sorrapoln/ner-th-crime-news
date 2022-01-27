@@ -1,0 +1,16 @@
+T1	ORGANIZATION 0 7	ศาลอาญา
+T2	LOCATION 8 17	ถนนรัชดาฯ
+T3	PERSON 66 88	นายอัศยา หรือโก้ ชัยภา
+T4	DATE 226 238	กรกฎาคม 2561
+T5	WEAPON 247 281	ไม้เบสบอลเหล็กขนาดยาว 70 เซนติเมตร
+T6	PERSON 332 380	นางสาวธิติมา หรือไฮโซเชอร์รี่ ตั้งวิบูลย์พาณิชย์
+T7	TIME 386 391	39 ปี
+T8	PERSON 452 464	นางสาวธิติมา
+R1	crime_relation Arg1:T3 Arg2:T6	
+R2	own_weapon Arg1:T3 Arg2:T5	
+R3	crime_date_at Arg1:T3 Arg2:T4	
+T9	LOCATION 506 527	ซอยประดิษฐ์มนูธรรม 19
+T10	LOCATION 528 544	แขวง-เขตลาดพร้าว
+R4	crime_located_at Arg1:T3 Arg2:T9	
+R5	crime_located_at Arg1:T3 Arg2:T10	
+T11	VEHICLE 560 567	รถเบนซ์

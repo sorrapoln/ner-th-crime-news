@@ -1,0 +1,13 @@
+T1	DATE 8 15	20 ม.ค.
+T2	TIME 22 30	10.30 น.
+T3	PERSON 62 85	นายประสิทธิ์ เด่นนภาลัย
+T4	ORGANIZATION 94 126	บริษัท เพียงประกายก่อสร้าง จำกัด
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	PERSON 133 153	นายกัมพล สุขคีรินทร์
+T6	PERSON 185 207	นายไตรยฤทธิ์ เตมหิวงศ์
+T7	ORGANIZATION 214 221	ดีเอสไอ
+R2	employee_or_member_of Arg1:T6 Arg2:T7	
+T8	LOCATION 355 373	จังหวัดสมุทรปราการ
+T9	PERSON 470 488	พ.ต.ต.วรณัน ศรีล้ำ
+T10	PERSON 527 535	นายกัมพล
+T11	ORGANIZATION 568 583	การเคหะแห่งชาติ

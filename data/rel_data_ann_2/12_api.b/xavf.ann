@@ -1,0 +1,4 @@
+T1	PERSON 174 182	นายสัญญา
+T2	WEAPON 190 198	อาวุธมีด
+R1	own_weapon Arg1:T1 Arg2:T2	
+T3	PERSON 337 345	นายสัญญา

@@ -1,0 +1,44 @@
+T1	TIME 10 18	05.30 น.
+T2	DATE 26 37	16 ก.ย.2564
+T3	PERSON 38 59	ร.ต.อ.อนันต์ นามโภชน์
+T4	ORGANIZATION 74 90	สภ.ปากคลองรังสิต
+T5	LOCATION 173 176	ม.4
+T6	LOCATION 177 185	ต.หลักหก
+T7	LOCATION 186 193	อ.เมือง
+T8	LOCATION 194 204	จ.ปทุมธานี
+T9	PERSON 226 245	พ.ต.อ.จตุพร คงเมือง
+T10	ORGANIZATION 250 266	สภ.ปากคลองรังสิต
+T11	PERSON 268 291	พ.ต.ท.ชัยรัตน์ แย้มวงษ์
+T12	ORGANIZATION 300 316	สภ.ปากคลองรังสิต
+T13	PERSON 318 342	พ.ต.ท.นิติธร ศุภชัยวรกุล
+T14	ORGANIZATION 349 365	สภ.ปากคลองรังสิต
+T15	ORGANIZATION 389 405	สภ.ปากคลองรังสิต
+T16	PERSON 506 513	นายรณกร
+T17	TIME 535 540	21 ปี
+T18	PERSON 642 652	นายกรุงศรี
+T19	TIME 721 729	05.00 น.
+T20	PERSON 788 799	นายจีรวัฒน์
+T21	TIME 827 832	57 ปี
+T22	VEHICLE 873 886	รถจักรยานยนต์
+T23	PERSON 977 984	นายรณกร
+T24	VEHICLE 1255 1268	รถจักรยานยนต์
+T25	PERSON 1312 1319	นายรณกร
+T26	PERSON 1440 1451	นายจีรวัฒน์
+T27	WEAPON 1597 1600	มีด
+T28	ORGANIZATION 1711 1727	สภ.ปากคลองรังสิต
+T29	PERSON 1799 1807	นางสำรวย
+T30	TIME 1829 1834	66 ปี
+T31	WEAPON 1973 1976	มีด
+T32	ORGANIZATION 2040 2056	สภ.ปากคลองรังสิต
+R1	crime_relation Arg1:T20 Arg2:T16	
+R2	own_vehicle Arg1:T20 Arg2:T24	
+T33	WEAPON 556 559	ปืน
+R3	own_weapon Arg1:T20 Arg2:T33	
+R4	employee_or_member_of Arg1:T3 Arg2:T4	
+R5	employee_or_member_of Arg1:T9 Arg2:T10	
+R6	employee_or_member_of Arg1:T11 Arg2:T12	
+R7	employee_or_member_of Arg1:T13 Arg2:T14	
+R8	crime_located_at Arg1:T20 Arg2:T5	
+R9	crime_located_at Arg1:T20 Arg2:T6	
+R10	crime_located_at Arg1:T20 Arg2:T7	
+R11	crime_located_at Arg1:T20 Arg2:T8	

@@ -1,0 +1,33 @@
+T1	DATE 12 21	22 มกราคม
+T2	ORGANIZATION 25 53	กองบังคับการปราบปราม (บก.ป.)
+T3	PERSON 54 74	พล.ต.ท.จิรภพ ภูริเดช
+R1	employee_or_member_of Arg1:T3 Arg2:T2	
+T4	PERSON 93 112	พล.ต.ต.มนตรี เทศขัน
+T5	PERSON 121 140	พ.ต.อ.ปทักข์ ขวัญนา
+T6	PERSON 158 181	พ.ต.ต.ณรงค์ หาญสันเทียะ
+T7	ORGANIZATION 190 195	บก.ป.
+T8	ORGANIZATION 114 119	บก.ป.
+T9	ORGANIZATION 147 152	บก.ป.
+R2	employee_or_member_of Arg1:T4 Arg2:T8	
+R3	employee_or_member_of Arg1:T5 Arg2:T9	
+R4	employee_or_member_of Arg1:T6 Arg2:T7	
+T10	PERSON 210 222	นายกวินพัฒน์
+T11	TIME 242 247	40 ปี
+T12	LOCATION 270 282	จังหวัดลำปาง
+T13	DATE 305 319	17 มกราคม 2565
+T14	LOCATION 464 475	ต.แม่เจดีย์
+T15	LOCATION 476 490	อ.เวียงป่าเป้า
+T16	LOCATION 491 501	จ.เชียงราย
+T17	DATE 525 532	ปี 2560
+T18	LOCATION 544 556	จังหวัดลำปาง
+T19	PERSON 565 577	นายกวินพัฒน์
+T20	PERSON 595 607	นายกวินพัฒน์
+T21	DATE 669 676	ปี 2561
+T22	PERSON 677 689	นายกวินพัฒน์
+T23	PERSON 868 880	นายกวินพัฒน์
+T24	PERSON 1045 1057	นายกวินพัฒน์
+T25	PERSON 1148 1160	นายกวินพัฒน์
+T26	PERSON 1262 1274	นายกวินพัฒน์
+R5	located_at Arg1:T10 Arg2:T14	
+R6	located_at Arg1:T10 Arg2:T15	
+R7	located_at Arg1:T10 Arg2:T16	

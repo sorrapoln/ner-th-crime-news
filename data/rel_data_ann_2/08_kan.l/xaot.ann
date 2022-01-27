@@ -1,0 +1,21 @@
+T1	DATE 0 10	1 ก.ย.2564
+T2	TIME 27 35	11.00 น.
+T3	LOCATION 153 176	ท้ายซอยรังสิตนครนายก 17
+T4	LOCATION 177 186	อ.ธัญบุรี
+T5	LOCATION 187 197	จ.ปทุมธานี
+T6	ORGANIZATION 206 221	สภ.ประตูน้ำจุฬา
+T7	ORGANIZATION 355 366	สภ.คลองหลวง
+T8	PERSON 415 431	นายรีวี ปะกาเซ็ง
+T9	TIME 437 442	29 ปี
+T10	PERSON 480 492	นายมะแฮดเซ็ง
+T11	PERSON 494 510	MR. MAHESH SINGH
+T12	TIME 517 522	52 ปี
+T13	LOCATION 530 537	อินเดีย
+R1	crime_relation Arg1:T8 Arg2:T10	
+R2	crime_date_at Arg1:T8 Arg2:T1	
+R3	crime_time_at Arg1:T8 Arg2:T2	
+R4	crime_located_at Arg1:T8 Arg2:T3	
+R5	crime_located_at Arg1:T8 Arg2:T4	
+R6	crime_located_at Arg1:T8 Arg2:T5	
+R7	employee_or_member_of Arg1:T8 Arg2:T6	
+R8	located_at Arg1:T10 Arg2:T13	

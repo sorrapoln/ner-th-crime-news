@@ -1,0 +1,64 @@
+T1	TIME 10 18	17.00 น.
+T2	DATE 26 36	26 ต.ค. 64
+T3	LOCATION 90 99	หลัก กม.8
+T4	LOCATION 100 130	ริมถนนสายศรีสะเกษ-อุทุมพรพิสัย
+T5	LOCATION 131 138	ต.ขะยูง
+T6	LOCATION 139 153	อ.อุทุมพรพิสัย
+T7	LOCATION 154 164	จ.ศรีสะเกษ
+T8	PERSON 165 192	พ.ต.อ.ศุภชัย ศักรินพานิชกุล
+T9	PERSON 225 246	พ.ต.อ.ชยากร เทศะบำรุง
+T10	PERSON 269 290	พ.ต.อ.สวัสดิ์ ศรีเกษม
+T11	PERSON 416 435	นายทวีศักดิ์ สืบราช
+T12	TIME 441 446	32 ปี
+T13	LOCATION 451 464	บ้านเลขที่ 35
+T14	LOCATION 465 471	หมู่ 6
+T15	LOCATION 472 479	ต.ขะยูง
+T16	LOCATION 480 494	อ.อุทุมพรพิสัย
+T17	LOCATION 495 505	จ.ศรีสะเกษ
+T18	WEAPON 556 576	ปืนลูกซองไทยประดิษฐ์
+T19	PERSON 581 599	นายธีรยุทธ์ ดีเลิศ
+T20	TIME 605 610	31 ปี
+T21	LOCATION 615 628	บ้านเลขที่ 29
+T22	LOCATION 629 635	หมู่ 9
+T23	LOCATION 636 643	ต.ตาเกษ
+T24	LOCATION 644 658	อ.อุทุมพรพิสัย
+T25	LOCATION 659 669	จ.ศรีสะเกษ
+T26	TIME 753 758	23.50
+T27	DATE 774 784	26 ต.ค. 64
+T28	PERSON 840 852	นายทวีศักดิ์
+T29	PERSON 855 866	นายธีรยุทธ์
+T30	PERSON 909 920	นายธีรยุทธ์
+T31	PERSON 950 962	นายทวีศักดิ์
+T32	PERSON 991 1003	นายทวีศักดิ์
+T33	VEHICLE 1012 1018	รถ จยย
+T34	WEAPON 1050 1059	ปืนลูกซอง
+T35	PERSON 1082 1093	นายธีรยุทธ์
+T36	PERSON 1161 1172	นายธีรยุทธ์
+T37	ORGANIZATION 1182 1193	รพ.ศรีสะเกษ
+T38	PERSON 1202 1214	นายทวีศักดิ์
+T39	OBJECT 1223 1232	ปืนลูกซอง
+T40	LOCATION 1279 1294	ข้ามลำห้วยสำราญ
+T41	LOCATION 1295 1310	ถนนตัดใหม่ในเขต
+T42	LOCATION 1311 1326	อ.เมืองศรีสะเกษ
+R1	found_object_at Arg1:T39 Arg2:T40	
+R2	found_object_at Arg1:T39 Arg2:T41	
+R3	found_object_at Arg1:T39 Arg2:T42	
+R4	own_weapon Arg1:T11 Arg2:T18	
+R5	located_at Arg1:T11 Arg2:T13	
+R6	located_at Arg1:T11 Arg2:T14	
+R7	located_at Arg1:T11 Arg2:T15	
+R8	located_at Arg1:T11 Arg2:T16	
+R9	located_at Arg1:T11 Arg2:T17	
+R10	crime_relation Arg1:T11 Arg2:T19	
+R11	located_at Arg1:T19 Arg2:T21	
+R12	located_at Arg1:T19 Arg2:T22	
+R13	located_at Arg1:T19 Arg2:T23	
+R14	located_at Arg1:T19 Arg2:T24	
+R15	located_at Arg1:T19 Arg2:T25	
+R16	crime_time_at Arg1:T11 Arg2:T26	
+R17	crime_date_at Arg1:T11 Arg2:T27	
+R18	crime_located_at Arg1:T11 Arg2:T3	
+R19	crime_located_at Arg1:T11 Arg2:T4	
+R20	crime_located_at Arg1:T11 Arg2:T5	
+R21	crime_located_at Arg1:T11 Arg2:T6	
+R22	crime_located_at Arg1:T11 Arg2:T7	

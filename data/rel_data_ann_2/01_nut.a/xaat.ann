@@ -1,0 +1,9 @@
+T1	PERSON 19 41	พล.ต.ต.นันทเดช ย้อยนวล
+T2	VEHICLE 159 172	รถจักรยานยนต์
+T3	TIME 199 206	12 นาที
+T4	TIME 220 229	3 ชั่วโมง
+T5	TIME 317 324	4-5 วัน
+T6	PERSON 470 481	นายธีรวัฒน์
+T7	DATE 644 654	5 ต.ค.2563
+R1	crime_date_at Arg1:T6 Arg2:T7	
+R2	own_vehicle Arg1:T6 Arg2:T2	

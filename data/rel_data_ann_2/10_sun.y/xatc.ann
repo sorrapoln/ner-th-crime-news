@@ -1,0 +1,5 @@
+T1	DATE 8 15	23 ม.ค.
+T2	PERSON 17 37	นายสมศักดิ์ เทพสุทิน
+T3	PERSON 1115 1126	นายสมศักดิ์
+T4	ORGANIZATION 52 67	กระทรวงยุติธรรม
+R1	employee_or_member_of Arg1:T2 Arg2:T4	

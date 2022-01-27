@@ -1,0 +1,10 @@
+T1	DATE 7 18	25 ก.ค.2560
+T2	PERSON 40 59	พล.ต.ต.สมพงษ์ ทองใบ
+T3	LOCATION 88 92	ตรัง
+T4	PERSON 112 131	น.ส.ลัดดา จินดาแก้ว
+T5	TIME 137 142	33 ปี
+T6	LOCATION 200 210	ต.เขาวิเศษ
+T7	LOCATION 211 221	อ.วังวิเศษ
+T8	LOCATION 222 228	จ.ตรัง
+T9	WEAPON 248 255	ของแข็ง
+R1	located_at Arg1:T2 Arg2:T3	

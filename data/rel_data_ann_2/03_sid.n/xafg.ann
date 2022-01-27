@@ -1,0 +1,68 @@
+T1	DATE 8 15	20 ม.ค.
+T2	LOCATION 43 54	สุขุมวิท 39
+T3	LOCATION 55 71	แขวงคลองเตยเหนือ
+T4	LOCATION 72 80	เขตวัฒนา
+T5	LOCATION 81 89	กรุงเทพฯ
+T6	PERSON 90 111	พล.ต.ต.พันธนะ นุชนารถ
+T7	ORGANIZATION 143 185	ศูนย์ปราบปรามอาชญากรรมทางเทคโนโลยีสารสนเทศ
+T8	ORGANIZATION 186 207	สำนักงานตำรวจแห่งชาติ
+T9	ORGANIZATION 243 258	ตำรวจท่องเที่ยว
+T10	LOCATION 296 299	จีน
+T11	LOCATION 359 362	จีน
+T12	OBJECT 388 407	คอมพิวเตอร์โน้ตบุ๊ก
+T13	OBJECT 419 433	โทรศัพท์มือถือ
+T14	OBJECT 445 461	ซิมการ์ดโทรศัพท์
+T15	OBJECT 470 489	อุปกรณ์กระจายสัญญาณ
+T16	OBJECT 491 507	เครื่องส่งโอทีพี
+T17	OBJECT 508 538	อุปกรณ์ที่ใช้ทำเว็บพนันออนไลน์
+T18	OBJECT 554 563	นาฬิกาหรู
+T19	OBJECT 573 582	สมุดบัญชี
+T20	OBJECT 591 597	รถยนต์
+T21	OBJECT 608 621	รถจักรยานยนต์
+T22	PERSON 667 680	พล.ต.ต.พันธนะ
+T23	ORGANIZATION 719 755	สถานเอกอัครราชทูตสาธารณรัฐประชาชนจีน
+T24	LOCATION 757 766	ประเทศไทย
+T25	DATE 1049 1063	20 มกราคม 2565
+T26	LOCATION 1152 1160	กรุงเทพฯ
+T27	LOCATION 1346 1349	จีน
+T28	LOCATION 1572 1581	ประเทศไทย
+R1	found_object_at Arg1:T12 Arg2:T2	
+R2	found_object_at Arg1:T12 Arg2:T3	
+R3	found_object_at Arg1:T12 Arg2:T4	
+R4	found_object_at Arg1:T12 Arg2:T5	
+R5	found_object_at Arg1:T13 Arg2:T2	
+R6	found_object_at Arg1:T13 Arg2:T3	
+R7	found_object_at Arg1:T13 Arg2:T4	
+R8	found_object_at Arg1:T13 Arg2:T5	
+R9	found_object_at Arg1:T14 Arg2:T2	
+R10	found_object_at Arg1:T14 Arg2:T3	
+R11	found_object_at Arg1:T14 Arg2:T4	
+R12	found_object_at Arg1:T14 Arg2:T5	
+R13	found_object_at Arg1:T15 Arg2:T2	
+R14	found_object_at Arg1:T15 Arg2:T3	
+R15	found_object_at Arg1:T15 Arg2:T4	
+R16	found_object_at Arg1:T15 Arg2:T5	
+R17	found_object_at Arg1:T16 Arg2:T2	
+R18	found_object_at Arg1:T16 Arg2:T3	
+R19	found_object_at Arg1:T16 Arg2:T4	
+R20	found_object_at Arg1:T16 Arg2:T5	
+R21	found_object_at Arg1:T17 Arg2:T2	
+R22	found_object_at Arg1:T17 Arg2:T3	
+R23	found_object_at Arg1:T17 Arg2:T4	
+R24	found_object_at Arg1:T17 Arg2:T5	
+R25	found_object_at Arg1:T18 Arg2:T2	
+R26	found_object_at Arg1:T18 Arg2:T3	
+R27	found_object_at Arg1:T18 Arg2:T4	
+R28	found_object_at Arg1:T18 Arg2:T5	
+R29	found_object_at Arg1:T19 Arg2:T2	
+R30	found_object_at Arg1:T19 Arg2:T3	
+R31	found_object_at Arg1:T19 Arg2:T4	
+R32	found_object_at Arg1:T19 Arg2:T5	
+R33	found_object_at Arg1:T21 Arg2:T2	
+R34	found_object_at Arg1:T21 Arg2:T3	
+R35	found_object_at Arg1:T21 Arg2:T4	
+R36	found_object_at Arg1:T21 Arg2:T5	
+R37	found_object_at Arg1:T20 Arg2:T2	
+R38	found_object_at Arg1:T20 Arg2:T3	
+R39	found_object_at Arg1:T20 Arg2:T4	
+R40	found_object_at Arg1:T20 Arg2:T5	

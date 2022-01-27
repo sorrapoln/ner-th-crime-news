@@ -1,0 +1,17 @@
+T1	LOCATION 46 70	ร่องธารน้ำตก "โตนอ่าวยน"
+T2	LOCATION 71 78	ต.วิชิต
+T3	LOCATION 79 92	อ.เมืองภูเก็ต
+T4	PERSON 126 149	นางนิโคล โซเวน ไวสคอปฟ์
+T5	TIME 168 173	57 ปี
+T6	DATE 403 408	6ส.ค.
+T7	PERSON 410 435	พล.ต.อ.สุวัฒน์ แจ้งยอดสุข
+T8	ORGANIZATION 520 528	สภ.วิชิต
+T9	LOCATION 529 542	จังหวัดภูเก็ต
+T10	LOCATION 646 654	จ.ภูเก็ต
+T11	LOCATION 628 645	น้ำตก "โตนอ่าวยน"
+T12	TIME 666 674	10.00 น.
+R1	located_at Arg1:T4 Arg2:T1	
+R2	located_at Arg1:T4 Arg2:T2	
+R3	located_at Arg1:T4 Arg2:T3	
+T13	ORGANIZATION 461 467	ผบ.ตร.
+R4	employee_or_member_of Arg1:T7 Arg2:T13	

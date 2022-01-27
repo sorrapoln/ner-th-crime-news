@@ -1,0 +1,29 @@
+T1	DATE 12 24	13 พฤศจิกายน
+T2	PERSON 25 49	พล.ต.ต.อนันต์ นานาสมบัติ
+T3	PERSON 59 91	พ.ต.อ.เชษฐ์พันธ์ กิติเจริญศักดิ์
+T4	PERSON 117 142	พ.ต.ต.วิชัย ประเสริฐสังข์
+T5	PERSON 172 189	นายอนุสรณ์ สูญราช
+T6	TIME 195 200	21 ปี
+T7	OBJECT 213 227	ยางโอริงจัดฟัน
+T8	OBJECT 247 264	เครื่องขัดหน้าฟัน
+T9	OBJECT 276 288	ขนแปรงปัดฟัน
+T10	OBJECT 297 306	ฟลูออไรด์
+T11	OBJECT 314 326	ยางเชนจัดฟัน
+T12	OBJECT 351 366	แบร็กเก็ตจัดฟัน
+T13	OBJECT 394 401	ลวดโลหะ
+T14	LOCATION 469 507	ลานจอดรถซุปเปอร์มาเก็ต MaxValu หลักสี่
+T15	LOCATION 508 520	ถนนแจ้งวัฒนะ
+T16	LOCATION 521 535	แขวงอนุสาวรีย์
+T17	LOCATION 536 545	เขตบางเขน
+T18	LOCATION 546 554	กรุงเทพฯ
+T19	PERSON 647 660	Arisa Soonrat
+T20	VEHICLE 908 914	รถยนต์
+T21	VEHICLE 1166 1172	รถยนต์
+R1	own_vehicle Arg1:T5 Arg2:T20	
+R2	found_object_at Arg1:T7 Arg2:T14	
+R7	found_object_at Arg1:T8 Arg2:T14	
+R3	found_object_at Arg1:T9 Arg2:T14	
+R4	found_object_at Arg1:T10 Arg2:T14	
+R5	found_object_at Arg1:T11 Arg2:T14	
+R6	found_object_at Arg1:T12 Arg2:T14	
+R8	found_object_at Arg1:T13 Arg2:T14	

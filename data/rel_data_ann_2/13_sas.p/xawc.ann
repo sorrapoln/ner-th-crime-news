@@ -1,0 +1,29 @@
+T1	TIME 10 18	23.30 น.
+T2	DATE 26 33	21 ม.ค.
+T3	PERSON 34 51	พ.ต.ต.จตุพร ธงทอง
+T4	ORGANIZATION 65 77	สน.ภาษีเจริญ
+T5	LOCATION 108 123	บ้านเลขที่ 88/3
+T6	LOCATION 124 140	ซอยเพชรเกษม 48/1
+T7	LOCATION 141 152	แขวงบางหว้า
+T8	LOCATION 153 165	เขตภาษีเจริญ
+T9	LOCATION 166 174	กรุงเทพฯ
+T10	ORGANIZATION 211 223	สน.ภาษีเจริญ
+T11	ORGANIZATION 237 247	รพ.ศิริราช
+T12	ORGANIZATION 290 308	มูลนิธิป่อเต็กตึ๊ง
+T13	PERSON 402 418	นายเอ (นามสมมติ)
+T14	TIME 424 429	16 ปี
+T15	ORGANIZATION 460 481	โรงเรียนวัดนวลนรดิษฐ์
+T16	OBJECT 501 507	กระสุน
+T17	WEAPON 556 594	ปืนพกสั้นออโตเมติก รุ่น SIG Sauer P365
+R1	crime_located_at Arg1:T13 Arg2:T5	
+R2	crime_located_at Arg1:T13 Arg2:T6	
+R3	crime_located_at Arg1:T13 Arg2:T7	
+R4	crime_located_at Arg1:T13 Arg2:T8	
+R5	crime_located_at Arg1:T13 Arg2:T9	
+R6	crime_date_at Arg1:T13 Arg2:T2	
+R7	crime_time_at Arg1:T13 Arg2:T1	
+R8	located_at Arg1:T13 Arg2:T5	
+R9	located_at Arg1:T13 Arg2:T6	
+R10	located_at Arg1:T13 Arg2:T7	
+R11	located_at Arg1:T13 Arg2:T8	
+R12	located_at Arg1:T13 Arg2:T9	

@@ -1,0 +1,38 @@
+T1	PERSON 17 35	ร.ต.ท.เอกอมร สีสัน
+T2	ORGANIZATION 55 62	สภ.คูคต
+T3	LOCATION 63 73	จ.ปทุมธานี
+T4	ORGANIZATION 154 167	หมู่บ้านพฤกษา
+T5	LOCATION 168 177	ต.ลาดสวาย
+T6	LOCATION 178 187	อ.ลำลูกกา
+T7	LOCATION 188 198	จ.ปทุมธานี
+T8	PERSON 237 258	พ.ต.อ.มนัสเวท ทองอิ่ม
+T9	ORGANIZATION 263 270	สภ.คูคต
+T10	PERSON 273 294	พ.ต.ท.จิรพัฒน์ ศรีเดช
+T11	ORGANIZATION 307 314	สภ.คูคต
+T12	PERSON 317 350	พ.ต.ท.รุ่งเรืองบุญ อ้อนนิ่มอภิกุล
+T13	ORGANIZATION 355 362	สภ.คูคต
+T14	ORGANIZATION 388 395	สภ.คูคต
+T15	ORGANIZATION 404 427	โรงพยาบาลภูมิพลอดุลยเดช
+T16	LOCATION 461 469	ปทุมธานี
+T17	ORGANIZATION 488 506	มูลนิธิป่อเต๊กตึ๊ง
+T18	LOCATION 544 550	ซอย 14
+T19	PERSON 630 641	นายธานินทร์
+T20	PERSON 647 651	ตั้ม
+T21	TIME 657 662	49 ปี
+T22	LOCATION 679 690	ตำบลบึงยีโถ
+T23	PERSON 779 788	นายวรพงษ์
+T24	PERSON 793 795	มด
+T25	TIME 801 806	46 ปี
+T26	WEAPON 712 715	ปืน
+R1	crime_located_at Arg1:T19 Arg2:T5	
+R2	crime_located_at Arg1:T19 Arg2:T6	
+R3	crime_located_at Arg1:T19 Arg2:T7	
+R4	crime_located_at Arg1:T19 Arg2:T18	
+R5	crime_located_at Arg1:T23 Arg2:T5	
+R6	crime_located_at Arg1:T23 Arg2:T6	
+R7	crime_located_at Arg1:T23 Arg2:T7	
+R8	crime_located_at Arg1:T23 Arg2:T18	
+R9	employee_or_member_of Arg1:T1 Arg2:T2	
+R10	employee_or_member_of Arg1:T8 Arg2:T9	
+R11	employee_or_member_of Arg1:T10 Arg2:T11	
+R12	employee_or_member_of Arg1:T12 Arg2:T13	

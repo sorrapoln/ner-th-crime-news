@@ -1,0 +1,37 @@
+T1	LOCATION 48 61	ชุมชนคลองล่าง
+T2	LOCATION 62 73	ซ.อำนวยผล 8
+T3	LOCATION 74 87	แขวงบางขุนศรี
+T4	LOCATION 88 101	เขตบางกอกน้อย
+T5	LOCATION 102 106	กทม.
+T6	PERSON 133 141	ร.ต.ทำนุ
+T7	TIME 161 166	61 ปี
+T8	PERSON 171 180	นายสมัชฌ์
+T9	TIME 200 205	40 ปี
+T10	PERSON 211 221	น.อ.สันชัย
+T11	TIME 241 246	59 ปี
+T12	ORGANIZATION 285 295	รพ.ศิริราช
+T13	TIME 314 322	19.00 น.
+T14	DATE 330 337	10 พ.ย.
+T15	PERSON 344 365	พล.ต.ต.โชคชัย งามวงศ์
+T16	PERSON 450 459	นายธุรการ
+T17	TIME 479 484	67 ปี
+T18	VEHICLE 488 494	รถยนต์
+T19	PERSON 784 793	นายธุรการ
+T20	PERSON 841 850	นายธุรการ
+T21	WEAPON 943 973	ปืน Sig sauer p 220 ขนาด 9 มม.
+T22	PERSON 1073 1081	ร.ต.ทำนุ
+T23	PERSON 1115 1125	น.อ.สันชัย
+T24	PERSON 1157 1164	นายสมัช
+T25	PERSON 1268 1281	พล.ต.ต.โชคชัย
+R1	crime_relation Arg1:T19 Arg2:T6	
+R2	crime_relation Arg1:T19 Arg2:T8	
+R3	crime_relation Arg1:T19 Arg2:T10	
+R4	crime_time_at Arg1:T19 Arg2:T13	
+R5	crime_date_at Arg1:T19 Arg2:T14	
+R6	own_vehicle Arg1:T19 Arg2:T18	
+R7	crime_located_at Arg1:T19 Arg2:T1	
+R8	crime_located_at Arg1:T19 Arg2:T2	
+R9	crime_located_at Arg1:T19 Arg2:T3	
+R10	crime_located_at Arg1:T19 Arg2:T4	
+R11	crime_located_at Arg1:T19 Arg2:T5	
+R12	own_weapon Arg1:T19 Arg2:T21	

@@ -1,0 +1,31 @@
+T1	TIME 18 26	12.30 น.
+T2	LOCATION 89 109	ซอยรังสิต-นครนายก 17
+T3	DATE 160 168	1 ก.ย.64
+T4	TIME 180 188	11.00 น.
+T5	PERSON 189 211	ร.ต.อ.พรเจตต์ พร้อมมูล
+T6	ORGANIZATION 224 245	สภ.ประตูน้ำจุฬาลงกรณ์
+T7	PERSON 265 295	พ.ต.อ.เกียรติศักดิ์ มิตรปราสาท
+T8	ORGANIZATION 300 311	สภ.คลองหลวง
+T9	PERSON 312 331	พ.ต.อ.อภิชาติ ทองแพ
+T10	ORGANIZATION 336 357	สภ.ประตูน้ำจุฬาลงกรณ์
+T11	PERSON 358 377	พ.ต.ท.สุชัย แสงส่อง
+T12	ORGANIZATION 393 404	สภ.คลองหลวง
+T13	PERSON 405 424	พ.ต.ต.สิรภพ บัวหลวง
+T14	ORGANIZATION 439 450	สภ.คลองหลวง
+T15	LOCATION 552 572	ซอยรังสิต-นครนายก 17
+T16	LOCATION 573 587	ต.ประชาธิปัตย์
+T17	LOCATION 588 597	อ.ธัญบุรี
+T18	LOCATION 598 608	จ.ปทุมธานี
+T19	ORGANIZATION 733 750	มูลนิธิร่วมกตัญญู
+T20	ORGANIZATION 761 776	รพ.ประชาธิปัตย์
+T21	PERSON 869 877	นายมะแฮด
+T22	TIME 883 888	52 ปี
+T23	LOCATION 892 899	อินเดีย
+T24	ORGANIZATION 924 935	สภ.คลองหลวง
+T25	LOCATION 972 979	อินเดีย
+R1	located_at Arg1:T21 Arg2:T23	
+R2	employee_or_member_of Arg1:T5 Arg2:T6	
+R3	employee_or_member_of Arg1:T7 Arg2:T8	
+R4	employee_or_member_of Arg1:T9 Arg2:T10	
+R5	employee_or_member_of Arg1:T11 Arg2:T12	
+R6	employee_or_member_of Arg1:T13 Arg2:T14	

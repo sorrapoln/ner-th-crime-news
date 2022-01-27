@@ -1,0 +1,50 @@
+T1	TIME 31 38	19.00 น
+T2	DATE 49 58	15 ต.ค.64
+T3	ORGANIZATION 82 107	ตำรวจภูธรจังหวัดกาญจนบุรี
+T4	PERSON 134 156	พล.ต.ต.ไพโรจน์ คุ้มภัย
+R1	employee_or_member_of Arg1:T4 Arg2:T3	
+T5	ORGANIZATION 169 194	ตำรวจภูธรจังหวัดกาญจนบุรี
+T6	PERSON 195 214	พ.ต.อ.บรรจง อมฤทธิ์
+R2	employee_or_member_of Arg1:T6 Arg2:T5	
+T7	ORGANIZATION 262 271	สภ.หนองรี
+T8	PERSON 272 292	พ.ต.อ.กฤตชัย ทองอยู่
+R3	employee_or_member_of Arg1:T8 Arg2:T5	
+T9	PERSON 316 335	พ.ต.อ.ภาคิน แสนพุฒิ
+R4	employee_or_member_of Arg1:T9 Arg2:T5	
+T10	PERSON 362 389	พ.ต.อ.ณัฐพิสิษฐ์ รัตนอุดมพร
+T11	PERSON 410 438	พ.ต.ท.ทศพร รุ่งเรืองศุภรัตน์
+T12	PERSON 470 495	นายธนิตย์ หรือ บอลวังกุ่ม
+T13	TIME 501 506	36 ปี
+T14	WEAPON 537 549	ปืนลูกซองยาว
+T15	ORGANIZATION 652 686	ตำรวจชุดสืบสวนภูธรจังหวัดกาญจนบุรี
+T16	ORGANIZATION 693 702	สภ.หนองรี
+T17	ORGANIZATION 712 721	สภ.พนมทวน
+T19	OBJECT 856 869	รถจิ๊บดัดแปลง
+T18	OBJECT 829 846	อาวุธปืนลูกซองยาว
+T20	OBJECT 876 887	เชือกมะนิลา
+T21	VEHICLE 949 973	รถ จยย.ยี่ห้อฮอนด้าเทน่า
+T22	VEHICLE 1006 1018	รถ จยย.วิบาก
+T23	VEHICLE 1050 1057	รถ จยย.
+R5	own_weapon Arg1:T12 Arg2:T14	
+T24	LOCATION 1080 1115	คลองชลประทานในเขตพื้นที่บ้านตลาดเขต
+T25	LOCATION 1116 1124	อ.พนมทวน
+T26	LOCATION 1124 1135	จ.กาญจนบุรี
+T27	PERSON 1198 1222	นายธนิตย์ หรือบอลวังกุ่ม
+T28	WEAPON 1253 1262	ปืนลูกซอง
+R6	own_weapon Arg1:T27 Arg2:T28	
+T29	PERSON 1306 1313	นายรุ่ง
+T30	LOCATION 1341 1351	ห้วยกระเจา
+R7	located_at Arg1:T29 Arg2:T30	
+T31	TIME 1363 1368	30 ปี
+T32	WEAPON 1404 1407	ปืน
+T33	PERSON 1410 1428	นายบัญชา กลิ่นเกษร
+T34	PERSON 1449 1457	นายบัญชา
+T35	PERSON 1461 1468	นายรุ่ง
+R8	crime_relation Arg1:T29 Arg2:T33	
+T36	PERSON 1553 1560	นายรุ่ง
+T37	PERSON 1570 1578	นายบัญชา
+T38	PERSON 1623 1630	นายรุ่ง
+T39	PERSON 1752 1759	นายรุ่ง
+T40	WEAPON 1771 1783	ปืนลูกซองยาว
+T41	PERSON 1819 1827	นายบัญชา
+R9	own_vehicle Arg1:T33 Arg2:T23	

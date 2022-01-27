@@ -1,0 +1,8 @@
+T1	DATE 144 153	6 ต.ค. 64
+T2	PERSON 531 538	Mr.WAEL
+T3	LOCATION 553 560	อียิปต์
+R1	located_at Arg1:T2 Arg2:T3	
+T4	WEAPON 277 286	ถ่านร้อนๆ
+T5	WEAPON 303 306	มีด
+R2	own_weapon Arg1:T2 Arg2:T4	
+R3	own_weapon Arg1:T2 Arg2:T5	

@@ -1,0 +1,20 @@
+T1	LOCATION 0 10	นครราชสีมา
+T2	LOCATION 133 146	ซอยเดชอุดม 20
+T3	LOCATION 147 169	เขตเทศบาลนครนครราชสีมา
+T4	LOCATION 611 622	อำเภอสีคิ้ว
+T5	LOCATION 623 640	จังหวัดนครราชสีมา
+T6	LOCATION 679 693	ซอยเดชอุดม 7/2
+T7	LOCATION 694 716	เขตเทศบาลนครนครราชสีมา
+T8	TIME 62 70	25-35 ปี
+T9	TIME 242 247	22 ปี
+T10	DATE 460 472	22 พฤศจิกายน
+T11	ORGANIZATION 499 517	สภ.เมืองนครราชสีมา
+T12	PERSON 564 592	นายเดิมเชียงแสน ปล้องสูงเนิน
+T13	TIME 598 603	40 ปี
+T14	ORGANIZATION 792 810	สภ.เมืองนครราชสีมา
+R1	located_at Arg1:T12 Arg2:T4	
+R2	located_at Arg1:T12 Arg2:T5	
+R3	located_at Arg1:T12 Arg2:T6	
+R4	located_at Arg1:T12 Arg2:T7	
+R5	crime_located_at Arg1:T12 Arg2:T2	
+R6	crime_located_at Arg1:T12 Arg2:T3	

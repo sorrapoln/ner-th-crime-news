@@ -1,0 +1,22 @@
+T1	ORGANIZATION 19 35	โรงพยาบาลอุ้มผาง
+T2	VEHICLE 8 16	รถพยาบาล
+T3	VEHICLE 60 70	บรรทุกพ่วง
+T4	LOCATION 78 93	ศาลเจ้าพ่อพระวอ
+T5	LOCATION 94 108	บ้านห้วยผักหละ
+T6	LOCATION 109 129	ถนนสายแม่สอด-อุ้มผาง
+T7	LOCATION 136 142	แม่สอด
+T8	LOCATION 143 150	ต.แม่กุ
+T9	LOCATION 151 159	อ.แม่สอด
+T10	LOCATION 160 165	จ.ตาก
+T11	ORGANIZATION 219 233	รงพยาบาลแม่สอด
+T12	LOCATION 234 239	จ.ตาก
+T13	PERSON 426 446	นายกิตติพงษ์ อาจยาทา
+T14	TIME 452 457	45 ปี
+T15	PERSON 480 504	นางสาวปุณยวีร์ ศรีดวงแปง
+T16	PERSON 506 510	อุ้ม
+T17	TIME 517 522	25 ปี
+R1	own_vehicle Arg1:T13 Arg2:T2	
+T18	ORGANIZATION 548 564	โรงพยาบาลอุ้มผาง
+T19	ORGANIZATION 620 640	กู้ภัยมังกรเขตแม่สอด
+T20	VEHICLE 669 680	รถตู้พยาบาล
+T21	VEHICLE 579 587	รถพยาบาล

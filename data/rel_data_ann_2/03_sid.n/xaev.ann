@@ -1,0 +1,48 @@
+T1	DATE 8 18	3 ส.ค.2561
+T2	PERSON 41 53	นายจิรศักดิ์
+T3	PERSON 58 74	ป๊อปปี้ อุนัยบัน
+T4	TIME 80 85	34 ปี
+T5	PERSON 100 116	นายปัญญา ยิ่งดัง
+T6	PERSON 121 130	เสี่ยอ้วน
+T7	TIME 136 141	39 ปี
+T8	LOCATION 161 169	จ.ภูเก็ต
+T9	LOCATION 176 184	จ.ชลบุรี
+T10	LOCATION 240 248	จ.ภูเก็ต
+T11	ORGANIZATION 265 278	สภ.นาจอมเทียน
+T12	PERSON 377 389	นายจิรศักดิ์
+T13	VEHICLE 399 418	รถเก๋งโตโยต้า ยารีส
+T14	LOCATION 436 441	พัทยา
+T15	LOCATION 502 510	จ.ภูเก็ต
+T16	PERSON 568 584	นายเกียรติศักดิ์
+T17	PERSON 590 607	บอล สุรางแสงมีบุญ
+T18	TIME 613 618	35 ปี
+T19	VEHICLE 633 653	รถกระบะยี่ห้อโตโยต้า
+T20	PERSON 656 664	นายปัญญา
+T21	LOCATION 686 698	อ.อรัญประเทศ
+T22	LOCATION 699 708	จ.สระแก้ว
+T23	LOCATION 718 731	ประเทศกัมพูชา
+T24	PERSON 849 858	เสี่ยอ้วน
+T25	PERSON 925 934	เสี่ยอ้วน
+T26	LOCATION 1103 1113	จ.สุรินทร์
+T27	PERSON 1119 1142	พ.ต.ท.สุรัตน์ คลายทุกข์
+T28	ORGANIZATION 1155 1163	สภ.สะเดา
+T29	LOCATION 1164 1172	อ.บัวเชด
+T30	LOCATION 1173 1183	จ.สุรินทร์
+T31	LOCATION 1250 1259	บ้านตาปัน
+T32	LOCATION 1260 1266	หมู่ 2
+T33	LOCATION 1267 1277	ต.สำเภาลูน
+T34	LOCATION 1278 1286	อ.บัวเชด
+T35	LOCATION 1287 1297	จ.สุรินทร์
+T36	VEHICLE 1303 1324	รถยนต์ฮอนด้า ซีอาร์วี
+T37	LP 1340 1350	944 ภูเก็ต
+T38	PERSON 1354 1363	เสี่ยอ้วน
+T39	PERSON 1406 1415	เสี่ยอ้วน
+T40	ORGANIZATION 1444 1454	ตม.กาบเชิง
+T41	LOCATION 1519 1532	ประเทศกัมพูชา
+T42	ORGANIZATION 1607 1619	ตม.โอร์เสม็ด
+T43	LOCATION 1623 1630	กัมพูชา
+T44	LOCATION 325 330	พัทยา
+R1	own_vehicle Arg1:T12 Arg2:T13	
+R2	own_vehicle Arg1:T16 Arg2:T19	
+R3	vehicle_lp Arg1:T36 Arg2:T37	
+R4	own_vehicle Arg1:T5 Arg2:T36	

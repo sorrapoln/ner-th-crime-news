@@ -1,0 +1,23 @@
+T1	PERSON 27 51	นายธีรพงศ์พันธุ์ ฉิมคราม
+T2	TIME 57 62	56 ปี
+T3	ORGANIZATION 80 90	อบต.คลองหก
+T4	VEHICLE 116 144	รถจักรยานยนต์ยี่ห้อฮอนด้าเวฟ
+T5	COLOR 144 152	สี-แดงดำ
+T6	WEAPON 217 220	ปืน
+T7	ORGANIZATION 319 329	สภ.คลองห้า
+T8	LOCATION 389 399	ตำบลคลองหก
+T9	LOCATION 400 413	อำเภอคลองหลวง
+T10	LOCATION 414 429	จังหวัดปทุมธานี
+T11	OBJECT 474 487	ปลอกกระสุนปืน
+T12	PERSON 578 600	นางสาวสิริขวัญ ฉิมคราม
+T13	TIME 606 611	22 ปี
+T14	TIME 659 667	07.00 น.
+T15	DATE 669 676	23 ม.ค.
+T16	VEHICLE 810 823	รถจักรยานยนต์
+T17	VEHICLE 906 919	รถจักรยานยนต์
+T18	VEHICLE 975 988	รถจักรยานยนต์
+R1	found_object_at Arg1:T11 Arg2:T8	
+R2	found_object_at Arg1:T11 Arg2:T9	
+R3	found_object_at Arg1:T11 Arg2:T10	
+R4	color_of Arg1:T4 Arg2:T5	
+R5	employee_or_member_of Arg1:T1 Arg2:T3	

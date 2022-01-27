@@ -1,0 +1,9 @@
+T1	VEHICLE 36 65	รถยนต์เอสยูวีฟอร์ด เอเวอเรสต์
+T2	LP 74 97	5 กช 2405 กรุงเทพมหานคร
+R1	vehicle_lp Arg1:T1 Arg2:T2	
+T3	VEHICLE 103 112	รถแท็กซี่
+T4	LP 113 134	ทฬ 4331 กรุงเทพมหานคร
+R2	vehicle_lp Arg1:T3 Arg2:T4	
+T5	ORGANIZATION 155 168	ร้านสะดวกซื้อ
+T6	LOCATION 169 188	ปากซอยรัชดาภิเษก 44
+T7	VEHICLE 353 362	รถแท็กซี่

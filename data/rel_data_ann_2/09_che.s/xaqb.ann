@@ -1,0 +1,17 @@
+T1	DATE 8 18	7 ม.ค.2565
+T2	PERSON 20 43	พล.ต.ต.ยิ่งยศ เทพจำนงค์
+T3	ORGANIZATION 48 69	สำนักงานตำรวจแห่งชาติ
+T4	PERSON 94 113	นายมนตรี ใหญ่กระโทก
+T5	ORGANIZATION 217 228	สน.เพชรเกษม
+T6	PERSON 257 265	นายมนตรี
+T7	DATE 276 283	ปี 2556
+T8	PERSON 284 292	นายมนตรี
+T9	LOCATION 334 343	จ.สระแก้ว
+T10	PERSON 460 468	นายมนตรี
+T11	PERSON 497 505	นายมนตรี
+T12	PERSON 535 560	พล.ต.อ.สุวัฒน์ แจ้งยอดสุข
+T13	ORGANIZATION 638 665	สำนักงานพิสูจน์หลักฐานตำรวจ
+T14	ORGANIZATION 669 691	กองบัญชาการตำรวจนครบาล
+R1	crime_located_at Arg1:T4 Arg2:T9	
+R2	crime_date_at Arg1:T4 Arg2:T1	
+R3	employee_or_member_of Arg1:T2 Arg2:T3	

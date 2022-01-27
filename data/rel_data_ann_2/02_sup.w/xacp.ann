@@ -1,0 +1,20 @@
+T1	ORGANIZATION 27 38	สน.คันนายาว
+T2	PERSON 45 66	นายธนภัทร ชนะกูลพิศาล
+T3	TIME 72 77	21 ปี
+T4	PERSON 83 89	ทอยทอย
+T5	WEAPON 129 132	มีด
+T6	PERSON 136 158	น.ส. ชัชสรัญ สุวรรณกิจ
+T7	TIME 164 169	25 ปี
+T8	LOCATION 208 235	ซอยเลียบคลองสอง ซอย 12 – 14
+T9	LOCATION 240 249	คลองสามวา
+T10	LOCATION 250 270	จังหวัดกรุงเทพมหานคร
+T11	DATE 283 292	6 สิงหาคม
+T12	ORGANIZATION 445 459	ศาลอาญามีนบุรี
+T13	TIME 468 474	12 วัน
+T14	TIME 825 832	2-3 วัน
+R1	crime_relation Arg1:T2 Arg2:T6	
+R2	own_weapon Arg1:T2 Arg2:T5	
+R3	crime_located_at Arg1:T2 Arg2:T8	
+R4	crime_located_at Arg1:T2 Arg2:T9	
+R5	crime_located_at Arg1:T2 Arg2:T10	
+R6	crime_date_at Arg1:T2 Arg2:T11	

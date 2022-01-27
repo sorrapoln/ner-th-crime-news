@@ -1,0 +1,42 @@
+T1	DATE 12 19	23 ม.ค.
+T2	PERSON 20 38	ร.ต.อ.เอกอมร สีสัน
+T3	ORGANIZATION 55 62	สภ.คูคต
+T4	LOCATION 63 73	จ.ปทุมธานี
+T5	LOCATION 195 211	บ้านเลขที่ 53/73
+T6	LOCATION 212 228	หมู่บ้านพฤกษา 92
+T7	LOCATION 230 246	รังสิต – ลำลูกกา
+T8	LOCATION 248 254	ซอย 14
+T9	LOCATION 255 264	ต.ลาดสวาย
+T10	LOCATION 265 274	อ.ลำลูกกา
+T11	LOCATION 275 285	จ.ปทุมธานี
+T12	LOCATION 360 366	ซอย 14
+T13	PERSON 442 460	นายธานินทร์ ชลิงสุ
+T14	PERSON 466 470	ตั๋ม
+T15	TIME 476 480	49ปี
+T16	LOCATION 493 505	ตำบลบึงยี่โถ
+T17	WEAPON 524 527	ปืน
+T18	PERSON 650 670	นายวรพงษ์ พินทุวัฒน์
+T19	PERSON 676 678	มด
+T20	TIME 684 689	46 ปี
+T21	WEAPON 708 711	ปืน
+T22	OBJECT 817 830	ปลอกกระสุนปืน
+T23	VEHICLE 945 951	รถยนต์
+T24	PERSON 1033 1053	นายวรินทร แก้วชิงดวง
+T25	TIME 1059 1064	31 ปี
+T26	LOCATION 1131 1147	บ้านเลขที่ 53/78
+T27	LOCATION 1148 1164	หมู่บ้านพฤกษา 92
+T28	WEAPON 1170 1173	ปืน
+T29	ORGANIZATION 1279 1286	สภ.คูคต
+R1	crime_date_at Arg1:T24 Arg2:T1	
+R2	crime_located_at Arg1:T24 Arg2:T5	
+R3	crime_located_at Arg1:T24 Arg2:T6	
+R4	crime_located_at Arg1:T24 Arg2:T7	
+R5	crime_located_at Arg1:T24 Arg2:T8	
+R6	crime_located_at Arg1:T24 Arg2:T9	
+R7	crime_located_at Arg1:T24 Arg2:T10	
+R8	crime_located_at Arg1:T24 Arg2:T11	
+R9	own_weapon Arg1:T24 Arg2:T28	
+R10	located_at Arg1:T24 Arg2:T26	
+R11	located_at Arg1:T24 Arg2:T27	
+R12	crime_relation Arg1:T24 Arg2:T13	
+R13	crime_relation Arg1:T24 Arg2:T18	

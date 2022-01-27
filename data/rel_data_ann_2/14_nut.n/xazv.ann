@@ -1,0 +1,22 @@
+T1	PERSON 12 47	น.ส.ศรีสุภางค์ หรือเก่ง สุวรรณศิลป์
+T2	TIME 53 58	48 ปี
+T3	ORGANIZATION 73 86	โรงพยาบาลภาชี
+R1	employee_or_member_of Arg1:T1 Arg2:T3	
+T4	LOCATION 87 104	จ.พระนครศรีอยุธยา
+T5	VEHICLE 177 183	รถยนต์
+T6	TIME 199 207	10.00 น.
+T7	DATE 215 223	11 มี.ค.
+T8	ORGANIZATION 252 259	สภ.ภาชี
+T9	PERSON 269 284	นายอั๋น ฟักศิริ
+T10	TIME 290 295	33 ปี
+R2	crime_relation Arg1:T9 Arg2:T1	
+T11	PERSON 335 342	นายอั๋น
+T12	VEHICLE 346 361	รถกระบะสี่ประตู
+T13	COLOR 362 367	สีขาว
+R3	color_of Arg1:T12 Arg2:T13	
+T14	LP 368 391	บล 3777 พระนครศรีอยุธยา
+R4	vehicle_lp Arg1:T12 Arg2:T14	
+T15	LOCATION 461 468	ดลาดชิด
+T16	LOCATION 469 477	อ.ผักไห่
+T17	LOCATION 478 495	จ.พระนครศรีอยุธยา
+R5	own_vehicle Arg1:T11 Arg2:T12	

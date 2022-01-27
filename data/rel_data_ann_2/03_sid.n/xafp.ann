@@ -1,0 +1,8 @@
+T1	LOCATION 63 75	จ. อุตรดิตถ์
+T2	PERSON 108 124	นายธีรพล ปิ่นอมร
+T3	TIME 130 135	38 ปี
+T4	VEHICLE 188 194	รถยนต์
+T5	LOCATION 245 255	จ.พิษณุโลก
+R1	crime_located_at Arg1:T2 Arg2:T1	
+R2	own_vehicle Arg1:T2 Arg2:T4	
+R3	located_at Arg1:T2 Arg2:T5	

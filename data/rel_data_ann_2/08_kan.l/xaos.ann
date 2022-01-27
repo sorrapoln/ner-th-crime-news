@@ -1,0 +1,19 @@
+T1	LOCATION 41 51	ชุมชนนารอง
+T2	LOCATION 52 61	เขตเทศบาล
+T3	LOCATION 62 69	อ.เมือง
+T4	LOCATION 70 87	จ.ประจวบคีรีขันธ์
+T5	TIME 259 266	01.47 น
+T6	DATE 275 284	10 ก.ย.62
+T7	DATE 298 310	14 ก.ย. 2562
+T8	TIME 316 324	10.00 น.
+T9	PERSON 346 370	พ.ต.อ.วัชรินทร์ บุญรักษ์
+T10	PERSON 398 408	นายอภิชาติ
+T11	TIME 414 419	41 ปี
+T12	VEHICLE 559 561	รถ
+R1	own_vehicle Arg1:T10 Arg2:T12	
+R2	crime_located_at Arg1:T10 Arg2:T1	
+R3	crime_located_at Arg1:T10 Arg2:T2	
+R4	crime_located_at Arg1:T10 Arg2:T3	
+R5	crime_located_at Arg1:T10 Arg2:T4	
+R6	crime_time_at Arg1:T10 Arg2:T5	
+R7	crime_date_at Arg1:T10 Arg2:T6	

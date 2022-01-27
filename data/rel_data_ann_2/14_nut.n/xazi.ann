@@ -1,0 +1,22 @@
+T1	DATE 30 36	ก.พ.55
+T3	PERSON 58 77	น.ส.จริยา ศรีศักดิ์
+T4	PERSON 83 90	น้องน้ำ
+T5	TIME 95 100	15 ปี
+T6	WEAPON 133 146	กระป๋องสเปร์ย
+T7	PERSON 167 174	น้องน้ำ
+T8	WEAPON 191 208	กระบอกพลาสติกแข็ง
+T9	WEAPON 231 240	ที่หนีบผม
+T10	DATE 299 309	12 เม.ย.55
+T11	PERSON 310 314	โมนา
+T12	LOCATION 339 352	บ้านเลขที่ 91
+T13	LOCATION 353 359	หมู่ 7
+T14	LOCATION 360 369	ต.หนองโสน
+T15	LOCATION 370 377	อ.เมือง
+T16	LOCATION 378 388	จ.เพชรบุรี
+T2	PERSON 37 55	น.ส.กฤษณา หรือโมนา
+R2	crime_relation Arg1:T2 Arg2:T3	
+R3	crime_relation Arg1:T2 Arg2:T4	
+R4	own_weapon Arg1:T2 Arg2:T6	
+R5	own_weapon Arg1:T2 Arg2:T8	
+R6	own_weapon Arg1:T2 Arg2:T9	
+R7	crime_date_at Arg1:T2 Arg2:T10	

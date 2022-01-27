@@ -1,0 +1,45 @@
+T1	TIME 10 18	03.00 น.
+T2	DATE 25 33	9 ต.ค.64
+T3	PERSON 34 56	พ.ต.ท.ศิโรจน์ แนบเนียน
+T4	LOCATION 125 144	ซอยคลองสี่ตะวันตก 7
+T5	LOCATION 145 148	ม.1
+T6	LOCATION 149 158	ต.คลองสี่
+T7	LOCATION 159 169	อ.คลองหลวง
+T8	LOCATION 170 180	จ.ปทุมธานี
+T9	PERSON 207 236	.ต.อ.เกียรติศักดิ์ มิตรปราสาท
+T10	PERSON 253 272	พ.ต.ต.สิรภพ บัวหลวง
+T11	ORGANIZATION 399 418	โรงพยาบาลธรรมศาสตร์
+T12	ORGANIZATION 446 463	มูลนิธิปอเต็กตึ้ง
+T13	ORGANIZATION 479 493	ห้องเช่าชื่อNJ
+T14	LOCATION 493 504	เลขที่ 43/3
+T15	PERSON 553 582	นายรุ่งเกียรติ กลิ่นปทุมรัตนี
+T16	TIME 588 593	31 ปี
+T17	LOCATION 598 614	บ้านเลขที่ 16/13
+T18	LOCATION 615 618	ม.2
+T19	LOCATION 619 628	ต.คลองสี่
+T20	LOCATION 629 639	อ.คลองหลวง
+T21	LOCATION 640 650	จ.ปทุมธานี
+T22	WEAPON 699 702	มีด
+T23	LOCATION 745 757	ห้องเลขที่ 3
+T24	WEAPON 817 820	มีด
+T25	PERSON 834 857	นายกีรติ กลิ่นปทุมรัตน์
+T26	TIME 863 868	29 ปี
+T27	WEAPON 914 917	มีด
+T28	ORGANIZATION 986 997	สภ.คลองหลวง
+T29	PERSON 1010 1030	นางสาวสังวาล กันจินะ
+T30	TIME 1036 1041	28 ปี
+T31	PERSON 1216 1239	นายวสุธา กลิ่นปทุมรัตน์
+T32	TIME 1245 1250	56 ปี
+T33	WEAPON 1400 1403	มีด
+R1	crime_relation Arg1:T25 Arg2:T15	
+R2	located_at Arg1:T15 Arg2:T17	
+R3	located_at Arg1:T15 Arg2:T18	
+R4	located_at Arg1:T15 Arg2:T19	
+R5	located_at Arg1:T15 Arg2:T20	
+R6	located_at Arg1:T15 Arg2:T21	
+R7	crime_located_at Arg1:T25 Arg2:T4	
+R8	crime_located_at Arg1:T25 Arg2:T5	
+R9	crime_located_at Arg1:T25 Arg2:T6	
+R10	crime_located_at Arg1:T25 Arg2:T7	
+R11	crime_located_at Arg1:T25 Arg2:T8	
+R12	own_weapon Arg1:T25 Arg2:T27	

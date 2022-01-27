@@ -1,0 +1,15 @@
+T1	TIME 10 17	11.15 น
+T2	ORGANIZATION 66 98	ร้านอาหารบริเวณใกล้แยกสวนรื่นฤดี
+T3	LOCATION 99 107	เขตดุสิต
+T4	VEHICLE 154 168	รถยนต์มาสด้า 2
+T5	COLOR 169 174	สีขาว
+T6	LP 183 200	กท 1869 บุรีรัมย์
+R1	color_of Arg1:T4 Arg2:T5	
+R2	vehicle_lp Arg1:T4 Arg2:T6	
+T7	LOCATION 289 307	ริมถนนสุโขทัยขาออก
+T8	VEHICLE 310 337	รถกระบะ ยี่ห้อโตโยต้า วีโก้
+T9	COLOR 338 343	สีขาว
+T10	LP 352 370	1 ฒฆ 1111 กรุงเทพฯ
+R3	color_of Arg1:T8 Arg2:T9	
+R4	vehicle_lp Arg1:T8 Arg2:T10	
+T11	ORGANIZATION 32 40	สน.ดุสิต

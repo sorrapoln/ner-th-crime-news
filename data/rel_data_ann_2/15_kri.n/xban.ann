@@ -1,0 +1,20 @@
+T1	TIME 10 18	00.10 น.
+T2	DATE 26 40	10 ตุลาคม 2564
+T3	ORGANIZATION 58 77	สน.ทุ่งครุ กรุงเทพฯ
+T4	WEAPON 139 147	อาวุธปืน
+T5	LOCATION 211 228	ซอย ประชาอุทิศ 79
+T6	OBJECT 395 408	ปลอกกระสุนปืน
+T7	OBJECT 465 485	กระสุนของปืนหลายชนิด
+T8	OBJECT 828 836	กระจกแตก
+T9	OBJECT 873 882	หัวกระสุน
+T10	VEHICLE 1216 1229	รถจักรยานยนต์
+T11	COLOR 1252 1261	สีน้ำเงิน
+R1	color_of Arg1:T10 Arg2:T11	
+T12	VEHICLE 1402 1442	รถจักรยานยนต์ ยี่ห้อฮอนด้า รุ่นเวฟ 125 i
+T13	COLOR 1443 1452	สีน้ำเงิน
+R2	color_of Arg1:T12 Arg2:T13	
+T14	ORGANIZATION 1702 1712	สน.ทุ่งครุ
+R3	found_object_at Arg1:T7 Arg2:T5	
+R4	found_object_at Arg1:T6 Arg2:T5	
+R5	found_object_at Arg1:T8 Arg2:T5	
+R6	found_object_at Arg1:T9 Arg2:T5	

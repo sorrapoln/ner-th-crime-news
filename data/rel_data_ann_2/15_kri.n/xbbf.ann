@@ -1,0 +1,37 @@
+T1	TIME 10 17	14.50 น
+T2	DATE 26 34	21ม.ค.65
+T3	LOCATION 52 64	จ.ปราจีนบุรี
+T4	PERSON 88 106	นายชวลิต พวงไธสงค์
+T5	TIME 112 117	47 ปี
+T6	PERSON 132 158	นายสายัณห์ ศรีสะอาดพันธ์วง
+T7	WEAPON 182 197	มีดพกปลายแหลมขน
+T8	PERSON 200 227	นายสายัณห์ ศรีสอาดพันธ์วงษ์
+T9	TIME 233 238	63 ปี
+T10	LOCATION 293 302	เลขที่ 47
+T11	LOCATION 303 310	หมู่ 20
+T12	LOCATION 311 323	ต.วังท่าช้าง
+T13	LOCATION 324 337	อ.กบินทร์บุรี
+T14	LOCATION 338 350	จ.ปราจีนบุรี
+T15	DATE 514 519	20ม.ค
+T16	LOCATION 555 562	หมู่ 20
+T17	LOCATION 563 574	ต.วังท่าช้า
+T18	LOCATION 576 589	อ.กบินทร์บุรี
+T19	LOCATION 590 602	จ.ปราจีนบุรี
+T20	DATE 761 768	(21ม.ค.
+T21	ORGANIZATION 801 814	สภ.วังตะเคียน
+T22	LOCATION 815 828	อ.กบินทร์บุรี
+T23	LOCATION 829 841	จ.ปราจีนบุรี
+T24	DATE 925 931	20ม.ค.
+R1	crime_relation Arg1:T4 Arg2:T6	
+R2	own_weapon Arg1:T4 Arg2:T7	
+R3	crime_date_at Arg1:T4 Arg2:T2	
+R4	crime_time_at Arg1:T4 Arg2:T1	
+R5	crime_located_at Arg1:T4 Arg2:T16	
+R6	crime_located_at Arg1:T4 Arg2:T17	
+R7	crime_located_at Arg1:T4 Arg2:T18	
+R8	crime_located_at Arg1:T4 Arg2:T19	
+R9	located_at Arg1:T6 Arg2:T10	
+R10	located_at Arg1:T6 Arg2:T11	
+R11	located_at Arg1:T6 Arg2:T12	
+R12	located_at Arg1:T6 Arg2:T13	
+R13	located_at Arg1:T6 Arg2:T14	

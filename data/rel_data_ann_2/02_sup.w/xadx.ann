@@ -1,0 +1,34 @@
+T1	LOCATION 16 31	จังหวัดสุรินทร์
+T2	ORGANIZATION 54 88	อาสาสมัครหน่วยกู้ชีพกู้ภัยสุรินทร์
+T3	LOCATION 144 153	บ.หนองยาง
+T4	LOCATION 154 157	ม.6
+T5	LOCATION 158 165	ต.ตรำดม
+T6	LOCATION 166 173	อ.ลำดวน
+T7	LOCATION 174 184	จ.สุรินทร์
+T8	PERSON 214 231	นายสมเกียรติ ชงโค
+T9	TIME 237 242	49 ปี
+T10	LOCATION 254 261	กะลันทะ
+T11	LOCATION 262 266	ม.11
+T12	LOCATION 267 274	ต.สำโรง
+T13	LOCATION 275 282	อ.เมือง
+T14	LOCATION 283 293	จ.สุรินทร์
+T15	PERSON 325 341	นายนิรัน รวดเร็ว
+T16	TIME 347 352	25 ปี
+T17	PERSON 539 556	นางระหงษ์ รวดเร็ว
+T18	TIME 562 567	52 ปี
+R1	crime_relation Arg1:T15 Arg2:T8	
+R2	crime_located_at Arg1:T15 Arg2:T3	
+R3	crime_located_at Arg1:T15 Arg2:T4	
+R4	crime_located_at Arg1:T15 Arg2:T5	
+R5	crime_located_at Arg1:T15 Arg2:T6	
+R6	crime_located_at Arg1:T15 Arg2:T7	
+R7	located_at Arg1:T8 Arg2:T10	
+R8	located_at Arg1:T8 Arg2:T11	
+R9	located_at Arg1:T8 Arg2:T12	
+R10	located_at Arg1:T8 Arg2:T13	
+R11	crime_located_at Arg1:T8 Arg2:T14	
+R12	located_at Arg1:T17 Arg2:T3	
+R13	located_at Arg1:T17 Arg2:T4	
+R14	located_at Arg1:T17 Arg2:T5	
+R15	located_at Arg1:T17 Arg2:T6	
+R16	located_at Arg1:T17 Arg2:T7	

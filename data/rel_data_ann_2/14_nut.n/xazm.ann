@@ -1,0 +1,22 @@
+T1	TIME 10 18	01.30 น.
+T2	DATE 29 35	17 ม.ค
+T3	ORGANIZATION 54 68	สภ. เมืองพัทยา
+T4	VEHICLE 231 236	รถหรู
+T5	VEHICLE 250 273	รถยนต์เก๋งเบ็นซ์ SLK200
+T6	COLOR 274 279	สีขาว
+R1	color_of Arg1:T5 Arg2:T6	
+T7	VEHICLE 285 298	รถยนต์ตู้ VIP
+T8	VEHICLE 300 316	โตโยต้า อัลพาร์ด
+T9	COLOR 317 321	สีดำ
+R2	color_of Arg1:T7 Arg2:T9	
+R3	color_of Arg1:T8 Arg2:T9	
+T10	PERSON 329 346	MR.ZHANG HONGXING
+T11	TIME 352 357	28 ปี
+T12	VEHICLE 378 391	รถยนต์ตู้ VIP
+R4	own_vehicle Arg1:T10 Arg2:T7	
+T13	PERSON 450 460	MR.CAO LEI
+T14	TIME 466 471	33 ปี
+T15	VEHICLE 493 509	รถยนต์เก๋งเบ็นซ์
+R5	own_vehicle Arg1:T13 Arg2:T5	
+T16	WEAPON 526 537	มีดปลายแหลม
+T17	WEAPON 548 557	กระบอกยาง

@@ -1,0 +1,33 @@
+T1	DATE 12 19	19 ก.ค.
+T2	PERSON 20 39	พ.ต.ท.สำราญ ดินเต็ม
+T3	ORGANIZATION 52 60	สภ.สิเกา
+T4	LOCATION 61 67	จ.ตรัง
+T5	PERSON 86 96	น.ส.อรอุมา
+T6	TIME 118 123	42 ปี
+T7	WEAPON 140 143	ปืน
+T8	VEHICLE 160 175	รถยนต์ กระบะยี่
+T9	COLOR 197 207	บรอนซ์เงิน
+T10	LOCATION 231 240	หมู่ที่ 1
+T11	LOCATION 241 249	ต.กะลาเส
+T12	LOCATION 250 257	อ.สิเกา
+T13	LOCATION 258 264	จ.ตรัง
+T14	ORGANIZATION 340 348	รพ.สิเกา
+T15	PERSON 438 446	นายสมชาย
+T16	TIME 452 457	54 ปี
+T17	PERSON 499 505	ด.ญ.เอ
+T18	PERSON 757 767	น.ส.อรอุมา
+T19	WEAPON 895 898	ปืน
+T20	PERSON 937 945	นายสมชาย
+T21	WEAPON 956 959	ปืน
+T22	PERSON 1147 1166	พล.ต.ต.สันทัด วินสน
+T23	LOCATION 1212 1223	จังหวัดตรัง
+T24	ORGANIZATION 1243 1252	สภ. สิเกา
+R1	own_weapon Arg1:T15 Arg2:T7	
+R2	crime_relation Arg1:T15 Arg2:T5	
+R3	crime_date_at Arg1:T15 Arg2:T1	
+R4	color_of Arg1:T8 Arg2:T9	
+R5	crime_located_at Arg1:T15 Arg2:T10	
+R6	crime_located_at Arg1:T15 Arg2:T11	
+R7	crime_located_at Arg1:T15 Arg2:T12	
+R8	crime_located_at Arg1:T15 Arg2:T13	
+R9	own_vehicle Arg1:T5 Arg2:T8	

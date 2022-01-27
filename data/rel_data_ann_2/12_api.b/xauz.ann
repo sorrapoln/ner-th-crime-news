@@ -1,0 +1,56 @@
+T1	DATE 12 23	1 พฤศจิกายน
+T2	PERSON 24 45	พ.ต.อ.กัมปนาท ณ วิชัย
+T3	ORGANIZATION 50 62	สภ.โพธิ์แก้ว
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T4	LOCATION 63 76	จังหวัดนครปฐม
+T5	PERSON 77 103	พ.ต.ท.กิตติพนธ์ สังฆะพันธ์
+T6	PERSON 116 137	พ.ต.ต.วสันต์ ตั้งธรรม
+T7	PERSON 212 242	นายมนตรี หรือป๋อง ประเสริฐวงศ์
+T8	TIME 248 253	45 ปี
+T9	VEHICLE 431 452	รถจักรยานยนต์ ยามาฮ่า
+T10	LP 461 474	2 ขย2671 กทม.
+R2	vehicle_lp Arg1:T9 Arg2:T10	
+T11	COLOR 495 499	สีดำ
+T12	COLOR 524 528	สีดำ
+T13	OBJECT 475 486	หมวกกันน็อก
+T14	OBJECT 505 524	เสื้อยืดคอกลมแขนยาว
+T15	OBJECT 572 589	กางเกงยีนส์ขาวยาว
+T16	COLOR 589 593	สีดำ
+T17	LOCATION 633 641	ซอยโชคดี
+T18	LOCATION 642 651	หมู่ที่ 2
+T19	LOCATION 652 664	ต.กระทุ่มล้ม
+T20	LOCATION 665 674	อ.สามพราน
+T21	LOCATION 675 683	จ.นครปฐม
+T22	DATE 730 736	9 ต.ค.
+T23	VEHICLE 760 772	ถจักรยานยนต์
+T24	LOCATION 819 838	หน้าร้านทองทวีชัย 5
+T25	LOCATION 839 854	ถ.พุทธมณฑลสาย 4
+T26	LOCATION 855 858	ม.5
+T27	LOCATION 859 871	ต.กระทุ่มล้ม
+T28	LOCATION 966 980	ทางวงเวียนใหญ่
+T29	LOCATION 981 994	กรุงเทพมหานคร
+T30	PERSON 1001 1031	พล.ต.ท.ธนายุตม์ วุฒิจรัสธำรงค์
+T31	PERSON 1040 1065	พล.ต.ต.ชมชวิณ ปุระธนานนท์
+T32	PERSON 1086 1117	พ.ต.อ.สธนทัต ตั้งสิทธิ์เสรีวงศ์
+T33	ORGANIZATION 1294 1306	สภ.โพธิ์แก้ว
+R3	found_object_at Arg1:T15 Arg2:T17	
+R4	found_object_at Arg1:T15 Arg2:T18	
+R5	found_object_at Arg1:T15 Arg2:T19	
+R6	found_object_at Arg1:T15 Arg2:T20	
+R7	found_object_at Arg1:T15 Arg2:T21	
+R8	found_object_at Arg1:T13 Arg2:T17	
+R9	found_object_at Arg1:T14 Arg2:T18	
+R10	found_object_at Arg1:T14 Arg2:T17	
+R11	found_object_at Arg1:T13 Arg2:T18	
+R12	found_object_at Arg1:T13 Arg2:T19	
+R13	found_object_at Arg1:T14 Arg2:T19	
+R14	found_object_at Arg1:T13 Arg2:T20	
+R15	found_object_at Arg1:T14 Arg2:T20	
+R16	found_object_at Arg1:T13 Arg2:T21	
+R17	found_object_at Arg1:T14 Arg2:T21	
+R18	own_vehicle Arg1:T7 Arg2:T9	
+R19	crime_located_at Arg1:T7 Arg2:T24	
+R20	crime_located_at Arg1:T7 Arg2:T25	
+R21	crime_located_at Arg1:T7 Arg2:T26	
+R22	crime_located_at Arg1:T7 Arg2:T27	
+R23	crime_date_at Arg1:T7 Arg2:T22	

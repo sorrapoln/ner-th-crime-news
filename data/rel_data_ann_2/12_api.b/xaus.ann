@@ -1,0 +1,4 @@
+T1	PERSON 69 76	นายตุ้ม
+T2	WEAPON 89 98	เหล็กแหลม
+T3	PERSON 216 223	นายตุ้ม
+R1	own_weapon Arg1:T1 Arg2:T2	

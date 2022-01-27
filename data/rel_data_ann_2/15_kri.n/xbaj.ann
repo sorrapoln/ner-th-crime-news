@@ -1,0 +1,24 @@
+T1	PERSON 0 14	พ.ต.ท.เจริญชัย
+T2	ORGANIZATION 22 36	สวป.สภ.บางปะกง
+T3	LOCATION 37 49	จ.ฉะเชิงเทรา
+T4	LOCATION 142 154	ซอยต้นกะติ๊ก
+T5	LOCATION 155 162	หมู่ 12
+T6	LOCATION 163 171	ต.บางวัว
+T7	LOCATION 172 181	อ.บางปะกง
+T8	PERSON 269 291	นายเอกชัย นพนาคพะเนาว์
+T9	TIME 297 302	56 ปี
+T10	PERSON 307 325	นายพรชัย ตาสาโรจน์
+T11	TIME 326 336	อายุ 36 ปี
+T12	WEAPON 345 348	มีด
+T13	ORGANIZATION 397 413	โรงพยาบาลบางปะกง
+T14	PERSON 437 455	นายสมควร เถื่อนแสง
+T15	TIME 461 466	55 ปี
+T16	VEHICLE 494 507	รถจักรยานยนต์
+R1	crime_relation Arg1:T14 Arg2:T8	
+R2	crime_relation Arg1:T14 Arg2:T10	
+R3	own_weapon Arg1:T14 Arg2:T12	
+R4	crime_located_at Arg1:T14 Arg2:T4	
+R5	crime_located_at Arg1:T14 Arg2:T5	
+R6	crime_located_at Arg1:T14 Arg2:T6	
+R7	crime_located_at Arg1:T14 Arg2:T7	
+R8	own_vehicle Arg1:T14 Arg2:T16	

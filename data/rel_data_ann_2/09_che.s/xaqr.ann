@@ -1,0 +1,35 @@
+T1	DATE 12 23	17 พ.ย.2564
+T2	ORGANIZATION 41 57	สภ.เมืองมุกดาหาร
+T3	PERSON 112 134	นายเกริกฤทธิ์ แผ่นพรหม
+T4	PERSON 140 146	น้องเอ
+T5	TIME 152 157	18 ปี
+T6	LOCATION 203 215	ซอยตาดแคน 19
+T7	LOCATION 216 225	ถนนตาดแคน
+T8	LOCATION 226 236	ต.มุกดาหาร
+T9	LOCATION 237 244	อ.เมือง
+T10	LOCATION 245 255	จ.มุกดาหาร
+T11	PERSON 276 295	นายเชนต์ สุวรรณมงคล
+T12	PERSON 405 413	นายเชนต์
+T13	WEAPON 428 431	มีด
+T14	PERSON 435 441	น้องเอ
+R1	own_weapon Arg1:T12 Arg2:T13	
+R2	crime_relation Arg1:T12 Arg2:T3	
+T15	DATE 576 591	15 พฤศจิกายน 64
+T16	PERSON 592 614	พล.ต.ต.ชัชชัย วงศ์สุนะ
+T17	LOCATION 632 647	จังหวัดมุกดาหาร
+T18	DATE 788 803	15 พฤศจิกายน 64
+T19	ORGANIZATION 933 955	เรือนจำจังหวัดมุกดาหาร
+T20	TIME 975 983	11.00 น.
+T21	ORGANIZATION 1029 1051	เรือนจำจังหวัดมุกดาหาร
+T22	WEAPON 1355 1358	มีด
+R3	crime_date_at Arg1:T12 Arg2:T15	
+R4	crime_located_at Arg1:T12 Arg2:T6	
+R5	crime_located_at Arg1:T12 Arg2:T7	
+R6	crime_located_at Arg1:T12 Arg2:T8	
+R7	crime_located_at Arg1:T12 Arg2:T9	
+R8	crime_located_at Arg1:T12 Arg2:T10	
+R9	located_at Arg1:T3 Arg2:T6	
+R10	located_at Arg1:T3 Arg2:T7	
+R11	located_at Arg1:T3 Arg2:T8	
+R12	located_at Arg1:T3 Arg2:T9	
+R13	located_at Arg1:T3 Arg2:T10	

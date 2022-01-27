@@ -1,0 +1,42 @@
+T1	DATE 12 19	23 ม.ค.
+T2	PERSON 36 56	พล.ต.ท.จิรภพ ภูริเดช
+T3	PERSON 75 94	พล.ต.ต.มนตรี เทศขัน
+T4	PERSON 95 125	ผบก.ป.พ.ต.อ.วิระชาญ ขุนไชยแก้ว
+T5	PERSON 138 162	พ.ต.ต.ปิยะพร เรียนสุทธิ์
+T6	PERSON 191 199	นายวิษณุ
+T7	TIME 219 224	39 ปี
+T8	DATE 277 288	23 เม.ย. 58
+T9	LOCATION 426 434	ต.ไสหร้า
+T10	LOCATION 435 441	อ.ฉวาง
+T11	LOCATION 442 457	จ.นครศรีธรรมราช
+T12	PERSON 513 520	น.ส.ปลา
+T13	PERSON 483 491	นายวิษณุ
+T14	PERSON 553 560	น.ส.ปลา
+T15	PERSON 584 589	นายเอ
+T16	LOCATION 656 666	อ.ด่านช้าง
+T17	LOCATION 667 679	จ.สุพรรณบุรี
+T18	PERSON 707 714	น.ส.ปลา
+T19	PERSON 739 744	นายเอ
+T20	PERSON 766 773	น.ส.ปลา
+T21	VEHICLE 748 761	รถจักรยานยนต์
+T22	PERSON 860 865	นายเอ
+T23	VEHICLE 869 882	รถจักรยานยนต์
+T24	PERSON 888 896	นายวิษณุ
+T25	LOCATION 937 955	ย่านชุมชนเขาน้ำแดง
+T26	LOCATION 956 966	อ.ด่านช้าง
+T27	LOCATION 967 979	จ.สุพรรณบุรี
+T28	PERSON 1000 1005	นายเอ
+T29	VEHICLE 1151 1164	รถจักรยานยนต์
+T30	PERSON 1168 1173	นายเอ
+T31	PERSON 1227 1232	นายเอ
+T32	LOCATION 1466 1472	อ.ฉวาง
+T33	LOCATION 1473 1488	จ.นครศรีธรรมราช
+T34	LOCATION 1576 1593	จังหวัดสุพรรณบุรี
+R1	crime_relation Arg1:T13 Arg2:T12	
+T35	WEAPON 792 801	ท่อนเหล็ก
+R3	own_weapon Arg1:T13 Arg2:T35	
+R4	crime_relation Arg1:T13 Arg2:T19	
+R2	own_vehicle Arg1:T19 Arg2:T21	
+R5	crime_located_at Arg1:T13 Arg2:T26	
+R6	crime_located_at Arg1:T13 Arg2:T27	
+R7	crime_located_at Arg1:T13 Arg2:T25	

@@ -1,0 +1,10 @@
+T1	PERSON 13 21	นายดุสิต
+T2	TIME 110 118	04.00 น.
+T4	WEAPON 462 465	มีด
+T3	WEAPON 379 382	มีด
+T5	WEAPON 584 587	มีด
+T6	PERSON 699 708	นายวรวุฒิ
+T7	TIME 765 772	2-3 วัน
+R1	crime_relation Arg1:T6 Arg2:T1	
+R2	own_weapon Arg1:T6 Arg2:T3	
+R3	crime_time_at Arg1:T6 Arg2:T2	

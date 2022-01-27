@@ -1,0 +1,15 @@
+T1	ORGANIZATION 6 15	สน.โชคชัย
+T2	WEAPON 76 79	มีด
+T3	PERSON 82 101	นายวรัญญา เนตรทิพย์
+T4	TIME 107 112	40 ปี
+T5	LOCATION 147 161	ซอยลาดพร้าว 83
+T6	WEAPON 203 206	มีด
+T7	VEHICLE 314 316	รถ
+T8	VEHICLE 451 462	จักรยานยนต์
+T9	VEHICLE 510 512	รถ
+T10	PERSON 634 643	นายวรัญญา
+T11	VEHICLE 650 679	รถจักรยานยนต์ฮอนด้าเวฟ 110 ไอ
+T12	COLOR 680 688	สีขาว-ดำ
+R1	color_of Arg1:T11 Arg2:T12	
+T13	WEAPON 583 593	มวกกันน็อก
+T14	WEAPON 622 625	มีด

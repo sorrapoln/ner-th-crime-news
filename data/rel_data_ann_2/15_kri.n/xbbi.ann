@@ -1,0 +1,51 @@
+T1	TIME 10 17	12.00 น
+T2	DATE 26 35	28 ต.ค.64
+T3	PERSON 74 98	พล.ต.ท.จิรพัฒน์ ภูมิจิตร
+T4	PERSON 107 131	พล.ต.ต.พีระพงศ์ วงษ์สมาน
+T5	PERSON 158 184	พล.ต.ต.สหรัฐ ศักดิ์ศิลปชัย
+T6	PERSON 213 238	พล.ต.ต.ไพศาล วงศ์วัชรมงคล
+T7	PERSON 256 283	พ.ต.อ.โชติวัฒน์ เหลืองวิลัย
+T8	PERSON 305 327	พ.ต.อ.จิรายุส วานิชกูล
+T9	PERSON 348 366	พ.ต.ต.ศรุจ ทับเงิน
+T10	PERSON 414 436	นายเชา หรือเชา มาขุนทด
+T11	TIME 442 447	64 ปี
+T12	LOCATION 452 464	จ.นครราชสีมา
+T13	DATE 527 538	2 ก.ย. 2550
+T14	LOCATION 860 863	ม.5
+T15	LOCATION 864 873	ต.เสือหึง
+T16	LOCATION 874 885	อ.เชียรใหญ่
+T17	LOCATION 886 901	จ.นครศรีธรรมราช
+T18	PERSON 902 917	พล.ต.ท.จิรพัฒน์
+T19	DATE 953 964	21 ส.ค.2550
+T20	TIME 976 983	13.15 น
+T21	PERSON 1014 1035	นายธีระศักดิ์ ธีระชิต
+T22	TIME 1041 1046	55 ปี
+T23	PERSON 1086 1102	นางรัชนี ธีระชิต
+T24	TIME 1108 1113	74 ปี
+T25	LOCATION 1230 1241	จ.เชียงใหม่
+T26	PERSON 1253 1266	นายธีระศักดิ์
+T27	PERSON 1324 1337	นายธีระศักดิ์
+T28	PERSON 1397 1405	นางรัชนี
+T29	ORGANIZATION 1453 1467	วัดใหม่หนองโสน
+T30	LOCATION 1468 1477	จ.ชัยภูมิ
+T31	PERSON 1577 1591	นายเชา มาขุนทด
+T32	TIME 1597 1602	64 ปี
+T33	LOCATION 1607 1619	จ.นครราชสีมา
+T34	PERSON 1644 1657	นพล.ต.ต.สหรัฐ
+T35	LOCATION 1733 1736	ม.5
+T36	LOCATION 1737 1746	ต.เสือหึง
+T37	LOCATION 1747 1758	อ.เชียรใหญ่
+T38	LOCATION 1759 1774	จ.นครศรีธรรมราช
+T39	DATE 1782 1788	26 ต.ค
+T40	WEAPON 1852 1856	ค้อน
+T41	LOCATION 1896 1911	จ.นครศรีธรรมราช
+R1	located_at Arg1:T10 Arg2:T14	
+R2	located_at Arg1:T10 Arg2:T15	
+R3	located_at Arg1:T10 Arg2:T16	
+R4	located_at Arg1:T10 Arg2:T17	
+R5	located_at Arg1:T10 Arg2:T12	
+R6	crime_relation Arg1:T10 Arg2:T21	
+R7	crime_relation Arg1:T10 Arg2:T23	
+R8	crime_date_at Arg1:T10 Arg2:T19	
+R9	crime_time_at Arg1:T10 Arg2:T20	
+R10	own_weapon Arg1:T10 Arg2:T40	

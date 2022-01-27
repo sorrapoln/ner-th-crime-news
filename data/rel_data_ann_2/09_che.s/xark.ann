@@ -1,0 +1,38 @@
+T1	DATE 8 19	19 ก.พ.2564
+T2	PERSON 53 70	นายจุมพล สุภาพงษ์
+T3	ORGANIZATION 74 94	โรงเรียนบ้านหนองสรวง
+T4	LOCATION 95 103	ต.ดอนปรู
+T5	LOCATION 104 117	อ.ศรีประจันต์
+T6	LOCATION 118 130	จ.สุพรรณบุรี
+T7	PERSON 204 221	น.ส.มยุรี ยอดพะเน
+T8	PERSON 227 231	หลิว
+T9	TIME 237 242	19 ปี
+T10	TIME 266 274	06.00 น.
+T11	ORGANIZATION 310 327	ศาลจังหวัดสระแก้ว
+T12	LOCATION 365 378	อ.ศรีประจันต์
+T13	LOCATION 379 391	จ.สุพรรณบุรี
+T14	PERSON 409 417	นายจุมพล
+T15	ORGANIZATION 461 472	สภ.วัฒนานคร
+T16	LOCATION 473 482	จ.สระแก้ว
+T17	PERSON 539 547	น้องหลิว
+T18	LOCATION 575 578	304
+T19	LOCATION 579 591	อ.ศรีมหาโพธิ
+T20	LOCATION 592 604	จ.ปราจีนบุรี
+T21	LOCATION 630 637	หมู่ 13
+T22	LOCATION 638 649	ต.ท่าเกวียน
+T23	LOCATION 650 660	อ.วัฒนานคร
+T24	LOCATION 661 669	จ.สระแก้
+T25	ORGANIZATION 730 745	มูลนิธิกระจกเงา
+T26	LOCATION 860 872	จ.สุพรรณบุรี
+T27	OBJECT 912 922	ปลอกกระสุน
+R1	crime_relation Arg1:T2 Arg2:T7	
+R2	located_at Arg1:T2 Arg2:T12	
+R3	located_at Arg1:T2 Arg2:T13	
+R4	located_at Arg1:T7 Arg2:T18	
+R5	located_at Arg1:T7 Arg2:T19	
+R6	located_at Arg1:T7 Arg2:T20	
+R7	crime_located_at Arg1:T2 Arg2:T21	
+R8	crime_located_at Arg1:T2 Arg2:T22	
+R9	crime_located_at Arg1:T2 Arg2:T23	
+R10	crime_located_at Arg1:T2 Arg2:T24	
+R11	employee_or_member_of Arg1:T2 Arg2:T3	

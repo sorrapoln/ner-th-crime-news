@@ -1,0 +1,26 @@
+T1	VEHICLE 45 51	รถยนต์
+T2	COLOR 51 55	สีดำ
+T3	WEAPON 142 145	ปืน
+T4	WEAPON 155 158	ปืน
+T5	WEAPON 289 292	ปืน
+T6	DATE 380 395	14 สิงหาคม 2564
+T7	TIME 402 409	13.30 น
+T8	ORGANIZATION 414 436	กองบัญชาการตำรวจนครบาล
+T9	VEHICLE 486 518	รถยนต์ยี่ห้อมิซูบิชิ รุ่นปาเจโร่
+T10	COLOR 519 523	สีดำ
+T11	WEAPON 527 530	ปืน
+T12	WEAPON 541 544	ปืน
+T13	DATE 639 654	13 สิงหาคม 2564
+T14	TIME 660 668	15.30 น.
+T15	PERSON 672 690	นางสุรางค์ สินแก้ว
+T16	VEHICLE 715 738	ยี่ห้อโตโยต้ารุ่นคัมรี่
+T17	COLOR 739 743	สีดำ
+T18	LP 759 771	ญณ-2647 กทม.
+T19	LOCATION 783 795	ถนนลาดกระบัง
+T20	LOCATION 798 804	ประเวศ
+T21	LOCATION 812 821	ลาดกระบัง
+T22	ORGANIZATION 842 857	หมู่บ้านศุภาลัย
+T23	LOCATION 880 886	ประเวศ
+R1	color_of Arg1:T16 Arg2:T17	
+R2	vehicle_lp Arg1:T16 Arg2:T18	
+R3	color_of Arg1:T9 Arg2:T10	

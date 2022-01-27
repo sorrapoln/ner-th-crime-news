@@ -1,0 +1,33 @@
+T1	DATE 7 18	16 ก.ย.2562
+T2	TIME 24 32	04.30 น.
+T3	PERSON 54 76	ร.ต.อ.มานิตย์ หยั่งถึง
+T4	ORGANIZATION 93 111	สภ.เฉลิมพระเกียรติ
+T5	LOCATION 112 121	จ.สระบุรี
+T6	VEHICLE 146 155	รถยนต์ตู้
+T7	LOCATION 175 207	ถนนพหลโยธิน หลัก ก.ม.ที่ 118-118
+T8	LOCATION 216 219	ม.9
+T9	LOCATION 220 228	ต.ห้วยบง
+T10	LOCATION 229 246	อ.เฉลิมพระเกียรติ
+T11	ORGANIZATION 317 327	รพ.สระบุรี
+T12	ORGANIZATION 337 372	มูลนิธิสว่างรัตนตรัยธรรมสถานสระบุรี
+T13	VEHICLE 389 411	รถยนต์ตู้ยี่ห้อโตโยต้า
+T14	COLOR 411 416	สีขาว
+R1	color_of Arg1:T13 Arg2:T14	
+T15	LP 432 452	ฮร-362 กรุงเทพมหานคร
+R2	vehicle_lp Arg1:T13 Arg2:T15	
+T16	PERSON 719 735	นางจริยา แซ่เฮ้ง
+T17	TIME 741 746	61 ปี
+T18	LOCATION 758 760	14
+T19	LOCATION 761 773	ซ.สุขสวัสดิ์
+T20	LOCATION 774 786	แขวงบางปะกอก
+T21	LOCATION 787 801	เขตราษฏร์บูรณะ
+T22	LOCATION 802 806	กทม.
+T23	PERSON 811 832	น.ส.ป้อเซี้ยม แซ่อึ๊ง
+T24	TIME 838 843	65 ปี
+T25	ORGANIZATION 880 890	รพ.สระบุรี
+R3	located_at Arg1:T16 Arg2:T18	
+R4	located_at Arg1:T16 Arg2:T19	
+R5	located_at Arg1:T16 Arg2:T20	
+R6	located_at Arg1:T16 Arg2:T21	
+R7	located_at Arg1:T16 Arg2:T22	
+R8	employee_or_member_of Arg1:T3 Arg2:T4	

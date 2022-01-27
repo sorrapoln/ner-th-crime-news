@@ -1,0 +1,35 @@
+T1	TIME 10 18	13.30 น.
+T2	DATE 26 34	24 มิ.ย.
+T3	ORGANIZATION 38 49	สน.เพชรเกษม
+T4	PERSON 50 72	ร.ต.อ.ออมสิน สีดามาตย์
+T5	ORGANIZATION 89 100	สน.เพชรเกษม
+T6	PERSON 110 132	นายนิธิวัฒน์ สุขนันทฬส
+T7	TIME 138 143	26 ปี
+T9	COLOR 183 190	สีแดงดำ
+T10	LP 199 222	2 ขฬ 7579 กรุงเทพมหานคร
+T11	PERSON 250 262	นายนิธิวัฒน์
+T12	VEHICLE 270 277	รถ จยย.
+T13	PERSON 297 305	นายวัชระ
+T14	PERSON 310 324	ตุ้ย ชัยพันธุ์
+T15	TIME 330 335	41 ปี
+T16	VEHICLE 383 391	รถกระป๊อ
+T17	PERSON 410 422	นายนิธิวัฒน์
+T18	PERSON 540 552	นายนิธิวัฒน์
+T19	VEHICLE 578 585	รถ จยย.
+T20	TIME 614 619	50 ปี
+T21	PERSON 652 661	นางสุรีย์
+T22	ORGANIZATION 676 686	สถานีบางแค
+T23	VEHICLE 866 873	รถ จยย.
+T24	VEHICLE 888 917	ถ จยย.ยี่ห้อยามาฮ่า รุ่นฟรีโก
+T25	COLOR 918 923	สีแดง
+T26	LP 932 955	2 ขด 6759 กรุงเทพมหานคร
+T27	PERSON 962 982	นายชิตนันท์ พันธ์ทับ
+T28	TIME 988 993	39 ปี
+R1	crime_relation Arg1:T6 Arg2:T14	
+T8	VEHICLE 154 182	รถ จยย.ฮอนด้า รุ่นเอดีวี 150
+R2	own_vehicle Arg1:T6 Arg2:T8	
+R3	color_of Arg1:T8 Arg2:T9	
+R4	vehicle_lp Arg1:T8 Arg2:T10	
+R5	employee_or_member_of Arg1:T4 Arg2:T3	
+R6	color_of Arg1:T24 Arg2:T25	
+R7	vehicle_lp Arg1:T24 Arg2:T26	

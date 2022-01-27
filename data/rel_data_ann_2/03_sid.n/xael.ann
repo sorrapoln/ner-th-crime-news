@@ -1,0 +1,14 @@
+T1	DATE 12 24	16 พฤศจิกายน
+T2	ORGANIZATION 31 43	สน.ชนะสงคราม
+T3	PERSON 57 65	นายพิชัย
+T4	TIME 85 90	42 ปี
+T5	LOCATION 114 144	สะพานข้ามคลองหลอดวัดเทพธิดาราม
+T6	LOCATION 145 153	ตรอกสาเก
+T7	LOCATION 154 166	แขวงบวรนิเวศ
+T8	LOCATION 167 176	เขตพระนคร
+T9	DATE 199 211	15 พฤศจิกายน
+R1	crime_located_at Arg1:T3 Arg2:T5	
+R2	crime_located_at Arg1:T3 Arg2:T6	
+R3	crime_located_at Arg1:T3 Arg2:T7	
+R4	crime_located_at Arg1:T3 Arg2:T8	
+R5	crime_date_at Arg1:T3 Arg2:T9	

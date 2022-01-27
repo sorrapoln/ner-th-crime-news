@@ -1,0 +1,28 @@
+T1	DATE 9 16	31 ม.ค.
+T2	PERSON 18 48	พล.ต.ต.ภูมินทร์ พุ่มพันธุ์ม่วง
+T3	PERSON 65 88	พ.ต.อ.อภิสัณฐ์ ไชยรัตน์
+T4	PERSON 132 157	พ.ต.ท.พีรณัฏฐ์ บุญค้ำพงศ์
+T5	PERSON 204 226	พ.ต.ต.ปฐมพงศ์ ทองจำรูญ
+T6	PERSON 297 320	นายนพดล หรือปู วรรณเลิศ
+T7	TIME 326 331	34 ปี
+T8	LOCATION 491 500	อ.สวนผึ้ง
+T9	LOCATION 501 510	จ.ราชบุรี
+T10	DATE 534 541	27 ม.ค.
+T11	VEHICLE 627 635	รถบรรทุก
+T12	OBJECT 642 651	ไม้ไผ่รวก
+T13	LOCATION 734 755	ป่าฝั่งซ้ายแม่น้ำภาชี
+T14	LOCATION 756 764	อ.ปากท่อ
+T15	LOCATION 765 774	จ.ราชบุรี
+T16	PERSON 851 884	นายสุริยนต์ ชมภูพันธ์ หรือนายยนต์
+T17	TIME 890 895	52 ปี
+R1	found_object_at Arg1:T12 Arg2:T13	
+R2	found_object_at Arg1:T12 Arg2:T14	
+R3	found_object_at Arg1:T12 Arg2:T15	
+T18	WEAPON 956 965	ปืนลูกซอง
+T19	VEHICLE 992 1000	รถบรรทุก
+R4	own_weapon Arg1:T16 Arg2:T18	
+R5	own_vehicle Arg1:T6 Arg2:T11	
+R6	crime_located_at Arg1:T6 Arg2:T13	
+R7	crime_located_at Arg1:T6 Arg2:T14	
+R8	crime_located_at Arg1:T6 Arg2:T15	
+R9	crime_date_at Arg1:T6 Arg2:T10	

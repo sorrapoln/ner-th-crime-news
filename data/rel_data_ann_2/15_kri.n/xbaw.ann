@@ -1,0 +1,29 @@
+T1	DATE 1 10	31 ส.ค.64
+T2	TIME 22 29	23.00 น
+T3	PERSON 31 52	พ.ต.อ.ชิตเดชา สองห้อง
+T4	PERSON 69 92	พ.ต.ท.เก่งศาตร์ นวลพงษ์
+T5	PERSON 109 129	พ.ต.ท.ปฐมพงษ์ มีอยู่
+T6	LOCATION 216 219	ม.6
+T7	LOCATION 220 226	ต.โป่ง
+T8	LOCATION 227 237	อ.บางละมุง
+T9	LOCATION 238 246	จ.ชลบุรี
+T10	OBJECT 352 389	ยาเสพติด เป็นยาไอซ์ นำ้หนัก 0.51 กรัม
+T11	OBJECT 390 401	ยาอี 4 เม็ด
+T12	OBJECT 402 429	ยาเคตามีน น้ำหนัก 0.25 กรัม
+T13	OBJECT 435 448	อุปกรณ์การเสพ
+R1	found_object_at Arg1:T13 Arg2:T6	
+R2	found_object_at Arg1:T13 Arg2:T7	
+R3	found_object_at Arg1:T13 Arg2:T8	
+R4	found_object_at Arg1:T13 Arg2:T9	
+R5	found_object_at Arg1:T12 Arg2:T6	
+R6	found_object_at Arg1:T12 Arg2:T7	
+R7	found_object_at Arg1:T12 Arg2:T8	
+R8	found_object_at Arg1:T12 Arg2:T9	
+R9	found_object_at Arg1:T11 Arg2:T6	
+R10	found_object_at Arg1:T11 Arg2:T7	
+R11	found_object_at Arg1:T11 Arg2:T8	
+R12	found_object_at Arg1:T11 Arg2:T9	
+R13	found_object_at Arg1:T10 Arg2:T6	
+R14	found_object_at Arg1:T10 Arg2:T7	
+R15	found_object_at Arg1:T10 Arg2:T8	
+R16	found_object_at Arg1:T10 Arg2:T9	

@@ -1,0 +1,12 @@
+T1	DATE 1 10	22 ม.ค.65
+T2	TIME 23 31	03.00 น.
+T3	ORGANIZATION 32 49	สภ.เมืองกาญจนบุรี
+T4	LOCATION 188 199	ซอยศรีลังกา
+T5	LOCATION 200 223	เขตเทศบาลเมืองกาญจนบุรี
+T6	LOCATION 224 235	จ.กาญจนบุรี
+T7	ORGANIZATION 301 318	รพ.พหลพลพยุหเสนาฯ
+T8	ORGANIZATION 376 396	มูลนิธิพิทักษ์กาญจน์
+T9	OBJECT 643 658	เคียวเกี่ยวข้าว
+R1	found_object_at Arg1:T9 Arg2:T4	
+R2	found_object_at Arg1:T9 Arg2:T5	
+R3	found_object_at Arg1:T9 Arg2:T6	

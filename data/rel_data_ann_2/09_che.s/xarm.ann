@@ -1,0 +1,29 @@
+T1	TIME 67 75	18.30 น.
+T2	DATE 83 90	12 ธ.ค.
+T3	PERSON 91 119	ร.ต.อ.หญิง ลภัสกฤตา ธาระเลิศ
+T4	ORGANIZATION 137 155	สภ.พระนครศรีอยุธยา
+T5	LOCATION 187 198	เลขที่ 53/7
+T6	LOCATION 199 205	หมู่ 1
+T7	LOCATION 206 216	ต.ภูเขาทอง
+T8	PERSON 227 246	พ.ต.อ.ประเวศ ศรีนาค
+T9	ORGANIZATION 287 305	รพ.พระนครศรีอยุธยา
+T10	ORGANIZATION 327 344	มูลนิธิร่วมกตัญญู
+T11	PERSON 406 426	น.ส.จารุพรรณ อินสุธา
+T12	TIME 432 437	32 ปี
+T13	WEAPON 511 518	ปืน .38
+T14	PERSON 537 552	นางจำปี อินสุธา
+T15	TIME 558 563	53 ปี
+T16	PERSON 652 672	นายพร้อมพงศ์ ศรีแก้ว
+T17	TIME 678 683	35 ปี
+T18	ORGANIZATION 710 733	ห้างโรบินสัน สาขาอยุธยา
+T19	VEHICLE 737 744	รถ จยย.
+R1	own_weapon Arg1:T16 Arg2:T13	
+R2	crime_relation Arg1:T16 Arg2:T11	
+R3	crime_located_at Arg1:T16 Arg2:T5	
+R4	crime_located_at Arg1:T16 Arg2:T6	
+R5	crime_located_at Arg1:T16 Arg2:T7	
+R6	located_at Arg1:T11 Arg2:T5	
+R7	located_at Arg1:T11 Arg2:T6	
+R8	located_at Arg1:T11 Arg2:T7	
+R9	employee_or_member_of Arg1:T3 Arg2:T4	
+R10	employee_or_member_of Arg1:T16 Arg2:T18	

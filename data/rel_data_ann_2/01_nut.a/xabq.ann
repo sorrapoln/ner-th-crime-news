@@ -1,0 +1,31 @@
+T1	DATE 7 14	21 ก.ค.
+T2	PERSON 54 75	นายจะหวะ ลาหู่เมอเน่อ
+T3	TIME 81 86	21 ปี
+T4	PERSON 101 120	นายสิทธิโชค สาโรจน์
+T5	TIME 126 131	42 ปี
+T6	PERSON 136 142	ช่างสน
+T7	ORGANIZATION 196 207	สน.บางเสาธง
+T8	DATE 224 231	17 ก.ค.
+T9	LOCATION 264 274	จ.เชียงราย
+T10	PERSON 316 331	นายทรงพล ต๊ะปิง
+T11	PERSON 336 354	นายธีรวัฒน์ สุขราช
+T12	PERSON 359 364	วัฒน์
+T13	PERSON 406 414	นายจะหวะ
+T14	PERSON 471 479	นายจะหวะ
+T15	DATE 535 542	22 ก.ค.
+T16	PERSON 548 573	พล.ต.อ.สุชาติ ธีระสวัสดิ์
+T17	PERSON 635 643	นายทรงพล
+T18	PERSON 646 657	นายธีรวัฒน์
+T19	PERSON 701 709	นายจะหวะ
+T20	WEAPON 716 719	มีด
+T21	PERSON 771 779	นายจะหวะ
+T22	WEAPON 785 788	มีด
+T23	PERSON 927 935	นายจะหวะ
+T24	WEAPON 941 944	จอบ
+R1	crime_relation Arg1:T2 Arg2:T4	
+R2	crime_date_at Arg1:T2 Arg2:T8	
+R3	located_at Arg1:T2 Arg2:T9	
+R4	crime_relation Arg1:T10 Arg2:T4	
+R5	crime_relation Arg1:T11 Arg2:T4	
+R6	own_weapon Arg1:T2 Arg2:T20	
+R7	own_weapon Arg1:T2 Arg2:T24	

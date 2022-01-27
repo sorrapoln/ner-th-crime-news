@@ -1,0 +1,7 @@
+T1	DATE 7 18	20 ก.ย.2562
+T2	PERSON 25 46	พ.ต.อ.กฤษณะ พัฒนเจริญ
+T3	LOCATION 151 155	กทม.
+T4	LOCATION 355 359	กทม.
+T5	LOCATION 363 370	ปริมณฑล
+T6	ORGANIZATION 56 59	ตร.
+R1	employee_or_member_of Arg1:T2 Arg2:T6	

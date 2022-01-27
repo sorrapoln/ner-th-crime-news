@@ -1,0 +1,22 @@
+T1	ORGANIZATION 102 117	ร้านขายเสื้อผ้า
+T2	ORGANIZATION 127 136	ร้านขายยำ
+T3	OBJECT 61 73	กล้องวงจรปิด
+T4	LOCATION 182 195	ซอยสินสมบูรณ์
+T5	LOCATION 196 212	ตำบลท้ายบ้านใหม่
+T6	LOCATION 229 247	จังหวัดสมุทรปราการ
+T7	COLOR 273 281	สีเหลือง
+T8	ORGANIZATION 296 311	ร้านขายเสื้อผ้า
+T9	ORGANIZATION 333 342	ร้านขายยำ
+T10	WEAPON 427 430	มีด
+T11	PERSON 434 454	นายศิริชัย พรมศิริ อ
+T12	TIME 458 463	27 ปี
+T13	PERSON 525 543	นางสาวสุภาพร ประนม
+T14	TIME 549 554	42 ปี
+T15	ORGANIZATION 567 576	ร้านขายยำ
+T16	WEAPON 580 583	มีด
+T17	ORGANIZATION 600 610	อาสากู้ภัย
+T18	PERSON 662 676	นายไกรษร สมรูป
+T19	TIME 682 687	37 ปี
+T20	ORGANIZATION 702 717	ร้านขายเสื้อผ้า
+R1	employee_or_member_of Arg1:T18 Arg2:T20	
+R2	employee_or_member_of Arg1:T13 Arg2:T15	

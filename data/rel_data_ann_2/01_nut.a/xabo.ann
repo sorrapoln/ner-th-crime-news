@@ -1,0 +1,10 @@
+T1	PERSON 14 23	นายยงยุทธ
+T2	WEAPON 69 72	ปืน
+T3	PERSON 98 108	นางสาวเลขา
+T4	ORGANIZATION 192 206	โรงพยาบาลชุมพร
+T5	LOCATION 206 220	เขตรอุดมศักดิ์
+T6	PERSON 262 271	นายยงยุทธ
+T7	WEAPON 364 367	ปืน
+R1	crime_relation Arg1:T1 Arg2:T3	
+R2	own_weapon Arg1:T1 Arg2:T2	
+R3	located_at Arg1:T3 Arg2:T5	

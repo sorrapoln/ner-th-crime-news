@@ -1,0 +1,21 @@
+T1	DATE 8 18	23 ม.ค. 65
+T2	PERSON 21 37	นายจิรายุ สุภเสน
+T3	TIME 43 48	27 ปี
+T4	LOCATION 70 78	อ.แม่สอด
+T5	LOCATION 79 84	จ.ตาก
+T6	LOCATION 187 214	ถนนสายแม่สอด-บ้านแม่ตาวกลาง
+T7	LOCATION 215 233	เขตเทศบาลนครแม่สอด
+T8	DATE 257 267	22 ม.ค. 65
+T9	PERSON 324 333	นายจิรายุ
+T10	VEHICLE 341 347	รถยนต์
+T11	LOCATION 386 404	หมู่บ้านแม่ตาวกลาง
+T12	LOCATION 445 453	อ.แม่สอด
+T13	VEHICLE 487 493	รถยนต์
+T14	LOCATION 531 542	ชุมชนแม่สอด
+T15	VEHICLE 655 661	รถยนต์
+T16	PERSON 682 698	นายจิรายุ สุภเสน
+T17	VEHICLE 784 795	รถยนต์กระบะ
+T18	ORGANIZATION 836 846	ตลาดแม่สอด
+T19	VEHICLE 853 855	รถ
+T20	VEHICLE 1058 1064	รถยนต์
+R1	own_vehicle Arg1:T9 Arg2:T17	

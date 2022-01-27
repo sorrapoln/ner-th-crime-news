@@ -1,0 +1,44 @@
+T1	TIME 31 39	09.00 น.
+T2	DATE 47 56	20 ม.ค.65
+T3	PERSON 57 78	ร.ต.อ.พิพัฒน์ ทองร่วง
+T4	ORGANIZATION 93 106	สภ.ท้ายเหมือง
+T5	LOCATION 107 114	จ.พังงา
+T6	LOCATION 171 186	บ้านเลขที่ 30/9
+T7	LOCATION 187 193	หมู่ 6
+T8	LOCATION 194 201	ต.นาเตย
+T9	LOCATION 202 214	อ.ท้ายเหมือง
+T10	PERSON 247 276	พ.ต.อ.บริบูรณ์ อยู่สุขสมบูรณ์
+T11	PERSON 277 300	พ.ต.อ.ประวิทย์ เฮ้งฉ้วน
+T12	LOCATION 314 319	พังงา
+T13	PERSON 320 341	พ.ต.ท.ชัยยุทธ บุญใหญ่
+T14	ORGANIZATION 356 369	สภ.ท้ายเหมือง
+T15	PERSON 370 388	พ.ต.ท.ธวัช ตันสกุล
+T16	PERSON 399 421	พ.ต.ท.สุรศักดิ์ รอดไกร
+T17	LOCATION 458 463	พังงา
+T18	PERSON 464 487	นายสมปรารถนา สมบัติปิยะ
+T19	LOCATION 493 503	ตำบาลนาเตย
+T20	ORGANIZATION 504 544	หน่วยกู้ภัยสยามร่วมใจปู่อินทร์ท้ายเหมือง
+T21	LOCATION 582 598	ชายหาดบ้านบ่อดาน
+T22	LOCATION 616 627	เลขที่ 30/9
+T23	PERSON 687 706	นายอิ้นหยาน มุ่งกิจ
+T24	TIME 712 717	58 ปี
+T25	LOCATION 760 767	โคกกลอย
+T26	LOCATION 772 781	เลขที่ 22
+T27	LOCATION 782 788	หมู่ 7
+T28	LOCATION 789 796	ต.นาเตย
+T29	LOCATION 797 809	อ.ท้ายเหมือง
+T30	COLOR 870 874	สีดำ
+T31	COLOR 890 894	สีดำ
+T32	OBJECT 1061 1075	โทรศัพท์มือถือ
+T33	WEAPON 1111 1118	มีดพร้า
+T34	OBJECT 1121 1128	รองเท้า
+T35	OBJECT 1165 1173	หมวกแก๊ป
+T36	COLOR 1173 1181	สีกรมท่า
+R1	located_at Arg1:T23 Arg2:T26	
+R2	located_at Arg1:T23 Arg2:T27	
+R3	located_at Arg1:T23 Arg2:T28	
+R4	located_at Arg1:T23 Arg2:T29	
+R5	crime_located_at Arg1:T23 Arg2:T21	
+R6	found_object_at Arg1:T32 Arg2:T21	
+R7	found_object_at Arg1:T34 Arg2:T21	
+R8	found_object_at Arg1:T35 Arg2:T21	

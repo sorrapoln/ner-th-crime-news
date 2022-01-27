@@ -1,0 +1,17 @@
+T1	LOCATION 69 79	ป่าหนองสนม
+T2	LOCATION 80 89	ต.เนินพระ
+T3	LOCATION 90 97	อ.เมือง
+T4	LOCATION 98 105	จ.ระยอง
+T5	LOCATION 151 161	ต.มาบตาพุด
+T6	OBJECT 113 132	กระเป๋าเดินทาง 2 ใบ
+T7	LOCATION 162 174	อ.เมืองระยอง
+R1	found_object_at Arg1:T6 Arg2:T5	
+R2	found_object_at Arg1:T6 Arg2:T7	
+T8	PERSON 231 244	นายโซ มาย ฮุน
+T9	TIME 250 255	38 ปี
+T10	PERSON 405 419	นายคิม ซัง ฮุน
+T11	LOCATION 453 467	ป้อมยามเนินสูง
+T12	LOCATION 468 478	จ.จันทบุรี
+R3	located_at Arg1:T10 Arg2:T11	
+R4	located_at Arg1:T10 Arg2:T12	
+R5	crime_relation Arg1:T10 Arg2:T8	

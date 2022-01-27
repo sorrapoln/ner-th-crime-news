@@ -1,0 +1,37 @@
+T1	PERSON 8 29	นายรุ่งอรุณ สังข์วงษ์
+T2	TIME 35 40	38 ปี
+T3	WEAPON 71 74	ปืน
+T4	PERSON 78 88	น.ส.มาลินี
+T5	TIME 110 115	33 ปี
+R1	own_weapon Arg1:T1 Arg2:T3	
+R2	crime_relation Arg1:T1 Arg2:T4	
+T6	ORGANIZATION 176 184	รพ.บางโพ
+T7	LOCATION 198 217	แฟลตองค์การสวนสัตว์
+T8	LOCATION 218 234	แขวงถนนนครไชยศรี
+T9	LOCATION 235 243	เขตดุสิต
+T10	LOCATION 244 248	กทม.
+T11	LOCATION 299 315	ซอยงามวงศ์วาน 47
+T12	LOCATION 316 331	แขวงทุ่งสองห้อง
+T13	LOCATION 332 342	เขตหลักสี่
+T14	LOCATION 343 347	กทม.
+T15	WEAPON 360 363	ปืน
+T16	ORGANIZATION 415 428	รพ.มงกุฎวัฒนะ
+T17	TIME 608 616	23.30 น.
+T18	DATE 624 633	23 ม.ค.65
+T19	PERSON 664 675	นายรุ่งอรุณ
+T20	ORGANIZATION 696 709	รพ.มงกุฎวัฒนะ
+T21	ORGANIZATION 836 850	สน.ทุ่งสองห้อง
+T22	ORGANIZATION 881 895	สน.ทุ่งสองห้อง
+T23	ORGANIZATION 1008 1018	รพ.ภูมิพลฯ
+R3	crime_located_at Arg1:T1 Arg2:T7	
+R4	crime_located_at Arg1:T1 Arg2:T8	
+R5	crime_located_at Arg1:T1 Arg2:T9	
+R6	crime_located_at Arg1:T1 Arg2:T10	
+T24	PERSON 257 268	นายรุ่งอรุณ
+T25	VEHICLE 275 281	รถจยย.
+R7	own_vehicle Arg1:T1 Arg2:T25	
+R8	located_at Arg1:T1 Arg2:T11	
+R9	located_at Arg1:T1 Arg2:T12	
+R10	located_at Arg1:T1 Arg2:T13	
+R11	located_at Arg1:T1 Arg2:T14	
+R12	own_weapon Arg1:T1 Arg2:T15	

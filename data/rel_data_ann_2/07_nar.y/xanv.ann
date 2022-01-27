@@ -1,0 +1,23 @@
+T1	PERSON 0 16	นายวรรณะ สุขันชี
+T2	TIME 22 27	41 ปี
+T3	ORGANIZATION 47 67	ศาลจังหวัดสุพรรณบุรี
+T4	LOCATION 116 128	ซ.เสรีไทย 36
+T5	LOCATION 129 140	เขตคันนายาว
+T6	LOCATION 141 149	กรุงเทพฯ
+T7	DATE 188 203	5 มิถุนายน 2555
+T8	PERSON 204 212	นายวรรณะ
+T9	PERSON 232 239	นายเก่ง
+T10	PERSON 255 263	นายวรรณะ
+T11	WEAPON 269 278	ปืนลูกซอง
+T12	PERSON 325 333	นายวรรณะ
+T13	PERSON 396 404	นายวรรณะ
+T14	PERSON 450 457	นายเก่ง
+T15	PERSON 473 481	นายวรรณะ
+T16	PERSON 382 389	นายเก่ง
+T17	ORGANIZATION 535 553	สภ.เมืองสุพรรณบุรี
+R1	crime_relation Arg1:T1 Arg2:T9	
+R2	crime_located_at Arg1:T1 Arg2:T4	
+R3	crime_located_at Arg1:T1 Arg2:T5	
+R4	crime_located_at Arg1:T1 Arg2:T6	
+R5	crime_date_at Arg1:T1 Arg2:T7	
+R6	own_weapon Arg1:T1 Arg2:T11	

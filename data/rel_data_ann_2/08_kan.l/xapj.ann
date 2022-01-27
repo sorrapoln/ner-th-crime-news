@@ -1,0 +1,57 @@
+T1	WEAPON 27 36	ปืนลูกซอง
+T2	PERSON 50 68	นายบัญชา กลิ่นเกษร
+T3	TIME 74 79	37 ปี
+T4	LOCATION 116 124	ต.หนองรี
+T5	LOCATION 125 134	อ.บ่อพลอย
+T6	LOCATION 135 146	จ.กาญจนบุรี
+T7	PERSON 186 194	นายบัญชา
+T8	LOCATION 214 231	เชิงเขาบ้านโป่งรี
+T9	LOCATION 232 238	หมู่ 6
+T10	LOCATION 239 247	ต.หนองรี
+T11	LOCATION 248 257	อ.บ่อพลอย
+T12	PERSON 292 301	นายธนิตย์
+T13	PERSON 306 317	บอล วังกุ่ม
+T14	TIME 323 328	36 ปี
+T15	PERSON 356 365	นายธนิตย์
+T16	PERSON 399 407	นายบัญชา
+T17	WEAPON 408 411	ปืน
+T18	PERSON 433 440	นายรุ่ง
+T19	DATE 484 493	16 ต.ค.64
+T20	ORGANIZATION 511 520	สภ.หนองรี
+T21	PERSON 530 539	นายธนิตย์
+T22	PERSON 589 598	นายธนิตย์
+T23	PERSON 603 610	นายรุ่ง
+T24	VEHICLE 613 626	รถจักรยานยนต์
+T25	PERSON 630 638	นายบัญชา
+T26	VEHICLE 643 649	รถยนต์
+T27	PERSON 653 660	นายรุ่ง
+T28	VEHICLE 667 680	รถจักรยานยนต์
+T29	LOCATION 700 708	อ.พนมทวน
+T30	LOCATION 728 737	นายธนิตย์
+T31	ORGANIZATION 753 771	าลจังหวัดกาญจนบุรี
+T32	LOCATION 813 825	จว.กาญจนบุรี
+T33	PERSON 848 862	นายรุ่ง บุญมอญ
+T34	TIME 868 873	36 ปี
+T35	PERSON 903 911	นายบัญชา
+T36	PERSON 937 944	นายรุ่ง
+T37	LOCATION 969 978	ต.ลาดหญ้า
+T38	LOCATION 979 986	อ.เมือง
+T39	LOCATION 987 998	จ.กาญจนบุรี
+T40	PERSON 1035 1042	นายรุ่ง
+R1	crime_relation Arg1:T12 Arg2:T2	
+R2	own_weapon Arg1:T12 Arg2:T1	
+R4	own_vehicle Arg1:T2 Arg2:T24	
+R6	crime_relation Arg1:T33 Arg2:T35	
+R3	crime_relation Arg1:T33 Arg2:T2	
+R5	own_vehicle Arg1:T33 Arg2:T26	
+R7	located_at Arg1:T2 Arg2:T4	
+R8	located_at Arg1:T2 Arg2:T5	
+R9	located_at Arg1:T2 Arg2:T6	
+R10	crime_located_at Arg1:T12 Arg2:T8	
+R11	crime_located_at Arg1:T12 Arg2:T9	
+R12	crime_located_at Arg1:T12 Arg2:T10	
+R13	crime_located_at Arg1:T12 Arg2:T11	
+R14	crime_located_at Arg1:T33 Arg2:T8	
+R15	crime_located_at Arg1:T33 Arg2:T9	
+R16	crime_located_at Arg1:T33 Arg2:T10	
+R17	crime_located_at Arg1:T33 Arg2:T11	

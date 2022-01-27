@@ -1,0 +1,51 @@
+T1	ORGANIZATION 49 63	สน.ทุ่งสองห้อง
+T2	ORGANIZATION 67 77	สน.โคกคราม
+T3	DATE 132 139	14 ม.ค.
+T4	ORGANIZATION 166 181	มูลนิธิเพชรเกษม
+T5	ORGANIZATION 214 228	สน.ทุ่งสองห้อง
+T6	DATE 390 397	20 ม.ค.
+T7	PERSON 398 420	พ.ต.อ.มารุต สุดหนองบัว
+T8	ORGANIZATION 425 439	สน.ทุ่งสองห้อง
+T9	ORGANIZATION 456 470	สน.ทุ่งสองห้อง
+T10	ORGANIZATION 480 492	ศาลอาญารัชดา
+T11	LOCATION 514 528	ซอยลาดพร้าว 40
+T12	LOCATION 529 543	แขวงจันทร์เกษม
+T13	LOCATION 544 554	เขตจตุจักร
+T14	LOCATION 555 559	กทม.
+T15	VEHICLE 569 574	รถตู้
+T16	COLOR 574 579	สีขาว
+T17	ORGANIZATION 591 608	มูลนิธิร่วมกตัญญู
+T18	ORGANIZATION 676 691	มูลนิธิเพชรเกษม
+T19	LOCATION 698 709	แยกพงษ์เพชร
+T20	VEHICLE 746 748	รถ
+T21	WEAPON 777 780	ปืน
+T22	PERSON 813 836	นายทศพล (ขอสงวนนามสกุล)
+T23	TIME 842 847	36 ปี
+T24	ORGANIZATION 857 874	มูลนิธิร่วมกตัญญู
+T25	VEHICLE 891 893	รถ
+T26	WEAPON 965 981	ปืนสั้นออโตเมติก
+T27	WEAPON 982 988	กระสุน
+T28	OBJECT 988 991	ปืน
+T29	ORGANIZATION 1072 1086	สน.ทุ่งสองห้อง
+T30	PERSON 1104 1129	พ.ต.อ.สุรพงษ์ ธรรมพิทักษ์
+T31	PERSON 1153 1175	พ.ต.อ.มารุต สุดหนองบัว
+T32	ORGANIZATION 1180 1194	สน.ทุ่งสองห้อง
+T33	ORGANIZATION 1221 1235	สน.ทุ่งสองห้อง
+T34	ORGANIZATION 1236 1246	สน.โคกคราม
+T35	PERSON 1319 1326	นายทศพล
+T36	WEAPON 1345 1348	ปืน
+T37	VEHICLE 1408 1410	รถ
+T38	VEHICLE 1442 1444	รถ
+T39	LOCATION 1464 1475	แยกพงษ์เพชร
+T40	VEHICLE 1517 1519	รถ
+T41	LOCATION 1530 1539	ปั๊มเชลล์
+T42	LOCATION 1539 1556	ถนนประชาชื่น-นนท์
+R1	own_vehicle Arg1:T22 Arg2:T15	
+R2	own_weapon Arg1:T22 Arg2:T26	
+R3	crime_located_at Arg1:T22 Arg2:T19	
+R4	crime_date_at Arg1:T22 Arg2:T3	
+R5	located_at Arg1:T22 Arg2:T11	
+R6	located_at Arg1:T22 Arg2:T12	
+R7	located_at Arg1:T22 Arg2:T13	
+R8	located_at Arg1:T22 Arg2:T14	
+R9	color_of Arg1:T15 Arg2:T16	

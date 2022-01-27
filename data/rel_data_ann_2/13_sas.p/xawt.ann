@@ -1,0 +1,29 @@
+T1	TIME 10 18	15.00 น.
+T2	DATE 26 35	25 พ.ย.64
+T3	PERSON 36 56	พล.ต.ท.จิรภพ ภูริเดช
+T4	PERSON 75 105	พล.ต.ต.ภูมินทร์ พุ่มพันธุ์ม่วง
+T5	PERSON 127 154	พ.ต.อ ณรงค์เวทย์ โอนสูงเนิน
+T6	PERSON 180 203	พ.ต.อ. วชิรา ยาวไทยสงค์
+T7	PERSON 249 267	พ.ต.ท.เจษฎา โสมนัส
+T8	PERSON 269 291	พ.ต.ท.วิศิษฎ์ ศรียาภัย
+T9	PERSON 340 361	พ.ต.ท.สุริยา นาคประนม
+T10	PERSON 421 446	นายธนวรรธน์ (สงวนนามสกุล)
+T11	TIME 452 457	38 ปี
+T12	LOCATION 462 478	บ้านเลขที่ 36/13
+T13	LOCATION 479 482	ม.1
+T14	LOCATION 483 492	ต.คลองห้า
+T15	LOCATION 493 503	อ.คลองหลวง
+T16	LOCATION 504 514	จ.ปทุมธานี
+T17	ORGANIZATION 537 554	ศาลจังหวัดธัญบุรี
+T18	DATE 576 583	24 พ.ย.
+T19	LOCATION 689 706	ถนนคลองห้าตะวันตก
+T20	LOCATION 707 715	คลองหลวง
+T21	LOCATION 716 726	จ.ปทุมธานี
+T22	LOCATION 844 851	คลองห้า
+T23	LOCATION 852 862	จ.ปทุมธานี
+T24	TIME 907 915	15.00 น.
+R1	located_at Arg1:T10 Arg2:T12	
+R2	located_at Arg1:T10 Arg2:T13	
+R3	located_at Arg1:T10 Arg2:T14	
+R4	located_at Arg1:T10 Arg2:T15	
+R5	located_at Arg1:T10 Arg2:T16	

@@ -1,0 +1,26 @@
+T1	TIME 10 18	21.00 น.
+T2	DATE 26 35	18 ตุลาคม
+T3	ORGANIZATION 42 52	สน.คลองตัน
+T4	ORGANIZATION 67 85	มูลนิธิป่อเต็กตึ๊ง
+T5	LOCATION 133 147	ซอยพัฒนาการ 19
+T6	LOCATION 148 158	เขตสวนหลวง
+T7	LOCATION 159 172	กรุงเทพมหานคร
+T8	COLOR 291 295	สีดำ
+T9	WEAPON 328 337	กระสุนปืน
+T10	PERSON 384 404	นายสุรชัย นวลจันทร์​
+T11	TIME 410 415	28 ปี
+T12	VEHICLE 421 439	จักรยานยนต์รับจ้าง
+T13	LOCATION 443 451	พระราม 9
+T14	PERSON 473 490	นายวรวุฒิ ภูพลผัน
+T15	TIME 497 502	30 ปี
+T16	ORGANIZATION 561 571	สน.คลองตัน
+R1	crime_relation Arg1:T14 Arg2:T10	
+R2	own_vehicle Arg1:T10 Arg2:T12	
+R3	located_at Arg1:T10 Arg2:T5	
+R4	located_at Arg1:T10 Arg2:T6	
+R5	located_at Arg1:T10 Arg2:T7	
+R6	crime_located_at Arg1:T14 Arg2:T5	
+R7	crime_located_at Arg1:T14 Arg2:T6	
+R8	crime_located_at Arg1:T14 Arg2:T7	
+R9	crime_date_at Arg1:T14 Arg2:T2	
+R10	crime_time_at Arg1:T14 Arg2:T1	

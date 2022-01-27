@@ -1,0 +1,15 @@
+T1	DATE 7 14	17 ม.ค.
+T2	TIME 20 28	00.20 น.
+T3	ORGANIZATION 41 52	สภ.หนองใหญ่
+T4	LOCATION 53 61	จ.ชลบุรี
+T5	LOCATION 171 180	ต.ท่าช้าง
+T6	LOCATION 181 188	อ.เมือง
+T7	LOCATION 189 199	จ.จันทบุรี
+T8	PERSON 285 304	น.ส. กนกวรรณ ขาวแพร
+T9	TIME 310 315	22 ปี
+T10	PERSON 316 327	น.ส.กนกวรรณ
+R1	crime_date_at Arg1:T8 Arg2:T1	
+R2	crime_time_at Arg1:T8 Arg2:T2	
+R3	crime_located_at Arg1:T8 Arg2:T5	
+R4	crime_located_at Arg1:T8 Arg2:T6	
+R5	crime_located_at Arg1:T8 Arg2:T7	

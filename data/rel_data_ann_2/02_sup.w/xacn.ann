@@ -1,0 +1,58 @@
+T1	DATE 12 22	17 พ.ย. 64
+T2	PERSON 23 43	พล.ต.ต.อำนาจ ไตรพจน์
+T3	ORGANIZATION 47 51	.รฟ.
+T4	PERSON 63 88	พ.ต.อ.สุรศักดิ์ สิทธิใหญ่
+T5	ORGANIZATION 97 101	.รฟ.
+T6	PERSON 102 124	พ.ต.ท.ญาณพัทธ์ สวนแก้ว
+T7	ORGANIZATION 131 140	รฟ.นพวงศ์
+T8	PERSON 153 179	พ.ต.ท.ธีรธันย์ นพธฤติพันธ์
+T9	ORGANIZATION 234 250	สถานีกลางบางซื่อ
+T10	PERSON 262 276	นายธนะ พุ่มอ่ำ
+T11	TIME 282 287	55 ปี
+T12	LOCATION 292 300	จ.ลพบุรี
+T13	PERSON 301 319	นายรำไพ คัมภีรพงษ์
+T14	TIME 325 330	53 ปี
+T15	LOCATION 335 348	จ.หนองบัวลำภู
+T16	PERSON 353 371	นายวิวัฒน์ ชาติศรี
+T17	TIME 377 382	51 ปี
+T18	LOCATION 387 400	จ.หนองบัวลำภู
+T19	OBJECT 413 444	สาย Cable 4Cx25 mm จำนวน 8 เส้น
+T20	OBJECT 492 523	าย Cable 4Cx25 mm จำนวน 16 เส้น
+T21	OBJECT 576 610	สายอะลูมิเนียม เหนี่ยวนำกระแสไฟฟ้า
+T22	OBJECT 636 647	คีมตัดสายไฟ
+T23	VEHICLE 648 667	รถกระบะโตโยต้าวีโก้
+T24	COLOR 668 678	สีเหลืองดำ
+T25	LP 687 708	ฒฉ 8898 กรุงเทพมหานคร
+T26	PERSON 709 721	พล.ต.ต.อำนาจ
+T27	LOCATION 794 816	โครงการรถไฟฟ้าสายสีแดง
+T28	ORGANIZATION 840 857	รถไฟแห่งประเทศไทย
+T29	ORGANIZATION 1119 1135	สถานีกลางบางซื่อ
+T30	LOCATION 1136 1150	ถนนกำแพงเพชร 6
+T31	LOCATION 1151 1162	แขวงจตุจักร
+T32	LOCATION 1163 1173	เขตจตุจักร
+T33	LOCATION 1174 1178	กทม.
+R1	located_at Arg1:T10 Arg2:T12	
+R2	located_at Arg1:T13 Arg2:T15	
+R3	crime_located_at Arg1:T16 Arg2:T18	
+R4	found_object_at Arg1:T20 Arg2:T30	
+R5	found_object_at Arg1:T20 Arg2:T31	
+R6	found_object_at Arg1:T20 Arg2:T32	
+R7	found_object_at Arg1:T20 Arg2:T33	
+R8	found_object_at Arg1:T21 Arg2:T30	
+R9	found_object_at Arg1:T21 Arg2:T31	
+R10	found_object_at Arg1:T21 Arg2:T32	
+R11	found_object_at Arg1:T21 Arg2:T33	
+R12	found_object_at Arg1:T22 Arg2:T30	
+R13	found_object_at Arg1:T22 Arg2:T31	
+R14	found_object_at Arg1:T22 Arg2:T32	
+R15	found_object_at Arg1:T22 Arg2:T33	
+R16	own_vehicle Arg1:T10 Arg2:T23	
+R17	own_vehicle Arg1:T13 Arg2:T23	
+R18	own_vehicle Arg1:T16 Arg2:T23	
+R19	color_of Arg1:T23 Arg2:T24	
+R20	vehicle_lp Arg1:T23 Arg2:T25	
+R21	employee_or_member_of Arg1:T2 Arg2:T3	
+R22	employee_or_member_of Arg1:T4 Arg2:T5	
+R23	employee_or_member_of Arg1:T6 Arg2:T7	
+T34	ORGANIZATION 184 194	.รฟ.นพวงศ์
+R24	employee_or_member_of Arg1:T8 Arg2:T34	

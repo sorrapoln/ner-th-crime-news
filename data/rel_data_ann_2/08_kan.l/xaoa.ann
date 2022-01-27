@@ -1,0 +1,48 @@
+T1	TIME 10 18	10.00 น.
+T2	DATE 25 34	11 ธ.ค.64
+T3	PERSON 35 55	พ.ต.ท.ชูเชิด หนูสลุง
+T4	ORGANIZATION 70 85	สภ.เมืองสระบุรี
+T5	LOCATION 109 124	บ้านเลขที่ 11/1
+T6	LOCATION 125 128	ม.6
+T7	LOCATION 129 140	บ้านหนองจอก
+T8	LOCATION 141 153	ต.หนองปลาไหล
+T9	LOCATION 154 161	อ.เมือง
+T10	LOCATION 162 171	จ.สระบุรี
+T11	ORGANIZATION 192 216	มูลนิธิร่วมกตัญญูสระบุรี
+T12	OBJECT 309 332	ปลอกกระสุนปืนขนาด 9 มม.
+T13	ORGANIZATION 466 482	โรงพยาบาลสระบุรี
+T14	PERSON 538 552	นายต้น หมื่นมี
+T15	TIME 558 563	32 ปี
+T16	LOCATION 564 579	บ้านเลขที่ 11/1
+T17	LOCATION 580 583	ม.6
+T18	LOCATION 584 595	บ้านหนองจอก
+T19	LOCATION 596 608	ต.หนองปลาไหล
+T20	LOCATION 609 616	อ.เมือง
+T21	LOCATION 617 626	จ.สระบุรี
+T22	PERSON 790 806	นายนิสัย สมนันท์
+T23	PERSON 985 999	นายต้น หมื่นมี
+T24	VEHICLE 1023 1029	รถจยย.
+T25	PERSON 1061 1085	นายวริศรา (เต้ย) หมื่นมี
+T26	TIME 1091 1096	25 ปี
+T27	PERSON 1120 1129	นายวริศรา
+T28	WEAPON 1152 1155	ปืน
+T29	PERSON 1189 1204	นายต้น (พี่ชาย)
+T30	PERSON 1292 1301	นายวริศรา
+T31	PERSON 1416 1422	นายต้น
+T32	ORGANIZATION 1425 1441	โรงพยาบาลสระบุรี
+R1	own_weapon Arg1:T25 Arg2:T28	
+R2	located_at Arg1:T14 Arg2:T16	
+R3	located_at Arg1:T14 Arg2:T17	
+R4	located_at Arg1:T14 Arg2:T18	
+R5	located_at Arg1:T14 Arg2:T19	
+R6	located_at Arg1:T14 Arg2:T20	
+R7	located_at Arg1:T14 Arg2:T21	
+R8	crime_located_at Arg1:T25 Arg2:T5	
+R9	crime_located_at Arg1:T25 Arg2:T6	
+R10	crime_located_at Arg1:T25 Arg2:T7	
+R11	crime_located_at Arg1:T25 Arg2:T8	
+R12	crime_located_at Arg1:T25 Arg2:T9	
+R13	crime_located_at Arg1:T25 Arg2:T10	
+R14	crime_date_at Arg1:T25 Arg2:T2	
+R15	crime_time_at Arg1:T25 Arg2:T1	
+R16	own_vehicle Arg1:T23 Arg2:T24	

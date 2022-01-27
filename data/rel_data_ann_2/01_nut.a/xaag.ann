@@ -1,0 +1,16 @@
+T1	TIME 31 36	52 ปี
+T2	LOCATION 40 53	นครศรีธรรมราช
+T3	DATE 70 77	2 มิ.ย.
+T4	LOCATION 119 130	หาดทรายแก้ว
+T5	LOCATION 131 138	หมู่ 12
+T6	LOCATION 139 148	ต.ท่าขึ้น
+T7	LOCATION 149 158	อ.ท่าศาลา
+T8	LOCATION 159 174	จ.นครศรีธรรมราช
+T9	TIME 285 290	2 วัน
+T10	PERSON 358 381	พ.ต.อ.อนันต์ หริกจันทร์
+T11	PERSON 421 440	พ.ต.ท.วิชัย ม่วงสาย
+T12	PERSON 468 494	พ.ต.ท.ปิยะวัฒน์ สุวรรณพงศ์
+T13	PERSON 522 546	พ.ต.ท.เกษมสิทธิ์ จำปาทอง
+T14	ORGANIZATION 940 950	รพ.ท่าศาลา
+T15	ORGANIZATION 390 411	สถานีตำรวจภูธรท่าศาลา
+R1	employee_or_member_of Arg1:T10 Arg2:T15	

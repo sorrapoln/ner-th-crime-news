@@ -1,0 +1,15 @@
+T1	LOCATION 39 51	เลขที่ 225/6
+T2	LOCATION 52 58	หมู่ 6
+T3	LOCATION 59 77	ซอยพรประภานิมิตร 1
+T4	LOCATION 78 90	ตำบลหนองปรือ
+T5	LOCATION 91 104	อำเภอบางละมุง
+T6	LOCATION 105 118	จังหวัดชลบุรี
+T7	PERSON 119 136	นายปรัชญา แดงภูมิ
+T8	TIME 142 147	28 ปี
+T9	WEAPON 237 240	ปืน
+R1	located_at Arg1:T7 Arg2:T1	
+R2	located_at Arg1:T7 Arg2:T2	
+R3	located_at Arg1:T7 Arg2:T3	
+R4	located_at Arg1:T7 Arg2:T4	
+R5	located_at Arg1:T7 Arg2:T5	
+R6	located_at Arg1:T7 Arg2:T6	

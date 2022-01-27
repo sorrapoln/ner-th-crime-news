@@ -1,0 +1,33 @@
+T1	DATE 12 20	22 มิ.ย.
+T2	PERSON 21 39	พ.ต.อ.ชัชพล สมแก้ว
+T3	ORGANIZATION 44 60	สภ.พระอินทร์ราชา
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T4	LOCATION 61 71	อ.บางปะอิน
+T5	LOCATION 72 89	จ.พระนครศรีอยุธยา
+T6	LOCATION 132 152	ร้านทองเยาวราชเอเชีย
+T7	LOCATION 158 190	ห้างสรรพสินค้าโลตัส สาขาบางปะอิน
+T8	LOCATION 191 206	ริมถนนสายเอเซีย
+T9	LOCATION 213 230	หลักกิโลเมตรที่ 1
+T10	LOCATION 231 245	ต.เชียงรากน้อย
+T11	OBJECT 331 341	ทองรูปพรรณ
+T12	OBJECT 344 351	ก้อนหิน
+T13	TIME 415 423	15.30 น.
+T14	TIME 489 497	25-30 ปี
+T15	VEHICLE 810 823	โตโยต้า วีออส
+T16	COLOR 826 830	บรอน
+T17	LP 831 848	กษ 6547 นครสวรรค์
+R2	color_of Arg1:T15 Arg2:T16	
+R3	vehicle_lp Arg1:T15 Arg2:T17	
+T18	LOCATION 993 1004	ถนนพหลโยธิน
+T19	LOCATION 1015 1024	จ.สระบุรี
+T20	TIME 1088 1097	10 วินาที
+R4	found_object_at Arg1:T11 Arg2:T6	
+R5	found_object_at Arg1:T11 Arg2:T7	
+R6	found_object_at Arg1:T11 Arg2:T8	
+R7	found_object_at Arg1:T11 Arg2:T9	
+R8	found_object_at Arg1:T11 Arg2:T10	
+R9	found_object_at Arg1:T12 Arg2:T6	
+R10	found_object_at Arg1:T12 Arg2:T7	
+R11	found_object_at Arg1:T12 Arg2:T8	
+R12	found_object_at Arg1:T12 Arg2:T9	
+R13	found_object_at Arg1:T12 Arg2:T10	

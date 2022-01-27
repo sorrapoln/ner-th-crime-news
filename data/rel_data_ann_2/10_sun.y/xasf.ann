@@ -1,0 +1,27 @@
+T1	DATE 7 19	22 ม.ค. 2565
+T2	PERSON 20 45	พล.ต.อ.สุวัฒน์ แจ้งยอดสุข
+T3	PERSON 64 95	พล.ต.อ.ดำรงศักดิ์ กิตติประภัสร์
+T4	PERSON 244 266	พล.ต.ต.ไตรรงค์ ผิวพรรณ
+T5	LOCATION 1074 1082	พิษณุโลก
+T6	LOCATION 1083 1092	นครสวรรค์
+T7	LOCATION 1096 1100	กทม.
+T8	OBJECT 1115 1134	คอมพิวเตอร์ตั้งโต๊ะ
+T9	OBJECT 1135 1149	โทรศัพท์มือถือ
+T10	OBJECT 1150 1180	เครื่องปล่อยสัญญาณอินเตอร์เน็ต
+T11	OBJECT 1181 1196	สมุดบัญชีธนาคาร
+T12	OBJECT 1197 1205	โน้ตบุ๊ก
+R1	found_object_at Arg1:T8 Arg2:T5	
+R2	found_object_at Arg1:T8 Arg2:T6	
+R3	found_object_at Arg1:T8 Arg2:T7	
+R4	found_object_at Arg1:T9 Arg2:T7	
+R5	found_object_at Arg1:T9 Arg2:T7	
+R6	found_object_at Arg1:T9 Arg2:T7	
+R7	found_object_at Arg1:T10 Arg2:T7	
+R8	found_object_at Arg1:T10 Arg2:T6	
+R9	found_object_at Arg1:T10 Arg2:T5	
+R10	found_object_at Arg1:T11 Arg2:T7	
+R11	found_object_at Arg1:T11 Arg2:T6	
+R12	found_object_at Arg1:T11 Arg2:T5	
+R13	found_object_at Arg1:T12 Arg2:T7	
+R14	found_object_at Arg1:T12 Arg2:T6	
+R15	found_object_at Arg1:T12 Arg2:T5	

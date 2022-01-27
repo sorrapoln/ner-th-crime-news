@@ -1,0 +1,39 @@
+T1	TIME 10 18	01.00 น.
+T2	DATE 26 32	9 ก.ค.
+T3	PERSON 33 61	พล.ต.ต.พงศ์อานันต์ คล้ายคลึง
+T4	PERSON 76 99	พ.ต.อ.นครินทร์ สุคนธวิท
+T5	ORGANIZATION 63 69	บก.น.9
+T6	ORGANIZATION 105 111	บก.น.9
+R1	employee_or_member_of Arg1:T3 Arg2:T5	
+R2	employee_or_member_of Arg1:T4 Arg2:T6	
+T7	ORGANIZATION 130 139	สน.บางบอน
+T8	PERSON 153 164	นายดนิรุจน์
+T9	PERSON 169 183	เติ้ล คุ้มกล่ำ
+T10	TIME 189 194	21 ปี
+T11	LOCATION 221 227	ธนบุรี
+T12	DATE 253 264	29 มิ.ย. 64
+T13	LOCATION 395 403	จ.นครปฐม
+T14	TIME 444 452	02.00 น.
+T15	DATE 460 468	25 มิ.ย.
+T16	VEHICLE 507 534	รถ จยย.ยี่ห้อฮอนด้า รุ่นเวฟ
+T17	COLOR 535 542	สีเทาดำ
+T18	LP 551 572	ษรล 817 กรุงเทพมหานคร
+R3	color_of Arg1:T16 Arg2:T17	
+R4	vehicle_lp Arg1:T16 Arg2:T18	
+T19	LOCATION 609 622	ถนนเอกชัย 110
+T20	LOCATION 623 639	แขวงและเขตบางบอน
+T21	LOCATION 640 648	กรุงเทพฯ
+T22	WEAPON 661 670	มีดสปาต้า
+T23	ORGANIZATION 759 768	สน.บางบอน
+T24	PERSON 808 816	นายธนากร
+T25	PERSON 821 835	เจมส์ เสาเฉลิม
+T26	TIME 841 846	20 ปี
+T27	PERSON 900 911	นายดนิรุจน์
+T28	PERSON 1021 1032	นายดนิรุจน์
+T29	PERSON 1147 1155	นายธนากร
+R5	own_vehicle Arg1:T24 Arg2:T16	
+R6	own_vehicle Arg1:T25 Arg2:T16	
+R7	crime_located_at Arg1:T24 Arg2:T19	
+R8	crime_located_at Arg1:T24 Arg2:T20	
+R9	crime_located_at Arg1:T24 Arg2:T21	
+R10	own_weapon Arg1:T24 Arg2:T22	

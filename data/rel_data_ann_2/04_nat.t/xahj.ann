@@ -1,0 +1,17 @@
+T1	DATE 29 35	1 ต.ค.
+T2	ORGANIZATION 54 71	สภ.เมืองเพชรบูรณ์
+T3	LOCATION 151 161	หมู่ที่ 15
+T4	LOCATION 162 171	ต.ป่าเล่า
+T5	LOCATION 172 188	อ.เมืองเพชรบูรณ์
+T6	PERSON 322 327	นายระ
+T7	TIME 333 338	68 ปี
+T8	LOCATION 346 353	หมู่ 15
+T9	LOCATION 354 362	ต.ป่าเลา
+T10	LOCATION 363 370	อ.เมือง
+T11	LOCATION 371 382	จ.เพชรบูรณ์
+T12	VEHICLE 443 456	รถจักรยานยนต์
+T13	COLOR 456 461	สีแดง
+R1	located_at Arg1:T6 Arg2:T8	
+R2	located_at Arg1:T6 Arg2:T9	
+R3	located_at Arg1:T6 Arg2:T10	
+R4	located_at Arg1:T6 Arg2:T11	

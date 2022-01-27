@@ -1,0 +1,22 @@
+T1	DATE 12 27	7 มิถุนายน 2564
+T2	ORGANIZATION 44 59	สภ.เมืองสระบุรี
+T3	LOCATION 60 69	จ.สระบุรี
+T4	LOCATION 114 117	ม.9
+T5	LOCATION 118 131	ต. หนองปลาไหล
+T6	LOCATION 132 140	อ. เมือง
+T7	LOCATION 141 150	จ.สระบุรี
+T8	ORGANIZATION 206 220	พิสูจน์หลักฐาน
+T9	PERSON 295 318	นายไพโรจน์ พรมเมืองเก่า
+T10	TIME 324 329	55 ปี
+T11	DATE 371 380	26 เมษายน
+T12	PERSON 397 418	นายคงฤทธิ์ หวาดด้วงดี
+T13	PERSON 599 609	นายไพโรจน์
+T14	LOCATION 652 661	ประเทศลาว
+T15	TIME 671 676	7 วัน
+T16	PERSON 699 709	นายคงฤทธิ์
+T17	LOCATION 771 785	จังหวัดสระบุรี
+R1	crime_date_at Arg1:T9 Arg2:T11	
+R2	located_at Arg1:T9 Arg2:T4	
+R3	located_at Arg1:T9 Arg2:T5	
+R4	located_at Arg1:T9 Arg2:T6	
+R5	located_at Arg1:T9 Arg2:T7	

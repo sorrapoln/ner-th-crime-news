@@ -1,0 +1,22 @@
+T1	DATE 8 15	22 ม.ค.
+T2	PERSON 17 48	พล.ต.อ.ดำรงศักดิ์ กิตติประภัสร์
+T3	LOCATION 174 190	จังหวัดนครสวรรค์
+T4	PERSON 232 254	พล.ต.ต.ไตรรงค์ ผิวพรรณ
+T5	LOCATION 389 393	กทม.
+T6	LOCATION 394 403	นครสวรรค์
+T7	LOCATION 408 416	พิษณุโลก
+T8	PERSON 417 434	พล.ต.อ.ดำรงศักดิ์
+T9	PERSON 446 471	พล.ต.อ.สุวัฒน์ แจ้งยอดสุข
+T11	OBJECT 613 620	บาคาร่า
+T10	OBJECT 621 625	ไฮโล
+T12	OBJECT 626 634	ป๊อกเด้ง
+T13	OBJECT 635 642	เกมสลอต
+T14	OBJECT 643 652	เสือมังกร
+T15	OBJECT 653 666	แทงบอลออนไลน์
+T16	OBJECT 667 676	เกมยิงปลา
+T17	OBJECT 686 692	เกมไพ่
+T18	OBJECT 696 706	หวยออนไลน์
+T19	ORGANIZATION 943 956	ธนาคารพาณิชย์
+T20	ORGANIZATION 120 141	สำนักงานตำรวจแห่งชาติ
+R1	employee_or_member_of Arg1:T2 Arg2:T20	
+R2	employee_or_member_of Arg1:T4 Arg2:T20	

@@ -1,0 +1,82 @@
+T1	DATE 7 16	21 ม.ค.65
+T2	TIME 22 30	13.30 น.
+T3	ORGANIZATION 35 47	สภ.พระประแดง
+T4	PERSON 48 71	พ.ต.อ.ภูริส จินตรานันท์
+T5	LOCATION 81 94	จ.สมุทรปราการ
+T6	PERSON 141 169	พ.ต.อ.ประเสริฐสุข เฮงสุวรรณ์
+T7	ORGANIZATION 174 186	สภ.พระประแดง
+T8	PERSON 202 220	นาย สมคิด แจ่มจรัส
+T9	TIME 226 231	50 ปี
+T10	LOCATION 240 243	221
+T11	LOCATION 244 247	ม.3
+T12	LOCATION 248 254	ต.ปริก
+T13	LOCATION 255 265	อ.ทุ่งใหญ่
+T14	LOCATION 266 281	จ.นครศรีธรรมราช
+T15	PERSON 289 308	พรทุ่งใหญ่ "ตีนแมว"
+T16	DATE 382 395	7 มกราคม 2565
+T17	PERSON 406 423	นาย มนตรี พ่วงถ้ำ
+T18	TIME 429 434	46 ปี
+T19	LOCATION 443 445	12
+T20	LOCATION 446 449	ม.1
+T21	LOCATION 450 459	ต.บางโตนด
+T22	LOCATION 460 469	อ.โพธาราม
+T23	LOCATION 470 479	จ.ราชบุรี
+T24	DATE 531 544	7 มกราคม 2565
+T25	ORGANIZATION 567 586	วัดทรงธรรมกัลยาณีย์
+T26	LOCATION 587 598	ต.พระประโทน
+T27	LOCATION 599 612	อ.เมืองนครปฐม
+T28	LOCATION 613 621	จ.นครปฐม
+T29	LOCATION 641 650	เลขที่ 99
+T30	LOCATION 651 654	ม.4
+T31	LOCATION 655 664	ต.ป่าระกำ
+T32	LOCATION 665 674	อ.ปากพนัง
+T33	LOCATION 675 690	จ.นครศรีธรรมราช
+T34	DATE 962 977	12 ธันวาคม 2564
+T35	TIME 989 998	13 .30 น.
+T36	PERSON 1010 1029	นางสาวธัญพร เพ็ชรดี
+T37	TIME 1035 1040	69 ปี
+T38	LOCATION 1049 1051	62
+T39	LOCATION 1052 1063	ซ.ท่าข้าม 8
+T40	LOCATION 1064 1073	แขวงแสมดำ
+T41	LOCATION 1073 1087	เขตบางขุนเทียน
+T42	LOCATION 1088 1101	กรุงเทพมหานคร
+T43	ORGANIZATION 1140 1152	สภ.พระประแดง
+T44	ORGANIZATION 1235 1267	บริษัท ไอ แอนด์ ยูเทรดดิ้ง จำกัด
+T45	LOCATION 1275 1277	35
+T46	LOCATION 1278 1281	ม.1
+T47	LOCATION 1282 1290	ต.บางครุ
+T48	LOCATION 1291 1302	อ.พระประแดง
+T49	LOCATION 1303 1316	จ.สมุทรปราการ
+T50	PERSON 1485 1494	นาย มนตรี
+R1	located_at Arg1:T36 Arg2:T38	
+R2	located_at Arg1:T36 Arg2:T39	
+R3	located_at Arg1:T36 Arg2:T40	
+R4	located_at Arg1:T36 Arg2:T41	
+R5	located_at Arg1:T36 Arg2:T42	
+R6	located_at Arg1:T44 Arg2:T45	
+R7	located_at Arg1:T44 Arg2:T46	
+R8	located_at Arg1:T44 Arg2:T47	
+R9	located_at Arg1:T44 Arg2:T48	
+R10	located_at Arg1:T44 Arg2:T49	
+R11	located_at Arg1:T8 Arg2:T10	
+R12	located_at Arg1:T8 Arg2:T11	
+R13	located_at Arg1:T8 Arg2:T12	
+R14	located_at Arg1:T8 Arg2:T13	
+R15	located_at Arg1:T8 Arg2:T14	
+R16	located_at Arg1:T17 Arg2:T19	
+R17	located_at Arg1:T17 Arg2:T20	
+R18	located_at Arg1:T17 Arg2:T21	
+R19	located_at Arg1:T17 Arg2:T22	
+R20	located_at Arg1:T17 Arg2:T23	
+R21	crime_located_at Arg1:T17 Arg2:T45	
+R22	crime_located_at Arg1:T17 Arg2:T46	
+R23	crime_located_at Arg1:T17 Arg2:T47	
+R24	crime_located_at Arg1:T17 Arg2:T48	
+R25	crime_located_at Arg1:T17 Arg2:T49	
+R26	located_at Arg1:T17 Arg2:T29	
+R27	located_at Arg1:T17 Arg2:T30	
+R28	located_at Arg1:T17 Arg2:T31	
+R29	located_at Arg1:T17 Arg2:T32	
+R30	located_at Arg1:T17 Arg2:T33	
+R31	employee_or_member_of Arg1:T6 Arg2:T7	
+R32	employee_or_member_of Arg1:T4 Arg2:T3	

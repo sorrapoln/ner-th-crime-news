@@ -1,0 +1,26 @@
+T1	PERSON 0 28	พลตำรวจตรีไพศาล วงศ์วัชรมงคล
+T2	ORGANIZATION 41 62	ตำรวจภูธรจังหวัดนนทบุ
+T3	PERSON 69 93	พันตำรวจเอกนภธร วาชัยยุง
+T4	ORGANIZATION 106 120	สภ.บางศรีเมือง
+T5	PERSON 142 161	นายประกอบ สุทธิศิริ
+T6	TIME 167 172	37 ปี
+T7	ORGANIZATION 183 200	ศาลจังหวัดนนทบุรี
+T8	DATE 317 326	16 มกราคม
+T9	PERSON 376 384	นางสาวบี
+T10	TIME 399 404	15 ปี
+T11	PERSON 444 452	นางสาวบี
+T12	LOCATION 484 492	ตรอกสุรา
+T13	LOCATION 493 508	ชุมชนท่าน้ำนนท์
+T14	LOCATION 509 524	ตำบลบางศรีเมือง
+T15	LOCATION 525 535	อำเภอเมือง
+T16	LOCATION 536 550	จังหวัดนนทบุรี
+R1	employee_or_member_of Arg1:T1 Arg2:T2	
+R2	employee_or_member_of Arg1:T3 Arg2:T4	
+R3	crime_date_at Arg1:T5 Arg2:T8	
+R4	crime_relation Arg1:T5 Arg2:T9	
+R5	crime_located_at Arg1:T5 Arg2:T12	
+R6	crime_located_at Arg1:T5 Arg2:T13	
+R7	crime_located_at Arg1:T5 Arg2:T14	
+R8	crime_located_at Arg1:T5 Arg2:T15	
+R9	crime_located_at Arg1:T5 Arg2:T16	
+T17	PERSON 336 345	นายประกอบ

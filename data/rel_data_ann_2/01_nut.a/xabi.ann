@@ -1,0 +1,42 @@
+T1	DATE 15 26	29 เม.ย. 64
+T2	PERSON 27 53	พันตำรวจโทสวัสดิ์ นิยมเดชา
+T3	ORGANIZATION 66 76	สภ.เกาะทวด
+T4	LOCATION 77 89	อำเภอปากพนัง
+T5	LOCATION 90 110	จังหวัดนครศรีธรรมราช
+T6	PERSON 164 173	นายวราวุธ
+T7	PERSON 178 189	กบ ธรรมสวาท
+T8	TIME 195 200	25 ปี
+T9	LOCATION 204 215	ตำบลเกาะทวด
+T10	LOCATION 216 228	อำเภอปากพนัง
+T11	LOCATION 229 249	จังหวัดนครศรีธรรมราช
+T12	WEAPON 268 283	ปืนลูกซองสั้น 1
+T13	OBJECT 291 314	กระสุนปืนลูกซองเบอร์ 12
+T14	OBJECT 327 337	ปลอกกระสุน
+T15	LOCATION 390 405	บ้านเลขที่ 46/1
+T16	LOCATION 406 412	หมู่ 8
+T17	LOCATION 413 424	ตำบลเกาะทวด
+T18	LOCATION 425 437	อำเภอปากพนัง
+T19	PERSON 467 476	นายวราวุธ
+T20	PERSON 481 483	กบ
+T21	PERSON 517 540	นายพงศ์ศักดิ์ เกิดพันธ์
+T22	TIME 546 551	38 ปี
+T23	WEAPON 566 575	ปืนลูกซอง
+T24	PERSON 596 605	นายวราวุธ
+R1	located_at Arg1:T6 Arg2:T9	
+R2	located_at Arg1:T6 Arg2:T10	
+R3	located_at Arg1:T6 Arg2:T11	
+R4	own_weapon Arg1:T6 Arg2:T12	
+R5	crime_relation Arg1:T6 Arg2:T21	
+R6	employee_or_member_of Arg1:T2 Arg2:T3	
+R7	found_object_at Arg1:T13 Arg2:T9	
+R8	found_object_at Arg1:T13 Arg2:T10	
+R9	found_object_at Arg1:T13 Arg2:T11	
+R10	found_object_at Arg1:T14 Arg2:T9	
+R11	found_object_at Arg1:T14 Arg2:T10	
+R12	found_object_at Arg1:T14 Arg2:T11	
+R13	located_at Arg1:T2 Arg2:T4	
+R14	located_at Arg1:T2 Arg2:T5	
+R15	crime_located_at Arg1:T6 Arg2:T15	
+R16	located_at Arg1:T6 Arg2:T16	
+R17	located_at Arg1:T6 Arg2:T17	
+R18	located_at Arg1:T6 Arg2:T18	

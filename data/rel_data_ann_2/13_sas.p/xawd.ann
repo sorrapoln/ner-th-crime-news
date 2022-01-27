@@ -1,0 +1,114 @@
+T1	TIME 5 13	20.00 น.
+T2	DATE 26 36	19 ม.ค. 65
+T3	PERSON 37 66	พ.ต.อ.พงศ์จักร ปรีชาการุณพงศ์
+T4	ORGANIZATION 71 82	สภ.ปากเกร็ด
+T5	PERSON 83 106	พ.ต.ท.สัมพันธ์ ทิมเจริญ
+T6	PERSON 119 141	พ.ต.ท.วรพจน์ ฉิมลอยลาภ
+T7	ORGANIZATION 148 159	สภ.ปากเกร็ด
+T8	LOCATION 160 169	จ.นนทบุรี
+T9	PERSON 252 278	นายพงศกร หรือเม่น เปรมบุตร
+T10	TIME 284 289	28 ปี
+T11	LOCATION 294 311	บ้านเลขที่ 119/35
+T12	LOCATION 312 318	หมู่ 3
+T13	LOCATION 319 327	ต.บางพูด
+T14	LOCATION 328 338	อ.ปากเกร็ด
+T15	LOCATION 339 348	จ.นนทบุรี
+T16	PERSON 350 380	นายบุญฤทธิ์ หรือแมน ทิพย์โภชน์
+T17	TIME 386 391	30 ปี
+T18	LOCATION 396 409	บ้านเลขที่ 14
+T19	LOCATION 410 416	หมู่ 3
+T20	LOCATION 417 428	ต.หนองโบสถ์
+T21	LOCATION 429 437	อ.นางรอง
+T22	LOCATION 438 449	จ.บุรีรัมย์
+T23	PERSON 451 476	นายพีร หรืออาร์ท กวดขุนทด
+T24	TIME 482 487	27 ปี
+T25	LOCATION 492 509	บ้านเลขที่ 107/35
+T26	LOCATION 510 516	หมู่ 3
+T27	LOCATION 517 525	ต.บางพูด
+T28	LOCATION 526 536	อ.ปากเกร็ด
+T29	LOCATION 537 546	จ.นนทบุรี
+T30	PERSON 550 578	นายวีระพล หรือตั้ม แบงกระโทก
+T31	TIME 584 589	30 ปี
+T32	LOCATION 594 610	บ้านเลขที่ 3/120
+T33	LOCATION 611 625	ถนนป๊อปปูล่า 5
+T34	LOCATION 626 634	ต.บางพูด
+T35	LOCATION 635 645	อ.ปากเกร็ด
+T36	LOCATION 646 655	จ.นนทบุรี
+T37	OBJECT 673 680	ปืนปลอม
+T38	OBJECT 690 716	โทรศัพท์มือถือ ยี่ห้อวีโว่
+T39	VEHICLE 730 736	รถจยย.
+T40	LOCATION 776 790	ห้องเลขที่ 209
+T41	LOCATION 798 811	ยูอพาร์ตเมนต์
+T42	LOCATION 812 818	หมู่ 1
+T43	LOCATION 819 845	ซอยแจ้งวัฒนะ-ปากเกร็ด 43/1
+T44	LOCATION 846 858	ถนนแจ้งวัฒนะ
+T45	LOCATION 859 870	ต.คลองเกลือ
+T46	LOCATION 871 881	อ.ปากเกร็ด
+T47	LOCATION 882 891	จ.นนทบุรี
+T48	PERSON 894 903	นายวีระพล
+T49	WEAPON 1022 1026	ค้อน
+T50	LOCATION 1042 1061	ช็อปวันทรูโฟน จำกัด
+T51	ORGANIZATION 1157 1160	ทรู
+T52	LOCATION 1161 1173	เลขที่ 101/1
+T53	LOCATION 1179 1191	เมืองทองธานี
+T54	LOCATION 1192 1202	ต.บ้านใหม่
+T55	DATE 1464 1471	14 ม.ค.
+R1	own_weapon Arg1:T9 Arg2:T49	
+R2	own_weapon Arg1:T16 Arg2:T49	
+R3	own_weapon Arg1:T23 Arg2:T49	
+R4	own_weapon Arg1:T30 Arg2:T49	
+R5	crime_located_at Arg1:T9 Arg2:T50	
+R6	crime_located_at Arg1:T9 Arg2:T52	
+R7	crime_located_at Arg1:T9 Arg2:T53	
+R8	crime_located_at Arg1:T9 Arg2:T54	
+R9	crime_located_at Arg1:T16 Arg2:T50	
+R10	crime_located_at Arg1:T16 Arg2:T52	
+R11	crime_located_at Arg1:T16 Arg2:T53	
+R12	crime_located_at Arg1:T16 Arg2:T54	
+R13	crime_located_at Arg1:T23 Arg2:T50	
+R14	crime_located_at Arg1:T23 Arg2:T52	
+R15	crime_located_at Arg1:T23 Arg2:T53	
+R16	crime_located_at Arg1:T23 Arg2:T54	
+R17	crime_located_at Arg1:T30 Arg2:T50	
+R18	crime_located_at Arg1:T30 Arg2:T52	
+R19	crime_located_at Arg1:T30 Arg2:T53	
+R20	crime_located_at Arg1:T30 Arg2:T54	
+R21	crime_date_at Arg1:T9 Arg2:T55	
+R22	crime_date_at Arg1:T16 Arg2:T55	
+R23	crime_date_at Arg1:T23 Arg2:T55	
+R24	crime_date_at Arg1:T30 Arg2:T55	
+R25	located_at Arg1:T9 Arg2:T11	
+R26	located_at Arg1:T9 Arg2:T12	
+R27	located_at Arg1:T9 Arg2:T13	
+R28	located_at Arg1:T9 Arg2:T14	
+R29	located_at Arg1:T9 Arg2:T15	
+R30	located_at Arg1:T16 Arg2:T18	
+R31	located_at Arg1:T16 Arg2:T19	
+R32	located_at Arg1:T16 Arg2:T20	
+R33	located_at Arg1:T16 Arg2:T21	
+R34	located_at Arg1:T16 Arg2:T22	
+R35	located_at Arg1:T23 Arg2:T25	
+R36	located_at Arg1:T23 Arg2:T26	
+R37	located_at Arg1:T23 Arg2:T27	
+R38	located_at Arg1:T23 Arg2:T28	
+R39	located_at Arg1:T23 Arg2:T29	
+R40	located_at Arg1:T30 Arg2:T32	
+R41	located_at Arg1:T30 Arg2:T33	
+R42	located_at Arg1:T30 Arg2:T34	
+R43	located_at Arg1:T30 Arg2:T35	
+R44	located_at Arg1:T30 Arg2:T36	
+R45	found_object_at Arg1:T37 Arg2:T40	
+R46	found_object_at Arg1:T37 Arg2:T41	
+R47	found_object_at Arg1:T37 Arg2:T42	
+R48	found_object_at Arg1:T37 Arg2:T43	
+R49	found_object_at Arg1:T37 Arg2:T44	
+R50	found_object_at Arg1:T37 Arg2:T45	
+R51	found_object_at Arg1:T37 Arg2:T46	
+R52	found_object_at Arg1:T37 Arg2:T47	
+R53	found_object_at Arg1:T38 Arg2:T40	
+R54	found_object_at Arg1:T38 Arg2:T41	
+R55	found_object_at Arg1:T38 Arg2:T42	
+R56	found_object_at Arg1:T38 Arg2:T43	
+R57	found_object_at Arg1:T38 Arg2:T44	
+R58	found_object_at Arg1:T38 Arg2:T45	
+R59	found_object_at Arg1:T38 Arg2:T46	

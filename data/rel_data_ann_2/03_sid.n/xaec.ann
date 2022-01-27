@@ -1,0 +1,20 @@
+T1	DATE 8 18	22 ม.ค. 65
+T2	TIME 51 59	10.00 น.
+T3	ORGANIZATION 77 87	สน.คลองตัน
+T4	ORGANIZATION 243 260	มูลนิธิร่วมกตัญญู
+T5	LOCATION 158 172	ถนนพระรามที่ 4
+T6	LOCATION 186 193	พระโขนง
+T7	LOCATION 344 349	สำโรง
+T8	LOCATION 352 360	สี่พระยา
+T9	LOCATION 457 468	แฮปปี้แลนด์
+T10	LOCATION 282 292	กล้วยน้ำไท
+T11	VEHICLE 311 321	รถประจำทาง
+T12	COLOR 321 326	สีแดง
+T13	LP 385 406	11-8434 กรุงเทพมหานคร
+T14	VEHICLE 413 432	รถประจำทางปรับอากาศ
+T15	COLOR 433 442	สีน้ำเงิน
+T16	COLOR 495 516	12-2968 กรุงเทพมหานคร
+R1	vehicle_lp Arg1:T11 Arg2:T13	
+R2	color_of Arg1:T14 Arg2:T16	
+R3	color_of Arg1:T14 Arg2:T15	
+R4	color_of Arg1:T11 Arg2:T12	

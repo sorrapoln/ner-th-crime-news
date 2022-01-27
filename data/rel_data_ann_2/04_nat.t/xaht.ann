@@ -1,0 +1,26 @@
+T1	TIME 10 18	14.30 น.
+T2	DATE 26 40	26 มีนาคม 2564
+T3	PERSON 41 57	ร.ต.อ.ไพศาล พิลา
+T4	ORGANIZATION 66 84	สภ.พระนครศรีอยุธยา
+T5	ORGANIZATION 147 173	วิทยาลัยเทคโนโลยีพาณิชยการ
+T6	ORGANIZATION 268 280	ห้างเดอะสกาย
+T7	WEAPON 304 307	มีด
+T8	PERSON 355 373	ร.ต.อ.เสนีย์ พาชอบ
+T9	ORGANIZATION 388 406	สภ.พระนครศรีอยุธยา
+R1	employee_or_member_of Arg1:T8 Arg2:T9	
+R2	employee_or_member_of Arg1:T3 Arg2:T4	
+T10	VEHICLE 429 442	รถจักรยานยนต์
+T11	PERSON 529 548	พ.ต.อ.ประเวศ ศรีนาค
+T12	LOCATION 553 568	พระนครศรีอยุธยา
+R3	located_at Arg1:T11 Arg2:T12	
+T13	ORGANIZATION 639 657	เทคโนโลยีพาณิชยการ
+T14	VEHICLE 800 813	รถจักรยานยนต์
+T15	ORGANIZATION 830 856	วิทยาลัยเทคโนโลยีพาณิชยการ
+T16	WEAPON 869 875	ประทัด
+T17	WEAPON 971 974	มีด
+T18	WEAPON 975 978	ดาบ
+T19	WEAPON 985 992	มีดพร้า
+T20	OBJECT 1000 1008	ขวดเหล้า
+T21	VEHICLE 1015 1028	รถจักรยานยนต์
+T22	TIME 1129 1134	17 ปี
+T23	WEAPON 1180 1186	ระเบิด

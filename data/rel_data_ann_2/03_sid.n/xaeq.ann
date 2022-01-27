@@ -1,0 +1,28 @@
+T1	TIME 10 18	06.30 น.
+T2	DATE 25 41	30 มิถุนายน 2564
+T3	PERSON 42 70	พ.ต.ท.ชินวัตร ธิศาลา สารวัตร
+T4	ORGANIZATION 80 94	สภ.เมืองชลบุรี
+T5	VEHICLE 111 113	รถ
+T6	VEHICLE 115 122	จักรยาน
+T7	LOCATION 128 139	ถนนเศรษฐกิจ
+T8	LOCATION 152 170	มอเตอร์เวย์ ขาเข้า
+T9	LOCATION 171 183	อำเภอบ้านบึง
+T10	LOCATION 184 190	หมู่ 1
+T11	LOCATION 191 201	ตำบลหนองรี
+T12	LOCATION 202 212	อำเภอเมือง
+T13	LOCATION 213 226	จังหวัดชลบุรี
+T14	ORGANIZATION 256 265	รพ.ชลบุรี
+T15	ORGANIZATION 269 299	กู้ภัยมูลนิธิธรรมรัศมีมณีรัตน์
+T16	PERSON 317 334	นายอนันต์ แสงอรุณ
+T17	TIME 340 345	58 ปี
+T18	PERSON 431 440	นายอนันต์
+T19	VEHICLE 473 492	รถจักรยานปั่น 2 ล้อ
+R1	own_vehicle Arg1:T16 Arg2:T19	
+R2	crime_time_at Arg1:T16 Arg2:T1	
+R3	crime_date_at Arg1:T16 Arg2:T2	
+R4	crime_located_at Arg1:T16 Arg2:T8	
+R5	crime_located_at Arg1:T16 Arg2:T9	
+R6	crime_located_at Arg1:T16 Arg2:T10	
+R7	crime_located_at Arg1:T16 Arg2:T11	
+R8	crime_located_at Arg1:T16 Arg2:T12	
+R9	crime_located_at Arg1:T16 Arg2:T13	

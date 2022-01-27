@@ -1,0 +1,14 @@
+T1	DATE 12 24	14 พฤศจิกายน
+T2	PERSON 25 47	พล.ต.ท.กรไชย คล้ายคลึง
+T3	PERSON 65 90	พ.ต.อ.รุ่งเลิศ คันธจันทร์
+T4	PERSON 166 175	นายศักดิ์
+T5	TIME 193 198	50 ปี
+T6	LOCATION 238 246	ดอนเมือง
+T7	LOCATION 247 260	กรุงเทพมหานคร
+T8	DATE 273 285	12 พฤศจิกายน
+T9	TIME 401 406	13 ปี
+T10	ORGANIZATION 425 463	Ticac-Thailand Internet Crimes Against
+T11	TIME 530 535	12 ปี
+R1	located_at Arg1:T4 Arg2:T6	
+R2	located_at Arg1:T4 Arg2:T7	
+R3	crime_date_at Arg1:T4 Arg2:T8	

@@ -1,0 +1,17 @@
+T2	LOCATION 56 67	จ.เชียงใหม่
+T3	DATE 284 296	17 เม.ย.2558
+T4	PERSON 311 323	นายภรา ชูศรี
+T5	TIME 329 334	52 ปี
+T6	LOCATION 338 351	อำเภอบางละมุง
+T7	LOCATION 352 365	จังหวัดชลบุรี
+T1	DATE 421 433	13 เม.ย.2558
+T8	ORGANIZATION 457 485	สถานีตำรวจภูธรเมืองเชียงใหม่
+T9	PERSON 617 623	นายภรา
+T10	ORGANIZATION 723 746	สถานีตำรวจภูธรช้างเผือก
+T11	PERSON 773 798	พล.ต.ต.มนตรี สัมบุณณานนท์
+T12	LOCATION 827 836	เชียงใหม่
+T13	LOCATION 940 946	ชลบุรี
+R1	crime_located_at Arg1:T4 Arg2:T2	
+R2	crime_date_at Arg1:T4 Arg2:T1	
+R3	located_at Arg1:T4 Arg2:T6	
+R4	located_at Arg1:T4 Arg2:T7	

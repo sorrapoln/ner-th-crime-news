@@ -1,0 +1,78 @@
+T1	TIME 10 18	10.30 น.
+T2	DATE 25 35	23 เม.ย.64
+T3	ORGANIZATION 40 54	สภ.เมืองชลบุรี
+T4	PERSON 55 79	พ.ต.อ.นิทัศน์ แหวนประดับ
+T5	ORGANIZATION 84 98	สภ.เมืองชลบุรี
+T6	PERSON 108 125	นายคณนาค วงศ์แจ้ง
+T7	TIME 131 136	24 ปี
+T8	LOCATION 150 174	อู่ซ่อมรถ บัวทองเซอร์วิส
+T9	PERSON 180 195	ดต.ธนากร ศรีบาน
+T10	PERSON 234 252	นายขวัญชัย เดชชีวะ
+T11	LOCATION 259 272	ต.หนองข้างคอก
+T12	OBJECT 300 309	มีดดาบยาว
+T13	VEHICLE 332 343	จักรยานยนต์
+T14	VEHICLE 349 362	ยามาฮ่า ฟีโน่
+T15	COLOR 365 375	น้ำตาล-ขาว
+T16	LP 384 396	ฬนข 751 กทม.
+R1	color_of Arg1:T14 Arg2:T15	
+R2	vehicle_lp Arg1:T14 Arg2:T16	
+T17	PERSON 397 421	พ.ต.อ.นิทัศน์ แหวนประดับ
+T18	ORGANIZATION 426 440	สภ.เมืองชลบุรี
+T19	TIME 465 473	23.40 น.
+T20	DATE 480 488	22 เม.ย.
+T21	PERSON 498 530	ร.ต.ท.หญิง พรรณนิภา สว่างโคกกรวด
+T22	ORGANIZATION 549 563	สภ.เมืองชลบุรี
+T23	PERSON 577 595	นายขวัญชัย เดชชีวะ
+T24	LOCATION 602 615	ต.หนองข้างคอก
+T25	LOCATION 647 663	บ้านเลขที่ 9 / 3
+T26	LOCATION 664 670	หมู่ 2
+T27	LOCATION 671 684	ต.หนองข้างคอก
+T28	LOCATION 685 692	อ.เมือง
+T29	LOCATION 693 701	จ.ชลบุรี
+T30	LOCATION 728 741	ต.หนองข้างคอก
+T31	TIME 765 773	19.00 น.
+T32	TIME 802 810	23.00 น.
+T33	VEHICLE 916 929	ยามาฮ่า ฟีโน่
+T34	VEHICLE 899 910	จักรยานยนต์
+T35	COLOR 932 942	น้ำตาล ขาว
+T36	LP 951 963	ฬนข 751 กทม.
+R3	color_of Arg1:T33 Arg2:T35	
+R4	vehicle_lp Arg1:T33 Arg2:T36	
+R5	own_vehicle Arg1:T6 Arg2:T14	
+R6	found_object_at Arg1:T12 Arg2:T8	
+R7	located_at Arg1:T23 Arg2:T25	
+R8	located_at Arg1:T23 Arg2:T26	
+R9	located_at Arg1:T23 Arg2:T27	
+R10	located_at Arg1:T23 Arg2:T28	
+R11	located_at Arg1:T23 Arg2:T29	
+T37	VEHICLE 986 991	เบนซ์
+T38	COLOR 994 996	ดำ
+T39	LP 1005 1017	พง 2628 กทม.
+R12	color_of Arg1:T37 Arg2:T38	
+R13	vehicle_lp Arg1:T37 Arg2:T39	
+T40	VEHICLE 1073 1084	จักรยานยนต์
+T41	WEAPON 1105 1111	มีดดาบ
+T42	VEHICLE 1130 1135	เบนซ์
+T43	PERSON 1188 1201	นายสมชาย คำพร
+T44	TIME 1207 1212	17 ปี
+R14	crime_time_at Arg1:T43 Arg2:T31	
+R15	crime_time_at Arg1:T43 Arg2:T32	
+R16	crime_located_at Arg1:T43 Arg2:T25	
+R17	crime_located_at Arg1:T43 Arg2:T26	
+R18	crime_located_at Arg1:T43 Arg2:T27	
+R19	crime_located_at Arg1:T43 Arg2:T28	
+R20	crime_located_at Arg1:T43 Arg2:T29	
+R21	own_vehicle Arg1:T43 Arg2:T34	
+R22	own_vehicle Arg1:T23 Arg2:T37	
+R23	own_vehicle Arg1:T6 Arg2:T34	
+R24	crime_time_at Arg1:T6 Arg2:T31	
+R25	crime_time_at Arg1:T6 Arg2:T32	
+R26	crime_date_at Arg1:T6 Arg2:T20	
+R27	crime_date_at Arg1:T43 Arg2:T20	
+R28	crime_located_at Arg1:T6 Arg2:T25	
+R29	crime_located_at Arg1:T6 Arg2:T26	
+R30	crime_located_at Arg1:T6 Arg2:T27	
+R31	crime_located_at Arg1:T6 Arg2:T28	
+R32	crime_located_at Arg1:T6 Arg2:T29	
+R33	employee_or_member_of Arg1:T21 Arg2:T22	
+R34	employee_or_member_of Arg1:T4 Arg2:T5	

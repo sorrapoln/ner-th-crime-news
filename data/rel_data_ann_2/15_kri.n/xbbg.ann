@@ -1,0 +1,13 @@
+T1	PERSON 31 53	นางสาววิชาดา วิทยสินธน
+T2	TIME 60 65	37 ปี
+T3	VEHICLE 95 101	รถยนต์
+T4	VEHICLE 104 115	จักรยานยนต์
+T5	LOCATION 123 131	แยกแคราย
+T6	LOCATION 132 141	จ.นนทบุรี
+T7	LOCATION 149 159	ย่านเตาปูน
+T8	ORGANIZATION 176 190	โรงพยาบาลตำรวจ
+R1	crime_located_at Arg1:T1 Arg2:T5	
+R2	crime_located_at Arg1:T1 Arg2:T6	
+R3	crime_located_at Arg1:T1 Arg2:T7	
+T9	VEHICLE 82 87	เบนซ์
+R4	own_vehicle Arg1:T1 Arg2:T9	

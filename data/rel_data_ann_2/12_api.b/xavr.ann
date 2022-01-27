@@ -1,0 +1,38 @@
+T1	DATE 8 16	24 มี.ค.
+T2	PERSON 18 42	นายอิศรากรณ์ สุวรรณทิพย์
+T3	ORGANIZATION 77 95	โรงเรียนคลองต้นไทร
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T4	LOCATION 139 155	บ้านเลขที่ 134/1
+T5	LOCATION 156 162	หมู่ 2
+T6	LOCATION 163 175	ตำบลทุ่งใหญ่
+T7	LOCATION 176 189	อำเภอทุ่งใหญ่
+T8	LOCATION 190 210	จังหวัดนครศรีธรรมราช
+T9	PERSON 244 250	ด.ช.เอ
+T10	DATE 468 475	22 มี.ค
+R2	located_at Arg1:T9 Arg2:T4	
+R3	located_at Arg1:T9 Arg2:T5	
+R4	located_at Arg1:T9 Arg2:T6	
+R5	crime_located_at Arg1:T9 Arg2:T7	
+R6	located_at Arg1:T9 Arg2:T8	
+T11	PERSON 521 539	นางถนอมศรี จำนงจิต
+T12	TIME 545 550	41 ปี
+T13	LOCATION 595 612	บ้านเลขที่ 421/79
+T14	LOCATION 613 630	หมู่บ้านเหมือนฝัน
+T15	ORGANIZATION 568 589	หจก.เพื่อสุขภาพทุ่งสง
+R7	employee_or_member_of Arg1:T11 Arg2:T15	
+T16	LOCATION 631 642	อำเภอทุ่งสง
+T17	LOCATION 643 663	จังหวัดนครศรีธรรมราช
+T18	PERSON 669 688	นายสุรศักดิ์ รักหอม
+T19	TIME 694 699	39 ปี
+T20	ORGANIZATION 722 726	SCG.
+T21	PERSON 765 771	ด.ช.เอ
+T22	WEAPON 782 798	อาวุธมีดปลายแหลม
+T23	PERSON 834 844	นางถนอมศรี
+R8	crime_relation Arg1:T18 Arg2:T11	
+R9	crime_located_at Arg1:T18 Arg2:T13	
+R10	crime_located_at Arg1:T18 Arg2:T14	
+R11	crime_located_at Arg1:T18 Arg2:T16	
+R12	crime_located_at Arg1:T18 Arg2:T17	
+R13	employee_or_member_of Arg1:T18 Arg2:T20	
+R14	own_weapon Arg1:T18 Arg2:T22	
+R15	crime_date_at Arg1:T18 Arg2:T10	

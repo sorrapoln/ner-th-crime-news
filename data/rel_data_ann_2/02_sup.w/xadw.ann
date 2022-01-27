@@ -1,0 +1,11 @@
+T1	PERSON 16 27	นายวีระยุทธ
+T2	TIME 33 38	35 ปี
+T3	WEAPON 90 93	ปืน
+T4	OBJECT 121 143	ปลอกกระสุนจำนวน 5 ปลอก
+T5	ORGANIZATION 190 200	สภ.ห้วยยอด
+T6	ORGANIZATION 335 345	สภ.ห้วยยอด
+T7	PERSON 346 366	พ.ต.อ.ประดิษฐ์ ชัยพล
+R1	employee_or_member_of Arg1:T7 Arg2:T6	
+T8	WEAPON 904 907	ปืน
+R2	own_weapon Arg1:T1 Arg2:T3	
+R3	own_weapon Arg1:T1 Arg2:T8	

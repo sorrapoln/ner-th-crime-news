@@ -1,0 +1,27 @@
+T1	DATE 1 10	19 ส.ค.64
+T2	TIME 22 30	20.30 น.
+T3	PERSON 31 53	ร.ต.อ.ธนาวุฒิ ดวงจินดา
+T4	ORGANIZATION 71 84	สภ.สำโรงเหนือ
+T5	LOCATION 85 96	สมุทรปราการ
+T6	LOCATION 150 180	ลานหน้าสำนักงานเทศบาลด่านสำโรง
+T7	LOCATION 181 193	ต.สำโรงเหนือ
+T8	LOCATION 194 201	อ.เมือง
+T9	LOCATION 202 215	จ.สมุทรปราการ
+T10	ORGANIZATION 262 279	มูลนิธิร่วมกตัญญู
+T11	PERSON 428 444	นายวรบูรณ์ บุญยก
+T12	WEAPON 615 634	อาวุธปืนขนาด 11 มม.
+T13	OBJECT 655 668	ปลอกกระสุนปืน
+T14	OBJECT 707 713	ซองปืน
+T15	COLOR 713 717	สีดำ
+T16	PERSON 737 756	นายธชายุธ หรือ หวาย
+R1	crime_relation Arg1:T16 Arg2:T11	
+R2	crime_located_at Arg1:T16 Arg2:T6	
+R3	crime_located_at Arg1:T16 Arg2:T7	
+R4	crime_located_at Arg1:T16 Arg2:T8	
+R5	crime_located_at Arg1:T16 Arg2:T9	
+R6	own_weapon Arg1:T16 Arg2:T12	
+R7	found_object_at Arg1:T13 Arg2:T6	
+R8	found_object_at Arg1:T14 Arg2:T6	
+R9	employee_or_member_of Arg1:T3 Arg2:T4	
+R10	crime_time_at Arg1:T16 Arg2:T2	
+R11	crime_date_at Arg1:T16 Arg2:T1	

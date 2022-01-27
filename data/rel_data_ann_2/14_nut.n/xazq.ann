@@ -1,0 +1,29 @@
+T1	LOCATION 17 26	19 มกราคม
+T2	ORGANIZATION 42 60	สภ.เมืองนครราชสีมา
+T3	WEAPON 90 93	ปืน
+T4	LOCATION 131 143	ซอยมิตรแท้ 3
+T5	LOCATION 144 159	ตำบลหนองบัวศาลา
+T6	LOCATION 160 170	อำเภอเมือง
+T7	LOCATION 171 188	จังหวัดนครราชสีมา
+T8	PERSON 279 309	นางสาวปรางค์อิสรา ธีรวิกรมมนูญ
+T9	TIME 315 320	33 ปี
+T10	PERSON 468 491	นางสาวฉัตรสุดา มีประโคน
+T11	TIME 497 502	28 ปี
+T12	PERSON 627 648	นายศิวกร เฉลิมแสนยากร
+T13	TIME 654 659	29 ปี
+R1	crime_relation Arg1:T12 Arg2:T8	
+R2	crime_relation Arg1:T12 Arg2:T10	
+R3	crime_located_at Arg1:T12 Arg2:T4	
+R4	crime_located_at Arg1:T12 Arg2:T1	
+R5	own_weapon Arg1:T12 Arg2:T3	
+R6	crime_located_at Arg1:T12 Arg2:T5	
+R7	crime_located_at Arg1:T12 Arg2:T6	
+R8	crime_located_at Arg1:T12 Arg2:T7	
+T14	LOCATION 799 808	แม่น้ำมูล
+T15	LOCATION 812 832	อำเภอเฉลิมพระเกียรติ
+T16	VEHICLE 841 858	รถยนต์อเนกประสงค์
+R9	own_vehicle Arg1:T12 Arg2:T16	
+T17	WEAPON 874 903	อาวุธปืนพกสั้นลูกโม่ ขนาด .38
+R10	own_weapon Arg1:T12 Arg2:T17	
+T18	WEAPON 935 948	เครื่องกระสุน
+R11	own_weapon Arg1:T12 Arg2:T18	

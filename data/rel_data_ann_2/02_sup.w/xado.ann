@@ -1,0 +1,4 @@
+T1	PERSON 0 8	นายสลาวา
+T2	PERSON 116 127	นางเอฟเกนยา
+T3	PERSON 217 228	นางเอฟเกนยา
+R1	crime_relation Arg1:T2 Arg2:T1	

@@ -1,0 +1,15 @@
+T1	DATE 7 13	9 ต.ค.
+T2	TIME 19 27	12.25 น.
+T3	ORGANIZATION 39 46	สภ.ยะหา
+T4	LOCATION 47 53	จ.ยะลา
+T5	LOCATION 97 106	ยะหา-ละแอ
+T6	LOCATION 107 115	บ้านปาจอ
+T7	LOCATION 116 119	ม.1
+T8	LOCATION 120 126	ต.ยะหา
+T9	LOCATION 127 133	อ.ยะหา
+T10	PERSON 181 205	ร.ต.ท.ปิยะพงษ์ ทิพย์น้อย
+T11	ORGANIZATION 222 229	สภ.ยะหา
+T12	PERSON 590 604	นายอุสมัน วอหะ
+T13	PERSON 608 626	นายอับดุลเลาะ จิใจ
+T14	WEAPON 76 82	ระเบิด
+T15	ORGANIZATION 537 565	โรงพยาบาลสมเด็จพระยุพราชยะหา

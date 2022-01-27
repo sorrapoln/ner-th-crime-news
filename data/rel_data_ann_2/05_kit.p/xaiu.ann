@@ -1,0 +1,19 @@
+T1	TIME 6 14	01.00 น.
+T2	ORGANIZATION 30 39	สน.บางเขน
+T3	LOCATION 87 98	ถนนเทพรักษ์
+T4	LOCATION 109 120	แขวงท่าแร้ง
+T5	LOCATION 121 130	เขตบางเขน
+T6	ORGANIZATION 167 184	มูลนิธิร่วมกตัญญู
+T7	LOCATION 200 211	ถนนเทพรักษ์
+T8	LOCATION 225 236	ถนนพหลโยธิน
+T9	ORGANIZATION 265 277	วัดหนองผักชี
+T10	VEHICLE 295 315	รถยนต์ BMW รุ่น 320D
+T11	COLOR 316 320	สีดำ
+T12	LP 336 356	ข-8888 กรุงเทพมหานคร
+R1	color_of Arg1:T10 Arg2:T11	
+R2	vehicle_lp Arg1:T10 Arg2:T12	
+T13	VEHICLE 51 53	รถ
+T14	VEHICLE 387 389	รถ
+T15	OBJECT 538 547	พบล้อหน้า
+R3	found_object_at Arg1:T15 Arg2:T3	
+R4	found_object_at Arg1:T15 Arg2:T7	

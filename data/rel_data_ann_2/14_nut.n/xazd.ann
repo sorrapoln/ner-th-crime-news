@@ -1,0 +1,27 @@
+T1	PERSON 42 50	นายวิษณุ
+T2	TIME 70 75	39 ปี
+T3	DATE 272 281	พ.ศ. 2553
+T4	PERSON 288 296	นายวิษณุ
+T5	PERSON 319 326	น.ส.ปลา
+T6	TIME 343 348	29 ปี
+T7	PERSON 356 364	นายวิษณุ
+T8	PERSON 373 380	น.ส.ปลา
+T9	PERSON 435 443	นายวิษณุ
+T10	PERSON 485 493	นายวิษณุ
+T11	WEAPON 559 568	ท่อนเหล็ก
+T12	LOCATION 610 620	อ.ด่านช้าง
+T13	LOCATION 621 633	จ.สุพรรณบุรี
+T14	PERSON 671 678	น.ส.ปลา
+T15	PERSON 697 705	นายวิษณุ
+T16	PERSON 743 750	น.ส.ปลา
+T17	WEAPON 760 769	ท่อนเหล็ก
+T18	WEAPON 841 850	ท่อนเหล็ก
+T19	VEHICLE 873 886	รถจักรยานยนต์
+T20	PERSON 890 898	นายวิษณุ
+T21	VEHICLE 931 937	รถจยย.
+T22	LOCATION 946 960	ชุมชนเขาน้ำแดง
+T23	LOCATION 961 971	อ.ด่านช้าง
+T24	LOCATION 972 984	จ.สุพรรณบุรี
+R1	own_weapon Arg1:T10 Arg2:T11	
+R2	crime_located_at Arg1:T15 Arg2:T12	
+R3	crime_located_at Arg1:T15 Arg2:T13	

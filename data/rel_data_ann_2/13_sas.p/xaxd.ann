@@ -1,0 +1,23 @@
+T1	LOCATION 21 27	จ.ตรัง
+T2	TIME 47 52	12 ปี
+T3	TIME 57 62	16 ปี
+T4	ORGANIZATION 124 158	มูลนิธิปวีณาหงสกุลเพื่อเด็กและสตรี
+T5	DATE 242 249	22 ม.ค.
+T6	PERSON 251 277	พล.ต.อ.วิสนุ ปราสาททองโอสถ
+T7	PERSON 331 356	พล.ต.อ.สุวัฒน์ แจ้งยอดสุข
+T8	PERSON 409 428	พล.ต.ต.สันทัด วินสน
+T9	LOCATION 438 442	ตรัง
+T10	PERSON 458 480	ร.ต.อ.วิศาล ขวัญนิมิตร
+T11	ORGANIZATION 495 506	สภ.วังวิเศษ
+T12	LOCATION 507 513	จ.ตรัง
+T13	DATE 562 574	19 ม.ค. 2565
+T14	TIME 750 755	15 ปี
+T15	TIME 833 838	15 ปี
+T16	TIME 850 855	18 ปี
+T17	TIME 951 956	15 ปี
+T18	TIME 1074 1079	13 ปี
+T19	TIME 1168 1173	13 ปี
+T20	DATE 1250 1262	18 ม.ค. 2565
+T21	PERSON 1321 1332	ร.ต.อ.วิศาล
+R1	employee_or_member_of Arg1:T10 Arg2:T11	
+R2	crime_date_at Arg1:T10 Arg2:T20	

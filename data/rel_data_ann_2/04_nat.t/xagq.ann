@@ -1,0 +1,59 @@
+T1	TIME 10 17	12.30น.
+T2	DATE 24 34	18 ตค.2564
+T3	PERSON 35 56	พ.ต.อ.เสริม ขวัญนิมิต
+T4	LOCATION 67 80	นครศรีธรรมราช
+T5	ORGANIZATION 114 121	สภ.สิชล
+T6	LOCATION 122 137	จ.นครศรีธรรมราช
+T7	PERSON 144 174	พ.ต.อ.เกียรติศักดิ์ รามสวัสดิ์
+T8	ORGANIZATION 179 186	สภ.สิชล
+T9	PERSON 187 211	พ.ต.ท.บัณฑิต สุขะวิศิษฎ์
+T10	PERSON 223 248	พ.ต.ท.ภูรินทร์ เพชรที่วัง
+T11	PERSON 256 275	นายวีระชัย บุญนิสัย
+T12	LOCATION 280 289	อำเภอสิชล
+T13	PERSON 290 310	นายสุพจน์ พูลสวัสดิ์
+T14	ORGANIZATION 320 328	อบต.สิชล
+T15	WEAPON 415 418	ปืน
+T16	LOCATION 441 453	ภูเขาห้วยโศก
+T17	LOCATION 454 461	หมู่ 11
+T18	LOCATION 462 470	ต.สี่ขีด
+T19	LOCATION 471 477	อ.สิชล
+T20	LOCATION 478 493	จ.นครศรีธรรมราช
+T21	PERSON 509 531	นายณัฐกานต์ เกสรสิทธิ์
+T22	PERSON 538 548	อาย สี่ขีด
+T23	TIME 555 560	30 ปี
+T24	LOCATION 565 580	บ้านเลขที่ 33/5
+T25	LOCATION 581 587	หมู่ 2
+T26	LOCATION 588 596	ต.สี่ขีด
+T27	LOCATION 597 603	อ.สิชล
+T28	LOCATION 604 619	จ.นครศรีธรรมราช
+T29	WEAPON 630 639	ปืนพกสั้น
+T30	ORGANIZATION 830 837	สภ.สิชล
+T31	VEHICLE 919 942	รถยนต์กระบะยี่ห้ออีซูซุ
+T32	COLOR 943 955	สีบรอนซ์เงิน
+R1	color_of Arg1:T31 Arg2:T32	
+T33	LP 964 971	บพ-2017
+R2	vehicle_lp Arg1:T31 Arg2:T33	
+T34	VEHICLE 983 994	รถยนต์กระบะ
+T35	PERSON 997 1019	นายพูนสินธ์ พูลสวัสดิ์
+T36	LOCATION 1025 1033	ตำบลสิชล
+T37	DATE 1086 1097	17 ต.ค.2564
+T38	PERSON 1116 1127	นายณัฐกานต์
+T39	ORGANIZATION 1165 1172	สภ.สิชล
+T40	ORGANIZATION 1225 1232	สภ.สิชล
+T41	PERSON 1241 1252	นายณัฐกานต์
+T42	PERSON 1271 1282	นายณัฐกานต์
+T43	PERSON 1413 1424	นายณัฐกานต์
+T44	PERSON 1475 1486	นายณัฐกานต์
+T45	PERSON 1489 1500	นายณัฐกานต์
+T46	PERSON 1594 1605	นายณัฐกานต์
+R3	employee_or_member_of Arg1:T3 Arg2:T5	
+R4	employee_or_member_of Arg1:T7 Arg2:T8	
+R5	employee_or_member_of Arg1:T13 Arg2:T14	
+T47	ORGANIZATION 366 388	อส.ฝ่ายปกครองอำเภอสิชล
+R6	own_weapon Arg1:T21 Arg2:T29	
+R7	located_at Arg1:T21 Arg2:T24	
+R8	located_at Arg1:T21 Arg2:T25	
+R9	located_at Arg1:T21 Arg2:T26	
+R10	located_at Arg1:T21 Arg2:T27	
+R11	located_at Arg1:T21 Arg2:T28	
+R12	crime_date_at Arg1:T21 Arg2:T37	

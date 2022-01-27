@@ -1,0 +1,47 @@
+T1	TIME 10 18	05.50 น.
+T2	DATE 29 43	22 มกราคม 2565
+T3	PERSON 44 64	พ.ต.ต.แดนชัย บุญธรรม
+T4	ORGANIZATION 76 85	สภ.บ่อผุด
+T5	LOCATION 86 96	อ.เกาะสมุย
+T6	LOCATION 97 111	จ.สุราษฎร์ธานี
+T7	LOCATION 161 174	ซอยอีสานพัฒนา
+T8	LOCATION 175 181	หมู่ 6
+T9	LOCATION 182 190	ต.บ่อผุด
+T10	LOCATION 191 201	อ.เกาะสมุย
+T11	LOCATION 202 216	จ.สุราษฎร์ธานี
+T12	PERSON 249 272	พ.ต.อ.ยุทธนา ศิริสมบัติ
+T13	ORGANIZATION 277 286	สภ.บ่อผุด
+T14	PERSON 322 343	พ.ต.ต.วรรณชัย สุขแจ่ม
+T15	PERSON 349 370	ร.ต.อ.ภาณุมาศ ชูเกื้อ
+T16	ORGANIZATION 377 386	สภ.บ่อผุด
+T17	PERSON 387 407	ร.ต.อ.วิเศษ ชูพยัคฆ์
+T18	PERSON 419 439	ร.ต.อ.ธวัฒชัย เทพหนู
+T19	LOCATION 599 612	ซอยอิสานพัฒนา
+T20	LOCATION 621 624	ม.6
+T21	LOCATION 625 633	ต.บ่อผุด
+T22	LOCATION 634 644	อ.เกาะสมุย
+T23	LOCATION 645 659	จ.สุราษฎร์ธานี
+T24	OBJECT 705 712	เก้าอี้
+T25	OBJECT 822 831	หัวกระสุน
+T26	ORGANIZATION 902 935	โรงพยาบาลไทยอินเตอร์เนชั่นแนลสมุย
+T27	PERSON 983 998	นายสันทัด เคยนา
+T28	TIME 1004 1009	35 ปี
+T29	LOCATION 1020 1028	จ.ลพบุรี
+T30	WEAPON 1044 1047	ปืน
+R1	located_at Arg1:T27 Arg2:T29	
+R2	found_object_at Arg1:T25 Arg2:T19	
+R3	found_object_at Arg1:T25 Arg2:T20	
+R4	found_object_at Arg1:T25 Arg2:T21	
+R5	found_object_at Arg1:T25 Arg2:T22	
+R6	found_object_at Arg1:T25 Arg2:T23	
+R7	found_object_at Arg1:T24 Arg2:T19	
+R8	found_object_at Arg1:T24 Arg2:T20	
+R9	found_object_at Arg1:T24 Arg2:T21	
+R10	found_object_at Arg1:T24 Arg2:T22	
+R11	found_object_at Arg1:T24 Arg2:T23	
+R12	employee_or_member_of Arg1:T3 Arg2:T4	
+R13	employee_or_member_of Arg1:T12 Arg2:T13	
+T31	PERSON 287 310	พ.ต.ท.อนุมัติ รื่นพานิช
+R14	employee_or_member_of Arg1:T15 Arg2:T16	
+R15	employee_or_member_of Arg1:T14 Arg2:T16	
+R16	employee_or_member_of Arg1:T31 Arg2:T16	

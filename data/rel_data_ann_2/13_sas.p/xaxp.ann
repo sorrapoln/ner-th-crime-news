@@ -1,0 +1,19 @@
+T1	PERSON 16 36	นายสุริยา เริ่มสมุทร
+T2	PERSON 41 47	บังฟิต
+T3	TIME 53 58	31 ปี
+T4	PERSON 79 96	นายสุชาติ ขาวล้วน
+T5	ORGANIZATION 102 114	ม็อบสวนปาล์ม
+R1	employee_or_member_of Arg1:T4 Arg2:T5	
+T6	LOCATION 115 123	จ.กระบี่
+T7	LOCATION 180 190	อ.หนองเรือ
+T8	LOCATION 191 200	จ.ขอนแก่น
+T9	PERSON 342 367	พล.ต.อ.สุชาติ ธีระสวัสดิ์
+T10	PERSON 389 395	บังฟิต
+T11	ORGANIZATION 418 428	สภ.อ่าวนาง
+T12	LOCATION 429 437	จ.กระบี่
+T13	PERSON 447 453	บังฟิต
+T14	PERSON 464 473	นายสุชาติ
+T15	PERSON 485 515	นายสุรชัย เริงสมุทร หรือกิบหลี
+T16	TIME 521 526	37 ปี
+R2	crime_relation Arg1:T1 Arg2:T14	
+R3	crime_relation Arg1:T1 Arg2:T15	

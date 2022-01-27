@@ -1,0 +1,12 @@
+T1	PERSON 0 9	นายอนิรุต
+T2	PERSON 14 18	เอ็ก
+T3	LOCATION 135 143	จ.กระบี่
+T4	VEHICLE 265 296	ขับรถจักรยานยนต์ฮอนด้า สกู๊ปปี้
+T5	COLOR 297 302	สีขาว
+R1	color_of Arg1:T4 Arg2:T5	
+T6	LP 311 325	1 กค 2022 ตรัง
+R2	vehicle_lp Arg1:T4 Arg2:T6	
+T7	WEAPON 374 377	มีด
+R3	own_weapon Arg1:T1 Arg2:T7	
+R4	own_vehicle Arg1:T1 Arg2:T4	
+R5	located_at Arg1:T1 Arg2:T3	

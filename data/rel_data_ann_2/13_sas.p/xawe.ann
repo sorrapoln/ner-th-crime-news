@@ -1,0 +1,15 @@
+T1	DATE 8 19	23 ม.ค.2565
+T2	ORGANIZATION 83 109	สถาบันโรคไตภูมิราชนครินทร์
+T3	PERSON 136 155	ส.ต.ต.นรวิชญ์ บัวดก
+T4	VEHICLE 179 191	รถจักรยายนต์
+T5	PERSON 194 236	พญ.วราลัคน์ สุภวัตรจริยากุล หรือหมอกระต่าย
+T6	PERSON 272 283	พญ.วราลัคน์
+T7	VEHICLE 364 376	รถจักรยายนต์
+T8	PERSON 380 393	ส.ต.ต.นรวิชญ์
+T9	TIME 470 478	15.00 น.
+T10	DATE 488 495	21 ม.ค.
+T11	PERSON 509 522	ส.ต.ต.นรวิชญ์
+R1	own_vehicle Arg1:T3 Arg2:T4	
+R2	crime_relation Arg1:T3 Arg2:T5	
+R3	crime_date_at Arg1:T3 Arg2:T10	
+R4	crime_time_at Arg1:T3 Arg2:T9	

@@ -1,0 +1,21 @@
+T1	DATE 8 18	21 ม.ค. 65
+T2	PERSON 43 66	ร.ต.ท.ยุทธนกานต์ วังสาร
+T3	ORGANIZATION 83 94	สภ.บ้านกุ่ม
+T4	LOCATION 136 154	คลองส่งน้ำชลประทาน
+T5	LOCATION 155 179	ริมถนนสายลพบุรี-บ้านแพรก
+T6	LOCATION 186 197	หน้าวัดตะโก
+T7	LOCATION 198 207	หมู่ที่ 3
+T8	LOCATION 208 217	ต.โก่งธนู
+T9	LOCATION 218 231	อ.เมืองลพบุรี
+T10	LOCATION 232 240	จ.ลพบุรี
+T11	ORGANIZATION 306 329	มูลนิธิร่วมกตัญญูลพบุรี
+T12	VEHICLE 426 443	รถยนต์เอนกประสงค์
+T13	COLOR 444 448	สีดำ
+R1	color_of Arg1:T12 Arg2:T13	
+T14	LP 464 478	กต 8785 ลพบุรี
+R2	vehicle_lp Arg1:T12 Arg2:T14	
+T15	PERSON 682 701	พ.อ.ภาคภูมิ อ่อนนุช
+T16	TIME 707 712	61 ปี
+T17	PERSON 800 816	นางนุชญา อ่อนนุช
+T18	TIME 822 827	54 ปี
+R3	employee_or_member_of Arg1:T2 Arg2:T3	

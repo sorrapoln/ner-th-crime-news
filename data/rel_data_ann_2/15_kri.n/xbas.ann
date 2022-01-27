@@ -1,0 +1,43 @@
+T1	DATE 10 17	07.30 น
+T2	DATE 26 36	21 พ.ย. 64
+T3	PERSON 37 56	ร.ต.อ.สุกรี พรหมมาศ
+T4	ORGANIZATION 70 79	สภ.ลานสกา
+T5	LOCATION 80 95	จ.นครศรีธรรมราช
+T6	ORGANIZATION 144 153	วัดคีรีวง
+T7	LOCATION 154 161	หมู่ 10
+T8	LOCATION 162 169	ต.กำโลน
+T9	LOCATION 170 178	อ.ลานสกา
+T10	PERSON 192 214	พ.ต.ท.วินัย คงประพันธ์
+T11	PERSON 226 253	พ.ต.ต.แสงโรจน์ สมโรจน์รัตน์
+T12	PERSON 299 325	พล.ต.ต.สมชาย ซื่อต่อตระกูล
+T13	PERSON 409 421	นายส่อง ปนคำ
+T14	TIME 427 432	68 ปี
+T15	LOCATION 437 450	บ้านเลขที่ 23
+T16	LOCATION 451 457	หมู่ 8
+T17	LOCATION 458 465	ต.กำโลน
+T18	LOCATION 466 474	อ.ลานสกา
+T19	LOCATION 475 490	จ.นครศรีธรรมราช
+T20	PERSON 918 932	นายสายัน สุกใส
+T21	TIME 938 943	42 ปี
+T22	LOCATION 948 962	บ้านเลขที่ 247
+T23	LOCATION 963 970	หมู่ 10
+T24	LOCATION 971 978	ต.กำโลน
+T25	LOCATION 979 987	อ.ลานสกา
+T26	LOCATION 988 1003	จ.นครศรีธรรมราช
+R1	crime_relation Arg1:T20 Arg2:T13	
+R2	located_at Arg1:T20 Arg2:T22	
+R3	located_at Arg1:T20 Arg2:T23	
+R4	located_at Arg1:T20 Arg2:T24	
+R5	located_at Arg1:T20 Arg2:T25	
+R6	located_at Arg1:T20 Arg2:T26	
+R7	located_at Arg1:T13 Arg2:T15	
+R8	located_at Arg1:T13 Arg2:T16	
+R9	located_at Arg1:T13 Arg2:T17	
+R10	located_at Arg1:T13 Arg2:T18	
+R11	located_at Arg1:T13 Arg2:T19	
+R12	employee_or_member_of Arg1:T20 Arg2:T6	
+R13	crime_located_at Arg1:T20 Arg2:T7	
+R14	crime_located_at Arg1:T20 Arg2:T8	
+R15	crime_located_at Arg1:T20 Arg2:T9	
+R16	crime_date_at Arg1:T20 Arg2:T1	
+R17	crime_date_at Arg1:T20 Arg2:T2	

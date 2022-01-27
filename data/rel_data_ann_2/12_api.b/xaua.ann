@@ -1,0 +1,18 @@
+T1	ORGANIZATION 14 23	สภ.อู่ทอง
+T2	PERSON 32 47	นายแสน ปทุมสูตร
+T3	WEAPON 71 79	อาวุธปืน
+T4	PERSON 82 100	นางอารีย์ ปทุมสูตร
+R1	own_weapon Arg1:T2 Arg2:T3	
+R2	crime_relation Arg1:T2 Arg2:T4	
+T5	PERSON 149 168	นายชิวัฒน์ ปทุมสูตร
+R3	crime_relation Arg1:T2 Arg2:T5	
+T6	PERSON 176 192	นายอุ้ย ศรีเห-รา
+R4	crime_relation Arg1:T2 Arg2:T6	
+T7	PERSON 202 222	นางวิชุดา เอี่ยมใจดี
+R5	crime_relation Arg1:T2 Arg2:T7	
+T8	ORGANIZATION 252 261	สภ.อู่ทอง
+T9	WEAPON 275 278	ปืน
+T10	TIME 373 382	5 ชั่วโมง
+T11	PERSON 385 391	นายแสน
+T12	LOCATION 490 507	จังหวัดสุพรรณบุรี
+T13	VEHICLE 564 566	รถ

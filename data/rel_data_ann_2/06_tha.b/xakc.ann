@@ -1,0 +1,33 @@
+T1	DATE 12 24	11 พฤศจิกายน
+T2	PERSON 57 77	พล.ต.ท.จิรภพ ภูริเดช
+T3	PERSON 96 115	พล.ต.ต.มนตรี เทศขัน
+T4	PERSON 116 146	ผบก.ป.พ.ต.อ.วิระชาญ ขุนไชยแก้ว
+T5	PERSON 153 182	บก.ป.พ.ต.ต.ปิยะพร เรียนสุทธิ์
+T6	PERSON 183 209	พ.ต.ต.พัฒษพงศ์ เสณีแสนเสนา
+T7	PERSON 231 255	นายธีรยุทธ์ กาญจนสวัสดิ์
+T8	TIME 261 266	50 ปี
+T9	DATE 302 310	9 พ.ย.64
+T10	LOCATION 607 611	ม. 6
+T11	LOCATION 612 624	ต.บางมะพร้าว
+T12	LOCATION 625 634	อ.หลังสวน
+T13	LOCATION 635 642	จ.ชุมพร
+T14	DATE 667 675	25 มิ.ย.
+T15	PERSON 710 736	นายอิทธิเชษฐ์ กาญจนสวัสดิ์
+T16	TIME 742 747	67 ปี
+T17	LOCATION 789 796	จ.ชุมพร
+T18	ORGANIZATION 805 821	สภ.ปากน้ำหลังสวน
+T19	TIME 843 850	5 เดือน
+T20	ORGANIZATION 929 951	สำนักงานตำรวจเเห่งชาติ
+T21	ORGANIZATION 986 1006	กองบังคับการปราบปราม
+T22	PERSON 1153 1164	นายธีรยุทธ์
+T23	PERSON 1247 1258	นายธีรยุทธ์
+R1	crime_date_at Arg1:T7 Arg2:T14	
+R2	crime_relation Arg1:T7 Arg2:T15	
+T24	WEAPON 369 372	ปืน
+T25	WEAPON 438 441	ปืน
+T26	WEAPON 704 707	ปืน
+R3	own_weapon Arg1:T7 Arg2:T26	
+R4	crime_located_at Arg1:T7 Arg2:T10	
+R5	crime_located_at Arg1:T7 Arg2:T11	
+R6	crime_located_at Arg1:T7 Arg2:T12	
+R7	crime_located_at Arg1:T7 Arg2:T13	

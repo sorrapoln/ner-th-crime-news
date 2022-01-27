@@ -1,0 +1,23 @@
+T1	PERSON 8 23	นายนเรศ หวังทาง
+T2	ORGANIZATION 30 50	บริษัทเอกชนแห่งหนึ่ง
+T3	WEAPON 68 71	มีด
+T4	LOCATION 79 96	หมู่บ้านกลางเมือง
+T5	LOCATION 97 109	ย่านลาดพร้าว
+T6	DATE 122 129	25 พ.ค.
+T7	VEHICLE 160 173	รถจักรยานยนต์
+T8	PERSON 180 187	นายนเรศ
+T9	VEHICLE 246 259	รถจักรยานยนต์
+T10	DATE 306 313	4 มิ.ย.
+T11	PERSON 331 346	นายวรัญญู ชูมณี
+T12	LOCATION 385 393	อ.ลานสกา
+T13	LOCATION 394 409	จ.นครศรีธรรมราช
+T14	PERSON 410 419	นายวรัญญู
+R1	located_at Arg1:T11 Arg2:T12	
+R2	located_at Arg1:T11 Arg2:T13	
+R3	crime_located_at Arg1:T11 Arg2:T4	
+R4	crime_located_at Arg1:T11 Arg2:T5	
+R5	own_weapon Arg1:T11 Arg2:T3	
+R6	crime_relation Arg1:T11 Arg2:T1	
+R7	employee_or_member_of Arg1:T1 Arg2:T2	
+R8	own_vehicle Arg1:T1 Arg2:T7	
+R9	crime_date_at Arg1:T11 Arg2:T6	

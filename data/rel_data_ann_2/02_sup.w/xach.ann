@@ -1,0 +1,57 @@
+T1	DATE 7 18	23 ม.ค.2565
+T2	PERSON 19 37	ร.ต.ท.เอกอมร สีสัน
+T3	ORGANIZATION 57 64	สภ.คูคต
+T4	DATE 98 105	22 ม.ค.
+T5	LOCATION 172 181	ต.ลาดสวาย
+T6	LOCATION 182 191	อ.ลำลูกกา
+T7	LOCATION 192 202	จ.ปทุมธานี
+T8	PERSON 232 253	พ.ต.อ.มนัสเวท ทองอิ่ม
+T9	ORGANIZATION 258 265	สภ.คูคต
+T10	PERSON 267 288	พ.ต.ท.จิรพัฒน์ ศรีเดช
+T11	ORGANIZATION 302 309	สภ.คูคต
+T12	PERSON 311 344	พ.ต.ท.รุ่งเรืองบุญ อ้อนนิ่มอภิกุล
+T13	ORGANIZATION 349 356	สภ.คูคต
+T14	ORGANIZATION 381 388	สภ.คูคต
+T15	ORGANIZATION 398 421	โรงพยาบาลภูมิพลอดุลยเดช
+T16	ORGANIZATION 433 463	ตำรวจพิสูจน์หลักฐาน 1 ปทุมธานี
+T17	ORGANIZATION 482 500	มูลนิธิป่อเต๊กตึ๊ง
+T18	PERSON 532 543	นายธานินทร์
+T19	TIME 565 570	49 ปี
+T20	LOCATION 587 599	ตำบลบึงยี่โถ
+T21	PERSON 712 721	นายวรพงษ์
+T22	TIME 743 748	46 ปี
+T23	OBJECT 844 866	ปลอกกระสุนปืน ขนาด 380
+T24	OBJECT 884 890	5 ปลอก
+T25	OBJECT 894 912	หัวกระสุนอีก 1 หัว
+T26	WEAPON 1007 1010	ปืน
+T27	PERSON 1071 1080	นายวรินทร
+T28	TIME 1102 1107	31 ปี
+T29	WEAPON 1215 1218	ปืน
+T30	ORGANIZATION 1253 1260	สภ.คูคต
+T31	WEAPON 1281 1293	ปืน ขนาด .38
+T32	OBJECT 1297 1321	กระสุนปืนจำนวนหลายสิบนัด
+T33	PERSON 1349 1360	นางพิชะญาดา
+T34	TIME 1382 1387	38 ปี
+T35	PERSON 1396 1407	นายธานินทร์
+T36	PERSON 1430 1441	นายธานินทร์
+T37	PERSON 1444 1453	นายวรพงษ์
+T38	VEHICLE 1542 1551	รถเครื่อง
+T39	PERSON 1572 1583	นายธานินทร์
+T40	PERSON 1586 1595	นายวรพงษ์
+R1	crime_relation Arg1:T27 Arg2:T18	
+R2	crime_relation Arg1:T27 Arg2:T21	
+R3	own_weapon Arg1:T27 Arg2:T31	
+R4	crime_date_at Arg1:T27 Arg2:T4	
+R5	crime_located_at Arg1:T27 Arg2:T5	
+R6	crime_located_at Arg1:T27 Arg2:T6	
+R7	crime_located_at Arg1:T27 Arg2:T7	
+R8	found_object_at Arg1:T23 Arg2:T5	
+R9	found_object_at Arg1:T23 Arg2:T6	
+R10	found_object_at Arg1:T23 Arg2:T7	
+R11	found_object_at Arg1:T24 Arg2:T5	
+R12	found_object_at Arg1:T24 Arg2:T6	
+R13	found_object_at Arg1:T24 Arg2:T7	
+R14	employee_or_member_of Arg1:T2 Arg2:T3	
+R15	employee_or_member_of Arg1:T12 Arg2:T13	
+R16	employee_or_member_of Arg1:T8 Arg2:T9	
+R17	employee_or_member_of Arg1:T10 Arg2:T11	

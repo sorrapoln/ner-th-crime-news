@@ -1,0 +1,29 @@
+T1	TIME 10 18	07.00 น.
+T2	DATE 25 39	29 ตุลาคม 2564
+T3	PERSON 40 61	ร.ต.อ.วิเชฏ สิมมาอ่อน
+T4	ORGANIZATION 70 81	สภ.ท่าคันโท
+T5	LOCATION 82 93	จ.กาฬสินธุ์
+T6	ORGANIZATION 132 142	วัดป่าภูปอ
+T7	LOCATION 143 150	ต.นาตาล
+T8	LOCATION 151 161	อ.ท่าคันโท
+T9	LOCATION 162 173	จ.กาฬสินธุ์
+T10	PERSON 199 218	พล.ต.ต.วรวัฒน์ มะลิ
+T11	PERSON 292 313	พ.ต.อ.วิทยา เย็นจิตต์
+T12	PERSON 336 358	นายพลานุภาพ ธพรคำแพทย์
+T13	PERSON 376 399	พ.ต.ท.จิรพงษ์ เอกวรพงศ์
+T14	ORGANIZATION 436 447	สภ.ท่าคันโท
+T15	TIME 646 651	72 ปี
+T16	PERSON 1182 1199	พระกรกช เสนาฤทธิ์
+T17	TIME 1205 1210	72 ปี
+T18	TIME 1251 1259	20.00 น.
+T19	PERSON 1896 1902	พระลุน
+T20	PERSON 1981 1987	พระลุน
+R1	employee_or_member_of Arg1:T13 Arg2:T14	
+T21	LOCATION 499 510	จ.กาฬสินธุ์
+T22	ORGANIZATION 573 590	โรงพยาบาลท่าคันโท
+T23	PERSON 609 615	พระลุน
+T24	PERSON 620 640	หลวงพ่อลุน สุ่มมาตย์
+T25	ORGANIZATION 1217 1227	วัดป่าภูปอ
+R2	employee_or_member_of Arg1:T16 Arg2:T25	
+T26	PERSON 1765 1771	พระลุน
+T27	PERSON 1827 1833	พระลุน

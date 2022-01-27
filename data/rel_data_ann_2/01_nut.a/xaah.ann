@@ -1,0 +1,47 @@
+T1	ORGANIZATION 45 68	ชุดสืบสวนตำรวจภูธรภาค 9
+T2	ORGANIZATION 106 131	ชุดปราบปรามยาเสพติดพัทลุง
+T3	LOCATION 188 197	ตำบลชะมวง
+T4	LOCATION 198 210	อำเภอควนขนุน
+T5	LOCATION 211 224	จังหวัดพัทลุง
+T6	PERSON 261 272	นายประดิษฐ์
+T7	PERSON 278 294	เกร็ก มุสิกะสงค์
+T8	TIME 300 305	41 ปี
+T9	PERSON 328 337	นางบุหลัน
+T10	PERSON 353 359	นายทูน
+T11	PERSON 397 404	นายม่อน
+T12	PERSON 523 531	นายเกร็ก
+T13	VEHICLE 557 563	รถเก๋ง
+T14	COLOR 564 569	สีขาว
+T15	LP 578 596	กข48 นครศรีธรรมราช
+T16	WEAPON 749 766	ปืนสงคราม เอ็ม 16
+T18	OBJECT 1114 1128	ถุงใส่เสื้อผ้า
+T17	OBJECT 1129 1141	กระเป๋าสะพาย
+T19	OBJECT 1142 1155	กระเป๋าสตางค์
+T20	OBJECT 1156 1161	อาหาร
+T21	OBJECT 1162 1168	ขวดน้ำ
+T22	OBJECT 1172 1181	กระสุนปืน
+R1	own_weapon Arg1:T6 Arg2:T16	
+R2	own_vehicle Arg1:T6 Arg2:T13	
+R3	color_of Arg1:T13 Arg2:T14	
+R4	vehicle_lp Arg1:T13 Arg2:T15	
+R5	located_at Arg1:T6 Arg2:T3	
+R6	located_at Arg1:T6 Arg2:T4	
+R7	located_at Arg1:T6 Arg2:T5	
+R8	found_object_at Arg1:T18 Arg2:T3	
+R9	found_object_at Arg1:T18 Arg2:T4	
+R10	found_object_at Arg1:T18 Arg2:T5	
+R11	found_object_at Arg1:T17 Arg2:T3	
+R12	found_object_at Arg1:T17 Arg2:T4	
+R13	found_object_at Arg1:T17 Arg2:T5	
+R14	found_object_at Arg1:T19 Arg2:T3	
+R15	found_object_at Arg1:T19 Arg2:T4	
+R16	found_object_at Arg1:T19 Arg2:T5	
+R17	found_object_at Arg1:T20 Arg2:T3	
+R18	found_object_at Arg1:T20 Arg2:T4	
+R19	found_object_at Arg1:T20 Arg2:T5	
+R20	found_object_at Arg1:T21 Arg2:T3	
+R21	found_object_at Arg1:T21 Arg2:T4	
+R22	found_object_at Arg1:T21 Arg2:T5	
+R23	found_object_at Arg1:T22 Arg2:T3	
+R24	found_object_at Arg1:T22 Arg2:T4	
+R25	found_object_at Arg1:T22 Arg2:T5	

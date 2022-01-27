@@ -1,0 +1,84 @@
+T1	TIME 5 13	14.00 น.
+T2	DATE 20 29	20 ต.ค.64
+T3	ORGANIZATION 33 112	กองบังคับการควบคุมศูนย์ปฏิบัติการบริหารการแก้ไขปัญหายาเสพติดชายแดนภาคเหนือที่ 3
+T4	ORGANIZATION 113 131	โรงเรียนบ้านผาตั้ง
+T5	LOCATION 132 140	ต.ป่าตึง
+T6	LOCATION 141 149	อ.แม่จัน
+T7	LOCATION 150 160	จ.เชียงราย
+T8	PERSON 161 178	พล.ต.จรัส ปัญญาดี
+T9	ORGANIZATION 193 249	ศูนย์ปฎิบัติการบริหารการแก้ไขปัญหายาเสพติดชายแดนภาคเหนือ
+R1	employee_or_member_of Arg1:T8 Arg2:T9	
+T10	OBJECT 302 307	ยาบ้า
+T11	OBJECT 321 328	เคตามีน
+T12	OBJECT 341 347	ยาไอซ์
+T13	PERSON 365 386	พ.ต.อ.โสภน ม่วงเฟื่อง
+T14	ORGANIZATION 391 407	สภ.เมืองเชียงราย
+R2	employee_or_member_of Arg1:T13 Arg2:T14	
+T15	PERSON 408 434	พ.อ.พักตร์พงษ์ เงสันเที๊ยะ
+T16	ORGANIZATION 442 469	กลุ่มงานนโยบายแผนและการข่าว
+T17	LOCATION 477 487	จ.เชียงราย
+R3	employee_or_member_of Arg1:T15 Arg2:T16	
+T18	LOCATION 491 502	อำเภอแม่จัน
+T19	LOCATION 503 513	จ.เชียงราย
+T20	PERSON 514 530	นายดนุชา ไชยวงศ์
+T21	ORGANIZATION 534 573	ส่วนอำนวยการบังคับใช้กฎหมาย ป.ป.ส.ภาค 5
+R4	employee_or_member_of Arg1:T20 Arg2:T21	
+T22	TIME 625 633	20.00 น.
+T23	DATE 640 650	18 ต.ค. 64
+T24	ORGANIZATION 674 742	ศูนย์ปฏิบัติการบริหารการแก้ไขปัญหายาเสพติดชายแดนภาคเหนือ (ศป.บส.ชน.)
+T25	PERSON 764 784	พลโท บุญยืน อินกว่าง
+R5	employee_or_member_of Arg1:T25 Arg2:T24	
+T26	PERSON 835 857	นายเลิศชาย หอบรรลือกิจ
+T27	TIME 863 868	51 ปี
+T28	LOCATION 873 886	แขวงนวลจันทร์
+T29	LOCATION 887 897	เขตบึงกุ่ม
+T30	LOCATION 898 906	กรุงเทพฯ
+T31	OBJECT 920 925	ยาบ้า
+T32	OBJECT 950 956	ยาไอซ์
+T33	OBJECT 974 981	เคตามีน
+T34	VEHICLE 997 1009	รถยนต์วอลโว่
+T35	COLOR 1010 1022	สีบรอนซ์เงิน
+T36	LP 1031 1052	ศช 8328 กรุงเทพมหานคร
+T37	VEHICLE 1076 1078	รถ
+T38	LOCATION 1117 1127	จ.เชียงราย
+T39	VEHICLE 1289 1291	รถ
+T40	VEHICLE 1305 1319	รถยี่ห้อวอลโว่
+T41	LP 1335 1356	ศช 8328 กรุงเทพมหานคร
+T42	VEHICLE 1395 1397	รถ
+T43	LOCATION 1417 1426	ถนนบายพาส
+T44	ORGANIZATION 1434 1463	ท่าอากาศยานแม่ฟ้าหลวงเชียงราย
+T45	LOCATION 1497 1513	แยกไฟแดงบ้านใหม่
+T46	LOCATION 1514 1526	ถนนกลางเวียง
+T47	LOCATION 1527 1534	ต.ริมกก
+T48	LOCATION 1535 1542	อ.เมือง
+T49	LOCATION 1543 1553	จ.เชียงราย
+T50	VEHICLE 1554 1556	รถ
+R6	own_vehicle Arg1:T26 Arg2:T34	
+R7	vehicle_lp Arg1:T34 Arg2:T36	
+R8	vehicle_lp Arg1:T40 Arg2:T41	
+R9	crime_located_at Arg1:T26 Arg2:T45	
+R10	crime_located_at Arg1:T26 Arg2:T46	
+R11	crime_located_at Arg1:T26 Arg2:T47	
+R12	crime_located_at Arg1:T26 Arg2:T48	
+R13	crime_located_at Arg1:T26 Arg2:T49	
+R14	crime_date_at Arg1:T26 Arg2:T23	
+R15	crime_time_at Arg1:T26 Arg2:T22	
+R16	located_at Arg1:T26 Arg2:T28	
+R17	located_at Arg1:T26 Arg2:T29	
+R18	located_at Arg1:T26 Arg2:T30	
+R19	color_of Arg1:T34 Arg2:T35	
+R20	found_object_at Arg1:T31 Arg2:T45	
+R21	found_object_at Arg1:T31 Arg2:T46	
+R22	found_object_at Arg1:T31 Arg2:T47	
+R23	found_object_at Arg1:T31 Arg2:T48	
+R24	found_object_at Arg1:T31 Arg2:T49	
+R25	found_object_at Arg1:T32 Arg2:T45	
+R26	found_object_at Arg1:T32 Arg2:T46	
+R27	found_object_at Arg1:T32 Arg2:T47	
+R28	found_object_at Arg1:T32 Arg2:T48	
+R29	found_object_at Arg1:T32 Arg2:T49	
+R30	found_object_at Arg1:T33 Arg2:T45	
+R31	found_object_at Arg1:T33 Arg2:T46	
+R32	found_object_at Arg1:T33 Arg2:T47	
+R33	found_object_at Arg1:T33 Arg2:T48	
+R34	found_object_at Arg1:T33 Arg2:T49	

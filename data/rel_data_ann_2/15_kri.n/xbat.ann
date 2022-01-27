@@ -1,0 +1,17 @@
+T1	TIME 10 17	04.30 น
+T2	DATE 26 33	14 ต.ค.
+T3	PERSON 34 57	พ.ต.ต.อำนาจ อินพันธุ์คำ
+T4	ORGANIZATION 70 79	สภ.อู่ทอง
+T5	LOCATION 80 92	จ.สุพรรณบุรี
+T6	LOCATION 149 159	ต.หนองโอ่ง
+T7	LOCATION 160 168	อ.อู่ทอง
+T8	LOCATION 169 181	จ.สุพรรณบุรี
+T9	PERSON 276 283	นายมนูญ
+T10	TIME 303 308	47 ปี
+T11	OBJECT 449 469	มีปอกผลไม้ยาว 4 นิ้ว
+R1	found_object_at Arg1:T11 Arg2:T6	
+R2	found_object_at Arg1:T11 Arg2:T7	
+R3	found_object_at Arg1:T11 Arg2:T8	
+R4	located_at Arg1:T9 Arg2:T6	
+R5	located_at Arg1:T9 Arg2:T7	
+R6	located_at Arg1:T9 Arg2:T8	

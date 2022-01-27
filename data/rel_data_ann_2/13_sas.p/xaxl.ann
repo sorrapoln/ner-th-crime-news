@@ -1,0 +1,38 @@
+T1	DATE 12 21	20 ม.ค.65
+T2	PERSON 22 43	พ.ต.ท.อภิชา เทพจันทร์
+T3	PERSON 95 116	นายศุภลักษณ์ ชุมพันธ์
+T4	TIME 122 127	37 ปี
+T5	LOCATION 148 157	หมู่ที่ 1
+T6	LOCATION 158 165	ต.วิชิต
+T7	LOCATION 166 173	อ.เมือง
+T8	LOCATION 174 182	จ.ภูเก็ต
+T9	TIME 290 295	18 ปี
+T10	OBJECT 353 375	โทรศัพท์มือถือ ไอโฟน 6
+T11	COLOR 376 388	สีบรอนซ์เงิน
+T12	LOCATION 427 434	อ.เมือง
+T13	LOCATION 435 443	จ.ภูเก็ต
+T14	DATE 463 472	19 ม.ค.65
+T15	LOCATION 589 597	จ.ภูเก็ต
+T16	TIME 625 630	18 ปี
+T17	TIME 782 787	17 ปี
+T18	TIME 795 800	19 ปี
+T19	PERSON 1087 1099	นายศุภลักษณ์
+T20	DATE 1207 1214	19 ม.ค.
+T21	PERSON 1272 1284	นายศุภลักษณ์
+T22	PERSON 1320 1332	นายศุภลักษณ์
+T23	PERSON 1342 1360	น.ส.เอ (นามสมมุติ)
+T24	TIME 1366 1371	17 ปี
+T25	LOCATION 1415 1422	อ.เมือง
+T26	LOCATION 1423 1432	จ.ภูเกฺ็ค
+T27	PERSON 1454 1460	น.ส.เอ
+T28	PERSON 1484 1496	นายศุภลักษณ์
+R1	crime_relation Arg1:T3 Arg2:T23	
+R2	crime_located_at Arg1:T3 Arg2:T12	
+R3	crime_located_at Arg1:T3 Arg2:T13	
+R4	crime_date_at Arg1:T3 Arg2:T14	
+R5	located_at Arg1:T3 Arg2:T5	
+R6	located_at Arg1:T3 Arg2:T6	
+R7	located_at Arg1:T3 Arg2:T7	
+R8	located_at Arg1:T3 Arg2:T8	
+R9	found_object_at Arg1:T10 Arg2:T12	
+R10	found_object_at Arg1:T10 Arg2:T13	

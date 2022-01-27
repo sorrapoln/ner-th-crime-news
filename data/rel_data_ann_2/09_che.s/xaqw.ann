@@ -1,0 +1,27 @@
+T1	DATE 23 30	22 ม.ค.
+T2	PERSON 31 47	นางปรียา การักษ์
+T3	TIME 53 58	51 ปี
+T4	WEAPON 62 65	มีด
+T5	PERSON 76 95	นายฉัตรชัย ขันสนแสง
+T6	TIME 106 111	30 ปี
+T7	LOCATION 170 183	ถนนวังสิงห์คำ
+T8	LOCATION 184 189	ซอย 1
+T9	LOCATION 190 198	ต.ป่าตัน
+T10	LOCATION 199 206	อ.เมือง
+T11	LOCATION 207 218	จ.เชียงใหม่
+T12	PERSON 231 239	นางปรียา
+T13	PERSON 394 402	นางปรียา
+T14	PERSON 454 462	นางปรียา
+R1	crime_date_at Arg1:T2 Arg2:T1	
+R2	own_weapon Arg1:T2 Arg2:T4	
+R3	crime_relation Arg1:T2 Arg2:T5	
+R4	crime_located_at Arg1:T2 Arg2:T7	
+R5	crime_located_at Arg1:T2 Arg2:T8	
+R6	crime_located_at Arg1:T2 Arg2:T9	
+R7	crime_located_at Arg1:T2 Arg2:T10	
+R8	crime_located_at Arg1:T2 Arg2:T11	
+R9	located_at Arg1:T5 Arg2:T7	
+R10	located_at Arg1:T5 Arg2:T8	
+R11	located_at Arg1:T5 Arg2:T9	
+R12	located_at Arg1:T5 Arg2:T10	
+R13	located_at Arg1:T5 Arg2:T11	

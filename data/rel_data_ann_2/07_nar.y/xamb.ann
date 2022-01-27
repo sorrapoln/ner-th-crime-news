@@ -1,0 +1,20 @@
+T1	DATE 7 22	29 กรกฎาคม 2564
+T2	PERSON 23 43	พล.ต.ต.มงคล สัมภวะผล
+T3	PERSON 69 90	พ.ต.ท.อุทัย วงค์คำแสน
+T4	ORGANIZATION 171 181	สภ.ภูเพียง
+T5	ORGANIZATION 211 259	โรงพยาบาลสนาม 2 มหาวิทยาลัยจุฬาลงกรณ์ราชวิทยาลัย
+T6	LOCATION 260 279	วิทยาเขตวัดแช่งแห้ง
+T7	LOCATION 280 292	ตำบลม่วงตึ๊ด
+T8	LOCATION 293 305	อำเภอภูเพียง
+T9	LOCATION 306 317	จังหวัดน่าน
+T10	DATE 338 348	26 กรกฎาคม
+T11	TIME 354 362	14.30 น.
+T12	COLOR 396 405	สีน้ำเงิน
+T13	OBJECT 439 444	ยาบ้า
+T14	PERSON 503 509	นายกิต
+T15	OBJECT 577 582	ยาบ้า
+R1	found_object_at Arg1:T15 Arg2:T5	
+R2	found_object_at Arg1:T15 Arg2:T6	
+R3	found_object_at Arg1:T15 Arg2:T7	
+R4	found_object_at Arg1:T15 Arg2:T8	
+R5	found_object_at Arg1:T15 Arg2:T9	

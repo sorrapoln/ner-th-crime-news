@@ -1,0 +1,27 @@
+T1	DATE 12 23	6 พฤศจิกายน
+T2	PERSON 24 44	พล.ต.ท.จิรภพ ภูริเดช
+T3	ORGANIZATION 62 83	กองบังคับการตำรวจรถไฟ
+T4	PERSON 159 179	พล.ต.ต.อำนาจ ไตรพจน์
+T5	PERSON 188 212	พ.ต.อ.ปัญญา กล้าประเสริฐ
+T6	PERSON 225 247	พ.ต.อ.ขวัญชัย พัฒรักษ์
+T7	PERSON 261 283	พ.ต.ท.จักรพันธ์ จันวนา
+T8	PERSON 301 319	พ.ต.ท.เอนก ยอดหมวก
+T9	PERSON 341 370	พ.ต.ต.เลอศักดิ์ พิเชษฐไพบูลย์
+T10	PERSON 435 456	นางสาวปวีณา แปลงลำดวน
+T11	TIME 462 467	40 ปี
+T12	LOCATION 467 480	บ้านเลขที่ 17
+T13	LOCATION 481 488	หมู่ 11
+T14	LOCATION 489 501	ต.เหนือเมือง
+T15	LOCATION 502 517	อ.เมืองร้อยเอ็ด
+T16	LOCATION 518 528	จ.ร้อยเอ็ด
+T17	ORGANIZATION 548 555	ศาลอาญา
+T18	DATE 572 587	7 มิถุนายน 2564
+T19	ORGANIZATION 661 671	สน.บางซื่อ
+T20	PERSON 672 684	พล.ต.ต.อำนาจ
+T21	DATE 758 762	2564
+R1	located_at Arg1:T10 Arg2:T12	
+R2	located_at Arg1:T10 Arg2:T13	
+R3	located_at Arg1:T10 Arg2:T14	
+R4	located_at Arg1:T10 Arg2:T15	
+R5	located_at Arg1:T10 Arg2:T16	
+R6	employee_or_member_of Arg1:T20 Arg2:T19	

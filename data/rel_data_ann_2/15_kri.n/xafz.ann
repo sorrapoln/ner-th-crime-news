@@ -1,0 +1,18 @@
+T1	VEHICLE 14 23	รถแท็กซี่
+T2	COLOR 23 31	สีเหลือง
+T3	LP 65 85	ทส7153 กรุงเทพมหานคร
+R1	color_of Arg1:T1 Arg2:T2	
+R2	vehicle_lp Arg1:T1 Arg2:T3	
+T4	VEHICLE 88 111	รถยนต์โตโยต้า รุ่นยาริส
+T5	COLOR 112 116	สีดำ
+T6	LP 125 146	6กจ7431 กรุงเทพมหานคร
+T7	ORGANIZATION 162 174	ด่วนวัดสารอด
+T8	LOCATION 175 190	ถนนนจอมทองบูรณะ
+T9	LOCATION 191 210	ฝั่งตรงข้ามวัดสารอด
+T10	LOCATION 211 223	แขวงบางปะกอก
+T11	LOCATION 224 237	เขตราษฎร์บูรณ
+T12	LOCATION 239 252	กรุงเทพมหานคร
+R3	color_of Arg1:T4 Arg2:T5	
+R4	vehicle_lp Arg1:T4 Arg2:T6	
+T13	VEHICLE 261 269	ถแท็กซี่
+T14	LOCATION 298 310	คลองเลียบถนน

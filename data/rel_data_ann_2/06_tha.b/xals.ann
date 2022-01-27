@@ -1,0 +1,20 @@
+T1	DATE 8 15	23 ม.ค.
+T2	PERSON 17 45	พ.ต.ท.วิทยากร สุวรรณเรืองศรี
+T3	ORGANIZATION 63 71	สน.พญาไท
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T4	PERSON 95 114	ส.ต.ต นรวิชญ์ บัวดก
+T5	VEHICLE 202 237	บิ๊กไบค์ยี่ห้อ ดูคาติ รุ่นมอนสเตอร์
+T6	LP 246 264	1 กผ 9942 เชียงราย
+T7	PERSON 272 299	พญ.วราลัคน์ สุภวัตรจริยากุล
+T8	ORGANIZATION 150 183	กองบังคับการอารักขาและควบคุมฝูงชน
+R2	employee_or_member_of Arg1:T4 Arg2:T8	
+R3	own_vehicle Arg1:T4 Arg2:T5	
+R4	vehicle_lp Arg1:T5 Arg2:T6	
+R5	crime_relation Arg1:T4 Arg2:T7	
+T9	PERSON 305 315	หมอกระต่าย
+T10	ORGANIZATION 379 400	จุฬาลงกรณ์มหาวิทยาลัย
+T11	PERSON 467 480	ส.ต.ต.นรวิชญ์
+T12	ORGANIZATION 499 513	โรงพยาบาลตำรวจ
+T13	PERSON 589 602	ส.ต.ต.นรวิชญ์
+T14	PERSON 753 766	พ.ต.ท.วิทยากร
+T15	PERSON 789 802	ส.ต.ต.นรวิชญ์

@@ -1,0 +1,56 @@
+T1	PERSON 0 23	ร.ต.ท.ชัลวาลย์ ไต๋เจริญ
+T2	ORGANIZATION 32 46	สน.บางขุนเทียน
+R1	employee_or_member_of Arg1:T1 Arg2:T2	
+T3	PERSON 72 102	นายอิสระ หรือเปา (สงวนนามสกุล)
+T4	TIME 108 113	29 ปี
+T5	PERSON 118 153	นายฉัตรเฉลิม หรือกั้ง (สงวนนามสกุล)
+T6	TIME 159 164	29 ปี
+T7	WEAPON 182 200	ปืนลูกโม่ ขนาด .38
+T8	OBJECT 219 229	ปลอกกระสุน
+T9	WEAPON 229 232	ปืน
+T10	LOCATION 294 321	อาคารสงเคราะห์กรุงเทพมหานคร
+T11	ORGANIZATION 354 374	สำนักงานเขตภาษีเจริญ
+T12	LOCATION 375 391	ถนนศาลอาญาธนบุรี
+T13	LOCATION 392 404	ซอย 17 แยก 7
+T14	LOCATION 405 416	แขวงบางหว้า
+T15	LOCATION 417 429	เขตภาษีเจริญ
+T16	LOCATION 430 434	กทม.
+T17	PERSON 473 497	นายพรโรจน์ (สงวนนามสกุล)
+T18	TIME 503 508	55 ปี
+T19	ORGANIZATION 530 564	แฟลตข้าราชการาสำนักงานเขตภาษีเจริญ
+R2	employee_or_member_of Arg1:T17 Arg2:T19	
+T20	LOCATION 610 619	เลขที่ 82
+R3	own_weapon Arg1:T3 Arg2:T7	
+R4	own_weapon Arg1:T5 Arg2:T7	
+R5	crime_located_at Arg1:T3 Arg2:T10	
+R6	employee_or_member_of Arg1:T3 Arg2:T11	
+R7	crime_located_at Arg1:T3 Arg2:T12	
+R8	crime_located_at Arg1:T3 Arg2:T13	
+R9	crime_located_at Arg1:T3 Arg2:T14	
+R10	crime_located_at Arg1:T3 Arg2:T15	
+R11	crime_located_at Arg1:T3 Arg2:T16	
+R12	crime_located_at Arg1:T5 Arg2:T10	
+R13	employee_or_member_of Arg1:T5 Arg2:T11	
+R14	crime_located_at Arg1:T5 Arg2:T12	
+R15	crime_located_at Arg1:T5 Arg2:T13	
+R16	crime_located_at Arg1:T5 Arg2:T14	
+R17	crime_located_at Arg1:T5 Arg2:T15	
+R18	crime_located_at Arg1:T5 Arg2:T16	
+R19	found_object_at Arg1:T8 Arg2:T10	
+R20	found_object_at Arg1:T8 Arg2:T11	
+R21	found_object_at Arg1:T8 Arg2:T12	
+R22	found_object_at Arg1:T8 Arg2:T13	
+R23	found_object_at Arg1:T8 Arg2:T14	
+R24	found_object_at Arg1:T8 Arg2:T15	
+R25	found_object_at Arg1:T8 Arg2:T16	
+R26	located_at Arg1:T3 Arg2:T10	
+R27	located_at Arg1:T3 Arg2:T12	
+R28	located_at Arg1:T3 Arg2:T13	
+R29	located_at Arg1:T3 Arg2:T14	
+R30	located_at Arg1:T3 Arg2:T15	
+R31	located_at Arg1:T3 Arg2:T16	
+R32	located_at Arg1:T5 Arg2:T10	
+R33	located_at Arg1:T5 Arg2:T12	
+R34	located_at Arg1:T5 Arg2:T13	
+R35	located_at Arg1:T5 Arg2:T14	
+R36	located_at Arg1:T5 Arg2:T16	

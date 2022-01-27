@@ -1,0 +1,29 @@
+T1	DATE 12 21	28 ตุลาคม
+T2	PERSON 55 75	พล.ต.ท.จิรภพ ภูริเดช
+T3	PERSON 94 113	พล.ต.ต.มนตรี เทศขัน
+T4	PERSON 121 140	พ.ต.อ.ปทักข์ ขวัญนา
+T5	PERSON 195 211	นายจริน เอาะเบาะ
+T6	TIME 217 222	35 ปี
+T7	DATE 267 285	23 กุมภาพันธ์ 2564
+T8	LOCATION 488 497	ต.หนองขาม
+T9	LOCATION 498 507	อ.ศรีราชา
+T10	LOCATION 509 517	จ.ชลบุรี
+T11	DATE 550 558	2 มกราคม
+T12	PERSON 566 573	นายจริน
+T13	LOCATION 631 640	ต.แหลมรัง
+T14	LOCATION 641 651	อ.บึงนาราง
+T15	LOCATION 652 660	จ.พิจิตร
+T16	ORGANIZATION 1002 1013	สภ.บึงนาราง
+T17	LOCATION 1133 1142	อ.ศรีราชา
+T18	LOCATION 1143 1151	จ.ชลบุรี
+R1	located_at Arg1:T5 Arg2:T8	
+R2	located_at Arg1:T5 Arg2:T9	
+R3	located_at Arg1:T5 Arg2:T10	
+R4	crime_date_at Arg1:T5 Arg2:T11	
+T19	ORGANIZATION 26 46	กองบังคับการปราบปราม
+R5	employee_or_member_of Arg1:T2 Arg2:T19	
+R6	employee_or_member_of Arg1:T3 Arg2:T19	
+R7	employee_or_member_of Arg1:T4 Arg2:T19	
+R8	located_at Arg1:T5 Arg2:T13	
+R9	located_at Arg1:T5 Arg2:T14	
+R10	located_at Arg1:T5 Arg2:T15	

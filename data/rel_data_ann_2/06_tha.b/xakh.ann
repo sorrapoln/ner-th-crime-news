@@ -1,0 +1,42 @@
+T1	LOCATION 23 36	จังหวัดพัทลุง
+T2	LOCATION 167 176	ตำบลชะมวง
+T3	LOCATION 177 185	อำเภอควน
+T4	LOCATION 186 199	จังหวัดพัทลุง
+T5	PERSON 214 236	นายประดิษฐ์ มุสิกะสงค์
+T6	TIME 242 247	41 ปี
+T7	LOCATION 295 308	อำเภอปากพะยูน
+T8	LOCATION 309 321	อำเภอบางแก้ว
+T9	LOCATION 322 335	จังหวัดพัทลุง
+T10	LOCATION 340 350	อำเภอสะเดา
+T11	LOCATION 351 363	จังหวัดสงขลา
+T12	VEHICLE 538 540	รถ
+T13	WEAPON 630 639	ปืนเอ็ม16
+T14	VEHICLE 646 648	รถ
+T15	VEHICLE 713 715	รถ
+T16	LOCATION 767 779	ตำบลเกาะเต่า
+T17	LOCATION 780 793	อำเภอป่าพะยอม
+T18	LOCATION 794 807	จังหวัดพัทลุง
+T19	WEAPON 966 969	ปืน
+T20	OBJECT 1137 1142	ยาบ้า
+T21	OBJECT 1143 1147	ไอซ์
+T22	VEHICLE 1231 1233	รถ
+R1	located_at Arg1:T5 Arg2:T2	
+R2	located_at Arg1:T5 Arg2:T3	
+R3	located_at Arg1:T5 Arg2:T4	
+R4	crime_located_at Arg1:T5 Arg2:T7	
+R5	crime_located_at Arg1:T5 Arg2:T8	
+R6	crime_located_at Arg1:T5 Arg2:T9	
+R7	crime_located_at Arg1:T5 Arg2:T10	
+R8	crime_located_at Arg1:T5 Arg2:T11	
+R9	own_vehicle Arg1:T5 Arg2:T12	
+R10	own_weapon Arg1:T5 Arg2:T13	
+R11	found_object_at Arg1:T20 Arg2:T2	
+R12	found_object_at Arg1:T20 Arg2:T3	
+R13	found_object_at Arg1:T20 Arg2:T4	
+R14	found_object_at Arg1:T21 Arg2:T2	
+R15	found_object_at Arg1:T21 Arg2:T3	
+R16	found_object_at Arg1:T21 Arg2:T4	
+T23	VEHICLE 558 560	รถ
+T24	WEAPON 1047 1050	ปืน
+T25	WEAPON 1078 1081	ปืน
+T26	WEAPON 1100 1114	ปืนชนิดเอ็ม 16

@@ -1,0 +1,24 @@
+T1	TIME 10 18	14.30 น.
+T2	DATE 26 42	7 พฤศจิกายน 2564
+T3	ORGANIZATION 60 74	สน.ราษฎร์บูรณะ
+T4	LOCATION 122 137	ซอยประชาอุทิศ17
+T5	LOCATION 138 154	แยกย่อย ซอยที่ 1
+T6	TIME 296 301	40 ปี
+T7	WEAPON 318 326	มีดปังตอ
+T8	WEAPON 383 399	สากกระเบือตำพริก
+T9	LOCATION 607 620	ประชาอุทิศ 17
+T10	LOCATION 621 636	แยกย่อยซอยที่ 1
+T11	LOCATION 637 651	ถนน ประชาอุทิศ
+T12	LOCATION 652 668	แขวง ราษฎร์บูรณะ
+T13	LOCATION 669 684	เขต ราษฎร์บูรณะ
+T14	LOCATION 685 698	กรุงเทพมหานคร
+T15	PERSON 721 728	นายโป้ง
+T16	TIME 734 739	40 ปี
+R1	located_at Arg1:T15 Arg2:T9	
+R2	located_at Arg1:T15 Arg2:T10	
+R3	located_at Arg1:T15 Arg2:T11	
+R4	located_at Arg1:T15 Arg2:T12	
+R5	located_at Arg1:T15 Arg2:T13	
+R6	located_at Arg1:T15 Arg2:T14	
+R7	crime_located_at Arg1:T15 Arg2:T4	
+R8	crime_located_at Arg1:T15 Arg2:T5	

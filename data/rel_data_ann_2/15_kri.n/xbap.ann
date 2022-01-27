@@ -1,0 +1,9 @@
+T1	DATE 12 23	9 พฤศจิกายน
+T2	PERSON 24 44	พล.ต.ต.อำนาจ ไตรพจน์
+T3	DATE 192 203	21 ต.ค.2564
+T4	PERSON 478 501	นายธนวัฒน์ อินทร์ทาวงค์
+T5	TIME 507 512	44 ปี
+T6	LOCATION 517 528	จ.อุทัยธานี
+R1	located_at Arg1:T4 Arg2:T6	
+T7	PERSON 599 609	นายธนวัฒน์
+R2	crime_date_at Arg1:T4 Arg2:T3	

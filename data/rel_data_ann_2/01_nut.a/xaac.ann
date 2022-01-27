@@ -1,0 +1,43 @@
+T1	TIME 10 18	08.30 น.
+T2	DATE 25 34	27 ต.ค.64
+T3	PERSON 35 59	ร.ต.อ.(หญิง)วาสนา ใจห้าว
+T4	LOCATION 112 126	บ้านเลขที่ 227
+T5	LOCATION 127 133	หมู่ 5
+T6	LOCATION 134 144	ตำบลนาทุ่ง
+T7	LOCATION 145 152	อ.เมือง
+T8	LOCATION 153 160	จ.ชุมพร
+T9	PERSON 226 243	พ.ต.ท.ปนินทร โชติ
+T10	ORGANIZATION 261 274	สภ.เมืองชุมพร
+T11	PERSON 275 295	พ.ต.ท.วิชิต ขำคชกรรณ
+T12	PERSON 310 329	พ.ต.ท.สมภพ เชื้อทอง
+T13	ORGANIZATION 350 372	รพ.ชุมพรเขตรอุดมศักดิ์
+T14	ORGANIZATION 376 399	หน่วยกู้ภัยมูลนิธิชุมพร
+T15	LOCATION 415 439	ชุมชนเขตเทศบาลเมืองชุมพร
+T16	LOCATION 464 477	ถนนในซัง ใกล้
+T17	LOCATION 480 491	แยกหนิงหน่อ
+T18	ORGANIZATION 514 537	ศูนย์ราชการจังหวัดชุมพร
+T19	TIME 591 599	35-40 ปี
+T20	TIME 812 821	1 ชั่วโมง
+T21	WEAPON 1614 1618	อะไร
+T22	OBJECT 989 998	มีดทำครัว
+T23	WEAPON 1067 1077	ปืนขนาด.38
+T24	PERSON 1215 1224	นายบุญส่ง
+T25	PERSON 1229 1244	ตาส่ง พรรณเจริญ
+T26	TIME 1250 1255	83 ปี
+T27	PERSON 1268 1277	นายบุญส่ง
+T28	TIME 1468 1477	2-3 เดือน
+T29	TIME 1527 1534	1 เดือน
+R1	own_weapon Arg1:T24 Arg2:T23	
+R2	crime_located_at Arg1:T24 Arg2:T4	
+R3	crime_located_at Arg1:T24 Arg2:T5	
+R4	crime_located_at Arg1:T24 Arg2:T6	
+R5	crime_located_at Arg1:T24 Arg2:T7	
+R6	crime_located_at Arg1:T24 Arg2:T8	
+R7	found_object_at Arg1:T22 Arg2:T4	
+R8	found_object_at Arg1:T22 Arg2:T5	
+R9	found_object_at Arg1:T22 Arg2:T6	
+R10	found_object_at Arg1:T22 Arg2:T7	
+R11	found_object_at Arg1:T22 Arg2:T8	
+T30	ORGANIZATION 75 88	สภ.เมืองชุมพร
+R12	employee_or_member_of Arg1:T3 Arg2:T30	
+R13	employee_or_member_of Arg1:T9 Arg2:T10	

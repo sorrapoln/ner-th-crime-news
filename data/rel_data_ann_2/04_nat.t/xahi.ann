@@ -1,0 +1,29 @@
+T1	DATE 13 23	6 ก.ย.2560
+T2	ORGANIZATION 30 50	สถานีตำรวจภูธรหนองแค
+T3	LOCATION 51 60	จ.สระบุรี
+T4	PERSON 66 77	นายอธิพัชร์
+T5	PERSON 83 97	ก้อง อภิญญากุล
+T6	PERSON 99 108	นายนันทพร
+T7	PERSON 114 125	โอ๊ด บุญมาก
+T8	PERSON 127 135	นายศุภกร
+T9	PERSON 141 151	กอล์ฟ โสภา
+T10	PERSON 155 163	นายสันติ
+T11	PERSON 169 178	ลาภ ทิพมล
+T12	PERSON 203 222	น.ส.นิศากร พุ่มพงษ์
+T13	PERSON 1035 1065	พล.ต.อ.ศรีวราห์ รังสิพราหมณกุล
+T14	PERSON 719 729	น.ส.นิศากร
+R1	crime_relation Arg1:T4 Arg2:T12	
+R2	crime_relation Arg1:T6 Arg2:T12	
+R3	crime_relation Arg1:T8 Arg2:T12	
+R4	crime_relation Arg1:T10 Arg2:T12	
+T15	TIME 235 240	24 ปี
+T16	ORGANIZATION 282 299	ศาลจังหวัดสระบุรี
+T17	TIME 356 362	12 วัน
+T18	ORGANIZATION 436 453	ศาลจังหวัดสระบุรี
+T19	ORGANIZATION 639 660	เรือนจำจังหวัดสระบุรี
+T20	DATE 695 705	13 สิงหาคม
+T21	WEAPON 745 767	สายชาร์จโทรศัพท์มือถือ
+T22	LOCATION 814 822	ต.หนองแค
+T23	LOCATION 823 831	อ.หนองแค
+T24	LOCATION 832 841	จ.สระบุรี
+T25	DATE 854 864	31 สิงหาคม

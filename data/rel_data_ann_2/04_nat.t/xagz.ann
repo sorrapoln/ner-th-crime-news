@@ -1,0 +1,16 @@
+T1	TIME 14 22	03.00 น.
+T2	PERSON 23 36	พ.ต.ต.วรรณชัย
+T3	COLOR 99 104	สีแดง
+T4	LOCATION 147 168	ริมถนนด้านหลังตลาดพุธ
+T5	PERSON 253 257	เอิน
+T6	TIME 263 268	21 ปี
+T7	OBJECT 313 324	หมวกกันน็อค
+T8	OBJECT 330 349	เสื้อแจ็คเก็ตแขนยาว
+T9	COLOR 349 354	สีขาว
+T10	OBJECT 361 384	กางเกงขาสั้นลายพรางทหาร
+T11	OBJECT 391 398	รองเท้า
+T12	OBJECT 405 409	เงิน
+T13	WEAPON 458 465	มีดพร้า
+R1	own_weapon Arg1:T5 Arg2:T13	
+T14	LOCATION 499 510	คลองปากพยิง
+R2	located_at Arg1:T5 Arg2:T4	

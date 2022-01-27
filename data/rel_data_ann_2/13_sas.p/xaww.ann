@@ -1,0 +1,26 @@
+T1	ORGANIZATION 44 54	สน.ทุ่งครุ
+T2	LOCATION 71 86	บ้านเลขที่ 9/34
+T3	ORGANIZATION 110 140	เวล อินดัสเทรียล ซัพพลาย จำกัด
+T4	LOCATION 195 214	หมู่บ้านอลิชาเพลส 2
+T5	LOCATION 217 233	ซอยสุขสวัสดิ์ 70
+T6	LOCATION 238 245	ทุ่งครุ
+T7	PERSON 439 466	จ่าสิบเอกประวิทย์ คล้ายพยัฆ
+T8	PERSON 490 497	นางอรสา
+T9	PERSON 528 553	จ่าสิบเอกอนุวัต คล้ายพยัฆ
+T10	WEAPON 562 565	ปืน
+T11	PERSON 580 600	นางวิภางค์ ชุมไพจิตร
+T12	PERSON 604 615	เด็กชายภคิน
+T13	OBJECT 676 686	ปลอกกระสุน
+R1	crime_relation Arg1:T9 Arg2:T7	
+R2	crime_relation Arg1:T9 Arg2:T8	
+R3	crime_relation Arg1:T9 Arg2:T11	
+R4	crime_relation Arg1:T9 Arg2:T12	
+R5	own_weapon Arg1:T9 Arg2:T10	
+R6	crime_located_at Arg1:T9 Arg2:T2	
+R7	crime_located_at Arg1:T9 Arg2:T4	
+R8	crime_located_at Arg1:T9 Arg2:T5	
+R9	crime_located_at Arg1:T9 Arg2:T6	
+R10	found_object_at Arg1:T13 Arg2:T2	
+R11	found_object_at Arg1:T13 Arg2:T4	
+R12	found_object_at Arg1:T13 Arg2:T5	
+R13	found_object_at Arg1:T13 Arg2:T6	

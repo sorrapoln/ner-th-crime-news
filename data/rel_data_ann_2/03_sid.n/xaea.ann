@@ -1,0 +1,24 @@
+T1	DATE 8 18	21 ม.ค. 65
+T2	PERSON 20 40	ร.ต.อ.เปรม เตรียมตัว
+T3	ORGANIZATION 57 73	สภ.เมืองอุดรธานี
+T4	VEHICLE 97 108	รถยนต์กระบะ
+T5	VEHICLE 145 156	รถยนต์กระบะ
+T6	LOCATION 234 258	ถนนอุดรธานี –หนองบัวลำภู
+T7	LOCATION 259 265	ต.นาดี
+T8	LOCATION 266 276	จ.อุดรธานี
+T9	LOCATION 291 299	อุดรธานี
+T10	LOCATION 504 519	บ้านใหม่ศรีวิไล
+T11	VEHICLE 402 413	รถยนต์กระบะ
+T12	COLOR 413 417	สีดำ
+T13	PERSON 466 476	นายอัครชัย
+T14	ORGANIZATION 344 360	รพ.ศูนย์อุดรธานี
+T15	ORGANIZATION 361 388	อาสากู้ภัยอุดรสว่างเมธาธรรม
+R1	crime_located_at Arg1:T13 Arg2:T6	
+R2	crime_located_at Arg1:T13 Arg2:T7	
+R3	crime_located_at Arg1:T13 Arg2:T8	
+R4	crime_located_at Arg1:T13 Arg2:T9	
+R5	own_vehicle Arg1:T13 Arg2:T11	
+R6	color_of Arg1:T11 Arg2:T12	
+R7	located_at Arg1:T13 Arg2:T10	
+T16	TIME 482 487	55 ปี
+R8	employee_or_member_of Arg1:T2 Arg2:T3	

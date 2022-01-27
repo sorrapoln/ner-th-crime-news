@@ -1,0 +1,27 @@
+T1	DATE 7 18	10 ก.ย.2562
+T2	ORGANIZATION 30 40	สน.ทองหล่อ
+T3	LOCATION 41 45	กทม.
+T4	TIME 84 89	21 ปี
+T5	TIME 96 101	19 ปี
+T6	VEHICLE 126 157	จยย.ยี่ห้อฮอนด้า รุ่นพีซีเอ็กส์
+T7	COLOR 158 163	สีแดง
+T8	LP 172 195	1 ขก 8948 กรุงเทพมหานคร
+T9	WEAPON 201 213	มีดปลอกผลไม้
+T10	LOCATION 333 348	บ้านเลขที่ 36/1
+T11	LOCATION 356 377	ซ.ประชาราษฎร์บำเพ็ญ 5
+T12	LOCATION 378 390	แขวงห้วยขวาง
+T13	LOCATION 391 402	เขตห้วยขวาง
+T14	LOCATION 403 407	กทม.
+T15	PERSON 408 423	พ.ต.อ.นิติวัฒน์
+T16	LOCATION 523 531	ย่านสีลม
+T17	DATE 566 572	5 ก.ย.
+T18	TIME 584 592	03.30 น.
+T19	LOCATION 653 665	ซ.สุขุมวิท22
+T20	LOCATION 666 677	แขวงคลองเตย
+T21	LOCATION 678 688	เขตคลองเตย
+T22	LOCATION 689 693	กทม.
+T23	VEHICLE 746 750	จยย.
+T24	LOCATION 1003 1014	ถนนพระราม 4
+T25	LOCATION 1101 1113	ย่านห้วยขวาง
+R1	color_of Arg1:T6 Arg2:T7	
+R2	vehicle_lp Arg1:T6 Arg2:T8	

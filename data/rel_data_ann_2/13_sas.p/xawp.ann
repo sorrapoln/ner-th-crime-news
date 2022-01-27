@@ -1,0 +1,23 @@
+T1	DATE 12 19	22 ม.ค.
+T2	ORGANIZATION 75 83	สภ.เมือง
+T3	LOCATION 84 90	จ.ยะลา
+T4	LOCATION 142 155	สถานีรถไฟยะลา
+T5	LOCATION 190 197	ถนนรถไฟ
+T6	LOCATION 198 214	เขตเทศบาลนครยะลา
+T7	ORGANIZATION 235 250	เซเว่นอีเลฟเว่น
+T8	PERSON 332 353	พล.ต.ต.ทินกร รังมาตย์
+T9	LOCATION 363 367	ยะลา
+T10	PERSON 378 406	พ.ต.อ.ตรัยฤกษ์ ปัญญาไตรรัตน์
+T11	ORGANIZATION 411 423	สภ.เมืองยะลา
+T12	WEAPON 502 508	ระเบิด
+T13	LOCATION 520 524	ยะลา
+T14	ORGANIZATION 528 557	กู้ชีพ-กู้ภัยแม่กอเหนี่ยวยะลา
+T15	VEHICLE 712 718	รถยนต์
+T16	VEHICLE 719 730	จักรยานยนต์
+T17	WEAPON 831 837	ระเบิด
+T18	PERSON 915 936	พล.ต.ต.ทินกร รังมาตย์
+T19	LOCATION 946 950	ยะลา
+T20	LOCATION 1193 1200	ต.ละหาร
+T21	LOCATION 1201 1210	อ.สายบุรี
+T22	LOCATION 1211 1220	จ.ปัตตานี
+T23	DATE 1227 1236	20 ม.ค.65

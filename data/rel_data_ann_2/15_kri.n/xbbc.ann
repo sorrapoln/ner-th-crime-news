@@ -1,0 +1,30 @@
+T1	DATE 12 22	6 พ.ค.2564
+T2	PERSON 24 48	นายเจสัน แมทธิว บัลเซอร์
+T3	TIME 66 71	32 ปี
+T4	PERSON 128 146	น.ส.พิชชาพร คิดชอบ
+T5	TIME 163 168	32 ปี
+T6	LOCATION 254 261	ต.หางดง
+T7	LOCATION 262 269	อ.หางดง
+T8	LOCATION 270 281	จ.เชียงใหม่
+T9	LOCATION 295 306	น.ส.พิชชาพร
+T10	PERSON 323 334	น.ส.พิชชาพร
+T11	DATE 357 362	2 พ.ค
+T12	OBJECT 397 403	ฟูกนอน
+T13	OBJECT 404 426	ผ้าปูที่นอนเปื้อนเลือด
+T14	ORGANIZATION 500 518	ตำรวจภูธรตำบลเรือง
+T15	ORGANIZATION 478 496	ตำรวจภูธรเมืองน่าน
+T16	LOCATION 620 626	จ.น่าน
+T17	PERSON 636 647	น.ส.พิชชาพร
+T18	LOCATION 748 756	ต.ดู่ใต้
+T19	LOCATION 757 768	อ.เมืองน่าน
+R1	crime_relation Arg1:T2 Arg2:T4	
+R2	crime_date_at Arg1:T2 Arg2:T11	
+R3	found_object_at Arg1:T12 Arg2:T18	
+R4	found_object_at Arg1:T12 Arg2:T19	
+R5	found_object_at Arg1:T13 Arg2:T18	
+R6	found_object_at Arg1:T13 Arg2:T19	
+R7	located_at Arg1:T2 Arg2:T6	
+R8	located_at Arg1:T2 Arg2:T7	
+R9	located_at Arg1:T2 Arg2:T8	
+R10	crime_located_at Arg1:T2 Arg2:T16	
+T20	PERSON 888 895	นายเจสั

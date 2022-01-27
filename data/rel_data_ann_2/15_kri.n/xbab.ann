@@ -1,0 +1,21 @@
+T1	DATE 7 18	19 พ.ย.2564
+T2	PERSON 38 50	นายกิตติภูมิ
+T3	TIME 56 61	64 ปี
+T4	WEAPON 126 163	ปืนบีบีกันดัดแปลงใส่กระสุนปืนขนาด.380
+T5	VEHICLE 241 260	รถเก๋งโตโยต้าคัมรี่
+T6	LOCATION 285 300	ถนนรัตนาธิเบศร์
+T7	LOCATION 301 313	ต.บางรักน้อย
+T8	LOCATION 314 321	อ.เมือง
+T9	LOCATION 322 331	จ.นนทบุรี
+T10	PERSON 368 393	พล.ต.ต.ไพศาล วงษ์วัชรมงคล
+T11	PERSON 411 430	พ.ต.อ.วันชัย ชูจิตร
+T12	PERSON 463 474	ายกิตติภูมิ
+T13	PERSON 533 545	นายกิตติภูมิ
+T14	LOCATION 840 852	ย่านราชพฤกษ์
+R1	own_weapon Arg1:T2 Arg2:T4	
+R2	crime_located_at Arg1:T2 Arg2:T14	
+R3	crime_located_at Arg1:T2 Arg2:T6	
+R4	crime_located_at Arg1:T2 Arg2:T7	
+R5	crime_located_at Arg1:T2 Arg2:T8	
+R6	crime_located_at Arg1:T2 Arg2:T9	
+R7	crime_date_at Arg1:T2 Arg2:T1	

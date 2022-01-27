@@ -1,0 +1,55 @@
+T1	TIME 10 18	11.00 น.
+T2	DATE 26 36	20 ม.ค. 65
+T3	ORGANIZATION 41 55	สภ.บางศรีเมือง
+T4	PERSON 56 81	พล.ต.ต.ไพศาล วงศ์วัชรมงคล
+T5	LOCATION 88 97	จ.นนทบุรี
+T6	PERSON 98 117	พ.ต.อ.นภธร วาชัยยุง
+T7	ORGANIZATION 122 136	สภ.บางศรีเมือง
+R1	employee_or_member_of Arg1:T6 Arg2:T7	
+T8	PERSON 137 162	พ.ต.ท.เศรษฐหาญ เศรษฐการณ์
+T9	PERSON 204 217	มาร์ค สุทธิศิ
+T10	PERSON 190 199	นายประกอบ
+T11	TIME 225 230	37 ปี
+T12	ORGANIZATION 250 267	ศาลจังหวัดนนทบุรี
+T13	DATE 392 394	16
+T14	DATE 411 421	17 ม.ค. 65
+T15	LOCATION 445 470	ซอยชุมชนท่าน้ำบางศรีเมือง
+T16	LOCATION 471 477	หมู่ 3
+T17	LOCATION 478 491	ต.บางศรีเมือง
+T18	LOCATION 735 748	ต.บางศรีเมือง
+T19	LOCATION 492 499	อ.เมือง
+T20	LOCATION 749 756	อ.เมือง
+T21	LOCATION 500 509	จ.นนทบุรี
+T22	LOCATION 757 766	จ.นนทบุรี
+T23	PERSON 510 522	พล.ต.ต.ไพศาล
+T24	DATE 544 554	18 ม.ค. 65
+T25	ORGANIZATION 561 575	สภ.บางศรีเมือง
+T26	PERSON 590 597	น.ส.นิด
+T27	PERSON 617 626	น.ส.หน่อย
+T28	TIME 632 637	15 ปี
+T29	PERSON 666 673	นายโบ๊ต
+T30	TIME 688 693	15 ปี
+T31	LOCATION 705 727	ชุมชนท่าน้ำบางศรีเมือง
+T32	LOCATION 728 734	หมู่ 3
+T33	PERSON 779 788	นายประกอบ
+T34	PERSON 799 806	นายโบ๊ต
+T35	PERSON 869 878	น.ส.หน่อย
+T36	PERSON 919 928	น.ส.หน่อย
+T37	PERSON 932 939	นายโบ๊ต
+T38	PERSON 957 966	นายประกอบ
+T39	PERSON 984 993	น.ส.หน่อย
+T40	PERSON 1019 1028	น.ส.หน่อย
+T41	PERSON 1081 1090	นายประกอบ
+T42	DATE 1203 1210	17 ม.ค.
+T43	PERSON 1239 1248	นายประกอบ
+T44	ORGANIZATION 1304 1318	สภ.บางศรีเมือง
+T45	PERSON 1381 1390	น.ส.หน่อย
+R2	crime_relation Arg1:T10 Arg2:T27	
+R3	crime_date_at Arg1:T10 Arg2:T13	
+R4	crime_date_at Arg1:T10 Arg2:T14	
+R5	crime_located_at Arg1:T10 Arg2:T15	
+R6	crime_located_at Arg1:T10 Arg2:T16	
+R7	crime_located_at Arg1:T10 Arg2:T17	
+R8	crime_located_at Arg1:T10 Arg2:T19	
+R9	crime_located_at Arg1:T10 Arg2:T21	
+R10	employee_or_member_of Arg1:T23 Arg2:T25	

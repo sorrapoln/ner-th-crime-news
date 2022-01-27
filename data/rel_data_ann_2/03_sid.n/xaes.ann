@@ -1,0 +1,22 @@
+T1	PERSON 0 16	พล.ต.ต.นิตินันท์
+T2	VEHICLE 87 91	จยย.
+T3	LOCATION 107 115	กรุงเทพฯ
+T4	ORGANIZATION 132 146	สน.ทุ่งสองห้อง
+T5	ORGANIZATION 151 161	สน.คลองตัน
+T6	TIME 196 203	3 เดือน
+T7	PERSON 241 250	นายประทีบ
+T8	PERSON 256 270	ดี๋ดี๋ ท่ามะกา
+T9	VEHICLE 340 344	จยย.
+T10	LOCATION 378 387	อ.ท่ามะกา
+T11	LOCATION 388 399	จ.กาญจนบุรี
+T12	LOCATION 408 416	กรุงเทพฯ
+T13	VEHICLE 444 448	จยย.
+T14	VEHICLE 554 558	จยย.
+T15	PERSON 570 586	พล.ต.ต.นิตินันท์
+T16	VEHICLE 624 628	จยย.
+T17	LOCATION 681 689	กรุงเทพฯ
+T18	VEHICLE 747 751	จยย.
+T19	LOCATION 810 821	จ.กาญจนบุรี
+R1	crime_located_at Arg1:T7 Arg2:T3	
+R2	located_at Arg1:T7 Arg2:T10	
+R3	located_at Arg1:T7 Arg2:T11	

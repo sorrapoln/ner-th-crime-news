@@ -1,0 +1,36 @@
+T1	DATE 12 19	20 ม.ค.
+T2	PERSON 20 39	นายพงศ์ศิริ ชื่นบาน
+T3	PERSON 75 92	นายอำนาจ แย้มศิริ
+T4	LOCATION 99 110	จ.เพชรบูรณ์
+T5	PERSON 115 138	พ.ต.อ.จีระพัฒน์ พฤฒิกุล
+T6	LOCATION 214 230	จังหวัดเพชรบูรณ์
+T7	PERSON 281 288	บิ๊กโซ่
+T8	PERSON 295 311	นายปัณณธร อุดศรี
+T9	LOCATION 349 360	จ.เพชรบูรณ์
+T10	LOCATION 433 442	อ.หล่มสัก
+T11	VEHICLE 464 470	รถยนต์
+T12	DATE 539 549	1 ส.ค.2563
+T13	OBJECT 645 651	ยาไอซ์
+T14	PERSON 729 738	นายปัณณธร
+T15	PERSON 756 763	บิ๊กโซ่
+T16	TIME 770 775	44 ปี
+T17	LOCATION 780 789	อ.หล่มสัก
+T18	LOCATION 790 801	จ.เพชรบูรณ์
+T19	DATE 814 825	8 มิ.ย.2564
+T20	OBJECT 880 885	ยาบ้า
+T21	LOCATION 902 911	ต.ทรายขาว
+T22	LOCATION 912 922	อ.วังสะพุง
+T23	LOCATION 923 928	จ.เลย
+T24	DATE 1016 1024	1 ส.ค.63
+T25	PERSON 1130 1137	บิ๊กโซ่
+T26	LOCATION 1265 1272	จ.ระยอง
+T27	LOCATION 1388 1399	จ.เพชรบูรณ์
+T28	LOCATION 1400 1407	ชัยภูมิ
+T29	LOCATION 1408 1418	นครราชสีมา
+T30	LOCATION 1419 1426	สระบุรี
+T31	LOCATION 1430 1435	ระยอง
+R1	located_at Arg1:T8 Arg2:T9	
+R2	located_at Arg1:T8 Arg2:T17	
+R3	found_object_at Arg1:T20 Arg2:T21	
+R4	found_object_at Arg1:T20 Arg2:T22	
+R5	found_object_at Arg1:T20 Arg2:T23	

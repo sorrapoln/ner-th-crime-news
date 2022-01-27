@@ -1,0 +1,44 @@
+T1	TIME 5 13	16.00 น.
+T2	DATE 21 27	4 ธ.ค.
+T3	PERSON 28 46	พ.ต.ต.อภิชาต ลุงคะ
+T4	ORGANIZATION 64 73	สภ.แม่สอด
+T5	LOCATION 74 85	อำเภอแม่สอด
+T6	LOCATION 86 96	จังหวัดตาก
+T7	VEHICLE 116 127	รถยนต์กระบะ
+T8	VEHICLE 129 142	รถจักรยานยนต์
+T9	VEHICLE 190 201	รถยนต์กระบะ
+T10	LOCATION 216 243	ถนนสายแม่สอด-บ้านวังตะเคียน
+T11	LOCATION 244 265	ติดชายแดนริมแม่น้ำเมย
+T12	LOCATION 266 272	หมู่ 7
+T13	LOCATION 273 286	ตำบลท่าสายลวด
+T14	PERSON 287 297	อำเภอแม่สอ
+T15	LOCATION 314 346	เส้นทางเลียบแนวชายแดนไทย-เมียนมา
+T16	VEHICLE 437 457	รถยนต์กระบะมิตซูบิชิ
+T17	COLOR 458 462	สีดำ
+R1	color_of Arg1:T16 Arg2:T17	
+T18	LP 478 489	บน-6841 ตาก
+R2	vehicle_lp Arg1:T16 Arg2:T18	
+T19	PERSON 537 553	นายพะซู เกษตรไพร
+T20	TIME 559 564	51 ปี
+T21	PERSON 742 759	นางณัฐพร ปานเขียว
+T22	TIME 765 770	29 ปี
+T23	PERSON 859 875	นายอรรณพ ทาเปี้ย
+T24	TIME 881 886	31 ปี
+T25	VEHICLE 904 917	รถจักรยานยนต์
+T26	ORGANIZATION 1076 1091	โรงพยาบาลแม่สอด
+R3	crime_located_at Arg1:T19 Arg2:T10	
+R4	crime_located_at Arg1:T19 Arg2:T11	
+R5	crime_located_at Arg1:T19 Arg2:T12	
+R6	crime_located_at Arg1:T19 Arg2:T13	
+R7	crime_relation Arg1:T19 Arg2:T14	
+R8	crime_located_at Arg1:T19 Arg2:T15	
+R9	own_vehicle Arg1:T19 Arg2:T16	
+T27	VEHICLE 622 648	รถจักรยานยนต์ ยามาฮ่าฟีโน่
+T28	COLOR 649 660	สีบรอนซ์เงิ
+T29	LP 677 689	1 กญ-382 ตาก
+R10	color_of Arg1:T27 Arg2:T28	
+R11	vehicle_lp Arg1:T27 Arg2:T29	
+R12	own_vehicle Arg1:T21 Arg2:T27	
+R13	own_vehicle Arg1:T23 Arg2:T27	
+R14	crime_date_at Arg1:T19 Arg2:T2	
+R15	crime_time_at Arg1:T19 Arg2:T1	

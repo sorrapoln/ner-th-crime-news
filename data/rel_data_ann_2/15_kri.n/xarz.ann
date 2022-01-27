@@ -1,0 +1,27 @@
+T1	DATE 12 21	28 ตุลาคม
+T2	ORGANIZATION 25 45	กองบังคับการปราบปราม
+T3	PERSON 54 74	พล.ต.ท.จิรภพ ภูริเดช
+R1	employee_or_member_of Arg1:T3 Arg2:T2	
+T4	PERSON 92 111	พล.ต.ต.มนตรี เทศขัน
+T5	PERSON 130 154	พ.ต.อ.วิวัฒน์ จิตโสภากุล
+T6	PERSON 171 195	พ.ต.ต.สรศักดิ์ แสงจันทร์
+T7	PERSON 231 240	นายเฉลียง
+T8	TIME 262 267	59 ปี
+T9	ORGANIZATION 278 295	ศาลจังหวัดปัตตานี
+T10	DATE 319 330	13 ก.ค.2559
+T11	DATE 471 483	30 เม.ย.2557
+T12	WEAPON 612 615	ปืน
+T13	LOCATION 692 705	เขตน่านน้ำไทย
+T14	LOCATION 754 763	อ.เกาะกูด
+T15	LOCATION 764 770	จ.ตราด
+R2	employee_or_member_of Arg1:T4 Arg2:T2	
+R3	employee_or_member_of Arg1:T5 Arg2:T2	
+R4	employee_or_member_of Arg1:T6 Arg2:T2	
+R5	crime_date_at Arg1:T7 Arg2:T1	
+R6	own_weapon Arg1:T7 Arg2:T12	
+R7	crime_located_at Arg1:T7 Arg2:T13	
+R8	crime_located_at Arg1:T7 Arg2:T14	
+R9	crime_located_at Arg1:T7 Arg2:T15	
+T16	PERSON 864 873	นายอังคาร
+T17	PERSON 491 500	นายเฉลียง
+T18	LOCATION 576 589	ประเทศกัมพูชา

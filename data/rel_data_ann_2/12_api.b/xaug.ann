@@ -1,0 +1,38 @@
+T1	DATE 12 21	23 มกราคม
+T2	PERSON 67 84	นายพงศกร ปาสาเนย์
+T3	TIME 90 95	35 ปี
+T4	LOCATION 100 117	บ้านเลขที่ 99/147
+T5	LOCATION 118 124	ต.ตลาด
+T6	LOCATION 125 132	อ.เมือง
+T7	LOCATION 133 144	จ.มหาสารคาม
+T8	PERSON 149 172	น.ส.เพชรวีร์ ศรีวิพัฒน์
+T9	TIME 178 183	44 ปี
+T10	PERSON 207 223	น.ส.วรรณภา วิสัย
+T11	TIME 229 234	35 ปี
+T12	LOCATION 265 276	จ.มหาสารคาม
+T13	VEHICLE 281 287	รถยนต์
+R1	located_at Arg1:T2 Arg2:T4	
+R2	located_at Arg1:T2 Arg2:T5	
+R3	located_at Arg1:T2 Arg2:T6	
+R4	located_at Arg1:T2 Arg2:T7	
+T14	LOCATION 327 333	หมู่ 4
+T15	LOCATION 334 341	ต.สมอแข
+T16	LOCATION 342 352	จ.พิษณุโลก
+T17	PERSON 388 400	หลวงพ่อพัฒน์
+T18	ORGANIZATION 401 412	วัดห้วยด้วน
+T19	LOCATION 413 424	จ.นครสวรรค์
+T20	PERSON 438 457	หลวงพ่อรวย ปาสาทิโก
+T21	LOCATION 458 475	จ.พระนครศรีอยุธยา
+T22	PERSON 598 605	น.ส.บีม
+T23	TIME 625 630	25 ปี
+R5	located_at Arg1:T10 Arg2:T12	
+R6	located_at Arg1:T20 Arg2:T21	
+R7	employee_or_member_of Arg1:T17 Arg2:T18	
+R8	located_at Arg1:T17 Arg2:T19	
+R9	crime_relation Arg1:T22 Arg2:T2	
+R10	crime_relation Arg1:T22 Arg2:T8	
+R11	crime_relation Arg1:T22 Arg2:T10	
+R12	crime_located_at Arg1:T22 Arg2:T14	
+R13	crime_located_at Arg1:T22 Arg2:T15	
+R14	crime_located_at Arg1:T22 Arg2:T16	
+R15	crime_date_at Arg1:T22 Arg2:T1	

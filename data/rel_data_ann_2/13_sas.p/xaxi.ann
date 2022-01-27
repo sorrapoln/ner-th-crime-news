@@ -1,0 +1,38 @@
+T1	TIME 10 18	19.00 น.
+T2	DATE 26 33	10 พ.ย.
+T3	PERSON 34 58	พ.ต.ท.ประพฤทธิ์ เพชรพลอย
+T4	ORGANIZATION 76 89	สน.บางขุนนนท์
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	WEAPON 124 127	ปืน
+T6	LOCATION 170 188	บ้านเลขที่ 549/185
+T7	LOCATION 189 202	ชุมชนคลองล่าง
+T8	LOCATION 203 214	ซ.อำนวยผล 8
+T9	LOCATION 215 228	แขวงบางขุนศรี
+T10	LOCATION 229 242	เขตบางกอกน้อย
+T11	LOCATION 243 247	กทม.
+T12	ORGANIZATION 338 346	รพ.วชิระ
+T13	ORGANIZATION 367 385	มูลนิธิป่อเต็กตึ๊ง
+T14	PERSON 437 459	นายสมัชฌ์ ประชุมพันธุ์
+T15	TIME 465 470	40 ปี
+T16	PERSON 536 553	ร.ต.ทำนุ แจ้งจิตร
+T17	TIME 559 564	61 ปี
+T18	PERSON 655 677	น.อ.สันชัย ประชุมพันธ์
+T19	ORGANIZATION 697 707	รพ.ศิริราช
+R2	crime_located_at Arg1:T14 Arg2:T6	
+R3	crime_located_at Arg1:T14 Arg2:T7	
+R4	crime_located_at Arg1:T14 Arg2:T8	
+R5	crime_located_at Arg1:T14 Arg2:T9	
+R6	crime_located_at Arg1:T14 Arg2:T10	
+R7	crime_located_at Arg1:T14 Arg2:T11	
+R8	crime_located_at Arg1:T16 Arg2:T6	
+R9	crime_located_at Arg1:T16 Arg2:T7	
+R10	crime_located_at Arg1:T16 Arg2:T8	
+R11	crime_located_at Arg1:T16 Arg2:T9	
+R12	crime_located_at Arg1:T16 Arg2:T10	
+R13	crime_located_at Arg1:T16 Arg2:T11	
+R14	crime_located_at Arg1:T18 Arg2:T6	
+R15	crime_located_at Arg1:T18 Arg2:T7	
+R16	crime_located_at Arg1:T18 Arg2:T8	
+R17	crime_located_at Arg1:T18 Arg2:T9	
+R18	crime_located_at Arg1:T18 Arg2:T10	
+R19	crime_located_at Arg1:T18 Arg2:T11	

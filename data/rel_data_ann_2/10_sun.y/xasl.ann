@@ -1,0 +1,8 @@
+T1	LOCATION 60 71	คลองพระโขนง
+T2	ORGANIZATION 214 232	สถานีสูบน้ำพระโขนง
+T3	LOCATION 235 249	ซอยสุขุมวิท 50
+T4	PERSON 250 265	นายสุเทพ ผิวสุข
+T5	PERSON 368 395	พล.ต.ต.สืบศักดิ์ พันธุ์สุระ
+T6	TIME 465 473	35-40 ปี
+T7	ORGANIZATION 822 845	สถานีตำรวจนครบาลพระโขนง
+R1	employee_or_member_of Arg1:T4 Arg2:T2	

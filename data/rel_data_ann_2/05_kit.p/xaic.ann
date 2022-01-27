@@ -1,0 +1,35 @@
+T1	DATE 29 36	11 ต.ค.
+T2	TIME 48 56	19.40 น.
+T3	ORGANIZATION 57 66	สภ.สัตหีบ
+T4	LOCATION 67 75	อ.สัตหีบ
+T5	LOCATION 76 84	จ.ชลบุรี
+T6	VEHICLE 105 111	รถเก๋ง
+T7	VEHICLE 113 120	รถกระบะ
+T8	LOCATION 154 165	ถนนสาย 3126
+T9	LOCATION 171 186	ท่าเรือจุกเสม็ด
+T10	LOCATION 192 196	กม.7
+T11	ORGANIZATION 215 254	หน่วยบัญชาการต่อสู้อากาศยานและรักษาฝั่ง
+T12	ORGANIZATION 255 265	กองทัพเรือ
+T13	LOCATION 266 274	ต.สัตหีบ
+T14	PERSON 337 349	นายภานุวัฒน์
+T15	TIME 355 360	40 ปี
+T16	PERSON 392 400	นายจำรัส
+T17	TIME 406 410	44ปี
+T18	PERSON 520 527	นายนิกร
+T19	TIME 533 538	44 ปี
+T20	ORGANIZATION 570 598	รพ.สมเด็จพระนางเจ้าสิริกิติ์
+T21	ORGANIZATION 599 615	กรมแพทย์ทหารเรือ
+T22	VEHICLE 625 646	รถกระบะ โตโยต้า วีโก้
+T23	COLOR 647 651	สีดำ
+R1	color_of Arg1:T22 Arg2:T23	
+T24	LP 667 677	3096 ระยอง
+R2	vehicle_lp Arg1:T22 Arg2:T24	
+T25	PERSON 727 737	นายสุลิขิต
+T26	TIME 743 748	45 ปี
+R3	own_vehicle Arg1:T25 Arg2:T22	
+R4	crime_located_at Arg1:T25 Arg2:T8	
+R5	crime_located_at Arg1:T25 Arg2:T9	
+R6	crime_located_at Arg1:T25 Arg2:T10	
+R7	crime_located_at Arg1:T25 Arg2:T13	
+R8	crime_date_at Arg1:T25 Arg2:T1	
+R9	crime_time_at Arg1:T25 Arg2:T2	

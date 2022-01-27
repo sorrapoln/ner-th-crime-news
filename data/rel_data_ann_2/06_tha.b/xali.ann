@@ -1,0 +1,26 @@
+T1	PERSON 11 18	นายข่อง
+T2	TIME 39 44	25 ปี
+T3	LOCATION 48 55	เมียนมา
+T4	TIME 97 102	13 ปี
+T5	LOCATION 141 146	อ.ฝาง
+T6	LOCATION 147 158	จ.เชียงใหม่
+T7	ORGANIZATION 185 191	สภ.ฝาง
+T8	DATE 212 219	24 พ.ย.
+T9	TIME 245 253	19.35 น.
+T10	DATE 261 270	24 พ.ย.64
+T11	PERSON 306 313	นายข่อง
+T12	LOCATION 331 344	หมู่บ้านแม่ใจ
+T13	LOCATION 345 352	หมู่ 19
+T14	LOCATION 353 360	ต.เวียง
+T15	LOCATION 361 366	อ.ฝาง
+T16	LOCATION 367 378	จ.เชียงใหม่
+T17	ORGANIZATION 408 414	สภ.ฝาง
+T18	PERSON 449 456	นายข่อง
+R1	crime_date_at Arg1:T1 Arg2:T8	
+R2	crime_located_at Arg1:T1 Arg2:T5	
+R3	crime_located_at Arg1:T1 Arg2:T6	
+R4	located_at Arg1:T1 Arg2:T12	
+R5	located_at Arg1:T1 Arg2:T13	
+R6	located_at Arg1:T1 Arg2:T14	
+R7	located_at Arg1:T1 Arg2:T15	
+R8	located_at Arg1:T1 Arg2:T16	

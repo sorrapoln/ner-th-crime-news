@@ -1,0 +1,36 @@
+T1	DATE 12 24	19 พฤศจิกายน
+T2	PERSON 25 45	พล.ต.ท.จิรภพ ภูริเดช
+T3	PERSON 54 84	พล.ต.ต.ภูมินทร์ พุ่มพันธุ์ม่วง
+T4	ORGANIZATION 85 104	ผบก.ปฏิบัติการพิเศษ
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	PERSON 106 129	พ.ต.อ.อภิสัณฐ์ ไชยรัตน์
+T6	ORGANIZATION 130 165	ผกก.วิเคราะห์ข่าวและเครื่องมือพิเศษ
+R2	employee_or_member_of Arg1:T5 Arg2:T6	
+T7	PERSON 173 193	พ.ต.ต.ชัยวัฒน์ จันนา
+T8	PERSON 229 257	นายเทิดไทยหรือดิน สุวรรณอ่อน
+T9	TIME 263 268	47 ปี
+T10	ORGANIZATION 279 301	ศาลจังหวัดทองผาภูมิที่
+T11	DATE 312 323	6 มี.ค.2556
+T12	LOCATION 420 431	อำเภอบางไทร
+T13	LOCATION 432 454	จังหวัดพระนครศรีอยุธยา
+T14	PERSON 468 477	ด.ญ.เปิ้ล
+T15	TIME 500 505	12 ปี
+T16	PERSON 527 537	นายเทิดไทย
+T17	TIME 570 581	25 ก.พ.2556
+T18	PERSON 582 592	นายเทิดไทย
+T19	PERSON 598 607	ด.ญ.เปิ้ล
+T20	LOCATION 658 670	น้ำตก หมู่ 2
+T21	LOCATION 671 679	ต.หินดาด
+T22	LOCATION 680 691	อ.ทองผาภูมิ
+T23	LOCATION 692 703	จ.กาญจนบุรี
+T24	PERSON 731 740	ด.ญ.เปิ้ล
+T25	PERSON 786 795	ด.ญ.เปิ้ล
+T26	ORGANIZATION 857 869	สภ.ทองผาภูมิ
+T27	PERSON 898 908	นายเทิดไทย
+T28	ORGANIZATION 923 942	ศาลจังหวัดทองผาภูมิ
+R3	crime_relation Arg1:T8 Arg2:T14	
+R4	crime_time_at Arg1:T8 Arg2:T17	
+R5	crime_located_at Arg1:T8 Arg2:T20	
+R6	crime_located_at Arg1:T8 Arg2:T21	
+R7	crime_located_at Arg1:T8 Arg2:T22	
+R8	crime_located_at Arg1:T8 Arg2:T23	

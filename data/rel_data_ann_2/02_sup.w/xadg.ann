@@ -1,0 +1,13 @@
+T1	DATE 1 10	25 ก.ย.64
+T2	PERSON 45 55	นางสุวรรณา
+T3	TIME 61 66	39 ปี
+T4	LOCATION 71 79	อ.กระสัง
+T5	LOCATION 80 91	จ.บุรีรัมย์
+T6	LOCATION 116 130	ประเทศฟินแลนด์
+T7	PERSON 139 148	นายธงชาติ
+T8	TIME 154 159	37 ปี
+T9	PERSON 193 199	นางกวน
+T10	TIME 205 210	72 ปี
+R1	crime_relation Arg1:T7 Arg2:T9	
+R2	located_at Arg1:T7 Arg2:T4	
+R3	located_at Arg1:T7 Arg2:T5	

@@ -1,0 +1,26 @@
+T1	ORGANIZATION 17 33	สภ.ปากน้ำประแสร์
+T2	LOCATION 108 114	หมู่ 5
+T3	LOCATION 115 130	ต.ปากน้ำประแสร์
+T4	LOCATION 131 137	อ.แกลง
+T5	LOCATION 138 145	จ.ระยอง
+T6	WEAPON 226 229	ปืน
+T7	COLOR 333 338	สีแดง
+T8	WEAPON 409 412	ปืน
+T9	WEAPON 440 449	ปืนลูกซอง
+T10	PERSON 520 542	นายไตรสรณ์ วิรธีรวัชร์
+T11	TIME 548 553	28 ปี
+T12	PERSON 607 626	นางอำนวย สุนทรวิภาค
+T13	TIME 632 637	55 ปี
+T14	PERSON 699 717	นายชาญชัย รื่นฤทัย
+T15	TIME 723 728	42 ปี
+T16	VEHICLE 770 789	จยย.ยี่ห้อฮอนด้าเวฟ
+T17	WEAPON 808 820	ปืนลูกซองยาว
+T18	VEHICLE 980 987	รถ จยย.
+T19	WEAPON 66 69	ปืน
+R1	own_vehicle Arg1:T14 Arg2:T16	
+R2	own_weapon Arg1:T14 Arg2:T17	
+R3	crime_relation Arg1:T14 Arg2:T12	
+R4	crime_located_at Arg1:T14 Arg2:T2	
+R5	crime_located_at Arg1:T14 Arg2:T3	
+R6	crime_located_at Arg1:T14 Arg2:T4	
+R7	crime_located_at Arg1:T14 Arg2:T5	

@@ -1,0 +1,43 @@
+T1	VEHICLE 13 23	เก๋งสปอร์ต
+T2	VEHICLE 31 71	BMW แบบ 2 ประตู คูเป้ เปิดประทุน รุ่น Z4
+T3	COLOR 74 77	ส้ม
+R1	color_of Arg1:T2 Arg2:T3	
+T4	VEHICLE 84 97	บีเอ็ม.เขาค้อ
+T5	LP 114 137	3 กก 7558 กรุงเทพมหานคร
+R2	vehicle_lp Arg1:T2 Arg2:T5	
+T6	VEHICLE 208 218	รถยนต์เก๋ง
+T7	VEHICLE 225 238	ซูซูกิ สวิฟต์
+T8	COLOR 241 247	น้ำตาล
+R3	color_of Arg1:T7 Arg2:T8	
+T9	LP 263 286	1 ขฐ 9316 กรุงเทพมหานคร
+R4	vehicle_lp Arg1:T7 Arg2:T9	
+T10	LOCATION 318 329	จ.เพชรบูรณ์
+T11	PERSON 336 350	น.ส.กรกฏ หิรัญ
+T12	TIME 356 361	31 ปี
+T13	LOCATION 366 379	บ้านเลขที่ 23
+T14	LOCATION 380 386	หมู่ 1
+T15	LOCATION 387 404	ซ.หมู่บ้านเนินเขา
+T16	LOCATION 405 410	ซอย 9
+T17	LOCATION 411 419	ต.ควนลัง
+T18	LOCATION 420 429	อ.หาดใหญ่
+T19	LOCATION 430 437	จ.สงขลา
+T20	VEHICLE 451 474	รถยนต์เก๋งยี่ห้อ ซูซูกิ
+T21	PERSON 479 503	น.ส.วรรณกานต์ วรรณกายนต์
+T22	LOCATION 519 536	บ้านเลขที่ 249/38
+T23	LOCATION 537 551	ซ.รามคำแหง 112
+T24	LOCATION 552 564	แขวงสะพานสูง
+T25	LOCATION 565 576	เขตสะพานสูง
+T26	LOCATION 577 585	กรุงเทพฯ
+R5	located_at Arg1:T11 Arg2:T13	
+R6	located_at Arg1:T11 Arg2:T14	
+R7	located_at Arg1:T11 Arg2:T15	
+R8	located_at Arg1:T11 Arg2:T16	
+R9	located_at Arg1:T11 Arg2:T17	
+R10	located_at Arg1:T11 Arg2:T18	
+R11	located_at Arg1:T11 Arg2:T19	
+R12	own_vehicle Arg1:T11 Arg2:T6	
+R13	located_at Arg1:T21 Arg2:T22	
+R14	located_at Arg1:T21 Arg2:T23	
+R15	located_at Arg1:T21 Arg2:T24	
+R16	located_at Arg1:T21 Arg2:T25	
+R17	located_at Arg1:T21 Arg2:T26	

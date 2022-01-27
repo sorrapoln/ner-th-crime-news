@@ -1,0 +1,21 @@
+T1	VEHICLE 50 63	รถจักรยานยนต์
+T2	LOCATION 95 107	จังหวัดสงขลา
+T3	TIME 188 193	16 ปี
+T4	VEHICLE 238 250	รถจักยานยนต์
+T5	WEAPON 263 266	มีด
+T6	WEAPON 322 325	มีด
+T7	VEHICLE 507 520	รถจักรยานยนต์
+T8	ORGANIZATION 596 606	สภ.หาดใหญ่
+T9	PERSON 674 691	นายคัมภีร์ แซ่จิว
+T10	TIME 697 702	36 ปี
+T11	VEHICLE 720 726	รถเข็น
+T12	VEHICLE 825 838	รถจักรยานยนต์
+T13	WEAPON 895 916	มีดสีส้ม ยาว 8.2 นิ้ว
+R1	own_vehicle Arg1:T9 Arg2:T12	
+R2	own_weapon Arg1:T9 Arg2:T13	
+R3	own_vehicle Arg1:T9 Arg2:T1	
+R4	own_weapon Arg1:T9 Arg2:T6	
+R5	own_vehicle Arg1:T9 Arg2:T7	
+R6	own_vehicle Arg1:T9 Arg2:T4	
+R7	own_weapon Arg1:T9 Arg2:T5	
+R8	crime_located_at Arg1:T9 Arg2:T2	

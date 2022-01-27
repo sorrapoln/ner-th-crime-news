@@ -1,0 +1,29 @@
+T1	TIME 10 18	01.00 น.
+T2	DATE 25 32	23 ม.ค.
+T3	PERSON 33 55	ร.ต.อ.กันตพัฒน์ ชาวดอน
+T4	ORGANIZATION 73 93	สภ.เมือง สมุทรปราการ
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	LOCATION 158 176	ห้องแถวเลขที่ 2008
+T6	LOCATION 177 183	หมู่ 3
+T7	LOCATION 210 224	ต.ท้ายบ้านใหม่
+T8	LOCATION 184 209	ซอยสินสมบูรณ์ หรือซอยโอ่ง
+T9	LOCATION 225 232	อ.เมือง
+T10	LOCATION 233 246	จ.สมุทรปราการ
+T11	PERSON 472 490	นายศิริชัย พรมศิริ
+T12	TIME 496 501	27 ปี
+T13	PERSON 584 600	น.ส.สุภาพร ประนม
+T14	TIME 606 611	42 ปี
+T15	ORGANIZATION 733 758	โรงพยาบาลเมืองสมุทรปากน้ำ
+T16	PERSON 822 836	นายไกรษร สมรูป
+T17	TIME 842 847	37 ปี
+T18	ORGANIZATION 1000 1020	โรงพยาบาลสมุทรปราการ
+R2	crime_relation Arg1:T16 Arg2:T11	
+R3	crime_relation Arg1:T16 Arg2:T13	
+R4	crime_located_at Arg1:T16 Arg2:T5	
+R5	crime_located_at Arg1:T16 Arg2:T6	
+R6	crime_located_at Arg1:T16 Arg2:T8	
+R7	crime_time_at Arg1:T16 Arg2:T1	
+R8	crime_date_at Arg1:T16 Arg2:T2	
+R9	crime_located_at Arg1:T16 Arg2:T7	
+R10	crime_located_at Arg1:T16 Arg2:T9	
+R11	crime_located_at Arg1:T16 Arg2:T10	

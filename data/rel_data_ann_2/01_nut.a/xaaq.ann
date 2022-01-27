@@ -1,0 +1,31 @@
+T1	DATE 7 18	20 ก.ย.2564
+T2	PERSON 19 49	พล.ต.ต.ภูมินทร์ พุ่มพันธุ์ม่วง
+T3	PERSON 90 117	พ.ต.อ.ศิววงศ์ ดำรงสัจจ์ศิริ
+T4	PERSON 152 161	พระทวีโชค
+T5	PERSON 167 176	นายทวีโชค
+T6	TIME 198 203	45 ปี
+T7	LOCATION 318 325	อ.เมือง
+T8	LOCATION 326 335	จ.ขอนแก่น
+T9	DATE 360 371	26 ก.ค.2552
+T10	LOCATION 451 461	ต.บางเสาธง
+T11	LOCATION 462 472	อ.บางเสาธง
+T12	LOCATION 473 486	จ.สมุทรปราการ
+T13	PERSON 501 511	นายบุญเชิด
+T14	PERSON 592 601	นายทวีโชค
+T15	PERSON 626 636	นายบุญเชิด
+T16	PERSON 708 717	นายทวีโชค
+T17	WEAPON 725 739	พกสั้นขนาด .22
+T18	PERSON 767 777	นายบุญเชิด
+T19	PERSON 844 853	นายทวีโชค
+T20	PERSON 957 966	นายทวีโชค
+T21	LOCATION 1019 1026	อ.เมือง
+T22	LOCATION 1027 1036	จ.ขอนแก่น
+T23	ORGANIZATION 1365 1376	สภ.บางเสาธง
+R1	located_at Arg1:T5 Arg2:T7	
+R2	located_at Arg1:T5 Arg2:T8	
+R3	crime_date_at Arg1:T5 Arg2:T9	
+R4	crime_located_at Arg1:T5 Arg2:T10	
+R5	crime_located_at Arg1:T5 Arg2:T11	
+R6	crime_located_at Arg1:T5 Arg2:T12	
+R7	crime_relation Arg1:T5 Arg2:T13	
+R8	own_weapon Arg1:T5 Arg2:T17	

@@ -1,0 +1,49 @@
+T1	TIME 10 18	08.30 น.
+T2	DATE 25 34	21 ก.ย.64
+T3	PERSON 35 52	ร.ต.อ.ปรีชา มีผิว
+T4	ORGANIZATION 70 84	สภ.หนองสาหร่าย
+T5	LOCATION 85 94	อ.ปากช่อง
+T6	LOCATION 95 107	จ.นครราชสีมา
+T7	TIME 135 143	18.60 น.
+T8	DATE 154 161	20 ก.ย.
+T9	LOCATION 204 219	บ้านคลองสมบูรณ์
+T10	LOCATION 220 226	หมู่ 7
+T11	LOCATION 227 237	ต.คลองม่วง
+T12	LOCATION 238 247	อ.ปากช่อง
+T13	LOCATION 248 260	จ.นครราชสีมา
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T14	PERSON 304 324	พ.ต.อ.อภิวัชร์ นาทอง
+T15	ORGANIZATION 329 343	สภ.หนองสาหร่าย
+R2	employee_or_member_of Arg1:T14 Arg2:T15	
+T16	PERSON 344 367	พ.ต.ท.หริพงษ์ แววโคกสูง
+T17	ORGANIZATION 433 464	กู้ภัยสว่างวิชชาธรรมสถานปากช่อง
+T18	PERSON 503 511	นางอำนวย
+T19	TIME 531 536	47 ปี
+T20	WEAPON 547 556	ปืนลูกซอง
+T21	PERSON 642 652	นายบุญเลิศ
+T22	TIME 658 663	54 ปี
+T23	WEAPON 716 743	ปืนลูกซองสั้นแบบไทยประดิษฐ์
+T24	OBJECT 747 769	ปลอกกระสูนปืน เบอร์ 12
+T25	PERSON 820 830	นายบุญเลิศ
+T26	PERSON 915 923	นางอำนวย
+T27	TIME 929 934	47 ปี
+T28	TIME 969 975	2-3 ปี
+T29	VEHICLE 1033 1042	รถพุ่มพวง
+T30	WEAPON 1322 1325	ปืน
+T31	PERSON 1409 1429	พ.ต.อ.อภิวัชร์ นาทอง
+T32	ORGANIZATION 1434 1448	สภ.หนองสาหร่าย
+R3	employee_or_member_of Arg1:T31 Arg2:T32	
+T33	TIME 1468 1476	21.30 น.
+T34	ORGANIZATION 1492 1510	พิสูจน์หลักฐาน ภ.3
+T35	ORGANIZATION 1568 1581	รพ.ปากช่อนานา
+T36	PERSON 1634 1644	นายบุญเลิศ
+R4	crime_relation Arg1:T25 Arg2:T26	
+R5	own_weapon Arg1:T25 Arg2:T23	
+R6	found_object_at Arg1:T24 Arg2:T9	
+R7	found_object_at Arg1:T24 Arg2:T10	
+R8	found_object_at Arg1:T24 Arg2:T11	
+R9	found_object_at Arg1:T24 Arg2:T12	
+R10	found_object_at Arg1:T24 Arg2:T13	
+R11	crime_time_at Arg1:T25 Arg2:T7	
+R12	crime_date_at Arg1:T25 Arg2:T8	
+R13	employee_or_member_of Arg1:T16 Arg2:T15	

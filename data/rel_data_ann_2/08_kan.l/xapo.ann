@@ -1,0 +1,20 @@
+T1	DATE 7 14	24 ก.พ.
+T2	TIME 20 25	18.30
+T3	ORGANIZATION 75 91	โรงเรียนปทุมคงคา
+T4	VEHICLE 154 164	รถประจำทาง
+T5	COLOR 173 179	แดงขาว
+T6	LP 188 209	12-0709 กรุงเทพมหานคร
+R1	color_of Arg1:T4 Arg2:T5	
+R2	vehicle_lp Arg1:T4 Arg2:T6	
+T7	PERSON 284 294	นายกมลฉัตร
+T8	TIME 300 305	18 ปี
+T9	PERSON 374 381	นายเก่ง
+T10	TIME 399 404	17 ปี
+T11	ORGANIZATION 428 452	วิทยาลัยเทคโนโลยีกรุงเทพ
+T12	WEAPON 463 466	มีด
+R3	own_weapon Arg1:T9 Arg2:T12	
+R4	employee_or_member_of Arg1:T9 Arg2:T11	
+R5	crime_relation Arg1:T9 Arg2:T7	
+R6	employee_or_member_of Arg1:T7 Arg2:T3	
+R7	crime_date_at Arg1:T9 Arg2:T1	
+R8	crime_time_at Arg1:T9 Arg2:T2	

@@ -1,0 +1,23 @@
+T1	DATE 7 17	18 ต.ค. 64
+T2	PERSON 43 65	พ.ต.อ.โชคชัย เนียลเซ็น
+T3	ORGANIZATION 70 80	สภ.วิภาวดี
+T4	LOCATION 81 90	อ.วิภาวดี
+T5	LOCATION 91 105	จ.สุราษฎร์ธานี
+T6	PERSON 106 126	พ.ต.ท.วิทวัช เพชรแบน
+T7	ORGANIZATION 138 148	สภ.วิภาวดี
+T8	PERSON 176 194	นายเฉลียว ไตรรัตน์
+T9	TIME 200 205	50 ปี
+T10	LOCATION 210 222	ต.ตะกุกเหนือ
+T11	LOCATION 223 232	อ.วิภาวดี
+T12	LOCATION 233 247	จ.สุราษฎร์ธานี
+T13	WEAPON 276 279	ปืน
+T14	OBJECT 298 302	ไอซ์
+T15	WEAPON 897 921	ปืนพกสั้นยี่ห้อบาเร็ตต้า
+T16	LP 981 991	กท 5024492
+T17	DATE 1367 1381	17 ตุลาคม 2564
+R1	located_at Arg1:T8 Arg2:T10	
+R2	located_at Arg1:T8 Arg2:T11	
+R3	located_at Arg1:T8 Arg2:T12	
+R4	own_weapon Arg1:T8 Arg2:T13	
+R5	crime_date_at Arg1:T8 Arg2:T1	
+R6	own_weapon Arg1:T8 Arg2:T15	

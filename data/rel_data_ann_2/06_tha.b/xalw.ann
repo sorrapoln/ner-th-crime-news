@@ -1,0 +1,13 @@
+T1	PERSON 82 88	นายโด้
+T2	ORGANIZATION 116 125	สภ.ศรีเทพ
+T3	VEHICLE 138 151	รถจักรยานยนต์
+T4	PERSON 155 161	นายโด้
+T5	VEHICLE 210 223	รถจักรยานยนต์
+T6	VEHICLE 250 263	รถจักรยานยนต์
+T7	PERSON 266 273	นายนพดล
+R1	own_vehicle Arg1:T7 Arg2:T6	
+T8	PERSON 372 378	นายโด้
+T9	LOCATION 395 404	อ.ท่าหลวง
+T10	LOCATION 405 413	จ.ลพบุรี
+R2	located_at Arg1:T8 Arg2:T9	
+R3	located_at Arg1:T8 Arg2:T10	

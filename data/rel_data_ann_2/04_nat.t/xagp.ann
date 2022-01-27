@@ -1,0 +1,28 @@
+T1	PERSON 8 28	น.ส.จิรารัตน์ ทรงพูล
+T2	PERSON 35 42	น้องเจน
+T3	TIME 49 54	25 ปี
+T4	LOCATION 62 72	อำเภอพร้าว
+T5	LOCATION 73 89	จังหวัดเชียงใหม่
+R1	located_at Arg1:T1 Arg2:T4	
+R2	located_at Arg1:T1 Arg2:T5	
+T6	LOCATION 137 147	ตำบลป่าแดด
+T7	LOCATION 148 158	อำเภอเมือง
+T8	LOCATION 159 175	จังหวัดเชียงใหม่
+T9	TIME 210 218	02.00 น.
+T10	DATE 229 237	2 ต.ค.64
+T11	PERSON 294 301	น้องเจน
+T12	VEHICLE 357 375	รถเก๋งยี่ห้อฮอนด้า
+T13	COLOR 376 381	สีขาว
+R3	color_of Arg1:T12 Arg2:T13	
+T14	ORGANIZATION 454 463	สภ.แม่ปิง
+T15	LOCATION 464 471	อ.เมือง
+T16	LOCATION 472 483	จ.เชียงใหม่
+T17	PERSON 487 494	น้องเจน
+T18	DATE 514 524	26 .ต.ค.64
+T19	PERSON 565 578	น.ส.จิรารัตน์
+T20	PERSON 585 592	น้องเจน
+T21	ORGANIZATION 622 649	โรงพยาบาลมหาราชนครเชียงใหม่
+T22	VEHICLE 708 721	รถจักรยานยนต์
+T23	ORGANIZATION 799 826	โรงพยาบาลมหาราชนครเชียงใหม่
+T24	PERSON 891 904	น.ส.จิรารัตน์
+T25	PERSON 911 918	น้องเจน

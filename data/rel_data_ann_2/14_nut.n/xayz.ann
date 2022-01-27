@@ -1,0 +1,32 @@
+T1	TIME 31 39	19.00 น.
+T2	DATE 46 55	18 ม.ค.65
+T3	PERSON 56 79	พ.ต.อ.รณภัฎ ทับทิมธงไชย
+T4	ORGANIZATION 84 97	สภ.บางเเม่นาง
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	PERSON 108 130	พ.ต.ท.ศุภชัย ศรีศักดิ์
+T6	ORGANIZATION 142 154	สภ.บางแม่นาง
+R2	employee_or_member_of Arg1:T5 Arg2:T6	
+T7	PERSON 158 181	พ.ต.ต.ณัฐวุฒิ มิ่งเมือง
+T8	ORGANIZATION 188 200	สภ.บางแม่นาง
+R3	employee_or_member_of Arg1:T7 Arg2:T8	
+T9	PERSON 248 256	นายวัชระ
+T10	TIME 262 267	20 ปี
+T11	ORGANIZATION 288 306	ศาลจังหวัดศรีสะเกษ
+T12	DATE 331 344	7 มกราคม 2565
+T13	LOCATION 417 425	หมู่ที่4
+T14	LOCATION 426 436	ต.บ้านใหม่
+T15	LOCATION 437 446	อ.บางใหญ่
+T16	LOCATION 447 456	จ.นนทบุรี
+T17	DATE 494 504	22 มิ.ย.64
+T18	ORGANIZATION 522 531	สภ.หนองไฮ
+T19	LOCATION 532 542	จ.ศรีสะเกษ
+T20	PERSON 569 579	เด็กหญิงบี
+T21	TIME 597 602	14 ปี
+T22	PERSON 609 617	นายวัชระ
+T23	PERSON 648 656	นายวัชระ
+T24	ORGANIZATION 713 722	สภ.หนองไฮ
+T25	LOCATION 790 801	ต.บางแม่นาง
+T26	LOCATION 802 811	อ.บางใหญ่
+T27	ORGANIZATION 847 860	สภ.บางเเม่นาง
+R4	crime_relation Arg1:T9 Arg2:T20	
+R5	crime_date_at Arg1:T9 Arg2:T17	

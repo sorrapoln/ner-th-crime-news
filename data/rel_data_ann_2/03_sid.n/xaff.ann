@@ -1,0 +1,14 @@
+T1	TIME 34 42	30-40 ปี
+T2	LOCATION 86 98	ตำบลหนองจะบก
+T3	LOCATION 99 109	อำเภอเมือง
+T4	LOCATION 110 127	จังหวัดนครราชสีมา
+T5	WEAPON 229 232	ปืน
+T6	TIME 495 501	3 นาที
+T7	PERSON 673 686	นายธนพล มูลคำ
+T8	OBJECT 708 711	มีด
+T9	OBJECT 715 728	รถจักรยานยนต์
+T10	PERSON 866 873	นายธนพล
+R1	crime_located_at Arg1:T7 Arg2:T2	
+R2	crime_located_at Arg1:T7 Arg2:T3	
+R3	crime_located_at Arg1:T7 Arg2:T4	
+R4	own_weapon Arg1:T7 Arg2:T5	

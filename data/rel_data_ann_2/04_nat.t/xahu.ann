@@ -1,0 +1,21 @@
+T1	DATE 7 16	19 ต.ค.64
+T2	ORGANIZATION 30 72	โรงพยาบาลสนามมหาวิทยาลัยราชภัฏสุราษฎร์ธานี
+T3	PERSON 73 90	นายวิชวุทย์ จินโต
+T4	LOCATION 103 122	จังหวัดสุราษฎร์ธานี
+T5	PERSON 132 150	นายสุเชาว์ ทูมูสิก
+T6	ORGANIZATION 195 205	สภ.ขุนทะเล
+T7	PERSON 357 375	นายกฤษฎา ไชยสุริยา
+T8	TIME 381 386	29 ปี
+T9	LOCATION 391 402	อ.บ้านนาสาร
+T10	LOCATION 403 417	จ.สุราษฎร์ธานี
+T11	WEAPON 435 441	กรรไกร
+R1	own_weapon Arg1:T7 Arg2:T11	
+T12	PERSON 444 453	นายฤกษ์ดี
+R2	crime_relation Arg1:T7 Arg2:T12	
+R3	located_at Arg1:T7 Arg2:T9	
+R4	crime_located_at Arg1:T7 Arg2:T10	
+T13	TIME 459 464	18 ปี
+T14	ORGANIZATION 561 582	โรงพยาบาลสุราษฎร์ธานี
+T15	LOCATION 748 767	จังหวัดสุราษฎร์ธานี
+R5	located_at Arg1:T3 Arg2:T4	
+R6	employee_or_member_of Arg1:T5 Arg2:T6	

@@ -1,0 +1,40 @@
+T1	TIME 10 18	18.00 น.
+T2	DATE 26 36	4 ธ.ค.2564
+T3	PERSON 37 59	ร.ต.อ.พรเจตต์ พร้อมมูล
+T4	ORGANIZATION 79 100	สภ.ประตูน้ำจุฬาลงกรณ์
+T5	LOCATION 101 111	จ.ปทุมธานี
+T6	LOCATION 176 195	ซอยรังสิต-นครนายก 2
+T7	LOCATION 196 210	ต.ประชาธิปัตย์
+T8	LOCATION 211 220	อ.ธัญบุรี
+T9	LOCATION 221 231	จ.ปทุมธานี
+T10	ORGANIZATION 248 263	รพ.ประชาธิปัตย์
+T11	ORGANIZATION 316 333	มูลนิธิร่วมกตัญญู
+T12	PERSON 376 383	นายกริช
+T13	TIME 389 394	54 ปี
+T14	LOCATION 404 414	ต.แก่งโสภา
+T15	LOCATION 415 423	อ.วังทอง
+T16	LOCATION 424 434	จ.พิษณุโลก
+T17	WEAPON 529 532	มีด
+T18	PERSON 585 592	นายธนพร
+T19	TIME 598 603	48 ปี
+T20	LOCATION 613 623	ต.ภูเขาทอง
+T21	LOCATION 624 633	อ.หนองพอก
+T22	LOCATION 634 644	จ.ร้อยเอ็ด
+T23	PERSON 737 744	นายธนพร
+T24	PERSON 891 898	นายธนพร
+T25	WEAPON 935 938	มีด
+T26	PERSON 995 1022	พ.ต.ท.สุรสิทธิ์ โชว์สูงเนิน
+T27	ORGANIZATION 1029 1050	สภ.ประตูน้ำจุฬาลงกรณ์
+T28	PERSON 1062 1069	นายธนพร
+T29	WEAPON 1209 1212	มีด
+R1	crime_relation Arg1:T18 Arg2:T12	
+R2	own_weapon Arg1:T18 Arg2:T17	
+R3	crime_located_at Arg1:T18 Arg2:T6	
+R4	crime_located_at Arg1:T18 Arg2:T7	
+R5	crime_located_at Arg1:T18 Arg2:T8	
+R6	crime_located_at Arg1:T18 Arg2:T9	
+R7	crime_time_at Arg1:T18 Arg2:T1	
+R8	crime_date_at Arg1:T18 Arg2:T2	
+R9	located_at Arg1:T18 Arg2:T20	
+R10	located_at Arg1:T18 Arg2:T21	
+R11	located_at Arg1:T18 Arg2:T22	

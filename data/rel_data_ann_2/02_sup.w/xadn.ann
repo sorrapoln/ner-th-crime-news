@@ -1,0 +1,14 @@
+T1	TIME 10 18	02.00 น.
+T2	ORGANIZATION 35 46	สน.พหลโยธิน
+T3	VEHICLE 64 70	รถเก๋ง
+T4	LOCATION 106 130	สถานีไฟฟ้าย่อย จันทรเกษม
+T5	ORGANIZATION 138 151	ศาลอาญา รัชดา
+T6	VEHICLE 354 360	รถเก๋ง
+T7	COLOR 360 364	สีดำ
+T8	LP 373 390	2 กง 7786 กรุงเทพ
+R1	color_of Arg1:T6 Arg2:T7	
+R2	vehicle_lp Arg1:T6 Arg2:T8	
+T9	PERSON 610 630	นายอรรณพ พูนศรีพัฒนา
+T10	PERSON 636 644	ดีเจก๊อง
+T11	TIME 650 655	33 ปี
+R3	crime_time_at Arg1:T9 Arg2:T1	

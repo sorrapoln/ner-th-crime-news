@@ -1,0 +1,18 @@
+T1	TIME 31 39	10.00 น.
+T2	DATE 47 61	20 มกราคม 2565
+T3	ORGANIZATION 73 82	สภ.ท่าลี่
+T4	LOCATION 83 88	จ.เลย
+T5	ORGANIZATION 118 127	สภ.โพนทอง
+T6	LOCATION 148 169	ถนนสายท่าลี่-เมืองเลย
+T7	LOCATION 186 194	เมืองเลย
+T8	LOCATION 195 204	ต.โคกใหญ่
+T9	LOCATION 205 213	อ.ท่าลี่
+T10	VEHICLE 261 280	รถกระบะโตโยต้าวีโก้
+T11	COLOR 281 293	สีบรอนซ์เงิน
+T12	LP 302 325	1 ฒอ 8172 กรุงเทพมหานคร
+T13	PERSON 365 389	ร.ต.อ.สมศักดิ์ อิ่มพันธ์
+T14	ORGANIZATION 398 407	สภ.โพนทอง
+T15	ORGANIZATION 471 502	กองบังคับการตำรวจภูธรจังหวัดเลย
+R1	color_of Arg1:T10 Arg2:T11	
+R2	vehicle_lp Arg1:T10 Arg2:T12	
+R3	employee_or_member_of Arg1:T13 Arg2:T14	

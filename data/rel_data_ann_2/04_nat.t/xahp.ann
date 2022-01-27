@@ -1,0 +1,23 @@
+T1	TIME 10 18	09.00 น.
+T2	DATE 25 36	1 พฤศจิกายน
+T3	PERSON 37 55	ร.ต.อ.ประยูร วิทยา
+T4	ORGANIZATION 73 87	สน.ราษฎร์บูรณะ
+T5	PERSON 93 101	นายบัวไข
+T6	TIME 121 126	44 ปี
+T7	LOCATION 130 139	จ.หนองคาย
+R1	located_at Arg1:T5 Arg2:T7	
+T8	ORGANIZATION 162 174	ศาลอญาธนบุรี
+T9	DATE 195 204	30 ตุลาคม
+T10	ORGANIZATION 612 625	ศาลอาญาธนบุรี
+T11	DATE 656 663	26 ต.ค.
+T12	PERSON 664 670	น.ส.เอ
+T13	PERSON 688 694	ด.ญ.บี
+T14	PERSON 718 736	ร.ต.อ.ประยูร วิทยา
+T15	ORGANIZATION 753 767	สน.ราษฎร์บูรณะ
+T16	PERSON 859 865	น.ส.เอ
+T17	LOCATION 894 903	ย่านวัดสน
+T18	LOCATION 934 948	ย่านประชาอุทิศ
+R2	located_at Arg1:T12 Arg2:T17	
+R3	located_at Arg1:T13 Arg2:T18	
+R4	crime_relation Arg1:T5 Arg2:T13	
+R5	employee_or_member_of Arg1:T14 Arg2:T15	

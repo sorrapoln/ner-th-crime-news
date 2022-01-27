@@ -1,0 +1,39 @@
+T1	TIME 31 39	12.20 น.
+T2	DATE 49 58	13 ต.ค.64
+T3	PERSON 69 91	ร.ต.อ.เกษม ปัทมพรภักดี
+T4	ORGANIZATION 109 118	สภ.หนองรี
+T5	LOCATION 119 128	อ.บ่อพลอย
+T6	LOCATION 129 140	จ.กาญจนบุรี
+T7	LOCATION 200 210	บ้านโป่งรี
+T8	LOCATION 211 220	หมู่ที่ 6
+T9	LOCATION 221 229	ต.หนองรี
+T10	PERSON 292 314	พล.ต.ต.ไพโรจน์ คุ้มภัย
+T11	ORGANIZATION 319 333	ภ.จว.กาญจนบุรี
+T12	PERSON 334 353	พ.ต.อ.บรรจง อมฤทธิ์
+T13	ORGANIZATION 362 376	ภ.จว.กาญจนบุรี
+T14	ORGANIZATION 401 410	สภ.หนองรี
+T15	PERSON 415 434	พ.ต.อ.ภาคิน แสนพุฒิ
+T16	ORGANIZATION 442 456	ภ.จว.กาญจนบุรี
+T17	PERSON 516 537	พ.ต.ท.ภูวดน อุดมนพคุณ
+T18	ORGANIZATION 549 558	สภ.หนองรี
+T19	PERSON 559 577	พ.ต.ท.สมพร ษักโกระ
+T20	ORGANIZATION 642 673	พิสูจน์หลักฐานตำรวจภูธรจังหวัดฯ
+T21	ORGANIZATION 694 704	รพ.บ่อพลอย
+T22	ORGANIZATION 719 744	มูลนิธิสมาคมบ่อพลอยร่วมใจ
+T23	WEAPON 1053 1062	ปืนลูกซอง
+T24	PERSON 1206 1224	นายบัญชา กลิ่นเกษร
+T25	TIME 1230 1235	37 ปี
+T26	LOCATION 1240 1255	บ้านเลขที่ 75/6
+T27	LOCATION 1256 1262	หมู่ 8
+T28	LOCATION 1263 1272	ต.หลุมรัง
+T29	LOCATION 1273 1282	อ.บ่อพลอย
+T30	LOCATION 1283 1294	จ.กาญจนบุรี
+T31	ORGANIZATION 1393 1407	รพ.ศูนย์นครปฐม
+R1	located_at Arg1:T24 Arg2:T26	
+R2	located_at Arg1:T24 Arg2:T27	
+R3	located_at Arg1:T24 Arg2:T28	
+R4	located_at Arg1:T24 Arg2:T29	
+R5	located_at Arg1:T24 Arg2:T30	
+R6	employee_or_member_of Arg1:T12 Arg2:T13	
+R7	employee_or_member_of Arg1:T3 Arg2:T4	
+R8	employee_or_member_of Arg1:T10 Arg2:T11	

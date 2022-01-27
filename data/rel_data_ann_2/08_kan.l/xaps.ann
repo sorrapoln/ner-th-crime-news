@@ -1,0 +1,64 @@
+T1	TIME 10 17	01.00 น
+T2	DATE 26 34	4 ธ.ค.64
+T3	PERSON 35 62	พ.ต.ท.วีรวิทย์ ลภัสจารุสกุล
+T4	ORGANIZATION 77 91	สภ.เมืองนครปฐม
+T5	WEAPON 114 117	ปืน
+T6	LOCATION 166 179	บ้านเลขที่ 59
+T7	LOCATION 180 186	หมู่ 2
+T8	LOCATION 187 195	ต.นครปฐม
+T9	LOCATION 196 209	อ.เมืองนครปฐม
+T10	PERSON 234 259	พล.ต.ต.ชมชวิณ ปุระธนานนท์
+T11	LOCATION 266 275	จว.นครปฐม
+T12	PERSON 276 298	พ.ต.อ.ไพบูลย์ แพรสีนวล
+T13	ORGANIZATION 303 317	สภ.เมืองนครปฐม
+T14	PERSON 318 339	พ.ต.อ.อรรถการ กองสุผล
+T15	ORGANIZATION 437 452	โรงพยาบาลนครปฐม
+T16	ORGANIZATION 464 493	มูลนิธิสุขศาลานุเคราะห์นครปฐม
+T17	LOCATION 674 687	อ.เมืองนครปฐม
+T18	WEAPON 845 848	ปืน
+T19	PERSON 913 934	นางสาวสุกัญญา ภู่แก้ว
+T20	TIME 940 945	49 ปี
+T21	WEAPON 1062 1065	ปืน
+T22	WEAPON 1140 1143	ปืน
+T23	PERSON 1161 1180	นายฆนากร ปัญญาเตียม
+T24	TIME 1186 1191	25 ปี
+T25	PERSON 1205 1214	นายคุณากร
+T26	PERSON 1218 1229	น.ส.สุกัญญา
+T27	ORGANIZATION 1237 1266	มูลนิธิสุขศาลานุเคราะห์นครปฐม
+T28	ORGANIZATION 1276 1285	รพ.นครปฐม
+T29	OBJECT 1320 1330	ปลอกกระสุน
+T30	OBJECT 1376 1391	เศษหัวกระสุนปืน
+T31	PERSON 1460 1468	นายฆนากร
+T32	PERSON 1524 1542	นายสมเจตน์ ภู่แก้ว
+T33	TIME 1548 1553	35 ปี
+T34	WEAPON 1619 1622	ปืน
+T35	PERSON 1643 1654	น.ส.สุกัญญา
+T36	PERSON 1663 1672	นายคุณากร
+T37	PERSON 1889 1899	นายสมเจตน์
+T38	PERSON 1903 1923	น.ส.ประวีณา วงษ์คงคำ
+T39	PERSON 1932 1942	นายสมเจตน์
+T40	PERSON 1976 1987	น.ส.ประวีณา
+T41	PERSON 2063 2074	น.ส.ประวีณา
+T42	PERSON 608 628	นายคุณากร ปัญญาเตียม
+T43	TIME 634 639	57 ปี
+T44	LOCATION 644 657	บ้านเลขที่ 59
+T45	LOCATION 658 664	หมู่ 2
+T46	LOCATION 665 673	ต.นครปฐม
+R1	crime_relation Arg1:T32 Arg2:T42	
+R2	crime_relation Arg1:T32 Arg2:T19	
+R3	located_at Arg1:T42 Arg2:T44	
+R4	located_at Arg1:T42 Arg2:T45	
+R5	located_at Arg1:T42 Arg2:T46	
+R6	located_at Arg1:T42 Arg2:T17	
+R7	located_at Arg1:T19 Arg2:T44	
+R8	located_at Arg1:T19 Arg2:T45	
+R9	located_at Arg1:T19 Arg2:T46	
+R10	located_at Arg1:T19 Arg2:T17	
+R11	crime_relation Arg1:T32 Arg2:T23	
+R12	own_weapon Arg1:T32 Arg2:T34	
+R13	crime_time_at Arg1:T32 Arg2:T1	
+R14	crime_date_at Arg1:T32 Arg2:T2	
+R15	crime_located_at Arg1:T32 Arg2:T6	
+R16	crime_located_at Arg1:T32 Arg2:T7	
+R17	crime_located_at Arg1:T32 Arg2:T8	
+R18	crime_located_at Arg1:T32 Arg2:T9	

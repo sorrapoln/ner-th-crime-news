@@ -1,0 +1,11 @@
+T1	COLOR 53 65	สีเขียวคาดดำ
+T2	COLOR 142 146	สีดำ
+T3	COLOR 180 188	สีน้ำตาล
+T4	LOCATION 210 242	ห้างทองเยาวราช บิ๊กซี สาขาวังไผ่
+T5	WEAPON 281 284	ปืน
+T6	PERSON 445 467	พ.ต.อ.ภาณุเดช ณ พัทลุง
+T7	LOCATION 478 486	จว.ชุมพร
+R1	crime_located_at Arg1:T6 Arg2:T7	
+T8	DATE 16 23	20 ต.ค.
+T9	ORGANIZATION 582 590	สภ.เมือง
+T10	ORGANIZATION 496 510	สภ.เมือง ชุมพร

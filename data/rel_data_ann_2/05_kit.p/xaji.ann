@@ -1,0 +1,12 @@
+T1	PERSON 0 26	ร้อยตำรวจเอกวันชัย เชาวลิต
+T2	ORGANIZATION 43 54	สน.ลาดพร้าว
+R1	employee_or_member_of Arg1:T1 Arg2:T2	
+T3	LOCATION 85 101	สนามกีฬาคลองจั่น
+T4	LOCATION 102 113	ถนนนวมินทร์
+T5	LOCATION 114 124	เขตบางกะปิ
+T6	VEHICLE 151 161	รถประจำทาง
+T7	LP 263 284	10-8980 กรุงเทพมหานคร
+R2	vehicle_lp Arg1:T6 Arg2:T7	
+T8	VEHICLE 400 406	รถยนต์
+T9	VEHICLE 293 295	รถ
+T10	VEHICLE 506 508	รถ

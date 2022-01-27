@@ -1,0 +1,40 @@
+T1	DATE 7 18	10 ต.ค.2562
+T2	PERSON 19 37	พ.ต.อ.อำนาจ หาญชนะ
+T3	ORGANIZATION 42 50	สน.แสมดำ
+T4	PERSON 80 98	นายประกิจ วาประโคน
+T5	TIME 104 109	36 ปี
+T6	ORGANIZATION 120 133	ศาลอาญาธนบุรี
+T7	DATE 161 170	10 ต.ค.62
+T8	WEAPON 247 252	ชะแลง
+T9	VEHICLE 259 272	รถจักรยานยนต์
+T10	OBJECT 321 331	หมวกนิรภัย
+T11	COLOR 331 336	สีขาว
+T12	LOCATION 359 379	ซอยหมู่บ้านพระปิ่น 5
+T13	LOCATION 380 389	ถนนเอกชัย
+T14	LOCATION 390 406	แขวงและเขตบางบอน
+T15	LOCATION 407 411	กทม.
+T16	DATE 464 470	8 ต.ค.
+T17	DATE 491 497	9 ต.ค.
+T18	VEHICLE 554 567	รถจักรยานยนต์
+T19	WEAPON 597 602	ชะแลง
+T20	ORGANIZATION 698 712	ธนาคารกสิกรไทย
+T21	ORGANIZATION 717 729	ธนาคารธนชาติ
+T22	LOCATION 740 751	ถนนบางบอน 5
+T23	LOCATION 755 760	ซอย 3
+T24	LOCATION 761 777	แขวงและเขตบางบอน
+T25	ORGANIZATION 786 795	สน.บางบอน
+T26	ORGANIZATION 827 841	ธนาคารกสิกรไทย
+T27	LOCATION 854 874	ซอยหมู่บ้านพระปิ่น 5
+T28	LOCATION 875 884	ถนนเอกชัย
+T29	LOCATION 885 901	แขวงและเขตบางบอน
+T30	ORGANIZATION 910 918	สน.แสมดำ
+R1	own_vehicle Arg1:T4 Arg2:T9	
+R2	own_weapon Arg1:T4 Arg2:T19	
+R3	crime_located_at Arg1:T4 Arg2:T22	
+R4	crime_located_at Arg1:T4 Arg2:T23	
+R5	crime_located_at Arg1:T4 Arg2:T24	
+R6	crime_located_at Arg1:T4 Arg2:T27	
+R7	crime_located_at Arg1:T4 Arg2:T28	
+R8	crime_located_at Arg1:T4 Arg2:T29	
+R9	crime_date_at Arg1:T4 Arg2:T16	
+R10	crime_date_at Arg1:T4 Arg2:T17	

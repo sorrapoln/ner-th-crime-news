@@ -1,0 +1,19 @@
+T1	ORGANIZATION 37 80	ศูนย์วิทยุ 191 ตำรวจภูธรจังหวัดสุราษฎร์ธานี
+T2	LOCATION 122 128	อ.ไชยา
+T3	ORGANIZATION 144 151	สภ.ไชยา
+T4	TIME 468 473	47 ปี
+T5	LOCATION 211 217	อ.ไชยา
+T6	ORGANIZATION 170 205	กู้ภัยมูลนิธิกุศลศรัทธาสุราษฎร์ธานี
+T7	LOCATION 261 277	บ้านเลขที่ 160/3
+T8	LOCATION 278 284	หมู่ 4
+T9	LOCATION 285 292	ต.ตะกรบ
+T10	LOCATION 293 299	อ.ไชยา
+T11	LOCATION 300 314	จ.สุราษฎร์ธานี
+T12	PERSON 434 452	นายประยงค์ หวังอีน
+T13	LOCATION 499 505	อ.ไชยา
+T14	WEAPON 551 554	ปืน
+T15	DATE 26 36	21 ม.ค. 65
+T16	TIME 10 18	08.30 น.
+T17	VEHICLE 667 674	รถกระบะ
+T18	COLOR 682 687	สีขาว
+R1	color_of Arg1:T17 Arg2:T18	

@@ -1,0 +1,19 @@
+T1	TIME 10 18	10.00 น.
+T2	DATE 26 34	1 ต.ค.62
+T3	PERSON 56 78	พ.ต.ท.พลเทพ นันทสำเริง
+T4	ORGANIZATION 90 101	สภ.ปากเกร็ด
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	LOCATION 127 150	หมู่บ้านนันทนา การ์เด้น
+T6	LOCATION 151 166	ซอยแจ้งวัฒนะ 17
+T7	LOCATION 167 175	ต.บางพูด
+T8	LOCATION 176 186	อ.ปากเกร็ด
+T9	LOCATION 187 195	จ.นนทบรี
+T10	PERSON 209 239	พ.ต.อ.พงศ์จักร์ ปรีชาการุณพงศ์
+T11	ORGANIZATION 244 255	สภ.ปากเกร็ด
+R2	employee_or_member_of Arg1:T10 Arg2:T11	
+T12	ORGANIZATION 286 304	มูลนิธิป่อเต๊กตึ้ง
+T13	ORGANIZATION 264 285	สถาบันนิติวิทยาศาสตร์
+T14	LOCATION 371 383	เลขที่ 62/21
+T15	ORGANIZATION 461 477	รพ.เวิร์ดเมดิคอล
+T16	PERSON 514 532	พล.ต.ท.ประชิน วารี
+T17	LOCATION 538 543	69 ปี

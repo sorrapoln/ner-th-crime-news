@@ -1,0 +1,20 @@
+T1	DATE 22 31	24 ม.ค.65
+T2	TIME 38 45	08.00น.
+T3	ORGANIZATION 52 71	สภ. พระนครศรีอยุธยา
+T4	VEHICLE 98 109	รถยนต์กระบะ
+T5	VEHICLE 116 129	รถจักรยานยนต์
+T6	LOCATION 148 176	ถนนสาย 347บางปะหัน -ปทุมธานี
+T7	LOCATION 177 187	ต.บ้านป้อม
+T8	LOCATION 188 205	อ.พระนครศรีอยุธยา
+T9	ORGANIZATION 279 303	โรงพยาบาลพระนครศรีอยุธยา
+T10	PERSON 340 356	นายศักดิ์นรินทร์
+T11	TIME 361 366	52 ปี
+T12	LOCATION 370 383	จังหวัดลพบุรี
+T13	VEHICLE 396 409	รถจักรยานยนต์
+T14	VEHICLE 425 434	รถยนต์เก๋
+T15	COLOR 436 441	สีขาว
+T16	VEHICLE 465 476	รถยนต์กระบะ
+T17	COLOR 476 480	สีดำ
+R1	color_of Arg1:T14 Arg2:T15	
+R2	color_of Arg1:T16 Arg2:T17	
+R3	own_vehicle Arg1:T10 Arg2:T13	

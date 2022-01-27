@@ -1,0 +1,26 @@
+T1	LOCATION 65 71	หมู่ 4
+T2	LOCATION 72 88	ตำบลอ่าวลึกเหนือ
+T3	LOCATION 89 101	อำเภออ่าวลึก
+T4	ORGANIZATION 113 123	สภ.อ่าวลึก
+T5	WEAPON 184 187	ปืน
+T6	PERSON 210 229	นายปวริศสร เกิดแก้ว
+T7	TIME 235 240	28 ปี
+T8	OBJECT 350 379	ปลอกกระสุนปืนขนาด 9 มิลลิเมตร
+T9	OBJECT 397 409	หัวกระสุนปืน
+T10	PERSON 518 535	นายเสริม เกิดแก้ว
+T11	TIME 541 546	57 ปี
+T12	PERSON 612 620	นายวงศกร
+T13	PERSON 625 628	บิว
+T14	TIME 634 639	27 ปี
+T15	WEAPON 694 697	ปืน
+T16	WEAPON 746 749	ปืน
+R1	crime_relation Arg1:T12 Arg2:T6	
+R2	crime_located_at Arg1:T12 Arg2:T1	
+R3	crime_located_at Arg1:T12 Arg2:T2	
+R4	crime_located_at Arg1:T12 Arg2:T3	
+R5	found_object_at Arg1:T8 Arg2:T1	
+R6	found_object_at Arg1:T8 Arg2:T2	
+R7	found_object_at Arg1:T8 Arg2:T3	
+R8	found_object_at Arg1:T9 Arg2:T1	
+R9	found_object_at Arg1:T9 Arg2:T2	
+R10	found_object_at Arg1:T9 Arg2:T3	

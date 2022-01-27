@@ -1,0 +1,23 @@
+T1	DATE 7 13	1 ก.ค.
+T2	PERSON 14 42	พ.ต.อ.พัฒนศักดิ์ ยี่สารพัฒน์
+T3	LOCATION 57 66	จ.ขอนแก่น
+T4	LOCATION 103 111	บ้านนายม
+T5	LOCATION 112 121	ต.หนองกุง
+T6	LOCATION 122 130	อ.น้ำพอง
+T7	LOCATION 131 140	จ.ขอนแก่น
+T8	VEHICLE 231 237	รถยนต์
+T9	COLOR 237 242	สีขาว
+R1	color_of Arg1:T8 Arg2:T9	
+T10	VEHICLE 278 285	รถกระบะ
+T11	COLOR 285 290	สีขาว
+R2	color_of Arg1:T10 Arg2:T11	
+T12	LP 313 328	ผล 7497 ขอนแก่น
+R3	vehicle_lp Arg1:T10 Arg2:T12	
+T13	PERSON 390 410	นางอรุณรัตน์ วรรณขาม
+T14	TIME 416 421	52 ปี
+T15	PERSON 439 456	น.ส.นิชา กิจเจริญ
+T16	TIME 462 467	55 ปี
+T17	DATE 663 671	23 มิ.ย.
+T18	TIME 761 774	14.00-20.30 น
+R4	own_vehicle Arg1:T13 Arg2:T10	
+R5	own_vehicle Arg1:T15 Arg2:T10	

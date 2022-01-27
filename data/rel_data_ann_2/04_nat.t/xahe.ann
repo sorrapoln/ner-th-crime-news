@@ -1,0 +1,80 @@
+T1	PERSON 29 50	นายเอกยุทธ อัญชัญบุตร
+T2	PERSON 111 121	นายเอกยุทธ
+T3	VEHICLE 133 135	รถ
+T4	LOCATION 175 188	จังหวัดพัทลุง
+T5	PERSON 189 212	นายสุทธิพงษ์ พิมพ์พิสาร
+T6	PERSON 218 223	เบิ้ม
+R1	crime_relation Arg1:T5 Arg2:T1	
+R2	crime_located_at Arg1:T5 Arg2:T4	
+T7	PERSON 274 284	นายเอกยุทธ
+T8	PERSON 352 364	นายสุทธิพงษ์
+T9	TIME 394 403	1 สัปดาห์
+T10	PERSON 422 442	นายสันติภาพ เพ็งด้วง
+T11	PERSON 512 523	นายสันติภาพ
+T12	LOCATION 530 546	ซอยประดิพัทธ์ 12
+T13	DATE 559 569	6 มิถุนายน
+T14	PERSON 573 584	นายสันติภาพ
+T15	VEHICLE 589 594	รถตู้
+T16	COLOR 594 598	สีดำ
+R3	color_of Arg1:T15 Arg2:T16	
+T17	TIME 643 652	2 ชั่วโมง
+T18	PERSON 660 670	นายเอกยุทธ
+T19	LOCATION 688 698	ถนนลาดพร้า
+T20	PERSON 700 711	นายสันติภาพ
+T21	PERSON 739 749	นายเอกยุทธ
+T22	PERSON 759 771	นายสุทธิพงษ์
+T23	PERSON 782 793	นายสันติภาพ
+T24	PERSON 810 820	นายเอกยุทธ
+T25	PERSON 899 911	นายสุทธิพงษ์
+T26	PERSON 966 977	นายสันติภาพ
+T27	PERSON 1017 1029	นายสุทธิพงษ์
+T28	PERSON 1038 1048	นายเอกยุทธ
+T29	PERSON 1078 1089	นายสันติภาพ
+T30	PERSON 1101 1121	นางจิตรอำไพ เพ็งด้วง
+T31	PERSON 1277 1287	นายเอกยุทธ
+T32	PERSON 1313 1324	นายสันติภาพ
+T33	PERSON 1365 1375	นายเอกยุทธ
+T34	PERSON 1401 1413	นายสุทธิพงษ์
+T35	PERSON 1425 1435	นายเอกยุทธ
+T36	PERSON 1451 1463	นายสุทธิพงษ์
+T37	PERSON 1482 1492	นายเอกยุทธ
+T38	PERSON 1613 1624	นายสันติภาพ
+T39	PERSON 1652 1662	นายเอกยุทธ
+T40	PERSON 1697 1708	นายสันติภาพ
+T41	PERSON 1721 1733	นายสุทธิพงษ์
+T42	PERSON 1785 1797	นายสุทธิพงษ์
+T43	PERSON 1830 1841	นายสันติภาพ
+T44	PERSON 1873 1884	นายสันติภาพ
+T45	PERSON 2076 2088	นายสุทธิพงษ์
+T46	PERSON 2112 2130	นายเชาวลิต วุ่นชุม
+T47	PERSON 2134 2143	นายทิวากร
+T48	PERSON 2170 2182	นายสุทธิพงษ์
+T49	OBJECT 856 868	กล้องวงจรปิด
+T50	TIME 932 940	03.00 น.
+T51	TIME 1181 1189	03.00 น.
+T52	DATE 1006 1016	7 มิถุนายน
+T53	DATE 1199 1209	8 มิถุนายน
+T54	LOCATION 980 993	ย่านลาดกระบัง
+T55	LOCATION 1240 1253	จังหวัดพัทลุง
+T56	LOCATION 1551 1564	จังหวัดพัทลุง
+T57	LOCATION 1738 1749	แยกโพธิ์ทอง
+T58	LOCATION 1750 1762	อำเภอควนขนุน
+T59	LOCATION 1763 1776	จังหวัดพัทลุง
+T60	LOCATION 1812 1820	กรุงเทพฯ
+T61	LOCATION 1934 1949	สะพานแพร่งเมือง
+T62	LOCATION 1950 1961	อำเภอหัวไทร
+T63	LOCATION 1962 1982	จังหวัดนครศรีธรรมราช
+T64	LOCATION 2247 2254	กรุงเทพ
+T65	VEHICLE 1306 1308	รถ
+T66	VEHICLE 1219 1221	รถ
+T67	PERSON 1595 1605	นายเอกยุทธ
+R4	crime_relation Arg1:T5 Arg2:T8	
+R5	located_at Arg1:T11 Arg2:T12	
+R6	crime_relation Arg1:T32 Arg2:T33	
+R7	crime_relation Arg1:T36 Arg2:T37	
+R8	located_at Arg1:T41 Arg2:T57	
+R9	located_at Arg1:T41 Arg2:T58	
+R10	located_at Arg1:T41 Arg2:T59	
+T68	VEHICLE 1801 1808	รถทัวร์
+T69	WEAPON 1465 1477	เชือกรองเท้า
+R11	own_weapon Arg1:T36 Arg2:T69	

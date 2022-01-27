@@ -1,0 +1,31 @@
+T1	PERSON 331 351	พ.อ.อ.ยุทธนัย นาแจ้ง
+T2	PERSON 356 376	พ.อ.อ.เอกอนุ บุญเพ็ง
+T3	PERSON 236 252	นายภูธร กวีพันธ์
+T4	OBJECT 678 698	ปืนขนาด 11 มิลลิเมตร
+T5	OBJECT 713 760	ซองกระสุนปืน และเครื่องกระสุน ขนาด 11 มิลลิเมตร
+T6	OBJECT 768 780	ปืนลูกซองยาว
+T7	OBJECT 795 808	เครื่องกระสุน
+T8	PERSON 391 409	นายประจบ เนาวโอภาส
+T9	WEAPON 840 843	ปืน
+T10	PERSON 867 874	นายภูธร
+T11	PERSON 893 909	พ.อ.อ.เอกยุทธนัย
+T12	ORGANIZATION 297 330	บริษัท ฟิวชั่น ดิเวลลอปเมนท์จำกัด
+R1	employee_or_member_of Arg1:T3 Arg2:T12	
+T13	PERSON 932 939	นายภูธร
+T14	PERSON 943 956	พ.อ.อ.ยุทธนัย
+T15	PERSON 814 823	พ.อ.อ.อนุ
+T16	DATE 1649 1662	25 กุมภาพันธ์
+T17	LOCATION 1714 1728	อำเภอพนมสารคาม
+T18	PERSON 1666 1674	นายประจบ
+T19	VEHICLE 588 590	รถ
+R2	crime_relation Arg1:T3 Arg2:T8	
+R3	crime_relation Arg1:T1 Arg2:T8	
+R4	crime_relation Arg1:T2 Arg2:T8	
+R5	own_weapon Arg1:T2 Arg2:T9	
+R6	own_vehicle Arg1:T1 Arg2:T19	
+R7	crime_date_at Arg1:T3 Arg2:T16	
+R8	crime_date_at Arg1:T1 Arg2:T16	
+R9	crime_date_at Arg1:T2 Arg2:T16	
+R10	crime_located_at Arg1:T1 Arg2:T17	
+R11	crime_located_at Arg1:T2 Arg2:T17	
+R12	crime_located_at Arg1:T3 Arg2:T17	

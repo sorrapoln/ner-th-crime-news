@@ -1,0 +1,38 @@
+T1	ORGANIZATION 25 36	สภ.วัฒนานคร
+T2	LOCATION 37 46	จ.สระแก้ว
+T3	LOCATION 76 109	ถนนสุวรรณศร 33 สระแก้ว-อรัญประเทศ
+T4	LOCATION 110 119	ต.ห้วยโจด
+T5	LOCATION 120 130	อ.วัฒนานคร
+T6	LOCATION 131 140	จ.สระแก้ว
+T7	VEHICLE 174 181	รถฟอร์ด
+T8	COLOR 182 187	สีขาว
+R1	color_of Arg1:T7 Arg2:T8	
+T9	PERSON 248 265	นายทรงยศ เทียนทอง
+T10	PERSON 272 281	นายกคิงส์
+T11	TIME 288 293	56 ปี
+T12	PERSON 340 357	นายเสนาะ เทียนทอง
+T13	ORGANIZATION 431 447	โรงพยาบาลวัฒนานค
+T14	PERSON 537 558	พ.ต.ท.สิทธิชัย โทนผุย
+T15	ORGANIZATION 573 584	สภ.วัฒนานคร
+R2	own_vehicle Arg1:T9 Arg2:T7	
+T16	LOCATION 585 595	อ.วัฒนานคร
+T17	LOCATION 596 605	จ.สระแก้ว
+T18	TIME 629 637	20.40 น.
+T19	DATE 639 648	20 ม.ค.65
+R3	crime_time_at Arg1:T9 Arg2:T18	
+R4	crime_date_at Arg1:T9 Arg2:T19	
+T20	LOCATION 681 710	ถนนสุวรรณศร ทางหลวงหมายเลข 33
+T21	ORGANIZATION 721 751	ปั๊มน้ำมัน พีที ขาเข้าวัฒนานคร
+T23	LOCATION 752 761	ต.ห้วยโจด
+T24	LOCATION 762 772	อ.วัฒนานคร
+T25	LOCATION 773 782	จ.สระแก้ว
+T22	VEHICLE 800 840	รถยนต์ยี่ห้อ มิตชูบิชิ รุ่นปาเจโร่สปอร์ต
+T26	COLOR 841 846	สีขาว
+T27	LP 862 884	9กอ-3839 กรุงเทพมหานคร
+R5	color_of Arg1:T22 Arg2:T26	
+R6	vehicle_lp Arg1:T22 Arg2:T27	
+T28	PERSON 945 966	นายฉัตรชาญชัย ทีปกากร
+T29	TIME 972 977	27 ปี
+R7	own_vehicle Arg1:T28 Arg2:T22	
+T30	ORGANIZATION 1031 1042	รพ.วัฒนานคร
+R8	employee_or_member_of Arg1:T14 Arg2:T15	

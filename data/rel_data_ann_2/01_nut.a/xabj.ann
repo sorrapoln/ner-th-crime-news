@@ -1,0 +1,54 @@
+T1	TIME 10 18	13.00 น.
+T2	DATE 25 33	20ม.ค.65
+T3	PERSON 34 47	พ.ต.ท.วรวิทย์
+T4	ORGANIZATION 69 82	สภ.วังตะเคียน
+T5	LOCATION 83 96	อ.กบินทร์บุรี
+T6	LOCATION 97 109	จ.ปราจีนบุรี
+T7	WEAPON 151 154	มีด
+T8	LOCATION 200 207	หมู่ 20
+T9	LOCATION 208 219	บ้านอุดมสุข
+T10	LOCATION 220 232	ต.วังท่าช้าง
+T11	LOCATION 233 246	อ.กบินทร์บุรี
+T12	LOCATION 247 259	จ.ปราจีนบุรี
+T13	ORGANIZATION 335 349	รพ.กบินทร์บุรี
+T14	LOCATION 374 386	จ.ปราจีนบุรี
+T15	PERSON 416 439	พ.ต.ท.อาทิตย์ ศรีปราชญ์
+T16	PERSON 457 490	พ.ต.อ.ประเสริฐศักดิ์ จันทร์ประเทศ
+T17	PERSON 563 591	นายสายันต์ ศรีสะอาดพันธ์วงศ์
+T18	TIME 597 602	63 ปี
+T19	LOCATION 607 620	บ้านเลขที่ 47
+T20	LOCATION 621 628	หมู่ 20
+T21	LOCATION 629 641	ต.วังท่าช้าง
+T22	LOCATION 642 655	อ.กบินทร์บุรี
+T23	LOCATION 656 668	จ.ปราจีนบุรี
+T24	WEAPON 684 695	มีดปลายแหลม
+T25	PERSON 794 812	นายเชาวลิต พวงไธสง
+T26	TIME 818 823	47 ปี
+T27	PERSON 883 910	นางบุญศรี ศรีสะอาดพันธ์วงศ์
+T28	PERSON 916 926	นายสายันต์
+T29	PERSON 941 951	นายเชาวลิต
+T30	PERSON 1106 1116	นายเชาวลิต
+T31	PERSON 1224 1235	วนายเชาวลิต
+T32	PERSON 1262 1272	นายสายันต์
+T33	PERSON 1310 1320	นายเชาวลิต
+T34	PERSON 1349 1361	นายันสายันต์
+R1	crime_relation Arg1:T25 Arg2:T17	
+R2	located_at Arg1:T17 Arg2:T19	
+R3	located_at Arg1:T17 Arg2:T20	
+R4	located_at Arg1:T17 Arg2:T21	
+R5	located_at Arg1:T17 Arg2:T22	
+R6	located_at Arg1:T17 Arg2:T23	
+R7	own_weapon Arg1:T25 Arg2:T24	
+R8	employee_or_member_of Arg1:T3 Arg2:T4	
+R9	located_at Arg1:T3 Arg2:T5	
+R10	located_at Arg1:T3 Arg2:T6	
+R11	crime_located_at Arg1:T17 Arg2:T8	
+R12	crime_located_at Arg1:T17 Arg2:T9	
+R13	crime_located_at Arg1:T17 Arg2:T10	
+R14	crime_located_at Arg1:T17 Arg2:T11	
+R15	crime_located_at Arg1:T17 Arg2:T12	
+R16	crime_located_at Arg1:T25 Arg2:T8	
+R17	crime_located_at Arg1:T25 Arg2:T9	
+R18	crime_located_at Arg1:T25 Arg2:T10	
+R19	crime_located_at Arg1:T25 Arg2:T11	
+R20	crime_located_at Arg1:T25 Arg2:T12	

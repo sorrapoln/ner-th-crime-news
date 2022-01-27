@@ -1,0 +1,23 @@
+T1	DATE 8 19	31 พ.ค.2562
+T2	PERSON 52 66	นายวิษณุ บุญคง
+T3	TIME 96 101	14 ปี
+T4	DATE 133 138	มี.ค.
+T5	LOCATION 195 206	คลองนางน้อย
+T6	LOCATION 207 218	ต.บ้านโพธิ์
+T7	LOCATION 219 230	อ.เมืองตรัง
+T8	PERSON 377 397	พ.ต.ท.ประเสริฐ สงแสง
+T9	ORGANIZATION 418 441	สถานีตำรวจภูธรเมืองตรัง
+T10	PERSON 463 471	นายวิษณุ
+T11	ORGANIZATION 486 500	ศาลจังหวัดตรัง
+T12	TIME 537 542	14 ปี
+T13	DATE 838 845	5 มี.ค.
+T14	TIME 872 877	14 ปี
+T15	LOCATION 1011 1022	ต.บ้านโพธิ์
+T16	TIME 1050 1055	14 ปี
+T17	PERSON 1112 1120	นายวิษณุ
+T18	LOCATION 1249 1263	จ.สุราษฎร์ธานี
+R1	crime_located_at Arg1:T2 Arg2:T15	
+R2	crime_located_at Arg1:T2 Arg2:T5	
+R3	crime_located_at Arg1:T2 Arg2:T6	
+R4	crime_located_at Arg1:T2 Arg2:T7	
+R5	crime_date_at Arg1:T2 Arg2:T13	

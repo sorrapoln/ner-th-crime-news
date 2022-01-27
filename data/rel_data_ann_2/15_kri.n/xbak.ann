@@ -1,0 +1,22 @@
+T1	ORGANIZATION 31 43	สน.บางคอแหลม
+T2	LOCATION 71 86	ซอยสุขสวัสดิ์ 4
+T3	LOCATION 87 96	เขตจอมทอง
+T4	LOCATION 97 110	กรุงเทพมหานคร
+T5	VEHICLE 111 124	รถจักรยานยนต์
+T6	VEHICLE 131 138	รถกระบะ
+T7	VEHICLE 262 318	ถจักรยานยนต์บิ๊กไบค์ ยี่ห้อคาวาซากิ รุ่น อีอาร์ 650 ซีซี
+T8	COLOR 319 323	สีดำ
+T9	LP 339 354	1กก-9528 ภูเก็ต
+R1	color_of Arg1:T7 Arg2:T8	
+R2	vehicle_lp Arg1:T7 Arg2:T9	
+T10	VEHICLE 438 445	รถกระบะ
+T11	COLOR 445 449	สีดำ
+R3	color_of Arg1:T10 Arg2:T11	
+T12	LP 465 487	1ฒก-7204 กรุงเทพมหานคร
+R4	vehicle_lp Arg1:T10 Arg2:T12	
+T13	PERSON 601 625	นายเกียรติศักดิ์ ปัญญาไว
+T14	TIME 631 636	19 ปี
+R5	own_vehicle Arg1:T13 Arg2:T7	
+R6	crime_located_at Arg1:T13 Arg2:T2	
+R7	crime_located_at Arg1:T13 Arg2:T3	
+R8	crime_located_at Arg1:T13 Arg2:T4	

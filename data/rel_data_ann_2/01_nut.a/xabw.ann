@@ -1,0 +1,21 @@
+T1	DATE 8 15	22 ม.ค.
+T2	PERSON 54 73	นายสราวุธ ศิลป์มั่น
+T3	TIME 79 84	29 ปี
+T4	WEAPON 104 115	ปืน เอ็ม 16
+T5	ORGANIZATION 119 128	ค่าย ร.31
+T6	LOCATION 129 137	จ.ลพบุรี
+T7	VEHICLE 144 159	รถกระบะ โตโยต้า
+T8	COLOR 160 168	สีบรอนซ์
+T9	LP 184 198	บบ 4245 ลพบุรี
+T10	LOCATION 466 479	แยกประชาอุทิศ
+T11	LOCATION 481 493	แยกเหม่งจ๋าย
+T12	LOCATION 495 499	กทม.
+T13	PERSON 537 546	นายสราวุธ
+R1	own_weapon Arg1:T2 Arg2:T4	
+R2	crime_located_at Arg1:T2 Arg2:T6	
+R3	own_vehicle Arg1:T2 Arg2:T7	
+R4	color_of Arg1:T7 Arg2:T8	
+R5	vehicle_lp Arg1:T7 Arg2:T9	
+R6	crime_located_at Arg1:T2 Arg2:T10	
+R7	crime_located_at Arg1:T2 Arg2:T11	
+R8	crime_located_at Arg1:T2 Arg2:T12	

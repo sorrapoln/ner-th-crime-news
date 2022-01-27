@@ -1,0 +1,53 @@
+T1	DATE 8 19	12 พ.ค.2564
+T2	ORGANIZATION 60 80	กองบังคับการปราบปราม
+T3	LOCATION 104 123	จังหวัดสุราษฎร์ธานี
+T4	VEHICLE 138 144	รถยนต์
+T5	LOCATION 157 160	ม.8
+T6	LOCATION 161 171	ต.เกาะพงัน
+T7	LOCATION 172 182	อ เกาะพงัน
+T8	LOCATION 183 197	จ.สุราษฎร์ธานี
+T9	LOCATION 231 240	ต.บ้านใต้
+T10	LOCATION 241 252	อ.เกาะพะงัน
+T11	LOCATION 253 267	จ.สุราษฎร์ธานี
+T12	LOCATION 298 301	ม.1
+T13	LOCATION 302 311	ต.บ้านใต้
+T14	LOCATION 312 323	อ.เกาะพะงัน
+T15	LOCATION 324 338	จ.สุราษฎร์ธานี
+T16	LOCATION 352 367	จังหวัดเกาะสมุย
+T17	PERSON 420 436	นายโกศล เรืองดุก
+T18	PERSON 441 445	ตุ้ม
+T19	PERSON 473 482	นายทิวากร
+R1	crime_relation Arg1:T19 Arg2:T17	
+R2	crime_relation Arg1:T19 Arg2:T18	
+T20	PERSON 593 617	พ.ต.ท.ธนวัฒน์ หิ้นยกฮิ่น
+T21	ORGANIZATION 628 633	บก.ป.
+R3	employee_or_member_of Arg1:T20 Arg2:T21	
+T22	DATE 657 667	3 พ.ค.2564
+T23	PERSON 668 679	นางจินดาหรา
+T24	DATE 752 762	2 พ.ค.2564
+T25	TIME 774 782	22.00 น.
+T26	PERSON 783 790	นายโกศล
+T27	LOCATION 824 837	บ้านเลขที่ 89
+T28	LOCATION 838 844	หมู่ 5
+T29	LOCATION 845 852	ต.ตะกรบ
+T30	LOCATION 853 859	อ.ไชยา
+T31	LOCATION 860 874	จ.สุราษฎร์ธานี
+T32	TIME 891 899	01.00 น.
+T33	DATE 910 920	3 พ.ค.2564
+T34	PERSON 936 943	นายโกศล
+T35	PERSON 964 971	นายโกศล
+T36	ORGANIZATION 1076 1083	สภ.ไชยา
+R4	crime_date_at Arg1:T19 Arg2:T24	
+R5	crime_time_at Arg1:T19 Arg2:T25	
+R6	crime_relation Arg1:T19 Arg2:T26	
+R7	crime_located_at Arg1:T19 Arg2:T27	
+R8	crime_located_at Arg1:T19 Arg2:T28	
+R9	crime_located_at Arg1:T19 Arg2:T29	
+R10	crime_located_at Arg1:T19 Arg2:T30	
+R11	crime_located_at Arg1:T19 Arg2:T31	
+R12	crime_relation Arg1:T19 Arg2:T34	
+R13	crime_relation Arg1:T19 Arg2:T35	
+R14	located_at Arg1:T19 Arg2:T12	
+R15	located_at Arg1:T19 Arg2:T13	
+R16	located_at Arg1:T19 Arg2:T14	
+R17	located_at Arg1:T19 Arg2:T15	

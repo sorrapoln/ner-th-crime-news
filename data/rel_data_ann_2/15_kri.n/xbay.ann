@@ -1,0 +1,12 @@
+T1	DATE 12 23	13 พ.ย.2564
+T2	LOCATION 124 132	อ.แม่อาย
+T3	LOCATION 133 144	จ.เชียงใหม่
+T4	OBJECT 180 190	กระเป๋าเป้
+T5	OBJECT 196 224	2 แสนเม็ด รวมกว่า 6 ล้านเม็ด
+T6	PERSON 225 245	พล.ต.นฤทธิ์ ถาวรวงษ์
+T7	LOCATION 372 385	ต.สันต้นหมื้อ
+T8	LOCATION 386 394	อ.แม่อาย
+R1	found_object_at Arg1:T4 Arg2:T7	
+R2	found_object_at Arg1:T4 Arg2:T8	
+R3	found_object_at Arg1:T5 Arg2:T7	
+R4	found_object_at Arg1:T5 Arg2:T8	

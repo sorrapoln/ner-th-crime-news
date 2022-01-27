@@ -1,0 +1,20 @@
+T1	PERSON 20 39	ส.ต.ต.นรวิชญ์ บัวดก
+T2	VEHICLE 86 114	รถจักรยานยนต์ DUCATI MONSTER
+T3	COLOR 115 120	สีแดง
+T4	LP 136 153	1กผ 9942 เชียงราย
+T5	PERSON 157 184	พญ.วราลัคน์ สุภวัตรจริยากุล
+T6	ORGANIZATION 204 227	สถาบันไตภูมิราชนครินทร์
+T7	LOCATION 228 236	ถนนพญาไท
+T8	DATE 249 263	21 มกราคม 2565
+T9	PERSON 273 284	พญ.วราลัคน์
+T10	PERSON 351 375	พล.ต.ต.นครินทร์ สุคนธวิท
+T11	PERSON 394 407	ส.ต.ต.นรวิชญ์
+T12	ORGANIZATION 460 468	สน.พญาไท
+R1	crime_relation Arg1:T1 Arg2:T5	
+R2	own_vehicle Arg1:T1 Arg2:T2	
+R3	color_of Arg1:T2 Arg2:T3	
+R4	vehicle_lp Arg1:T2 Arg2:T4	
+R5	crime_located_at Arg1:T1 Arg2:T7	
+R6	crime_date_at Arg1:T1 Arg2:T8	
+T13	ORGANIZATION 48 79	กองร้อยที่ 2 กก.อารักขา บก.อคฝ.
+R7	employee_or_member_of Arg1:T1 Arg2:T13	

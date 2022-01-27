@@ -1,0 +1,25 @@
+T1	PERSON 0 11	นายชาญณรงค์
+T2	PERSON 16 19	จุก
+T3	PERSON 24 30	นายชิน
+T4	TIME 36 41	79 ปี
+T5	LOCATION 57 67	ตำบลท่าชนะ
+T6	LOCATION 68 79	อำเภอท่าชนะ
+T7	LOCATION 80 99	จังหวัดสุราษฎร์ธานี
+T8	ORGANIZATION 108 128	กองบังคับการปราบปราม
+T9	LOCATION 155 166	ตำบลพุทธบาท
+T10	LOCATION 167 177	อำเภอชนแดน
+T11	LOCATION 178 194	จังหวัดเพชรบูรณ์
+T12	ORGANIZATION 225 239	ศาลจังหวัดไชยา
+T13	DATE 249 265	5 พฤศจิกายน 2546
+T14	DATE 318 332	6 พฤษภาคม 2540
+T15	WEAPON 358 370	ปืนลูกซองยาว
+T16	WEAPON 373 390	อาวุธปืน ขนาด .38
+T17	PERSON 397 408	นายสิทธิโชค
+T18	LOCATION 496 515	จังหวัดสุราษฎร์ธานี
+T19	PERSON 630 641	นายชาญณรงค์
+R1	crime_relation Arg1:T1 Arg2:T17	
+R2	crime_relation Arg1:T2 Arg2:T17	
+R3	crime_relation Arg1:T3 Arg2:T17	
+R4	own_weapon Arg1:T1 Arg2:T15	
+R5	own_weapon Arg1:T1 Arg2:T16	
+R6	crime_date_at Arg1:T1 Arg2:T14	

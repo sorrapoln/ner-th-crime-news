@@ -1,0 +1,24 @@
+T1	PERSON 0 28	พล.ต.ต.พงศ์อานันต์ คล้ายคลึง
+T2	PERSON 103 131	พ.ต.อ.สุรเวช การวัฒนาศิริกุล
+T3	ORGANIZATION 136 148	สน.ภาษีเจริญ
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T4	PERSON 159 185	พ.ต.ท.ศิริชาติ จันทร์พรมมา
+T5	ORGANIZATION 196 208	สน.ภาษีเจริญ
+R2	employee_or_member_of Arg1:T4 Arg2:T5	
+T6	PERSON 223 231	นายวัฒน์
+T7	TIME 249 254	20 ปี
+T8	WEAPON 281 292	มีดปอกผลไม้
+T9	ORGANIZATION 328 340	สน.ภาษีเจริญ
+T10	WEAPON 347 350	มีด
+R3	own_weapon Arg1:T6 Arg2:T8	
+T11	PERSON 431 439	นายวัฒน์
+T12	LOCATION 496 510	ซอยเพชรเกษม 54
+R4	located_at Arg1:T6 Arg2:T12	
+T13	VEHICLE 539 543	จยย.
+R5	own_vehicle Arg1:T6 Arg2:T13	
+T14	ORGANIZATION 553 565	สน.ภาษีเจริญ
+T15	PERSON 850 870	ด.ต.ไชยพิพัฒน์ ยังใจ
+T16	ORGANIZATION 884 896	สน.ภาษีเจริญ
+R6	employee_or_member_of Arg1:T15 Arg2:T16	
+T17	WEAPON 900 903	มีด
+T18	ORGANIZATION 955 980	รพ.มิตรประชา (เพชรเกษม 2)

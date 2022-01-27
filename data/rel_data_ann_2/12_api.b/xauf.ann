@@ -1,0 +1,19 @@
+T2	ORGANIZATION 21 31	สภ.ธาตุพนม
+T3	LOCATION 32 40	จ.นครพนม
+T4	WEAPON 58 66	อาวุธมีด
+T5	LOCATION 139 168	ศาลาใกล้เมรุหลังวัดพระธาตุพนม
+T6	PERSON 178 199	พระทองพูน เรืองศักดิ์
+T7	TIME 204 209	57 ปี
+T8	ORGANIZATION 319 344	รพ.สมเด็จพระยุพราชธาตุพนม
+T9	PERSON 359 374	พระสถิต อินธิรา
+T10	TIME 380 385	30 ปี
+T11	WEAPON 389 413	มีดปลายแหลมยาว 8-10 นิ้ว
+T12	PERSON 421 430	พระสถิตย์
+R1	crime_relation Arg1:T9 Arg2:T6	
+R2	own_weapon Arg1:T9 Arg2:T11	
+T13	WEAPON 434 437	มีด
+T14	TIME 460 467	20 นาที
+T1	DATE 7 13	17 ก.พ
+R3	crime_date_at Arg1:T9 Arg2:T1	
+R4	crime_located_at Arg1:T9 Arg2:T5	
+T15	PERSON 579 586	พระสถิต

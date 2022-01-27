@@ -1,0 +1,29 @@
+T1	DATE 12 18	11 ก.ค
+T2	PERSON 20 40	ร.ต.อ.พงศกร อ่อนสลวย
+T3	ORGANIZATION 59 66	สภ.สตึก
+T4	LOCATION 67 73	อ.สตึก
+T5	LOCATION 74 85	จ.บุรีรัมย์
+T6	DATE 119 126	10 ก.ค.
+T7	ORGANIZATION 167 180	โรงพยาบาลสตึก
+T8	PERSON 211 219	นายสำราญ
+T9	TIME 240 245	69 ปี
+T10	WEAPON 280 292	ปืนลูกซองยาว
+T11	ORGANIZATION 360 383	โรงพยาบาลศูนย์บุรีรัมย์
+T12	PERSON 402 411	นายทองพูล
+T13	TIME 432 437	72 ปี
+T14	PERSON 462 470	นายสำราญ
+T15	ORGANIZATION 483 490	สภ.สตึก
+T16	PERSON 500 509	นายทองพูล
+T17	PERSON 553 562	นายทองพูล
+T18	PERSON 648 653	น้ำฝน
+T19	PERSON 725 730	น้ำฝน
+T20	PERSON 763 773	น.ส. น้ำฝน
+T21	TIME 793 798	31 ปี
+T22	PERSON 853 861	นายสำราญ
+T23	PERSON 865 874	นายทองพูล
+T24	PERSON 941 949	นายสำราญ
+T25	PERSON 1019 1028	นายทองพูล
+T26	PERSON 1282 1291	นายทองพูล
+R1	crime_relation Arg1:T12 Arg2:T8	
+R2	own_weapon Arg1:T12 Arg2:T10	
+R3	crime_date_at Arg1:T12 Arg2:T6	

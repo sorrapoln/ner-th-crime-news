@@ -1,0 +1,21 @@
+T1	DATE 7 14	17 ม.ค.
+T2	VEHICLE 70 76	รถเก๋ง
+T3	VEHICLE 78 91	รถจักรยานยนต์
+T4	ORGANIZATION 122 137	โรงพยาบาลภูมิพล
+T5	LOCATION 138 149	ถนนพหลโยธิน
+T6	PERSON 156 174	นายศิวะ สิงหะภูกาม
+T7	PERSON 178 200	นายชัยวัฒน์ สังข์เผือก
+T8	PERSON 399 419	นายชนินทร์ สุดนิมิตร
+T9	VEHICLE 425 437	รถเก๋งมาสด้า
+T10	COLOR 438 442	สีดำ
+T11	LP 451 468	7 กฌ4457 กรุงเทพฯ
+T12	PERSON 483 493	นายชนินทร์
+T13	PERSON 552 573	นายนันวัฒน์ บุญทันกิจ
+T14	TIME 579 584	22 ปี
+R1	own_vehicle Arg1:T8 Arg2:T9	
+R2	color_of Arg1:T9 Arg2:T10	
+R3	vehicle_lp Arg1:T9 Arg2:T11	
+R4	crime_located_at Arg1:T8 Arg2:T5	
+R5	crime_relation Arg1:T8 Arg2:T6	
+R6	crime_relation Arg1:T8 Arg2:T7	
+R7	crime_date_at Arg1:T8 Arg2:T1	

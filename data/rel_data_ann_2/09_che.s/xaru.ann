@@ -1,0 +1,32 @@
+T1	PERSON 26 40	คูณ งามภูเขียว
+T2	TIME 286 292	1 นาที
+T3	LOCATION 187 194	เมียนมา
+T4	LOCATION 195 201	อังกฤษ
+T5	LOCATION 221 224	ไทย
+T6	PERSON 327 334	นางข่าย
+T7	LOCATION 338 342	พม่า
+T8	ORGANIZATION 358 390	บ.ท็อปฟิชชิ่งเน็ท แอนด์โรป จำกัด
+T9	LOCATION 391 403	ต.ลาดตะเคียน
+R1	employee_or_member_of Arg1:T6 Arg2:T8	
+T10	LOCATION 404 417	อ.กบินทร์บุรี
+T11	LOCATION 418 430	จ.ปราจีนบุรี
+T12	DATE 507 529	14 พฤศจิกายน พ.ศ. 2564
+T13	TIME 535 543	08:10 น.
+T14	LOCATION 565 572	เมียนมา
+T15	ORGANIZATION 644 658	สภ.กบินทร์บุรี
+T16	PERSON 669 678	นางสาวดาว
+T17	PERSON 697 716	นายบุญหลาย บัวพันธ์
+T18	TIME 722 727	21 ปี
+T19	LOCATION 736 750	ตำบลเขาไม้แก้ว
+T20	LOCATION 751 767	อำเภอกบินทร์บุรี
+T21	LOCATION 768 785	จังหวัดปราจีนบุรี
+T22	LOCATION 889 899	อ.วัฒนานคร
+T23	LOCATION 900 909	จ.สระแก้ว
+T24	PERSON 933 942	นางสาวดาว
+T25	LOCATION 961 970	จ.สระแก้ว
+R2	crime_relation Arg1:T17 Arg2:T6	
+R3	located_at Arg1:T6 Arg2:T9	
+R4	located_at Arg1:T6 Arg2:T10	
+R5	located_at Arg1:T6 Arg2:T11	
+R6	crime_date_at Arg1:T17 Arg2:T12	
+R7	crime_time_at Arg1:T17 Arg2:T13	

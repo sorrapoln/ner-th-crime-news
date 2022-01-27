@@ -1,0 +1,33 @@
+T1	LOCATION 14 23	กาญจนบุรี
+T2	PERSON 35 53	นายพิษณุ นาคเถื่อน
+T3	PERSON 59 63	เล็ก
+T4	TIME 69 74	23 ปี
+T5	PERSON 78 96	นายพุทธชัย ทองมั่น
+T6	TIME 111 116	17 ปี
+T7	PERSON 102 105	เวฟ
+T8	PERSON 139 159	นายศุภเดช ช้อยสามนาค
+T9	TIME 165 170	37 ปี
+T10	LOCATION 220 235	บ้านหนองสามพราน
+T11	LOCATION 236 245	ต.ลาดหญ้า
+T12	LOCATION 246 262	อ.เมืองกาญจนบุรี
+T13	DATE 277 283	16 ส.ค
+T14	PERSON 409 417	นายพิษณุ
+T15	LOCATION 525 540	ประจวบคีรีขันธ์
+T16	PERSON 590 600	นายพุทธชัย
+T17	WEAPON 604 607	มีด
+T18	OBJECT 641 650	ปากกาเมจิ
+T19	LP 674 690	กบ 218 กาญจนบุรี
+T20	LP 703 719	กบ 248 กาญจนบุรี
+T21	LOCATION 741 758	จ.ประจวบคีรีขันธ์
+R1	crime_relation Arg1:T2 Arg2:T8	
+R2	crime_relation Arg1:T5 Arg2:T8	
+R3	own_weapon Arg1:T2 Arg2:T17	
+R4	own_weapon Arg1:T5 Arg2:T17	
+R5	crime_located_at Arg1:T2 Arg2:T10	
+R6	crime_located_at Arg1:T2 Arg2:T11	
+R7	crime_located_at Arg1:T2 Arg2:T12	
+R8	crime_located_at Arg1:T5 Arg2:T10	
+R9	crime_located_at Arg1:T5 Arg2:T11	
+R10	crime_located_at Arg1:T5 Arg2:T12	
+R11	crime_date_at Arg1:T2 Arg2:T13	
+R12	crime_date_at Arg1:T5 Arg2:T13	

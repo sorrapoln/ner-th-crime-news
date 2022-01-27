@@ -1,0 +1,36 @@
+T1	TIME 10 18	06.30 น.
+T2	DATE 26 37	24 ก.ย.2564
+T3	PERSON 38 62	ร.ต.อ.ธีรทัศน์ ธรรมรัตน์
+T4	ORGANIZATION 82 90	สภ.รัษฏา
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	LOCATION 138 148	ต.หนองปรือ
+T6	LOCATION 149 156	อ.รัษฎา
+T7	LOCATION 157 163	จ.ตรัง
+T8	PERSON 196 215	พ.ต.อ.ปรีดี นาคช่วย
+T9	ORGANIZATION 220 228	สภ.รัษฎา
+R2	employee_or_member_of Arg1:T8 Arg2:T9	
+T10	ORGANIZATION 287 316	หน่วยกู้ภัยสว่างภักดี อ.รัษฎา
+T11	PERSON 360 369	นายสมพงศ์
+T12	TIME 391 396	46 ปี
+T13	WEAPON 427 451	ปืนลูกซองสั้นไทยประดิษฐ์
+T14	PERSON 552 559	นายสมพร
+T15	TIME 581 586	51 ปี
+T16	PERSON 643 653	นางสุภาวดี
+T17	TIME 675 680	53 ปี
+T18	VEHICLE 741 775	รถจักรยานยนต์ ยี่ห้อฮอนด้า เวฟ 100
+T19	LP 784 804	ขฉร938 นครศรีธรรมราช
+R3	vehicle_lp Arg1:T18 Arg2:T19	
+R4	own_weapon Arg1:T14 Arg2:T13	
+R5	crime_relation Arg1:T14 Arg2:T11	
+R6	own_vehicle Arg1:T11 Arg2:T18	
+T20	PERSON 952 962	นางสุภาวดี
+T21	PERSON 1388 1398	นางสุภาวดี
+T22	PERSON 1724 1736	น.ส.แสงเดือน
+T23	ORGANIZATION 2110 2132	โรงพยาบาลสงขลานครินทร์
+T24	LOCATION 2140 2149	อ.หาดใหญ่
+T25	LOCATION 2150 2157	จ.สงขลา
+R7	crime_located_at Arg1:T14 Arg2:T5	
+R8	crime_located_at Arg1:T14 Arg2:T6	
+R9	crime_located_at Arg1:T14 Arg2:T7	
+R10	crime_date_at Arg1:T14 Arg2:T2	
+R11	crime_time_at Arg1:T14 Arg2:T1	

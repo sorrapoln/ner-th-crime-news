@@ -1,0 +1,41 @@
+T1	DATE 12 21	22 มกราคม
+T2	ORGANIZATION 25 53	กองบังคับการปราบปราม (บก.ป.)
+T3	PERSON 54 74	พล.ต.ท.จิรภพ ภูริเดช
+R1	employee_or_member_of Arg1:T3 Arg2:T2	
+T4	PERSON 93 112	พล.ต.ต.มนตรี เทศขัน
+T5	PERSON 124 148	พ.ต.อ.วิระชาญ ขุนไชยแก้ว
+R2	employee_or_member_of Arg1:T4 Arg2:T2	
+R3	employee_or_member_of Arg1:T5 Arg2:T2	
+T6	PERSON 175 183	นายวิษณุ
+T7	TIME 203 208	39 ปี
+T8	ORGANIZATION 228 248	ศาลจังหวัดสุพรรณบุรี
+T9	TIME 270 280	23 เม.ย.58
+T10	LOCATION 436 444	ต.ไสหร้า
+T12	LOCATION 452 467	จ.นครศรีธรรมราช
+T13	DATE 491 498	ปี 2553
+T11	LOCATION 445 451	อ.ฉวาง
+T14	PERSON 529 536	น.ส.ปลา
+T15	PERSON 554 562	นายวิษณุ
+T16	PERSON 570 577	น.ส.ปลา
+T17	PERSON 618 626	นายวิษณุ
+T18	PERSON 674 682	นายวิษณุ
+T19	WEAPON 706 715	ท่อนเหล็ก
+R4	own_weapon Arg1:T18 Arg2:T19	
+T20	PERSON 723 730	น.ส.ปลา
+T21	LOCATION 765 775	อ.ด่านช้าง
+T22	LOCATION 776 788	จ.สุพรรณบุรี
+T23	PERSON 826 833	น.ส.ปลา
+T24	PERSON 849 857	นายวิษณุ
+T25	PERSON 876 883	น.ส.ปลา
+T26	WEAPON 898 907	ท่อนเหล็ก
+T27	WEAPON 962 971	ท่อนเหล็ก
+T28	VEHICLE 993 1006	รถจักรยานยนต์
+T29	LOCATION 1014 1028	ชุมชนเขาน้ำแดง
+T30	LOCATION 1029 1039	อ.ด่านช้าง
+T31	LOCATION 1040 1052	จ.สุพรรณบุรี
+T32	PERSON 1058 1066	นายวิษณุ
+T33	PERSON 1097 1105	นายวิษณุ
+T34	PERSON 1255 1263	นายวิษณุ
+T35	VEHICLE 1272 1285	รถจักรยานยนต์
+R5	crime_located_at Arg1:T24 Arg2:T21	
+R6	crime_located_at Arg1:T24 Arg2:T22	

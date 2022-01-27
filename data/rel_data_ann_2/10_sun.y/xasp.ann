@@ -1,0 +1,17 @@
+T1	DATE 7 17	28 ม.ค. 62
+T2	TIME 28 36	22.30 น.
+T3	ORGANIZATION 42 52	สภ.วังโป่ง
+T4	LOCATION 53 64	จ.เพชรบูรณ์
+T5	LOCATION 137 143	หมู่ 9
+T6	LOCATION 144 154	บ้านไร่ฝาย
+T7	LOCATION 121 136	ทางเข้าหมู่บ้าน
+T8	LOCATION 155 164	ต.วังโป่ง
+T9	LOCATION 165 174	อ.วังโป่ง
+T10	VEHICLE 190 214	จักรยานยนต์ ยี่ห้อฮอนด้า
+T11	COLOR 215 224	สีแดง-ขาว
+R1	color_of Arg1:T10 Arg2:T11	
+T12	LP 240 261	องจ กรุงเทพมหานคร 898
+R2	vehicle_lp Arg1:T10 Arg2:T12	
+T13	LOCATION 283 299	ไร่ข้าวโพดริมถนน
+T14	PERSON 305 325	นายอภิสิทธิ์ หอยเพชร
+T15	TIME 331 336	31 ปี

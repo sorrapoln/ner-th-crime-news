@@ -1,0 +1,16 @@
+T1	DATE 7 19	13 ก.ย. 2562
+T2	ORGANIZATION 46 63	สภ.เมืองเพชรบูรณ์
+T3	LOCATION 128 146	สี่แยกบายพาสป่าแดง
+T4	LOCATION 147 154	หมู่ 10
+T5	LOCATION 155 163	ต.ป่าเลา
+T6	LOCATION 164 171	อ.เมือง
+T7	LOCATION 172 183	จ.เพชรบูรณ์
+T8	PERSON 292 300	นายเสริม
+T9	TIME 306 311	74 ปี
+T10	OBJECT 449 460	ขวดเหล้าขาว
+R1	found_object_at Arg1:T10 Arg2:T3	
+R2	found_object_at Arg1:T10 Arg2:T4	
+R3	found_object_at Arg1:T10 Arg2:T5	
+R4	found_object_at Arg1:T10 Arg2:T6	
+R5	found_object_at Arg1:T10 Arg2:T7	
+T11	TIME 522 532	10 ชั่วโมง

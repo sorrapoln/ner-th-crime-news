@@ -1,0 +1,51 @@
+T1	TIME 10 18	13.30 น.
+T2	DATE 26 36	19 พ.ย. 64
+T3	PERSON 37 61	พ.ต.ต.สินสมุทร์ บุญทัศนา
+T4	ORGANIZATION 74 88	สภ.บางศรีเมือง
+T5	LOCATION 89 96	อ.เมือง
+T6	LOCATION 97 106	จ.นนทบุรี
+T7	ORGANIZATION 129 145	ปั๊มน้ำมันบางจาก
+T8	LOCATION 150 159	แยกท่าอิฐ
+T9	LOCATION 160 175	ถนนรัตนาธิเบศร์
+T10	LOCATION 187 199	ต.บางรักน้อย
+T11	PERSON 218 243	พล.ต.ต.ไพศาล วงศ์วัชรมงคล
+T12	ORGANIZATION 248 259	ภ.จ.นนทบุรี
+T13	PERSON 260 279	พ.ต.อ.วันชัย ชูจิตร
+T14	ORGANIZATION 284 298	สภ.บางศรีเมือง
+T15	ORGANIZATION 339 363	กู้ภัยมูลนิธิป่อเต็กตึ๊ง
+T16	ORGANIZATION 304 325	สถาบันนิติวิทยาศาสตร์
+T17	VEHICLE 379 403	รถเก๋งโตโยต้า รุ่นคัมรี่
+T18	COLOR 404 412	สีบรอนซ์
+T19	LP 428 441	1ขด 2858 กทม.
+T20	PERSON 483 502	น.ส.ดนัยพร เสาวพงษ์
+T21	TIME 508 513	22 ปี
+T22	ORGANIZATION 522 556	คณะวิศวกรรมรถไฟ มหาวิทยาลัยศรีปทุม
+T23	LOCATION 574 580	หมู่ 2
+T24	LOCATION 581 591	ต.บางคูรัด
+T25	LOCATION 592 603	อ.บางบัวทอง
+T26	LOCATION 604 613	จ.นนทบุรี
+T27	ORGANIZATION 644 662	มหาวิทยาลัยศรีปทุม
+T28	OBJECT 806 838	ปลอกกระสุนขนาด .380 จำนวน 3 ปลอก
+T29	PERSON 891 913	นายกิตติภูมิ ศิริวัฒน์
+T30	TIME 919 924	64 ปี
+T31	ORGANIZATION 971 991	ห้างเซ็นทรัลเวสต์เกต
+T32	LOCATION 992 999	บางใหญ่
+T33	LOCATION 1007 1016	ตรอกสีคาม
+T34	LOCATION 1017 1030	แขวงนครไชยศรี
+T35	LOCATION 1031 1039	เขตดุสิต
+T36	LOCATION 1040 1044	กทม.
+T37	WEAPON 1086 1117	ปืนสั้นแบบบีบีกันดัดแปลงลำกล้อง
+R1	crime_relation Arg1:T29 Arg2:T20	
+R2	crime_located_at Arg1:T29 Arg2:T8	
+R3	located_at Arg1:T29 Arg2:T33	
+R4	located_at Arg1:T29 Arg2:T34	
+R5	located_at Arg1:T29 Arg2:T35	
+R6	located_at Arg1:T29 Arg2:T36	
+R7	own_weapon Arg1:T29 Arg2:T37	
+R8	found_object_at Arg1:T28 Arg2:T7	
+R9	found_object_at Arg1:T28 Arg2:T8	
+R10	found_object_at Arg1:T28 Arg2:T9	
+R11	found_object_at Arg1:T28 Arg2:T10	
+R12	employee_or_member_of Arg1:T20 Arg2:T22	
+R13	employee_or_member_of Arg1:T11 Arg2:T12	
+R14	employee_or_member_of Arg1:T13 Arg2:T14	

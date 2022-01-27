@@ -1,0 +1,28 @@
+T1	PERSON 17 44	พ.ต.ต.เกียรติศักดิ์ เกิดโชค
+T2	ORGANIZATION 62 71	สภ.ไทรโยค
+R1	employee_or_member_of Arg1:T1 Arg2:T2	
+T3	LOCATION 72 83	จ.กาญจนบุรี
+T4	VEHICLE 129 136	รถกระบะ
+T5	VEHICLE 142 156	รถบรรทุก10 ล้อ
+T6	VEHICLE 165 176	บรรทุก10ล้อ
+T7	LOCATION 237 247	ถนนสาย 323
+T8	LOCATION 248 264	ไทรโยค-ทองผาภูมิ
+T9	LOCATION 275 287	วัดท่าทุ่งนา
+T10	LOCATION 288 294	หมู่ 2
+T11	LOCATION 295 303	ต.ไทรโยค
+T12	LOCATION 304 313	อ.ไทรโยคฯ
+T13	ORGANIZATION 366 389	รพ.สมเด็จพระปิยะมหาราชฯ
+T14	ORGANIZATION 438 460	มูลนิธิกู้ภัยกาญจนบุรี
+T15	ORGANIZATION 479 499	มูลนิธิพิทักษ์กาญจน์
+T16	LOCATION 512 521	บ้านพุเตย
+T17	LOCATION 522 538	บ้านทุ่งก้างย่าง
+T18	LOCATION 539 553	บ้านไทรโยคใหญ่
+T19	LOCATION 554 566	บ้านลิ่นถิ่น
+T20	VEHICLE 666 693	รถกระบะ ยี่ห้ออีซูซุดีแมคซ์
+T21	COLOR 693 705	สีบอรนท์เงิน
+R2	color_of Arg1:T20 Arg2:T21	
+T22	LP 721 737	จังหวัดกาญจนบุรี
+R3	vehicle_lp Arg1:T20 Arg2:T22	
+T23	VEHICLE 786 818	รถบรรทุกพ่วง 10 ล้อ ยี่ห้ออีซูซุ
+T24	LP 834 853	81-5575 สมุทรปราการ
+R4	vehicle_lp Arg1:T23 Arg2:T24	

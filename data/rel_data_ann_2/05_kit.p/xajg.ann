@@ -1,0 +1,44 @@
+T1	TIME 10 18	01.13 น.
+T2	DATE 26 43	17 พฤศจิกายน 2564
+T3	PERSON 44 71	ร.ต.ท.สุรเชษฐ์ โชติเรืองนภา
+T4	ORGANIZATION 87 108	สภ.เมืองนครศรีธรรมราช
+R1	employee_or_member_of Arg1:T3 Arg2:T4	
+T5	LOCATION 162 177	บ้านเลขที่ 93/1
+T6	LOCATION 178 184	หมู่ 4
+T7	LOCATION 185 193	ต.ปากนคร
+T8	LOCATION 194 214	อ.เมืองนครศรีธรรมราช
+T9	PERSON 228 247	พ.ต.ท.อภิรัช ทองฉิม
+T10	PERSON 265 289	พ.ต.ท.ณัฐภัทร พุทธังกุโร
+T11	ORGANIZATION 307 329	รพ.มหาราชนครศรีธรรมราช
+T12	ORGANIZATION 342 360	มูลนิธิใต้เต็กตึ๊ง
+T13	PERSON 495 514	ด.ญ.นิชาภัทร จรจรัส
+T14	PERSON 520 528	น้องนิชา
+T15	PERSON 701 721	นายเชาวรินทร์ จรจรัส
+T16	TIME 727 732	31 ปี
+T17	LOCATION 756 762	อ.ฉวาง
+T18	LOCATION 763 778	จ.นครศรีธรรมราช
+R2	located_at Arg1:T15 Arg2:T17	
+R3	located_at Arg1:T15 Arg2:T18	
+T19	WEAPON 797 816	กระสุนปืนขนาด 9 มม.
+T20	WEAPON 592 601	กระสุนปืน
+T21	ORGANIZATION 867 895	โรงพยาบาลมหาราชนครศรีธรรมราช
+T22	OBJECT 953 962	ปืน 9 มม.
+T23	PERSON 1040 1053	นายเชาวรินทร์
+T24	LOCATION 1081 1088	หมู่ 11
+T25	LOCATION 1089 1095	ต.นาแว
+T26	LOCATION 1096 1102	อ.ฉวาง
+T27	LOCATION 1103 1118	จ.นครศรีธรรมราช
+T28	VEHICLE 1125 1151	รถยนต์กระบะโตโยต้า 4 ประตู
+T29	LP 1160 1181	กษ 5961 นครศรีธรรมราช
+R4	vehicle_lp Arg1:T28 Arg2:T29	
+T30	PERSON 1218 1235	นางวันนิภา จรจรัส
+T31	TIME 1241 1246	27 ปี
+T32	PERSON 1256 1275	ด.ญ.นิชาภัทร จรจรัส
+T33	PERSON 1280 1288	น้องนิชา
+T34	PERSON 1322 1332	นางวันนิภา
+T35	PERSON 1459 1469	นางวันนิภา
+T36	LOCATION 1512 1521	อำเภอฉวาง
+R5	found_object_at Arg1:T22 Arg2:T5	
+R6	found_object_at Arg1:T22 Arg2:T6	
+R7	found_object_at Arg1:T22 Arg2:T7	
+R8	found_object_at Arg1:T22 Arg2:T8	

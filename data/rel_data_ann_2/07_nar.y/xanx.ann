@@ -1,0 +1,17 @@
+T1	DATE 7 19	23 ม.ค. 2565
+T2	PERSON 27 54	พญ.วราลัคน์ สุภวัตรจริยากุล
+T3	ORGANIZATION 104 139	คณะแพทยศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย
+R1	employee_or_member_of Arg1:T2 Arg2:T3	
+T4	ORGANIZATION 171 194	สถาบันไตภูมิราชนครินทร์
+T5	LOCATION 195 203	ถนนพญาไท
+T6	PERSON 210 229	ส.ต.ต.นรวิชญ์ บัวดก
+T7	VEHICLE 269 293	ขี่บิ๊กไบค์ ยี่ห้อดูคาติ
+T8	COLOR 294 299	สีแดง
+T9	PERSON 303 314	พญ.วราลัคน์
+T10	PERSON 331 355	พล.ต.ต.นครินทร์ สุคนธวิท
+T11	PERSON 428 441	ส.ต.ต.นรวิชญ์
+T12	PERSON 485 496	พญ.วราลัคน์
+T13	ORGANIZATION 588 596	สน.พญาไท
+R2	crime_relation Arg1:T6 Arg2:T2	
+R3	own_vehicle Arg1:T6 Arg2:T7	
+R4	color_of Arg1:T7 Arg2:T8	

@@ -1,0 +1,14 @@
+T1	PERSON 95 107	นายจักรกฤษณ์
+T2	WEAPON 116 125	ปืนลูกโม่
+R1	own_weapon Arg1:T1 Arg2:T2	
+T3	WEAPON 188 191	ปืน
+R2	own_weapon Arg1:T1 Arg2:T3	
+T4	PERSON 320 332	นายจักรกฤษณ์
+T5	VEHICLE 347 360	รถจักรยานยนต์
+T6	COLOR 360 364	สีดำ
+R3	color_of Arg1:T5 Arg2:T6	
+T7	LOCATION 396 407	ถนนพระราม 2
+T8	PERSON 490 502	นายจักรกฤษณ์
+T9	ORGANIZATION 561 571	สน.ท่าข้าม
+T10	WEAPON 707 710	ปืน
+R4	own_weapon Arg1:T1 Arg2:T10	

@@ -1,0 +1,29 @@
+T1	DATE 12 19	21 ม.ค.
+T2	PERSON 20 44	ร.ต.อ.เศกศักดิ์​ ศรี​สมอ
+T3	ORGANIZATION 60 68	สภ.​ไชยา
+T4	LOCATION 70 84	จ.สุราษฎร์ธานี
+T5	LOCATION 124 136	เลขที่ 160/3
+T6	LOCATION 137 143	หมู่ 4
+T7	LOCATION 144 151	ต.ตะกรบ
+T8	PERSON 217 237	พ.ต.อ.ไพศาล สังข์เทพ
+T9	LOCATION 250 263	.สุราษฎร์ธานี
+T10	PERSON 264 284	พ.ต.อ.อรุณพงษ์ ภารพบ
+T11	ORGANIZATION 290 297	สภ.ไชยา
+T12	PERSON 298 317	พ.ต.อ.วัฒนา เบ้าศรี
+T13	LOCATION 330 342	สุราษฎร์ธานี
+T14	ORGANIZATION 368 391	กู้ภัยมูลนิธิกุศลศรัทธา
+T15	LOCATION 392 398	อ.ไชยา
+T16	PERSON 514 533	นายประยงค์​ หวังอีน
+T17	PERSON 540 547	บังเล็ก
+T18	TIME 554 559	47 ปี
+T19	OBJECT 593 600	ไม้กวาด
+T20	WEAPON 631 634	ปืน
+T21	ORGANIZATION 810 817	สภ.ไชยา
+T22	PERSON 948 958	นายประยงค์
+T23	PERSON 1007 1021	พ.ต.อ.อรุณพงษ์
+T24	ORGANIZATION 1230 1247	ภ.จว.สุราษฎร์ธานี
+R1	located_at Arg1:T16 Arg2:T5	
+R2	located_at Arg1:T16 Arg2:T6	
+R3	located_at Arg1:T16 Arg2:T7	
+R4	employee_or_member_of Arg1:T2 Arg2:T3	
+R5	employee_or_member_of Arg1:T10 Arg2:T11	

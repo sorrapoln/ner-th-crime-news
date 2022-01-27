@@ -1,0 +1,41 @@
+T1	LOCATION 55 75	ใต้สะพานคลองชวดพร้าว
+T2	LOCATION 76 98	ถนนรัตนโกสินทร์ 200 ปี
+T3	LOCATION 99 105	หมู่ 4
+T4	LOCATION 106 114	ต.บางบ่อ
+T5	LOCATION 115 123	อ.บางบ่อ
+T6	LOCATION 124 137	จ.สมุทรปราการ
+T7	DATE 244 250	9 พ.ย.
+T8	DATE 401 410	14 พ.ย.64
+T9	PERSON 411 435	พ.ต.อ.กฤษณัฐ วงษ์กล้าหาญ
+T10	LOCATION 450 463	จ.สมุทรปราการ
+T11	ORGANIZATION 440 449	สภ.บางบ่อ
+T12	ORGANIZATION 493 514	ศาลจังหวัดสมุทรปราการ
+T13	DATE 560 569	13 พ.ย.64
+T14	PERSON 581 602	น.ส.อริสรา จีนสมบูรณ์
+T15	TIME 608 613	27 ปี
+T16	PERSON 614 633	นายเรวัติ์ จีนสำราญ
+T17	TIME 639 644	48 ปี
+T18	PERSON 649 672	น.ส.วราภรณ์ อิ่มสมบูรณ์
+T19	TIME 678 683	28 ปี
+T20	LOCATION 744 766	บ้านพักย่านบางขุนเทียน
+T21	LOCATION 767 771	กทม.
+T22	VEHICLE 787 808	จยย.ฮอนด้า พีซีเอ็กซ์
+T23	COLOR 811 814	ขาว
+T24	LP 823 841	1 กบ 9663 ร้อยเอ็ด
+T25	LOCATION 899 907	อ.บางบ่อ
+T26	LOCATION 908 921	จ.สมุทรปราการ
+T27	ORGANIZATION 943 952	สภ.บางบ่อ
+R1	color_of Arg1:T22 Arg2:T23	
+R2	vehicle_lp Arg1:T22 Arg2:T24	
+R3	own_vehicle Arg1:T14 Arg2:T22	
+R4	own_vehicle Arg1:T16 Arg2:T22	
+R5	own_vehicle Arg1:T18 Arg2:T22	
+R6	crime_located_at Arg1:T14 Arg2:T25	
+R7	crime_located_at Arg1:T14 Arg2:T26	
+R8	crime_located_at Arg1:T16 Arg2:T25	
+R9	crime_located_at Arg1:T16 Arg2:T26	
+R10	crime_located_at Arg1:T18 Arg2:T25	
+R11	crime_located_at Arg1:T18 Arg2:T26	
+R12	crime_date_at Arg1:T14 Arg2:T7	
+R13	crime_date_at Arg1:T16 Arg2:T7	
+R14	crime_date_at Arg1:T18 Arg2:T7	

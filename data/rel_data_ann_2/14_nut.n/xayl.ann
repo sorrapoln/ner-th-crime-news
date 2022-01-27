@@ -1,0 +1,19 @@
+T1	ORGANIZATION 28 44	สภ.ปากคลองรังสิต
+T2	LOCATION 45 55	จ.ปทุมธานี
+T3	PERSON 83 91	น.ส.ซิ้ม
+T4	TIME 97 102	48 ปี
+T5	LOCATION 122 140	ปากซอยร่วมสุข 7/24
+T6	LOCATION 141 144	ม.3
+T7	LOCATION 145 155	ต.บ้านใหม่
+T8	LOCATION 156 163	อ.เมือง
+T9	LOCATION 164 174	จ.ปทุมธานี
+T10	PERSON 262 279	นายรุธ นนภิภักดิ์
+T11	TIME 285 290	21 ปี
+R1	crime_relation Arg1:T10 Arg2:T3	
+R2	crime_located_at Arg1:T10 Arg2:T5	
+R3	crime_located_at Arg1:T10 Arg2:T6	
+R4	crime_located_at Arg1:T10 Arg2:T7	
+R5	crime_located_at Arg1:T10 Arg2:T8	
+R6	crime_located_at Arg1:T10 Arg2:T9	
+T12	LOCATION 295 310	อ.เมืองปทุมธานี
+R7	located_at Arg1:T10 Arg2:T12	

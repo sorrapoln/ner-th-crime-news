@@ -1,0 +1,22 @@
+T1	PERSON 12 35	นายดัว การ์ พายาร์ เซ็ท
+T2	TIME 41 46	42 ปี
+T3	LOCATION 54 63	เมียนมาร์
+T4	LOCATION 126 137	ซอยเย็นสบาย
+T5	LOCATION 138 146	พัทยาใต้
+T6	LOCATION 147 151	ม.10
+T7	LOCATION 152 162	ต.หนองปรือ
+T8	LOCATION 163 173	อ.บางละมุง
+T9	LOCATION 174 182	จ.ชลบุรี
+T10	PERSON 245 253	นายดัวร์
+T11	PERSON 306 312	นายราม
+T12	PERSON 344 350	นายราม
+T13	WEAPON 370 379	ท่อนเหล็ก
+R1	crime_relation Arg1:T11 Arg2:T1	
+R2	crime_located_at Arg1:T11 Arg2:T4	
+R3	crime_located_at Arg1:T11 Arg2:T5	
+R4	crime_located_at Arg1:T11 Arg2:T6	
+R5	crime_located_at Arg1:T11 Arg2:T7	
+R6	crime_located_at Arg1:T11 Arg2:T8	
+R7	crime_located_at Arg1:T11 Arg2:T9	
+R8	located_at Arg1:T1 Arg2:T3	
+R9	own_weapon Arg1:T11 Arg2:T13	
