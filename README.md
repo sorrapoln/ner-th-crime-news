@@ -1,6 +1,6 @@
 # Crime Named Entity Recognition
 
-This project aims to label entities in Thai crime-related texts using data scraped from Thai news website e.g. www.thairath.co.th
+This project aims to label entities in Thai crime-related texts using data scraped from Thai news websites e.g. www.thairath.co.th www.khaosod.co.th
 
 ## Problem statement
 - To extract insight entity from text and help officer know what the components are in the ridiculously long texts
